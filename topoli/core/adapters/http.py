@@ -12,6 +12,7 @@
 
 from __future__ import annotations
 
+import functools
 import logging
 import os
 import time
@@ -43,6 +44,24 @@ class BudgetExceededError(RuntimeError):
 
 class OfflineError(RuntimeError):
     """Raised when a network call is attempted while the client is offline."""
+
+
+class EgressError(RuntimeError):
+    """Raised when a request targets a host outside the official-source allowlist."""
+
+
+@functools.cache
+def allowed_hosts() -> frozenset[str]:
+    """Hosts listed in ``topoli/countries/**/allowed_hosts.txt`` (one per line, ``#`` comments)."""
+    from topoli.paths import repo_root
+
+    hosts: set[str] = set()
+    for path in (repo_root() / "topoli" / "countries").rglob("allowed_hosts.txt"):
+        for raw in path.read_text(encoding="utf-8").splitlines():
+            line = raw.split("#", 1)[0].strip()
+            if line:
+                hosts.add(line.lower())
+    return frozenset(hosts)
 
 
 class HttpClient:
@@ -163,11 +182,15 @@ class HttpClient:
         if self.calls >= self.budget:
             msg = f"call budget of {self.budget} exhausted (adapter {adapter_id})"
             raise BudgetExceededError(msg)
-        self.calls += 1
         host = httpx.URL(canonical).host
+        if host.lower() not in allowed_hosts():
+            msg = f"host {host!r} is not an official source listed in allowed_hosts.txt"
+            raise EgressError(msg)
+        self.calls += 1
         last_exc: Exception | None = None
         for attempt in range(MAX_RETRIES):
             self._throttle(host)
+            started = time.perf_counter()
             try:
                 response = self._client.get(canonical)
             except httpx.TransportError as exc:
@@ -181,7 +204,11 @@ class HttpClient:
                         url=canonical,
                         retrieved_at=datetime.now(tz=UTC),
                         payload=payload,
-                        request={"url": canonical},
+                        request={
+                            "url": canonical,
+                            "elapsed_ms": round((time.perf_counter() - started) * 1000),
+                            "bytes": len(response.content),
+                        },
                     )
                 last_exc = httpx.HTTPStatusError(
                     f"HTTP {response.status_code}", request=response.request, response=response

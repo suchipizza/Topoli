@@ -12,6 +12,7 @@ replayed test never touches the network.
 
 from __future__ import annotations
 
+import gzip
 import hashlib
 import logging
 import shutil
@@ -46,20 +47,30 @@ def cache_path(adapter_id: str, canonical: str, root: Path | None = None) -> Pat
 
 def read(adapter_id: str, canonical: str, root: Path | None = None) -> Record | None:
     path = cache_path(adapter_id, canonical, root)
-    if not path.is_file():
+    gz = path.with_suffix(".json.gz")
+    if not path.is_file() and not gz.is_file():
         return None
     try:
-        record = Record.model_validate_json(path.read_text(encoding="utf-8"))
-    except ValueError as exc:  # corrupt file → ignore, will be refetched
+        text = (
+            path.read_text(encoding="utf-8")
+            if path.is_file()
+            else gzip.decompress(gz.read_bytes()).decode("utf-8")
+        )
+        record = Record.model_validate_json(text)
+    except (ValueError, OSError) as exc:  # corrupt file → ignore, will be refetched
         log.warning("cache.corrupt", extra={"path": str(path), "error": str(exc)})
         return None
     return record.model_copy(update={"from_cache": True})
 
 
-def write(record: Record, root: Path | None = None) -> Path:
+def write(record: Record, root: Path | None = None, *, compress: bool = False) -> Path:
     path = cache_path(record.adapter_id, record.url, root)
     path.parent.mkdir(parents=True, exist_ok=True)
     clean = record.model_copy(update={"from_cache": False, "stale_as_of": None})
+    if compress:
+        gz = path.with_suffix(".json.gz")
+        gz.write_bytes(gzip.compress(clean.model_dump_json().encode("utf-8"), mtime=0))
+        return gz
     tmp = path.with_suffix(".tmp")
     tmp.write_text(clean.model_dump_json(indent=1), encoding="utf-8")
     tmp.replace(path)
@@ -89,7 +100,7 @@ def stats(root: Path | None = None) -> CacheStats:
     total = 0
     adapters: dict[str, int] = {}
     if root.is_dir():
-        for path in root.rglob("*.json"):
+        for path in [*root.rglob("*.json"), *root.rglob("*.json.gz")]:
             files += 1
             total += path.stat().st_size
             adapter_id = path.parent.relative_to(root).as_posix()
@@ -102,7 +113,7 @@ def clear(root: Path | None = None, adapter_id: str | None = None) -> int:
     target = root / adapter_id if adapter_id else root
     if not target.is_dir():
         return 0
-    count = sum(1 for _ in target.rglob("*.json"))
+    count = sum(1 for _ in target.rglob("*.json")) + sum(1 for _ in target.rglob("*.json.gz"))
     shutil.rmtree(target)
     root.mkdir(parents=True, exist_ok=True)
     return count

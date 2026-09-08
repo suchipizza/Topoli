@@ -3,6 +3,7 @@
 from topoli.core.adapters.base import Adapter, HealthStatus, Record, SiteContext
 from topoli.core.adapters.http import (
     BudgetExceededError,
+    EgressError,
     HttpClient,
     OfflineError,
     get_client,
@@ -12,6 +13,7 @@ from topoli.core.adapters.http import (
 __all__ = [
     "Adapter",
     "BudgetExceededError",
+    "EgressError",
     "HealthStatus",
     "HttpClient",
     "OfflineError",
