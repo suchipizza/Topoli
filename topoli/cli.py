@@ -300,12 +300,38 @@ def audit(  # noqa: PLR0917
     )
     print(layer0.text)
     if not no_report:
+        from topoli.core.reporting.card import render_cards
         from topoli.core.reporting.evidence_json import write_evidence
         from topoli.core.reporting.html import render_html
+        from topoli.core.reporting.summary import summary_text, write_summary
 
         out_dir = write_evidence(result, run.records)
-        html_path, _ = render_html(result, out_dir, lang=result.lang, goal=goal, fetch_tiles=True)
-        console.print(f"[dim]report: {html_path} · evidence: {out_dir / 'evidence.json'}[/dim]")
+        card_layer0 = render_layer0(
+            result.site,
+            result.findings,
+            result.lang,
+            goal=goal,
+            regulations=result.regulations,
+            oereb_available=bool(oereb and oereb.status == "ok"),
+            report_path="./index.html",
+            card_path="./card.png",
+        )
+        write_summary(card_layer0, out_dir)
+        html_path, _ = render_html(
+            result,
+            out_dir,
+            lang=result.lang,
+            goal=goal,
+            fetch_tiles=True,
+            summary_text=summary_text(card_layer0),
+            card_png="card.png",
+        )
+        map_img = out_dir / "map.jpg"
+        cards = render_cards(card_layer0, out_dir, map_image=map_img if map_img.is_file() else None)
+        console.print(
+            f"[dim]report: {html_path} · evidence: {out_dir / 'evidence.json'} · "
+            f"{' · '.join(c.name for c in cards)} · summary.txt[/dim]"
+        )
     if depth == "full":
         layer1 = assemble(result, result.lang, layer0.findings)
         for s in layer1.sections:

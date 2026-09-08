@@ -23,6 +23,22 @@ def offline_client(request: pytest.FixtureRequest, tmp_path: Path) -> Iterator[H
     set_client(None)
 
 
+@pytest.fixture(scope="module")
+def replay_module(tmp_path_factory: pytest.TempPathFactory) -> Callable[[str, str], int]:
+    """Module-scoped variant of ``replay`` for expensive audits shared by several tests."""
+    root = tmp_path_factory.mktemp("cache")
+    client = HttpClient(offline=True, cache_root=root)
+    set_client(client)
+
+    def _seed(adapter_id: str, slug: str) -> int:
+        set_client(client)
+        folders = fixture_folders(adapter_id, slug)
+        assert folders, f"no fixtures for {adapter_id}/{slug}; run `topoli fixtures record`"
+        return seed_cache(root, *folders)
+
+    return _seed
+
+
 @pytest.fixture
 def replay(offline_client: HttpClient) -> Callable[[str, str], int]:
     """``replay("ch/federal/buildings", "zurich-badenerstrasse-171")`` seeds the cache."""
