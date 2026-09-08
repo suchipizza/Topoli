@@ -1,0 +1,46 @@
+{
+ "adapter_id": "ch/federal/geocode",
+ "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Rue+du+Rh%C3%B4ne+14%2C+1204+Gen%C3%A8ve&type=locations&sr=2056&limit=10&origins=address",
+ "retrieved_at": "2026-09-08T09:35:21.718289Z",
+ "payload": {
+  "results": [
+   {
+    "attrs": {
+     "detail": "rue du rhone 14 1204 geneve 6621 geneve ch ge",
+     "featureId": "2037304_3",
+     "geom_quadindex": "022121012112021102020",
+     "geom_st_box2d": "BOX(2500200.030000001 1117827.3850000016,2500200.030000001 1117827.3850000016)",
+     "label": "Rue du Rhône 14 <b>1204 Genève</b>",
+     "lat": 46.20448303222656,
+     "links": [
+      {
+       "href": "/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/101456133",
+       "rel": "related",
+       "title": "ch.swisstopo.amtliches-gebaeudeadressverzeichnis"
+      },
+      {
+       "href": "/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/2037304_3",
+       "rel": "related",
+       "title": "ch.bfs.gebaeude_wohnungs_register"
+      }
+     ],
+     "lon": 6.14558219909668,
+     "num": 14,
+     "objectclass": "",
+     "origin": "address",
+     "rank": 7,
+     "x": 1117827.375,
+     "y": 2500200.0,
+     "zoomlevel": 10
+    },
+    "id": 3049729,
+    "weight": 1
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Rue+du+Rh%C3%B4ne+14%2C+1204+Gen%C3%A8ve&type=locations&sr=2056&limit=10&origins=address"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

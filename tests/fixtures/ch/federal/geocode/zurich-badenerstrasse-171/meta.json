@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Badenerstrasse 171, 8003 Zürich",
+  "site_id": "261-AU6979",
+  "recorded_at": "2026-09-08T09:35:18+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "0ca3d3a138d06a56cab5111b0e120570f618ecfd10ec170c3342fd3568e5079f.json",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Badenerstrasse+171%2C+8003+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "2f7088d9eef3f8c51ab9d5990815290e01da4679e977159ff26bba33d89b4627.json",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2681718.0%2C1247636.25&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2681218.0%2C1247136.25%2C2682218.0%2C1248136.25&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

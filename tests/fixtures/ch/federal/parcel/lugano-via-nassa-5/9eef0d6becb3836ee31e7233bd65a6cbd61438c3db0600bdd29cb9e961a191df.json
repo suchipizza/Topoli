@@ -1,0 +1,82 @@
+{
+ "adapter_id": "ch/federal/parcel",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2717087.4%2C1095740.2%5D%2C%5B2717098.8%2C1095768.2%5D%2C%5B2717109.3%2C1095759.8%5D%2C%5B2717117.6%2C1095747.1%5D%2C%5B2717106.8%2C1095731.3%5D%2C%5B2717087.4%2C1095740.2%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200",
+ "retrieved_at": "2026-09-08T09:35:23.446551Z",
+ "payload": {
+  "results": [
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 3765576,
+    "id": 3765576,
+    "properties": {
+     "bfsnr": 5192,
+     "ak": "TI",
+     "name": "192",
+     "number": "192",
+     "identnd": "TI79701",
+     "egris_egrid": "CH990209780744",
+     "realestate_type": null,
+     "geoportal_url": "https://www.ti.ch/mu",
+     "label": "192"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 3743950,
+    "id": 3743950,
+    "properties": {
+     "bfsnr": 5192,
+     "ak": "TI",
+     "name": "235",
+     "number": "235",
+     "identnd": "TI79701",
+     "egris_egrid": "CH470709780252",
+     "realestate_type": null,
+     "geoportal_url": "https://www.ti.ch/mu",
+     "label": "235"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 3759783,
+    "id": 3759783,
+    "properties": {
+     "bfsnr": 5192,
+     "ak": "TI",
+     "name": "181",
+     "number": "181",
+     "identnd": "TI79701",
+     "egris_egrid": "CH887802070930",
+     "realestate_type": null,
+     "geoportal_url": "https://www.ti.ch/mu",
+     "label": "181"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 3744293,
+    "id": 3744293,
+    "properties": {
+     "bfsnr": 5192,
+     "ak": "TI",
+     "name": "191",
+     "number": "191",
+     "identnd": "TI79701",
+     "egris_egrid": "CH987802070993",
+     "realestate_type": null,
+     "geoportal_url": "https://www.ti.ch/mu",
+     "label": "191"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2717087.4%2C1095740.2%5D%2C%5B2717098.8%2C1095768.2%5D%2C%5B2717109.3%2C1095759.8%5D%2C%5B2717117.6%2C1095747.1%5D%2C%5B2717106.8%2C1095731.3%5D%2C%5B2717087.4%2C1095740.2%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

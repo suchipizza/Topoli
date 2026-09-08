@@ -1,0 +1,109 @@
+{
+ "adapter_id": "ch/federal/geocode",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2500200.0%2C1117827.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2499700.0%2C1117327.375%2C2500700.0%2C1118327.375&imageDisplay=1000%2C1000%2C96",
+ "retrieved_at": "2026-09-08T09:35:21.738835Z",
+ "payload": {
+  "results": [
+   {
+    "layerBodId": "ch.bfs.gebaeude_wohnungs_register",
+    "layerName": "GWR: Gebäudestatus",
+    "featureId": "2037304_3",
+    "id": "2037304_3",
+    "properties": {
+     "egid": "2037304",
+     "strname_deinr": "Rue du Rhône 14",
+     "plz_plz6": "1204/120400",
+     "ggdename": "Genève",
+     "ggdenr": 6621,
+     "gexpdat": "06.09.2026",
+     "gdekt": "GE",
+     "egrid": "CH296589536314",
+     "lgbkr": 21,
+     "lparz": "7013",
+     "lparzsx": null,
+     "ltyp": null,
+     "gebnr": "h567",
+     "gbez": "",
+     "gkode": 2500184.8,
+     "gkodn": 1117799.44,
+     "gksce": 909,
+     "gstat": 1004,
+     "gkat": 1030,
+     "gklas": 1122,
+     "gbauj": 1920,
+     "gbaum": null,
+     "gbaup": 8012,
+     "gabbj": null,
+     "garea": 2542,
+     "gvol": null,
+     "gvolnorm": null,
+     "gvolsce": null,
+     "gastw": 8,
+     "ganzwhg": 21,
+     "gazzi": null,
+     "gschutzr": null,
+     "gebf": null,
+     "gwaerzh1": 7460,
+     "genh1": 7580,
+     "gwaersceh1": 869,
+     "gwaerdath1": "18.12.2025",
+     "gwaerzh2": null,
+     "genh2": null,
+     "gwaersceh2": null,
+     "gwaerdath2": "-",
+     "gwaerzw1": 7660,
+     "genw1": 7580,
+     "gwaerscew1": 869,
+     "gwaerdatw1": "18.12.2025",
+     "gwaerzw2": null,
+     "genw2": null,
+     "gwaerscew2": null,
+     "gwaerdatw2": "-",
+     "edid": "3",
+     "egaid": 101456133,
+     "deinr": "14",
+     "esid": 10115978,
+     "strname": [
+      "Rue du Rhône"
+     ],
+     "strnamk": [
+      "Rue du Rhône"
+     ],
+     "strindx": [
+      "Rhô"
+     ],
+     "strsp": [
+      "FR"
+     ],
+     "stroffiziel": "1",
+     "dplz4": 1204,
+     "dplzz": 0,
+     "dplzname": "Genève",
+     "dkode": 2500200.03,
+     "dkodn": 1117827.385,
+     "doffadr": 1,
+     "dexpdat": "06.09.2026",
+     "ewid": null,
+     "whgnr": null,
+     "wstwk": null,
+     "wmehrg": null,
+     "weinr": null,
+     "wbez": null,
+     "wstat": null,
+     "wexpdat": null,
+     "wbauj": null,
+     "wabbj": null,
+     "warea": null,
+     "wazim": null,
+     "wkche": null,
+     "label": "Rue du Rhône 14"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2500200.0%2C1117827.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2499700.0%2C1117327.375%2C2500700.0%2C1118327.375&imageDisplay=1000%2C1000%2C96"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

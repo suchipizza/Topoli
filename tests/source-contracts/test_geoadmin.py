@@ -18,6 +18,7 @@ def _reset() -> None:
     get_client().reset()
 
 
+@pytest.mark.adapter("ch/federal/geocode")
 def test_search_locations_schema() -> None:
     rec = geoadmin.search_locations(
         "contract", "Badenerstrasse 171 8003 Zürich", origins="address", limit=1
@@ -32,6 +33,7 @@ def test_search_locations_schema() -> None:
     assert 1_000_000 < attrs["x"] < 1_400_000, "attrs.x must be LV95 northing"
 
 
+@pytest.mark.adapter("ch/federal/parcel")
 def test_parcel_layer_schema() -> None:
     rec = geoadmin.identify_point("contract", geoadmin.LAYER_AV, *_ZH)
     hits = geoadmin.results(rec)
@@ -42,6 +44,7 @@ def test_parcel_layer_schema() -> None:
     assert hits[0]["geometry"]["type"] in ("Polygon", "MultiPolygon")
 
 
+@pytest.mark.adapter("ch/federal/buildings")
 def test_gwr_layer_schema_and_polygon_identify() -> None:
     rec = geoadmin.identify_point("contract", geoadmin.LAYER_AV, *_ZH)
     geom = geoadmin.results(rec)[0]["geometry"]
@@ -67,6 +70,7 @@ def test_gwr_layer_schema_and_polygon_identify() -> None:
         assert key in props
 
 
+@pytest.mark.adapter("ch/federal/terrain")
 def test_height_schema() -> None:
     rec = geoadmin.height("contract", *_ZH)
     assert 300 < float(rec.payload["height"]) < 1000

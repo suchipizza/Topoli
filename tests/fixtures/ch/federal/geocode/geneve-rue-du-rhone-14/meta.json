@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Rue du Rhône 14, 1204 Genève",
+  "site_id": "6621-7013",
+  "recorded_at": "2026-09-08T09:35:21+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "d05d868cb1e3a9380f00479de0e48fe50c1ed96538b39813382d80dae87a676a.json",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Rue+du+Rh%C3%B4ne+14%2C+1204+Gen%C3%A8ve&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "e946a86c501771129f021403bc0e01107390a9e3ec0cc360119645ad5e1e58ff.json",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2500200.0%2C1117827.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2499700.0%2C1117327.375%2C2500700.0%2C1118327.375&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

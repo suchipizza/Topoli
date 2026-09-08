@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Parcel Zürich AU6979",
+  "site_id": "261-AU6979",
+  "recorded_at": "2026-09-08T09:35:24+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "26018d8bef283d5eb0b222daf6993794524e4f51570c4e9385dd056e93c7e20b.json",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Z%C3%BCrich+AU6979&type=locations&sr=2056&limit=10&origins=parcel"
+    },
+    {
+      "file": "fbe8bdef42843abfb62be7fd2784e65d7d55528fd2321fcbaef20bff645715e3.json",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2681706.0%2C1247622.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=25&returnGeometry=false&limit=5&mapExtent=2681206.0%2C1247122.125%2C2682206.0%2C1248122.125&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

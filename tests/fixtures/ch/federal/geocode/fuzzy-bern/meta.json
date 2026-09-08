@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Bundesplatz 3, 3005 Bern",
+  "site_id": "351-606",
+  "recorded_at": "2026-09-08T09:35:24+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "b2ab987b12b2ceccea472cb3b9e7e8649d21cc3c8b0590fc28be17fa6629ea6c.json",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Bundesplatz+3%2C+3005+Bern&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "5cfef1a27b9c5618809f4ae290dbb4378bad772c3506da9ba8bdcb4e14303177.json",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2600334.75%2C1199404.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2599834.75%2C1198904.375%2C2600834.75%2C1199904.375&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

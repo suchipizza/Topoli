@@ -1,0 +1,73 @@
+{
+ "adapter_id": "ch/federal/parcel",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2500200.0%2C1117827.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200",
+ "retrieved_at": "2026-09-08T09:35:22.052403Z",
+ "payload": {
+  "results": [
+   {
+    "type": "Feature",
+    "featureId": 939257,
+    "bbox": [
+     2500172.5,
+     1117801.9,
+     2500205.8,
+     1117829.3
+    ],
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "id": 939257,
+    "geometry": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        2500172.5,
+        1117808.3
+       ],
+       [
+        2500181.3,
+        1117829.3
+       ],
+       [
+        2500205.8,
+        1117826.9
+       ],
+       [
+        2500199.0,
+        1117809.1
+       ],
+       [
+        2500197.8,
+        1117806.1
+       ],
+       [
+        2500187.7,
+        1117801.9
+       ],
+       [
+        2500172.5,
+        1117808.3
+       ]
+      ]
+     ]
+    },
+    "properties": {
+     "bfsnr": 6621,
+     "ak": "GE",
+     "name": "7012",
+     "number": "7012",
+     "identnd": "GE0100000021",
+     "egris_egrid": "CH352465816388",
+     "realestate_type": null,
+     "geoportal_url": "https://map.sitg.ch/?mapresources=CADASTRE",
+     "label": "7012"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2500200.0%2C1117827.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

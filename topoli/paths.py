@@ -26,6 +26,11 @@ def asset_dir(name: str) -> Path:
     raise FileNotFoundError(msg)
 
 
+def repo_root() -> Path:
+    """The git checkout root (only meaningful in a checkout; used by the fixture recorder)."""
+    return _REPO_ROOT
+
+
 def cache_dir() -> Path:
     """Local on-disk cache root (PRD §4.4). Override with ``TOPOLI_CACHE_DIR``."""
     override = os.environ.get("TOPOLI_CACHE_DIR")

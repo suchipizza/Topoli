@@ -1,24 +1,22 @@
 """Federal spine on five recorded sites (2× City of Zürich, Winterthur, Genève, Lugano).
 
-Cassettes live in ``tests/fixtures/ch/federal/<slug>.yaml``. Re-record with
-``uv run pytest tests/countries/ch/federal --record-mode=all`` (needs network).
+Fixtures live in ``tests/fixtures/<adapter_id>/<slug>/`` (recorded cache files). Re-record with
+``uv run topoli fixtures record --adapter ch/federal/buildings --address "<addr>" --slug <slug>``.
 """
 
 from __future__ import annotations
 
 from collections.abc import Callable
-from contextlib import AbstractContextManager
 from dataclasses import dataclass
 
 import pytest
 
 from topoli.core.adapters import get_client
 from topoli.core.domain import Building, Parcel, Site
-from topoli.countries.ch.federal.buildings import get_buildings
 from topoli.countries.ch.federal.geocode import ResolveError, resolve_address
-from topoli.countries.ch.federal.parcel import get_parcel
 
-Cassette = Callable[[str], AbstractContextManager[object]]
+Spine = tuple[Site, Parcel, list[Building]]
+RunSpine = Callable[[str, str], Spine]
 
 
 @dataclass(frozen=True)
@@ -87,17 +85,9 @@ CASES = [
 ]
 
 
-def _run(case: SiteCase) -> tuple[Site, Parcel, list[Building]]:
-    site, _ = resolve_address(case.address)
-    parcel, _ = get_parcel(site)
-    buildings, _ = get_buildings(parcel)
-    return site, parcel, buildings
-
-
 @pytest.mark.parametrize("case", CASES, ids=[c.slug for c in CASES])
-def test_spine(case: SiteCase, cassette: Cassette) -> None:
-    with cassette(f"{case.slug}"):
-        site, parcel, buildings = _run(case)
+def test_spine(case: SiteCase, run_spine: RunSpine) -> None:
+    site, parcel, buildings = run_spine(case.slug, case.address)
 
     assert site.jurisdiction.canton == case.canton
     assert site.jurisdiction.bfs_number == case.bfs
@@ -124,13 +114,13 @@ def test_spine(case: SiteCase, cassette: Cassette) -> None:
         assert b.id.isdigit()
         assert b.sources and b.sources[0].is_complete
     assert any(b.floors for b in buildings)
-    assert get_client().calls <= 8
+    assert get_client().calls == 0, "replayed tests must not touch the network"
+    assert get_client().cache_hits >= 4
 
 
-def test_badenerstrasse_details(cassette: Cassette) -> None:
+def test_badenerstrasse_details(run_spine: RunSpine) -> None:
     case = CASES[0]
-    with cassette(f"{case.slug}"):
-        site, parcel, buildings = _run(case)
+    site, parcel, buildings = run_spine(case.slug, case.address)
     assert site.id == "261-AU6979"
     assert site.egid == "302060629"
     main = next(b for b in buildings if b.id == "302060629")
@@ -143,11 +133,13 @@ def test_badenerstrasse_details(cassette: Cassette) -> None:
     assert parcel.slug == "zurich-AU6979"
 
 
-def test_parcel_and_coordinate_inputs(cassette: Cassette) -> None:
-    with cassette("inputs"):
-        by_parcel, _ = resolve_address("Parcel Zürich AU6979")
-        by_wgs84, _ = resolve_address("47.3745, 8.5206")
-        by_lv95, _ = resolve_address("2681718 1247636")
+def test_parcel_and_coordinate_inputs(replay: Callable[[str, str], int]) -> None:
+    replay("ch/federal/geocode", "inputs-parcel")
+    replay("ch/federal/geocode", "inputs-wgs84")
+    replay("ch/federal/geocode", "inputs-lv95")
+    by_parcel, _ = resolve_address("Parcel Zürich AU6979")
+    by_wgs84, _ = resolve_address("47.3745, 8.5206")
+    by_lv95, _ = resolve_address("2681718 1247636")
     assert by_parcel.parcel_ids == ["CH527182999120"]
     assert by_parcel.jurisdiction.bfs_number == 261
     assert by_wgs84.jurisdiction.municipality == "Zürich"
@@ -155,9 +147,9 @@ def test_parcel_and_coordinate_inputs(cassette: Cassette) -> None:
     assert by_lv95.address.startswith("Badenerstrasse 171")
 
 
-def test_fuzzy_wrong_postcode_lowers_confidence(cassette: Cassette) -> None:
-    with cassette("fuzzy"):
-        site, _ = resolve_address("Bundesplatz 3, 3005 Bern")
+def test_fuzzy_wrong_postcode_lowers_confidence(replay: Callable[[str, str], int]) -> None:
+    replay("ch/federal/geocode", "fuzzy-bern")
+    site, _ = resolve_address("Bundesplatz 3, 3005 Bern")
     assert site.jurisdiction.municipality == "Bern"
     assert site.resolve_confidence < 0.7
 

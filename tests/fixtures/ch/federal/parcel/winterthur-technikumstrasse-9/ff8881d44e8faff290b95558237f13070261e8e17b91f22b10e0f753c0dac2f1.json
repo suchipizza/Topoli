@@ -1,0 +1,133 @@
+{
+ "adapter_id": "ch/federal/parcel",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2697127.3%2C1261536.7%5D%2C%5B2697133.7%2C1261541.6%5D%2C%5B2697136.4%2C1261544.4%5D%2C%5B2697153.5%2C1261544.8%5D%2C%5B2697153.5%2C1261543.7%5D%2C%5B2697165.1%2C1261543.7%5D%2C%5B2697366.0%2C1261573.5%5D%2C%5B2697368.0%2C1261573.5%5D%2C%5B2697370.8%2C1261572.3%5D%2C%5B2697372.3%2C1261570.7%5D%2C%5B2697373.1%2C1261568.9%5D%2C%5B2697376.6%2C1261544.9%5D%2C%5B2697376.2%2C1261505.4%5D%2C%5B2697375.6%2C1261502.6%5D%2C%5B2697374.2%2C1261499.3%5D%2C%5B2697363.1%2C1261481.2%5D%2C%5B2697361.4%2C1261475.5%5D%2C%5B2697361.1%2C1261469.6%5D%2C%5B2697368.2%2C1261423.7%5D%2C%5B2697378.7%2C1261368.5%5D%2C%5B2697361.9%2C1261366.1%5D%2C%5B2697320.2%2C1261396.5%5D%2C%5B2697317.8%2C1261396.1%5D%2C%5B2697315.8%2C1261397.6%5D%2C%5B2697315.6%2C1261400.1%5D%2C%5B2697286.7%2C1261422.4%5D%2C%5B2697277.6%2C1261430.1%5D%2C%5B2697231.0%2C1261462.7%5D%2C%5B2697209.0%2C1261479.6%5D%2C%5B2697164.4%2C1261512.9%5D%2C%5B2697160.9%2C1261512.2%5D%2C%5B2697127.3%2C1261536.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200",
+ "retrieved_at": "2026-09-08T09:35:20.992688Z",
+ "payload": {
+  "results": [
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 2478535,
+    "id": 2478535,
+    "properties": {
+     "bfsnr": 230,
+     "ak": "ZH",
+     "name": "ST9257",
+     "number": "ST9257",
+     "identnd": "ZH0300ST0230",
+     "egris_egrid": "CH151820790808",
+     "realestate_type": null,
+     "geoportal_url": "https://maps.zh.ch?topic=AVfarbigZH&locate=gemeinden&locations=230",
+     "label": "ST9257"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 2487147,
+    "id": 2487147,
+    "properties": {
+     "bfsnr": 230,
+     "ak": "ZH",
+     "name": "ST9259",
+     "number": "ST9259",
+     "identnd": "ZH0300ST0230",
+     "egris_egrid": "CH784220087826",
+     "realestate_type": null,
+     "geoportal_url": "https://maps.zh.ch?topic=AVfarbigZH&locate=gemeinden&locations=230",
+     "label": "ST9259"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 2498099,
+    "id": 2498099,
+    "properties": {
+     "bfsnr": 230,
+     "ak": "ZH",
+     "name": "ST9256",
+     "number": "ST9256",
+     "identnd": "ZH0300ST0230",
+     "egris_egrid": "CH167920081835",
+     "realestate_type": null,
+     "geoportal_url": "https://maps.zh.ch?topic=AVfarbigZH&locate=gemeinden&locations=230",
+     "label": "ST9256"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 2492475,
+    "id": 2492475,
+    "properties": {
+     "bfsnr": 230,
+     "ak": "ZH",
+     "name": "ST8314",
+     "number": "ST8314",
+     "identnd": "ZH0300ST0230",
+     "egris_egrid": "CH727971200858",
+     "realestate_type": null,
+     "geoportal_url": "https://maps.zh.ch?topic=AVfarbigZH&locate=gemeinden&locations=230",
+     "label": "ST8314"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 2488474,
+    "id": 2488474,
+    "properties": {
+     "bfsnr": 230,
+     "ak": "ZH",
+     "name": "ST9963",
+     "number": "ST9963",
+     "identnd": "ZH0300ST0230",
+     "egris_egrid": "CH192077570856",
+     "realestate_type": null,
+     "geoportal_url": "https://maps.zh.ch?topic=AVfarbigZH&locate=gemeinden&locations=230",
+     "label": "ST9963"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 2488146,
+    "id": 2488146,
+    "properties": {
+     "bfsnr": 230,
+     "ak": "ZH",
+     "name": "ST8800",
+     "number": "ST8800",
+     "identnd": "ZH0300ST0230",
+     "egris_egrid": "CH483420087853",
+     "realestate_type": null,
+     "geoportal_url": "https://maps.zh.ch?topic=AVfarbigZH&locate=gemeinden&locations=230",
+     "label": "ST8800"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 2482095,
+    "id": 2482095,
+    "properties": {
+     "bfsnr": 230,
+     "ak": "ZH",
+     "name": "ST9255",
+     "number": "ST9255",
+     "identnd": "ZH0300ST0230",
+     "egris_egrid": "CH427786200879",
+     "realestate_type": null,
+     "geoportal_url": "https://maps.zh.ch?topic=AVfarbigZH&locate=gemeinden&locations=230",
+     "label": "ST9255"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2697127.3%2C1261536.7%5D%2C%5B2697133.7%2C1261541.6%5D%2C%5B2697136.4%2C1261544.4%5D%2C%5B2697153.5%2C1261544.8%5D%2C%5B2697153.5%2C1261543.7%5D%2C%5B2697165.1%2C1261543.7%5D%2C%5B2697366.0%2C1261573.5%5D%2C%5B2697368.0%2C1261573.5%5D%2C%5B2697370.8%2C1261572.3%5D%2C%5B2697372.3%2C1261570.7%5D%2C%5B2697373.1%2C1261568.9%5D%2C%5B2697376.6%2C1261544.9%5D%2C%5B2697376.2%2C1261505.4%5D%2C%5B2697375.6%2C1261502.6%5D%2C%5B2697374.2%2C1261499.3%5D%2C%5B2697363.1%2C1261481.2%5D%2C%5B2697361.4%2C1261475.5%5D%2C%5B2697361.1%2C1261469.6%5D%2C%5B2697368.2%2C1261423.7%5D%2C%5B2697378.7%2C1261368.5%5D%2C%5B2697361.9%2C1261366.1%5D%2C%5B2697320.2%2C1261396.5%5D%2C%5B2697317.8%2C1261396.1%5D%2C%5B2697315.8%2C1261397.6%5D%2C%5B2697315.6%2C1261400.1%5D%2C%5B2697286.7%2C1261422.4%5D%2C%5B2697277.6%2C1261430.1%5D%2C%5B2697231.0%2C1261462.7%5D%2C%5B2697209.0%2C1261479.6%5D%2C%5B2697164.4%2C1261512.9%5D%2C%5B2697160.9%2C1261512.2%5D%2C%5B2697127.3%2C1261536.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

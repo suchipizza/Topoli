@@ -1,0 +1,123 @@
+{
+ "adapter_id": "ch/federal/buildings",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2717087.4%2C1095740.2%5D%2C%5B2717098.8%2C1095768.2%5D%2C%5B2717109.3%2C1095759.8%5D%2C%5B2717117.6%2C1095747.1%5D%2C%5B2717106.8%2C1095731.3%5D%2C%5B2717087.4%2C1095740.2%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200",
+ "retrieved_at": "2026-09-08T09:35:23.863144Z",
+ "payload": {
+  "results": [
+   {
+    "type": "Feature",
+    "featureId": "740335_0",
+    "bbox": [
+     2717096.2,
+     1095749.1,
+     2717096.2,
+     1095749.1
+    ],
+    "layerBodId": "ch.bfs.gebaeude_wohnungs_register",
+    "layerName": "GWR: Gebäudestatus",
+    "id": "740335_0",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      2717096.2,
+      1095749.1
+     ]
+    },
+    "properties": {
+     "egid": "740335",
+     "strname_deinr": "Via Nassa 5",
+     "plz_plz6": "6900/690000",
+     "ggdename": "Lugano",
+     "ggdenr": 5192,
+     "gexpdat": "06.09.2026",
+     "gdekt": "TI",
+     "egrid": "CH987802070993",
+     "lgbkr": 1,
+     "lparz": "191",
+     "lparzsx": null,
+     "ltyp": null,
+     "gebnr": "191a",
+     "gbez": "",
+     "gkode": 2717102.5,
+     "gkodn": 1095749.74,
+     "gksce": 905,
+     "gstat": 1004,
+     "gkat": 1060,
+     "gklas": 1220,
+     "gbauj": null,
+     "gbaum": null,
+     "gbaup": 8011,
+     "gabbj": null,
+     "garea": 617,
+     "gvol": null,
+     "gvolnorm": null,
+     "gvolsce": null,
+     "gastw": 6,
+     "ganzwhg": null,
+     "gazzi": null,
+     "gschutzr": null,
+     "gebf": 222,
+     "gwaerzh1": 7410,
+     "genh1": 7501,
+     "gwaersceh1": 869,
+     "gwaerdath1": "01.02.2023",
+     "gwaerzh2": 7400,
+     "genh2": 7500,
+     "gwaersceh2": 869,
+     "gwaerdath2": "01.02.2023",
+     "gwaerzw1": 7610,
+     "genw1": 7501,
+     "gwaerscew1": 869,
+     "gwaerdatw1": "01.02.2023",
+     "gwaerzw2": 7600,
+     "genw2": 7500,
+     "gwaerscew2": 869,
+     "gwaerdatw2": "01.02.2023",
+     "edid": "0",
+     "egaid": 101324727,
+     "deinr": "5",
+     "esid": 10133085,
+     "strname": [
+      "Via Nassa"
+     ],
+     "strnamk": [
+      "Via Nassa"
+     ],
+     "strindx": [
+      "Nas"
+     ],
+     "strsp": [
+      "IT"
+     ],
+     "stroffiziel": "1",
+     "dplz4": 6900,
+     "dplzz": 0,
+     "dplzname": "Lugano",
+     "dkode": 2717096.189,
+     "dkodn": 1095749.137,
+     "doffadr": 1,
+     "dexpdat": "06.09.2026",
+     "ewid": null,
+     "whgnr": null,
+     "wstwk": null,
+     "wmehrg": null,
+     "weinr": null,
+     "wbez": null,
+     "wstat": null,
+     "wexpdat": null,
+     "wbauj": null,
+     "wabbj": null,
+     "warea": null,
+     "wazim": null,
+     "wkche": null,
+     "label": "Via Nassa 5"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2717087.4%2C1095740.2%5D%2C%5B2717098.8%2C1095768.2%5D%2C%5B2717109.3%2C1095759.8%5D%2C%5B2717117.6%2C1095747.1%5D%2C%5B2717106.8%2C1095731.3%5D%2C%5B2717087.4%2C1095740.2%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

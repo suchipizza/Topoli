@@ -40,7 +40,6 @@ topoli = "topoli.cli:app"
 [dependency-groups]
 dev = [
   "pytest>=8.2",
-  "pytest-recording>=0.13",
   "respx>=0.21",
   "ruff>=0.6",
   "mypy>=1.11",
@@ -74,6 +73,10 @@ ignore = ["PLR0913", "PLR2004", "T201", "RUF001", "RUF002", "RUF003"]
 [tool.ruff.lint.per-file-ignores]
 "tests/**" = ["PLR", "S", "PLC0415"]
 "topoli/cli.py" = ["PLC0415"]
+# Lazy imports break the registry ↔ country-package import cycle on purpose.
+"topoli/core/adapters/registry.py" = ["PLC0415"]
+"topoli/core/adapters/fixtures.py" = ["PLC0415"]
+"topoli/countries/**/__init__.py" = ["PLC0415"]
 "skills/**/scripts/**" = ["T20"]
 
 [tool.ruff.format]
@@ -84,10 +87,6 @@ strict = true
 warn_unreachable = true
 files = ["topoli", "tests", "skills"]
 exclude = ["^examples/", "^tests/fixtures/"]
-
-[[tool.mypy.overrides]]
-module = ["vcr", "vcr.*"]
-ignore_missing_imports = true
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
