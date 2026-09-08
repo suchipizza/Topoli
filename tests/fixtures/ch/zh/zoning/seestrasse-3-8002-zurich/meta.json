@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Seestrasse 3 8002 Zürich",
+  "site_id": "261-EN1287",
+  "recorded_at": "2026-09-08T12:28:22+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "bab6c4156f68df9b1a4f9cc77af2b3368eb99a78791a5ef5b865abcf181e0688.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2682597.2%2C1246630.4%2C2682599.2%2C1246632.4%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

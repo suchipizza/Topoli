@@ -1,0 +1,29 @@
+{
+ "address": "Avenue de la Gare 17 1003 Lausanne",
+ "layer0_de": [
+  [
+   "hazard.runoff",
+   "B"
+  ],
+  [
+   "noise.road",
+   "B"
+  ],
+  [
+   "terrain.slope",
+   "B"
+  ]
+ ],
+ "coverage": {
+  "ch/federal/geocode": "ok",
+  "ch/federal/parcel": "ok",
+  "ch/federal/buildings": "degraded",
+  "ch/federal/hazards": "ok",
+  "ch/federal/noise": "ok",
+  "ch/federal/contamination": "degraded",
+  "ch/federal/oereb": "degraded",
+  "ch/federal/solar": "degraded",
+  "ch/federal/heritage": "degraded",
+  "ch/federal/terrain": "ok"
+ }
+}

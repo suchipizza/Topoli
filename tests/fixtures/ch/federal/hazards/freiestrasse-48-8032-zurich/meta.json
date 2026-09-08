@@ -1,0 +1,25 @@
+{
+  "adapter_id": "ch/federal/hazards",
+  "address": "Freiestrasse 48 8032 Zürich",
+  "site_id": "261-HO3141",
+  "recorded_at": "2026-09-08T12:30:17+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "2c74a037c098d8b5beab98a9222c96bf3ddded104acd0c1260c8673ceb5b58f9.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.aquaprotect_100&STYLES=&CRS=EPSG%3A2056&BBOX=2684312.6%2C1247140.9%2C2684354.4%2C1247182.0&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "file": "0006286b4dbedeba75300419dbc573117908733e52d1b58dcb9ff3d7888ab7f9.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.aquaprotect_500&STYLES=&CRS=EPSG%3A2056&BBOX=2684312.6%2C1247140.9%2C2684354.4%2C1247182.0&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "file": "834bb05165d8f84a6b6be86a21e0c231dcb864a472711840f130b2bc65ed51db.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.gefaehrdungskarte-oberflaechenabfluss&STYLES=&CRS=EPSG%3A2056&BBOX=2684312.6%2C1247140.9%2C2684354.4%2C1247182.0&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "file": "e1aa7a5a5f1ef1bb670c553d6e6c52f47a469eaf1b98d1e59013b10383bee06f.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.silvaprotect-sturz%2Cch.bafu.silvaprotect-lawinen%2Cch.bafu.silvaprotect-hangmuren%2Cch.bafu.silvaprotect-murgang&STYLES=&CRS=EPSG%3A2056&BBOX=2684312.6%2C1247140.9%2C2684354.4%2C1247182.0&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    }
+  ]
+}

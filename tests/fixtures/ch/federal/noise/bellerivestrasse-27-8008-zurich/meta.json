@@ -1,0 +1,29 @@
+{
+  "adapter_id": "ch/federal/noise",
+  "address": "Bellerivestrasse 27 8008 Zürich",
+  "site_id": "261-RI3177",
+  "recorded_at": "2026-09-08T12:30:42+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "80423e56f86586e01c88ffbddf82cd51bacbef47b847976fb8392d740da3ae41.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=ch.bafu.laerm-strassenlaerm_tag&QUERY_LAYERS=ch.bafu.laerm-strassenlaerm_tag&CRS=EPSG%3A2056&BBOX=2683977.5%2C1245892.0%2C2683987.5%2C1245902.0&WIDTH=10&HEIGHT=10&I=5&J=5&INFO_FORMAT=application%2Fjson&FEATURE_COUNT=10&LANG=de"
+    },
+    {
+      "file": "00837d463ac72b5064b0259af8e5b5d6ea293fb0188bf59ad45765ef12269dd3.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=ch.bafu.laerm-strassenlaerm_nacht&QUERY_LAYERS=ch.bafu.laerm-strassenlaerm_nacht&CRS=EPSG%3A2056&BBOX=2683977.5%2C1245892.0%2C2683987.5%2C1245902.0&WIDTH=10&HEIGHT=10&I=5&J=5&INFO_FORMAT=application%2Fjson&FEATURE_COUNT=10&LANG=de"
+    },
+    {
+      "file": "5ca2cc7db72a81ae873a8540e26efc0d93f43475ad07205343cddc3511e6123b.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=ch.bafu.laerm-bahnlaerm_tag&QUERY_LAYERS=ch.bafu.laerm-bahnlaerm_tag&CRS=EPSG%3A2056&BBOX=2683977.5%2C1245892.0%2C2683987.5%2C1245902.0&WIDTH=10&HEIGHT=10&I=5&J=5&INFO_FORMAT=application%2Fjson&FEATURE_COUNT=10&LANG=de"
+    },
+    {
+      "file": "09743ab500b1c0cf9bf666dc45b0f531050f3a9626de2dfdc745398a71e27756.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=ch.bafu.laerm-bahnlaerm_nacht&QUERY_LAYERS=ch.bafu.laerm-bahnlaerm_nacht&CRS=EPSG%3A2056&BBOX=2683977.5%2C1245892.0%2C2683987.5%2C1245902.0&WIDTH=10&HEIGHT=10&I=5&J=5&INFO_FORMAT=application%2Fjson&FEATURE_COUNT=10&LANG=de"
+    },
+    {
+      "file": "f6c08d9a2934fa2ccfa715941024d6f5976276039b2f2f0a7821df6a4dd1c685.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=ch.bafu.laerm-bahnlaerm_nacht&QUERY_LAYERS=ch.bafu.laerm-bahnlaerm_nacht&CRS=EPSG%3A2056&BBOX=2683972.3%2C1245892.7%2C2683982.3%2C1245902.7&WIDTH=10&HEIGHT=10&I=5&J=5&INFO_FORMAT=application%2Fjson&FEATURE_COUNT=10&LANG=de"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Via Nassa 26 6900 Lugano",
+  "site_id": "5192-138",
+  "recorded_at": "2026-09-08T12:35:42+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "6c3aa29798496e39715e32414c0570aaf701217c921eda439562cb693df09ec6.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Via+Nassa+26+6900+Lugano&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "813dd5eb60075ae88da97928644a753a09b1655927d337a8c15fd16b19ed5f64.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2717059.5%2C1095693.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2716559.5%2C1095193.75%2C2717559.5%2C1096193.75&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

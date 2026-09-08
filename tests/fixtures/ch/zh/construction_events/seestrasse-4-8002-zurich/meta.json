@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Seestrasse 4 8002 Zürich",
+  "site_id": "261-EN2739",
+  "recorded_at": "2026-09-08T12:28:26+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "712744160f6ad42a79977a0c4f797b5090ef21d05d56f5857559448c4d10e843.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2682081.2%2C1246173.9%2C2683081.2%2C1247173.9%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

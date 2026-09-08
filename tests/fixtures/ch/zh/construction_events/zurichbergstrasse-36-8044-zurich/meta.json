@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Zürichbergstrasse 36 8044 Zürich",
+  "site_id": "261-FL2436",
+  "recorded_at": "2026-09-08T12:26:37+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "752ff81c51039877ac6cf17f7f031d10c0ba9585e51c7d01ec7f58becde05646.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683852.5%2C1247105.6%2C2684852.5%2C1248105.6%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

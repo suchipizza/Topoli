@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Bahnhofstrasse 1 3600 Thun",
+  "site_id": "942-492",
+  "recorded_at": "2026-09-08T12:35:40+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "820a7eeeb2c26bd2f992af46bf0b1f52f33dc3a8b7ac34b44696791cd155f026.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Bahnhofstrasse+1+3600+Thun&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "b077e2c92fcd10e9db68377c53378b1370ccf919be7777187fa5d520b960a932.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2614628.75%2C1178364.25&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2614128.75%2C1177864.25%2C2615128.75%2C1178864.25&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

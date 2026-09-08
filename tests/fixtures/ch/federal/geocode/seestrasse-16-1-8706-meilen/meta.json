@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Seestrasse 16.1 8706 Meilen",
+  "site_id": "156-2932",
+  "recorded_at": "2026-09-08T12:33:40+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "6191385ec6f484ddcd7ec077bd25b13f91ca761357696d667d100002de404695.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Seestrasse+16.1+8706+Meilen&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "a97ce2333d1a7515d0ffe62437a23c81d77860abb66b3f217404277af4a08b40.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2688698.0%2C1237443.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2688198.0%2C1236943.75%2C2689198.0%2C1237943.75&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

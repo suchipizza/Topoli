@@ -1,0 +1,25 @@
+{
+  "adapter_id": "ch/federal/hazards",
+  "address": "Dolderstrasse 2 8032 Zürich",
+  "site_id": "261-HO3367",
+  "recorded_at": "2026-09-08T12:29:22+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "774c46aeee71ec7d9874d90353aaa805ef3ae9ec5331f92038d7a2a3502e11f0.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.aquaprotect_100&STYLES=&CRS=EPSG%3A2056&BBOX=2684452.3%2C1247150.6%2C2684504.2%2C1247197.2&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "file": "cbe55698ac416701baab57a73bad19002a84aaa22635338993ccdb9c0212e3f6.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.aquaprotect_500&STYLES=&CRS=EPSG%3A2056&BBOX=2684452.3%2C1247150.6%2C2684504.2%2C1247197.2&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "file": "527fa2c59c82b71aa0825ee35e4d0ba7c59023fdf979cc3ea9caba3022345815.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.gefaehrdungskarte-oberflaechenabfluss&STYLES=&CRS=EPSG%3A2056&BBOX=2684452.3%2C1247150.6%2C2684504.2%2C1247197.2&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "file": "a833921a7b5e7581784b75aac7e0d35c34514d2fcec786ba332f9c3cb28895b5.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.silvaprotect-sturz%2Cch.bafu.silvaprotect-lawinen%2Cch.bafu.silvaprotect-hangmuren%2Cch.bafu.silvaprotect-murgang&STYLES=&CRS=EPSG%3A2056&BBOX=2684452.3%2C1247150.6%2C2684504.2%2C1247197.2&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Rötelstrasse 9 8006 Zürich",
+  "site_id": "261-UN1784",
+  "recorded_at": "2026-09-08T12:30:06+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "c5be4c30bdd3ebbeaa9f2a5d9e8aff5841b0c3e57936b30511ea96f8ba1becc9.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2682982.2%2C1249339.2%2C2683018.0%2C1249375.0%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

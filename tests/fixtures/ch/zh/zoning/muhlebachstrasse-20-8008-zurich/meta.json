@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Mühlebachstrasse 20 8008 Zürich",
+  "site_id": "261-RI4754",
+  "recorded_at": "2026-09-08T12:30:49+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "557a27603757ed0afbfe00dd5ddc4aa114afcdb4ff70c39514e311226837aeec.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683930.0%2C1246626.8%2C2683932.0%2C1246628.8%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

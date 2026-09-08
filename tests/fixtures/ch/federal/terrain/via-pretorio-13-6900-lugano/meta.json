@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Via Pretorio 13 6900 Lugano",
+  "site_id": "5192-336",
+  "recorded_at": "2026-09-08T12:35:52+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "0e71e7ea2c1fe77713787187556398359941140485d4c0882230b8d53bde0b86.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2717164.6%2C1096136.1%5D%2C%5B2717226.4%2C1096169.7%5D%2C%5B2717164.6%2C1096169.7%5D%2C%5B2717226.4%2C1096136.1%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

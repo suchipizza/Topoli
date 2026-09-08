@@ -1,0 +1,25 @@
+{
+  "adapter_id": "ch/federal/hazards",
+  "address": "Bahnhofstrasse 1 3600 Thun",
+  "site_id": "942-492",
+  "recorded_at": "2026-09-08T12:35:40+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "547e94057fde759cfeb18e6a772874befe90f040ba6727881e764f61976c39b4.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.aquaprotect_100&STYLES=&CRS=EPSG%3A2056&BBOX=2614620.1%2C1178329.8%2C2614666.8%2C1178387.0&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "file": "ab4984b3dd6a25321aadc5821f0c54410662cbeaa5e5d648b74c5437ecdf7963.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.aquaprotect_500&STYLES=&CRS=EPSG%3A2056&BBOX=2614620.1%2C1178329.8%2C2614666.8%2C1178387.0&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "file": "1e05809a69cb3f210e1bd17b42c56371a36ab562c18cd26b74092c2e584fe3d1.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.gefaehrdungskarte-oberflaechenabfluss&STYLES=&CRS=EPSG%3A2056&BBOX=2614620.1%2C1178329.8%2C2614666.8%2C1178387.0&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "file": "0ea8bc2af00d2cec2da8caf04bd329177efbae022a23ce483e2ff274a21b752a.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.silvaprotect-sturz%2Cch.bafu.silvaprotect-lawinen%2Cch.bafu.silvaprotect-hangmuren%2Cch.bafu.silvaprotect-murgang&STYLES=&CRS=EPSG%3A2056&BBOX=2614620.1%2C1178329.8%2C2614666.8%2C1178387.0&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    }
+  ]
+}

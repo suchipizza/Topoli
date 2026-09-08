@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/buildings",
+  "address": "Seestrasse 180 8706 Meilen",
+  "site_id": "156-8105",
+  "recorded_at": "2026-09-08T12:33:36+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "18199eefbc5f05e65cf9c6abe74ce43d20e57d6eb4268dd40288d2c87e630670.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2689209.8%2C1236871.6%5D%2C%5B2689218.5%2C1236883.8%5D%2C%5B2689220.2%2C1236886.3%5D%2C%5B2689222.6%2C1236884.6%5D%2C%5B2689224.9%2C1236883.0%5D%2C%5B2689227.3%2C1236881.4%5D%2C%5B2689229.6%2C1236879.8%5D%2C%5B2689232.0%2C1236878.1%5D%2C%5B2689234.3%2C1236876.5%5D%2C%5B2689236.7%2C1236874.9%5D%2C%5B2689239.0%2C1236873.3%5D%2C%5B2689241.1%2C1236872.0%5D%2C%5B2689243.1%2C1236870.6%5D%2C%5B2689245.1%2C1236869.3%5D%2C%5B2689247.1%2C1236867.9%5D%2C%5B2689249.2%2C1236866.6%5D%2C%5B2689236.2%2C1236848.6%5D%2C%5B2689233.2%2C1236850.4%5D%2C%5B2689229.6%2C1236853.2%5D%2C%5B2689218.6%2C1236864.6%5D%2C%5B2689209.8%2C1236871.6%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    }
+  ]
+}

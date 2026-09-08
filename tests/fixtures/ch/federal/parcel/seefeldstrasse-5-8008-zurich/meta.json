@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Seefeldstrasse 5 8008 Zürich",
+  "site_id": "261-RI3727",
+  "recorded_at": "2026-09-08T12:26:18+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "cb15b301b8ecdedb712b6452ef5b3671de1b08a55349e0a9b66a336e93379c2d.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683819.0%2C1246620.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "fc3c6856890b46444b2a55053fe34300049ef8bb798ffbc4993439f12164634e.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683807.6%2C1246626.2%5D%2C%5B2683815.3%2C1246637.5%5D%2C%5B2683817.7%2C1246641.0%5D%2C%5B2683821.8%2C1246638.2%5D%2C%5B2683820.4%2C1246636.5%5D%2C%5B2683823.2%2C1246634.5%5D%2C%5B2683825.1%2C1246633.0%5D%2C%5B2683823.7%2C1246631.3%5D%2C%5B2683823.4%2C1246630.8%5D%2C%5B2683826.0%2C1246628.4%5D%2C%5B2683826.5%2C1246628.1%5D%2C%5B2683836.0%2C1246618.7%5D%2C%5B2683837.2%2C1246617.5%5D%2C%5B2683832.1%2C1246613.3%5D%2C%5B2683820.1%2C1246606.0%5D%2C%5B2683811.8%2C1246619.6%5D%2C%5B2683807.6%2C1246626.2%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

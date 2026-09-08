@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Universitätstrasse 16 8006 Zürich",
+  "site_id": "261-OB4403",
+  "recorded_at": "2026-09-08T12:31:44+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "a83f91ce23bb2605c600e918e1c3244d7fa18b365ea01a884523863e3e47e1c5.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683307.8%2C1247705.2%2C2684307.8%2C1248705.2%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

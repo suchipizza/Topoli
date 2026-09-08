@@ -1,0 +1,33 @@
+{
+  "adapter_id": "ch/federal/noise",
+  "address": "Albisriederstrasse 36 8003 Zürich",
+  "site_id": "261-WD5599",
+  "recorded_at": "2026-09-08T12:28:01+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "7600d6fc4b473d7b73453aeaeb9481caed3daba5d9aca2f0c6af68b0a8b964ee.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=ch.bafu.laerm-strassenlaerm_tag&QUERY_LAYERS=ch.bafu.laerm-strassenlaerm_tag&CRS=EPSG%3A2056&BBOX=2680675.5%2C1247991.75%2C2680685.5%2C1248001.75&WIDTH=10&HEIGHT=10&I=5&J=5&INFO_FORMAT=application%2Fjson&FEATURE_COUNT=10&LANG=de"
+    },
+    {
+      "file": "8ea09dcd39d79bffe964a1beac96e0a551852e1a2ba68255951ddd4afafd338f.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=ch.bafu.laerm-strassenlaerm_nacht&QUERY_LAYERS=ch.bafu.laerm-strassenlaerm_nacht&CRS=EPSG%3A2056&BBOX=2680675.5%2C1247991.75%2C2680685.5%2C1248001.75&WIDTH=10&HEIGHT=10&I=5&J=5&INFO_FORMAT=application%2Fjson&FEATURE_COUNT=10&LANG=de"
+    },
+    {
+      "file": "04f89641d93868bbee8f3ca58f0ed67061892f087f1d01a74b3c37ac38d3cb21.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=ch.bafu.laerm-bahnlaerm_tag&QUERY_LAYERS=ch.bafu.laerm-bahnlaerm_tag&CRS=EPSG%3A2056&BBOX=2680675.5%2C1247991.75%2C2680685.5%2C1248001.75&WIDTH=10&HEIGHT=10&I=5&J=5&INFO_FORMAT=application%2Fjson&FEATURE_COUNT=10&LANG=de"
+    },
+    {
+      "file": "8aa4bf09d1265c1e311b95d873fefff88796187cdfc999f0d436695e5771b7ae.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=ch.bafu.laerm-bahnlaerm_tag&QUERY_LAYERS=ch.bafu.laerm-bahnlaerm_tag&CRS=EPSG%3A2056&BBOX=2680675.3%2C1247992.4%2C2680685.3%2C1248002.4&WIDTH=10&HEIGHT=10&I=5&J=5&INFO_FORMAT=application%2Fjson&FEATURE_COUNT=10&LANG=de"
+    },
+    {
+      "file": "ad9b313dff259d087b01e8905d23681730eee4ce165ec1a7c5fad3015412216c.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=ch.bafu.laerm-bahnlaerm_nacht&QUERY_LAYERS=ch.bafu.laerm-bahnlaerm_nacht&CRS=EPSG%3A2056&BBOX=2680675.5%2C1247991.75%2C2680685.5%2C1248001.75&WIDTH=10&HEIGHT=10&I=5&J=5&INFO_FORMAT=application%2Fjson&FEATURE_COUNT=10&LANG=de"
+    },
+    {
+      "file": "2b8c9fd362b8679b11ede3fa4b98af363798bb3b8bac2ca40d6d3cc6e93cd9ad.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=ch.bafu.laerm-bahnlaerm_nacht&QUERY_LAYERS=ch.bafu.laerm-bahnlaerm_nacht&CRS=EPSG%3A2056&BBOX=2680675.3%2C1247992.4%2C2680685.3%2C1248002.4&WIDTH=10&HEIGHT=10&I=5&J=5&INFO_FORMAT=application%2Fjson&FEATURE_COUNT=10&LANG=de"
+    }
+  ]
+}

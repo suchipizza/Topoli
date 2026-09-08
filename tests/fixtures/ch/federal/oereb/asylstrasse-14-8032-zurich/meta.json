@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Asylstrasse 14 8032 Zürich",
+  "site_id": "261-HO4445",
+  "recorded_at": "2026-09-08T12:30:32+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "c5468e4b81165a89dd724c72ead1c77ccf98f24ec1ce704b6b0ecfb64162493a.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2684465.5%2C1247133.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "ec3b3bf61f27819fc9f7062832aa4e1c3114d6b68b2ccbc4db5271f515a903d6.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH227976999157&LANG=de"
+    }
+  ]
+}

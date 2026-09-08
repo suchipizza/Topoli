@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/buildings",
+  "address": "Talacker 24 8001 Zürich",
+  "site_id": "261-AA1775",
+  "recorded_at": "2026-09-08T12:31:18+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "c9b0d440d04c625af35b94f627818558e5b1c581add4d1aeb4588690b0f5b1b7.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2682919.1%2C1247304.2%5D%2C%5B2682920.1%2C1247304.2%5D%2C%5B2682919.9%2C1247321.0%5D%2C%5B2682923.2%2C1247324.1%5D%2C%5B2682923.0%2C1247324.3%5D%2C%5B2682936.3%2C1247337.1%5D%2C%5B2682982.9%2C1247288.9%5D%2C%5B2682972.1%2C1247278.4%5D%2C%5B2682965.5%2C1247271.9%5D%2C%5B2682977.3%2C1247259.9%5D%2C%5B2682985.9%2C1247247.6%5D%2C%5B2682964.1%2C1247232.2%5D%2C%5B2682919.5%2C1247278.2%5D%2C%5B2682919.1%2C1247304.2%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    }
+  ]
+}

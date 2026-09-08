@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Seestrasse 81 8820 Wädenswil",
+  "site_id": "293-WE5110",
+  "recorded_at": "2026-09-08T12:33:26+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "6989dac176f19c9f09f53527e3cb2dc2ccf4e490e6393d7753f6506c6a4a9be1.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2693215.0%2C1230948.5%2C2694215.0%2C1231948.5%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

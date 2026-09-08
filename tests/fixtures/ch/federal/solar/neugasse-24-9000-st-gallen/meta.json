@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/solar",
+  "address": "Neugasse 24 9000 St. Gallen",
+  "site_id": "3203-C0333",
+  "recorded_at": "2026-09-08T12:36:13+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "be401c21f39c76c8db77c3e9058787647b4b1b2bc2cf821119f0dc6fb4feab43.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2746070.6%2C1254527.6%5D%2C%5B2746075.4%2C1254534.1%5D%2C%5B2746075.5%2C1254534.2%5D%2C%5B2746076.6%2C1254533.4%5D%2C%5B2746081.5%2C1254529.8%5D%2C%5B2746085.9%2C1254526.6%5D%2C%5B2746085.8%2C1254526.4%5D%2C%5B2746086.9%2C1254525.5%5D%2C%5B2746091.9%2C1254521.7%5D%2C%5B2746097.6%2C1254517.9%5D%2C%5B2746093.2%2C1254510.3%5D%2C%5B2746081.0%2C1254519.0%5D%2C%5B2746080.7%2C1254518.6%5D%2C%5B2746072.3%2C1254526.1%5D%2C%5B2746070.6%2C1254527.6%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfe.solarenergie-eignung-daecher&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

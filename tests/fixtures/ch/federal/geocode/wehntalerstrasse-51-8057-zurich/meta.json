@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Wehntalerstrasse 51 8057 Zürich",
+  "site_id": "261-UN1713",
+  "recorded_at": "2026-09-08T12:29:52+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "783955bcb9c6c7751eaa3952715937567aab6a0355867a438ee2720a534f8c03.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Wehntalerstrasse+51+8057+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "68ea4f811672f27a0201930621790fc6e8d6b5b58a725d14161a8ac3e085a21a.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682958.0%2C1250491.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2682458.0%2C1249991.875%2C2683458.0%2C1250991.875&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

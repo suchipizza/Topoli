@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/heritage",
+  "address": "Limmatquai 6 8001 Zürich",
+  "site_id": "261-AA2403",
+  "recorded_at": "2026-09-08T12:26:04+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "5e0746f3c959e1127a4768293698d613d5285234056f613ba73f18b047f07acd.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683533.1%2C1246970.3%5D%2C%5B2683550.1%2C1246983.3%5D%2C%5B2683564.0%2C1246965.2%5D%2C%5B2683547.0%2C1246952.2%5D%2C%5B2683533.1%2C1246970.3%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.babs.kulturgueter%2Cch.bak.schutzgebiete-unesco_weltkulturerbe&sr=2056&tolerance=0&returnGeometry=false&limit=50"
+    }
+  ]
+}

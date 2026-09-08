@@ -1,0 +1,25 @@
+{
+  "adapter_id": "ch/federal/noise",
+  "address": "Weinbergstrasse 24 8001 Zürich",
+  "site_id": "261-AA6839",
+  "recorded_at": "2026-09-08T12:31:27+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "e1331f28a42eab9e5f771586d8e42bf1fc1911d8f7ec9dd5c1100196740c32a8.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=ch.bafu.laerm-strassenlaerm_tag&QUERY_LAYERS=ch.bafu.laerm-strassenlaerm_tag&CRS=EPSG%3A2056&BBOX=2683502.0%2C1248129.125%2C2683512.0%2C1248139.125&WIDTH=10&HEIGHT=10&I=5&J=5&INFO_FORMAT=application%2Fjson&FEATURE_COUNT=10&LANG=de"
+    },
+    {
+      "file": "9a623fb831cebf244303d02c74a85f0afc8aafcbbbc244dc23d9db9f09b61067.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=ch.bafu.laerm-strassenlaerm_nacht&QUERY_LAYERS=ch.bafu.laerm-strassenlaerm_nacht&CRS=EPSG%3A2056&BBOX=2683502.0%2C1248129.125%2C2683512.0%2C1248139.125&WIDTH=10&HEIGHT=10&I=5&J=5&INFO_FORMAT=application%2Fjson&FEATURE_COUNT=10&LANG=de"
+    },
+    {
+      "file": "c6be42c333dfe5370ec9b600f4d6a557d0bff66c6bb5641b48a49ed8d64fbb14.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=ch.bafu.laerm-bahnlaerm_tag&QUERY_LAYERS=ch.bafu.laerm-bahnlaerm_tag&CRS=EPSG%3A2056&BBOX=2683502.0%2C1248129.125%2C2683512.0%2C1248139.125&WIDTH=10&HEIGHT=10&I=5&J=5&INFO_FORMAT=application%2Fjson&FEATURE_COUNT=10&LANG=de"
+    },
+    {
+      "file": "a6b71ec77ba5ef7d28f0e7b72a73b5d47a5cd5444d749cdcbc0f7e7a8880f018.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=ch.bafu.laerm-bahnlaerm_nacht&QUERY_LAYERS=ch.bafu.laerm-bahnlaerm_nacht&CRS=EPSG%3A2056&BBOX=2683502.0%2C1248129.125%2C2683512.0%2C1248139.125&WIDTH=10&HEIGHT=10&I=5&J=5&INFO_FORMAT=application%2Fjson&FEATURE_COUNT=10&LANG=de"
+    }
+  ]
+}

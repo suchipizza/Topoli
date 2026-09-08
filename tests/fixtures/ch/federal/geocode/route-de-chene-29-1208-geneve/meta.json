@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Route de Chêne 29 1208 Genève",
+  "site_id": "6621-804",
+  "recorded_at": "2026-09-08T12:34:15+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "b7a4b77d267dbe89c429e60c62f958540a51d0af27f144276d39ac3534d4728c.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Route+de+Ch%C3%AAne+29+1208+Gen%C3%A8ve&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "c290556dcc22dcabd8cd73aea573546b16efaed4f0ed6e1c0a9516073687a2ee.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2501948.5%2C1117335.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2501448.5%2C1116835.875%2C2502448.5%2C1117835.875&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

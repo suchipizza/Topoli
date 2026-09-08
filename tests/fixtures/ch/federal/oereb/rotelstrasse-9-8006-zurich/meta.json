@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Rötelstrasse 9 8006 Zürich",
+  "site_id": "261-UN1784",
+  "recorded_at": "2026-09-08T12:30:06+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "2d339b3440eed0856e7b14675bda18c3292f849adae85f58d81f56e976e6d2ce.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683001.0%2C1249355.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "e1ebf16e49f4228fd3e08e2641c5854dbc153c871bb503dc8f84b0fbcf5e8863.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH752499709139&LANG=de"
+    }
+  ]
+}

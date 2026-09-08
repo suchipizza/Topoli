@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Bahnhofstrasse 26 8001 Zürich",
+  "site_id": "261-AA5466",
+  "recorded_at": "2026-09-08T12:25:51+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "954a76943bfff8a3a522d87404dbdcd9f951ab556a67162fc5e66a7e486537b5.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683159.3%2C1247095.4%2C2683161.3%2C1247097.4%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Alfred-Escher-Strasse 65 8002 Zürich",
+  "site_id": "261-EN2561",
+  "recorded_at": "2026-09-08T12:28:47+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "4c3d535cd70213b2f26a261af38d5339d50420593b1ea57e7addf0507b7e69e9.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2682805.9%2C1246114.8%2C2682807.9%2C1246116.8%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

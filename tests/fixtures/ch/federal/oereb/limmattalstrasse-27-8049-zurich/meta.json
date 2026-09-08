@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Limmattalstrasse 27 8049 Zürich",
+  "site_id": "261-HG6035",
+  "recorded_at": "2026-09-08T12:27:41+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "8082753c0a83fa4a94fa66c78115b1ebe7457e85a99a0fd18f16fc401b30625d.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2680934.25%2C1250062.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "6125556a8c1c51b4c8ac01f2c3ccf0315c3b54ab06ee1c319f9349b9405fa126.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH419192997803&LANG=de"
+    }
+  ]
+}

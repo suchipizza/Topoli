@@ -1,0 +1,25 @@
+{
+  "adapter_id": "ch/federal/noise",
+  "address": "Josefstrasse 59 8005 Zürich",
+  "site_id": "261-IQ5970",
+  "recorded_at": "2026-09-08T12:29:12+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "d2179709186f61544c76a03313d7631f9463fd316bdabd9cf8e82cf5f2d3f0aa.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=ch.bafu.laerm-strassenlaerm_tag&QUERY_LAYERS=ch.bafu.laerm-strassenlaerm_tag&CRS=EPSG%3A2056&BBOX=2682547.5%2C1248487.125%2C2682557.5%2C1248497.125&WIDTH=10&HEIGHT=10&I=5&J=5&INFO_FORMAT=application%2Fjson&FEATURE_COUNT=10&LANG=de"
+    },
+    {
+      "file": "c5593a5ab04b8cf9313811f74f5818d5cc5027d985f47f1711e4ffbc1809e249.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=ch.bafu.laerm-strassenlaerm_nacht&QUERY_LAYERS=ch.bafu.laerm-strassenlaerm_nacht&CRS=EPSG%3A2056&BBOX=2682547.5%2C1248487.125%2C2682557.5%2C1248497.125&WIDTH=10&HEIGHT=10&I=5&J=5&INFO_FORMAT=application%2Fjson&FEATURE_COUNT=10&LANG=de"
+    },
+    {
+      "file": "c57ca457af2c38817724f94ef84cdcc20bfefa17576514880f220ebca7d2be10.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=ch.bafu.laerm-bahnlaerm_tag&QUERY_LAYERS=ch.bafu.laerm-bahnlaerm_tag&CRS=EPSG%3A2056&BBOX=2682547.5%2C1248487.125%2C2682557.5%2C1248497.125&WIDTH=10&HEIGHT=10&I=5&J=5&INFO_FORMAT=application%2Fjson&FEATURE_COUNT=10&LANG=de"
+    },
+    {
+      "file": "0df9d05244f6a55d437b4e755e80d0a7a4386846d28b4fb9d05e5c172d16f951.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=ch.bafu.laerm-bahnlaerm_nacht&QUERY_LAYERS=ch.bafu.laerm-bahnlaerm_nacht&CRS=EPSG%3A2056&BBOX=2682547.5%2C1248487.125%2C2682557.5%2C1248497.125&WIDTH=10&HEIGHT=10&I=5&J=5&INFO_FORMAT=application%2Fjson&FEATURE_COUNT=10&LANG=de"
+    }
+  ]
+}

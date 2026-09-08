@@ -1,0 +1,25 @@
+{
+  "adapter_id": "ch/federal/noise",
+  "address": "Wehntalerstrasse 51 8057 Zürich",
+  "site_id": "261-UN1713",
+  "recorded_at": "2026-09-08T12:29:52+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "614e670e0ca839655658be24966f369aaf282d99b634343d37d5922b15f00d67.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=ch.bafu.laerm-strassenlaerm_tag&QUERY_LAYERS=ch.bafu.laerm-strassenlaerm_tag&CRS=EPSG%3A2056&BBOX=2682953.0%2C1250486.875%2C2682963.0%2C1250496.875&WIDTH=10&HEIGHT=10&I=5&J=5&INFO_FORMAT=application%2Fjson&FEATURE_COUNT=10&LANG=de"
+    },
+    {
+      "file": "03f5bbfc6f69693302c969c0fff6cd5593ff263a2080cb4a6c7658bcb39cc4f9.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=ch.bafu.laerm-strassenlaerm_nacht&QUERY_LAYERS=ch.bafu.laerm-strassenlaerm_nacht&CRS=EPSG%3A2056&BBOX=2682953.0%2C1250486.875%2C2682963.0%2C1250496.875&WIDTH=10&HEIGHT=10&I=5&J=5&INFO_FORMAT=application%2Fjson&FEATURE_COUNT=10&LANG=de"
+    },
+    {
+      "file": "79bde040c01c5aed48a5d73ce9a00b57ce33d33dc569c62463897a3302db70bd.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=ch.bafu.laerm-bahnlaerm_tag&QUERY_LAYERS=ch.bafu.laerm-bahnlaerm_tag&CRS=EPSG%3A2056&BBOX=2682953.0%2C1250486.875%2C2682963.0%2C1250496.875&WIDTH=10&HEIGHT=10&I=5&J=5&INFO_FORMAT=application%2Fjson&FEATURE_COUNT=10&LANG=de"
+    },
+    {
+      "file": "c91b17597940e52b3cd47fdbcda4f028fdc8b2331bf0b080bf590f6c7b63a76d.json.gz",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=ch.bafu.laerm-bahnlaerm_nacht&QUERY_LAYERS=ch.bafu.laerm-bahnlaerm_nacht&CRS=EPSG%3A2056&BBOX=2682953.0%2C1250486.875%2C2682963.0%2C1250496.875&WIDTH=10&HEIGHT=10&I=5&J=5&INFO_FORMAT=application%2Fjson&FEATURE_COUNT=10&LANG=de"
+    }
+  ]
+}

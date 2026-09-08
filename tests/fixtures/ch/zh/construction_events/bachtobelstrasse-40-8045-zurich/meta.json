@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Bachtobelstrasse 40 8045 Zürich",
+  "site_id": "261-WD3510",
+  "recorded_at": "2026-09-08T12:30:59+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "3c41e6df1d7062f0784939fa8c56cfd21ba48679a3a79a466e08a92b2d160a86.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2680842.5%2C1245631.0%2C2681842.5%2C1246631.0%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

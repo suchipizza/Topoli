@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Bahnhofstrasse 6 8302 Kloten",
+  "site_id": "62-4799",
+  "recorded_at": "2026-09-08T12:33:16+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "94402cb9d6df09ce225b5fc49dd2c1dbcda7f76b86e55aae16219f4d3207e58f.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Bahnhofstrasse+6+8302+Kloten&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "569629b5e7db09014726303017c34e3d072a2ca4a8c26e3b75692774479ec06e.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2686299.0%2C1255983.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2685799.0%2C1255483.0%2C2686799.0%2C1256483.0&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

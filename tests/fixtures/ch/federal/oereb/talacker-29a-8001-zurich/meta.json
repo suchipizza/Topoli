@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Talacker 29a 8001 Zürich",
+  "site_id": "261-AA1539",
+  "recorded_at": "2026-09-08T12:31:21+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "e3942c29f6beaa0cb4becf17a4f7295ac0555ebe72a27bc3caba97c4a5f63506.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682901.25%2C1247245.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "ccf60f053f8f3bda0148e7332adaa35430af62eb8d128452f4fad0baccde84f8.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH159199779162&LANG=de"
+    }
+  ]
+}

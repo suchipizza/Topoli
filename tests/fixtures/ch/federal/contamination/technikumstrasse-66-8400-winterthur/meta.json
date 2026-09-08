@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/contamination",
+  "address": "Technikumstrasse 66 8400 Winterthur",
+  "site_id": "230-ST7209",
+  "recorded_at": "2026-09-08T12:32:17+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "8554698077531645f44638c5b630347d3898f99ddb0dc67675bac2e5f366416a.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2697098.1%2C1261584.7%5D%2C%5B2697100.6%2C1261595.4%5D%2C%5B2697100.0%2C1261595.6%5D%2C%5B2697101.2%2C1261600.3%5D%2C%5B2697102.8%2C1261605.8%5D%2C%5B2697102.5%2C1261605.9%5D%2C%5B2697106.2%2C1261618.9%5D%2C%5B2697106.6%2C1261618.7%5D%2C%5B2697110.4%2C1261616.6%5D%2C%5B2697108.5%2C1261604.5%5D%2C%5B2697107.8%2C1261599.0%5D%2C%5B2697106.8%2C1261593.4%5D%2C%5B2697106.7%2C1261593.4%5D%2C%5B2697104.8%2C1261582.3%5D%2C%5B2697098.1%2C1261584.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bav.kataster-belasteter-standorte-oev%2Cch.bazl.kataster-belasteter-standorte-zivilflugplaetze%2Cch.vbs.kataster-belasteter-standorte-militaer&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

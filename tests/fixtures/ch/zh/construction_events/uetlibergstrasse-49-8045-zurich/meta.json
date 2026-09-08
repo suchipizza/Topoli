@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Uetlibergstrasse 49 8045 Zürich",
+  "site_id": "261-WD4214",
+  "recorded_at": "2026-09-08T12:28:19+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "a9454540a88e7216e6235e7d71cfeb8f413a995f09b01d31096b6818c3fc2ace.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2681159.2%2C1245863.6%2C2682159.2%2C1246863.6%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

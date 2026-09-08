@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Seestrasse 81 8820 Wädenswil",
+  "site_id": "293-WE5110",
+  "recorded_at": "2026-09-08T12:33:26+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "85009087dd3c0a7bed099d3e86a75c316913c0a3540e8dbd95c02894f4f7327e.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2693708.7%2C1231436.1%2C2693710.7%2C1231438.1%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

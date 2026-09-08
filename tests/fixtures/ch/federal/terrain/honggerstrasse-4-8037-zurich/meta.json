@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Hönggerstrasse 4 8037 Zürich",
+  "site_id": "261-WP1082",
+  "recorded_at": "2026-09-08T12:27:30+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "1c9e5859ffb1b50621473ee27720bf2c286e7af054ec971f59458ca8511a90c1.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2682212.4%2C1249441.5%5D%2C%5B2682230.7%2C1249463.3%5D%2C%5B2682212.4%2C1249463.3%5D%2C%5B2682230.7%2C1249441.5%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

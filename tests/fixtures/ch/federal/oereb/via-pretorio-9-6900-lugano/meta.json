@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Via Pretorio 9 6900 Lugano",
+  "site_id": "5192-337",
+  "recorded_at": "2026-09-08T12:35:57+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "392e5085c788409c54953629d043baf1ed5e90d4ebd5d0a3ab7c4c2861a21d0c.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2717208.25%2C1096104.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Badenerstrasse 72 8004 Zürich",
+  "site_id": "261-AU445",
+  "recorded_at": "2026-09-08T12:27:44+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "dfa279f3209715d9d7541f69c16cf7e0bc8300466e3dae56b9f399e60bb41308.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2682179.0%2C1247545.6%2C2682214.0%2C1247584.3%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

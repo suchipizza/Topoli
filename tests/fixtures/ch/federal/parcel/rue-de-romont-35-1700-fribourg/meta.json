@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Rue de Romont 35 1700 Fribourg",
+  "site_id": "2196-16239",
+  "recorded_at": "2026-09-08T12:38:07+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "731012b448555c05d39c16f3a505503012f5552506fd9cc85c6dd2db6078924c.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2578257.75%2C1183728.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "8dc66529eb1e29270991da9d65fb090feb55156464ca6d0c2e61e1dd03d76dd7.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2578235.6%2C1183739.5%5D%2C%5B2578241.8%2C1183744.2%5D%2C%5B2578247.9%2C1183750.1%5D%2C%5B2578253.4%2C1183743.2%5D%2C%5B2578256.5%2C1183745.7%5D%2C%5B2578269.5%2C1183729.5%5D%2C%5B2578253.4%2C1183716.6%5D%2C%5B2578235.6%2C1183739.5%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

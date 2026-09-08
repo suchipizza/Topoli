@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/heritage",
+  "address": "Bahnhofstrasse 14 8620 Wetzikon ZH",
+  "site_id": "121-3300",
+  "recorded_at": "2026-09-08T12:32:55+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "8a63572055dadfdcf35edafbf09a0fc4054f1a7dae0caa5726b8e8c08166a2c9.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2702357.9%2C1241847.7%5D%2C%5B2702360.4%2C1241848.8%5D%2C%5B2702370.4%2C1241843.5%5D%2C%5B2702378.4%2C1241836.0%5D%2C%5B2702370.2%2C1241829.8%5D%2C%5B2702357.9%2C1241847.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.babs.kulturgueter%2Cch.bak.schutzgebiete-unesco_weltkulturerbe&sr=2056&tolerance=0&returnGeometry=false&limit=50"
+    }
+  ]
+}

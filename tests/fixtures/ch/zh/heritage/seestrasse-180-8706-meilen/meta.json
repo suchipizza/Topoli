@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Seestrasse 180 8706 Meilen",
+  "site_id": "156-8105",
+  "recorded_at": "2026-09-08T12:33:36+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "7a7566334c72aa740f5154543a9d9e8903774cc8cea6fb4ea1735dfbf9ad8817.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2689204.8%2C1236843.6%2C2689254.2%2C1236891.3%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Alfred-Escher-Strasse 5 8002 Zürich",
+  "site_id": "261-EN2698",
+  "recorded_at": "2026-09-08T12:28:50+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "e0b5f6f292d9bbe31e6f79e44850e27d668731398a4cdf1f849a17ffd0f3d1dd.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2682634.7%2C1246639.8%5D%2C%5B2682648.8%2C1246655.6%5D%2C%5B2682634.7%2C1246655.6%5D%2C%5B2682648.8%2C1246639.8%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

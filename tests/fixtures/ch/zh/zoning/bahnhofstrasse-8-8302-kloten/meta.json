@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Bahnhofstrasse 8 8302 Kloten",
+  "site_id": "62-4801",
+  "recorded_at": "2026-09-08T12:33:13+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "48f6efcb3d5a2a57085438a05ef0360036bc99a8a83ac4764c3e0d403bceb38e.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2686295.5%2C1255972.7%2C2686297.5%2C1255974.7%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

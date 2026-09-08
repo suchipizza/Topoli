@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Avenue de la Gare 17 1003 Lausanne",
+  "site_id": "5586-6023",
+  "recorded_at": "2026-09-08T12:46:26+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "c88a144e4dcfef091c1e2ee737d3e2f1db3fe80723379112eca833248cd5f474.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Avenue+de+la+Gare+17+1003+Lausanne&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "3a631dddcb041bd6c76b2f84fba63f9f773348beefe14181f2044d93099fbafe.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2538454.0%2C1152014.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2537954.0%2C1151514.125%2C2538954.0%2C1152514.125&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

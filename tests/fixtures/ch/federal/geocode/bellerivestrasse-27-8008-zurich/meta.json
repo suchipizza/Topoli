@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Bellerivestrasse 27 8008 Zürich",
+  "site_id": "261-RI3177",
+  "recorded_at": "2026-09-08T12:30:42+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "4a9f7ec18961f1729f8ba7670da2c3f6356d7a0e45a9df455067c6fc8f5392de.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Bellerivestrasse+27+8008+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "6b6c0c03bb17f0cb0ff97222f8e6145095690d06eb48df1f21fb9d2887797182.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683982.5%2C1245897.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2683482.5%2C1245397.0%2C2684482.5%2C1246397.0&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

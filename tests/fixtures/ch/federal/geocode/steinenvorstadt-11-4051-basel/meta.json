@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Steinenvorstadt 11 4051 Basel",
+  "site_id": "2701-149",
+  "recorded_at": "2026-09-08T12:35:10+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "268a48ddaedfba4d9499700e25536f73a44973c7dbc420b9a1a08e22aa9b9b0d.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Steinenvorstadt+11+4051+Basel&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "7f056aa404c94cc5e9a9250955744dff28a498f3388b1490fe1fa1f822762908.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2611322.75%2C1266994.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2610822.75%2C1266494.125%2C2611822.75%2C1267494.125&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

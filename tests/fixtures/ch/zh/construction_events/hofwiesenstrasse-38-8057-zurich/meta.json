@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Hofwiesenstrasse 38 8057 Zürich",
+  "site_id": "261-UN898",
+  "recorded_at": "2026-09-08T12:27:13+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "9781bb4a99cf8330a15fb8b1cb8e5895c9164deedca76bc3499737c723099885.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2682469.2%2C1249344.4%2C2683469.2%2C1250344.4%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

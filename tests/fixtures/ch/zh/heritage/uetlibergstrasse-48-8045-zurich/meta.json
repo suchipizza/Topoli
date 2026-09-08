@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Uetlibergstrasse 48 8045 Zürich",
+  "site_id": "261-WD5911",
+  "recorded_at": "2026-09-08T12:28:16+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "530b780740d06e50bb6b6c98f7ac181f122b95a9ef88f5edc4592535ca3845fd.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2681622.0%2C1246373.4%2C2681660.5%2C1246413.0%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Hofwiesenstrasse 38 8057 Zürich",
+  "site_id": "261-UN898",
+  "recorded_at": "2026-09-08T12:27:13+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "331656cb5f13846a1e0adf005430569553703c861aedace96d363ce7ddee8256.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2682948.1%2C1249832.9%5D%2C%5B2682984.1%2C1249857.3%5D%2C%5B2682948.1%2C1249857.3%5D%2C%5B2682984.1%2C1249832.9%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

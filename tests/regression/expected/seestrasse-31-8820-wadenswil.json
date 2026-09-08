@@ -1,0 +1,41 @@
+{
+ "address": "Seestrasse 31 8820 Wädenswil",
+ "layer0_de": [
+  [
+   "hazard.gravitational",
+   "B"
+  ],
+  [
+   "noise.road",
+   "B"
+  ],
+  [
+   "oereb.ch.Waldabstandslinien.21",
+   "A"
+  ],
+  [
+   "activity.nearby",
+   "B"
+  ],
+  [
+   "zoning.zone",
+   "A"
+  ]
+ ],
+ "coverage": {
+  "ch/federal/geocode": "ok",
+  "ch/federal/parcel": "ok",
+  "ch/federal/buildings": "degraded",
+  "ch/federal/hazards": "ok",
+  "ch/federal/noise": "ok",
+  "ch/federal/contamination": "degraded",
+  "ch/federal/oereb": "ok",
+  "ch/federal/solar": "degraded",
+  "ch/federal/heritage": "degraded",
+  "ch/federal/terrain": "ok",
+  "ch/zh/zoning": "ok",
+  "ch/zh/regulation": "not_contributed",
+  "ch/zh/heritage": "ok",
+  "ch/zh/construction_events": "ok"
+ }
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Birmensdorferstrasse 97 8003 Zürich",
+  "site_id": "261-WD510",
+  "recorded_at": "2026-09-08T12:28:06+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "cea81c4bd68383eaf72c1ee5b068464769bb87aa922fc204f028ad14076fed01.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2681387.0%2C1246714.0%2C2682387.0%2C1247714.0%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

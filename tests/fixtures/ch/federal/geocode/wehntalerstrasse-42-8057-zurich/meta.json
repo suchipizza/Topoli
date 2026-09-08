@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Wehntalerstrasse 42 8057 Zürich",
+  "site_id": "261-UN4776",
+  "recorded_at": "2026-09-08T12:29:50+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "4383aad8f05327c63d6d5ee4e481d50d5329d3613175802c1e59d39718bdec83.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Wehntalerstrasse+42+8057+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "80fb95bc2b1aee4a337c53426ec5793f16b781b483f8abaf7edb417c0eb236fa.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683033.25%2C1250474.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2682533.25%2C1249974.125%2C2683533.25%2C1250974.125&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

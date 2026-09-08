@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Seefeldstrasse 56 8008 Zürich",
+  "site_id": "261-RI5438",
+  "recorded_at": "2026-09-08T12:26:21+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "1816f95f2e4de2461c8daad86cdbd098c13caaa2be9c8c0cface2eabf39685f3.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2683953.7%2C1246298.8%5D%2C%5B2683987.4%2C1246324.5%5D%2C%5B2683953.7%2C1246324.5%5D%2C%5B2683987.4%2C1246298.8%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

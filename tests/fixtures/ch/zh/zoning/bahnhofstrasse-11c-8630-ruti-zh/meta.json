@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Bahnhofstrasse 11c 8630 Rüti ZH",
+  "site_id": "118-6666",
+  "recorded_at": "2026-09-08T12:33:44+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "1a29b67cbf7ac894a3157ff30f1f118964fd9b29c4d27df4188d13d045ceaf1d.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2707241.2%2C1235293.1%2C2707243.2%2C1235295.1%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

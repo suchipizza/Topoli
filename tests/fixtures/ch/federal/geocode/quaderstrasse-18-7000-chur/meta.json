@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Quaderstrasse 18 7000 Chur",
+  "site_id": "3901-1531",
+  "recorded_at": "2026-09-08T12:38:04+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "556328757636c2e2213d26c04806c9c62fed27aa29589e3be9b7587e5173b99d.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Quaderstrasse+18+7000+Chur&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "704ded1a432085c4dcb414f6a023c1124d00e3044f2f60671afce113b1f24e83.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2759729.75%2C1191149.25&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2759229.75%2C1190649.25%2C2760229.75%2C1191649.25&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

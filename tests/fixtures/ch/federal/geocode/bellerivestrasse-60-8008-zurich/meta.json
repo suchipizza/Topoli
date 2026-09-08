@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Bellerivestrasse 60 8008 Zürich",
+  "site_id": "261-RI4740",
+  "recorded_at": "2026-09-08T12:30:35+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "281cc393351bf3f6b05fdcdd4bfe653254d3ad7e7ca5a7bef2c8a1cb6af70e73.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Bellerivestrasse+60+8008+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "ab2863b147762ecd1f2412e3437763969ce917def7484a438c5abefde59b03a3.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2684071.0%2C1245590.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2683571.0%2C1245090.125%2C2684571.0%2C1246090.125&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

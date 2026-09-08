@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Bahnhofstrasse 11c 8630 Rüti ZH",
+  "site_id": "118-6666",
+  "recorded_at": "2026-09-08T12:33:44+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "74c439fa0ec6f4b3f159e63c895d80622c3e7926e1ac71e988d5b124a9e5f7fc.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2707073.8%2C1235181.1%2C2707409.1%2C1235407.1%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

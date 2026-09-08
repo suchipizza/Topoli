@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Schaffhauserstrasse 22 8006 Zürich",
+  "site_id": "261-UN2869",
+  "recorded_at": "2026-09-08T12:26:59+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "fbc95e09372059773135c2dd9b9be45015a2ab1c3eb34e6e5faee47234237e27.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Schaffhauserstrasse+22+8006+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "a5c8a0f9fb0618e646f4410514fa88a2dc1dd89cd3ac36063fbc6ef8df9da406.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683104.5%2C1249339.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2682604.5%2C1248839.75%2C2683604.5%2C1249839.75&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

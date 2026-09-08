@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Birmensdorferstrasse 97 8003 Zürich",
+  "site_id": "261-WD510",
+  "recorded_at": "2026-09-08T12:28:06+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "350406ac3170829f425d29eb169a0cb84c8b33577959754903b9888fd5997e52.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2681879.9%2C1247197.4%5D%2C%5B2681898.7%2C1247221.9%5D%2C%5B2681879.9%2C1247221.9%5D%2C%5B2681898.7%2C1247197.4%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

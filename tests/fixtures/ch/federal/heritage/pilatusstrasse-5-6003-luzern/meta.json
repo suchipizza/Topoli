@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/heritage",
+  "address": "Pilatusstrasse 5 6003 Luzern",
+  "site_id": "1061-125",
+  "recorded_at": "2026-09-08T12:36:06+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "8493363d5aa3ed55c7d0766e81f925532190b81ff5a718dfc11f7dfe7d52f6fa.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2666064.3%2C1211313.1%5D%2C%5B2666076.7%2C1211320.7%5D%2C%5B2666084.1%2C1211308.7%5D%2C%5B2666078.9%2C1211305.5%5D%2C%5B2666074.7%2C1211302.9%5D%2C%5B2666071.9%2C1211301.2%5D%2C%5B2666071.7%2C1211301.3%5D%2C%5B2666071.5%2C1211301.3%5D%2C%5B2666064.3%2C1211313.1%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.babs.kulturgueter%2Cch.bak.schutzgebiete-unesco_weltkulturerbe&sr=2056&tolerance=0&returnGeometry=false&limit=50"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+ "address": "Avenue de la Gare 19 1003 Lausanne",
+ "layer0_de": [
+  [
+   "hazard.runoff",
+   "B"
+  ],
+  [
+   "solar.best_roof",
+   "A"
+  ],
+  [
+   "terrain.slope",
+   "B"
+  ],
+  [
+   "noise.road",
+   "B"
+  ],
+  [
+   "heritage.federal.none",
+   "A"
+  ]
+ ],
+ "coverage": {
+  "ch/federal/geocode": "ok",
+  "ch/federal/parcel": "ok",
+  "ch/federal/buildings": "ok",
+  "ch/federal/hazards": "ok",
+  "ch/federal/noise": "ok",
+  "ch/federal/contamination": "ok",
+  "ch/federal/oereb": "degraded",
+  "ch/federal/solar": "ok",
+  "ch/federal/heritage": "ok",
+  "ch/federal/terrain": "ok"
+ }
+}

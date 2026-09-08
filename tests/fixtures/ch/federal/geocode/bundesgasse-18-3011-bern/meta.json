@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Bundesgasse 18 3011 Bern",
+  "site_id": "351-1053",
+  "recorded_at": "2026-09-08T12:35:20+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "ab761d1dcf4db61fa9ed68b179fc6e48659d43c3980d12b8f025887e589cbca2.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Bundesgasse+18+3011+Bern&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "5288482fcc933d65c64b436e270334b1609c3b81b020ea880106901a08a81e28.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2600214.5%2C1199507.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2599714.5%2C1199007.75%2C2600714.5%2C1200007.75&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

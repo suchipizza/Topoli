@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Alte Kalchbühlstrasse 17a 8038 Zürich",
+  "site_id": "261-WO6462",
+  "recorded_at": "2026-09-08T12:29:43+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "edd6a6a409bcc515992ed863361046ebba44a38ee715bb6e50bc5708f30a9f16.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682522.25%2C1243811.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "c75cb1beedbdb65360c4d4b9e2d6506444dc3ad1e235b0df23ac86639bfc9182.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH267999914680&LANG=de"
+    }
+  ]
+}

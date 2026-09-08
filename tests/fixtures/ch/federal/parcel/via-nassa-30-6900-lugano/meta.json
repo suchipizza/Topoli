@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Via Nassa 30 6900 Lugano",
+  "site_id": "5192-219",
+  "recorded_at": "2026-09-08T12:35:48+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "a9ebd41ba52ccd25dd847404584b6b1450dfb7457ea65434f0df55b7affca2e4.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2717052.75%2C1095675.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "fa452a246606c0f82dd69a76fd369d3fe1d248e5fac12cc74568b79372568e16.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2717039.6%2C1095673.4%5D%2C%5B2717040.3%2C1095676.7%5D%2C%5B2717040.9%2C1095680.5%5D%2C%5B2717056.7%2C1095678.0%5D%2C%5B2717055.7%2C1095671.5%5D%2C%5B2717043.0%2C1095672.9%5D%2C%5B2717039.6%2C1095673.4%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

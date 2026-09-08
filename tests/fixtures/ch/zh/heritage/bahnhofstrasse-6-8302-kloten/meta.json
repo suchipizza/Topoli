@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Bahnhofstrasse 6 8302 Kloten",
+  "site_id": "62-4799",
+  "recorded_at": "2026-09-08T12:33:16+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "f78ddd35c8be65dcbbd9ff4bf9b1f01068c197d7a0223d688711f8d8b6a19e7e.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2686227.3%2C1255932.2%2C2686310.6%2C1256043.8%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

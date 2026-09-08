@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Gutstrasse 3 8055 Zürich",
+  "site_id": "261-WD9092",
+  "recorded_at": "2026-09-08T12:31:06+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "003ab49c34a55a18c395d4db8696364f96a089aff4c57dd21a243c1841f4bde5.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2680339.5%2C1246629.5%2C2681339.5%2C1247629.5%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

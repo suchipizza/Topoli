@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Route de Chêne 29 1208 Genève",
+  "site_id": "6621-804",
+  "recorded_at": "2026-09-08T12:34:15+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "e8883edba598fc856f104aea76734853d3e4ddf04cd05556e9840f5aae17f96f.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2501948.5%2C1117335.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "5a3ca485ab2b83dd324db9107c41f0b9a6ca7e33e60b16c003cc96166cba96f1.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2501933.2%2C1117318.4%5D%2C%5B2501933.3%2C1117344.6%5D%2C%5B2501960.6%2C1117349.2%5D%2C%5B2501965.6%2C1117318.6%5D%2C%5B2501933.2%2C1117318.4%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

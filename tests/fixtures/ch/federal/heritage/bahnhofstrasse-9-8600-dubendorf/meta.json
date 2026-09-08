@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/heritage",
+  "address": "Bahnhofstrasse 9 8600 Dübendorf",
+  "site_id": "191-5506",
+  "recorded_at": "2026-09-08T12:33:57+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "2a1a377cf2acdc0731991875d544d7d771e814a1d6731e8007bce922fd2b1a14.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2689059.3%2C1250302.3%5D%2C%5B2689063.3%2C1250307.3%5D%2C%5B2689066.7%2C1250306.7%5D%2C%5B2689073.0%2C1250302.6%5D%2C%5B2689067.7%2C1250297.8%5D%2C%5B2689066.6%2C1250296.4%5D%2C%5B2689059.3%2C1250302.3%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.babs.kulturgueter%2Cch.bak.schutzgebiete-unesco_weltkulturerbe&sr=2056&tolerance=0&returnGeometry=false&limit=50"
+    }
+  ]
+}

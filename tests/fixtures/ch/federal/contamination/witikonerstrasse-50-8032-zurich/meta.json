@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/contamination",
+  "address": "Witikonerstrasse 50 8032 Zürich",
+  "site_id": "261-HI3898",
+  "recorded_at": "2026-09-08T12:29:32+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "d40f8ab3a08897d0523dfa61d95487bfff72ffdc52244b503619643431993e9a.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2685314.0%2C1246321.5%5D%2C%5B2685317.5%2C1246324.2%5D%2C%5B2685340.7%2C1246341.8%5D%2C%5B2685353.7%2C1246328.6%5D%2C%5B2685352.2%2C1246327.3%5D%2C%5B2685328.3%2C1246305.6%5D%2C%5B2685314.0%2C1246321.5%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bav.kataster-belasteter-standorte-oev%2Cch.bazl.kataster-belasteter-standorte-zivilflugplaetze%2Cch.vbs.kataster-belasteter-standorte-militaer&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Seestrasse 18 8810 Horgen",
+  "site_id": "295-HN12126",
+  "recorded_at": "2026-09-08T12:33:09+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "4fa1572089dea8cee6658beb1e7eb5631f15ba5938ff94b8e23accb6649f0c37.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2686887.8%2C1235886.8%5D%2C%5B2686941.0%2C1235950.7%5D%2C%5B2686887.8%2C1235950.7%5D%2C%5B2686941.0%2C1235886.8%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

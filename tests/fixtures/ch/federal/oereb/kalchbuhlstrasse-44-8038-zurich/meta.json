@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Kalchbühlstrasse 44 8038 Zürich",
+  "site_id": "261-WO6462",
+  "recorded_at": "2026-09-08T12:29:41+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "42d2dc1c2ec49adeb11b42a2d93e8ce4a2349fb2994e2dd3ba1d2e4fb0a06630.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682590.75%2C1243793.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "c75cb1beedbdb65360c4d4b9e2d6506444dc3ad1e235b0df23ac86639bfc9182.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH267999914680&LANG=de"
+    }
+  ]
+}

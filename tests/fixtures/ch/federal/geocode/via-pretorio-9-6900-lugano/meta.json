@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Via Pretorio 9 6900 Lugano",
+  "site_id": "5192-337",
+  "recorded_at": "2026-09-08T12:35:57+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "c6809d2f9dd862a8bffd2c6064b02de9af130d0b7920a87b5c28917aaebbb925.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Via+Pretorio+9+6900+Lugano&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "7febf7536a0f315b6b5d0d6fd6002a2e3581768331aaa0d50c0f480d9135a78e.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2717208.25%2C1096104.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2716708.25%2C1095604.75%2C2717708.25%2C1096604.75&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

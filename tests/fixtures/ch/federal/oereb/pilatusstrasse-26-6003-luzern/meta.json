@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Pilatusstrasse 26 6003 Luzern",
+  "site_id": "1061-13",
+  "recorded_at": "2026-09-08T12:36:09+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "74da810c23596b1704d828a39d634678d0e2889356d281bd4ed6a6ffc2df2a74.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2665839.25%2C1211185.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    }
+  ]
+}

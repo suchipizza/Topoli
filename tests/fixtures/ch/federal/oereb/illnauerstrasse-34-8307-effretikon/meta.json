@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Illnauerstrasse 34 8307 Effretikon",
+  "site_id": "296-IE1254",
+  "recorded_at": "2026-09-08T12:33:52+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "70a30344ca8b9944f4ba08e2b7ca83b6f15d00e42932367368607726581a18b0.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2694925.0%2C1253564.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "25c9b5f56903dc9fdf76efa226131a67afa995a3c63806b1fb69722bead44d83.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH959057778309&LANG=de"
+    }
+  ]
+}

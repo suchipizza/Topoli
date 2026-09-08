@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Seestrasse 3 8002 Zürich",
+  "site_id": "261-EN1287",
+  "recorded_at": "2026-09-08T12:28:22+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "aabf459037676168dffebf11b99acd423aaf703a01af160b2ce77f4da3532869.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682595.5%2C1246639.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "037ea874685ceb5899a6fb5e630f045a742e74135312f8daf6b1fcb7abf23e2d.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH427796999157&LANG=de"
+    }
+  ]
+}

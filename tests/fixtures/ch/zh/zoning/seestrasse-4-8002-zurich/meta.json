@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Seestrasse 4 8002 Zürich",
+  "site_id": "261-EN2739",
+  "recorded_at": "2026-09-08T12:28:26+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "3ba2220a41a6834342b874024a893f5295da110f72b6493d03e6313807f61551.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2682578.6%2C1246674.4%2C2682580.6%2C1246676.4%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

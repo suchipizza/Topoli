@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Bucheggstrasse 93 8057 Zürich",
+  "site_id": "261-UN5076",
+  "recorded_at": "2026-09-08T12:29:57+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "532e484fc923277fc1534958aaaed979c16ebc0d4c1d25afbd7921568ef65e43.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682773.0%2C1250375.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "79d93572328f60ac06ce79b24b4f03f4c60066811a4638b619b70c09f843581b.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH779170799940&LANG=de"
+    }
+  ]
+}

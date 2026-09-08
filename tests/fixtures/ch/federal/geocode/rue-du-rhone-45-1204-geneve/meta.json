@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Rue du Rhône 45 1204 Genève",
+  "site_id": "6621-4136",
+  "recorded_at": "2026-09-08T12:34:09+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "3c9ff85ecd7c32a4fb728cbf00da79701da46827159c78fda65d7a4c1470e5b2.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Rue+du+Rh%C3%B4ne+45+1204+Gen%C3%A8ve&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "bca00acb087095d850f851ca65c0b549623521e29953e5e3bb212e0610e4f02d.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2500535.5%2C1117735.25&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2500035.5%2C1117235.25%2C2501035.5%2C1118235.25&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

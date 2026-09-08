@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Forchstrasse 32 8008 Zürich",
+  "site_id": "261-RI4727",
+  "recorded_at": "2026-09-08T12:26:34+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "b7bdeff399f6d094a35711e1e7da333e065abdafc650840f9bb288f3da52a046.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Forchstrasse+32+8008+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "4982656df6afbd838a44364e3d9a9be9368efd2a872bce22d753651d44ba0c47.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2684423.75%2C1246464.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2683923.75%2C1245964.5%2C2684923.75%2C1246964.5&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

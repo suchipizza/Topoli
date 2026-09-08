@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/heritage",
+  "address": "Universitätstrasse 19 8006 Zürich",
+  "site_id": "261-OB3209",
+  "recorded_at": "2026-09-08T12:31:36+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "2d5ed0ddec715f0e29823d71675514335d7e78ae554ded0e8c4094e2b10b244d.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683753.9%2C1248150.5%5D%2C%5B2683755.4%2C1248151.4%5D%2C%5B2683758.6%2C1248151.4%5D%2C%5B2683761.7%2C1248151.5%5D%2C%5B2683761.7%2C1248157.4%5D%2C%5B2683763.1%2C1248157.5%5D%2C%5B2683776.6%2C1248157.6%5D%2C%5B2683778.3%2C1248157.6%5D%2C%5B2683778.3%2C1248148.1%5D%2C%5B2683776.6%2C1248148.2%5D%2C%5B2683763.2%2C1248148.1%5D%2C%5B2683761.8%2C1248148.1%5D%2C%5B2683761.8%2C1248137.1%5D%2C%5B2683753.9%2C1248150.5%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.babs.kulturgueter%2Cch.bak.schutzgebiete-unesco_weltkulturerbe&sr=2056&tolerance=0&returnGeometry=false&limit=50"
+    }
+  ]
+}

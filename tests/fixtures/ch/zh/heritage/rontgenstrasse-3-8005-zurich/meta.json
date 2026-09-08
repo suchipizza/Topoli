@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Röntgenstrasse 3 8005 Zürich",
+  "site_id": "261-AU7036",
+  "recorded_at": "2026-09-08T12:32:09+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "22228fd254e92f542117583908c2b70b9e6f2fd849520d5584b200fe7a49d053.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2681308.3%2C1248229.2%2C2682349.4%2C1248846.7%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/contamination",
+  "address": "Rue de Lausanne 3 1950 Sion",
+  "site_id": "6266-152",
+  "recorded_at": "2026-09-08T12:37:57+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "65344801a51150f0227e6242b3757bd1224feed0791756c192e4829564fd38cc.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2593951.9%2C1120167.2%5D%2C%5B2593967.3%2C1120174.1%5D%2C%5B2593967.4%2C1120174.1%5D%2C%5B2593967.4%2C1120174.1%5D%2C%5B2593967.5%2C1120174.1%5D%2C%5B2593967.6%2C1120174.1%5D%2C%5B2593967.6%2C1120174.1%5D%2C%5B2593967.7%2C1120174.0%5D%2C%5B2593967.7%2C1120174.0%5D%2C%5B2593967.8%2C1120174.0%5D%2C%5B2593967.8%2C1120173.9%5D%2C%5B2593967.9%2C1120173.9%5D%2C%5B2593967.9%2C1120173.8%5D%2C%5B2593967.9%2C1120173.7%5D%2C%5B2593968.0%2C1120173.7%5D%2C%5B2593968.0%2C1120173.6%5D%2C%5B2593968.0%2C1120173.6%5D%2C%5B2593968.0%2C1120173.5%5D%2C%5B2593968.1%2C1120157.5%5D%2C%5B2593956.4%2C1120156.1%5D%2C%5B2593951.9%2C1120167.2%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bav.kataster-belasteter-standorte-oev%2Cch.bazl.kataster-belasteter-standorte-zivilflugplaetze%2Cch.vbs.kataster-belasteter-standorte-militaer&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

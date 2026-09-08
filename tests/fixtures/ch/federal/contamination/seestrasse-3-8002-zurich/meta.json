@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/contamination",
+  "address": "Seestrasse 3 8002 Zürich",
+  "site_id": "261-EN1287",
+  "recorded_at": "2026-09-08T12:28:22+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "2e9002fbdbfa55d9044b11c47fbcc1763b2f9df566857768319c154c4d98bd9e.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2682588.0%2C1246638.7%5D%2C%5B2682595.8%2C1246649.3%5D%2C%5B2682606.1%2C1246641.7%5D%2C%5B2682608.2%2C1246637.5%5D%2C%5B2682597.9%2C1246623.7%5D%2C%5B2682596.9%2C1246625.2%5D%2C%5B2682588.0%2C1246638.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bav.kataster-belasteter-standorte-oev%2Cch.bazl.kataster-belasteter-standorte-zivilflugplaetze%2Cch.vbs.kataster-belasteter-standorte-militaer&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

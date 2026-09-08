@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Via Pretorio 11 6900 Lugano",
+  "site_id": "5192-1709",
+  "recorded_at": "2026-09-08T12:35:55+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "d2c691975ca2b9313dfe66cb8057ab48df00652a268674c78a947351e676bbc1.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2717212.75%2C1096128.25&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "6d81083a0c282c1998432ab2fb209cfb7867db3f5c53ebb2bacc6516fe64f67c.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2717185.7%2C1096123.2%5D%2C%5B2717190.6%2C1096141.8%5D%2C%5B2717207.4%2C1096138.6%5D%2C%5B2717207.4%2C1096138.7%5D%2C%5B2717221.2%2C1096136.1%5D%2C%5B2717216.0%2C1096114.2%5D%2C%5B2717208.6%2C1096115.9%5D%2C%5B2717209.1%2C1096117.9%5D%2C%5B2717185.7%2C1096123.2%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

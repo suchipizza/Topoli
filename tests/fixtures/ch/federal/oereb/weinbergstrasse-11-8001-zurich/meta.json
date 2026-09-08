@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Weinbergstrasse 11 8001 Zürich",
+  "site_id": "261-AA7024",
+  "recorded_at": "2026-09-08T12:31:30+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "452994d51491bfd28b075474b46e4f24ab1383429499c2893235da002231744e.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683489.25%2C1248060.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "cce3d1a4a3d25110cb78afd83f44e87b0db854f47d22903bdd285a861dfd987b.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH579177899915&LANG=de"
+    }
+  ]
+}

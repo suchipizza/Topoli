@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Hardturmstrasse 10 8005 Zürich",
+  "site_id": "261-IQ7087",
+  "recorded_at": "2026-09-08T12:29:06+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "3ff6d2c5c8eaada5640b2bcaeaa9ff57be7332d0962b35900e62a3267e6da824.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2681696.5%2C1249541.2%2C2681698.5%2C1249543.2%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

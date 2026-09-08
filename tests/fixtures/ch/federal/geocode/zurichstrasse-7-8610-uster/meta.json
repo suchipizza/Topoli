@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Zürichstrasse 7 8610 Uster",
+  "site_id": "198-B7237",
+  "recorded_at": "2026-09-08T12:32:39+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "e91121c66a24ba7fadfa18d4cfd8bfe511121331386c9b6d8582029349f76ba3.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Z%C3%BCrichstrasse+7+8610+Uster&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "3071064bc8431725c50d478173905f5963267b16bebd838a193b57cc09096657.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2696487.0%2C1245037.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2695987.0%2C1244537.375%2C2696987.0%2C1245537.375&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

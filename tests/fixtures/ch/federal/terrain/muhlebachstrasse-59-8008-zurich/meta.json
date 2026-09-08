@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Mühlebachstrasse 59 8008 Zürich",
+  "site_id": "261-RI3267",
+  "recorded_at": "2026-09-08T12:30:46+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "8a1a1f8b4fe0b9d406b9d5208661a2717ead3b97955053e234e883ce81460a22.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2684140.7%2C1246403.4%5D%2C%5B2684179.6%2C1246439.7%5D%2C%5B2684140.7%2C1246439.7%5D%2C%5B2684179.6%2C1246403.4%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

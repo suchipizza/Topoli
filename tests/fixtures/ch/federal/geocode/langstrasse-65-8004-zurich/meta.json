@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Langstrasse 65 8004 Zürich",
+  "site_id": "261-AU6403",
+  "recorded_at": "2026-09-08T12:28:53+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "2b9cda3931ed227705872ac169402466c8c1b6168c10a2bc47858944f4f8a6cb.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Langstrasse+65+8004+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "d34dc3a24b8feeab47f1e2e632b153c47ff1374667b3771808b4bd01cbae5fd1.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682111.25%2C1247923.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2681611.25%2C1247423.75%2C2682611.25%2C1248423.75&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

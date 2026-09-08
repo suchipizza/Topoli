@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Rötelstrasse 47 8037 Zürich",
+  "site_id": "261-WP4693",
+  "recorded_at": "2026-09-08T12:30:12+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "3b66093ba24a31c966a89aa62d8bb092d70bcec4d65835228e6e5b29c9790cb6.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=R%C3%B6telstrasse+47+8037+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "19fe9cca2611dff478fb78ebc50b9bde8d56a67f98c19fd72694e9e3a68a229c.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682765.75%2C1249596.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2682265.75%2C1249096.5%2C2683265.75%2C1250096.5&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

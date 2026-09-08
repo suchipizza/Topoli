@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Langstrasse 80 8004 Zürich",
+  "site_id": "261-AU914",
+  "recorded_at": "2026-09-08T12:29:00+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "ba4d3baa6c4a7be9e9e5cd37928b0aa44682907ea11101ca8cbb02ea8e656252.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2682170.6%2C1247980.6%2C2682172.6%2C1247982.6%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/heritage",
+  "address": "Witikonerstrasse 50 8032 Zürich",
+  "site_id": "261-HI3898",
+  "recorded_at": "2026-09-08T12:29:32+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "843bd30498f5dde5d4b6fb1cff38a91978b64af22ac33d76a94a0a2e9cb0c60a.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2685314.0%2C1246321.5%5D%2C%5B2685317.5%2C1246324.2%5D%2C%5B2685340.7%2C1246341.8%5D%2C%5B2685353.7%2C1246328.6%5D%2C%5B2685352.2%2C1246327.3%5D%2C%5B2685328.3%2C1246305.6%5D%2C%5B2685314.0%2C1246321.5%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.babs.kulturgueter%2Cch.bak.schutzgebiete-unesco_weltkulturerbe&sr=2056&tolerance=0&returnGeometry=false&limit=50"
+    }
+  ]
+}

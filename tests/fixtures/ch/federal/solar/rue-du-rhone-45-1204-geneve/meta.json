@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/solar",
+  "address": "Rue du Rhône 45 1204 Genève",
+  "site_id": "6621-4136",
+  "recorded_at": "2026-09-08T12:34:09+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "3295c824a2212d7c97b9df966c1889ba8fb10aa9374a08dff22e87b2fbb20ce7.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2500525.0%2C1117739.0%5D%2C%5B2500532.7%2C1117762.3%5D%2C%5B2500532.7%2C1117762.4%5D%2C%5B2500546.3%2C1117758.1%5D%2C%5B2500544.2%2C1117751.7%5D%2C%5B2500544.8%2C1117751.5%5D%2C%5B2500541.1%2C1117740.3%5D%2C%5B2500540.4%2C1117740.6%5D%2C%5B2500538.2%2C1117734.1%5D%2C%5B2500525.0%2C1117739.0%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfe.solarenergie-eignung-daecher&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

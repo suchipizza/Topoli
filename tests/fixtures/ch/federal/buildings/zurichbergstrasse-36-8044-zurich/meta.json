@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/buildings",
+  "address": "Zürichbergstrasse 36 8044 Zürich",
+  "site_id": "261-FL2436",
+  "recorded_at": "2026-09-08T12:26:37+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "f13151537d467a4b3979386a077a0b3e025e8bd1b22195510f53feb9fe1d97da.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2684329.2%2C1247613.8%5D%2C%5B2684358.7%2C1247629.9%5D%2C%5B2684374.7%2C1247608.5%5D%2C%5B2684392.5%2C1247584.5%5D%2C%5B2684399.5%2C1247575.1%5D%2C%5B2684373.5%2C1247554.3%5D%2C%5B2684352.2%2C1247582.9%5D%2C%5B2684329.8%2C1247613.0%5D%2C%5B2684329.2%2C1247613.8%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    }
+  ]
+}

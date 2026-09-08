@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/contamination",
+  "address": "Freiestrasse 48 8032 Zürich",
+  "site_id": "261-HO3141",
+  "recorded_at": "2026-09-08T12:30:17+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "26d860b886cfeedfb3a45dea6bf6094aa7c748c664c4fcd7908d00e40b70c5ea.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2684314.6%2C1247166.7%5D%2C%5B2684315.4%2C1247167.2%5D%2C%5B2684335.3%2C1247179.5%5D%2C%5B2684336.1%2C1247180.0%5D%2C%5B2684352.4%2C1247153.8%5D%2C%5B2684350.7%2C1247152.7%5D%2C%5B2684335.0%2C1247142.9%5D%2C%5B2684328.1%2C1247144.5%5D%2C%5B2684319.6%2C1247158.3%5D%2C%5B2684318.0%2C1247160.9%5D%2C%5B2684314.6%2C1247166.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bav.kataster-belasteter-standorte-oev%2Cch.bazl.kataster-belasteter-standorte-zivilflugplaetze%2Cch.vbs.kataster-belasteter-standorte-militaer&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

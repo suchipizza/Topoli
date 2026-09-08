@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Weinbergstrasse 11 8001 Zürich",
+  "site_id": "261-AA7024",
+  "recorded_at": "2026-09-08T12:31:30+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "2d25a5f4339d08aa2008f9560f71c587f2abf05f970de05e8ddc8dbe7a2d752b.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683466.8%2C1248015.9%2C2683494.9%2C1248069.7%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

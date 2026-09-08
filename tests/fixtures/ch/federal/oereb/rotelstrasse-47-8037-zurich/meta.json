@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Rötelstrasse 47 8037 Zürich",
+  "site_id": "261-WP4693",
+  "recorded_at": "2026-09-08T12:30:12+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "d5bb872fca0e0c107f80aa17b29c5486751b0553c2333ac5ec7fa26dc6fd94f7.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682765.75%2C1249596.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "35d9fc5d6c975184bde5b840f19f2f6c7c81eb5417312e3efe49dab1f4591b21.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH299971109138&LANG=de"
+    }
+  ]
+}

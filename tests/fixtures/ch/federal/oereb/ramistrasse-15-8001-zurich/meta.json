@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Rämistrasse 15 8001 Zürich",
+  "site_id": "261-AA3365",
+  "recorded_at": "2026-09-08T12:26:12+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "fefa295f45f8b3517e6fda1b13eff7e1f7688f7304bf2aec642f9a7141059d7b.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683650.25%2C1246981.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "e17e924555dbc9186299ab71dae131297bb6fdb03b256c5eda24b69968bc9c21.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH479177839967&LANG=de"
+    }
+  ]
+}

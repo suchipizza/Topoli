@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/buildings",
+  "address": "Albisriederstrasse 34 8003 Zürich",
+  "site_id": "261-WD5738",
+  "recorded_at": "2026-09-08T12:27:57+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "472376cabf62397125acd104f3408fc4fa7d4ed2b6e1a11780e397e86bef6123.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2680684.9%2C1248010.7%5D%2C%5B2680700.7%2C1248015.7%5D%2C%5B2680701.6%2C1248016.0%5D%2C%5B2680718.6%2C1248002.4%5D%2C%5B2680715.8%2C1247994.4%5D%2C%5B2680707.3%2C1247991.6%5D%2C%5B2680701.8%2C1247989.6%5D%2C%5B2680700.7%2C1247989.2%5D%2C%5B2680699.5%2C1247988.8%5D%2C%5B2680698.4%2C1247988.4%5D%2C%5B2680697.2%2C1247988.0%5D%2C%5B2680696.0%2C1247987.6%5D%2C%5B2680694.9%2C1247987.3%5D%2C%5B2680693.7%2C1247986.9%5D%2C%5B2680692.5%2C1247986.5%5D%2C%5B2680692.2%2C1247987.5%5D%2C%5B2680689.9%2C1247994.9%5D%2C%5B2680686.9%2C1248004.5%5D%2C%5B2680684.9%2C1248010.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    }
+  ]
+}

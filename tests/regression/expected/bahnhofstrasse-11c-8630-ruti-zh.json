@@ -1,0 +1,41 @@
+{
+ "address": "Bahnhofstrasse 11c 8630 Rüti ZH",
+ "layer0_de": [
+  [
+   "contamination.ch.bav.kataster-belasteter-standorte-oev.7020326",
+   "A"
+  ],
+  [
+   "heritage.zh.3953",
+   "A"
+  ],
+  [
+   "hazard.runoff",
+   "B"
+  ],
+  [
+   "activity.nearby",
+   "B"
+  ],
+  [
+   "solar.best_roof",
+   "A"
+  ]
+ ],
+ "coverage": {
+  "ch/federal/geocode": "ok",
+  "ch/federal/parcel": "ok",
+  "ch/federal/buildings": "ok",
+  "ch/federal/hazards": "ok",
+  "ch/federal/noise": "ok",
+  "ch/federal/contamination": "ok",
+  "ch/federal/oereb": "ok",
+  "ch/federal/solar": "ok",
+  "ch/federal/heritage": "ok",
+  "ch/federal/terrain": "ok",
+  "ch/zh/zoning": "ok",
+  "ch/zh/regulation": "not_contributed",
+  "ch/zh/heritage": "ok",
+  "ch/zh/construction_events": "ok"
+ }
+}

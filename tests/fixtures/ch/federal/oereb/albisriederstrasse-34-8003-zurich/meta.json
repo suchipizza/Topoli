@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Albisriederstrasse 34 8003 Zürich",
+  "site_id": "261-WD5738",
+  "recorded_at": "2026-09-08T12:27:57+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "db2b38bbc891cabd5f8b32b7a9933ba748377fe7258514d15c50b717b3e94644.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2680697.0%2C1248002.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "e0b566c71cb59ae40af5e92ab37f39451aa8acce05707779f8df27add7a6ca00.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH319100997196&LANG=de"
+    }
+  ]
+}

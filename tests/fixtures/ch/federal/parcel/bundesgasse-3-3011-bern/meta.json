@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Bundesgasse 3 3011 Bern",
+  "site_id": "351-1059",
+  "recorded_at": "2026-09-08T12:35:13+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "1dbcd98c0c2d113186c5447a0bdb7142cdf93a3236ab3ddcc5ba2eb2d286f2e9.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2600220.75%2C1199469.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "9dae5df17ccd589381fb62ebcd7c762937a70eb0ef4502e119ac19598b8989b6.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2600191.7%2C1199473.4%5D%2C%5B2600241.3%2C1199485.7%5D%2C%5B2600242.3%2C1199481.8%5D%2C%5B2600242.5%2C1199481.8%5D%2C%5B2600250.5%2C1199449.6%5D%2C%5B2600250.2%2C1199449.5%5D%2C%5B2600252.8%2C1199438.7%5D%2C%5B2600252.5%2C1199438.6%5D%2C%5B2600253.6%2C1199433.7%5D%2C%5B2600252.8%2C1199433.3%5D%2C%5B2600242.4%2C1199430.8%5D%2C%5B2600208.3%2C1199422.4%5D%2C%5B2600207.0%2C1199427.5%5D%2C%5B2600206.5%2C1199427.4%5D%2C%5B2600203.8%2C1199438.1%5D%2C%5B2600200.4%2C1199437.2%5D%2C%5B2600191.7%2C1199473.4%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

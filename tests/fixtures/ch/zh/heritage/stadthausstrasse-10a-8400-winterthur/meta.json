@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Stadthausstrasse 10a 8400 Winterthur",
+  "site_id": "230-ST3315",
+  "recorded_at": "2026-09-08T12:32:23+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "e7122d9b15e0988bf6963c037b70c4b46a4bf74f103ee7b85d4ebd1661cddfae.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2697017.2%2C1261854.7%2C2697057.6%2C1261887.3%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Witikonerstrasse 39 8032 Zürich",
+  "site_id": "261-HI1776",
+  "recorded_at": "2026-09-08T12:29:35+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "0cdda29f37d08a1779ab0707197e4b1c43bb0349e8203bebd0fb4b9cd31814e2.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2685295.5%2C1246437.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "cb369bff5daf9c03f62c7b6c2f6b37b2897413fa1dae17170812c54c11ec3c84.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH899971899182&LANG=de"
+    }
+  ]
+}

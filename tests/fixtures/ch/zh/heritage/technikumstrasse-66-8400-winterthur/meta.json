@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Technikumstrasse 66 8400 Winterthur",
+  "site_id": "230-ST7209",
+  "recorded_at": "2026-09-08T12:32:17+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "3b5177552780a16cb749ad76995045aa21951f947e2755b5860438a1656e9dd8.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2697093.1%2C1261577.3%2C2697115.4%2C1261623.9%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Zürcherstrasse 50 8953 Dietikon",
+  "site_id": "243-10678",
+  "recorded_at": "2026-09-08T12:32:58+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "9ff05b71640ddf1b53282cf80b8eace32167dcc4e9b5c65b4bb95beafb4d2e65.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2672326.8%2C1250291.6%2C2673326.8%2C1251291.6%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

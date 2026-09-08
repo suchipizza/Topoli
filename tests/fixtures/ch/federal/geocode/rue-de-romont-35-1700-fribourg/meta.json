@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Rue de Romont 35 1700 Fribourg",
+  "site_id": "2196-16239",
+  "recorded_at": "2026-09-08T12:38:07+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "ee8a6254c1c0d52f58e7e23991652303b5ab5bfbbc287f99316031db72a8bb51.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Rue+de+Romont+35+1700+Fribourg&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "2fba62e3f247817c47c941beed8b2ca1a06ba31405527fd20cf0d947be1fa1e3.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2578257.75%2C1183728.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2577757.75%2C1183228.0%2C2578757.75%2C1184228.0&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

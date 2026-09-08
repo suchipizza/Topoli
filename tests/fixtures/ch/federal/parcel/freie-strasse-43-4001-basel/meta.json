@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Freie Strasse 43 4001 Basel",
+  "site_id": "2701-56",
+  "recorded_at": "2026-09-08T12:34:55+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "60607ba272925adc8aa3b1144b07f88e64fb589c479aca349d85f28b6087ccc7.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2611393.25%2C1267311.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "46760e444476309eaff9354eebc8298de8723cc52d7bf2ae6dbc464a1b053697.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2611387.3%2C1267313.1%5D%2C%5B2611413.1%2C1267328.1%5D%2C%5B2611413.7%2C1267327.7%5D%2C%5B2611414.0%2C1267327.9%5D%2C%5B2611416.1%2C1267326.2%5D%2C%5B2611416.6%2C1267326.4%5D%2C%5B2611420.0%2C1267323.8%5D%2C%5B2611413.2%2C1267319.1%5D%2C%5B2611412.3%2C1267318.4%5D%2C%5B2611410.4%2C1267317.1%5D%2C%5B2611410.4%2C1267317.0%5D%2C%5B2611408.0%2C1267315.5%5D%2C%5B2611408.1%2C1267315.3%5D%2C%5B2611402.2%2C1267311.8%5D%2C%5B2611397.7%2C1267309.2%5D%2C%5B2611391.9%2C1267306.1%5D%2C%5B2611387.3%2C1267313.1%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

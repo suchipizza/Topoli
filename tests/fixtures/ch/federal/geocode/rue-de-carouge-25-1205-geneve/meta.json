@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Rue de Carouge 25 1205 Genève",
+  "site_id": "6621-699",
+  "recorded_at": "2026-09-08T12:34:29+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "155c7e9ddb39c5ae8944a828114561392811b797a99273b69a243a694b298817.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Rue+de+Carouge+25+1205+Gen%C3%A8ve&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "9037b13e28f034cc5c504d1608c29579d94b202b9429246bb2a44c9077653f1e.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2500015.25%2C1116854.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2499515.25%2C1116354.375%2C2500515.25%2C1117354.375&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

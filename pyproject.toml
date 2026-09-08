@@ -57,10 +57,12 @@ build-backend = "hatchling.build"
 [tool.hatch.build.targets.wheel]
 packages = ["topoli"]
 # Repo-root assets the installed package needs at runtime (resolved via topoli.paths).
+# Packaged copies of the repo-root assets live in a sibling directory (never inside the
+# ``topoli`` package: an editable install would otherwise create a shadowing namespace package).
 [tool.hatch.build.targets.wheel.force-include]
-"i18n" = "topoli/_data/i18n"
-"ui" = "topoli/_data/ui"
-"skills" = "topoli/_data/skills"
+"i18n" = "topoli_data/i18n"
+"ui" = "topoli_data/ui"
+"skills" = "topoli_data/skills"
 
 [tool.hatch.build.targets.sdist]
 include = ["topoli", "skills", "ui", "i18n", "tests", "docs", "README*.md", "LICENSE", "LICENCES.md", "pyproject.toml"]
@@ -81,6 +83,7 @@ ignore = ["PLR0913", "PLR2004", "T201", "RUF001", "RUF002", "RUF003"]
 "topoli/core/adapters/registry.py" = ["PLC0415"]
 "topoli/core/adapters/fixtures.py" = ["PLC0415"]
 "topoli/core/scoring/coverage.py" = ["PLC0415"]
+"topoli/core/adapters/http.py" = ["PLC0415"]
 "topoli/countries/**/__init__.py" = ["PLC0415"]
 "topoli/countries/ch/federal/licences.py" = ["E501"]
 "topoli/countries/ch/zh/licences.py" = ["E501"]

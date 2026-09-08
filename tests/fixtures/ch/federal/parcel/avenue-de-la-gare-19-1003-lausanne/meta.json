@@ -1,0 +1,21 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Avenue de la Gare 19 1003 Lausanne",
+  "site_id": "5586-6019",
+  "recorded_at": "2026-09-08T12:34:32+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "2be3ac1a6e551512ecc17c8236ea0ea3e07ce2726ab79abfb5f0f7a39a77177e.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2538403.25%2C1151910.25&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "80b42d447ef6167149f81bbf1ec8a3c63e737ecb25ca93619930acbd3aae53fe.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2538403.25%2C1151910.25&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.kantone.cadastralwebmap-farbe&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "2ed4005526a8b51a193603debd919c4f167c212d305a2ae410e431e99f281f8d.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2538369.9%2C1151891.3%5D%2C%5B2538386.5%2C1151923.8%5D%2C%5B2538390.9%2C1151928.9%5D%2C%5B2538420.1%2C1151916.7%5D%2C%5B2538412.4%2C1151901.2%5D%2C%5B2538415.8%2C1151896.6%5D%2C%5B2538410.7%2C1151887.4%5D%2C%5B2538403.7%2C1151874.5%5D%2C%5B2538404.0%2C1151874.3%5D%2C%5B2538403.2%2C1151872.6%5D%2C%5B2538369.9%2C1151891.3%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.kantone.cadastralwebmap-farbe&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

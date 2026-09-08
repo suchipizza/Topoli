@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Albisriederstrasse 36 8003 Zürich",
+  "site_id": "261-WD5599",
+  "recorded_at": "2026-09-08T12:28:01+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "f4118ab386b9d95b6797d7b03d673a5d07bfbfc013fb7a831eafcc1ea6d7e74e.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Albisriederstrasse+36+8003+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "168a6de930cc0b7b0a74ad95856a3af250c8944651a2f500068490937867944c.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2680680.5%2C1247996.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2680180.5%2C1247496.75%2C2681180.5%2C1248496.75&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

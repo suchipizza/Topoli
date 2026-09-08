@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Universitätstrasse 19 8006 Zürich",
+  "site_id": "261-OB3209",
+  "recorded_at": "2026-09-08T12:31:36+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "8a909459140af2604320c2b367022a45a5fe50a32c81677718a9b04bc8234a9b.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Universit%C3%A4tstrasse+19+8006+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "d2c21250b54d648fa55416f6a16d22c3b60aafba5b9014dc47514a2249420452.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683770.25%2C1248152.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2683270.25%2C1247652.75%2C2684270.25%2C1248652.75&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

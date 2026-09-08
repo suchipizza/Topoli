@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/solar",
+  "address": "Rue de Carouge 37 1205 Genève",
+  "site_id": "6621-3211",
+  "recorded_at": "2026-09-08T12:34:24+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "7e2b349ff428c0af1ec6ee41fc7d4ccd128e25ad3633a51dbbf088829cac24da.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2500032.8%2C1116725.2%5D%2C%5B2500047.6%2C1116726.8%5D%2C%5B2500047.6%2C1116726.4%5D%2C%5B2500049.0%2C1116715.7%5D%2C%5B2500054.0%2C1116716.3%5D%2C%5B2500055.0%2C1116707.9%5D%2C%5B2500050.0%2C1116707.5%5D%2C%5B2500049.7%2C1116707.4%5D%2C%5B2500049.1%2C1116707.4%5D%2C%5B2500049.0%2C1116707.8%5D%2C%5B2500035.2%2C1116706.1%5D%2C%5B2500032.8%2C1116725.2%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfe.solarenergie-eignung-daecher&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/buildings",
+  "address": "Asylstrasse 21b 8032 Zürich",
+  "site_id": "261-HO3772",
+  "recorded_at": "2026-09-08T12:30:25+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "32e8f8074822d80aefbc90ac6128e7347ef72f0260167cd7be9b5f728e7f4e68.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2684523.6%2C1247082.2%5D%2C%5B2684536.2%2C1247090.8%5D%2C%5B2684543.5%2C1247095.9%5D%2C%5B2684547.4%2C1247095.5%5D%2C%5B2684551.3%2C1247089.8%5D%2C%5B2684550.5%2C1247089.3%5D%2C%5B2684548.9%2C1247088.3%5D%2C%5B2684543.4%2C1247084.5%5D%2C%5B2684542.1%2C1247083.6%5D%2C%5B2684546.8%2C1247077.0%5D%2C%5B2684545.6%2C1247076.2%5D%2C%5B2684546.5%2C1247075.0%5D%2C%5B2684537.6%2C1247068.9%5D%2C%5B2684537.4%2C1247069.1%5D%2C%5B2684523.6%2C1247082.2%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    }
+  ]
+}

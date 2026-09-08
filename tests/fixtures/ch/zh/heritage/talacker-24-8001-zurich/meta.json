@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Talacker 24 8001 Zürich",
+  "site_id": "261-AA1775",
+  "recorded_at": "2026-09-08T12:31:18+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "bd6e660f03dad5bfc63c3754008c68599531ea80ae40ba60921a27ce335792aa.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2682914.1%2C1247227.2%2C2682990.9%2C1247342.1%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

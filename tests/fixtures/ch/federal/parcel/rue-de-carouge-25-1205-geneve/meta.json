@@ -1,0 +1,25 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Rue de Carouge 25 1205 Genève",
+  "site_id": "6621-699",
+  "recorded_at": "2026-09-08T12:34:29+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "64bcf572cfdeb35bc828930823146a722acff8ee6b9b6eb22736e7c39c8a5643.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2500015.25%2C1116854.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "64bd6d91dd6fcabfcad1fcc498e44cb2d34f3a23623087acf54b0a436b4ac856.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=CH276389736571&type=locations&sr=2056&limit=1&origins=parcel"
+    },
+    {
+      "file": "007f7e98b4232993b4ae12fc3549cf5b3edeed8540e503ea410d8cf15fd4ef8e.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2500024.0%2C1116848.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "b0fa0529e4241fe6796b94e69b3d6c2aff8b390c2db4305824c292b24db8f90b.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2500015.1%2C1116855.3%5D%2C%5B2500027.9%2C1116854.0%5D%2C%5B2500031.5%2C1116853.6%5D%2C%5B2500032.8%2C1116844.2%5D%2C%5B2500016.8%2C1116842.0%5D%2C%5B2500015.1%2C1116855.3%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Seestrasse 18 8810 Horgen",
+  "site_id": "295-HN12126",
+  "recorded_at": "2026-09-08T12:33:09+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "8fc92d83b5461e771b796b0c9bc06b93e9e58e001299987130de52b759ab3729.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2686424.5%2C1235410.9%2C2687424.5%2C1236410.9%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Alte Landstrasse 16 8800 Thalwil",
+  "site_id": "141-7714",
+  "recorded_at": "2026-09-08T12:33:30+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "f0d90d033d24a39537d6cc0bfbcd75c9f9d71771f8a91f3dc69f85bba284f1ef.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Alte+Landstrasse+16+8800+Thalwil&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "4d584bc5d1ec7a4bf5b3e5f61e8822bcadc1621ba805269fb1938a22aa15b3f5.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2685882.75%2C1237446.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2685382.75%2C1236946.5%2C2686382.75%2C1237946.5&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

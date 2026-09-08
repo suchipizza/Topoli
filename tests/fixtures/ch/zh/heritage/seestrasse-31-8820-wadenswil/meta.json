@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Seestrasse 31 8820 Wädenswil",
+  "site_id": "293-WE13905",
+  "recorded_at": "2026-09-08T12:46:23+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "d0a47b06bb0d727129327b0f48f5d06602d0839c2c15ecf357dae0481f3bac65.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2694259.2%2C1230841.0%2C2694368.6%2C1231001.4%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

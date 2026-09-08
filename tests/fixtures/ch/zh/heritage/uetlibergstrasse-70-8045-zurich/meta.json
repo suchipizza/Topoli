@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Uetlibergstrasse 70 8045 Zürich",
+  "site_id": "261-WD8984",
+  "recorded_at": "2026-09-08T12:28:13+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "55a84ef9a016ce6a892f5ab0535ff6e7f1168cc0ed3fcf569c1492739a4d5e82.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2681495.4%2C1246305.3%2C2681603.4%2C1246369.3%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

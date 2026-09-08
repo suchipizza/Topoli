@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/heritage",
+  "address": "Stauffacherstrasse 101 8004 Zürich",
+  "site_id": "261-AU5974",
+  "recorded_at": "2026-09-08T12:31:49+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "62c5bdfc1b9b907afff4591dca50120a65d5d8cbdc45f52781f8db6b942ed9ab.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2682034.5%2C1247856.1%5D%2C%5B2682035.9%2C1247859.1%5D%2C%5B2682037.4%2C1247862.4%5D%2C%5B2682037.2%2C1247862.5%5D%2C%5B2682037.9%2C1247864.2%5D%2C%5B2682038.2%2C1247864.1%5D%2C%5B2682042.2%2C1247872.6%5D%2C%5B2682055.7%2C1247866.3%5D%2C%5B2682070.7%2C1247859.3%5D%2C%5B2682070.3%2C1247858.4%5D%2C%5B2682066.3%2C1247849.8%5D%2C%5B2682062.7%2C1247842.2%5D%2C%5B2682058.2%2C1247840.7%5D%2C%5B2682046.6%2C1247846.5%5D%2C%5B2682048.0%2C1247849.7%5D%2C%5B2682035.5%2C1247855.6%5D%2C%5B2682034.5%2C1247856.1%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.babs.kulturgueter%2Cch.bak.schutzgebiete-unesco_weltkulturerbe&sr=2056&tolerance=0&returnGeometry=false&limit=50"
+    }
+  ]
+}

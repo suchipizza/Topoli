@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Bahnhofstrasse 11c 8630 Rüti ZH",
+  "site_id": "118-6666",
+  "recorded_at": "2026-09-08T12:33:44+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "61826220482e92ab38eeb3cd18beca3afab557850dcd0de6f0e4a88352b0059c.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2707078.8%2C1235186.1%5D%2C%5B2707404.1%2C1235402.1%5D%2C%5B2707078.8%2C1235402.1%5D%2C%5B2707404.1%2C1235186.1%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

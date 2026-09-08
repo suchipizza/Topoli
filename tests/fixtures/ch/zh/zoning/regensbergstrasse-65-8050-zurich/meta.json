@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Regensbergstrasse 65 8050 Zürich",
+  "site_id": "261-OE3810",
+  "recorded_at": "2026-09-08T12:27:17+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "560c1bc10c1fbf7a3665b3eb5e745b45df082b34f15894ac9aa7cd06470be749.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683972.5%2C1251079.9%2C2683974.5%2C1251081.9%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

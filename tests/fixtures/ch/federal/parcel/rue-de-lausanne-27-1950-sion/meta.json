@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Rue de Lausanne 27 1950 Sion",
+  "site_id": "6266-615",
+  "recorded_at": "2026-09-08T12:36:46+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "136101aabdf5fbecd860cb859bb43282cd48fefeded67e6901e2b0d147173ba8.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2593778.75%2C1120078.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "f6f0568537daeddf2d23eadff4142d6e1b0352a15960931a2273c44bf363b269.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2593776.1%2C1120083.2%5D%2C%5B2593799.5%2C1120093.9%5D%2C%5B2593819.5%2C1120050.0%5D%2C%5B2593818.1%2C1120049.4%5D%2C%5B2593817.8%2C1120050.2%5D%2C%5B2593795.7%2C1120040.5%5D%2C%5B2593776.1%2C1120083.2%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

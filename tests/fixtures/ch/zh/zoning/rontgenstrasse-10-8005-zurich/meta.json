@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Röntgenstrasse 10 8005 Zürich",
+  "site_id": "261-IQ2159",
+  "recorded_at": "2026-09-08T12:32:04+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "f43b39b93f50f41615ac707aa96688156841b4a4ec0e2eecf66014647f5107d6.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2682308.5%2C1248520.3%2C2682310.5%2C1248522.3%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

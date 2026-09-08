@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Limmattalstrasse 20 8049 Zürich",
+  "site_id": "261-HG2627",
+  "recorded_at": "2026-09-08T12:27:38+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "8b9119c73f5c58f83b3fcfe0a660ec0c6563f17fe12500365e310164e3dcb359.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2681104.4%2C1250078.6%2C2681106.4%2C1250080.6%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

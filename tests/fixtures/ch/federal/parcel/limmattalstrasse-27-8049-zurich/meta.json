@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Limmattalstrasse 27 8049 Zürich",
+  "site_id": "261-HG6035",
+  "recorded_at": "2026-09-08T12:27:41+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "b52d17e8629b7fcf3bcb8e2c2cfb2e82340cf18fd7bbc90cce6064525e140963.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2680934.25%2C1250062.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "f1941cbffd751c3e0554acc32557318ef35f59c59ad3237dadf0152ff252c466.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2680919.3%2C1250044.2%5D%2C%5B2680920.9%2C1250051.7%5D%2C%5B2680925.6%2C1250074.2%5D%2C%5B2680926.1%2C1250077.0%5D%2C%5B2680926.2%2C1250077.1%5D%2C%5B2680931.7%2C1250076.1%5D%2C%5B2680950.7%2C1250072.5%5D%2C%5B2680946.3%2C1250048.9%5D%2C%5B2680947.3%2C1250048.7%5D%2C%5B2680945.5%2C1250039.3%5D%2C%5B2680919.3%2C1250044.2%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

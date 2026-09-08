@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/heritage",
+  "address": "Schaffhauserstrasse 2 8006 Zürich",
+  "site_id": "261-UN3912",
+  "recorded_at": "2026-09-08T12:27:03+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "fe288d819c348ee075163cc4e3fec6c32d2e34e104dc6fd6720e9e5a16614818.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683113.9%2C1249176.7%5D%2C%5B2683114.0%2C1249176.8%5D%2C%5B2683114.8%2C1249177.1%5D%2C%5B2683135.4%2C1249185.0%5D%2C%5B2683135.9%2C1249183.6%5D%2C%5B2683135.5%2C1249183.4%5D%2C%5B2683139.9%2C1249169.2%5D%2C%5B2683142.4%2C1249161.0%5D%2C%5B2683144.6%2C1249153.9%5D%2C%5B2683146.8%2C1249146.7%5D%2C%5B2683127.3%2C1249146.3%5D%2C%5B2683120.8%2C1249161.0%5D%2C%5B2683113.9%2C1249176.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.babs.kulturgueter%2Cch.bak.schutzgebiete-unesco_weltkulturerbe&sr=2056&tolerance=0&returnGeometry=false&limit=50"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+ "address": "Bahnhofstrasse 14 8001 Zürich",
+ "layer0_de": [
+  [
+   "hazard.flood",
+   "B"
+  ],
+  [
+   "activity.nearby",
+   "B"
+  ],
+  [
+   "solar.best_roof",
+   "A"
+  ],
+  [
+   "zoning.zone",
+   "A"
+  ],
+  [
+   "noise.road",
+   "B"
+  ]
+ ],
+ "coverage": {
+  "ch/federal/geocode": "ok",
+  "ch/federal/parcel": "ok",
+  "ch/federal/buildings": "ok",
+  "ch/federal/hazards": "ok",
+  "ch/federal/noise": "ok",
+  "ch/federal/contamination": "ok",
+  "ch/federal/oereb": "ok",
+  "ch/federal/solar": "ok",
+  "ch/federal/heritage": "ok",
+  "ch/federal/terrain": "ok",
+  "ch/zh/zoning": "ok",
+  "ch/zh/regulation": "ok",
+  "ch/zh/heritage": "ok",
+  "ch/zh/construction_events": "ok"
+ }
+}

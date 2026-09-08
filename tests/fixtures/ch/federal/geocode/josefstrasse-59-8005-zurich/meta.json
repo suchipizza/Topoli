@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Josefstrasse 59 8005 Zürich",
+  "site_id": "261-IQ5970",
+  "recorded_at": "2026-09-08T12:29:12+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "e6e939d7f882ac2ccde1fee1ea402c139965bc96a2cc6029acb535e8b4820319.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Josefstrasse+59+8005+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "73cb3f1924fe492dbd5f4cfc86d8a195a8a7a71b006255653b2c10d9b17c3229.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682552.5%2C1248492.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2682052.5%2C1247992.125%2C2683052.5%2C1248992.125&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

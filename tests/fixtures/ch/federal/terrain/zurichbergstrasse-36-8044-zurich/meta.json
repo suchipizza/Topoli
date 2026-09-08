@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Zürichbergstrasse 36 8044 Zürich",
+  "site_id": "261-FL2436",
+  "recorded_at": "2026-09-08T12:26:37+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "7a561a7970644f7e69928a026f782c0eda9487df4af347cedd162f0156327f97.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2684329.2%2C1247554.3%5D%2C%5B2684399.5%2C1247629.9%5D%2C%5B2684329.2%2C1247629.9%5D%2C%5B2684399.5%2C1247554.3%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

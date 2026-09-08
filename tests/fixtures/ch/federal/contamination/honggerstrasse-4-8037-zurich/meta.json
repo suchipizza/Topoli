@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/contamination",
+  "address": "Hönggerstrasse 4 8037 Zürich",
+  "site_id": "261-WP1082",
+  "recorded_at": "2026-09-08T12:27:30+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "bcbc853e01aaf500231a0f72534e45044bcd0cce2395f5961197049acd1bffec.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2682212.4%2C1249446.5%5D%2C%5B2682221.6%2C1249463.3%5D%2C%5B2682230.7%2C1249458.1%5D%2C%5B2682230.3%2C1249457.2%5D%2C%5B2682225.4%2C1249448.4%5D%2C%5B2682221.6%2C1249441.5%5D%2C%5B2682216.1%2C1249444.6%5D%2C%5B2682216.1%2C1249444.5%5D%2C%5B2682215.5%2C1249444.9%5D%2C%5B2682212.4%2C1249446.5%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bav.kataster-belasteter-standorte-oev%2Cch.bazl.kataster-belasteter-standorte-zivilflugplaetze%2Cch.vbs.kataster-belasteter-standorte-militaer&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

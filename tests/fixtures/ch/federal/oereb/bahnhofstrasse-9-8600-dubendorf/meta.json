@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Bahnhofstrasse 9 8600 Dübendorf",
+  "site_id": "191-5506",
+  "recorded_at": "2026-09-08T12:33:57+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "f0dd1eea461ab6b3bc34c9a776b178808f0bf277be67d1cc95bc012e1e41f7e2.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2689067.0%2C1250304.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "b2bd5b99ad1285a573aa62e0f4d817bdf3e127ecd48f5d7e43ce3b6ffc335bb6.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH787494037764&LANG=de"
+    }
+  ]
+}

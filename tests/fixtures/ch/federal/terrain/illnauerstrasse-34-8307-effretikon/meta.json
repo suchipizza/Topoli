@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Illnauerstrasse 34 8307 Effretikon",
+  "site_id": "296-IE1254",
+  "recorded_at": "2026-09-08T12:33:52+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "cdaeef00c31305ae093153574d934c0916c87b49139a96c11b7aecf1802ecccb.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2694838.3%2C1253484.1%5D%2C%5B2694968.2%2C1253597.1%5D%2C%5B2694838.3%2C1253597.1%5D%2C%5B2694968.2%2C1253484.1%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

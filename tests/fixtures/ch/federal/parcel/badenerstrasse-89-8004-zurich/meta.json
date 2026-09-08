@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Badenerstrasse 89 8004 Zürich",
+  "site_id": "261-AU4367",
+  "recorded_at": "2026-09-08T12:27:51+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "b8b8d9382c3ced00837670db5941bcbf70cd3e53d1aa03320eda1d1d4e601144.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682105.0%2C1247572.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "20e6be21a0d7aed744a124948f0786c2fb2175ea924763f9c3120ddd20c9bdaa.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2682092.0%2C1247563.3%5D%2C%5B2682099.6%2C1247578.8%5D%2C%5B2682101.9%2C1247579.7%5D%2C%5B2682113.1%2C1247574.3%5D%2C%5B2682108.7%2C1247565.4%5D%2C%5B2682104.8%2C1247557.2%5D%2C%5B2682102.2%2C1247558.5%5D%2C%5B2682092.0%2C1247563.3%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

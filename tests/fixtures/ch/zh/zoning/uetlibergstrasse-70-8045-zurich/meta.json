@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Uetlibergstrasse 70 8045 Zürich",
+  "site_id": "261-WD8984",
+  "recorded_at": "2026-09-08T12:28:13+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "a3160ed515298cc4f939b31fa159048eca84be4ab6a10cef21af66549703147b.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2681561.8%2C1246334.6%2C2681563.8%2C1246336.6%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

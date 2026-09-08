@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Bederstrasse 1 8002 Zürich",
+  "site_id": "261-EN2952",
+  "recorded_at": "2026-09-08T12:28:41+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "34de3a1879970948118ca1acd666dda6b89a3c165c7f0fff4d8745d0d97beec8.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2682422.4%2C1246333.2%5D%2C%5B2682554.4%2C1246636.0%5D%2C%5B2682422.4%2C1246636.0%5D%2C%5B2682554.4%2C1246333.2%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

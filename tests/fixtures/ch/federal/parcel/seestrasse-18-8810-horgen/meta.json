@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Seestrasse 18 8810 Horgen",
+  "site_id": "295-HN12126",
+  "recorded_at": "2026-09-08T12:33:09+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "cb9c134268761afe6e9e2abadc565d4e8938e4572e7499bb1c298d54c7759a25.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2686924.5%2C1235910.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "782ef6f5c4e699a00dc66a9203b1b0cf7bb402fa673d6422e0174a8700a6a6ad.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2686887.8%2C1235936.6%5D%2C%5B2686891.4%2C1235938.7%5D%2C%5B2686910.0%2C1235949.7%5D%2C%5B2686911.7%2C1235950.7%5D%2C%5B2686913.7%2C1235947.4%5D%2C%5B2686934.9%2C1235911.3%5D%2C%5B2686935.3%2C1235910.5%5D%2C%5B2686935.8%2C1235909.6%5D%2C%5B2686936.3%2C1235908.7%5D%2C%5B2686936.7%2C1235907.9%5D%2C%5B2686937.1%2C1235907.0%5D%2C%5B2686937.6%2C1235906.1%5D%2C%5B2686938.1%2C1235905.2%5D%2C%5B2686938.5%2C1235904.3%5D%2C%5B2686939.0%2C1235903.3%5D%2C%5B2686939.4%2C1235902.4%5D%2C%5B2686939.8%2C1235901.7%5D%2C%5B2686940.1%2C1235901.0%5D%2C%5B2686940.4%2C1235900.3%5D%2C%5B2686940.7%2C1235899.6%5D%2C%5B2686941.0%2C1235898.8%5D%2C%5B2686925.2%2C1235891.0%5D%2C%5B2686919.7%2C1235887.3%5D%2C%5B2686919.0%2C1235886.8%5D%2C%5B2686917.1%2C1235890.3%5D%2C%5B2686912.3%2C1235897.3%5D%2C%5B2686909.0%2C1235897.0%5D%2C%5B2686887.8%2C1235936.6%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Albisriederstrasse 5 8003 Zürich",
+  "site_id": "261-WD7516",
+  "recorded_at": "2026-09-08T12:27:54+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "273761fafaff1818acef2b9e3c8a1aeea64cafa6f6562224cc6b2cb0d39a7c0f.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2680846.9%2C1247980.4%2C2680902.2%2C1248027.4%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

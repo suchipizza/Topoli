@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Stauffacherstrasse 25a 8004 Zürich",
+  "site_id": "261-AU4898",
+  "recorded_at": "2026-09-08T12:31:53+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "93312dd7d2bd9292a35375290a6b60c7dbfd5bef58d293f860481d50bb01cb35.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2681859.2%2C1246970.6%2C2682859.2%2C1247970.6%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

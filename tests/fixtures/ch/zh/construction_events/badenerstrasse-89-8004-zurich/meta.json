@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Badenerstrasse 89 8004 Zürich",
+  "site_id": "261-AU4367",
+  "recorded_at": "2026-09-08T12:27:51+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "8dfd55b7d215870eaefb78e179e1d16569e50e06b4f7b7eed61a6eb0fbfc6451.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2681605.0%2C1247072.0%2C2682605.0%2C1248072.0%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

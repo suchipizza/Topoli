@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Alfred-Escher-Strasse 62 8002 Zürich",
+  "site_id": "261-EN3010",
+  "recorded_at": "2026-09-08T12:28:44+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "0f2a70eabc27b1dbd4d779ecd3011a98677a2b9e913879afed68299c2c070823.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682737.5%2C1246158.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "1dc38f156512164cba8f909f8c867b9529dd86cdca52690e80c3926948b122df.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH249199770105&LANG=de"
+    }
+  ]
+}

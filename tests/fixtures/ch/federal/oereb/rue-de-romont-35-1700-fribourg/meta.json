@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Rue de Romont 35 1700 Fribourg",
+  "site_id": "2196-16239",
+  "recorded_at": "2026-09-08T12:38:07+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "1fefbca5ddda126ba75bb4094241a112e7e879d53d85a356cd51c3820443f378.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2578257.75%2C1183728.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    }
+  ]
+}

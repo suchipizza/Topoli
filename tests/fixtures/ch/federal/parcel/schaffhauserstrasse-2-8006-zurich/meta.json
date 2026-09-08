@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Schaffhauserstrasse 2 8006 Zürich",
+  "site_id": "261-UN3912",
+  "recorded_at": "2026-09-08T12:27:03+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "64c4714f0e6e968dd4d57d6197d3b2cb0ce2d7b20b217d5718460439ec30f08c.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683130.0%2C1249157.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "3cffe8f28d651068f8251a5be9663228e19e807dd937d5f1b9d23ff857b1a38b.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683113.9%2C1249176.7%5D%2C%5B2683114.0%2C1249176.8%5D%2C%5B2683114.8%2C1249177.1%5D%2C%5B2683135.4%2C1249185.0%5D%2C%5B2683135.9%2C1249183.6%5D%2C%5B2683135.5%2C1249183.4%5D%2C%5B2683139.9%2C1249169.2%5D%2C%5B2683142.4%2C1249161.0%5D%2C%5B2683144.6%2C1249153.9%5D%2C%5B2683146.8%2C1249146.7%5D%2C%5B2683127.3%2C1249146.3%5D%2C%5B2683120.8%2C1249161.0%5D%2C%5B2683113.9%2C1249176.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

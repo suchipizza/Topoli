@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Bellerivestrasse 33 8008 Zürich",
+  "site_id": "261-RI663",
+  "recorded_at": "2026-09-08T12:30:39+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "da01e8e0e1b0ca7dde4560b86b63b616a2c56ff5cf47a0b00e2be8c8d48bec44.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683510.5%2C1245329.6%2C2684510.5%2C1246329.6%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

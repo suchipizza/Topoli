@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Bederstrasse 31 8002 Zürich",
+  "site_id": "261-EN2854",
+  "recorded_at": "2026-09-08T12:28:37+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "4e9cb2854596fd0de447f6f4d6c66df4d85c03a1568e8961c557aa87c2d1275c.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Bederstrasse+31+8002+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "c7a6253e6c3cfe1d3e472c2f4093e388d439de66142b333f63a87a50a9d229d4.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682394.25%2C1246480.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2681894.25%2C1245980.0%2C2682894.25%2C1246980.0&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

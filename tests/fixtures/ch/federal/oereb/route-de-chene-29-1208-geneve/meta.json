@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Route de Chêne 29 1208 Genève",
+  "site_id": "6621-804",
+  "recorded_at": "2026-09-08T12:34:15+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "9a7c703d3b59ff4be0ac9134445850df43fda0950efe361b9e14e0c378f907d0.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2501948.5%2C1117335.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "806605776e5616a34a465faf8c3b3d9176a57b558474b8e2351bf6a536f90a9f.json.gz",
+      "url": "https://ge.ch/terecadastrews/RdppfSVC.svc/extract/json/?EGRID=CH716342658835&LANG=fr"
+    }
+  ]
+}

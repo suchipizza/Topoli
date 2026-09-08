@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/contamination",
+  "address": "Badenerstrasse 72 8004 Zürich",
+  "site_id": "261-AU445",
+  "recorded_at": "2026-09-08T12:27:44+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "a9d578ae227284387968bf13dded7fd2646376739fad3a75262680d4772aadd0.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2682184.0%2C1247558.7%5D%2C%5B2682189.2%2C1247569.5%5D%2C%5B2682194.0%2C1247579.3%5D%2C%5B2682197.7%2C1247576.5%5D%2C%5B2682209.0%2C1247568.0%5D%2C%5B2682200.6%2C1247550.6%5D%2C%5B2682184.0%2C1247558.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bav.kataster-belasteter-standorte-oev%2Cch.bazl.kataster-belasteter-standorte-zivilflugplaetze%2Cch.vbs.kataster-belasteter-standorte-militaer&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

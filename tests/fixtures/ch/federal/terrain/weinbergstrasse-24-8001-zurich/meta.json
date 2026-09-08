@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Weinbergstrasse 24 8001 Zürich",
+  "site_id": "261-AA6839",
+  "recorded_at": "2026-09-08T12:31:27+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "6e79cae81d7ce993faf73abc7915ca839933d20bcb4f9ac4c92f8f777c056223.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2683506.6%2C1248132.1%5D%2C%5B2683524.0%2C1248145.3%5D%2C%5B2683506.6%2C1248145.3%5D%2C%5B2683524.0%2C1248132.1%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

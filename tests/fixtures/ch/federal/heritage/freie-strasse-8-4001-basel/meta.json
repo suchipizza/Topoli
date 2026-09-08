@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/heritage",
+  "address": "Freie Strasse 8 4001 Basel",
+  "site_id": "2701-205",
+  "recorded_at": "2026-09-08T12:35:01+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "e77c3d91a080c7274b7da7ec7034b4b26d8821b633072cb090d81ab73fdd8e1c.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2611278.2%2C1267412.5%5D%2C%5B2611290.3%2C1267421.1%5D%2C%5B2611294.4%2C1267416.5%5D%2C%5B2611280.5%2C1267406.5%5D%2C%5B2611278.2%2C1267412.5%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.babs.kulturgueter%2Cch.bak.schutzgebiete-unesco_weltkulturerbe&sr=2056&tolerance=0&returnGeometry=false&limit=50"
+    }
+  ]
+}

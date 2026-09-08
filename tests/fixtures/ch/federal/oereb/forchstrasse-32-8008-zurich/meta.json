@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Forchstrasse 32 8008 Zürich",
+  "site_id": "261-RI4727",
+  "recorded_at": "2026-09-08T12:26:34+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "4042201a20430cb2a4ff623b1c10330b79b67a9fa2dac69884cb9c268d52e33b.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2684423.75%2C1246464.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "12d32115152981988e743b3da1cf1308e222a1d19b8f41c862a983dd8eb16a21.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH707991539944&LANG=de"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Bahnhofstrasse 31 8620 Wetzikon ZH",
+  "site_id": "121-1001",
+  "recorded_at": "2026-09-08T12:32:51+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "ba6d5040d129a4534f5e4f3cc424760766dec255dec8e1fb0340a4723425e4cd.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2702419.75%2C1241906.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "6d2e51ee83c1c3d0e7f5746818a41b0fda6da281c82a56b6e87b1fd4e68b91f4.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH645295778895&LANG=de"
+    }
+  ]
+}

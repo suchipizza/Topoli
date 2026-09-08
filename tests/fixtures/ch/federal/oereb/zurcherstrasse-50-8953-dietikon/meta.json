@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Zürcherstrasse 50 8953 Dietikon",
+  "site_id": "243-10678",
+  "recorded_at": "2026-09-08T12:32:58+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "f0fac1f8c116f08b3688a5887ac0c12259084179f166cad8645f33cd301daf78.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2672826.75%2C1250791.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "50f9923a3f1a20c2b7d1f6e4dea1d308c4d7f67c6e07df6317e9088b6ca16777.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH696177765533&LANG=de"
+    }
+  ]
+}

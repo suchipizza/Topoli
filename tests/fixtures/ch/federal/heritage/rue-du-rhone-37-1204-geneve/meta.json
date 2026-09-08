@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/heritage",
+  "address": "Rue du Rhône 37 1204 Genève",
+  "site_id": "6621-4132",
+  "recorded_at": "2026-09-08T12:34:02+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "24f55d8f7feb4f6f2c0126935b2eeab2b030dd1cf9f6ccb5c263f4383eb98fe1.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2500433.2%2C1117769.6%5D%2C%5B2500440.3%2C1117791.8%5D%2C%5B2500477.7%2C1117779.9%5D%2C%5B2500470.6%2C1117757.7%5D%2C%5B2500433.2%2C1117769.6%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.babs.kulturgueter%2Cch.bak.schutzgebiete-unesco_weltkulturerbe&sr=2056&tolerance=0&returnGeometry=false&limit=50"
+    }
+  ]
+}

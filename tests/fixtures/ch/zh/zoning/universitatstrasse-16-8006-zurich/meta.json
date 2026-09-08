@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Universitätstrasse 16 8006 Zürich",
+  "site_id": "261-OB4403",
+  "recorded_at": "2026-09-08T12:31:44+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "10677f60ae2f78b3ae9425ffca34a8436f4e9e489c1e9319b5f23f0b75e72b39.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683852.7%2C1248110.6%2C2683854.7%2C1248112.6%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

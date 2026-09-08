@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/contamination",
+  "address": "Hardturmstrasse 120a 8005 Zürich",
+  "site_id": "261-IQ6722",
+  "recorded_at": "2026-09-08T12:29:03+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "d1f67d4fc1307c5f6bc5f44340bad04fede98f32deb0ebb9f165e9990bf2e77f.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2681275.4%2C1249705.2%5D%2C%5B2681277.9%2C1249711.2%5D%2C%5B2681277.2%2C1249711.4%5D%2C%5B2681279.0%2C1249715.7%5D%2C%5B2681279.5%2C1249715.4%5D%2C%5B2681282.8%2C1249720.8%5D%2C%5B2681282.9%2C1249720.7%5D%2C%5B2681289.2%2C1249731.0%5D%2C%5B2681300.2%2C1249724.8%5D%2C%5B2681318.7%2C1249714.3%5D%2C%5B2681329.6%2C1249708.3%5D%2C%5B2681320.8%2C1249686.7%5D%2C%5B2681275.4%2C1249705.2%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bav.kataster-belasteter-standorte-oev%2Cch.bazl.kataster-belasteter-standorte-zivilflugplaetze%2Cch.vbs.kataster-belasteter-standorte-militaer&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

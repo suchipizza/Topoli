@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Gutstrasse 7 8055 Zürich",
+  "site_id": "261-WD9102",
+  "recorded_at": "2026-09-08T12:31:10+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "44be0459f96a3445e12207eb3a8bd4e6527c64320565fd53ea092205445c3643.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2680758.3%2C1247093.2%5D%2C%5B2680864.2%2C1247196.2%5D%2C%5B2680758.3%2C1247196.2%5D%2C%5B2680864.2%2C1247093.2%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

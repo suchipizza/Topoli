@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Josefstrasse 54a 8005 Zürich",
+  "site_id": "261-IQ2011",
+  "recorded_at": "2026-09-08T12:29:15+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "f471a61d546aed85b12bf6e9f67e7da034c5591ff98aff7b61d82143ab3b6648.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682621.0%2C1248486.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "f094ddb269b24786b7e87b9c0f67a1685cc30cf3b3c29420a6731452714b6c58.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2682609.5%2C1248493.8%5D%2C%5B2682614.3%2C1248498.3%5D%2C%5B2682621.9%2C1248490.1%5D%2C%5B2682623.9%2C1248488.0%5D%2C%5B2682619.1%2C1248483.5%5D%2C%5B2682617.0%2C1248485.6%5D%2C%5B2682609.5%2C1248493.8%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

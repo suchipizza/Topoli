@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Limmattalstrasse 20 8049 Zürich",
+  "site_id": "261-HG2627",
+  "recorded_at": "2026-09-08T12:27:38+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "2a1976c04e96f92dd6f1de00433d81c0c6a3ddccefd33163a7980c13b62de8d6.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2681092.5%2C1250059.9%2C2681117.6%2C1250098.5%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

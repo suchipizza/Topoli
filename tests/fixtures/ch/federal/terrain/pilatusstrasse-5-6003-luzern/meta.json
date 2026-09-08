@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Pilatusstrasse 5 6003 Luzern",
+  "site_id": "1061-125",
+  "recorded_at": "2026-09-08T12:36:06+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "1419f62c068d57339a233c9d3a16eee7f99345a0e38291e1e9c0bc5154c248b7.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2666064.3%2C1211301.2%5D%2C%5B2666084.1%2C1211320.7%5D%2C%5B2666064.3%2C1211320.7%5D%2C%5B2666084.1%2C1211301.2%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

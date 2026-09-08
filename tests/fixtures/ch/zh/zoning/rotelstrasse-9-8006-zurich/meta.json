@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Rötelstrasse 9 8006 Zürich",
+  "site_id": "261-UN1784",
+  "recorded_at": "2026-09-08T12:30:06+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "824bd21457600615cf78d7c8aafad68e52db95aab0aa9380c6da4abfc0947cb8.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2682998.7%2C1249355.9%2C2683000.7%2C1249357.9%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

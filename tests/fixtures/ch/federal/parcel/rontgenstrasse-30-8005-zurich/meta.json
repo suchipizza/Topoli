@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Röntgenstrasse 30 8005 Zürich",
+  "site_id": "261-IQ4406",
+  "recorded_at": "2026-09-08T12:32:13+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "3fcbb9715e55360b57ee614a351731055c401d3e1637eee3fc8640ec63e1c2fc.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682230.0%2C1248667.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "5ec784bf422d6ea2e550af6b76341c22e3877ca0fe5bd90f16943a209c792919.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2682219.6%2C1248671.4%5D%2C%5B2682222.3%2C1248672.6%5D%2C%5B2682231.2%2C1248676.5%5D%2C%5B2682240.4%2C1248680.5%5D%2C%5B2682244.6%2C1248670.8%5D%2C%5B2682247.6%2C1248669.0%5D%2C%5B2682242.4%2C1248660.5%5D%2C%5B2682235.6%2C1248649.7%5D%2C%5B2682226.8%2C1248655.2%5D%2C%5B2682224.3%2C1248660.7%5D%2C%5B2682219.6%2C1248671.4%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

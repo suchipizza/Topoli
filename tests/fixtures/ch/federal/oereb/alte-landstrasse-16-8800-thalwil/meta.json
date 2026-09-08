@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Alte Landstrasse 16 8800 Thalwil",
+  "site_id": "141-7714",
+  "recorded_at": "2026-09-08T12:33:30+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "5d29baaa5ce06891ea85856623e2429850c1c9836a606d3c4ebe13c91063ed22.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2685882.75%2C1237446.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "9dc357176ec7881451a57496f06f43756e186119d58d8842475fbe7de722bc51.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH216278417788&LANG=de"
+    }
+  ]
+}

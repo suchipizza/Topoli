@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/solar",
+  "address": "Hönggerstrasse 39 8037 Zürich",
+  "site_id": "261-WP5013",
+  "recorded_at": "2026-09-08T12:27:33+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "7b5ae7e08c45fa821a7f315d3f8d4ef7eb00258549d6e6a48f6152e907b2c38b.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2682028.1%2C1249513.3%5D%2C%5B2682043.3%2C1249533.9%5D%2C%5B2682052.1%2C1249527.9%5D%2C%5B2682056.2%2C1249525.6%5D%2C%5B2682061.8%2C1249522.4%5D%2C%5B2682050.7%2C1249500.3%5D%2C%5B2682045.8%2C1249503.3%5D%2C%5B2682028.1%2C1249513.3%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfe.solarenergie-eignung-daecher&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

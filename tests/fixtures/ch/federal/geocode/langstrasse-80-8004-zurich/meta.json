@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Langstrasse 80 8004 Zürich",
+  "site_id": "261-AU914",
+  "recorded_at": "2026-09-08T12:29:00+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "4793a39a3c6d671d2abeeb619d7adbb3239cdb5dca002fdd1741edfcd566430b.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Langstrasse+80+8004+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "2158130a701129a079cf2dc51dc2d8145a168ce91070028a5c8e0385bab3afc8.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682166.5%2C1247988.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2681666.5%2C1247488.375%2C2682666.5%2C1248488.375&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

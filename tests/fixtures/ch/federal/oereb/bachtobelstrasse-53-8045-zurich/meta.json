@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Bachtobelstrasse 53 8045 Zürich",
+  "site_id": "261-WD4115",
+  "recorded_at": "2026-09-08T12:30:55+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "5b1ac5bdcb570271ee152f44d3bc09a3ab99c6dae26a089246c8e3e3dfacfbd4.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2681312.25%2C1246077.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "0fa418158ffc1ff4b3b56558c1c1dee905cd12ee0dce0f0ececdbc68673e7e41.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH884899917042&LANG=de"
+    }
+  ]
+}

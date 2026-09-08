@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Bahnhofstrasse 8 8302 Kloten",
+  "site_id": "62-4801",
+  "recorded_at": "2026-09-08T12:33:13+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "fc1e4e8a153191ebfddee3ee1309cb973176f07bff83e42c5a297a2c067124ea.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2685791.0%2C1255469.9%2C2686791.0%2C1256469.9%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

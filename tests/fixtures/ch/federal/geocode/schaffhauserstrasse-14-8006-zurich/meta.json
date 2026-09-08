@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Schaffhauserstrasse 14 8006 Zürich",
+  "site_id": "261-UN3835",
+  "recorded_at": "2026-09-08T12:26:56+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "8b31d0eba4364ba529f9dd7aabd1d1cdd196555ccc5107c80fc3d8711a1cb1d1.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Schaffhauserstrasse+14+8006+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "0db699e65460e9fb50a1fbedea032909bbe20e7b98dbc906b5fc5be3364a55dd.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683107.0%2C1249265.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2682607.0%2C1248765.125%2C2683607.0%2C1249765.125&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

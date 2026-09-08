@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Neugasse 24 9000 St. Gallen",
+  "site_id": "3203-C0333",
+  "recorded_at": "2026-09-08T12:36:13+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "8e71b8d88497b88ec8387040a622467a59e2bbbdcd5db5ebdaea16dae75a5392.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Neugasse+24+9000+St.+Gallen&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "ffa08872d94ecbf63768d0d5b433aac0c9ba2825d83c3ac5d75eb5209dbae79e.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2746095.0%2C1254514.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2745595.0%2C1254014.375%2C2746595.0%2C1255014.375&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

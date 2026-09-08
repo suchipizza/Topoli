@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Witikonerstrasse 39 8032 Zürich",
+  "site_id": "261-HI1776",
+  "recorded_at": "2026-09-08T12:29:35+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "2e3385ad43c971229a9bde5ea6bd319a0065bff8d2393be5e70dd5032d0a6fb7.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Witikonerstrasse+39+8032+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "84521c5f43a255388e3fa0dc5148fc48cabfec7662fe73e813bcab51ebe3d984.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2685295.5%2C1246437.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2684795.5%2C1245937.875%2C2685795.5%2C1246937.875&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

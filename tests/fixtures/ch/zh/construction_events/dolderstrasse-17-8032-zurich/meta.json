@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Dolderstrasse 17 8032 Zürich",
+  "site_id": "261-HO2365",
+  "recorded_at": "2026-09-08T12:29:25+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "ea2dede03e08812438580506c92cf88ef81042acf89544da9e63ede7f8f9d2ff.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2684012.8%2C1246733.6%2C2685012.8%2C1247733.6%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

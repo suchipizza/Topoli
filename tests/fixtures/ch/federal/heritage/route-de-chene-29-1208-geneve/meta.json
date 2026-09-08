@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/heritage",
+  "address": "Route de Chêne 29 1208 Genève",
+  "site_id": "6621-804",
+  "recorded_at": "2026-09-08T12:34:15+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "ee16c30dd5e801eee87c089fdc17399062e029da36d9a92ba3e699ba526754c3.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2501933.2%2C1117318.4%5D%2C%5B2501933.3%2C1117344.6%5D%2C%5B2501960.6%2C1117349.2%5D%2C%5B2501965.6%2C1117318.6%5D%2C%5B2501933.2%2C1117318.4%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.babs.kulturgueter%2Cch.bak.schutzgebiete-unesco_weltkulturerbe&sr=2056&tolerance=0&returnGeometry=false&limit=50"
+    }
+  ]
+}

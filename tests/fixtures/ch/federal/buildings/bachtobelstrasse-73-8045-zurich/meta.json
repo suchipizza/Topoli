@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/buildings",
+  "address": "Bachtobelstrasse 73 8045 Zürich",
+  "site_id": "261-WD4858",
+  "recorded_at": "2026-09-08T12:31:03+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "044ecd073b710521b1cd49adcd886908b1f462ac1757572dc34b9ba31446f725.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2681190.3%2C1246030.7%5D%2C%5B2681214.0%2C1246041.9%5D%2C%5B2681218.3%2C1246044.0%5D%2C%5B2681218.7%2C1246043.1%5D%2C%5B2681226.5%2C1246026.9%5D%2C%5B2681218.2%2C1246022.9%5D%2C%5B2681198.5%2C1246013.5%5D%2C%5B2681190.8%2C1246029.8%5D%2C%5B2681190.3%2C1246030.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    }
+  ]
+}

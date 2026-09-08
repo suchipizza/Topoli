@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Bachtobelstrasse 40 8045 Zürich",
+  "site_id": "261-WD3510",
+  "recorded_at": "2026-09-08T12:30:59+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "6478bb2fe200436ce20afafa96f8cf94992429162fea8e4a77e9d5f66e4e5ec7.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Bachtobelstrasse+40+8045+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "6239869d912cd79158c7e58ed370a8790c113dbcec38a3f78f18b4c4ba5ed57c.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2681342.5%2C1246131.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2680842.5%2C1245631.0%2C2681842.5%2C1246631.0&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Mühlebachstrasse 20 8008 Zürich",
+  "site_id": "261-RI4754",
+  "recorded_at": "2026-09-08T12:30:49+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "b6ee938bd4ee652f0dd465eff429e77b3fcef1768b3b181c6c122a4dbae773b7.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683933.25%2C1246625.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "a4a7b83ab8ecb43468f8130a932b2649cf4f0833f2e28771beb9e772fda7bad7.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH627904999184&LANG=de"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Weinbergstrasse 11 8001 Zürich",
+  "site_id": "261-AA7024",
+  "recorded_at": "2026-09-08T12:31:30+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "506ce29b8ab74117657666cfae4a0732a428652d01fdfa446bf9a5e875c931cb.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Weinbergstrasse+11+8001+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "c43993eebab0c0353e6149f41af67c27bdeaf882475dcf98c0a4bef696f8fd25.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683489.25%2C1248060.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2682989.25%2C1247560.875%2C2683989.25%2C1248560.875&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Bederstrasse 1 8002 Zürich",
+  "site_id": "261-EN2952",
+  "recorded_at": "2026-09-08T12:28:41+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "206f22e9ba4e70e8ca952d3a6cae4159769a2c9568592334da059077798fd481.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2682417.4%2C1246328.2%2C2682559.4%2C1246641.0%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Stadthausstrasse 45 8400 Winterthur",
+  "site_id": "230-ST9316",
+  "recorded_at": "2026-09-08T12:32:26+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "5fd0474a033ce49602c689cff1079f535da799b50b3f5b5b892cf9039be43895.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2697315.4%2C1261845.1%5D%2C%5B2697329.7%2C1261860.0%5D%2C%5B2697315.4%2C1261860.0%5D%2C%5B2697329.7%2C1261845.1%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

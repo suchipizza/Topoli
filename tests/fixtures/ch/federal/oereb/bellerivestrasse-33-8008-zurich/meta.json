@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Bellerivestrasse 33 8008 Zürich",
+  "site_id": "261-RI663",
+  "recorded_at": "2026-09-08T12:30:39+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "76376efdbe0f52bd52dc335c968db6db6f75fbbcda507604927e17fe9830ea75.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2684010.5%2C1245829.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "754d4441ed2e557dac1f0d59ae5b5e94bada53aa2b8e3e12fae3d7ce67011154.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH327905999180&LANG=de"
+    }
+  ]
+}

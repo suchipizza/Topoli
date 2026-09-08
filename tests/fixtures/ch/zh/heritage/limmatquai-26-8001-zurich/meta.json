@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Limmatquai 26 8001 Zürich",
+  "site_id": "261-AA3126",
+  "recorded_at": "2026-09-08T12:25:57+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "ad857da67de850efab6f47b9bf0d1e6623dfd61c9454c15644374438113cfa9d.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683454.8%2C1247101.9%2C2683479.8%2C1247130.1%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

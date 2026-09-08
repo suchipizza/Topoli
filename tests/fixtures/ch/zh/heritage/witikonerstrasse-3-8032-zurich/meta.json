@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Witikonerstrasse 3 8032 Zürich",
+  "site_id": "261-HI3531",
+  "recorded_at": "2026-09-08T12:29:38+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "6f394de0197d2f7b6a02ff87824ec7ff4d44aa766898e78f90da2904243e1e47.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2685200.5%2C1246542.6%2C2685242.0%2C1246582.7%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

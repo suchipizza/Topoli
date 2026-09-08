@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Pilatusstrasse 34 6003 Luzern",
+  "site_id": "1061-1525",
+  "recorded_at": "2026-09-08T12:36:00+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "15fc030d4cd04ecd87a540249eb8177b57711b62b867d76f8a9ff5489c78a3e7.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Pilatusstrasse+34+6003+Luzern&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "d24a6acd961a311085324deeca426962fb917d1dac3fd2bf8bb1d751f7a6d290.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2665785.25%2C1211163.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2665285.25%2C1210663.625%2C2666285.25%2C1211663.625&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

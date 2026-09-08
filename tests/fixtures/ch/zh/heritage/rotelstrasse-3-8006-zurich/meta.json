@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Rötelstrasse 3 8006 Zürich",
+  "site_id": "261-UN1583",
+  "recorded_at": "2026-09-08T12:30:09+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "ed23e50ea504550a6229789b4f7d52f03e927a0aa91e179db4a7cd2587aeff57.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683013.7%2C1249303.5%2C2683052.8%2C1249339.0%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

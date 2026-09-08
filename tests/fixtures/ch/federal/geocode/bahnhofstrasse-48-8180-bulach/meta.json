@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Bahnhofstrasse 48 8180 Bülach",
+  "site_id": "53-5548",
+  "recorded_at": "2026-09-08T12:33:19+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "6560e8775ff7b1b5a0e3e5925e254dbce774ec334c91f74e50a79ae15443d9b5.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Bahnhofstrasse+48+8180+B%C3%BClach&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "6b8b1b5f8f7145533af723432a540498c95c1f9c3f9ef0e9abb0af84498effdc.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682888.0%2C1264086.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2682388.0%2C1263586.625%2C2683388.0%2C1264586.625&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Asylstrasse 14 8032 Zürich",
+  "site_id": "261-HO4445",
+  "recorded_at": "2026-09-08T12:30:32+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "c5639de2349a88d9ccbe661dfa5a882595fe867fb4716ce1f47b82aa6c583eac.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Asylstrasse+14+8032+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "a302bf11558196e8cdc17f6b2f6e16ffa598d5a9185d5159a20d3b7d7e8469bc.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2684465.5%2C1247133.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2683965.5%2C1246633.125%2C2684965.5%2C1247633.125&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

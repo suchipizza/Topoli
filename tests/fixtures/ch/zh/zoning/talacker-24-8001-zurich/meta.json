@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Talacker 24 8001 Zürich",
+  "site_id": "261-AA1775",
+  "recorded_at": "2026-09-08T12:31:18+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "1a59f7838c32dd0305ed069d1f467830a13185922e6a577f951a1ab648d8df59.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2682947.5%2C1247282.6%2C2682949.5%2C1247284.6%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

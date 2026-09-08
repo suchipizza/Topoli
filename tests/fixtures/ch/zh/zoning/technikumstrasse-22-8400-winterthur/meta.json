@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Technikumstrasse 22 8400 Winterthur",
+  "site_id": "230-ST7283",
+  "recorded_at": "2026-09-08T12:32:20+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "b3b5a4131a71a7c4c68801fb97a2952fd0dc0fd338ab9a107e0a3c87aaa4f6be.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2697280.3%2C1261614.4%2C2697282.3%2C1261616.4%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

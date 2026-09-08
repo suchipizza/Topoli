@@ -1,0 +1,21 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Pilatusstrasse 5 6003 Luzern",
+  "site_id": "1061-125",
+  "recorded_at": "2026-09-08T12:36:06+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "daa106c3fb6340896de21c6538d85b50c2199d9b0f33fe4b358ddaf7528a2cf0.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2666070.5%2C1211316.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "1d967376aefdb9bbf369b73082c9a016985c9fbae4390926927351a2f960342b.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2666070.5%2C1211316.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.kantone.cadastralwebmap-farbe&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "7d16ea68fd538494856ea8039e6794e3e4493eb25c8c0890c6b65320acfa1add.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2666064.3%2C1211313.1%5D%2C%5B2666076.7%2C1211320.7%5D%2C%5B2666084.1%2C1211308.7%5D%2C%5B2666078.9%2C1211305.5%5D%2C%5B2666074.7%2C1211302.9%5D%2C%5B2666071.9%2C1211301.2%5D%2C%5B2666071.7%2C1211301.3%5D%2C%5B2666071.5%2C1211301.3%5D%2C%5B2666064.3%2C1211313.1%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.kantone.cadastralwebmap-farbe&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/buildings",
+  "address": "Rämistrasse 20d 8001 Zürich",
+  "site_id": "261-AA3385",
+  "recorded_at": "2026-09-08T12:26:15+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "b3ef99cc27aace75ca9eea4338a6baca752568559240f16e1a9464d9c8b0c7eb.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683739.0%2C1246975.6%5D%2C%5B2683742.8%2C1246978.2%5D%2C%5B2683742.8%2C1246978.3%5D%2C%5B2683745.4%2C1246980.0%5D%2C%5B2683745.5%2C1246980.0%5D%2C%5B2683770.2%2C1246996.8%5D%2C%5B2683775.4%2C1246989.4%5D%2C%5B2683785.6%2C1246974.3%5D%2C%5B2683802.7%2C1246949.5%5D%2C%5B2683799.8%2C1246947.4%5D%2C%5B2683775.0%2C1246923.1%5D%2C%5B2683747.9%2C1246960.3%5D%2C%5B2683751.5%2C1246962.9%5D%2C%5B2683740.9%2C1246973.9%5D%2C%5B2683739.5%2C1246974.9%5D%2C%5B2683739.0%2C1246975.6%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    }
+  ]
+}

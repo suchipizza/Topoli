@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/solar",
+  "address": "Bachtobelstrasse 53 8045 Zürich",
+  "site_id": "261-WD4115",
+  "recorded_at": "2026-09-08T12:30:55+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "6b69866592fc03b0411b03fd7b6ce9eb70e3a77895f40ca93eb355c5f766ce45.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2681292.4%2C1246079.3%5D%2C%5B2681319.5%2C1246092.2%5D%2C%5B2681321.3%2C1246093.0%5D%2C%5B2681321.7%2C1246092.1%5D%2C%5B2681329.0%2C1246076.8%5D%2C%5B2681320.0%2C1246072.5%5D%2C%5B2681300.1%2C1246063.0%5D%2C%5B2681292.8%2C1246078.4%5D%2C%5B2681292.4%2C1246079.3%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfe.solarenergie-eignung-daecher&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

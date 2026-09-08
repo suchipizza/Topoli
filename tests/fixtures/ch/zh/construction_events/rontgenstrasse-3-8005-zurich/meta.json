@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Röntgenstrasse 3 8005 Zürich",
+  "site_id": "261-AU7036",
+  "recorded_at": "2026-09-08T12:32:09+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "82b2b2fdc9ce3f077a740137b7b005c3f5da98f8e68d504b506ee0832537ecc9.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2681795.5%2C1247934.1%2C2682795.5%2C1248934.1%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

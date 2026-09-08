@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Zürichstrasse 7 8610 Uster",
+  "site_id": "198-B7237",
+  "recorded_at": "2026-09-08T12:32:39+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "e94779a952cd5ee158a3a218d954a235c6010403ff58390a12a0f504bcd9a32f.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2696487.0%2C1245037.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "3d348566bd1a9c31715b647545ab90cfec7d5149e155f60416fd39105c6bf6c6.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH440631771517&LANG=de"
+    }
+  ]
+}

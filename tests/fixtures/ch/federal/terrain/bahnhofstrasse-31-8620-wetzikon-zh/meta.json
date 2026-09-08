@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Bahnhofstrasse 31 8620 Wetzikon ZH",
+  "site_id": "121-1001",
+  "recorded_at": "2026-09-08T12:32:51+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "cf60a883af179446751d41dd7c6a96d1c9a9830ec38eab8b8d45de60cd062bce.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2702387.6%2C1241886.5%5D%2C%5B2702429.6%2C1241923.8%5D%2C%5B2702387.6%2C1241923.8%5D%2C%5B2702429.6%2C1241886.5%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

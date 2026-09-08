@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Freie Strasse 8 4001 Basel",
+  "site_id": "2701-205",
+  "recorded_at": "2026-09-08T12:35:01+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "735da41d3359a107e88e95a3f1d14b50ebc1664219280bfd15da031a513a44d6.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Freie+Strasse+8+4001+Basel&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "864cce5bcecb5c6f7b16faeb913d144c03915021dc09ce82060958e0c18a7e49.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2611290.75%2C1267419.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2610790.75%2C1266919.5%2C2611790.75%2C1267919.5&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

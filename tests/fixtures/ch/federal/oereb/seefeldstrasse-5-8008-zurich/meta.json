@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Seefeldstrasse 5 8008 Zürich",
+  "site_id": "261-RI3727",
+  "recorded_at": "2026-09-08T12:26:18+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "f78f7b683adf0cbb187d7bce2ea3de3ffbb638ad7f907a17f705c63e6104ea22.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683819.0%2C1246620.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "a247f3afd46ba70b1c7119498f8a4dcb24155fb133be28f991bc22aa43a66927.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH979179639936&LANG=de"
+    }
+  ]
+}

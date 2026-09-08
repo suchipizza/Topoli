@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Röntgenstrasse 10 8005 Zürich",
+  "site_id": "261-IQ2159",
+  "recorded_at": "2026-09-08T12:32:04+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "5d23a3c8365d44d4b3897a47352c9b1404da25c645dedba9c78597782569cf98.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682312.25%2C1248526.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "cec32b66d161bb547e4b88cb9a4306a7ab60fea7502371ab6e65456da5591a4c.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH719190997816&LANG=de"
+    }
+  ]
+}

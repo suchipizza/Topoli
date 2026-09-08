@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Universitätstrasse 23 8006 Zürich",
+  "site_id": "261-OB3211",
+  "recorded_at": "2026-09-08T12:31:39+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "eb9be76adee5e04e32a1d142d494e6af34e1f4c5d21955bd342f3c8d3edfdc99.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683769.75%2C1248175.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "448e2bce76bbd97b6213d1ac9abf85637cb1c1a76b7e628bb659cb4042635f6b.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683756.2%2C1248182.8%5D%2C%5B2683776.3%2C1248182.9%5D%2C%5B2683778.2%2C1248182.9%5D%2C%5B2683778.2%2C1248168.7%5D%2C%5B2683761.6%2C1248168.9%5D%2C%5B2683758.4%2C1248169.0%5D%2C%5B2683756.9%2C1248169.0%5D%2C%5B2683756.9%2C1248169.1%5D%2C%5B2683756.2%2C1248182.8%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

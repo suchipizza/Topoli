@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Limmattalstrasse 27 8049 Zürich",
+  "site_id": "261-HG6035",
+  "recorded_at": "2026-09-08T12:27:41+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "4a1390e8012deb019663ae774d7817b4f4711bd1a29a9b22e61f44b299ab58a1.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2680434.2%2C1249562.4%2C2681434.2%2C1250562.4%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

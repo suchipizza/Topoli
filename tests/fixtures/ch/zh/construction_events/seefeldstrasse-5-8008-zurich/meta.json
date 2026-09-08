@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Seefeldstrasse 5 8008 Zürich",
+  "site_id": "261-RI3727",
+  "recorded_at": "2026-09-08T12:26:18+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "2b73ff6e2711de896b1262dc828b8e7b3f1ad7bf6deb60a56fa0427361beb041.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683319.0%2C1246120.0%2C2684319.0%2C1247120.0%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

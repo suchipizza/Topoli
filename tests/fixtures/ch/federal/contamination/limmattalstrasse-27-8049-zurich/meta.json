@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/contamination",
+  "address": "Limmattalstrasse 27 8049 Zürich",
+  "site_id": "261-HG6035",
+  "recorded_at": "2026-09-08T12:27:41+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "46cf2623dda5867e7d0f890af25bb0c67d228536d94444c11bfe4d1eff542e8f.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2680919.3%2C1250044.2%5D%2C%5B2680920.9%2C1250051.7%5D%2C%5B2680925.6%2C1250074.2%5D%2C%5B2680926.1%2C1250077.0%5D%2C%5B2680926.2%2C1250077.1%5D%2C%5B2680931.7%2C1250076.1%5D%2C%5B2680950.7%2C1250072.5%5D%2C%5B2680946.3%2C1250048.9%5D%2C%5B2680947.3%2C1250048.7%5D%2C%5B2680945.5%2C1250039.3%5D%2C%5B2680919.3%2C1250044.2%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bav.kataster-belasteter-standorte-oev%2Cch.bazl.kataster-belasteter-standorte-zivilflugplaetze%2Cch.vbs.kataster-belasteter-standorte-militaer&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

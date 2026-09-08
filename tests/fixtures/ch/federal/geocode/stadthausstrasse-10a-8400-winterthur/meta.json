@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Stadthausstrasse 10a 8400 Winterthur",
+  "site_id": "230-ST3315",
+  "recorded_at": "2026-09-08T12:32:23+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "2c32af48aaa53ee6de62eaff4ace4358bf00aab053d06be5e5450eddf537c89b.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Stadthausstrasse+10a+8400+Winterthur&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "46d8c2e2ed786aecc62ef1af094381c6577227fefa61c1b3a00d3ff73a7632fd.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2697046.5%2C1261876.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2696546.5%2C1261376.125%2C2697546.5%2C1262376.125&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

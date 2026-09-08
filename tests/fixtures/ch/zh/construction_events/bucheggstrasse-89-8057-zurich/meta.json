@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Bucheggstrasse 89 8057 Zürich",
+  "site_id": "261-UN5076",
+  "recorded_at": "2026-09-08T12:29:59+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "d6be0c16ac1e18bd58cbb6ebf99b81c82ddb828df487985cdecf44561fcec228.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2682212.2%2C1249857.2%2C2683212.2%2C1250857.2%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

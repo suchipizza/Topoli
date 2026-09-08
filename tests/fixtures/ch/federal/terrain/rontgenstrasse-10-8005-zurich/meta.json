@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Röntgenstrasse 10 8005 Zürich",
+  "site_id": "261-IQ2159",
+  "recorded_at": "2026-09-08T12:32:04+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "e7b0abb1d552f4a77c9ec3b9953a28fb40cbf7750a6221c5acb876e05c322a23.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2682300.5%2C1248509.9%5D%2C%5B2682321.1%2C1248538.0%5D%2C%5B2682300.5%2C1248538.0%5D%2C%5B2682321.1%2C1248509.9%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

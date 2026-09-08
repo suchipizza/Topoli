@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Seestrasse 180 8706 Meilen",
+  "site_id": "156-8105",
+  "recorded_at": "2026-09-08T12:33:36+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "1929019bd126b1c71c175c4bc11188cf6298657264ba9c4a67436e6421fb511c.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Seestrasse+180+8706+Meilen&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "e0ebefa64afdac9842ad0a2146482002a2891d893c9e165f5a95102ce893f8be.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2689232.25%2C1236870.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2688732.25%2C1236370.0%2C2689732.25%2C1237370.0&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

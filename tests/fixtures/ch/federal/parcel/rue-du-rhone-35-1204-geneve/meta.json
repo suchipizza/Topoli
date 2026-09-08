@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Rue du Rhône 35 1204 Genève",
+  "site_id": "6621-4132",
+  "recorded_at": "2026-09-08T12:34:01+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "daef089c1b4558b0f234741c21afc28542bf108e7394ea4c39daa1a44aed2878.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2500448.0%2C1117765.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "f0110d04aff1ce4635512e292ead2b846466bc368f78bcdfd282867c333e2582.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2500433.2%2C1117769.6%5D%2C%5B2500440.3%2C1117791.8%5D%2C%5B2500477.7%2C1117779.9%5D%2C%5B2500470.6%2C1117757.7%5D%2C%5B2500433.2%2C1117769.6%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

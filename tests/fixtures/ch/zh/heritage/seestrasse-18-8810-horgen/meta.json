@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Seestrasse 18 8810 Horgen",
+  "site_id": "295-HN12126",
+  "recorded_at": "2026-09-08T12:33:09+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "1b89c7cc1552f4b961ea8871eebeb75ae30d0b20b2fc073623c480f8c93da35b.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2686882.8%2C1235881.8%2C2686946.0%2C1235955.7%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

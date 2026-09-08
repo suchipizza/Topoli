@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Limmatquai 64 8001 Zürich",
+  "site_id": "261-AA7167",
+  "recorded_at": "2026-09-08T12:26:01+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "7d573cf9dd8ccf9fa14986c7592ab043bebbbd0b6cf24899f8f5c5a4b66d93a3.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683407.5%2C1247419.7%2C2683409.5%2C1247421.7%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+ "address": "Pilatusstrasse 5 6003 Luzern",
+ "layer0_de": [
+  [
+   "hazard.flood",
+   "B"
+  ],
+  [
+   "noise.road",
+   "B"
+  ],
+  [
+   "solar.best_roof",
+   "A"
+  ],
+  [
+   "heritage.federal.none",
+   "A"
+  ],
+  [
+   "contamination.federal",
+   "A"
+  ]
+ ],
+ "coverage": {
+  "ch/federal/geocode": "ok",
+  "ch/federal/parcel": "ok",
+  "ch/federal/buildings": "ok",
+  "ch/federal/hazards": "ok",
+  "ch/federal/noise": "ok",
+  "ch/federal/contamination": "ok",
+  "ch/federal/oereb": "degraded",
+  "ch/federal/solar": "ok",
+  "ch/federal/heritage": "ok",
+  "ch/federal/terrain": "ok"
+ }
+}

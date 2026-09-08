@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Regensbergstrasse 65 8050 Zürich",
+  "site_id": "261-OE3810",
+  "recorded_at": "2026-09-08T12:27:17+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "9452f00fbe65e8c4b771e4067b3337ccc7559fdf53b3e88da70b36dda0771c68.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Regensbergstrasse+65+8050+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "a74472f7db084462b5dbfc1924477ffbf3cfa9f4adbecb32dca1f85ab3a31fc1.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683975.0%2C1251084.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2683475.0%2C1250584.375%2C2684475.0%2C1251584.375&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/contamination",
+  "address": "Alfred-Escher-Strasse 62 8002 Zürich",
+  "site_id": "261-EN3010",
+  "recorded_at": "2026-09-08T12:28:44+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "624d2150e27d17ffad491bbfb4a1e6a703b98d58f9da19e41c43951ff23b7b64.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2682717.0%2C1246158.0%5D%2C%5B2682743.4%2C1246161.3%5D%2C%5B2682746.4%2C1246161.7%5D%2C%5B2682751.9%2C1246116.9%5D%2C%5B2682750.9%2C1246116.8%5D%2C%5B2682727.8%2C1246113.9%5D%2C%5B2682722.4%2C1246136.0%5D%2C%5B2682722.2%2C1246136.9%5D%2C%5B2682717.0%2C1246158.0%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bav.kataster-belasteter-standorte-oev%2Cch.bazl.kataster-belasteter-standorte-zivilflugplaetze%2Cch.vbs.kataster-belasteter-standorte-militaer&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

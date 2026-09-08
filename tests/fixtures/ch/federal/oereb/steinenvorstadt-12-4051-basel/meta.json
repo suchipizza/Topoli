@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Steinenvorstadt 12 4051 Basel",
+  "site_id": "2701-98",
+  "recorded_at": "2026-09-08T12:35:07+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "9b378d1377cdb4fc409a8296595f3c0c4118554f0ba4426e8ef4e484de0a0b62.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2611306.5%2C1266994.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    }
+  ]
+}

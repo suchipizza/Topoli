@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Regensbergstrasse 49 8050 Zürich",
+  "site_id": "261-OE3896",
+  "recorded_at": "2026-09-08T12:27:21+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "976e33460d57d4285d5cff379364bc3afed8d47cca4dc7f6f456b10206be43c9.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2684050.2%2C1251036.2%5D%2C%5B2684070.0%2C1251062.2%5D%2C%5B2684050.2%2C1251062.2%5D%2C%5B2684070.0%2C1251036.2%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

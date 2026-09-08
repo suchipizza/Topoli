@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Uetlibergstrasse 48 8045 Zürich",
+  "site_id": "261-WD5911",
+  "recorded_at": "2026-09-08T12:28:16+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "593c418040fe7fb66eba592d801023814ff96a0ebbd2879ad2abf204a0e76495.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2681643.75%2C1246394.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "4585bc759012acf1eb050b358a378b08493dde519c033b11cf75f286e17b79bd.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH949199706020&LANG=de"
+    }
+  ]
+}

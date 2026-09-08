@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Rötelstrasse 3 8006 Zürich",
+  "site_id": "261-UN1583",
+  "recorded_at": "2026-09-08T12:30:09+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "46f1d6cf12d54dba8a616b2b9b376bc5e9749915689d71e2d9bd549c3f02214c.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683033.75%2C1249319.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "4d4bc753d8ba0d5b88c95d36dd8db73e56e046491771013348b484460f65c8ec.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683018.7%2C1249319.8%5D%2C%5B2683023.3%2C1249323.9%5D%2C%5B2683031.5%2C1249331.3%5D%2C%5B2683033.7%2C1249333.3%5D%2C%5B2683034.5%2C1249334.0%5D%2C%5B2683047.8%2C1249319.2%5D%2C%5B2683047.0%2C1249318.5%5D%2C%5B2683044.8%2C1249316.5%5D%2C%5B2683040.8%2C1249312.9%5D%2C%5B2683039.0%2C1249314.8%5D%2C%5B2683034.8%2C1249311.0%5D%2C%5B2683028.5%2C1249308.5%5D%2C%5B2683021.1%2C1249316.9%5D%2C%5B2683018.7%2C1249319.8%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

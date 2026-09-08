@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Hardturmstrasse 10 8005 Zürich",
+  "site_id": "261-IQ7087",
+  "recorded_at": "2026-09-08T12:29:06+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "69578ba26dc5bf3828de8f9621f8f30acf2c8a5a7df36c88b522f1a354a1a3b5.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2681758.25%2C1249495.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "ecd1174aade5557cf57e6565497b0165528bc89e201ad4991ab1faeb0d0155ea.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH867899913115&LANG=de"
+    }
+  ]
+}

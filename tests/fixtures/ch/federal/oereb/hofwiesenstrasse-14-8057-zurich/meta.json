@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Hofwiesenstrasse 14 8057 Zürich",
+  "site_id": "261-UN940",
+  "recorded_at": "2026-09-08T12:27:06+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "ea76da5ed5d205064bb8939e15fb996c3d45f90ea2713bc62da9d48792c337c1.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683029.0%2C1249723.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "610a23aca69a8c4aa9bfa630cb2d6d506c7c7e8cc8127d6f0f0df63f3d5684b6.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH189099917019&LANG=de"
+    }
+  ]
+}

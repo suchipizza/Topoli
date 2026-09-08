@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Rämistrasse 20d 8001 Zürich",
+  "site_id": "261-AA3385",
+  "recorded_at": "2026-09-08T12:26:15+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "29490f211b5ad0c04560f7d3d04d535141bc0edf31fc9e28267103e759d8b297.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683734.0%2C1246918.1%2C2683807.7%2C1247001.8%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

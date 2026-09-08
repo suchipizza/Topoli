@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Hönggerstrasse 43 8037 Zürich",
+  "site_id": "261-WP5011",
+  "recorded_at": "2026-09-08T12:27:27+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "940550594f694f22ce779bed35766f02f3487a6cb5e86d61e167b583e6def3b0.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2681524.0%2C1249042.5%2C2682524.0%2C1250042.5%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Bachtobelstrasse 73 8045 Zürich",
+  "site_id": "261-WD4858",
+  "recorded_at": "2026-09-08T12:31:03+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "5d45aabc4eff68f89cbf7706f6d91e41017652f4f4b1e773b13bfe65be4450e3.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2681207.6%2C1246027.4%2C2681209.6%2C1246029.4%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

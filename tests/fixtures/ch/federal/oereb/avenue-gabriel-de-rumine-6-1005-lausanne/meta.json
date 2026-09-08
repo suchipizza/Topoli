@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Avenue Gabriel-de-Rumine 6 1005 Lausanne",
+  "site_id": "5586-6163",
+  "recorded_at": "2026-09-08T12:34:52+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "ecf3a3aedb5a0c524b7225e0c5b660ad9d641beb3f0cb53d1151ee2f1da4ddfc.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2538635.25%2C1152095.25&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Stadthausstrasse 45 8400 Winterthur",
+  "site_id": "230-ST9316",
+  "recorded_at": "2026-09-08T12:32:26+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "5e1cfeb6c38ed8b9f999634f67ea2dcf6517f67058e1e54f2464bf00c2b378f8.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2696826.2%2C1261359.5%2C2697826.2%2C1262359.5%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

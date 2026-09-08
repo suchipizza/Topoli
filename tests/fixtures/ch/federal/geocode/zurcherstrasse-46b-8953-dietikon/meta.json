@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Zürcherstrasse 46b 8953 Dietikon",
+  "site_id": "243-12280",
+  "recorded_at": "2026-09-08T12:33:01+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "043aa4b219d77b077df64c87bf4fa3211b54311dc51d68b8b5cfc5e376abc268.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Z%C3%BCrcherstrasse+46b+8953+Dietikon&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "63890fc6dc6390fb14d15386102e4ddd4b3a2d70140e7a0d051f8e544ebc0039.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2672789.5%2C1250817.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2672289.5%2C1250317.0%2C2673289.5%2C1251317.0&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

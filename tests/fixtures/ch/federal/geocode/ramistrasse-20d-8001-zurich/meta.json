@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Rämistrasse 20d 8001 Zürich",
+  "site_id": "261-AA3385",
+  "recorded_at": "2026-09-08T12:26:15+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "9e3386ddc6411892ca42ba45369805308b5f0e294893a95564e997f696dfc1c2.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=R%C3%A4mistrasse+20d+8001+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "14462197c7f40e9423f43341b4eada8d7a6ea0909da63e3fbfcfa7ce633aa885.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683799.0%2C1246951.25&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2683299.0%2C1246451.25%2C2684299.0%2C1247451.25&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

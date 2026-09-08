@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/solar",
+  "address": "Bahnhofstrasse 14 8001 Zürich",
+  "site_id": "261-AA5529",
+  "recorded_at": "2026-09-08T12:25:49+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "99df5c7a3a5348b3dd56977e9fc547b4ee08178026831424f886448b6c50581e.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683181.2%2C1246988.8%5D%2C%5B2683195.8%2C1246992.7%5D%2C%5B2683200.1%2C1246976.8%5D%2C%5B2683185.5%2C1246972.8%5D%2C%5B2683181.2%2C1246988.8%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfe.solarenergie-eignung-daecher&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

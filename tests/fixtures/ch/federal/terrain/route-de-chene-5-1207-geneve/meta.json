@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Route de Chêne 5 1207 Genève",
+  "site_id": "6621-2661",
+  "recorded_at": "2026-09-08T12:34:20+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "75fb30ed75b8c036425bad0b4c124cabc42ce4dec6b125669697b9eadae6f55e.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2501478.8%2C1117316.3%5D%2C%5B2501500.0%2C1117341.1%5D%2C%5B2501478.8%2C1117341.1%5D%2C%5B2501500.0%2C1117316.3%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

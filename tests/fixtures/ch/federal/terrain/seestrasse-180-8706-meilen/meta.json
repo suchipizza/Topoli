@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Seestrasse 180 8706 Meilen",
+  "site_id": "156-8105",
+  "recorded_at": "2026-09-08T12:33:36+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "c7ff4fe3bba1a639ba446d4407915ebe8201b0d2f99782091358567390cc568d.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2689209.8%2C1236848.6%5D%2C%5B2689249.2%2C1236886.3%5D%2C%5B2689209.8%2C1236886.3%5D%2C%5B2689249.2%2C1236848.6%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

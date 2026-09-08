@@ -1,0 +1,21 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Rue Cheneau-de-Bourg 1 1003 Lausanne",
+  "site_id": "5586-10696",
+  "recorded_at": "2026-09-08T12:34:44+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "1c050bf278d9052fa3bee1bbf0caf9190334125745f684af07b602faeb84c968.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2538442.0%2C1152488.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "8b931e17c46eb7a0a89cdff92a8ec98c0ef60083115496095b5e574eb5223040.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2538442.0%2C1152488.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.kantone.cadastralwebmap-farbe&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "fa4a10400d69325fbc29d97eb869d258a3cf55f1ed473bd9d6ba8b2122adb456.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2538439.7%2C1152486.1%5D%2C%5B2538440.0%2C1152496.6%5D%2C%5B2538446.3%2C1152500.5%5D%2C%5B2538449.9%2C1152495.9%5D%2C%5B2538445.3%2C1152487.9%5D%2C%5B2538445.6%2C1152487.8%5D%2C%5B2538444.7%2C1152486.2%5D%2C%5B2538439.7%2C1152486.1%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.kantone.cadastralwebmap-farbe&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

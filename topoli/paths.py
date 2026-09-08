@@ -1,7 +1,8 @@
 """Locate repo-root assets (i18n, ui, skills) both from a checkout and from an installed wheel.
 
 In a git checkout the assets live next to the ``topoli`` package (``<repo>/i18n``).
-In a built wheel they are force-included under ``topoli/_data/`` (see ``pyproject.toml``).
+In a built wheel they are force-included under ``topoli_data/`` next to the package (see
+``pyproject.toml``).
 """
 
 from __future__ import annotations
@@ -11,7 +12,7 @@ from pathlib import Path
 
 _PACKAGE_DIR = Path(__file__).resolve().parent
 _REPO_ROOT = _PACKAGE_DIR.parent
-_WHEEL_DATA = _PACKAGE_DIR / "_data"
+_WHEEL_DATA = _PACKAGE_DIR.parent / "topoli_data"
 
 
 def asset_dir(name: str) -> Path:

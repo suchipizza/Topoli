@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Tösstalstrasse 7a 8400 Winterthur",
+  "site_id": "230-ST7550",
+  "recorded_at": "2026-09-08T12:32:30+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "18bbbd9e1d299779124f41eebab3fb6febc219c0d03cee6543ddf3c573eb9e6f.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2697432.2%2C1261641.3%5D%2C%5B2697448.2%2C1261682.2%5D%2C%5B2697432.2%2C1261682.2%5D%2C%5B2697448.2%2C1261641.3%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

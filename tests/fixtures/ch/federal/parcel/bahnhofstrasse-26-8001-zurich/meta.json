@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Bahnhofstrasse 26 8001 Zürich",
+  "site_id": "261-AA5466",
+  "recorded_at": "2026-09-08T12:25:51+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "81e89e005291b577503c6b015ec1271f614f71b90db2e26630c736de07f1c2f0.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683163.75%2C1247106.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "de60d18846ae699d3a0e573b8cbe241ed854ee3e9cb9c42126ff630a6c89b037.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683150.4%2C1247107.2%5D%2C%5B2683165.4%2C1247110.3%5D%2C%5B2683165.9%2C1247107.3%5D%2C%5B2683166.8%2C1247102.9%5D%2C%5B2683166.5%2C1247102.9%5D%2C%5B2683169.3%2C1247089.8%5D%2C%5B2683155.2%2C1247086.9%5D%2C%5B2683155.3%2C1247086.5%5D%2C%5B2683154.8%2C1247086.4%5D%2C%5B2683150.4%2C1247107.2%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

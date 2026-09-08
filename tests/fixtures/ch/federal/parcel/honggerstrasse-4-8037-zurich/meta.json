@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Hönggerstrasse 4 8037 Zürich",
+  "site_id": "261-WP1082",
+  "recorded_at": "2026-09-08T12:27:30+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "a9add6874382dbf6c6c3b4ecd10b5b2d474afbd6b1eda774e4d5a9d8e8db8dc4.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682220.25%2C1249446.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "3631e8b1d966f956e9db9cfa53cc9a27eecb5c94c35d6ccf7656a8fcda0f7a5e.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2682212.4%2C1249446.5%5D%2C%5B2682221.6%2C1249463.3%5D%2C%5B2682230.7%2C1249458.1%5D%2C%5B2682230.3%2C1249457.2%5D%2C%5B2682225.4%2C1249448.4%5D%2C%5B2682221.6%2C1249441.5%5D%2C%5B2682216.1%2C1249444.6%5D%2C%5B2682216.1%2C1249444.5%5D%2C%5B2682215.5%2C1249444.9%5D%2C%5B2682212.4%2C1249446.5%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

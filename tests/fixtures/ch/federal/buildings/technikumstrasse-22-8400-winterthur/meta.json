@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/buildings",
+  "address": "Technikumstrasse 22 8400 Winterthur",
+  "site_id": "230-ST7283",
+  "recorded_at": "2026-09-08T12:32:20+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "8ec468c26dfcc10857cf81592f3ed30f31fe47c70d7d7a9fc49ad344930c6aec.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2697269.0%2C1261632.7%5D%2C%5B2697269.2%2C1261632.7%5D%2C%5B2697269.2%2C1261632.8%5D%2C%5B2697289.3%2C1261635.0%5D%2C%5B2697289.3%2C1261635.0%5D%2C%5B2697290.6%2C1261618.8%5D%2C%5B2697291.1%2C1261614.9%5D%2C%5B2697297.2%2C1261616.1%5D%2C%5B2697297.2%2C1261615.9%5D%2C%5B2697298.0%2C1261610.5%5D%2C%5B2697297.6%2C1261610.5%5D%2C%5B2697298.7%2C1261600.2%5D%2C%5B2697298.8%2C1261599.6%5D%2C%5B2697273.4%2C1261595.7%5D%2C%5B2697272.9%2C1261598.9%5D%2C%5B2697272.6%2C1261607.6%5D%2C%5B2697272.7%2C1261607.6%5D%2C%5B2697272.3%2C1261612.3%5D%2C%5B2697272.0%2C1261612.3%5D%2C%5B2697271.2%2C1261617.7%5D%2C%5B2697270.8%2C1261620.3%5D%2C%5B2697269.0%2C1261632.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    }
+  ]
+}

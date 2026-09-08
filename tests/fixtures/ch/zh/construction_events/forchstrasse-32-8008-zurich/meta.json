@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Forchstrasse 32 8008 Zürich",
+  "site_id": "261-RI4727",
+  "recorded_at": "2026-09-08T12:26:34+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "0fdb38b6a548a6da545eb64947702f3568a52ac68ac312ca5fad0af8fc6ddd97.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683923.8%2C1245964.5%2C2684923.8%2C1246964.5%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Bahnhofstrasse 26 8001 Zürich",
+  "site_id": "261-AA5466",
+  "recorded_at": "2026-09-08T12:25:51+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "3c948df0b8f02735697defa47be29d534770fe2c1d209ecef69d503b797691d6.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683145.4%2C1247081.4%2C2683174.3%2C1247115.3%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Birmensdorferstrasse 50 8004 Zürich",
+  "site_id": "261-AU6367",
+  "recorded_at": "2026-09-08T12:28:10+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "1002e1fed6aee917b16e175b3586fdce72173197cb4f8686a482b07c85ea8972.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2682049.2%2C1247325.6%2C2682092.5%2C1247370.7%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Talacker 23 8001 Zürich",
+  "site_id": "261-AA1540",
+  "recorded_at": "2026-09-08T12:31:25+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "923497aae47e57ca9c830068491107c389090fef9e9b298fa52f04ae2a035285.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682928.5%2C1247195.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "a91a5bc4babefbcda5c5bfd538ce9779fbb9bda620cf8ba256fb1691f4fd63d3.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH579177769954&LANG=de"
+    }
+  ]
+}

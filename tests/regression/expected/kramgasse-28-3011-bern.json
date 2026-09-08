@@ -1,0 +1,37 @@
+{
+ "address": "Kramgasse 28 3011 Bern",
+ "layer0_de": [
+  [
+   "heritage.unesco.133",
+   "A"
+  ],
+  [
+   "hazard.flood",
+   "B"
+  ],
+  [
+   "solar.best_roof",
+   "A"
+  ],
+  [
+   "noise.road",
+   "B"
+  ],
+  [
+   "contamination.federal",
+   "A"
+  ]
+ ],
+ "coverage": {
+  "ch/federal/geocode": "ok",
+  "ch/federal/parcel": "ok",
+  "ch/federal/buildings": "ok",
+  "ch/federal/hazards": "ok",
+  "ch/federal/noise": "ok",
+  "ch/federal/contamination": "ok",
+  "ch/federal/oereb": "ok",
+  "ch/federal/solar": "ok",
+  "ch/federal/heritage": "ok",
+  "ch/federal/terrain": "ok"
+ }
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Regensbergstrasse 39 8050 Zürich",
+  "site_id": "261-OE3478",
+  "recorded_at": "2026-09-08T12:27:24+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "fda6f68f3541cb526eac238b4433a561f0e870d60a834d554ba3be863936f5fa.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2684159.5%2C1251022.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "ae722e4d029015e1998f5725ef7524073757a043f50a9958583de3b8f9dd0423.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH679177319958&LANG=de"
+    }
+  ]
+}

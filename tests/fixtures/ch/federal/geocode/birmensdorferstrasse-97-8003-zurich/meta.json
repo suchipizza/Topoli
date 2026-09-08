@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Birmensdorferstrasse 97 8003 Zürich",
+  "site_id": "261-WD510",
+  "recorded_at": "2026-09-08T12:28:06+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "80c2a39174be2f1618e161501d95fc931206cc9fb6c17dfcbec5b5cbfad77e50.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Birmensdorferstrasse+97+8003+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "8adadfef0eb0136ea95e6be637b054c38a60bf36d018441247a0e5869d4b669a.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2681887.0%2C1247214.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2681387.0%2C1246714.0%2C2682387.0%2C1247714.0&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

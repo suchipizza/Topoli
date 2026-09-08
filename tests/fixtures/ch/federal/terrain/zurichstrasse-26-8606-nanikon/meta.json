@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Zürichstrasse 26 8606 Nänikon",
+  "site_id": "198-E2924",
+  "recorded_at": "2026-09-08T12:32:36+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "57a2ba32752e729c117dcd4fd5b95998e29637184df23f7389bc7150a2f4ca46.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2694970.8%2C1247082.5%5D%2C%5B2695009.5%2C1247119.4%5D%2C%5B2694970.8%2C1247119.4%5D%2C%5B2695009.5%2C1247082.5%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

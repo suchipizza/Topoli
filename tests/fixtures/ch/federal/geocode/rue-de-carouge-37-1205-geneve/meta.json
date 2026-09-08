@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Rue de Carouge 37 1205 Genève",
+  "site_id": "6621-3211",
+  "recorded_at": "2026-09-08T12:34:24+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "bac1f50bdfd5ccdbf0f59722d57620c16e62c4da1934d12b48cbf3e9412b1989.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Rue+de+Carouge+37+1205+Gen%C3%A8ve&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "a7f872c321d01624e0eb7f6cae7bcfa182055d101fc14518e4ccc77e80cb33a5.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2500033.75%2C1116715.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2499533.75%2C1116215.5%2C2500533.75%2C1117215.5&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

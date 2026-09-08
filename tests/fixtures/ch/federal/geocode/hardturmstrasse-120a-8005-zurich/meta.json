@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Hardturmstrasse 120a 8005 Zürich",
+  "site_id": "261-IQ6722",
+  "recorded_at": "2026-09-08T12:29:03+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "f589efd3b3f82c04ccb890466ed3214cd62728fc901c009360bb853903e4b652.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Hardturmstrasse+120a+8005+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "e552c89793876c98a4a210be399ddf86591a990966235a53316d56490c0febff.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2681301.0%2C1249708.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2680801.0%2C1249208.0%2C2681801.0%2C1250208.0&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

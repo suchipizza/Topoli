@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/buildings",
+  "address": "Hofwiesenstrasse 38 8057 Zürich",
+  "site_id": "261-UN898",
+  "recorded_at": "2026-09-08T12:27:13+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "dfdf8bd43887c6e8e83b1a5d1fe87fc1f4c54a3459519399d90e6f16e7affc84.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2682948.1%2C1249840.8%5D%2C%5B2682949.0%2C1249841.2%5D%2C%5B2682963.3%2C1249847.6%5D%2C%5B2682971.8%2C1249851.5%5D%2C%5B2682975.4%2C1249853.1%5D%2C%5B2682974.7%2C1249854.8%5D%2C%5B2682977.1%2C1249856.2%5D%2C%5B2682978.8%2C1249857.3%5D%2C%5B2682984.1%2C1249847.5%5D%2C%5B2682975.4%2C1249843.6%5D%2C%5B2682966.8%2C1249839.6%5D%2C%5B2682952.6%2C1249833.3%5D%2C%5B2682951.7%2C1249832.9%5D%2C%5B2682948.1%2C1249840.8%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    }
+  ]
+}

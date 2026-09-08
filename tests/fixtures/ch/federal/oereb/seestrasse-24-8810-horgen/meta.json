@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Seestrasse 24 8810 Horgen",
+  "site_id": "295-HN12219",
+  "recorded_at": "2026-09-08T12:33:06+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "96dc38734dd18ce125ac8ef1bf12abe8194b8fdff1c4a9f4dafca55361451e27.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2686933.5%2C1235871.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "73608c5de020290729e2727a09934976b7fe006283c7839328e015c15dccace7.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH167728389544&LANG=de"
+    }
+  ]
+}

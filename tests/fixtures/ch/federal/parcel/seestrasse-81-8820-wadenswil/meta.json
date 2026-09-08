@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Seestrasse 81 8820 Wädenswil",
+  "site_id": "293-WE5110",
+  "recorded_at": "2026-09-08T12:33:26+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "da50c172352ac9ace4ce5728d9867230a8440812b828beb7bd2bc5b97d963a23.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2693715.0%2C1231448.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "ff75ce1c5e6261c8694eb1baacfb462243ab8a62f6c189583ed35cbddf77291f.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2693693.8%2C1231431.2%5D%2C%5B2693700.2%2C1231444.2%5D%2C%5B2693705.8%2C1231455.6%5D%2C%5B2693720.0%2C1231446.9%5D%2C%5B2693725.4%2C1231444.3%5D%2C%5B2693726.1%2C1231443.0%5D%2C%5B2693714.0%2C1231421.9%5D%2C%5B2693711.8%2C1231423.1%5D%2C%5B2693711.5%2C1231422.4%5D%2C%5B2693705.0%2C1231425.4%5D%2C%5B2693693.8%2C1231431.2%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

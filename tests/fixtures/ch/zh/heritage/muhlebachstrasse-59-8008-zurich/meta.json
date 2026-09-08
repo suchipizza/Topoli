@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Mühlebachstrasse 59 8008 Zürich",
+  "site_id": "261-RI3267",
+  "recorded_at": "2026-09-08T12:30:46+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "671b2a2f8feda1968c99e3630455b7c633de492c7fb35a164c9e33a42ca248a5.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2684135.7%2C1246398.4%2C2684184.6%2C1246444.7%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

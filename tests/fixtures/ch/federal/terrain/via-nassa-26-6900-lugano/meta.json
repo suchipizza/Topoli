@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Via Nassa 26 6900 Lugano",
+  "site_id": "5192-138",
+  "recorded_at": "2026-09-08T12:35:42+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "af2e6c7a890af57ec371eb90313a218e6d4b6f218fb4247ae2a6cb06104d97d9.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2717035.5%2C1095687.9%5D%2C%5B2717062.9%2C1095704.8%5D%2C%5B2717035.5%2C1095704.8%5D%2C%5B2717062.9%2C1095687.9%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

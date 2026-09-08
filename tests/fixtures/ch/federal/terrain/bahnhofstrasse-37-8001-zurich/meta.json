@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Bahnhofstrasse 37 8001 Zürich",
+  "site_id": "261-AA1264",
+  "recorded_at": "2026-09-08T12:25:54+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "51ca47d8bfa71283cd5854bcae9426f863822b93c218aaf375ebd04b0b25afe2.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2683040.8%2C1247297.8%5D%2C%5B2683073.6%2C1247317.6%5D%2C%5B2683040.8%2C1247317.6%5D%2C%5B2683073.6%2C1247297.8%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

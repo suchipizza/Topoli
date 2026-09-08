@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Rue de Carouge 37 1205 Genève",
+  "site_id": "6621-3211",
+  "recorded_at": "2026-09-08T12:34:24+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "6d3b62cd6ce92661c3c7abad84a558035ad82a7cda70fa8924a6628695df225e.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2500032.8%2C1116706.1%5D%2C%5B2500055.0%2C1116726.8%5D%2C%5B2500032.8%2C1116726.8%5D%2C%5B2500055.0%2C1116706.1%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

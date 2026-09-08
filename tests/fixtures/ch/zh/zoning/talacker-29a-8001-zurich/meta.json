@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Talacker 29a 8001 Zürich",
+  "site_id": "261-AA1539",
+  "recorded_at": "2026-09-08T12:31:21+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "904201164320cc0b1c68bc618b9e4127ae573f39c5d8af353011896d18e123bf.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2682906.1%2C1247244.2%2C2682908.1%2C1247246.2%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

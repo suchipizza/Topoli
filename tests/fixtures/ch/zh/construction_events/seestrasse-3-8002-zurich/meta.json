@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Seestrasse 3 8002 Zürich",
+  "site_id": "261-EN1287",
+  "recorded_at": "2026-09-08T12:28:22+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "cc103873d4984e7816a48322ed78c8891e82b081f2c2f25eca9364ad8991e9c6.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2682095.5%2C1246139.5%2C2683095.5%2C1247139.5%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

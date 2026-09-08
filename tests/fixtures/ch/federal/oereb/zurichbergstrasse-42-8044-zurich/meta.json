@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Zürichbergstrasse 42 8044 Zürich",
+  "site_id": "261-FL1773",
+  "recorded_at": "2026-09-08T12:26:44+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "7c0459567567c84094bfd913a68af3343ba4c89ad3f10a8942fd447aec3cc014.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2684411.5%2C1247646.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "25a165425c4e005c76b6d02c7113c5d4f62dd7c09de904a113d76f0a322fe16b.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH819125997882&LANG=de"
+    }
+  ]
+}

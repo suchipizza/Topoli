@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Rue Cheneau-de-Bourg 1 1003 Lausanne",
+  "site_id": "5586-10696",
+  "recorded_at": "2026-09-08T12:34:44+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "4a7f426dabcbd0a266eaeedf095e6b97a65815d21163503fffb95e9c37d65a76.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Rue+Cheneau-de-Bourg+1+1003+Lausanne&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "b7b2adc65cd8d27e9fb110d44b973eb6cdf7f02b3a46469855b7ece656358cf9.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2538442.0%2C1152488.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2537942.0%2C1151988.75%2C2538942.0%2C1152988.75&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

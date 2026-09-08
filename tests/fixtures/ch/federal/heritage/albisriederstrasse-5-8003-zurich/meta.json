@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/heritage",
+  "address": "Albisriederstrasse 5 8003 Zürich",
+  "site_id": "261-WD7516",
+  "recorded_at": "2026-09-08T12:27:54+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "068f7d214f51c1ccd2755828a1782ef3ac80b60c5fbf8b9a630c03222a72136d.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2680851.9%2C1248007.6%5D%2C%5B2680853.0%2C1248013.2%5D%2C%5B2680882.4%2C1248022.4%5D%2C%5B2680885.6%2C1248012.0%5D%2C%5B2680895.5%2C1248003.4%5D%2C%5B2680896.4%2C1248002.6%5D%2C%5B2680897.2%2C1248001.9%5D%2C%5B2680883.1%2C1247985.7%5D%2C%5B2680879.7%2C1247985.4%5D%2C%5B2680851.9%2C1248007.6%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.babs.kulturgueter%2Cch.bak.schutzgebiete-unesco_weltkulturerbe&sr=2056&tolerance=0&returnGeometry=false&limit=50"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/contamination",
+  "address": "Bundesgasse 8 3011 Bern",
+  "site_id": "351-1043",
+  "recorded_at": "2026-09-08T12:35:17+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "f4d833aeb5bd752d508c58fe83d9ca61ce521692dc2629f0e5d1439d60708f43.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2600270.9%2C1199540.7%5D%2C%5B2600282.2%2C1199543.6%5D%2C%5B2600282.3%2C1199542.9%5D%2C%5B2600297.2%2C1199549.7%5D%2C%5B2600302.2%2C1199550.9%5D%2C%5B2600315.2%2C1199553.2%5D%2C%5B2600321.0%2C1199554.2%5D%2C%5B2600323.6%2C1199554.2%5D%2C%5B2600325.1%2C1199548.3%5D%2C%5B2600324.9%2C1199548.3%5D%2C%5B2600328.9%2C1199531.9%5D%2C%5B2600323.2%2C1199530.5%5D%2C%5B2600323.2%2C1199530.2%5D%2C%5B2600312.2%2C1199527.5%5D%2C%5B2600312.2%2C1199527.7%5D%2C%5B2600306.0%2C1199526.2%5D%2C%5B2600305.8%2C1199526.6%5D%2C%5B2600276.5%2C1199519.3%5D%2C%5B2600276.6%2C1199518.8%5D%2C%5B2600276.1%2C1199518.7%5D%2C%5B2600272.2%2C1199534.6%5D%2C%5B2600272.4%2C1199534.6%5D%2C%5B2600270.9%2C1199540.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bav.kataster-belasteter-standorte-oev%2Cch.bazl.kataster-belasteter-standorte-zivilflugplaetze%2Cch.vbs.kataster-belasteter-standorte-militaer&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

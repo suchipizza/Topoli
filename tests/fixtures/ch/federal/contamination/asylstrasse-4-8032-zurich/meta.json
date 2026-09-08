@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/contamination",
+  "address": "Asylstrasse 4 8032 Zürich",
+  "site_id": "261-HO773",
+  "recorded_at": "2026-09-08T12:30:28+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "d5d2f6be59b26d4d7d45f60755646681fcfa25089703cd6361b671665978bebc.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2684440.9%2C1247161.2%5D%2C%5B2684442.9%2C1247163.7%5D%2C%5B2684443.5%2C1247164.5%5D%2C%5B2684449.0%2C1247161.3%5D%2C%5B2684452.5%2C1247158.7%5D%2C%5B2684453.0%2C1247158.1%5D%2C%5B2684452.4%2C1247157.3%5D%2C%5B2684448.3%2C1247152.7%5D%2C%5B2684446.9%2C1247154.0%5D%2C%5B2684440.9%2C1247158.9%5D%2C%5B2684441.0%2C1247158.9%5D%2C%5B2684440.9%2C1247161.2%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bav.kataster-belasteter-standorte-oev%2Cch.bazl.kataster-belasteter-standorte-zivilflugplaetze%2Cch.vbs.kataster-belasteter-standorte-militaer&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

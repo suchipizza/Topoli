@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Bahnhofstrasse 8 8302 Kloten",
+  "site_id": "62-4801",
+  "recorded_at": "2026-09-08T12:33:13+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "84dc596c42277cf02bc5c45d16f895c86fe72a76a153f7f38af1a81ce8ae8ad6.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2686291.0%2C1255969.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "bb87e4954f80c621ff08e64d084c182d56b3bfb4db44a7a0f4f868244aa02a89.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH990877960591&LANG=de"
+    }
+  ]
+}

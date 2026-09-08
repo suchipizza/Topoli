@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Bahnhofstrasse 14 8001 Zürich",
+  "site_id": "261-AA5529",
+  "recorded_at": "2026-09-08T12:25:49+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "55ebe883b8a167a3df73ba85cbece80573e898b418de43747f24fe5afde144be.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683192.5%2C1246985.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "af748a2b1739d68323734b7999bbe32fde962d18d1a27bf054bfbba7d19efb33.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH557599779167&LANG=de"
+    }
+  ]
+}

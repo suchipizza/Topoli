@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Regensbergstrasse 49 8050 Zürich",
+  "site_id": "261-OE3896",
+  "recorded_at": "2026-09-08T12:27:21+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "3caa79382b8258b079bc9c2c4fe5e263f93442d0b93706059cf11b319f540933.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Regensbergstrasse+49+8050+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "72804d2da75bd0d9629bcf8786dd1b3343445b7eeaa1dec6ed6375338ccd29e0.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2684059.0%2C1251051.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2683559.0%2C1250551.875%2C2684559.0%2C1251551.875&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

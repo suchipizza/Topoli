@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Bahnhofstrasse 11c 8630 Rüti ZH",
+  "site_id": "118-6666",
+  "recorded_at": "2026-09-08T12:33:44+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "e95dddf68e796239a872f17966e140c6eee86aef9db6e49aeb2dd720ec442d3f.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2706612.0%2C1234864.6%2C2707612.0%2C1235864.6%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Röntgenstrasse 10 8005 Zürich",
+  "site_id": "261-IQ2159",
+  "recorded_at": "2026-09-08T12:32:04+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "7d1043fefb592a7f08652b260da45e2bd96bfbab0546ada9b6ecdbbf69f980bb.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=R%C3%B6ntgenstrasse+10+8005+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "559854682482d2a22513cf7f3884c1ef18ba3c93ce5346ee6e0a35a3b32b9d5b.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682312.25%2C1248526.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2681812.25%2C1248026.375%2C2682812.25%2C1249026.375&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Stauffacherstrasse 25a 8004 Zürich",
+  "site_id": "261-AU4898",
+  "recorded_at": "2026-09-08T12:31:53+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "4bd024ecf951094fa8e94691203212c1e551d0fb1c2e8ea8de5ee513b0aea71b.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Stauffacherstrasse+25a+8004+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "c2a64883e111d1bfe2e0fff7005c4f86ac3cd89ad9cde6a347ae919f6373ba0f.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682359.25%2C1247470.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2681859.25%2C1246970.625%2C2682859.25%2C1247970.625&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

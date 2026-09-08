@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Hönggerstrasse 39 8037 Zürich",
+  "site_id": "261-WP5013",
+  "recorded_at": "2026-09-08T12:27:33+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "643b1f10084319f1aefebae0304db1b95e808bda7cf9b8f834461c2f3c5f5e5c.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=H%C3%B6nggerstrasse+39+8037+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "9dfc70c96720bbc383b5a9ef42afb0683535eb8eb2ea53807523d7d3349dbf69.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682051.0%2C1249521.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2681551.0%2C1249021.125%2C2682551.0%2C1250021.125&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

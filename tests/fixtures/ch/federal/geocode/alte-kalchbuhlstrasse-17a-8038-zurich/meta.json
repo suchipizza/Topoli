@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Alte Kalchbühlstrasse 17a 8038 Zürich",
+  "site_id": "261-WO6462",
+  "recorded_at": "2026-09-08T12:29:43+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "3586b4488f37fe72e6d2913b3dadde3e9e92b379209a901659bcad6a0a301f4a.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Alte+Kalchb%C3%BChlstrasse+17a+8038+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "d6e4ef28e4e9a5a9f0adaa5080977d1209dc6fcc6469fc877b2d264ac44bd9c8.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682522.25%2C1243811.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2682022.25%2C1243311.0%2C2683022.25%2C1244311.0&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

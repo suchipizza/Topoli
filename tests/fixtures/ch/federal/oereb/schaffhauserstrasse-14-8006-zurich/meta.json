@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Schaffhauserstrasse 14 8006 Zürich",
+  "site_id": "261-UN3835",
+  "recorded_at": "2026-09-08T12:26:56+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "9897c5f479db6d4fdee310711d5b9a5b0a822201f82e2ce46ce6e4782ad951f9.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683107.0%2C1249265.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "fa0892848d39365b131836d98f7dcf9f25cbeb8dd48387c3b5f4cf4f625de1ac.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH207091269953&LANG=de"
+    }
+  ]
+}

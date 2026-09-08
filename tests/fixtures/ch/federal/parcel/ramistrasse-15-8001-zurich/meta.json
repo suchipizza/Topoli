@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Rämistrasse 15 8001 Zürich",
+  "site_id": "261-AA3365",
+  "recorded_at": "2026-09-08T12:26:12+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "1ba56df2a5ebc8b4a7fcbf459e2b42c8a285c5ab5d411186aa5d3c1bba9f9509.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683650.25%2C1246981.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "b3a6733e9d79cb2fb20cb842ea06e7f48afcc39e256f1aa9461d6739de7f3b84.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683629.4%2C1246985.0%5D%2C%5B2683642.1%2C1246991.0%5D%2C%5B2683637.3%2C1247000.1%5D%2C%5B2683648.1%2C1247005.9%5D%2C%5B2683647.9%2C1247006.3%5D%2C%5B2683651.3%2C1247007.9%5D%2C%5B2683652.5%2C1247006.0%5D%2C%5B2683652.6%2C1247006.1%5D%2C%5B2683655.2%2C1247002.3%5D%2C%5B2683654.4%2C1247001.8%5D%2C%5B2683658.0%2C1246994.6%5D%2C%5B2683659.5%2C1246991.6%5D%2C%5B2683655.3%2C1246988.8%5D%2C%5B2683655.2%2C1246988.8%5D%2C%5B2683658.2%2C1246982.4%5D%2C%5B2683660.3%2C1246979.2%5D%2C%5B2683660.1%2C1246979.1%5D%2C%5B2683660.9%2C1246978.0%5D%2C%5B2683652.3%2C1246972.2%5D%2C%5B2683638.9%2C1246965.6%5D%2C%5B2683638.9%2C1246965.5%5D%2C%5B2683638.2%2C1246965.2%5D%2C%5B2683637.7%2C1246965.9%5D%2C%5B2683637.8%2C1246965.9%5D%2C%5B2683634.0%2C1246973.7%5D%2C%5B2683629.4%2C1246985.0%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

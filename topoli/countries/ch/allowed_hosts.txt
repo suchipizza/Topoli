@@ -1,0 +1,35 @@
+# Every host Topoli may contact for Switzerland. The HTTP client refuses anything else
+# (EgressError); tests/regression/test_egress.py asserts every recorded request matches.
+api3.geo.admin.ch          # search, identify, height, profile (federal)
+wms.geo.admin.ch           # WMS GetMap / GetFeatureInfo (federal rasters)
+wmts.geo.admin.ch          # map tiles for the report (view time / static fallback)
+maps.zh.ch                 # Canton ZH WFS + ÖREB web service
+oerebdocs.zh.ch            # BZO consolidated text (ÖREB document server)
+daten.statistik.zh.ch      # Baugesuche im Kanton Zürich (CSV)
+www.amtsblattportal.ch     # publication detail links
+# cantonal ÖREB web services (V2 extract), discovered via ch.swisstopo-vd.stand-oerebkataster
+www.oereb2.apps.be.ch
+rdppf.apps.vs.ch
+ge.ch
+crdpp.geo.ti.ch
+oereb.geo.lu.ch
+www.geo.ag.ch
+oereb.geo.bl.ch
+oereb.geo.bs.ch
+rdppf.vd.ch
+geo.fr.ch
+oereb.gr.ch
+oereb.sg.ch
+oereb.geo.tg.ch
+oereb.so.ch
+oereb.geo.sh.ch
+www.geo.sz.ch
+oereb.zg.ch
+oereb.ne.ch
+geoportail.jura.ch
+oereb.geo.ai.ch
+oereb.geo.ar.ch
+map.geo.gl.ch
+oereb.geo.ow.ch
+oereb.geo.nw.ch
+oereb.geo.ur.ch

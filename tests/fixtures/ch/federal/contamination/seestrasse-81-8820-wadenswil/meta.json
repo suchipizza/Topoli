@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/contamination",
+  "address": "Seestrasse 81 8820 Wädenswil",
+  "site_id": "293-WE5110",
+  "recorded_at": "2026-09-08T12:33:26+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "661ddabfc9b01e9c20a46efa5d1163b2032236b7c2670d74585b4c8005ff53ea.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2693693.8%2C1231431.2%5D%2C%5B2693700.2%2C1231444.2%5D%2C%5B2693705.8%2C1231455.6%5D%2C%5B2693720.0%2C1231446.9%5D%2C%5B2693725.4%2C1231444.3%5D%2C%5B2693726.1%2C1231443.0%5D%2C%5B2693714.0%2C1231421.9%5D%2C%5B2693711.8%2C1231423.1%5D%2C%5B2693711.5%2C1231422.4%5D%2C%5B2693705.0%2C1231425.4%5D%2C%5B2693693.8%2C1231431.2%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bav.kataster-belasteter-standorte-oev%2Cch.bazl.kataster-belasteter-standorte-zivilflugplaetze%2Cch.vbs.kataster-belasteter-standorte-militaer&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

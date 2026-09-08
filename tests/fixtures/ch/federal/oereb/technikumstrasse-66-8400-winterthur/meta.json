@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Technikumstrasse 66 8400 Winterthur",
+  "site_id": "230-ST7209",
+  "recorded_at": "2026-09-08T12:32:17+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "6b3136f92b98bfd40145e5f3842361706d39bad56118b58e97256437214a8892.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2697101.5%2C1261583.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "1b31cebfa51e6c59704b18c3b872e2b3e57d58dd4f0530a53941fc6d77391ae0.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH532079081840&LANG=de"
+    }
+  ]
+}

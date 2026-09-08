@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/contamination",
+  "address": "Rämistrasse 20 8001 Zürich",
+  "site_id": "261-AA3386",
+  "recorded_at": "2026-09-08T12:26:08+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "e85863a32dd9a63c1e0b6e47efb7c0b3524154196bf1cf78a1c9be83529e1d2b.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683697.0%2C1246936.6%5D%2C%5B2683705.7%2C1246942.5%5D%2C%5B2683701.0%2C1246949.3%5D%2C%5B2683726.7%2C1246967.0%5D%2C%5B2683735.2%2C1246973.1%5D%2C%5B2683739.0%2C1246975.6%5D%2C%5B2683739.5%2C1246974.9%5D%2C%5B2683740.9%2C1246973.9%5D%2C%5B2683751.5%2C1246962.9%5D%2C%5B2683747.9%2C1246960.3%5D%2C%5B2683775.0%2C1246923.1%5D%2C%5B2683744.9%2C1246895.7%5D%2C%5B2683743.5%2C1246897.3%5D%2C%5B2683727.9%2C1246915.4%5D%2C%5B2683718.8%2C1246925.9%5D%2C%5B2683710.7%2C1246918.6%5D%2C%5B2683709.1%2C1246920.6%5D%2C%5B2683698.6%2C1246934.5%5D%2C%5B2683697.0%2C1246936.6%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bav.kataster-belasteter-standorte-oev%2Cch.bazl.kataster-belasteter-standorte-zivilflugplaetze%2Cch.vbs.kataster-belasteter-standorte-militaer&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

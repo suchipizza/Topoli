@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Talacker 23 8001 Zürich",
+  "site_id": "261-AA1540",
+  "recorded_at": "2026-09-08T12:31:25+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "1eeb79d4b5f77dfc0d1723eeede48d2102355cd7a05c5f88551ded300d7f1284.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2682428.5%2C1246695.6%2C2683428.5%2C1247695.6%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

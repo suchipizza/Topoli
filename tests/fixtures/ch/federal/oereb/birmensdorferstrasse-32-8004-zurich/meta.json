@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Birmensdorferstrasse 32 8004 Zürich",
+  "site_id": "261-AU585",
+  "recorded_at": "2026-09-08T12:28:04+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "413a635546bbf93cfd2de25822ba20be2c2833aeed6c91ec1d0674844d05789f.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682155.5%2C1247396.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "4bdd5e8eee28df70256efdab73e46d8c04461abd5bdb3410d2481253158f4698.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH207891479965&LANG=de"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/contamination",
+  "address": "Bundesgasse 18 3011 Bern",
+  "site_id": "351-1053",
+  "recorded_at": "2026-09-08T12:35:20+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "9bf2888b718e49fa581f024a6d7251a37b72360d437e8180052e325480a9fe4b.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2600202.7%2C1199517.8%5D%2C%5B2600209.5%2C1199519.5%5D%2C%5B2600209.4%2C1199519.9%5D%2C%5B2600213.2%2C1199520.8%5D%2C%5B2600213.3%2C1199520.4%5D%2C%5B2600220.1%2C1199522.2%5D%2C%5B2600224.2%2C1199506.0%5D%2C%5B2600223.8%2C1199505.9%5D%2C%5B2600223.8%2C1199506.0%5D%2C%5B2600219.6%2C1199505.0%5D%2C%5B2600219.7%2C1199504.8%5D%2C%5B2600211.2%2C1199502.7%5D%2C%5B2600211.2%2C1199502.9%5D%2C%5B2600207.0%2C1199501.9%5D%2C%5B2600207.0%2C1199501.8%5D%2C%5B2600206.7%2C1199501.7%5D%2C%5B2600202.7%2C1199517.8%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bav.kataster-belasteter-standorte-oev%2Cch.bazl.kataster-belasteter-standorte-zivilflugplaetze%2Cch.vbs.kataster-belasteter-standorte-militaer&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

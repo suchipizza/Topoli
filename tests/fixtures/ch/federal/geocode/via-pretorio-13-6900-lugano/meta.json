@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Via Pretorio 13 6900 Lugano",
+  "site_id": "5192-336",
+  "recorded_at": "2026-09-08T12:35:52+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "b636d54f14e2367491b6c68504b7abf4e7b720ad0d2ce0c32e8eec7aa1b9251c.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Via+Pretorio+13+6900+Lugano&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "4880aa7ec628c53f3b3af0ac2e0fa0edc247eec7ca0ff07a4f64a8a2a2d63f2a.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2717216.75%2C1096146.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2716716.75%2C1095646.625%2C2717716.75%2C1096646.625&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

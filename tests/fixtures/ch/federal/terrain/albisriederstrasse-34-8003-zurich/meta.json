@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Albisriederstrasse 34 8003 Zürich",
+  "site_id": "261-WD5738",
+  "recorded_at": "2026-09-08T12:27:57+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "0d764f64f890c1adcf165a19929d2feabdeecd43bcaae97a36398c44c31e20ca.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2680684.9%2C1247986.5%5D%2C%5B2680718.6%2C1248016.0%5D%2C%5B2680684.9%2C1248016.0%5D%2C%5B2680718.6%2C1247986.5%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

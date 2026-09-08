@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Kalchbühlstrasse 50a 8038 Zürich",
+  "site_id": "261-WO4787",
+  "recorded_at": "2026-09-08T12:29:46+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "31f7cb6aedeef18c02752d915ca2530ddddc94dfc8c524a325de0f7f04f6a40e.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Kalchb%C3%BChlstrasse+50a+8038+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "3016685575ecd807a7ddd71d4ded0fa3bb66a7ec1df77d25876297d9505297eb.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682597.0%2C1243743.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2682097.0%2C1243243.5%2C2683097.0%2C1244243.5&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

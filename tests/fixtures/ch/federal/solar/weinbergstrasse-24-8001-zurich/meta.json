@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/solar",
+  "address": "Weinbergstrasse 24 8001 Zürich",
+  "site_id": "261-AA6839",
+  "recorded_at": "2026-09-08T12:31:27+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "e6593ac1ec4a891a1bfb2193acd59c9e11e259194fc940928eac1f5b26d1f4d5.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683506.6%2C1248132.3%5D%2C%5B2683506.6%2C1248145.3%5D%2C%5B2683519.2%2C1248145.2%5D%2C%5B2683524.0%2C1248145.1%5D%2C%5B2683523.9%2C1248132.1%5D%2C%5B2683519.1%2C1248132.2%5D%2C%5B2683506.6%2C1248132.3%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfe.solarenergie-eignung-daecher&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

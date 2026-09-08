@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Limmattalstrasse 16 8049 Zürich",
+  "site_id": "261-HG2653",
+  "recorded_at": "2026-09-08T12:27:35+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "6d1fbdbbd2bb5347821eb817604a7d299956f60ba7114852bce33cec6da790ca.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2681142.25%2C1250080.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "72e7f429e88c7a490984e1e4867e65e97e8d343c8c7a43a3d42379b4642bc2cd.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2681133.4%2C1250063.0%5D%2C%5B2681134.4%2C1250090.3%5D%2C%5B2681150.9%2C1250090.9%5D%2C%5B2681152.3%2C1250090.9%5D%2C%5B2681149.9%2C1250064.5%5D%2C%5B2681149.6%2C1250061.5%5D%2C%5B2681133.4%2C1250063.0%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/solar",
+  "address": "Via Nassa 19 6900 Lugano",
+  "site_id": "5192-227",
+  "recorded_at": "2026-09-08T12:35:45+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "07ac38c7b91b401f6a187941252c01ad7aa171e77b8ea1801947ea2e4d5360bc.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2717046.4%2C1095590.8%5D%2C%5B2717049.0%2C1095605.1%5D%2C%5B2717051.4%2C1095604.5%5D%2C%5B2717051.4%2C1095604.3%5D%2C%5B2717068.9%2C1095598.9%5D%2C%5B2717068.9%2C1095599.1%5D%2C%5B2717072.9%2C1095597.8%5D%2C%5B2717068.4%2C1095583.4%5D%2C%5B2717048.7%2C1095590.0%5D%2C%5B2717046.4%2C1095590.8%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfe.solarenergie-eignung-daecher&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

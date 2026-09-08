@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Josefstrasse 23 8005 Zürich",
+  "site_id": "261-IQ6666",
+  "recorded_at": "2026-09-08T12:29:18+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "32425592037757528e2063fb01fd276a8530caa126ae12443e01c60961bcd031.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2682678.6%2C1248349.9%2C2682680.6%2C1248351.9%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Langstrasse 80 8004 Zürich",
+  "site_id": "261-AU914",
+  "recorded_at": "2026-09-08T12:29:00+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "f005e7eb8ec966b641ee000520e9b6f83e86a40cfe0f9966d325d0e960b3df30.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682166.5%2C1247988.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "7518f1e692a65bd107c33743690be2197496cfc1fbfe7f9b860578d8745200ff.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH581099917895&LANG=de"
+    }
+  ]
+}

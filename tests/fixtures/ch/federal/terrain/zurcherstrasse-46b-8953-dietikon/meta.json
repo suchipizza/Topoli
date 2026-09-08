@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Zürcherstrasse 46b 8953 Dietikon",
+  "site_id": "243-12280",
+  "recorded_at": "2026-09-08T12:33:01+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "58acf13cc722dfe69933776deea7aba03b914e49e5a4819e104c0b86e28dcded.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2672761.5%2C1250798.5%5D%2C%5B2672815.1%2C1250832.3%5D%2C%5B2672761.5%2C1250832.3%5D%2C%5B2672815.1%2C1250798.5%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

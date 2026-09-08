@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Rue de Lausanne 15 1950 Sion",
+  "site_id": "6266-131",
+  "recorded_at": "2026-09-08T12:37:23+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "3f6e1a1df59416b8853126b70c89a2c22a7c4b056a81e5a353adbeceba5e183c.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2593876.3%2C1120110.8%5D%2C%5B2593904.5%2C1120141.1%5D%2C%5B2593876.3%2C1120141.1%5D%2C%5B2593904.5%2C1120110.8%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}
