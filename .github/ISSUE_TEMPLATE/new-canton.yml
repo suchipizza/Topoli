@@ -1,0 +1,48 @@
+name: New canton / jurisdiction
+description: Propose or claim a jurisdiction adapter (see CONTRIBUTING → "Add your canton in 4 steps").
+labels: ["adapter", "good first canton"]
+body:
+  - type: input
+    id: jurisdiction
+    attributes:
+      label: Jurisdiction
+      placeholder: "Canton of Vaud · Ville de Lausanne"
+    validations:
+      required: true
+  - type: dropdown
+    id: what
+    attributes:
+      label: What does this adapter provide?
+      multiple: true
+      options: ["Zoning (zone code + name)", "Regulation extraction (numeric rules with article spans)", "Heritage inventory", "Construction events / permits", "ÖREB / RDPPF extract", "Other"]
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Due-diligence checklist
+      options:
+        - label: "Official source URL(s) and documentation URL listed below"
+        - label: "Licence terms read; attribution text and redistribution flag identified for LICENCES.md"
+        - label: "Fields available listed (which ones map to Finding / Regulation / ConstructionEvent)"
+        - label: "Three fixture addresses proposed, including one negative case"
+        - label: "Rate limits / update cadence noted"
+  - type: textarea
+    id: sources
+    attributes:
+      label: Source URLs, documentation, licence text
+    validations:
+      required: true
+  - type: textarea
+    id: fields
+    attributes:
+      label: Fields available
+  - type: textarea
+    id: fixtures
+    attributes:
+      label: Fixture sites (three addresses)
+  - type: textarea
+    id: blockers
+    attributes:
+      label: Open questions or blockers
+      description: If licensing or machine-readability is unclear, say so here — it becomes a `docs/decisions/` note, not a workaround.

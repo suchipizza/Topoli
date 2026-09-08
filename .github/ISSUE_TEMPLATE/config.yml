@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Show your report / ask a question
+    url: https://github.com/suchipizza/Topoli/discussions
+    about: Discussions are the place for questions, ideas and sharing a report.

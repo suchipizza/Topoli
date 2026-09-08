@@ -1,0 +1,34 @@
+name: Bug report
+description: Something crashed, hung, or produced broken output (for a wrong finding, use the other template).
+labels: ["bug"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Topoli version
+      description: Output of `topoli --version` (or the commit).
+    validations:
+      required: true
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Where were you running it?
+      options: ["Claude Code", "Claude.ai", "topoli CLI directly", "Other"]
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What did you run, and what happened?
+      description: The command or prompt (you may redact the address to street level), the progress lines, and the error. Attach `--stats` output if you have it.
+    validations:
+      required: true
+  - type: textarea
+    id: doctor
+    attributes:
+      label: Output of `topoli doctor`
+      render: text
+  - type: input
+    id: os
+    attributes:
+      label: OS and Python version

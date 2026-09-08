@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+build/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated at runtime
+reports/
+coverage.json
+tests/source-contracts/last_run.json
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Never commit secrets or local env
+.env
+.env.*

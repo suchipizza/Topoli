@@ -1,0 +1,35 @@
+name: Wrong finding
+description: A finding is incorrect, or its confidence class is wrong. Hazard errors are release blockers.
+labels: ["wrong-finding"]
+body:
+  - type: input
+    id: address
+    attributes:
+      label: Address (as you typed it)
+    validations:
+      required: true
+  - type: textarea
+    id: finding
+    attributes:
+      label: The finding
+      description: Paste the layer-0 line and, if possible, the matching object from `evidence.json` (id, class, source).
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong?
+      description: Wrong fact, wrong class (e.g. an estimate shown as an official fact), wrong language, missing caveat…
+    validations:
+      required: true
+  - type: textarea
+    id: proof
+    attributes:
+      label: Official source that proves it
+      description: URL of the cantonal/municipal portal, extract or regulation article showing the correct value.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Topoli version and language used
