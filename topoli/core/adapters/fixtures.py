@@ -76,6 +76,14 @@ def record_fixture(adapter_id: str, address: str, *, slug: str | None = None) ->
     finally:
         set_client(previous)
 
+    shared_meta = fixtures_root() / adapter_id / "_shared" / "meta.json"
+    if slug != "_shared" and shared_meta.is_file():
+        shared_urls = {
+            e["url"]
+            for e in json.loads(shared_meta.read_text(encoding="utf-8")).get("requests", [])
+        }
+        records = [r for r in records if r.url not in shared_urls]
+
     if folder.exists():
         shutil.rmtree(folder)
     folder.mkdir(parents=True)

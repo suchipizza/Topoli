@@ -453,6 +453,18 @@
         "consequence": "An architect or the planning office must assess this: {reason}.",
         "caveat": "No numeric density ratio applies to zone {code}, or a building's floors or footprint is missing in the register."
       }
+    },
+    "activity": {
+      "n": {
+        "title": "{n} building applications were published within {radius} m in the last {months} months.",
+        "consequence": "The neighbourhood is changing ({kinds}); the nearest one is {nearest_m} m away: {nearest}.",
+        "caveat": "Counted from the cantonal register of official building publications; projects on parcels that could not be located are not counted."
+      },
+      "none": {
+        "title": "No building applications were published within {radius} m in the last {months} months.",
+        "consequence": "A quiet neighbourhood as far as official publications go.",
+        "caveat": "Counted from the cantonal register of official building publications since 2022; projects without a resolvable parcel number are not counted."
+      }
     }
   }
 }
