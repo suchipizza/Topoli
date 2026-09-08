@@ -1,0 +1,93 @@
+{
+ "adapter_id": "ch/federal/parcel",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2684719.0%2C1247265.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200",
+ "retrieved_at": "2026-09-08T10:07:40.320881Z",
+ "payload": {
+  "results": [
+   {
+    "type": "Feature",
+    "featureId": 2320260,
+    "bbox": [
+     2684700.8,
+     1247234.7,
+     2684740.9,
+     1247277.6
+    ],
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "id": 2320260,
+    "geometry": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        2684700.8,
+        1247271.0
+       ],
+       [
+        2684705.0,
+        1247273.9
+       ],
+       [
+        2684706.0,
+        1247274.6
+       ],
+       [
+        2684729.5,
+        1247277.6
+       ],
+       [
+        2684729.8,
+        1247276.6
+       ],
+       [
+        2684735.2,
+        1247257.3
+       ],
+       [
+        2684740.9,
+        1247242.2
+       ],
+       [
+        2684739.5,
+        1247241.6
+       ],
+       [
+        2684721.2,
+        1247234.7
+       ],
+       [
+        2684709.8,
+        1247250.4
+       ],
+       [
+        2684708.1,
+        1247254.2
+       ],
+       [
+        2684700.8,
+        1247271.0
+       ]
+      ]
+     ]
+    },
+    "properties": {
+     "bfsnr": 261,
+     "ak": "ZH",
+     "name": "HO2877",
+     "number": "HO2877",
+     "identnd": "ZH0200000261",
+     "egris_egrid": "CH119116997120",
+     "realestate_type": null,
+     "geoportal_url": "https://maps.zh.ch?topic=AVfarbigZH&locate=gemeinden&locations=261",
+     "label": "HO2877"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2684719.0%2C1247265.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

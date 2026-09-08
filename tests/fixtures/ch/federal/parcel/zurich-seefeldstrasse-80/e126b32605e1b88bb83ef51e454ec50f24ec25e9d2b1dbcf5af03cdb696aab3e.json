@@ -1,7 +1,7 @@
 {
  "adapter_id": "ch/federal/parcel",
  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683801.6%2C1246636.2%5D%2C%5B2683812.1%2C1246651.8%5D%2C%5B2683816.4%2C1246658.1%5D%2C%5B2683829.6%2C1246647.4%5D%2C%5B2683821.8%2C1246638.2%5D%2C%5B2683817.7%2C1246641.0%5D%2C%5B2683815.3%2C1246637.5%5D%2C%5B2683807.6%2C1246626.2%5D%2C%5B2683801.6%2C1246636.2%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200",
- "retrieved_at": "2026-09-08T09:35:19.796233Z",
+ "retrieved_at": "2026-09-08T10:07:30.514350Z",
  "payload": {
   "results": [
    {

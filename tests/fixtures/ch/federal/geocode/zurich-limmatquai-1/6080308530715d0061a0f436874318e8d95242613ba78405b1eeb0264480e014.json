@@ -1,7 +1,7 @@
 {
  "adapter_id": "ch/federal/geocode",
  "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Limmatquai+1%2C+8001+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address",
- "retrieved_at": "2026-09-08T09:52:27.141890Z",
+ "retrieved_at": "2026-09-08T10:07:32.531811Z",
  "payload": {
   "results": [
    {

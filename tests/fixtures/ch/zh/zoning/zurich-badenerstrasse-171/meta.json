@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Badenerstrasse 171, 8003 Zürich",
+  "site_id": "261-AU6979",
+  "recorded_at": "2026-09-08T10:07:29+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "337eb25567a364a4416e66b4f6a97086dd4f392e682da93c574f5e13fbbd9db9.json",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2681705.1%2C1247621.1%2C2681707.1%2C1247623.1%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

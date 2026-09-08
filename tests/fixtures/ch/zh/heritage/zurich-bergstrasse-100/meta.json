@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Bergstrasse 100, 8032 Zürich",
+  "site_id": "261-HO3655",
+  "recorded_at": "2026-09-08T10:07:48+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "fef875290f4ed37dcb79b1b43736229339687523177495f3a2fa4bf22b92cb8e.json",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2684869.0%2C1246711.3%2C2684898.5%2C1246741.7%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

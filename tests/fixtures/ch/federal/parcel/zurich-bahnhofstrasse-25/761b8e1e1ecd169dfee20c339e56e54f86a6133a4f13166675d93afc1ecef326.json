@@ -1,0 +1,121 @@
+{
+ "adapter_id": "ch/federal/parcel",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683106.75%2C1247180.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200",
+ "retrieved_at": "2026-09-08T10:07:35.387068Z",
+ "payload": {
+  "results": [
+   {
+    "type": "Feature",
+    "featureId": 2300423,
+    "bbox": [
+     2683021.1,
+     1247129.6,
+     2683114.2,
+     1247225.7
+    ],
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "id": 2300423,
+    "geometry": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        2683021.1,
+        1247169.9
+       ],
+       [
+        2683082.9,
+        1247222.6
+       ],
+       [
+        2683094.4,
+        1247225.7
+       ],
+       [
+        2683114.2,
+        1247152.4
+       ],
+       [
+        2683113.1,
+        1247152.0
+       ],
+       [
+        2683113.1,
+        1247152.0
+       ],
+       [
+        2683104.9,
+        1247148.6
+       ],
+       [
+        2683105.2,
+        1247147.7
+       ],
+       [
+        2683098.5,
+        1247144.9
+       ],
+       [
+        2683098.3,
+        1247145.2
+       ],
+       [
+        2683076.3,
+        1247135.9
+       ],
+       [
+        2683076.4,
+        1247135.6
+       ],
+       [
+        2683069.7,
+        1247132.8
+       ],
+       [
+        2683069.3,
+        1247133.6
+       ],
+       [
+        2683069.1,
+        1247133.6
+       ],
+       [
+        2683061.1,
+        1247130.2
+       ],
+       [
+        2683061.1,
+        1247130.1
+       ],
+       [
+        2683060.0,
+        1247129.6
+       ],
+       [
+        2683021.1,
+        1247169.9
+       ]
+      ]
+     ]
+    },
+    "properties": {
+     "bfsnr": 261,
+     "ak": "ZH",
+     "name": "AA1247",
+     "number": "AA1247",
+     "identnd": "ZH0200000261",
+     "egris_egrid": "CH449199705501",
+     "realestate_type": null,
+     "geoportal_url": "https://maps.zh.ch?topic=AVfarbigZH&locate=gemeinden&locations=261",
+     "label": "AA1247"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683106.75%2C1247180.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

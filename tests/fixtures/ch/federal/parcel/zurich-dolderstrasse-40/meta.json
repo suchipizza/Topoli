@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Dolderstrasse 40, 8032 Zürich",
+  "site_id": "261-HO2877",
+  "recorded_at": "2026-09-08T10:07:40+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "38b1811c558d42f95b1021af247c2927ef1aef24521a46d3d282ab44c020c07b.json",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2684719.0%2C1247265.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "6cdac9b92868e5d04b690536e01bcc73903763716cbff8de5a9c92b7c8deaa94.json",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2684700.8%2C1247271.0%5D%2C%5B2684705.0%2C1247273.9%5D%2C%5B2684706.0%2C1247274.6%5D%2C%5B2684729.5%2C1247277.6%5D%2C%5B2684729.8%2C1247276.6%5D%2C%5B2684735.2%2C1247257.3%5D%2C%5B2684740.9%2C1247242.2%5D%2C%5B2684739.5%2C1247241.6%5D%2C%5B2684721.2%2C1247234.7%5D%2C%5B2684709.8%2C1247250.4%5D%2C%5B2684708.1%2C1247254.2%5D%2C%5B2684700.8%2C1247271.0%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

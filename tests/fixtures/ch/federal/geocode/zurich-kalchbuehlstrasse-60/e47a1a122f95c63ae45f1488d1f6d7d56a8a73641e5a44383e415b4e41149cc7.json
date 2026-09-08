@@ -1,0 +1,46 @@
+{
+ "adapter_id": "ch/federal/geocode",
+ "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Kalchb%C3%BChlstrasse+60%2C+8038+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address",
+ "retrieved_at": "2026-09-08T10:07:49.050054Z",
+ "payload": {
+  "results": [
+   {
+    "attrs": {
+     "detail": "kalchbuehlstrasse 60 8038 zuerich 261 zuerich ch zh",
+     "featureId": "302066603_0",
+     "geom_quadindex": "030003320000031333321",
+     "geom_st_box2d": "BOX(2682616.7520000003 1243662.6490000002,2682616.7520000003 1243662.6490000002)",
+     "label": "Kalchbühlstrasse 60 <b>8038 Zürich</b>",
+     "lat": 47.338645935058594,
+     "links": [
+      {
+       "href": "/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/103521438",
+       "rel": "related",
+       "title": "ch.swisstopo.amtliches-gebaeudeadressverzeichnis"
+      },
+      {
+       "href": "/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/302066603_0",
+       "rel": "related",
+       "title": "ch.bfs.gebaeude_wohnungs_register"
+      }
+     ],
+     "lon": 8.531816482543945,
+     "num": 60,
+     "objectclass": "",
+     "origin": "address",
+     "rank": 7,
+     "x": 1243662.625,
+     "y": 2682616.75,
+     "zoomlevel": 10
+    },
+    "id": 2287953,
+    "weight": 1
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Kalchb%C3%BChlstrasse+60%2C+8038+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

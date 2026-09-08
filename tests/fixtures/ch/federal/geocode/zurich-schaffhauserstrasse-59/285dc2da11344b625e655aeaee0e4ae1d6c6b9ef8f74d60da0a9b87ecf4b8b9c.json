@@ -1,0 +1,46 @@
+{
+ "adapter_id": "ch/federal/geocode",
+ "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Schaffhauserstrasse+59%2C+8057+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address",
+ "retrieved_at": "2026-09-08T10:08:40.279356Z",
+ "payload": {
+  "results": [
+   {
+    "attrs": {
+     "detail": "schaffhauserstrasse 59 8057 zuerich 261 zuerich ch zh",
+     "featureId": "9011656_0",
+     "geom_quadindex": "030003120230232101132",
+     "geom_st_box2d": "BOX(2683049.471999999 1249636.9730000012,2683049.471999999 1249636.9730000012)",
+     "label": "Schaffhauserstrasse 59 <b>8057 Zürich</b>",
+     "lat": 47.3923225402832,
+     "links": [
+      {
+       "href": "/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/101215434",
+       "rel": "related",
+       "title": "ch.swisstopo.amtliches-gebaeudeadressverzeichnis"
+      },
+      {
+       "href": "/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/9011656_0",
+       "rel": "related",
+       "title": "ch.bfs.gebaeude_wohnungs_register"
+      }
+     ],
+     "lon": 8.538649559020996,
+     "num": 59,
+     "objectclass": "",
+     "origin": "address",
+     "rank": 7,
+     "x": 1249637.0,
+     "y": 2683049.5,
+     "zoomlevel": 10
+    },
+    "id": 2837009,
+    "weight": 1
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Schaffhauserstrasse+59%2C+8057+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

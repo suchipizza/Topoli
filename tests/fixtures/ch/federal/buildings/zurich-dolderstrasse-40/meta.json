@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/buildings",
+  "address": "Dolderstrasse 40, 8032 Zürich",
+  "site_id": "261-HO2877",
+  "recorded_at": "2026-09-08T10:07:40+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "7d4d174c79d9e514818442ee0e918d3f1effd0cdc66af9d63e50008b16af3507.json",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2684700.8%2C1247271.0%5D%2C%5B2684705.0%2C1247273.9%5D%2C%5B2684706.0%2C1247274.6%5D%2C%5B2684729.5%2C1247277.6%5D%2C%5B2684729.8%2C1247276.6%5D%2C%5B2684735.2%2C1247257.3%5D%2C%5B2684740.9%2C1247242.2%5D%2C%5B2684739.5%2C1247241.6%5D%2C%5B2684721.2%2C1247234.7%5D%2C%5B2684709.8%2C1247250.4%5D%2C%5B2684708.1%2C1247254.2%5D%2C%5B2684700.8%2C1247271.0%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    }
+  ]
+}

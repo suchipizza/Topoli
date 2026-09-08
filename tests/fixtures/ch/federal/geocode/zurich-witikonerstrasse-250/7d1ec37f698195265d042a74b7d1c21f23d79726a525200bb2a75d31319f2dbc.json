@@ -1,0 +1,174 @@
+{
+ "adapter_id": "ch/federal/geocode",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2686400.0%2C1245953.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2685900.0%2C1245453.625%2C2686900.0%2C1246453.625&imageDisplay=1000%2C1000%2C96",
+ "retrieved_at": "2026-09-08T10:08:42.841961Z",
+ "payload": {
+  "results": [
+   {
+    "layerBodId": "ch.bfs.gebaeude_wohnungs_register",
+    "layerName": "GWR: Gebäudestatus",
+    "featureId": "158111_0",
+    "id": "158111_0",
+    "properties": {
+     "egid": "158111",
+     "strname_deinr": "Witikonerstrasse 250",
+     "plz_plz6": "8053/805300",
+     "ggdename": "Zürich",
+     "ggdenr": 261,
+     "gexpdat": "06.09.2026",
+     "gdekt": "ZH",
+     "egrid": "CH119121997766",
+     "lgbkr": 279,
+     "lparz": "WI4342",
+     "lparzsx": null,
+     "ltyp": null,
+     "gebnr": "261WI01704",
+     "gbez": "",
+     "gkode": 2686400.56,
+     "gkodn": 1245952.17,
+     "gksce": 904,
+     "gstat": 1004,
+     "gkat": 1020,
+     "gklas": 1122,
+     "gbauj": 1930,
+     "gbaum": 1,
+     "gbaup": 8012,
+     "gabbj": null,
+     "garea": 155,
+     "gvol": 1790,
+     "gvolnorm": 962,
+     "gvolsce": 859,
+     "gastw": 5,
+     "ganzwhg": 4,
+     "gazzi": null,
+     "gschutzr": 0,
+     "gebf": 640,
+     "gwaerzh1": 7410,
+     "genh1": 7511,
+     "gwaersceh1": 859,
+     "gwaerdath1": "11.05.2021",
+     "gwaerzh2": 7400,
+     "genh2": 7500,
+     "gwaersceh2": 869,
+     "gwaerdath2": "08.11.2021",
+     "gwaerzw1": 7610,
+     "genw1": 7511,
+     "gwaerscew1": 859,
+     "gwaerdatw1": "11.05.2021",
+     "gwaerzw2": 7600,
+     "genw2": 7500,
+     "gwaerscew2": 869,
+     "gwaerdatw2": "08.11.2021",
+     "edid": "0",
+     "egaid": 100147963,
+     "deinr": "250",
+     "esid": 10056512,
+     "strname": [
+      "Witikonerstrasse"
+     ],
+     "strnamk": [
+      "Witikonerstr."
+     ],
+     "strindx": [
+      "Wit"
+     ],
+     "strsp": [
+      "DE"
+     ],
+     "stroffiziel": "1",
+     "dplz4": 8053,
+     "dplzz": 0,
+     "dplzname": "Zürich",
+     "dkode": 2686400.061,
+     "dkodn": 1245953.659,
+     "doffadr": 1,
+     "dexpdat": "06.09.2026",
+     "ewid": [
+      "1",
+      "2",
+      "3",
+      "4"
+     ],
+     "whgnr": [
+      "1",
+      "101",
+      "201",
+      "9901"
+     ],
+     "wstwk": [
+      3100,
+      3101,
+      3102,
+      3401
+     ],
+     "wmehrg": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "weinr": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "wbez": [
+      "Mitte",
+      "Mitte",
+      "Mitte",
+      "Mitte"
+     ],
+     "wstat": [
+      3004,
+      3004,
+      3004,
+      3004
+     ],
+     "wexpdat": [
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00"
+     ],
+     "wbauj": [
+      1999,
+      1999,
+      1999,
+      1999
+     ],
+     "wabbj": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "warea": [
+      120,
+      120,
+      100,
+      82
+     ],
+     "wazim": [
+      4,
+      4,
+      4,
+      2
+     ],
+     "wkche": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "label": "Witikonerstrasse 250"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2686400.0%2C1245953.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2685900.0%2C1245453.625%2C2686900.0%2C1246453.625&imageDisplay=1000%2C1000%2C96"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

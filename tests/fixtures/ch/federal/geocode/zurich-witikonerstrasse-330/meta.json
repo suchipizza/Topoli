@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Witikonerstrasse 330, 8053 Zürich",
+  "site_id": "261-WI1427",
+  "recorded_at": "2026-09-08T10:08:45+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "00c28417b7e2ea9d2e8d3a689b7357d340b382d25e8bceb4d0d876833f8766b7.json",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Witikonerstrasse+330%2C+8053+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "dbc47515c3813fdf5493c1dae0fecf11c58d32e0d78a28105d17561676632359.json",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2686917.75%2C1245899.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2686417.75%2C1245399.125%2C2687417.75%2C1246399.125&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

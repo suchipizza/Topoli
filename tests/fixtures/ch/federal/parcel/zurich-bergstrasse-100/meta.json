@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Bergstrasse 100, 8032 Zürich",
+  "site_id": "261-HO3655",
+  "recorded_at": "2026-09-08T10:07:47+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "0b667e844fd42d367813b73099bd6b3b6ce8593070e60304bd98367514b21c8b.json",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2684884.25%2C1246727.25&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "57791467e4a512d6af31a4acc5f0d4bf0eb4fc4146463d2dc3c8acf2ea88d29b.json",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2684874.0%2C1246728.9%5D%2C%5B2684875.4%2C1246729.6%5D%2C%5B2684880.2%2C1246731.7%5D%2C%5B2684883.6%2C1246736.1%5D%2C%5B2684884.1%2C1246736.7%5D%2C%5B2684885.2%2C1246735.8%5D%2C%5B2684886.4%2C1246734.9%5D%2C%5B2684887.6%2C1246734.1%5D%2C%5B2684888.7%2C1246733.2%5D%2C%5B2684889.9%2C1246732.3%5D%2C%5B2684891.1%2C1246731.5%5D%2C%5B2684892.3%2C1246730.6%5D%2C%5B2684893.5%2C1246729.8%5D%2C%5B2684892.5%2C1246722.1%5D%2C%5B2684879.7%2C1246716.3%5D%2C%5B2684874.0%2C1246728.9%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

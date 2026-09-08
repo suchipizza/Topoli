@@ -1,0 +1,116 @@
+{
+ "adapter_id": "ch/federal/parcel",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2686903.8%2C1245894.0%5D%2C%5B2686912.1%2C1245899.6%5D%2C%5B2686919.7%2C1245904.8%5D%2C%5B2686923.0%2C1245907.0%5D%2C%5B2686924.7%2C1245908.2%5D%2C%5B2686929.0%2C1245901.9%5D%2C%5B2686937.6%2C1245889.1%5D%2C%5B2686921.3%2C1245884.0%5D%2C%5B2686912.4%2C1245881.2%5D%2C%5B2686903.8%2C1245894.0%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200",
+ "retrieved_at": "2026-09-08T10:08:46.111326Z",
+ "payload": {
+  "results": [
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 2293409,
+    "id": 2293409,
+    "properties": {
+     "bfsnr": 261,
+     "ak": "ZH",
+     "name": "WI1431",
+     "number": "WI1431",
+     "identnd": "ZH0200000261",
+     "egris_egrid": "CH219188997018",
+     "realestate_type": null,
+     "geoportal_url": "https://maps.zh.ch?topic=AVfarbigZH&locate=gemeinden&locations=261",
+     "label": "WI1431"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 2301754,
+    "id": 2301754,
+    "properties": {
+     "bfsnr": 261,
+     "ak": "ZH",
+     "name": "WI4108",
+     "number": "WI4108",
+     "identnd": "ZH0200000261",
+     "egris_egrid": "CH282599917190",
+     "realestate_type": null,
+     "geoportal_url": "https://maps.zh.ch?topic=AVfarbigZH&locate=gemeinden&locations=261",
+     "label": "WI4108"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 2289109,
+    "id": 2289109,
+    "properties": {
+     "bfsnr": 261,
+     "ak": "ZH",
+     "name": "WI4020",
+     "number": "WI4020",
+     "identnd": "ZH0200000261",
+     "egris_egrid": "CH227088999195",
+     "realestate_type": null,
+     "geoportal_url": "https://maps.zh.ch?topic=AVfarbigZH&locate=gemeinden&locations=261",
+     "label": "WI4020"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 2317832,
+    "id": 2317832,
+    "properties": {
+     "bfsnr": 261,
+     "ak": "ZH",
+     "name": "WI1427",
+     "number": "WI1427",
+     "identnd": "ZH0200000261",
+     "egris_egrid": "CH299970889107",
+     "realestate_type": null,
+     "geoportal_url": "https://maps.zh.ch?topic=AVfarbigZH&locate=gemeinden&locations=261",
+     "label": "WI1427"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 2307275,
+    "id": 2307275,
+    "properties": {
+     "bfsnr": 261,
+     "ak": "ZH",
+     "name": "WI1423",
+     "number": "WI1423",
+     "identnd": "ZH0200000261",
+     "egris_egrid": "CH279170889986",
+     "realestate_type": null,
+     "geoportal_url": "https://maps.zh.ch?topic=AVfarbigZH&locate=gemeinden&locations=261",
+     "label": "WI1423"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 2307137,
+    "id": 2307137,
+    "properties": {
+     "bfsnr": 261,
+     "ak": "ZH",
+     "name": "WI1430",
+     "number": "WI1430",
+     "identnd": "ZH0200000261",
+     "egris_egrid": "CH207091889961",
+     "realestate_type": null,
+     "geoportal_url": "https://maps.zh.ch?topic=AVfarbigZH&locate=gemeinden&locations=261",
+     "label": "WI1430"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2686903.8%2C1245894.0%5D%2C%5B2686912.1%2C1245899.6%5D%2C%5B2686919.7%2C1245904.8%5D%2C%5B2686923.0%2C1245907.0%5D%2C%5B2686924.7%2C1245908.2%5D%2C%5B2686929.0%2C1245901.9%5D%2C%5B2686937.6%2C1245889.1%5D%2C%5B2686921.3%2C1245884.0%5D%2C%5B2686912.4%2C1245881.2%5D%2C%5B2686903.8%2C1245894.0%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

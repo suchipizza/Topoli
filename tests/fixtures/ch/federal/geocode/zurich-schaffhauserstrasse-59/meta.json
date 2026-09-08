@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Schaffhauserstrasse 59, 8057 Zürich",
+  "site_id": "261-UN4467",
+  "recorded_at": "2026-09-08T10:08:40+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "285dc2da11344b625e655aeaee0e4ae1d6c6b9ef8f74d60da0a9b87ecf4b8b9c.json",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Schaffhauserstrasse+59%2C+8057+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "6a375fd251aed31b3dafcbc77ced7eba51bc312e3bef391b3749962739b03fec.json",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683049.5%2C1249637.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2682549.5%2C1249137.0%2C2683549.5%2C1250137.0&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

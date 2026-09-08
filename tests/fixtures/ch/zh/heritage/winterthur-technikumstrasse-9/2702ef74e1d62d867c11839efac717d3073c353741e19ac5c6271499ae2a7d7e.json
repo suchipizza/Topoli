@@ -1,0 +1,249 @@
+{
+ "adapter_id": "ch/zh/heritage",
+ "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2697122.3%2C1261361.1%2C2697383.7%2C1261578.6%2CEPSG%3A2056&COUNT=50",
+ "retrieved_at": "2026-09-08T10:07:55.506064Z",
+ "payload": {
+  "type": "FeatureCollection",
+  "numberMatched": 7,
+  "name": "ogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p",
+  "crs": {
+   "type": "name",
+   "properties": {
+    "name": "urn:ogc:def:crs:EPSG::2056"
+   }
+  },
+  "features": [
+   {
+    "type": "Feature",
+    "properties": {
+     "odb_id": 15692,
+     "gemeinde": "Winterthur",
+     "ort": "Winterthur",
+     "plz": "8400",
+     "strasse": "Büelrainstrasse 15 bei",
+     "ensemble": "Winterthur: Ensemble «Schanzengarten»",
+     "objekt": "Gartenanlage",
+     "inventarblatt": "https://odb.zh.ch/odbwiki/mediawiki/files/pdfs/Winterthur-Inventar_33488_1-festgesetzt_2018.pdf",
+     "gvz_nr": "",
+     "denkbankschluessel": "230STGARTEN08239",
+     "baujahr": "1737-1740",
+     "einstufung": "kantonal",
+     "festsetzung": "2018-07-26T00:00:00",
+     "erlass": "BDV Nr. 1180/2015 Einzelfestsetzung aufgrund Unterschutzstellung ohne Inventarblatt, AREV Nr. 0929/2018 Inventarblatt",
+     "schutz": "ÖREB",
+     "grundbucheintrag": "2015-07-09T00:00:00",
+     "ost": 2697198.0,
+     "nord": 1261403.0,
+     "katasternummer": "ST8239",
+     "egid": "",
+     "geodb_oid": 5222
+    },
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      2697198.0,
+      1261403.0
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "properties": {
+     "odb_id": 1703,
+     "gemeinde": "Winterthur",
+     "ort": "Winterthur",
+     "plz": "8400",
+     "strasse": "Büelrainstrasse 13",
+     "ensemble": "Winterthur: Ensemble «Schanzengarten»",
+     "objekt": "Gartenpavillon",
+     "inventarblatt": "https://odb.zh.ch/odbwiki/mediawiki/files/pdfs/Winterthur-Inventar_33488_1-festgesetzt_2018.pdf",
+     "gvz_nr": "230ST07926",
+     "denkbankschluessel": "",
+     "baujahr": "1753",
+     "einstufung": "kantonal",
+     "festsetzung": "2018-07-26T00:00:00",
+     "erlass": "AREV Nr. 0929/2018 Liste und Inventarblatt",
+     "schutz": "-",
+     "ost": 2697202.0,
+     "nord": 1261411.0,
+     "katasternummer": "",
+     "egid": "210194567",
+     "geodb_oid": 5247
+    },
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      2697202.0,
+      1261411.0
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "properties": {
+     "odb_id": 531,
+     "gemeinde": "Winterthur",
+     "ort": "Winterthur",
+     "plz": "8400",
+     "strasse": "Technikumstrasse 9",
+     "ensemble": "Winterthur: Bauten der Zürcher Hochschule für Angewandte Wissenschaften, ehem. Technikum",
+     "objekt": "Hauptgebäude",
+     "inventarblatt": "https://odb.zh.ch/odbwiki/mediawiki/files/pdfs/Winterthur-Inventar_7664_1-festgesetzt_2020.pdf",
+     "gvz_nr": "230ST01194",
+     "denkbankschluessel": "",
+     "baujahr": "1876-1879",
+     "einstufung": "regional",
+     "festsetzung": "2018-07-26T00:00:00",
+     "erlass": "RRB Nr. 5021/1980 Liste ohne Inventarblatt, AREV Nr. 0929/2018 Inventarblatt, BDV Nr. 1151/2020 Nachführung Inventarblatt",
+     "schutz": "-",
+     "ost": 2697254.0,
+     "nord": 1261524.0,
+     "katasternummer": "ST9255",
+     "egid": "2323668",
+     "geodb_oid": 5283
+    },
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      2697254.0,
+      1261524.0
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "properties": {
+     "odb_id": 532,
+     "gemeinde": "Winterthur",
+     "ort": "Winterthur",
+     "plz": "8400",
+     "strasse": "Zeughausstrasse 77",
+     "ensemble": "Winterthur: Bauten der Zürcher Hochschule für Angewandte Wissenschaften, ehem. Technikum",
+     "objekt": "Ostgebäude mit Erweiterungsbau",
+     "inventarblatt": "https://odb.zh.ch/odbwiki/mediawiki/files/pdfs/Winterthur-Inventar_7664_1-festgesetzt_2020.pdf",
+     "gvz_nr": "230ST02740",
+     "denkbankschluessel": "",
+     "baujahr": "1908-1939",
+     "einstufung": "regional",
+     "festsetzung": "2018-07-26T00:00:00",
+     "erlass": "AREV Nr. 0929/2018 Liste und Inventarblatt, BDV Nr. 1151/2020 Nachführung Inventarblatt",
+     "schutz": "-",
+     "ost": 2697316.0,
+     "nord": 1261548.0,
+     "katasternummer": "ST9255",
+     "egid": "201033720",
+     "geodb_oid": 5326
+    },
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      2697316.0,
+      1261548.0
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "properties": {
+     "odb_id": 530,
+     "gemeinde": "Winterthur",
+     "ort": "Winterthur",
+     "plz": "8400",
+     "strasse": "Technikumstrasse 9.10",
+     "ensemble": "Winterthur: Bauten der Zürcher Hochschule für Angewandte Wissenschaften, ehem. Technikum",
+     "objekt": "Physikgebäude",
+     "inventarblatt": "https://odb.zh.ch/odbwiki/mediawiki/files/pdfs/Winterthur-Inventar_7664_1-festgesetzt_2020.pdf",
+     "gvz_nr": "230ST00471",
+     "denkbankschluessel": "",
+     "baujahr": "1959-1960",
+     "einstufung": "regional",
+     "festsetzung": "2018-07-26T00:00:00",
+     "erlass": "AREV Nr. 0929/2018 Liste und Inventarblatt, BDV Nr. 1151/2020 Nachführung Inventarblatt",
+     "schutz": "-",
+     "ost": 2697182.0,
+     "nord": 1261533.0,
+     "katasternummer": "ST9255",
+     "egid": "201033828",
+     "geodb_oid": 5335
+    },
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      2697182.0,
+      1261533.0
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "properties": {
+     "odb_id": 1172,
+     "gemeinde": "Winterthur",
+     "ort": "Winterthur",
+     "plz": "8400",
+     "strasse": "Technikumstrasse 9 bei",
+     "ensemble": "Winterthur: Bauten der Zürcher Hochschule für Angewandte Wissenschaften, ehem. Technikum",
+     "objekt": "Umgebung",
+     "inventarblatt": "https://odb.zh.ch/odbwiki/mediawiki/files/pdfs/Winterthur-Inventar_7664_1-festgesetzt_2020.pdf",
+     "gvz_nr": "",
+     "denkbankschluessel": "230STPLATZ00471",
+     "baujahr": "1838-1960",
+     "einstufung": "regional",
+     "festsetzung": "2018-07-26T00:00:00",
+     "erlass": "AREV Nr. 0929/2018 Liste und Inventarblatt, BDV Nr. 1151/2020 Nachführung Inventarblatt",
+     "schutz": "-",
+     "ost": 2697214.0,
+     "nord": 1261544.0,
+     "katasternummer": "ST9255; ST9256",
+     "egid": "",
+     "geodb_oid": 5416
+    },
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      2697214.0,
+      1261544.0
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "properties": {
+     "odb_id": 15693,
+     "gemeinde": "Winterthur",
+     "ort": "Winterthur",
+     "plz": "8400",
+     "strasse": "Büelrainstrasse 15; Büelrainstrasse 15a",
+     "ensemble": "Winterthur: Ensemble «Schanzengarten»",
+     "objekt": "Wohnhaus",
+     "inventarblatt": "https://odb.zh.ch/odbwiki/mediawiki/files/pdfs/Winterthur-Inventar_33488_1-festgesetzt_2018.pdf",
+     "gvz_nr": "230ST00221",
+     "denkbankschluessel": "",
+     "baujahr": "1737-1753",
+     "einstufung": "kantonal",
+     "festsetzung": "2018-07-26T00:00:00",
+     "erlass": "BDV Nr. 1180/2015 Einzelfestsetzung aufgrund Unterschutzstellung ohne Inventarblatt, AREV Nr. 0929/2018 Inventarblatt",
+     "schutz": "ÖREB",
+     "grundbucheintrag": "2015-07-09T00:00:00",
+     "ost": 2697193.0,
+     "nord": 1261386.0,
+     "katasternummer": "ST8239",
+     "egid": "2323408; 210205315",
+     "geodb_oid": 5471
+    },
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      2697193.0,
+      1261386.0
+     ]
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2697122.3%2C1261361.1%2C2697383.7%2C1261578.6%2CEPSG%3A2056&COUNT=50"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

@@ -1,0 +1,22 @@
+# 20 City of Zürich addresses for the pre-launch professional review (PRD §10). One per line.
+# Mix of zone families: W2/W3/W4/W5, Z6, K, QI, Oe, F; districts 1–12.
+Badenerstrasse 171, 8003 Zürich
+Seefeldstrasse 80, 8008 Zürich
+Bahnhofstrasse 25, 8001 Zürich
+Hardturmstrasse 181, 8005 Zürich
+Dolderstrasse 40, 8032 Zürich
+Schaffhauserstrasse 59, 8057 Zürich
+Albisriederstrasse 200, 8047 Zürich
+Asylstrasse 100, 8032 Zürich
+Kalchbühlstrasse 60, 8038 Zürich
+Regensbergstrasse 200, 8050 Zürich
+Limmatquai 1, 8001 Zürich
+Zürichbergstrasse 50, 8044 Zürich
+Uetlibergstrasse 200, 8045 Zürich
+Witikonerstrasse 250, 8053 Zürich
+Rämistrasse 101, 8092 Zürich
+Langstrasse 100, 8004 Zürich
+Bullingerstrasse 40, 8004 Zürich
+Bederstrasse 100, 8002 Zürich
+Winterthurerstrasse 300, 8057 Zürich
+Bachtobelstrasse 50, 8045 Zürich

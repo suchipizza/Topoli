@@ -1,0 +1,149 @@
+{
+ "adapter_id": "ch/federal/buildings",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2686903.8%2C1245894.0%5D%2C%5B2686912.1%2C1245899.6%5D%2C%5B2686919.7%2C1245904.8%5D%2C%5B2686923.0%2C1245907.0%5D%2C%5B2686924.7%2C1245908.2%5D%2C%5B2686929.0%2C1245901.9%5D%2C%5B2686937.6%2C1245889.1%5D%2C%5B2686921.3%2C1245884.0%5D%2C%5B2686912.4%2C1245881.2%5D%2C%5B2686903.8%2C1245894.0%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200",
+ "retrieved_at": "2026-09-08T10:08:46.665071Z",
+ "payload": {
+  "results": [
+   {
+    "type": "Feature",
+    "featureId": "157885_0",
+    "bbox": [
+     2686917.6,
+     1245899.2,
+     2686917.6,
+     1245899.2
+    ],
+    "layerBodId": "ch.bfs.gebaeude_wohnungs_register",
+    "layerName": "GWR: Gebäudestatus",
+    "id": "157885_0",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      2686917.6,
+      1245899.2
+     ]
+    },
+    "properties": {
+     "egid": "157885",
+     "strname_deinr": "Witikonerstrasse 330",
+     "plz_plz6": "8053/805300",
+     "ggdename": "Zürich",
+     "ggdenr": 261,
+     "gexpdat": "06.09.2026",
+     "gdekt": "ZH",
+     "egrid": "CH299970889107",
+     "lgbkr": 279,
+     "lparz": "WI1427",
+     "lparzsx": null,
+     "ltyp": null,
+     "gebnr": "261WI00113",
+     "gbez": "",
+     "gkode": 2686917.609,
+     "gkodn": 1245899.612,
+     "gksce": 904,
+     "gstat": 1004,
+     "gkat": 1020,
+     "gklas": 1110,
+     "gbauj": 1945,
+     "gbaum": 1,
+     "gbaup": 8012,
+     "gabbj": null,
+     "garea": 58,
+     "gvol": 458,
+     "gvolnorm": 962,
+     "gvolsce": 859,
+     "gastw": 4,
+     "ganzwhg": 1,
+     "gazzi": null,
+     "gschutzr": 0,
+     "gebf": 116,
+     "gwaerzh1": 7430,
+     "genh1": 7530,
+     "gwaersceh1": 859,
+     "gwaerdath1": "24.11.2018",
+     "gwaerzh2": null,
+     "genh2": null,
+     "gwaersceh2": null,
+     "gwaerdath2": "-",
+     "gwaerzw1": 7630,
+     "genw1": 7530,
+     "gwaerscew1": 859,
+     "gwaerdatw1": "24.11.2018",
+     "gwaerzw2": null,
+     "genw2": null,
+     "gwaerscew2": null,
+     "gwaerdatw2": "-",
+     "edid": "0",
+     "egaid": 100145505,
+     "deinr": "330",
+     "esid": 10056512,
+     "strname": [
+      "Witikonerstrasse"
+     ],
+     "strnamk": [
+      "Witikonerstr."
+     ],
+     "strindx": [
+      "Wit"
+     ],
+     "strsp": [
+      "DE"
+     ],
+     "stroffiziel": "1",
+     "dplz4": 8053,
+     "dplzz": 0,
+     "dplzname": "Zürich",
+     "dkode": 2686917.633,
+     "dkodn": 1245899.163,
+     "doffadr": 1,
+     "dexpdat": "06.09.2026",
+     "ewid": [
+      "1"
+     ],
+     "whgnr": [
+      "1"
+     ],
+     "wstwk": [
+      3100
+     ],
+     "wmehrg": [
+      1
+     ],
+     "weinr": [
+      null
+     ],
+     "wbez": [
+      null
+     ],
+     "wstat": [
+      3004
+     ],
+     "wexpdat": [
+      "2026-09-06T00:00:00"
+     ],
+     "wbauj": [
+      1999
+     ],
+     "wabbj": [
+      null
+     ],
+     "warea": [
+      90
+     ],
+     "wazim": [
+      4
+     ],
+     "wkche": [
+      1
+     ],
+     "label": "Witikonerstrasse 330"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2686903.8%2C1245894.0%5D%2C%5B2686912.1%2C1245899.6%5D%2C%5B2686919.7%2C1245904.8%5D%2C%5B2686923.0%2C1245907.0%5D%2C%5B2686924.7%2C1245908.2%5D%2C%5B2686929.0%2C1245901.9%5D%2C%5B2686937.6%2C1245889.1%5D%2C%5B2686921.3%2C1245884.0%5D%2C%5B2686912.4%2C1245881.2%5D%2C%5B2686903.8%2C1245894.0%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

@@ -1,7 +1,7 @@
 {
  "adapter_id": "ch/federal/parcel",
  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683545.75%2C1246911.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200",
- "retrieved_at": "2026-09-08T09:52:27.611154Z",
+ "retrieved_at": "2026-09-08T10:07:32.908110Z",
  "payload": {
   "results": [
    {

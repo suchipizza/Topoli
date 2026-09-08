@@ -1,0 +1,109 @@
+{
+ "adapter_id": "ch/federal/geocode",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683106.75%2C1247180.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2682606.75%2C1246680.0%2C2683606.75%2C1247680.0&imageDisplay=1000%2C1000%2C96",
+ "retrieved_at": "2026-09-08T10:07:34.984689Z",
+ "payload": {
+  "results": [
+   {
+    "layerBodId": "ch.bfs.gebaeude_wohnungs_register",
+    "layerName": "GWR: Gebäudestatus",
+    "featureId": "3169135_1",
+    "id": "3169135_1",
+    "properties": {
+     "egid": "3169135",
+     "strname_deinr": "Bahnhofstrasse 25",
+     "plz_plz6": "8001/800100",
+     "ggdename": "Zürich",
+     "ggdenr": 261,
+     "gexpdat": "06.09.2026",
+     "gdekt": "ZH",
+     "egrid": "CH449199705501",
+     "lgbkr": 281,
+     "lparz": "AA1247",
+     "lparzsx": null,
+     "ltyp": null,
+     "gebnr": "261AA01922",
+     "gbez": "",
+     "gkode": 2683072.7,
+     "gkodn": 1247173.66,
+     "gksce": 904,
+     "gstat": 1004,
+     "gkat": 1060,
+     "gklas": 1220,
+     "gbauj": 1872,
+     "gbaum": 1,
+     "gbaup": 8011,
+     "gabbj": null,
+     "garea": 5014,
+     "gvol": 112400,
+     "gvolnorm": 962,
+     "gvolsce": 859,
+     "gastw": 8,
+     "ganzwhg": null,
+     "gazzi": null,
+     "gschutzr": 0,
+     "gebf": 39992,
+     "gwaerzh1": 7430,
+     "genh1": 7520,
+     "gwaersceh1": 859,
+     "gwaerdath1": "27.08.2021",
+     "gwaerzh2": 7430,
+     "genh2": 7530,
+     "gwaersceh2": 859,
+     "gwaerdath2": "27.08.2021",
+     "gwaerzw1": 7630,
+     "genw1": 7520,
+     "gwaerscew1": 859,
+     "gwaerdatw1": "27.08.2021",
+     "gwaerzw2": 7630,
+     "genw2": 7530,
+     "gwaerscew2": 859,
+     "gwaerdatw2": "27.08.2021",
+     "edid": "1",
+     "egaid": 101276137,
+     "deinr": "25",
+     "esid": 10006621,
+     "strname": [
+      "Bahnhofstrasse"
+     ],
+     "strnamk": [
+      "Bahnhofstr."
+     ],
+     "strindx": [
+      "Bah"
+     ],
+     "strsp": [
+      "DE"
+     ],
+     "stroffiziel": "1",
+     "dplz4": 8001,
+     "dplzz": 0,
+     "dplzname": "Zürich",
+     "dkode": 2683106.677,
+     "dkodn": 1247179.992,
+     "doffadr": 1,
+     "dexpdat": "06.09.2026",
+     "ewid": null,
+     "whgnr": null,
+     "wstwk": null,
+     "wmehrg": null,
+     "weinr": null,
+     "wbez": null,
+     "wstat": null,
+     "wexpdat": null,
+     "wbauj": null,
+     "wabbj": null,
+     "warea": null,
+     "wazim": null,
+     "wkche": null,
+     "label": "Bahnhofstrasse 25"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683106.75%2C1247180.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2682606.75%2C1246680.0%2C2683606.75%2C1247680.0&imageDisplay=1000%2C1000%2C96"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

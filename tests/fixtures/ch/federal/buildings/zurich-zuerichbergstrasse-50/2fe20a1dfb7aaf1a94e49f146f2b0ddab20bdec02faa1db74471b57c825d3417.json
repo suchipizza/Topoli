@@ -1,0 +1,271 @@
+{
+ "adapter_id": "ch/federal/buildings",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2684546.4%2C1247702.7%5D%2C%5B2684557.9%2C1247707.7%5D%2C%5B2684567.7%2C1247712.6%5D%2C%5B2684567.8%2C1247712.7%5D%2C%5B2684568.0%2C1247712.7%5D%2C%5B2684568.1%2C1247712.8%5D%2C%5B2684568.3%2C1247712.8%5D%2C%5B2684568.4%2C1247712.8%5D%2C%5B2684568.6%2C1247712.9%5D%2C%5B2684568.7%2C1247712.9%5D%2C%5B2684568.9%2C1247712.9%5D%2C%5B2684569.0%2C1247712.9%5D%2C%5B2684569.2%2C1247712.9%5D%2C%5B2684569.3%2C1247712.9%5D%2C%5B2684569.5%2C1247712.9%5D%2C%5B2684569.6%2C1247712.8%5D%2C%5B2684569.8%2C1247712.8%5D%2C%5B2684569.9%2C1247712.8%5D%2C%5B2684570.1%2C1247712.7%5D%2C%5B2684570.2%2C1247712.7%5D%2C%5B2684570.3%2C1247712.6%5D%2C%5B2684570.5%2C1247712.5%5D%2C%5B2684570.6%2C1247712.5%5D%2C%5B2684570.7%2C1247712.4%5D%2C%5B2684570.8%2C1247712.3%5D%2C%5B2684571.0%2C1247712.2%5D%2C%5B2684571.1%2C1247712.1%5D%2C%5B2684571.2%2C1247712.0%5D%2C%5B2684571.3%2C1247711.9%5D%2C%5B2684571.4%2C1247711.8%5D%2C%5B2684571.5%2C1247711.7%5D%2C%5B2684573.2%2C1247709.3%5D%2C%5B2684579.4%2C1247694.8%5D%2C%5B2684579.3%2C1247694.8%5D%2C%5B2684579.2%2C1247694.7%5D%2C%5B2684579.1%2C1247694.6%5D%2C%5B2684579.0%2C1247694.6%5D%2C%5B2684578.9%2C1247694.5%5D%2C%5B2684578.8%2C1247694.4%5D%2C%5B2684578.7%2C1247694.3%5D%2C%5B2684578.6%2C1247694.2%5D%2C%5B2684578.6%2C1247694.1%5D%2C%5B2684578.5%2C1247694.0%5D%2C%5B2684578.4%2C1247693.9%5D%2C%5B2684578.4%2C1247693.8%5D%2C%5B2684578.3%2C1247693.7%5D%2C%5B2684578.3%2C1247693.6%5D%2C%5B2684578.3%2C1247693.5%5D%2C%5B2684578.2%2C1247693.4%5D%2C%5B2684578.2%2C1247693.2%5D%2C%5B2684578.2%2C1247693.1%5D%2C%5B2684578.2%2C1247693.0%5D%2C%5B2684578.2%2C1247692.9%5D%2C%5B2684578.2%2C1247692.8%5D%2C%5B2684578.2%2C1247692.6%5D%2C%5B2684578.2%2C1247692.5%5D%2C%5B2684578.3%2C1247692.4%5D%2C%5B2684578.3%2C1247692.3%5D%2C%5B2684578.4%2C1247692.2%5D%2C%5B2684555.3%2C1247682.2%5D%2C%5B2684546.4%2C1247702.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200",
+ "retrieved_at": "2026-09-08T10:11:22.999511Z",
+ "payload": {
+  "results": [
+   {
+    "type": "Feature",
+    "featureId": "155204_0",
+    "bbox": [
+     2684563.8,
+     1247699.5,
+     2684563.8,
+     1247699.5
+    ],
+    "layerBodId": "ch.bfs.gebaeude_wohnungs_register",
+    "layerName": "GWR: Gebäudestatus",
+    "id": "155204_0",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      2684563.8,
+      1247699.5
+     ]
+    },
+    "properties": {
+     "egid": "155204",
+     "strname_deinr": "Zürichbergstrasse 50",
+     "plz_plz6": "8044/804400",
+     "ggdename": "Zürich",
+     "ggdenr": 261,
+     "gexpdat": "06.09.2026",
+     "gdekt": "ZH",
+     "egrid": "CH179178389904",
+     "lgbkr": 266,
+     "lparz": "FL2183",
+     "lparzsx": null,
+     "ltyp": null,
+     "gebnr": "261FL01254",
+     "gbez": "",
+     "gkode": 2684563.542,
+     "gkodn": 1247699.837,
+     "gksce": 904,
+     "gstat": 1004,
+     "gkat": 1020,
+     "gklas": 1121,
+     "gbauj": 1937,
+     "gbaum": 1,
+     "gbaup": 8012,
+     "gabbj": null,
+     "garea": 151,
+     "gvol": 1825,
+     "gvolnorm": 962,
+     "gvolsce": 859,
+     "gastw": 4,
+     "ganzwhg": 2,
+     "gazzi": null,
+     "gschutzr": 0,
+     "gebf": 211,
+     "gwaerzh1": 7430,
+     "genh1": 7520,
+     "gwaersceh1": 859,
+     "gwaerdath1": "15.04.2021",
+     "gwaerzh2": null,
+     "genh2": null,
+     "gwaersceh2": null,
+     "gwaerdath2": "-",
+     "gwaerzw1": 7630,
+     "genw1": 7520,
+     "gwaerscew1": 859,
+     "gwaerdatw1": "15.04.2021",
+     "gwaerzw2": null,
+     "genw2": null,
+     "gwaerscew2": null,
+     "gwaerdatw2": "-",
+     "edid": "0",
+     "egaid": 100195766,
+     "deinr": "50",
+     "esid": 10086025,
+     "strname": [
+      "Zürichbergstrasse"
+     ],
+     "strnamk": [
+      "Zürichbergstr."
+     ],
+     "strindx": [
+      "Zür"
+     ],
+     "strsp": [
+      "DE"
+     ],
+     "stroffiziel": "1",
+     "dplz4": 8044,
+     "dplzz": 0,
+     "dplzname": "Zürich",
+     "dkode": 2684563.8,
+     "dkodn": 1247699.487,
+     "doffadr": 1,
+     "dexpdat": "06.09.2026",
+     "ewid": [
+      "2",
+      "3"
+     ],
+     "whgnr": [
+      "1",
+      "201"
+     ],
+     "wstwk": [
+      3100,
+      3102
+     ],
+     "wmehrg": [
+      0,
+      0
+     ],
+     "weinr": [
+      null,
+      null
+     ],
+     "wbez": [
+      null,
+      null
+     ],
+     "wstat": [
+      3004,
+      3004
+     ],
+     "wexpdat": [
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00"
+     ],
+     "wbauj": [
+      1999,
+      1999
+     ],
+     "wabbj": [
+      null,
+      null
+     ],
+     "warea": [
+      131,
+      56
+     ],
+     "wazim": [
+      5,
+      2
+     ],
+     "wkche": [
+      1,
+      1
+     ],
+     "label": "Zürichbergstrasse 50"
+    }
+   },
+   {
+    "type": "Feature",
+    "featureId": "302007867_0",
+    "bbox": [
+     2684557.0,
+     1247684.6,
+     2684557.0,
+     1247684.6
+    ],
+    "layerBodId": "ch.bfs.gebaeude_wohnungs_register",
+    "layerName": "GWR: Gebäudestatus",
+    "id": "302007867_0",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      2684557.0,
+      1247684.6
+     ]
+    },
+    "properties": {
+     "egid": "302007867",
+     "strname_deinr": "Zürichbergstrasse 50a",
+     "plz_plz6": "8044/804400",
+     "ggdename": "Zürich",
+     "ggdenr": 261,
+     "gexpdat": "06.09.2026",
+     "gdekt": "ZH",
+     "egrid": "CH179178389904",
+     "lgbkr": 266,
+     "lparz": "FL2183",
+     "lparzsx": null,
+     "ltyp": null,
+     "gebnr": "n.n.",
+     "gbez": "",
+     "gkode": 2684556.852,
+     "gkodn": 1247684.457,
+     "gksce": 904,
+     "gstat": 1004,
+     "gkat": 1060,
+     "gklas": 1274,
+     "gbauj": 1980,
+     "gbaum": 1,
+     "gbaup": 8015,
+     "gabbj": null,
+     "garea": 13,
+     "gvol": 33,
+     "gvolnorm": 969,
+     "gvolsce": 859,
+     "gastw": 1,
+     "ganzwhg": null,
+     "gazzi": null,
+     "gschutzr": 0,
+     "gebf": null,
+     "gwaerzh1": 7400,
+     "genh1": 7500,
+     "gwaersceh1": 859,
+     "gwaerdath1": "09.10.2014",
+     "gwaerzh2": 7400,
+     "genh2": 7500,
+     "gwaersceh2": 859,
+     "gwaerdath2": "19.10.2022",
+     "gwaerzw1": 7600,
+     "genw1": 7500,
+     "gwaerscew1": 859,
+     "gwaerdatw1": "09.10.2014",
+     "gwaerzw2": 7600,
+     "genw2": 7500,
+     "gwaerscew2": 859,
+     "gwaerdatw2": "19.10.2022",
+     "edid": "0",
+     "egaid": 101694773,
+     "deinr": "50a",
+     "esid": 10086025,
+     "strname": [
+      "Zürichbergstrasse"
+     ],
+     "strnamk": [
+      "Zürichbergstr."
+     ],
+     "strindx": [
+      "Zür"
+     ],
+     "strsp": [
+      "DE"
+     ],
+     "stroffiziel": "1",
+     "dplz4": 8044,
+     "dplzz": 0,
+     "dplzname": "Zürich",
+     "dkode": 2684556.997,
+     "dkodn": 1247684.576,
+     "doffadr": 1,
+     "dexpdat": "06.09.2026",
+     "ewid": null,
+     "whgnr": null,
+     "wstwk": null,
+     "wmehrg": null,
+     "weinr": null,
+     "wbez": null,
+     "wstat": null,
+     "wexpdat": null,
+     "wbauj": null,
+     "wabbj": null,
+     "warea": null,
+     "wazim": null,
+     "wkche": null,
+     "label": "Zürichbergstrasse 50a"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2684546.4%2C1247702.7%5D%2C%5B2684557.9%2C1247707.7%5D%2C%5B2684567.7%2C1247712.6%5D%2C%5B2684567.8%2C1247712.7%5D%2C%5B2684568.0%2C1247712.7%5D%2C%5B2684568.1%2C1247712.8%5D%2C%5B2684568.3%2C1247712.8%5D%2C%5B2684568.4%2C1247712.8%5D%2C%5B2684568.6%2C1247712.9%5D%2C%5B2684568.7%2C1247712.9%5D%2C%5B2684568.9%2C1247712.9%5D%2C%5B2684569.0%2C1247712.9%5D%2C%5B2684569.2%2C1247712.9%5D%2C%5B2684569.3%2C1247712.9%5D%2C%5B2684569.5%2C1247712.9%5D%2C%5B2684569.6%2C1247712.8%5D%2C%5B2684569.8%2C1247712.8%5D%2C%5B2684569.9%2C1247712.8%5D%2C%5B2684570.1%2C1247712.7%5D%2C%5B2684570.2%2C1247712.7%5D%2C%5B2684570.3%2C1247712.6%5D%2C%5B2684570.5%2C1247712.5%5D%2C%5B2684570.6%2C1247712.5%5D%2C%5B2684570.7%2C1247712.4%5D%2C%5B2684570.8%2C1247712.3%5D%2C%5B2684571.0%2C1247712.2%5D%2C%5B2684571.1%2C1247712.1%5D%2C%5B2684571.2%2C1247712.0%5D%2C%5B2684571.3%2C1247711.9%5D%2C%5B2684571.4%2C1247711.8%5D%2C%5B2684571.5%2C1247711.7%5D%2C%5B2684573.2%2C1247709.3%5D%2C%5B2684579.4%2C1247694.8%5D%2C%5B2684579.3%2C1247694.8%5D%2C%5B2684579.2%2C1247694.7%5D%2C%5B2684579.1%2C1247694.6%5D%2C%5B2684579.0%2C1247694.6%5D%2C%5B2684578.9%2C1247694.5%5D%2C%5B2684578.8%2C1247694.4%5D%2C%5B2684578.7%2C1247694.3%5D%2C%5B2684578.6%2C1247694.2%5D%2C%5B2684578.6%2C1247694.1%5D%2C%5B2684578.5%2C1247694.0%5D%2C%5B2684578.4%2C1247693.9%5D%2C%5B2684578.4%2C1247693.8%5D%2C%5B2684578.3%2C1247693.7%5D%2C%5B2684578.3%2C1247693.6%5D%2C%5B2684578.3%2C1247693.5%5D%2C%5B2684578.2%2C1247693.4%5D%2C%5B2684578.2%2C1247693.2%5D%2C%5B2684578.2%2C1247693.1%5D%2C%5B2684578.2%2C1247693.0%5D%2C%5B2684578.2%2C1247692.9%5D%2C%5B2684578.2%2C1247692.8%5D%2C%5B2684578.2%2C1247692.6%5D%2C%5B2684578.2%2C1247692.5%5D%2C%5B2684578.3%2C1247692.4%5D%2C%5B2684578.3%2C1247692.3%5D%2C%5B2684578.4%2C1247692.2%5D%2C%5B2684555.3%2C1247682.2%5D%2C%5B2684546.4%2C1247702.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

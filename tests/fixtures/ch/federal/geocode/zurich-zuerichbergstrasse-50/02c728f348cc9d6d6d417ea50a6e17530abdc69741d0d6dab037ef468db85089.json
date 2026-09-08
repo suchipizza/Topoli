@@ -1,0 +1,46 @@
+{
+ "adapter_id": "ch/federal/geocode",
+ "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Z%C3%BCrichbergstrasse+50%2C+8044+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address",
+ "retrieved_at": "2026-09-08T10:11:22.060234Z",
+ "payload": {
+  "results": [
+   {
+    "attrs": {
+     "detail": "zuerichbergstrasse 50 8044 zuerich 261 zuerich ch zh",
+     "featureId": "155204_0",
+     "geom_quadindex": "030003123222112013032",
+     "geom_st_box2d": "BOX(2684563.8000000007 1247699.4869999997,2684563.8000000007 1247699.4869999997)",
+     "label": "Zürichbergstrasse 50 <b>8044 Zürich</b>",
+     "lat": 47.37470626831055,
+     "links": [
+      {
+       "href": "/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/100195766",
+       "rel": "related",
+       "title": "ch.swisstopo.amtliches-gebaeudeadressverzeichnis"
+      },
+      {
+       "href": "/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/155204_0",
+       "rel": "related",
+       "title": "ch.bfs.gebaeude_wohnungs_register"
+      }
+     ],
+     "lon": 8.558338165283203,
+     "num": 50,
+     "objectclass": "",
+     "origin": "address",
+     "rank": 7,
+     "x": 1247699.5,
+     "y": 2684563.75,
+     "zoomlevel": 10
+    },
+    "id": 2533784,
+    "weight": 1
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Z%C3%BCrichbergstrasse+50%2C+8044+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

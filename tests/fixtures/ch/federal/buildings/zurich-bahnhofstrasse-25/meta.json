@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/buildings",
+  "address": "Bahnhofstrasse 25, 8001 Zürich",
+  "site_id": "261-AA1247",
+  "recorded_at": "2026-09-08T10:07:35+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "9e48a1fbcd2627e0b0caf6814b3cfde1f39683edad35da8e53e0ba948bf64d0b.json",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683021.1%2C1247169.9%5D%2C%5B2683082.9%2C1247222.6%5D%2C%5B2683094.4%2C1247225.7%5D%2C%5B2683114.2%2C1247152.4%5D%2C%5B2683113.1%2C1247152.0%5D%2C%5B2683113.1%2C1247152.0%5D%2C%5B2683104.9%2C1247148.6%5D%2C%5B2683105.2%2C1247147.7%5D%2C%5B2683098.5%2C1247144.9%5D%2C%5B2683098.3%2C1247145.2%5D%2C%5B2683076.3%2C1247135.9%5D%2C%5B2683076.4%2C1247135.6%5D%2C%5B2683069.7%2C1247132.8%5D%2C%5B2683069.3%2C1247133.6%5D%2C%5B2683069.1%2C1247133.6%5D%2C%5B2683061.1%2C1247130.2%5D%2C%5B2683061.1%2C1247130.1%5D%2C%5B2683060.0%2C1247129.6%5D%2C%5B2683021.1%2C1247169.9%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    }
+  ]
+}

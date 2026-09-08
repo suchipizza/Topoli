@@ -1,0 +1,46 @@
+{
+ "adapter_id": "ch/federal/geocode",
+ "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Hardturmstrasse+181%2C+8005+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address",
+ "retrieved_at": "2026-09-08T10:07:37.423627Z",
+ "payload": {
+  "results": [
+   {
+    "attrs": {
+     "detail": "hardturmstrasse 181 8005 zuerich 261 zuerich ch zh",
+     "featureId": "302063985_0",
+     "geom_quadindex": "030003031221032220121",
+     "geom_st_box2d": "BOX(2680921.3610000014 1249732.4750000015,2680921.3610000014 1249732.4750000015)",
+     "label": "Hardturmstrasse 181 <b>8005 Zürich</b>",
+     "lat": 47.39344787597656,
+     "links": [
+      {
+       "href": "/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/102382273",
+       "rel": "related",
+       "title": "ch.swisstopo.amtliches-gebaeudeadressverzeichnis"
+      },
+      {
+       "href": "/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/302063985_0",
+       "rel": "related",
+       "title": "ch.bfs.gebaeude_wohnungs_register"
+      }
+     ],
+     "lon": 8.510481834411621,
+     "num": 181,
+     "objectclass": "",
+     "origin": "address",
+     "rank": 7,
+     "x": 1249732.5,
+     "y": 2680921.25,
+     "zoomlevel": 10
+    },
+    "id": 2408867,
+    "weight": 1
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Hardturmstrasse+181%2C+8005+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

@@ -22,6 +22,7 @@ from topoli import __version__
 from topoli.core.adapters import cache
 from topoli.core.adapters.base import Record
 from topoli.core.adapters.http import HttpClient, get_client, set_client
+from topoli.core.adapters.registry import all_specs
 from topoli.core.adapters.registry import get as get_spec
 from topoli.core.domain import Building
 from topoli.paths import repo_root
@@ -61,6 +62,13 @@ def record_fixture(adapter_id: str, address: str, *, slug: str | None = None) ->
         if spec.needs_parcel and adapter_id != "ch/federal/buildings":
             buildings, _ = get_buildings(parcel) if parcel else ([], [])
         ctx = SiteContext(site=site, parcel=parcel, buildings=buildings)
+        if spec.tier == "cantonal":
+            # Enriching adapters of the same canton (zoning sets the zone code) run first.
+            for other in all_specs("cantonal"):
+                enrich = getattr(other.adapter, "enrich", None)
+                if other.id != adapter_id and callable(enrich):
+                    with contextlib.suppress(Exception):
+                        ctx = enrich(other.adapter.fetch(ctx), ctx)
         if adapter_id not in ("ch/federal/geocode", "ch/federal/parcel"):
             with contextlib.suppress(LookupError):  # not-available is a fixture too
                 spec.adapter.fetch(ctx)
@@ -123,9 +131,10 @@ def fixture_folders(adapter_id: str, slug: str) -> list[Path]:
     needed = ["ch/federal/geocode", "ch/federal/parcel", "ch/federal/buildings", adapter_id]
     seen: list[Path] = []
     for aid in needed:
-        folder = fixtures_root() / aid / slug
-        if folder.is_dir() and folder not in seen:
-            seen.append(folder)
+        for name in (slug, "_shared"):  # ``_shared``: site-independent records (e.g. the BZO text)
+            folder = fixtures_root() / aid / name
+            if folder.is_dir() and folder not in seen:
+                seen.append(folder)
     return seen
 
 

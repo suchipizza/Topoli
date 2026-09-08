@@ -124,9 +124,8 @@ def test_terrain_slope_levels() -> None:
 def test_canton_coverage_table() -> None:
     zh = canton_coverage("ZH")
     assert zh["federal_pct"] == 100
-    assert zh["cantonal_pct"] == 0 and zh["events_pct"] == 0, (
-        "nothing cantonal shipped before WO-05"
-    )
+    assert zh["cantonal_pct"] == 100, "zoning, regulation, heritage registered for ZH (WO-05)"
+    assert zh["events_pct"] == 0, "construction events arrive with WO-06"
     ti = canton_coverage("TI")
     assert ti["federal_pct"] == 90 and ti["federal"]["ch/federal/oereb"] == "not_available"
     assert ti["cantonal_pct"] == 0 and ti["events_pct"] == 0

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Bahnhofstrasse 25, 8001 Zürich",
+  "site_id": "261-AA1247",
+  "recorded_at": "2026-09-08T10:07:34+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "2d380cc54989f3af57141c283d1c98b979990cb38392e59ef5558d46e9f044a3.json",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Bahnhofstrasse+25%2C+8001+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "f3c025d410e6e8676dbc551b11b6dfc492430259fab412d609b0ee9f3fe5ff35.json",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683106.75%2C1247180.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2682606.75%2C1246680.0%2C2683606.75%2C1247680.0&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

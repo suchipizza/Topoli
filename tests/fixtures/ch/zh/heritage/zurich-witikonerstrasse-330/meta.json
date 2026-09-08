@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Witikonerstrasse 330, 8053 Zürich",
+  "site_id": "261-WI1427",
+  "recorded_at": "2026-09-08T10:08:47+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "10b8fbd3cfea6b7ab5f9bcd9592497e993e802ad6aaf1ed60dd186f0e805c667.json",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2686898.8%2C1245876.2%2C2686942.6%2C1245913.2%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

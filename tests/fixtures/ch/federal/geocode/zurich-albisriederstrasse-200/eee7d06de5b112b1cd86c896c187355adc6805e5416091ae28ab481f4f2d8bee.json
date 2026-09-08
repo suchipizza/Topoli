@@ -1,0 +1,109 @@
+{
+ "adapter_id": "ch/federal/geocode",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2680003.25%2C1248106.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2679503.25%2C1247606.125%2C2680503.25%2C1248606.125&imageDisplay=1000%2C1000%2C96",
+ "retrieved_at": "2026-09-08T10:07:44.134866Z",
+ "payload": {
+  "results": [
+   {
+    "layerBodId": "ch.bfs.gebaeude_wohnungs_register",
+    "layerName": "GWR: Gebäudestatus",
+    "featureId": "302019900_0",
+    "id": "302019900_0",
+    "properties": {
+     "egid": "302019900",
+     "strname_deinr": "Albisriederstrasse 200",
+     "plz_plz6": "8047/804700",
+     "ggdename": "Zürich",
+     "ggdenr": 261,
+     "gexpdat": "06.09.2026",
+     "gdekt": "ZH",
+     "egrid": "CH439978918064",
+     "lgbkr": 262,
+     "lparz": "AR4573",
+     "lparzsx": null,
+     "ltyp": null,
+     "gebnr": "261AR00050",
+     "gbez": "",
+     "gkode": 2680003.241,
+     "gkodn": 1248105.879,
+     "gksce": 904,
+     "gstat": 1004,
+     "gkat": 1060,
+     "gklas": 1252,
+     "gbauj": 1993,
+     "gbaum": 1,
+     "gbaup": 8018,
+     "gabbj": null,
+     "garea": 32,
+     "gvol": 96,
+     "gvolnorm": 962,
+     "gvolsce": 859,
+     "gastw": 1,
+     "ganzwhg": null,
+     "gazzi": null,
+     "gschutzr": 0,
+     "gebf": 32,
+     "gwaerzh1": 7430,
+     "genh1": 7530,
+     "gwaersceh1": 859,
+     "gwaerdath1": "16.12.2020",
+     "gwaerzh2": null,
+     "genh2": null,
+     "gwaersceh2": null,
+     "gwaerdath2": "-",
+     "gwaerzw1": 7630,
+     "genw1": 7530,
+     "gwaerscew1": 859,
+     "gwaerdatw1": "16.12.2020",
+     "gwaerzw2": null,
+     "genw2": null,
+     "gwaerscew2": null,
+     "gwaerdatw2": "-",
+     "edid": "0",
+     "egaid": 101727610,
+     "deinr": "200",
+     "esid": 10105483,
+     "strname": [
+      "Albisriederstrasse"
+     ],
+     "strnamk": [
+      "Albisriederstr."
+     ],
+     "strindx": [
+      "Alb"
+     ],
+     "strsp": [
+      "DE"
+     ],
+     "stroffiziel": "1",
+     "dplz4": 8047,
+     "dplzz": 0,
+     "dplzname": "Zürich",
+     "dkode": 2680003.284,
+     "dkodn": 1248106.127,
+     "doffadr": 1,
+     "dexpdat": "06.09.2026",
+     "ewid": null,
+     "whgnr": null,
+     "wstwk": null,
+     "wmehrg": null,
+     "weinr": null,
+     "wbez": null,
+     "wstat": null,
+     "wexpdat": null,
+     "wbauj": null,
+     "wabbj": null,
+     "warea": null,
+     "wazim": null,
+     "wkche": null,
+     "label": "Albisriederstrasse 200"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2680003.25%2C1248106.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2679503.25%2C1247606.125%2C2680503.25%2C1248606.125&imageDisplay=1000%2C1000%2C96"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

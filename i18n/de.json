@@ -270,6 +270,18 @@
         "title": "__TODO__",
         "consequence": "__TODO__",
         "caveat": "__TODO__"
+      },
+      "zh": {
+        "listed": {
+          "title": "__TODO__",
+          "consequence": "__TODO__",
+          "caveat": "__TODO__"
+        },
+        "none": {
+          "title": "__TODO__",
+          "consequence": "__TODO__",
+          "caveat": "__TODO__"
+        }
       }
     },
     "terrain": {
@@ -291,6 +303,152 @@
     },
     "unknown": {
       "source": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      }
+    },
+    "zoning": {
+      "none": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "residential": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "residential_nofloors": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "quarter_preservation": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "quarter_preservation_nofloors": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "core": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "core_nofloors": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "centre": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "centre_nofloors": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "industrial": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "industrial_nofloors": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "public": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "public_nofloors": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "open_space": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "open_space_nofloors": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "recreation": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "recreation_nofloors": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "agricultural": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "agricultural_nofloors": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "reserve": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "reserve_nofloors": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "other": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "other_nofloors": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      }
+    },
+    "regulation": {
+      "rules": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "plan_specific": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      }
+    },
+    "potential": {
+      "headroom": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "full": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "undetermined": {
         "title": "__TODO__",
         "consequence": "__TODO__",
         "caveat": "__TODO__"

@@ -1,0 +1,46 @@
+{
+ "adapter_id": "ch/federal/geocode",
+ "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Dolderstrasse+40%2C+8032+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address",
+ "retrieved_at": "2026-09-08T10:07:39.894879Z",
+ "payload": {
+  "results": [
+   {
+    "attrs": {
+     "detail": "dolderstrasse 40 8032 zuerich 261 zuerich ch zh",
+     "featureId": "155757_0",
+     "geom_quadindex": "030003301001233323321",
+     "geom_st_box2d": "BOX(2684719.114 1247265.9250000007,2684719.114 1247265.9250000007)",
+     "label": "Dolderstrasse 40 <b>8032 Zürich</b>",
+     "lat": 47.370784759521484,
+     "links": [
+      {
+       "href": "/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/100189218",
+       "rel": "related",
+       "title": "ch.swisstopo.amtliches-gebaeudeadressverzeichnis"
+      },
+      {
+       "href": "/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/155757_0",
+       "rel": "related",
+       "title": "ch.bfs.gebaeude_wohnungs_register"
+      }
+     ],
+     "lon": 8.560312271118164,
+     "num": 40,
+     "objectclass": "",
+     "origin": "address",
+     "rank": 7,
+     "x": 1247265.875,
+     "y": 2684719.0,
+     "zoomlevel": 10
+    },
+    "id": 2224537,
+    "weight": 1
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Dolderstrasse+40%2C+8032+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

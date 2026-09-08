@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Kalchbühlstrasse 60, 8038 Zürich",
+  "site_id": "261-WO4787",
+  "recorded_at": "2026-09-08T10:07:49+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "d562c465d99aeb062c548e8675b08e72833bdd8a44eabc9d1864381a92e7d61d.json",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682616.75%2C1243662.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "a22c9cd42ae301273831bc9280a028e95cfdc81974b722b0ddf852b9b02922c0.json",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2682541.2%2C1243752.8%5D%2C%5B2682545.6%2C1243754.5%5D%2C%5B2682579.2%2C1243768.0%5D%2C%5B2682602.4%2C1243777.4%5D%2C%5B2682603.4%2C1243777.7%5D%2C%5B2682606.4%2C1243762.3%5D%2C%5B2682617.2%2C1243708.4%5D%2C%5B2682628.2%2C1243653.5%5D%2C%5B2682621.1%2C1243647.0%5D%2C%5B2682605.2%2C1243651.6%5D%2C%5B2682606.0%2C1243656.0%5D%2C%5B2682598.6%2C1243678.6%5D%2C%5B2682593.8%2C1243678.2%5D%2C%5B2682588.1%2C1243688.7%5D%2C%5B2682581.3%2C1243701.2%5D%2C%5B2682573.0%2C1243716.0%5D%2C%5B2682568.2%2C1243724.6%5D%2C%5B2682556.1%2C1243738.9%5D%2C%5B2682555.8%2C1243739.2%5D%2C%5B2682541.2%2C1243752.8%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}
