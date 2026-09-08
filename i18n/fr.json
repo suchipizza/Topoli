@@ -1,0 +1,122 @@
+{
+  "_comment": "Topoli user-facing strings — French. Written per language by a native speaker (WO-07), never machine-translated. __TODO__ marks strings not yet written; t() falls back to English and tests/i18n fails until none remain.",
+  "lang": {
+    "name": "Français",
+    "code": "fr"
+  },
+  "layer0": {
+    "header": "__TODO__",
+    "open_report": "__TODO__",
+    "share": "__TODO__",
+    "run_yourself": "__TODO__",
+    "star": "__TODO__"
+  },
+  "confidence": {
+    "line": "__TODO__",
+    "official": "__TODO__",
+    "official_one": "__TODO__",
+    "derived": "__TODO__",
+    "derived_one": "__TODO__",
+    "estimate": "__TODO__",
+    "estimate_one": "__TODO__",
+    "professional": "__TODO__",
+    "professional_one": "__TODO__"
+  },
+  "next_step": {
+    "frame": "__TODO__"
+  },
+  "class": {
+    "A": {
+      "label": "__TODO__",
+      "line": "__TODO__"
+    },
+    "B": {
+      "label": "__TODO__",
+      "line": "__TODO__"
+    },
+    "C": {
+      "label": "__TODO__",
+      "line": "__TODO__"
+    },
+    "D": {
+      "label": "__TODO__",
+      "line": "__TODO__"
+    }
+  },
+  "severity": {
+    "info": "__TODO__",
+    "low": "__TODO__",
+    "medium": "__TODO__",
+    "high": "__TODO__"
+  },
+  "category": {
+    "potential": "__TODO__",
+    "hazard": "__TODO__",
+    "noise": "__TODO__",
+    "heritage": "__TODO__",
+    "environment": "__TODO__",
+    "zoning": "__TODO__",
+    "activity": "__TODO__",
+    "identity": "__TODO__",
+    "unknown": "__TODO__"
+  },
+  "section": {
+    "1": "__TODO__",
+    "2": "__TODO__",
+    "3": "__TODO__",
+    "4": "__TODO__",
+    "5": "__TODO__",
+    "6": "__TODO__",
+    "7": "__TODO__",
+    "8": "__TODO__",
+    "9": "__TODO__",
+    "10": "__TODO__",
+    "11": "__TODO__",
+    "12": "__TODO__",
+    "13": "__TODO__",
+    "14": "__TODO__",
+    "15": "__TODO__",
+    "16": "__TODO__",
+    "17": "__TODO__",
+    "18": "__TODO__"
+  },
+  "coverage": {
+    "ok": "__TODO__",
+    "degraded": "__TODO__",
+    "not_available": "__TODO__",
+    "not_contributed": "__TODO__",
+    "help_add": "__TODO__",
+    "notice": "__TODO__"
+  },
+  "caveat": {
+    "downgraded_missing_source": "__TODO__",
+    "downgraded_missing_span": "__TODO__",
+    "conflicting_sources": "__TODO__",
+    "stale_as_of": "__TODO__"
+  },
+  "trust": {
+    "not_replace": "__TODO__",
+    "no_valuation": "__TODO__",
+    "local": "__TODO__"
+  },
+  "install": {
+    "step1": "__TODO__",
+    "step2": "__TODO__",
+    "step3": "__TODO__"
+  },
+  "progress": {
+    "resolved": "__TODO__",
+    "parcel": "__TODO__",
+    "buildings": "__TODO__",
+    "layers": "__TODO__",
+    "regulation": "__TODO__",
+    "events": "__TODO__",
+    "not_available": "__TODO__",
+    "degraded": "__TODO__"
+  },
+  "unit": {
+    "m2": "__TODO__",
+    "m": "__TODO__",
+    "floors": "__TODO__"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "_comment": "Terms banned from layer 0 in every language (PRD §3.3). Each entry: id, surface forms as they occur in any language, and a one-line explanation per language for layer 1. Matching is on word boundaries; codes (digits or all-caps) match case-sensitively. Explanations for fr/de/it are first-pass and marked for native review in docs/i18n-review.md.",
+  "entries": [
+    {
+      "id": "ausnuetzungsziffer",
+      "terms": ["Ausnützungsziffer", "Ausnutzungsziffer", "AZ-Wert", "indice d'utilisation du sol", "indice d'utilisation", "indice di utilizzazione", "floor area ratio", "utilisation ratio"],
+      "explanation": {
+        "en": "Ratio of allowed floor area to parcel area — the main lever for how much you can build.",
+        "de": "Verhältnis der zulässigen Geschossfläche zur Grundstücksfläche — der wichtigste Hebel dafür, wie viel gebaut werden darf.",
+        "fr": "Rapport entre la surface de plancher autorisée et la surface de la parcelle — le principal levier de ce que l'on peut construire.",
+        "it": "Rapporto tra la superficie di piano ammessa e la superficie del fondo — la leva principale di quanto si può costruire."
+      }
+    },
+    {
+      "id": "baumassenziffer",
+      "terms": ["Baumassenziffer", "indice de masse", "indice di massa edilizia", "building mass ratio"],
+      "explanation": {
+        "en": "Allowed building volume per square metre of parcel; used instead of floor area in some zones.",
+        "de": "Zulässiges Bauvolumen pro Quadratmeter Grundstück; in manchen Zonen statt der Geschossfläche verwendet.",
+        "fr": "Volume bâti autorisé par mètre carré de parcelle ; utilisé à la place de la surface de plancher dans certaines zones.",
+        "it": "Volume edificabile ammesso per metro quadrato di fondo; usato al posto della superficie di piano in alcune zone."
+      }
+    },
+    {
+      "id": "ueberbauungsziffer",
+      "terms": ["Überbauungsziffer", "Ueberbauungsziffer", "indice d'occupation du sol", "indice di occupazione", "site coverage ratio"],
+      "explanation": {
+        "en": "Share of the parcel that buildings may cover.",
+        "de": "Anteil des Grundstücks, der überbaut werden darf.",
+        "fr": "Part de la parcelle que les bâtiments peuvent occuper.",
+        "it": "Quota del fondo che gli edifici possono occupare."
+      }
+    },
+    {
+      "id": "empfindlichkeitsstufe",
+      "terms": ["Empfindlichkeitsstufe", "Lärmempfindlichkeitsstufe", "degré de sensibilité au bruit", "degré de sensibilité", "grado di sensibilità al rumore", "grado di sensibilità", "noise sensitivity level", "ES I", "ES II", "ES III", "ES IV", "DS I", "DS II", "DS III", "DS IV"],
+      "explanation": {
+        "en": "Noise sensitivity level assigned to a zone (I–IV); it sets how much noise new homes may face.",
+        "de": "Der Zone zugewiesene Lärmempfindlichkeitsstufe (I–IV); sie legt fest, wie viel Lärm neue Wohnungen ausgesetzt sein dürfen.",
+        "fr": "Degré de sensibilité au bruit attribué à une zone (I–IV) ; il fixe le bruit admissible pour de nouveaux logements.",
+        "it": "Grado di sensibilità al rumore assegnato a una zona (I–IV); stabilisce quanto rumore possono subire nuove abitazioni."
+      }
+    },
+    {
+      "id": "oereb",
+      "terms": ["ÖREB", "OEREB", "RDPPF", "RDPP", "Kataster der öffentlich-rechtlichen Eigentumsbeschränkungen", "cadastre des restrictions de droit public à la propriété foncière", "catasto delle restrizioni di diritto pubblico della proprietà", "public-law restrictions cadastre"],
+      "explanation": {
+        "en": "The official cadastre of public-law restrictions on a parcel (zoning, protection zones, contaminated sites and more), issued per canton.",
+        "de": "Der amtliche Kataster der öffentlich-rechtlichen Eigentumsbeschränkungen eines Grundstücks (Zonen, Schutzzonen, belastete Standorte usw.), je Kanton geführt.",
+        "fr": "Le cadastre officiel des restrictions de droit public qui touchent une parcelle (zones, périmètres de protection, sites pollués, etc.), tenu par canton.",
+        "it": "Il catasto ufficiale delle restrizioni di diritto pubblico che gravano su un fondo (zone, aree protette, siti inquinati ecc.), tenuto per cantone."
+      }
+    },
+    {
+      "id": "density_indices_fr",
+      "terms": ["COS", "CUS", "IUS", "IOS", "IM", "IBUS"],
+      "explanation": {
+        "en": "French-Swiss density indices (site coverage, floor area, mass) that define how much of a parcel you may build on and how big.",
+        "de": "Westschweizer Dichtekennziffern (Überbauung, Geschossfläche, Masse), die festlegen, wie viel und wie gross gebaut werden darf.",
+        "fr": "Indices de densité romands (occupation, utilisation, masse) qui fixent la part de la parcelle constructible et le volume permis.",
+        "it": "Indici di densità della Svizzera romanda (occupazione, utilizzazione, massa) che fissano quanto del fondo si può edificare e con quale volume."
+      }
+    },
+    {
+      "id": "zone_codes",
+      "terms": ["W1", "W2", "W3", "W4", "W5", "W6", "W2b", "W3b", "W4b", "Z1", "Z2", "Z3", "Z4", "Z5", "Z6", "Z7", "K1", "K2", "K3", "K4", "K5", "R1", "R2", "R3", "R4", "R5", "R6", "R7"],
+      "explanation": {
+        "en": "Zone codes from the local zoning plan; the letter is the zone type (e.g. residential), the number roughly the allowed number of floors.",
+        "de": "Zonencodes aus dem örtlichen Zonenplan; der Buchstabe steht für den Zonentyp (z. B. Wohnzone), die Zahl ungefähr für die zulässigen Geschosse.",
+        "fr": "Codes de zone du plan d'affectation local ; la lettre indique le type de zone (p. ex. habitation), le chiffre à peu près le nombre de niveaux autorisés.",
+        "it": "Codici di zona del piano regolatore locale; la lettera indica il tipo di zona (p. es. residenziale), il numero all'incirca i piani ammessi."
+      }
+    },
+    {
+      "id": "isos",
+      "terms": ["ISOS"],
+      "explanation": {
+        "en": "Federal inventory of Swiss townscapes worth protecting; being inside it raises the bar for changes.",
+        "de": "Bundesinventar der schützenswerten Ortsbilder der Schweiz; wer darin liegt, muss bei Änderungen mehr Rücksicht nehmen.",
+        "fr": "Inventaire fédéral des sites construits d'importance nationale à protéger ; y figurer rend les changements plus exigeants.",
+        "it": "Inventario federale degli insediamenti svizzeri da proteggere; trovarsi al suo interno rende le modifiche più esigenti."
+      }
+    },
+    {
+      "id": "kbs",
+      "terms": ["KbS", "Kataster der belasteten Standorte", "cadastre des sites pollués", "catasto dei siti inquinati"],
+      "explanation": {
+        "en": "Official register of sites known or suspected to be polluted from past industrial use or waste.",
+        "de": "Amtliches Verzeichnis von Standorten, die durch frühere Nutzung oder Abfälle belastet sind oder sein könnten.",
+        "fr": "Registre officiel des sites pollués ou susceptibles de l'être par des activités ou déchets passés.",
+        "it": "Registro ufficiale dei siti inquinati o potenzialmente inquinati da attività o rifiuti passati."
+      }
+    },
+    {
+      "id": "gestaltungsplan",
+      "terms": ["Gestaltungsplan", "Sondernutzungsplan", "plan de quartier", "plan localisé de quartier", "PLQ", "piano di quartiere", "special land-use plan"],
+      "explanation": {
+        "en": "A special plan for one area that replaces or refines the general zoning rules there.",
+        "de": "Ein Sonderplan für ein bestimmtes Gebiet, der die allgemeinen Zonenregeln dort ersetzt oder verfeinert.",
+        "fr": "Un plan spécial pour un secteur donné qui remplace ou précise les règles générales de zone.",
+        "it": "Un piano speciale per una determinata area che sostituisce o precisa le regole generali di zona."
+      }
+    },
+    {
+      "id": "kernzone",
+      "terms": ["Kernzone", "zone de centre", "zone du centre", "zona di nucleo", "zona nucleo", "core zone"],
+      "explanation": {
+        "en": "A zone for historic town or village centres, usually with strict rules on appearance.",
+        "de": "Eine Zone für historische Orts- oder Dorfkerne, meist mit strengen Gestaltungsvorschriften.",
+        "fr": "Une zone pour les centres historiques de villes ou villages, généralement avec des règles d'aspect strictes.",
+        "it": "Una zona per i nuclei storici di città o villaggi, di solito con regole estetiche severe."
+      }
+    },
+    {
+      "id": "bzo",
+      "terms": ["BZO", "Bau- und Zonenordnung", "Bauordnung", "règlement des constructions", "regolamento edilizio"],
+      "explanation": {
+        "en": "The municipal building and zoning ordinance — the local rulebook that says what may be built where.",
+        "de": "Die kommunale Bau- und Zonenordnung — das örtliche Regelwerk dafür, was wo gebaut werden darf.",
+        "fr": "Le règlement communal des constructions et des zones — les règles locales qui disent ce qui peut être construit où.",
+        "it": "Il regolamento edilizio e delle zone del comune — le regole locali che dicono cosa si può costruire e dove."
+      }
+    },
+    {
+      "id": "pbg",
+      "terms": ["PBG", "Planungs- und Baugesetz", "LATC", "LCI", "LAT", "RPG", "LPT", "LE"],
+      "explanation": {
+        "en": "The cantonal planning and building act — the law above the municipal rules.",
+        "de": "Das kantonale Planungs- und Baugesetz — das Gesetz über den kommunalen Vorschriften.",
+        "fr": "La loi cantonale sur l'aménagement du territoire et les constructions — la loi au-dessus des règles communales.",
+        "it": "La legge cantonale sulla pianificazione e le costruzioni — la legge sopra le regole comunali."
+      }
+    },
+    {
+      "id": "grenzabstand",
+      "terms": ["Grenzabstand", "Gebäudeabstand", "distance à la limite", "distanza dal confine", "setback"],
+      "explanation": {
+        "en": "Minimum distance a building must keep from the parcel boundary or from other buildings.",
+        "de": "Mindestabstand eines Gebäudes zur Grundstücksgrenze oder zu anderen Gebäuden.",
+        "fr": "Distance minimale qu'un bâtiment doit garder par rapport à la limite de parcelle ou aux autres bâtiments.",
+        "it": "Distanza minima che un edificio deve mantenere dal confine del fondo o da altri edifici."
+      }
+    },
+    {
+      "id": "egid_egrid",
+      "terms": ["EGID", "EGRID", "GWR", "RegBL", "REA", "RegBL-Nummer"],
+      "explanation": {
+        "en": "Federal identifiers for buildings (EGID) and parcels (EGRID) and the federal building register they come from.",
+        "de": "Eidgenössische Kennnummern für Gebäude (EGID) und Grundstücke (EGRID) sowie das Gebäuderegister, aus dem sie stammen.",
+        "fr": "Identifiants fédéraux des bâtiments (EGID) et des parcelles (EGRID) et le registre fédéral des bâtiments dont ils proviennent.",
+        "it": "Identificatori federali degli edifici (EGID) e dei fondi (EGRID) e il registro federale degli edifici da cui provengono."
+      }
+    }
+  ]
+}

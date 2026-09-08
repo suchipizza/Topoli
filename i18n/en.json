@@ -1,0 +1,122 @@
+{
+  "_comment": "Topoli user-facing strings — English (canonical). Every key exists in fr/de/it too. Values are written per language, never machine-translated. Slots in {braces} are filled by code; format numbers/dates with topoli.core.i18n.format first.",
+  "lang": {
+    "name": "English",
+    "code": "en"
+  },
+  "layer0": {
+    "header": "PROPERTY CHECK — {address}, {municipality}",
+    "open_report": "▸ Open full report: {path}",
+    "share": "▸ Share: {path}",
+    "run_yourself": "Run this yourself in 3 steps → {url}",
+    "star": "⭐ Star on GitHub → {url}"
+  },
+  "confidence": {
+    "line": "Confidence: {a} · {b} · {c} · {d}",
+    "official": "{n} official facts",
+    "official_one": "1 official fact",
+    "derived": "{n} calculations",
+    "derived_one": "1 calculation",
+    "estimate": "{n} estimates",
+    "estimate_one": "1 estimate",
+    "professional": "{n} need a professional",
+    "professional_one": "1 needs a professional"
+  },
+  "next_step": {
+    "frame": "Next step: {action}"
+  },
+  "class": {
+    "A": {
+      "label": "Official fact",
+      "line": "Official fact — taken as published by the responsible authority."
+    },
+    "B": {
+      "label": "Calculation",
+      "line": "Calculation — computed deterministically from official data; the formula is shown."
+    },
+    "C": {
+      "label": "Estimate",
+      "line": "Estimate — a rough figure from simplifying assumptions; verify before relying on it."
+    },
+    "D": {
+      "label": "Needs a professional",
+      "line": "Needs a professional — cannot be determined from public data; ask the office named."
+    }
+  },
+  "severity": {
+    "info": "Info",
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High"
+  },
+  "category": {
+    "potential": "What you could build",
+    "hazard": "Natural hazards",
+    "noise": "Noise",
+    "heritage": "Heritage",
+    "environment": "Environment",
+    "zoning": "Zoning",
+    "activity": "Nearby construction",
+    "identity": "Identity",
+    "unknown": "Unknowns"
+  },
+  "section": {
+    "1": "Identity",
+    "2": "Existing buildings",
+    "3": "Parcel",
+    "4": "Zoning",
+    "5": "Applicable regulations",
+    "6": "Development potential",
+    "7": "Public-law restrictions",
+    "8": "Natural hazards",
+    "9": "Environmental constraints",
+    "10": "Noise",
+    "11": "Heritage",
+    "12": "Terrain and geology",
+    "13": "Energy and solar",
+    "14": "Nearby construction activity",
+    "15": "Unknowns and missing data",
+    "16": "Decision summary",
+    "17": "Recommended professional checks",
+    "18": "Sources"
+  },
+  "coverage": {
+    "ok": "Checked",
+    "degraded": "Checked with an older copy — the source did not answer today",
+    "not_available": "Not available for this canton yet",
+    "not_contributed": "Not yet contributed for this municipality",
+    "help_add": "Not available for this canton yet — help add it → {url}",
+    "notice": "What was checked: {ok} sources. Not available here: {missing}."
+  },
+  "caveat": {
+    "downgraded_missing_source": "This could not be tied to an official source with a retrieval time, so it is shown as needing a professional check.",
+    "downgraded_missing_span": "No article of the regulation could be quoted for {rule}, so this is shown as needing a professional check.",
+    "conflicting_sources": "Two official sources disagree here ({source_a} vs. {source_b}); both are listed and a professional should settle it.",
+    "stale_as_of": "As of {date} — the source could not be reached today, so an earlier copy was used."
+  },
+  "trust": {
+    "not_replace": "This does not replace an architect, the planning office, a notary, the land register, a surveyor, an engineer or an environmental consultant.",
+    "no_valuation": "It never produces valuations, cost estimates or approval likelihoods.",
+    "local": "It runs on your machine and talks only to official public sources."
+  },
+  "install": {
+    "step1": "Open Claude (Claude.ai or Claude Code).",
+    "step2": "Add the skill: paste the repository URL or run the one-line install command shown.",
+    "step3": "Type: /property-audit \"<your address>\""
+  },
+  "progress": {
+    "resolved": "✓ Resolved address",
+    "parcel": "✓ Found parcel {parcel}",
+    "buildings": "✓ Found {n} buildings",
+    "layers": "✓ Checked {n} federal layers",
+    "regulation": "✓ Read the zoning regulation",
+    "events": "✓ Searched nearby construction publications",
+    "not_available": "⚠ {what} not available for {where} — help add it",
+    "degraded": "⚠ {what}: source unavailable today, using a copy from {date}"
+  },
+  "unit": {
+    "m2": "m²",
+    "m": "m",
+    "floors": "floors"
+  }
+}
