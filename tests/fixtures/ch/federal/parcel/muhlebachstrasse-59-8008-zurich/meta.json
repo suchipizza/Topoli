@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Mühlebachstrasse 59 8008 Zürich",
+  "site_id": "261-RI3267",
+  "recorded_at": "2026-09-08T12:30:46+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "6e943cdf5c893c1b27efc841581d4b843ca28f5003fa9ac6c06f0da011dc6015.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2684156.25%2C1246417.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "df4aa73193fd0d34032ec9d9a310dfae159f1eb6aaf758932c219ea430600fe2.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2684140.7%2C1246419.2%5D%2C%5B2684141.4%2C1246419.9%5D%2C%5B2684162.8%2C1246439.0%5D%2C%5B2684163.5%2C1246439.7%5D%2C%5B2684177.6%2C1246423.6%5D%2C%5B2684179.6%2C1246421.3%5D%2C%5B2684167.3%2C1246411.5%5D%2C%5B2684164.3%2C1246409.1%5D%2C%5B2684154.7%2C1246403.4%5D%2C%5B2684144.1%2C1246415.3%5D%2C%5B2684140.7%2C1246419.2%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

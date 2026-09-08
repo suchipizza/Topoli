@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/buildings",
+  "address": "Witikonerstrasse 3 8032 Zürich",
+  "site_id": "261-HI3531",
+  "recorded_at": "2026-09-08T12:29:38+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "97270268f4f0d475877316228209f44d8d8d57315b0f6f942202fce50ee8a18a.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2685205.5%2C1246572.7%5D%2C%5B2685216.0%2C1246577.4%5D%2C%5B2685216.7%2C1246577.7%5D%2C%5B2685229.7%2C1246574.1%5D%2C%5B2685237.0%2C1246557.9%5D%2C%5B2685216.8%2C1246547.6%5D%2C%5B2685205.5%2C1246572.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    }
+  ]
+}

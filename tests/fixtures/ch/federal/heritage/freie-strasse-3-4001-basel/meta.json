@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/heritage",
+  "address": "Freie Strasse 3 4001 Basel",
+  "site_id": "2701-113",
+  "recorded_at": "2026-09-08T12:34:58+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "afa8feab52dc9d9cbb5c5de690cff63af617188cb6520fc420d99ebb81c40bc0.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2611280.9%2C1267450.8%5D%2C%5B2611297.9%2C1267461.3%5D%2C%5B2611307.5%2C1267467.7%5D%2C%5B2611311.9%2C1267462.5%5D%2C%5B2611314.7%2C1267465.2%5D%2C%5B2611317.5%2C1267462.7%5D%2C%5B2611318.4%2C1267462.2%5D%2C%5B2611318.6%2C1267461.9%5D%2C%5B2611316.7%2C1267459.0%5D%2C%5B2611307.3%2C1267451.3%5D%2C%5B2611303.7%2C1267448.5%5D%2C%5B2611300.8%2C1267445.9%5D%2C%5B2611295.7%2C1267441.8%5D%2C%5B2611291.7%2C1267438.7%5D%2C%5B2611281.2%2C1267450.9%5D%2C%5B2611280.9%2C1267450.7%5D%2C%5B2611280.9%2C1267450.8%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.babs.kulturgueter%2Cch.bak.schutzgebiete-unesco_weltkulturerbe&sr=2056&tolerance=0&returnGeometry=false&limit=50"
+    }
+  ]
+}

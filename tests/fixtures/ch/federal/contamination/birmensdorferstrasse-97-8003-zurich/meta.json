@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/contamination",
+  "address": "Birmensdorferstrasse 97 8003 Zürich",
+  "site_id": "261-WD510",
+  "recorded_at": "2026-09-08T12:28:06+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "19077e4cf7460f27ae57546b8d843e1ac57f0c79d524cbe8fb35be1a6b2e540b.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2681879.9%2C1247216.9%5D%2C%5B2681889.4%2C1247221.9%5D%2C%5B2681895.0%2C1247211.3%5D%2C%5B2681898.7%2C1247204.5%5D%2C%5B2681890.4%2C1247197.5%5D%2C%5B2681890.3%2C1247197.4%5D%2C%5B2681888.6%2C1247200.5%5D%2C%5B2681885.1%2C1247207.1%5D%2C%5B2681879.9%2C1247216.9%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bav.kataster-belasteter-standorte-oev%2Cch.bazl.kataster-belasteter-standorte-zivilflugplaetze%2Cch.vbs.kataster-belasteter-standorte-militaer&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

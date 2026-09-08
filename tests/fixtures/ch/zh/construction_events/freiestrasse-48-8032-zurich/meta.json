@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Freiestrasse 48 8032 Zürich",
+  "site_id": "261-HO3141",
+  "recorded_at": "2026-09-08T12:30:17+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "70787e7f2d8d6ef7149fd8468eb771723acb261e83c9350ac3485a12e128f1f5.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683841.5%2C1246665.4%2C2684841.5%2C1247665.4%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

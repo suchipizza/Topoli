@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/heritage",
+  "address": "Rötelstrasse 9 8006 Zürich",
+  "site_id": "261-UN1784",
+  "recorded_at": "2026-09-08T12:30:06+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "58eb65e1915e5028a77dbd4bfb6e7c7325335f4d51350f8413faf514fca95480.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2682987.2%2C1249356.4%5D%2C%5B2682990.9%2C1249359.8%5D%2C%5B2682999.2%2C1249367.3%5D%2C%5B2683001.4%2C1249369.3%5D%2C%5B2683002.2%2C1249370.0%5D%2C%5B2683013.0%2C1249357.9%5D%2C%5B2683012.2%2C1249357.3%5D%2C%5B2683010.0%2C1249355.3%5D%2C%5B2683001.7%2C1249347.9%5D%2C%5B2682997.7%2C1249344.2%5D%2C%5B2682991.2%2C1249351.8%5D%2C%5B2682987.2%2C1249356.4%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.babs.kulturgueter%2Cch.bak.schutzgebiete-unesco_weltkulturerbe&sr=2056&tolerance=0&returnGeometry=false&limit=50"
+    }
+  ]
+}

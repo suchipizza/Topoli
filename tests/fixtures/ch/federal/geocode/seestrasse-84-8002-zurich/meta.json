@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Seestrasse 84 8002 Zürich",
+  "site_id": "261-EN415",
+  "recorded_at": "2026-09-08T12:28:30+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "9fa0e8aba59559b301b655ce18b26811004039b703443b54ddd090bb76ca75b7.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Seestrasse+84+8002+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "7b34f5825d23ed111cf82bcf47eb1db5324c4288ac81d48419bce150c4d895d6.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682588.5%2C1245986.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2682088.5%2C1245486.375%2C2683088.5%2C1246486.375&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

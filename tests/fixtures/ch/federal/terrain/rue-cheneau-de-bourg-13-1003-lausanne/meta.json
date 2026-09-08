@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Rue Cheneau-de-Bourg 13 1003 Lausanne",
+  "site_id": "5586-10754",
+  "recorded_at": "2026-09-08T12:34:38+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "4816e77145dabd0eb2875c59474fb8c46faf62e8973c86d529fab26fef12254d.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2538441.5%2C1152445.5%5D%2C%5B2538450.1%2C1152454.1%5D%2C%5B2538441.5%2C1152454.1%5D%2C%5B2538450.1%2C1152445.5%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

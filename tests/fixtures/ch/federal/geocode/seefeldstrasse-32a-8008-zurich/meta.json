@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Seefeldstrasse 32a 8008 Zürich",
+  "site_id": "261-RI4604",
+  "recorded_at": "2026-09-08T12:26:25+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "142429ee81f0d5938f60483130d7189f4cff2b41a4a2cb4707918e9fa12ae866.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Seefeldstrasse+32a+8008+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "ff9cbfbbfebd65fde4d4aea1511a665231ca92b8e87648d4bdd45fa6272b78e8.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683908.5%2C1246439.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2683408.5%2C1245939.75%2C2684408.5%2C1246939.75&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

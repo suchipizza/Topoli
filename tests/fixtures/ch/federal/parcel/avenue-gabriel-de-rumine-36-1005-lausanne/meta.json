@@ -1,0 +1,21 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Avenue Gabriel-de-Rumine 36 1005 Lausanne",
+  "site_id": "5586-6289",
+  "recorded_at": "2026-09-08T12:34:49+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "504ed710fe8eee4713daebf11bdb1be91b922706e38821553f360c892b766148.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2538881.25%2C1151949.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "02350c8fe90ff5048d5909cc7220cd02f8ccad869838a5a48e6b4ac7ec4b789c.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2538881.25%2C1151949.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.kantone.cadastralwebmap-farbe&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "d95a0306566dcb524bfea57b78f8877e1eb0f6ab409c17d755381078d03864db.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2538849.4%2C1151940.6%5D%2C%5B2538855.5%2C1151951.4%5D%2C%5B2538862.7%2C1151963.1%5D%2C%5B2538864.8%2C1151966.6%5D%2C%5B2538901.3%2C1151945.1%5D%2C%5B2538887.3%2C1151920.5%5D%2C%5B2538871.5%2C1151909.6%5D%2C%5B2538849.4%2C1151940.6%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.kantone.cadastralwebmap-farbe&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

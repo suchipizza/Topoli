@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Rue Cheneau-de-Bourg 13 1003 Lausanne",
+  "site_id": "5586-10754",
+  "recorded_at": "2026-09-08T12:34:38+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "db22d242fbf1ab466f8b5e40d522c356065cb398b195854ef9ab3a58a519839f.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2538443.5%2C1152450.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    }
+  ]
+}

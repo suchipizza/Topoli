@@ -6,6 +6,7 @@ from topoli.core.adapters.http import (
     EgressError,
     HttpClient,
     OfflineError,
+    allowed_hosts,
     get_client,
     set_client,
 )
@@ -19,6 +20,7 @@ __all__ = [
     "OfflineError",
     "Record",
     "SiteContext",
+    "allowed_hosts",
     "get_client",
     "set_client",
 ]

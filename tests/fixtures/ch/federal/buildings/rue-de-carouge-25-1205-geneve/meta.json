@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/buildings",
+  "address": "Rue de Carouge 25 1205 Genève",
+  "site_id": "6621-699",
+  "recorded_at": "2026-09-08T12:34:29+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "7406d9de4b20bf7f9974270cd63a9a83de675e72a0c33d2c70acb7550efcbf28.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2500015.1%2C1116855.3%5D%2C%5B2500027.9%2C1116854.0%5D%2C%5B2500031.5%2C1116853.6%5D%2C%5B2500032.8%2C1116844.2%5D%2C%5B2500016.8%2C1116842.0%5D%2C%5B2500015.1%2C1116855.3%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    }
+  ]
+}

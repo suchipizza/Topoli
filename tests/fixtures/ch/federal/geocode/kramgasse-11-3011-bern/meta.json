@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Kramgasse 11 3011 Bern",
+  "site_id": "351-605",
+  "recorded_at": "2026-09-08T12:35:27+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "ebeb1be640e1ae1ebecc9b80ed5bd3ede2ef578a69cf1355329c6d4357e2f72d.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Kramgasse+11+3011+Bern&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "1dcde719451b083bf8eb6c1c08bb6bc3971f93f48b1629f1643554e149af449f.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2600987.5%2C1199641.25&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2600487.5%2C1199141.25%2C2601487.5%2C1200141.25&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

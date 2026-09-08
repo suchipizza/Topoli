@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Badenerstrasse 89 8004 Zürich",
+  "site_id": "261-AU4367",
+  "recorded_at": "2026-09-08T12:27:51+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "94346481e66d02ccfe427eb2f6fee2face656a30d5e31970837ba32569ed5175.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2682092.0%2C1247557.2%5D%2C%5B2682113.1%2C1247579.7%5D%2C%5B2682092.0%2C1247579.7%5D%2C%5B2682113.1%2C1247557.2%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

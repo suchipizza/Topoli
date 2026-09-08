@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Regensbergstrasse 49 8050 Zürich",
+  "site_id": "261-OE3896",
+  "recorded_at": "2026-09-08T12:27:21+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "8824c6eff14a442ef2e0c0df9658dbd0d96883c734fefaef6cca2fe973781a9d.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2684059.0%2C1251051.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "49b4362949cb0fb842f431ed69a3ebb6d729ff8558bc0ad236ef03559e63de72.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2684050.2%2C1251040.9%5D%2C%5B2684053.5%2C1251050.1%5D%2C%5B2684056.3%2C1251058.0%5D%2C%5B2684057.3%2C1251060.8%5D%2C%5B2684057.8%2C1251062.2%5D%2C%5B2684060.3%2C1251061.3%5D%2C%5B2684062.7%2C1251060.5%5D%2C%5B2684065.1%2C1251059.6%5D%2C%5B2684067.6%2C1251058.8%5D%2C%5B2684070.0%2C1251057.9%5D%2C%5B2684069.7%2C1251057.0%5D%2C%5B2684062.7%2C1251036.2%5D%2C%5B2684052.7%2C1251040.0%5D%2C%5B2684050.2%2C1251040.9%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

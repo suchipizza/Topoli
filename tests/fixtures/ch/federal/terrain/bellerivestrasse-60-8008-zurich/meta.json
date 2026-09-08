@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Bellerivestrasse 60 8008 Zürich",
+  "site_id": "261-RI4740",
+  "recorded_at": "2026-09-08T12:30:35+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "e15d909953d00e0e8718b460b819cdd843e079f0bf18696543c9e075d5ee9415.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2683952.0%2C1245546.9%5D%2C%5B2684094.2%2C1245672.7%5D%2C%5B2683952.0%2C1245672.7%5D%2C%5B2684094.2%2C1245546.9%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

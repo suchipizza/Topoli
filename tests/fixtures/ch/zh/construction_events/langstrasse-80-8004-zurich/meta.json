@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Langstrasse 80 8004 Zürich",
+  "site_id": "261-AU914",
+  "recorded_at": "2026-09-08T12:29:00+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "b33f51bde162fee462232d00776aa6953cf0bf2ce2149692407a220c03dccabe.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2681666.5%2C1247488.4%2C2682666.5%2C1248488.4%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

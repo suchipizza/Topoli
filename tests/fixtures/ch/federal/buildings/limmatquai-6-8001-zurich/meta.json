@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/buildings",
+  "address": "Limmatquai 6 8001 Zürich",
+  "site_id": "261-AA2403",
+  "recorded_at": "2026-09-08T12:26:04+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "6ad899a6fa3d1e4b9ddf97a9253a1f2c7acc6c1deff9ad112912601e0082d89e.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683533.1%2C1246970.3%5D%2C%5B2683550.1%2C1246983.3%5D%2C%5B2683564.0%2C1246965.2%5D%2C%5B2683547.0%2C1246952.2%5D%2C%5B2683533.1%2C1246970.3%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    }
+  ]
+}

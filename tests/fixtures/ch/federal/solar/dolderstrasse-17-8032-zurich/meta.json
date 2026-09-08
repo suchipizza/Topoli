@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/solar",
+  "address": "Dolderstrasse 17 8032 Zürich",
+  "site_id": "261-HO2365",
+  "recorded_at": "2026-09-08T12:29:25+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "609503a877c69fd5e1061877e4ce11aaf974182e28b616ca229895e3b9561b2a.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2684502.9%2C1247242.4%5D%2C%5B2684510.6%2C1247241.9%5D%2C%5B2684511.5%2C1247239.8%5D%2C%5B2684512.4%2C1247239.4%5D%2C%5B2684512.9%2C1247238.4%5D%2C%5B2684515.0%2C1247239.5%5D%2C%5B2684519.3%2C1247232.0%5D%2C%5B2684520.9%2C1247229.3%5D%2C%5B2684521.3%2C1247228.4%5D%2C%5B2684516.5%2C1247226.3%5D%2C%5B2684513.0%2C1247224.5%5D%2C%5B2684511.0%2C1247228.0%5D%2C%5B2684505.9%2C1247237.0%5D%2C%5B2684502.9%2C1247242.4%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfe.solarenergie-eignung-daecher&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

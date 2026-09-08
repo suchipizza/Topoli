@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/buildings",
+  "address": "Via Pretorio 13 6900 Lugano",
+  "site_id": "5192-336",
+  "recorded_at": "2026-09-08T12:35:52+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "a52f32c6caea7acf51e9aed121a4efc5e424b870be07c6243e76213f2cef9658.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2717164.6%2C1096146.7%5D%2C%5B2717168.1%2C1096164.3%5D%2C%5B2717169.2%2C1096169.7%5D%2C%5B2717185.8%2C1096166.7%5D%2C%5B2717226.4%2C1096159.3%5D%2C%5B2717221.2%2C1096136.1%5D%2C%5B2717207.4%2C1096138.7%5D%2C%5B2717207.4%2C1096138.6%5D%2C%5B2717190.6%2C1096141.8%5D%2C%5B2717171.7%2C1096145.4%5D%2C%5B2717164.6%2C1096146.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    }
+  ]
+}

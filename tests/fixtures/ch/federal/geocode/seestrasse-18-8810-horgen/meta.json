@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Seestrasse 18 8810 Horgen",
+  "site_id": "295-HN12126",
+  "recorded_at": "2026-09-08T12:33:09+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "29d59a6353b7222752c5bf3049e8cd04e586e7e3c13a5e98688d253768ac10f1.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Seestrasse+18+8810+Horgen&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "193c1ce328d3497db2517b3a2ac34cc741ae52df44715710791a9a212a2f8440.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2686924.5%2C1235910.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2686424.5%2C1235410.875%2C2687424.5%2C1236410.875&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

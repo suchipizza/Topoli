@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Weinbergstrasse 24 8001 Zürich",
+  "site_id": "261-AA6839",
+  "recorded_at": "2026-09-08T12:31:27+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "5e664dc0fb971dbc49dc4adcefa8545c6f43ab313818d6a9b81a9448bdf9a06b.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683007.0%2C1247634.1%2C2684007.0%2C1248634.1%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

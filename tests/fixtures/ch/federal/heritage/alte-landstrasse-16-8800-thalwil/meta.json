@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/heritage",
+  "address": "Alte Landstrasse 16 8800 Thalwil",
+  "site_id": "141-7714",
+  "recorded_at": "2026-09-08T12:33:30+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "eda7ea5097c87c586641deec8058e8004b6b70af5b32c647ab552faca6c5ae33.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2685869.2%2C1237409.7%5D%2C%5B2685869.2%2C1237457.6%5D%2C%5B2685877.3%2C1237457.6%5D%2C%5B2685921.2%2C1237457.6%5D%2C%5B2685921.3%2C1237456.4%5D%2C%5B2685922.9%2C1237443.4%5D%2C%5B2685926.8%2C1237421.4%5D%2C%5B2685880.8%2C1237412.1%5D%2C%5B2685869.2%2C1237409.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.babs.kulturgueter%2Cch.bak.schutzgebiete-unesco_weltkulturerbe&sr=2056&tolerance=0&returnGeometry=false&limit=50"
+    }
+  ]
+}

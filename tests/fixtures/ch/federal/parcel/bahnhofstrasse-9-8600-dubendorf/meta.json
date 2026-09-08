@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Bahnhofstrasse 9 8600 Dübendorf",
+  "site_id": "191-5506",
+  "recorded_at": "2026-09-08T12:33:57+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "8d52a0101ab70b19d12521ce7deab5c715359ae7742b61a2799460c123e3cbc5.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2689067.0%2C1250304.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "6601b4af91ebd336d0e6dd2c44ad926569044f594d61ce8dbfc12ce65f4b9301.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2689059.3%2C1250302.3%5D%2C%5B2689063.3%2C1250307.3%5D%2C%5B2689066.7%2C1250306.7%5D%2C%5B2689073.0%2C1250302.6%5D%2C%5B2689067.7%2C1250297.8%5D%2C%5B2689066.6%2C1250296.4%5D%2C%5B2689059.3%2C1250302.3%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

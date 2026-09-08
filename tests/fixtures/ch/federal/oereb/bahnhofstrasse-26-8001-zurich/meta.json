@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Bahnhofstrasse 26 8001 Zürich",
+  "site_id": "261-AA5466",
+  "recorded_at": "2026-09-08T12:25:51+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "3771ed782ef5671736da646bf357ab9616870295155577dc5b215700dbecd421.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683163.75%2C1247106.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "22d6564fb9af7abb9712d8600721766a561c73f42328488ddaf69a8838d3ebd4.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH557099779108&LANG=de"
+    }
+  ]
+}

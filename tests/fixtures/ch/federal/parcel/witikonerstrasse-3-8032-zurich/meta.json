@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Witikonerstrasse 3 8032 Zürich",
+  "site_id": "261-HI3531",
+  "recorded_at": "2026-09-08T12:29:38+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "e7753030b0bdf9a790c32e8e46b240beb4633ede5c94ffb5442e8c13c29b78e9.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2685207.25%2C1246569.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "fc89ba7aae19b7ae45200ebdb261fff287af3d2fe0b2386cb70bf7e7839582e0.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2685205.5%2C1246572.7%5D%2C%5B2685216.0%2C1246577.4%5D%2C%5B2685216.7%2C1246577.7%5D%2C%5B2685229.7%2C1246574.1%5D%2C%5B2685237.0%2C1246557.9%5D%2C%5B2685216.8%2C1246547.6%5D%2C%5B2685205.5%2C1246572.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

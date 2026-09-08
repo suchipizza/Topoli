@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Asylstrasse 21b 8032 Zürich",
+  "site_id": "261-HO3772",
+  "recorded_at": "2026-09-08T12:30:25+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "8757c0d35b4e23619645e03389e1039f9e815b604dcb3297058a7807762fdb8a.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2684044.5%2C1246589.2%2C2685044.5%2C1247589.2%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

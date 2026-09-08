@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Hofwiesenstrasse 32 8057 Zürich",
+  "site_id": "261-UN895",
+  "recorded_at": "2026-09-08T12:27:10+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "67b4102c552db37e25d71bd9f50714fef1af505991b398da468237b21c3d3c03.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2682953.8%2C1249805.2%2C2683001.0%2C1249837.7%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

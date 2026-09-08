@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Uetlibergstrasse 70 8045 Zürich",
+  "site_id": "261-WD8984",
+  "recorded_at": "2026-09-08T12:28:13+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "85684c7c1f7eace87cd1f69e2c839fb31c09fdddb1f312bcab6f94df11458beb.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Uetlibergstrasse+70+8045+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "002da2050d2380ce958b12e882f0bacc31f7d7bbae02f56612a4377938a2195e.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2681585.0%2C1246318.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2681085.0%2C1245818.125%2C2682085.0%2C1246818.125&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

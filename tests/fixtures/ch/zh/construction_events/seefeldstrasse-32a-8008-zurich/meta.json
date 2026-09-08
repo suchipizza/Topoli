@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Seefeldstrasse 32a 8008 Zürich",
+  "site_id": "261-RI4604",
+  "recorded_at": "2026-09-08T12:26:25+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "ee17fd35d023dff1ebe21cb5ed615f276179e1c085847930578b5f99e32f754e.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683408.5%2C1245939.8%2C2684408.5%2C1246939.8%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

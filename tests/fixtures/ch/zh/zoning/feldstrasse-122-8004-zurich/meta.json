@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Feldstrasse 122 8004 Zürich",
+  "site_id": "261-AU5071",
+  "recorded_at": "2026-09-08T12:32:01+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "3eac493937453a27f9abee0055dec43583fe6dfce465fa19d07d3471adccf715.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2681990.7%2C1248206.6%2C2681992.7%2C1248208.6%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

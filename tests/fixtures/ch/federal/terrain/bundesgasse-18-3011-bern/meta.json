@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Bundesgasse 18 3011 Bern",
+  "site_id": "351-1053",
+  "recorded_at": "2026-09-08T12:35:20+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "bed3c9cc29b72baf8adbc6f9a6678410974fc24a9dde529c70021cd36eae400c.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2600202.7%2C1199501.7%5D%2C%5B2600224.2%2C1199522.2%5D%2C%5B2600202.7%2C1199522.2%5D%2C%5B2600224.2%2C1199501.7%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/heritage",
+  "address": "Forchstrasse 37 8032 Zürich",
+  "site_id": "261-HI3281",
+  "recorded_at": "2026-09-08T12:26:31+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "4e644c4d77d58fac3ad84eb0baaf4e9b96f5c69190d1d68e403eb3519eed94f9.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2684483.8%2C1246480.3%5D%2C%5B2684490.0%2C1246486.1%5D%2C%5B2684497.3%2C1246491.4%5D%2C%5B2684501.0%2C1246486.9%5D%2C%5B2684517.9%2C1246498.7%5D%2C%5B2684527.6%2C1246487.3%5D%2C%5B2684499.9%2C1246463.8%5D%2C%5B2684483.8%2C1246480.3%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.babs.kulturgueter%2Cch.bak.schutzgebiete-unesco_weltkulturerbe&sr=2056&tolerance=0&returnGeometry=false&limit=50"
+    }
+  ]
+}

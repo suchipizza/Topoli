@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/buildings",
+  "address": "Regensbergstrasse 65 8050 Zürich",
+  "site_id": "261-OE3810",
+  "recorded_at": "2026-09-08T12:27:17+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "e99db258b1c7ddf45556ceecf0fac94d60ff41302d87675f87fc0375d4172a0d.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683965.8%2C1251072.6%5D%2C%5B2683969.5%2C1251082.3%5D%2C%5B2683972.4%2C1251090.2%5D%2C%5B2683973.3%2C1251092.5%5D%2C%5B2683973.7%2C1251093.5%5D%2C%5B2683981.7%2C1251090.5%5D%2C%5B2683981.3%2C1251089.5%5D%2C%5B2683980.4%2C1251087.2%5D%2C%5B2683977.4%2C1251079.4%5D%2C%5B2683973.7%2C1251069.6%5D%2C%5B2683965.8%2C1251072.6%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    }
+  ]
+}

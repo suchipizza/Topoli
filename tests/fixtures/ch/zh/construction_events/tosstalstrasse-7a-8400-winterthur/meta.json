@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Tösstalstrasse 7a 8400 Winterthur",
+  "site_id": "230-ST7550",
+  "recorded_at": "2026-09-08T12:32:30+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "a0be50372fbb6e5c5efb7fd5c294e32071c51ce21e1a80cdf06ee400bb1943af.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2696940.5%2C1261164.2%2C2697940.5%2C1262164.2%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

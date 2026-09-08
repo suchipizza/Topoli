@@ -1,0 +1,21 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Pilatusstrasse 26 6003 Luzern",
+  "site_id": "1061-13",
+  "recorded_at": "2026-09-08T12:36:09+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "b33967fc1a887e82063592687eba398e7cb3dae65ae17825013e2e21eba0f495.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2665839.25%2C1211185.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "1c17c13f8022495d284103623a1e43476844b67583f66039fe152a3748fb01f0.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2665839.25%2C1211185.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.kantone.cadastralwebmap-farbe&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "4ef0928331997da6d76eb8ef3a2e7a2233e9ea567fbf017539b68cf00025c133.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2665821.5%2C1211200.2%5D%2C%5B2665825.1%2C1211202.3%5D%2C%5B2665823.4%2C1211214.6%5D%2C%5B2665825.9%2C1211218.3%5D%2C%5B2665830.0%2C1211221.1%5D%2C%5B2665838.4%2C1211207.3%5D%2C%5B2665842.2%2C1211201.1%5D%2C%5B2665839.7%2C1211199.5%5D%2C%5B2665845.9%2C1211189.2%5D%2C%5B2665841.3%2C1211186.4%5D%2C%5B2665841.4%2C1211186.3%5D%2C%5B2665840.6%2C1211185.8%5D%2C%5B2665840.5%2C1211185.9%5D%2C%5B2665838.3%2C1211184.6%5D%2C%5B2665838.4%2C1211184.5%5D%2C%5B2665837.5%2C1211183.9%5D%2C%5B2665837.5%2C1211184.1%5D%2C%5B2665834.4%2C1211182.2%5D%2C%5B2665834.5%2C1211182.1%5D%2C%5B2665832.9%2C1211181.1%5D%2C%5B2665832.9%2C1211181.3%5D%2C%5B2665826.6%2C1211191.7%5D%2C%5B2665825.2%2C1211194.0%5D%2C%5B2665821.5%2C1211200.2%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.kantone.cadastralwebmap-farbe&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

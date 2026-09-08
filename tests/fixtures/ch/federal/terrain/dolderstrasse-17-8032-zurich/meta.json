@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Dolderstrasse 17 8032 Zürich",
+  "site_id": "261-HO2365",
+  "recorded_at": "2026-09-08T12:29:25+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "07c1f487af56498505aa8b8594ea6574a9e47f3783379214c1fe1b0b29a98836.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2684502.9%2C1247224.5%5D%2C%5B2684521.3%2C1247242.4%5D%2C%5B2684502.9%2C1247242.4%5D%2C%5B2684521.3%2C1247224.5%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/buildings",
+  "address": "Limmattalstrasse 20 8049 Zürich",
+  "site_id": "261-HG2627",
+  "recorded_at": "2026-09-08T12:27:38+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "0a4acbb9c3a3f03abfad77fe3e6f5aaadd5577ef10d99321ae815ff566a8256b.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2681097.5%2C1250066.2%5D%2C%5B2681097.8%2C1250069.2%5D%2C%5B2681100.0%2C1250093.5%5D%2C%5B2681112.6%2C1250092.3%5D%2C%5B2681112.5%2C1250090.0%5D%2C%5B2681111.7%2C1250067.9%5D%2C%5B2681111.6%2C1250064.9%5D%2C%5B2681097.5%2C1250066.2%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    }
+  ]
+}

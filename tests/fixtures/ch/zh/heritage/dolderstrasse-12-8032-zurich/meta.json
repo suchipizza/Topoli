@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Dolderstrasse 12 8032 Zürich",
+  "site_id": "261-HO3366",
+  "recorded_at": "2026-09-08T12:29:28+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "acb9d1b98360da9e560d62bdec7d53b904a154557d965957353044f49fc7e71b.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2684480.4%2C1247160.9%2C2684524.8%2C1247212.1%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

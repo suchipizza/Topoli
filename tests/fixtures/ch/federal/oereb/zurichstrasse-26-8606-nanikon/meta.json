@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Zürichstrasse 26 8606 Nänikon",
+  "site_id": "198-E2924",
+  "recorded_at": "2026-09-08T12:32:36+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "6c283ca8aaab0b7a9e5afc031d40aed991c774b4b2c55f8b7a10a66a9f55c2b0.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2694994.25%2C1247106.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "1d5218a18b897829fc08f0bfc13ab49e217ceef7ea25f5730539d4f5de15e206.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH350231770687&LANG=de"
+    }
+  ]
+}

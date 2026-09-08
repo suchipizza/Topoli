@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Neugasse 53 9000 St. Gallen",
+  "site_id": "3203-C0395",
+  "recorded_at": "2026-09-08T12:36:16+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "0174cdf2b3eac15c21007463a2b2f0eb9926ffa75cdc06d44fba29766e6e7b8b.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2746069.75%2C1254392.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "528db329e0c8c3aedf8774f0566fef06aa16522cc875025ba1b122b6eae159aa.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2746068.2%2C1254392.8%5D%2C%5B2746074.2%2C1254397.0%5D%2C%5B2746075.1%2C1254397.6%5D%2C%5B2746075.3%2C1254397.4%5D%2C%5B2746078.0%2C1254393.6%5D%2C%5B2746077.1%2C1254392.9%5D%2C%5B2746079.3%2C1254389.7%5D%2C%5B2746079.9%2C1254388.9%5D%2C%5B2746073.7%2C1254384.5%5D%2C%5B2746073.2%2C1254384.2%5D%2C%5B2746068.2%2C1254392.8%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

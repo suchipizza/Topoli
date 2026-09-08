@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Bellerivestrasse 33 8008 Zürich",
+  "site_id": "261-RI663",
+  "recorded_at": "2026-09-08T12:30:39+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "2e976c7036af13d501d104ef168825c226101a122b0ecb0edf3cdd6e8937c534.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2684010.5%2C1245829.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "333979e084b476d7c0b40c76f619e5af2219cdfdddc3d85e075dd86f4b8dd55f.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683994.3%2C1245834.1%5D%2C%5B2683995.2%2C1245834.5%5D%2C%5B2684025.9%2C1245850.4%5D%2C%5B2684032.4%2C1245853.7%5D%2C%5B2684037.2%2C1245841.7%5D%2C%5B2684037.6%2C1245840.8%5D%2C%5B2684046.7%2C1245818.0%5D%2C%5B2684045.3%2C1245817.5%5D%2C%5B2684040.9%2C1245815.3%5D%2C%5B2684012.5%2C1245800.7%5D%2C%5B2684011.6%2C1245800.2%5D%2C%5B2684004.6%2C1245813.9%5D%2C%5B2683994.3%2C1245834.1%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Bundesgasse 8 3011 Bern",
+  "site_id": "351-1043",
+  "recorded_at": "2026-09-08T12:35:17+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "9b79a8d08f7cea2d27cfe17050bd9a108e9bba353d8f2ac5af0793784bff05fa.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2600317.25%2C1199530.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "9ff91b38c1682db084a77a66bbeb74c015c931db41d6bf7bfbcf72de1a10ee21.json.gz",
+      "url": "https://www.oereb2.apps.be.ch/extract/json/?EGRID=CH685746357621&LANG=de"
+    }
+  ]
+}

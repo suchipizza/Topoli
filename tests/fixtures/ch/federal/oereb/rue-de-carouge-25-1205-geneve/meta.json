@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Rue de Carouge 25 1205 Genève",
+  "site_id": "6621-699",
+  "recorded_at": "2026-09-08T12:34:29+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "345df5f255b3082af021b49866af3cc12c930c60aaf6acc9a8c457c72f33ca47.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2500015.25%2C1116854.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "5c43257fb3583f6644a1f62ad1221cbc879c8b55be339591cd448f5e4f9fd4a6.json.gz",
+      "url": "https://ge.ch/terecadastrews/RdppfSVC.svc/extract/json/?EGRID=CH276389736571&LANG=fr"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Bahnhofstrasse 48 8180 Bülach",
+  "site_id": "53-5548",
+  "recorded_at": "2026-09-08T12:33:19+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "07ae790df238571345690070b8aee593d9e0e634f71d6da29e0b38208003501f.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2682874.3%2C1264064.3%5D%2C%5B2682930.3%2C1264101.0%5D%2C%5B2682874.3%2C1264101.0%5D%2C%5B2682930.3%2C1264064.3%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Universitätstrasse 16 8006 Zürich",
+  "site_id": "261-OB4403",
+  "recorded_at": "2026-09-08T12:31:44+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "6b61a09648ecde3ea4bcbbd01db0cb004cace9c1f4629714cd865971111d1feb.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683807.75%2C1248205.25&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "1cb391b0e6b68c3958492ff1c0dc7517b61ea2d6fa3242ac4a04e8644172bcd0.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH957399709106&LANG=de"
+    }
+  ]
+}

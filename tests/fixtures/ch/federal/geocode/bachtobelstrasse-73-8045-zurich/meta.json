@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Bachtobelstrasse 73 8045 Zürich",
+  "site_id": "261-WD4858",
+  "recorded_at": "2026-09-08T12:31:03+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "6f1cf4b7874430c4aab72fdbdeb197327706b7c4192d0d5cb304190a2176f384.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Bachtobelstrasse+73+8045+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "6849d01a568b82a299ef740c79eb5fe325f6d39c581587efe1e15d2f4d5c9bba.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2681210.75%2C1246029.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2680710.75%2C1245529.5%2C2681710.75%2C1246529.5&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

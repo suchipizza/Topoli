@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Seestrasse 31 8820 Wädenswil",
+  "site_id": "293-WE13905",
+  "recorded_at": "2026-09-08T12:46:23+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "ceec986ddc729a0d4308ff86a1e4dc2b49036af81b61ae9e150c7fd5e2ea9cf1.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2694334.75%2C1230950.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "3d62a33bf1b3a71d9ea4207f8d36a2ccdc2d9b77d9a7fd8df9c9b8062bb61f5e.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH944036775112&LANG=de"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Badenerstrasse 72 8004 Zürich",
+  "site_id": "261-AU445",
+  "recorded_at": "2026-09-08T12:27:44+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "140159237951d80f34bb2b7338dd11fb04b51f02d238ea3c3629e02a2eee80ba.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682200.0%2C1247557.25&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "fa219b2efa5860887dddd0ce0396e1beb7ddf4b56174e90c15be3603cab19727.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH899978049180&LANG=de"
+    }
+  ]
+}

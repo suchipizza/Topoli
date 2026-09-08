@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Freiestrasse 27 8032 Zürich",
+  "site_id": "261-HO649",
+  "recorded_at": "2026-09-08T12:30:21+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "057182ea4fef14a1cc6f4ca237312df2929ff9938cb79d1d810b133b0a505bfe.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2684275.5%2C1247318.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "c19fc198c0fed56431c859c89a3e6b633115723b845d1e5c0b2ddd39ec3b2cc3.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH619144997876&LANG=de"
+    }
+  ]
+}

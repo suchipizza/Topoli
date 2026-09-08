@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Seestrasse 84 8002 Zürich",
+  "site_id": "261-EN415",
+  "recorded_at": "2026-09-08T12:28:30+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "640369ff6af24b24da0aa0b2a1af1e6dbeb3e1ec9e3e8e2a7a527211bfe83074.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2682571.9%2C1245971.3%5D%2C%5B2682596.6%2C1245993.9%5D%2C%5B2682571.9%2C1245993.9%5D%2C%5B2682596.6%2C1245971.3%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

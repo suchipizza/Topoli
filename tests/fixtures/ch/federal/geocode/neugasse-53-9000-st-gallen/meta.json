@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Neugasse 53 9000 St. Gallen",
+  "site_id": "3203-C0395",
+  "recorded_at": "2026-09-08T12:36:16+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "8555b7c9ad08d3ea3c4c6f387daaf364a9217fe0f80e2feddf3819e2682593ab.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Neugasse+53+9000+St.+Gallen&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "dd68350a74c9c28965ff0082c6085a4c3ef569576ab0a5480c928500816f234a.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2746069.75%2C1254392.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2745569.75%2C1253892.0%2C2746569.75%2C1254892.0&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

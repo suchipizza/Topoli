@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Feldstrasse 60 8004 Zürich",
+  "site_id": "261-AU1405",
+  "recorded_at": "2026-09-08T12:31:55+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "0726c2c774a7387e13bc2a20763d53c712ceafa47c04c42406ced7ef3c3bffbb.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Feldstrasse+60+8004+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "c9c06262e04a8dbb59f2d43a8d0a3d1e5d92b722e7d12b24813d8c78a905a3cc.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2681831.75%2C1247930.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2681331.75%2C1247430.75%2C2682331.75%2C1248430.75&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

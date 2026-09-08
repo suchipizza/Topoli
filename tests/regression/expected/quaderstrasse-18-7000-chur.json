@@ -1,0 +1,37 @@
+{
+ "address": "Quaderstrasse 18 7000 Chur",
+ "layer0_de": [
+  [
+   "noise.road",
+   "B"
+  ],
+  [
+   "hazard.runoff",
+   "B"
+  ],
+  [
+   "solar.best_roof",
+   "A"
+  ],
+  [
+   "heritage.federal.none",
+   "A"
+  ],
+  [
+   "contamination.federal",
+   "A"
+  ]
+ ],
+ "coverage": {
+  "ch/federal/geocode": "ok",
+  "ch/federal/parcel": "ok",
+  "ch/federal/buildings": "ok",
+  "ch/federal/hazards": "ok",
+  "ch/federal/noise": "ok",
+  "ch/federal/contamination": "ok",
+  "ch/federal/oereb": "degraded",
+  "ch/federal/solar": "ok",
+  "ch/federal/heritage": "ok",
+  "ch/federal/terrain": "ok"
+ }
+}

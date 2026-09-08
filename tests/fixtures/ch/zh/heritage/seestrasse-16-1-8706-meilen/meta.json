@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Seestrasse 16.1 8706 Meilen",
+  "site_id": "156-2932",
+  "recorded_at": "2026-09-08T12:33:40+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "d6ef6f232df68a18d9401b1a573f79900292d12966b46f16335df3eceb5884ba.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2688660.6%2C1237434.8%2C2688721.7%2C1237491.6%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

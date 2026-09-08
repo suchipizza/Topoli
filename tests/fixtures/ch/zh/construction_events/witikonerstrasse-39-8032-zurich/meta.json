@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Witikonerstrasse 39 8032 Zürich",
+  "site_id": "261-HI1776",
+  "recorded_at": "2026-09-08T12:29:35+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "1c1bee805e0952634e6b0368392ea3411168753994752310ad67ab1cd55afd27.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2684795.5%2C1245937.9%2C2685795.5%2C1246937.9%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Route de Chêne 5 1207 Genève",
+  "site_id": "6621-2661",
+  "recorded_at": "2026-09-08T12:34:20+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "8e0a252e204b157935dbe36231723d782f3b4fbf2883bbc11a657842f5723931.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Route+de+Ch%C3%AAne+5+1207+Gen%C3%A8ve&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "b5b86a93e6c173c9fc24ca83985323288f9065e6fca1c498fc236aaa73ad5c59.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2501487.0%2C1117316.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2500987.0%2C1116816.375%2C2501987.0%2C1117816.375&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

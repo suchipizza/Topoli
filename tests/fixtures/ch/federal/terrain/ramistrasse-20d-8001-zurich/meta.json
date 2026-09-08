@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Rämistrasse 20d 8001 Zürich",
+  "site_id": "261-AA3385",
+  "recorded_at": "2026-09-08T12:26:15+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "79e3108334b5f4d022de10ad0652c3875c8aaa2b9287031a031f0d4cffb8d24a.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2683739.0%2C1246923.1%5D%2C%5B2683802.7%2C1246996.8%5D%2C%5B2683739.0%2C1246996.8%5D%2C%5B2683802.7%2C1246923.1%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

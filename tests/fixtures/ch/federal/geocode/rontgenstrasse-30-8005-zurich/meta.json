@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Röntgenstrasse 30 8005 Zürich",
+  "site_id": "261-IQ4406",
+  "recorded_at": "2026-09-08T12:32:13+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "b39672e9f7a62f07833272507ff9ea2b52252bb33b8d8d8fcc6359093dbb5085.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=R%C3%B6ntgenstrasse+30+8005+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "b3f55c626a0f5ad449543fa9e9efa53cf64bf570335602f6820920bbc7fc683a.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682230.0%2C1248667.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2681730.0%2C1248167.5%2C2682730.0%2C1249167.5&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

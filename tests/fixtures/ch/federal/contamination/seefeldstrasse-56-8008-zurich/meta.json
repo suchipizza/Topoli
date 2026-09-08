@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/contamination",
+  "address": "Seefeldstrasse 56 8008 Zürich",
+  "site_id": "261-RI5438",
+  "recorded_at": "2026-09-08T12:26:21+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "225108eadd5782dcd9764967bd09585fc2696c407f8eb96a0df3b0c52944964e.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683953.7%2C1246318.7%5D%2C%5B2683954.4%2C1246318.9%5D%2C%5B2683961.2%2C1246319.3%5D%2C%5B2683963.6%2C1246320.4%5D%2C%5B2683964.2%2C1246318.7%5D%2C%5B2683977.3%2C1246324.5%5D%2C%5B2683987.4%2C1246308.2%5D%2C%5B2683985.9%2C1246305.8%5D%2C%5B2683970.2%2C1246301.8%5D%2C%5B2683959.2%2C1246298.8%5D%2C%5B2683956.6%2C1246308.9%5D%2C%5B2683956.3%2C1246308.8%5D%2C%5B2683953.7%2C1246318.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bav.kataster-belasteter-standorte-oev%2Cch.bazl.kataster-belasteter-standorte-zivilflugplaetze%2Cch.vbs.kataster-belasteter-standorte-militaer&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

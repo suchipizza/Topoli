@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Hönggerstrasse 39 8037 Zürich",
+  "site_id": "261-WP5013",
+  "recorded_at": "2026-09-08T12:27:33+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "b63b4178e39c8f5552fff800afe5e71c5d594320ea8c8fcb1bcd4e0e1d2f1a26.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682051.0%2C1249521.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "ddc8c5acfea0838b7335ff15b0f2622da174d2ae609ce2e40a3fa53a5c1671a0.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH279170799916&LANG=de"
+    }
+  ]
+}

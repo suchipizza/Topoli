@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/heritage",
+  "address": "Steinenvorstadt 20 4051 Basel",
+  "site_id": "2701-102",
+  "recorded_at": "2026-09-08T12:35:04+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "30fd12e70be1eafd0d688c710217b0e0cee9da22555d8edd7f4f31b9949dc47a.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2611287.1%2C1266959.4%5D%2C%5B2611289.1%2C1266966.1%5D%2C%5B2611303.7%2C1266961.0%5D%2C%5B2611301.5%2C1266954.6%5D%2C%5B2611287.1%2C1266959.4%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.babs.kulturgueter%2Cch.bak.schutzgebiete-unesco_weltkulturerbe&sr=2056&tolerance=0&returnGeometry=false&limit=50"
+    }
+  ]
+}

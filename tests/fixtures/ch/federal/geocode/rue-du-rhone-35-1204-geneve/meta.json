@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Rue du Rhône 35 1204 Genève",
+  "site_id": "6621-4132",
+  "recorded_at": "2026-09-08T12:34:01+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "5cca7e4df0e8bcc99b641b0dc9375545f72ff5cb4c59111cc2f09bd344e8abaf.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Rue+du+Rh%C3%B4ne+35+1204+Gen%C3%A8ve&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "b3e0e2dba74dc5fc64f2a36221274afcf234f52815ef96de28055f71a885efc1.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2500448.0%2C1117765.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2499948.0%2C1117265.0%2C2500948.0%2C1118265.0&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

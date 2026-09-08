@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Freie Strasse 43 4001 Basel",
+  "site_id": "2701-56",
+  "recorded_at": "2026-09-08T12:34:55+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "f6461e8bb7674d76f45e0d07508c72b4a0ff88628e68877d793530fd37e6cfb8.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Freie+Strasse+43+4001+Basel&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "51dc245ed37939aab7015e406b5231e22d6c69de1f2ac8df9b9c939fd319715b.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2611393.25%2C1267311.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2610893.25%2C1266811.375%2C2611893.25%2C1267811.375&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

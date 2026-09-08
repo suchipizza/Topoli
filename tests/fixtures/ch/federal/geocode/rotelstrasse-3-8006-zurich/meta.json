@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Rötelstrasse 3 8006 Zürich",
+  "site_id": "261-UN1583",
+  "recorded_at": "2026-09-08T12:30:09+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "9437fac6a8e5377e251920e4ef8a3191bebd9b4d2bdfda8f398774fe16da734e.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=R%C3%B6telstrasse+3+8006+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "99f962cc6eb61d18492ec927317c6e1c96537b47821eb34428c2e11cd51f8468.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683033.75%2C1249319.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2682533.75%2C1248819.375%2C2683533.75%2C1249819.375&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

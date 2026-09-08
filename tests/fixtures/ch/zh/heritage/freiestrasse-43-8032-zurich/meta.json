@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Freiestrasse 43 8032 Zürich",
+  "site_id": "261-HO712",
+  "recorded_at": "2026-09-08T12:30:14+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "e64745c2636af8e9bb4fd365a8930e382179d73aeb431c0301f09ea4e60238b2.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2684320.2%2C1247192.7%2C2684361.5%2C1247234.3%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

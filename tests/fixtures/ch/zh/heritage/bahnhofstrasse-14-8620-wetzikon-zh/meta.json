@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Bahnhofstrasse 14 8620 Wetzikon ZH",
+  "site_id": "121-3300",
+  "recorded_at": "2026-09-08T12:32:55+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "33b0d21c31f8e7d809e17cc5d14184d0a31052dd3f326aad25fec41b033842ef.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2702352.9%2C1241824.8%2C2702383.4%2C1241853.8%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

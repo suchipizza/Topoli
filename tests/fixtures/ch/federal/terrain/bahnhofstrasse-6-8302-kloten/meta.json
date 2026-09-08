@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Bahnhofstrasse 6 8302 Kloten",
+  "site_id": "62-4799",
+  "recorded_at": "2026-09-08T12:33:16+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "8251aa42b5b4b7378971ccf91f864e391bc402257b302c344dfdb2497a698c1a.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2686232.3%2C1255937.2%5D%2C%5B2686305.6%2C1256038.8%5D%2C%5B2686232.3%2C1256038.8%5D%2C%5B2686305.6%2C1255937.2%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

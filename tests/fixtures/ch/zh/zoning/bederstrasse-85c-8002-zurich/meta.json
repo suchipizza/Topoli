@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Bederstrasse 85c 8002 Zürich",
+  "site_id": "261-EN2545",
+  "recorded_at": "2026-09-08T12:28:34+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "9f8cbaa1ab50760d8e39a335cf684a814a9ad767c8668885021973447ea16440.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2682225.0%2C1246327.9%2C2682227.0%2C1246329.9%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

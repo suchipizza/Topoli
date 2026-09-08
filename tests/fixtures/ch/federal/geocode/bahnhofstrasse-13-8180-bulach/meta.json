@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Bahnhofstrasse 13 8180 Bülach",
+  "site_id": "53-9135",
+  "recorded_at": "2026-09-08T12:33:23+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "7b56ce70b5a6c3702b611fb1fe9e2c291f49c198c4d17ee2fc33b3c16dc6b5d7.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Bahnhofstrasse+13+8180+B%C3%BClach&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "064f1ab963c027de24b771860999aec4d85912ebb530dd160eb0d527eae96802.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682945.0%2C1263868.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2682445.0%2C1263368.125%2C2683445.0%2C1264368.125&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

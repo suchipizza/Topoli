@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Winterthurerstrasse 41a 8006 Zürich",
+  "site_id": "261-OB4019",
+  "recorded_at": "2026-09-08T12:26:50+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "378cd0621be49443bf89e58f25418f8b79cf91b209ac3700d2422548b7de6285.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Winterthurerstrasse+41a+8006+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "52f2d53397d4b3cd7956982341cc001d927e2eb49b2bdd3cec262de1d3677fee.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683661.25%2C1249152.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2683161.25%2C1248652.625%2C2684161.25%2C1249652.625&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

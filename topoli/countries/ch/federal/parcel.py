@@ -14,6 +14,7 @@ no area attribute); the published value stays ``None`` rather than being invente
 
 from __future__ import annotations
 
+import logging
 from datetime import UTC, datetime, timedelta
 from typing import Any
 
@@ -30,6 +31,7 @@ from topoli.countries.ch.federal import geoadmin
 from topoli.countries.ch.federal.licences import SWISSTOPO_AV
 
 ADAPTER_ID = "ch/federal/parcel"
+log = logging.getLogger("topoli.parcel")
 
 
 class ParcelNotFoundError(LookupError):
@@ -101,7 +103,11 @@ def get_parcel(site: Site, *, with_neighbours: bool = True) -> tuple[Parcel, lis
 
     if with_neighbours and geometry_lv95:
         rings = to_esri_rings(simplify_for_url(geometry_lv95))
-        neighbours = geoadmin.identify_polygon(ADAPTER_ID, layer, rings, return_geometry=False)
+        try:
+            neighbours = geoadmin.identify_polygon(ADAPTER_ID, layer, rings, return_geometry=False)
+        except Exception as exc:
+            log.warning("parcel.neighbours_failed", extra={"error": str(exc)})
+            return parcel, records
         records.append(neighbours)
         ids = []
         for hit in geoadmin.results(neighbours):

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Freie Strasse 3 4001 Basel",
+  "site_id": "2701-113",
+  "recorded_at": "2026-09-08T12:34:58+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "232ef860d4a3ca6082f4ba4b5c3b53bb67bec977ec1906c9c2234fa11991088f.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2611280.9%2C1267438.7%5D%2C%5B2611318.6%2C1267467.7%5D%2C%5B2611280.9%2C1267467.7%5D%2C%5B2611318.6%2C1267438.7%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

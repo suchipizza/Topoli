@@ -428,6 +428,43 @@ def demo(
     print(layer0.text)
 
 
+@review_app.command("import")
+def review_import(
+    csv_path: Path = typer.Option(  # noqa: B008
+        Path("tests/review/zh20.csv"), "--csv", help="Reviewed CSV (reviewer_verdict filled)"
+    ),
+    out: Path = typer.Option(Path("tests/review/RESULT.md"), "--out"),  # noqa: B008
+) -> None:
+    """Count finding errors per PRD §10 from the reviewed CSV and write RESULT.md."""
+    import csv
+
+    rows = list(csv.DictReader(csv_path.open(encoding="utf-8")))
+    reviewed = [r for r in rows if (r.get("reviewer_verdict") or "").strip()]
+    errors = [r for r in reviewed if (r.get("reviewer_verdict") or "").strip().lower() == "error"]
+    hazard_errors = [r for r in errors if "hazard" in (r.get("reviewer_comment") or "").lower()]
+    bar_ok = len(errors) <= 2 and not hazard_errors and len(reviewed) >= 20
+    lines = [
+        "# Professional review result",
+        "",
+        f"Reviewed audits: {len(reviewed)} of {len(rows)} · errors: {len(errors)} · "
+        f"hazard errors: {len(hazard_errors)}",
+        "",
+        f"Launch bar (≤ 2 errors in 20 audits, 0 in hazards): **{'met' if bar_ok else 'NOT met'}**",
+        "",
+    ]
+    if errors:
+        lines += ["| Address | Zone | Comment |", "|---|---|---|"]
+        lines += [
+            f"| {r['address']} | {r.get('zone', '')} | {r.get('reviewer_comment', '')} |"
+            for r in errors
+        ]
+        lines.append("")
+    if len(reviewed) < 20:
+        lines.append(f"_{20 - len(reviewed)} audits still to review._")
+    out.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    console.print(f"wrote {out} — errors: {len(errors)}, hazard errors: {len(hazard_errors)}")
+
+
 @app.command()
 def coverage(
     write: bool = typer.Option(False, "--write", help="Also write coverage.json at the repo root"),

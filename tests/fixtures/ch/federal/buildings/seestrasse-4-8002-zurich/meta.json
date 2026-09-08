@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/buildings",
+  "address": "Seestrasse 4 8002 Zürich",
+  "site_id": "261-EN2739",
+  "recorded_at": "2026-09-08T12:28:26+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "55d29129af46f931c3c75e0c2460578fb9ec9d9d426e91cb7a4b47c74f2bf701.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2682563.7%2C1246687.6%5D%2C%5B2682568.3%2C1246690.3%5D%2C%5B2682572.3%2C1246681.9%5D%2C%5B2682577.6%2C1246681.7%5D%2C%5B2682578.4%2C1246682.2%5D%2C%5B2682587.9%2C1246686.7%5D%2C%5B2682588.0%2C1246686.7%5D%2C%5B2682591.7%2C1246679.0%5D%2C%5B2682581.0%2C1246664.3%5D%2C%5B2682580.9%2C1246664.3%5D%2C%5B2682572.1%2C1246670.9%5D%2C%5B2682571.8%2C1246670.4%5D%2C%5B2682570.8%2C1246671.1%5D%2C%5B2682571.1%2C1246671.6%5D%2C%5B2682570.8%2C1246672.9%5D%2C%5B2682569.5%2C1246677.9%5D%2C%5B2682563.7%2C1246687.6%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    }
+  ]
+}

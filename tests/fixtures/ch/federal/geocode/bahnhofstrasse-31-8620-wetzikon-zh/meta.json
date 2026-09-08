@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Bahnhofstrasse 31 8620 Wetzikon ZH",
+  "site_id": "121-1001",
+  "recorded_at": "2026-09-08T12:32:51+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "3634cb27cf403450f7b7167d9361b1bb20d6911b66246b71c42d91525c5987ca.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Bahnhofstrasse+31+8620+Wetzikon+ZH&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "ba171d2423c5826e42b95f6b8f2a1f191d1fc6a223efc17bcee2b750108b8764.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2702419.75%2C1241906.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2701919.75%2C1241406.125%2C2702919.75%2C1242406.125&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

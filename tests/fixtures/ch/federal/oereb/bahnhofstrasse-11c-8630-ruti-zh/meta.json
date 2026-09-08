@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Bahnhofstrasse 11c 8630 Rüti ZH",
+  "site_id": "118-6666",
+  "recorded_at": "2026-09-08T12:33:44+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "9fafe8d23df0bcc37426c5e78b02e2ff117c186159addc96e08257d8ac33a6f8.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2707112.0%2C1235364.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "4708a947206c273060fd83f2503582b07d033315496465f6571c83db71ff11e3.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH840659778643&LANG=de"
+    }
+  ]
+}

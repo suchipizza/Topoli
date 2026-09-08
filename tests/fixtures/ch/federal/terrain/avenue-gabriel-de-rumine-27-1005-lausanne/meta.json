@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Avenue Gabriel-de-Rumine 27 1005 Lausanne",
+  "site_id": "5586-6123",
+  "recorded_at": "2026-09-08T12:34:47+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "18dc7e2d462d856e950d39059794b1c50d71f77863ec889cae28f5d8872e7cfa.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2538785.8%2C1152024.1%5D%2C%5B2538818.1%2C1152058.6%5D%2C%5B2538785.8%2C1152058.6%5D%2C%5B2538818.1%2C1152024.1%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

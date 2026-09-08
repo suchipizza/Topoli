@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/contamination",
+  "address": "Röntgenstrasse 30 8005 Zürich",
+  "site_id": "261-IQ4406",
+  "recorded_at": "2026-09-08T12:32:13+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "f35662e367e742d9157dc081703fca2637467ef1b3a24a1b405087f282eb747a.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2682219.6%2C1248671.4%5D%2C%5B2682222.3%2C1248672.6%5D%2C%5B2682231.2%2C1248676.5%5D%2C%5B2682240.4%2C1248680.5%5D%2C%5B2682244.6%2C1248670.8%5D%2C%5B2682247.6%2C1248669.0%5D%2C%5B2682242.4%2C1248660.5%5D%2C%5B2682235.6%2C1248649.7%5D%2C%5B2682226.8%2C1248655.2%5D%2C%5B2682224.3%2C1248660.7%5D%2C%5B2682219.6%2C1248671.4%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bav.kataster-belasteter-standorte-oev%2Cch.bazl.kataster-belasteter-standorte-zivilflugplaetze%2Cch.vbs.kataster-belasteter-standorte-militaer&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

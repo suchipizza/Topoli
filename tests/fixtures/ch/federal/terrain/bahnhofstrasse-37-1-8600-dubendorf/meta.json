@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Bahnhofstrasse 37.1 8600 Dübendorf",
+  "site_id": "191-15917",
+  "recorded_at": "2026-09-08T12:32:44+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "4a5dd3483130b6e4f4d19563e274417fb5bf8795819c95d943883de6c069590e.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2689149.2%2C1250414.4%5D%2C%5B2689226.7%2C1250492.0%5D%2C%5B2689149.2%2C1250492.0%5D%2C%5B2689226.7%2C1250414.4%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

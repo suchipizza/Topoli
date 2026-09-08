@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Kramgasse 28 3011 Bern",
+  "site_id": "351-517",
+  "recorded_at": "2026-09-08T12:35:32+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "74ac660fd02032386b589bfebcba17b068b72b96cd051ee0266733e640c8676e.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2600923.75%2C1199667.25&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "a007caa700ce2ff497a4b43b72624272690f0b22e8fb13b9a542ce5dc68327b9.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2600919.2%2C1199684.8%5D%2C%5B2600919.3%2C1199686.8%5D%2C%5B2600919.4%2C1199689.3%5D%2C%5B2600919.3%2C1199693.0%5D%2C%5B2600919.2%2C1199702.5%5D%2C%5B2600919.2%2C1199706.0%5D%2C%5B2600926.0%2C1199706.1%5D%2C%5B2600926.0%2C1199702.3%5D%2C%5B2600926.0%2C1199692.8%5D%2C%5B2600926.1%2C1199685.9%5D%2C%5B2600927.0%2C1199685.9%5D%2C%5B2600927.0%2C1199684.5%5D%2C%5B2600928.6%2C1199684.5%5D%2C%5B2600928.4%2C1199677.7%5D%2C%5B2600928.3%2C1199676.7%5D%2C%5B2600928.4%2C1199672.2%5D%2C%5B2600928.7%2C1199671.6%5D%2C%5B2600928.9%2C1199666.7%5D%2C%5B2600929.0%2C1199663.5%5D%2C%5B2600922.7%2C1199663.5%5D%2C%5B2600922.9%2C1199675.8%5D%2C%5B2600922.8%2C1199684.6%5D%2C%5B2600919.2%2C1199684.8%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

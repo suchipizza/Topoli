@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Feldstrasse 60 8004 Zürich",
+  "site_id": "261-AU1405",
+  "recorded_at": "2026-09-08T12:31:55+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "6933e005c24470554910924941d6a8f3b0205e61c938e8f345e1b55745a697c9.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2681331.8%2C1247430.8%2C2682331.8%2C1248430.8%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

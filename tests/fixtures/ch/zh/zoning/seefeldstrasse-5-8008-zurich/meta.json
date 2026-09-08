@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Seefeldstrasse 5 8008 Zürich",
+  "site_id": "261-RI3727",
+  "recorded_at": "2026-09-08T12:26:18+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "6d80ecf265024d98ec57d524feee6204964b28b2b2a16ad303548e972c45045e.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683819.7%2C1246621.9%2C2683821.7%2C1246623.9%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Feldstrasse 53 8004 Zürich",
+  "site_id": "261-AU7123",
+  "recorded_at": "2026-09-08T12:31:58+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "663ef3420dddd8dd4dfb20e07ac270f1f0e9e3ec25d4df02af17975b01ecb36e.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Feldstrasse+53+8004+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "896f271ba0266e0f6f61264150c578cfee8d430513701f204906670a86c70dec.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2681781.25%2C1247887.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2681281.25%2C1247387.875%2C2682281.25%2C1248387.875&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/contamination",
+  "address": "Steinenvorstadt 11 4051 Basel",
+  "site_id": "2701-149",
+  "recorded_at": "2026-09-08T12:35:10+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "edb45b16221139f6a1a319bd34139f8bec02e8290aafd10850306a45a2157cad.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2611322.2%2C1266992.2%5D%2C%5B2611322.3%2C1266999.3%5D%2C%5B2611341.6%2C1266999.6%5D%2C%5B2611347.5%2C1266999.5%5D%2C%5B2611347.1%2C1266992.7%5D%2C%5B2611336.2%2C1266993.0%5D%2C%5B2611322.2%2C1266992.2%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bav.kataster-belasteter-standorte-oev%2Cch.bazl.kataster-belasteter-standorte-zivilflugplaetze%2Cch.vbs.kataster-belasteter-standorte-militaer&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

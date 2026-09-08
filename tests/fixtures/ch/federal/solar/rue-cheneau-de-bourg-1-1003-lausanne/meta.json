@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/solar",
+  "address": "Rue Cheneau-de-Bourg 1 1003 Lausanne",
+  "site_id": "5586-10696",
+  "recorded_at": "2026-09-08T12:34:44+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "b6ad57382c9203b1be8d07e0596cbefa884a60e18ce38bd6203afe77e97658fc.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2538439.7%2C1152486.1%5D%2C%5B2538440.0%2C1152496.6%5D%2C%5B2538446.3%2C1152500.5%5D%2C%5B2538449.9%2C1152495.9%5D%2C%5B2538445.3%2C1152487.9%5D%2C%5B2538445.6%2C1152487.8%5D%2C%5B2538444.7%2C1152486.2%5D%2C%5B2538439.7%2C1152486.1%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfe.solarenergie-eignung-daecher&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

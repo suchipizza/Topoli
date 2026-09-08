@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Tösstalstrasse 7a 8400 Winterthur",
+  "site_id": "230-ST7550",
+  "recorded_at": "2026-09-08T12:32:30+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "60aa58ed27ad4b0841f30748b3d4cf137a00b82d2a6d1b045f543cbfcff53590.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2697427.2%2C1261636.3%2C2697453.2%2C1261687.2%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

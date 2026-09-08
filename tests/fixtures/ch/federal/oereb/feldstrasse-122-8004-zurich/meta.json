@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Feldstrasse 122 8004 Zürich",
+  "site_id": "261-AU5071",
+  "recorded_at": "2026-09-08T12:32:01+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "abb34eb56eeb13b770f55ba9605e10630f9a6fe159315d18866d160564230fa6.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2681989.25%2C1248211.25&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "54a66aa08de3317b52072990c388ca01738a4a06b817dbdc2f2ae724dc1e1d12.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH467899910283&LANG=de"
+    }
+  ]
+}

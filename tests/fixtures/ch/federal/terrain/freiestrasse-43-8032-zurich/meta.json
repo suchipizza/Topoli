@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Freiestrasse 43 8032 Zürich",
+  "site_id": "261-HO712",
+  "recorded_at": "2026-09-08T12:30:14+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "0834b5b74c7f87b7b5ec173bc194b504d7a79fa180f96ca99d2f8650b82eff20.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2684325.2%2C1247197.7%5D%2C%5B2684356.5%2C1247229.3%5D%2C%5B2684325.2%2C1247229.3%5D%2C%5B2684356.5%2C1247197.7%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

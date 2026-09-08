@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/solar",
+  "address": "Zürichstrasse 26 8606 Nänikon",
+  "site_id": "198-E2924",
+  "recorded_at": "2026-09-08T12:32:36+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "4ff1f084e60eb23f587750caf55ed578e21df7271182387bc47370f295064505.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2694970.8%2C1247106.6%5D%2C%5B2694992.8%2C1247119.4%5D%2C%5B2694994.8%2C1247115.9%5D%2C%5B2695009.5%2C1247097.0%5D%2C%5B2694984.8%2C1247082.5%5D%2C%5B2694970.8%2C1247106.6%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfe.solarenergie-eignung-daecher&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

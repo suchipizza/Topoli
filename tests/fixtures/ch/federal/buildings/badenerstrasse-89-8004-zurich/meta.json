@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/buildings",
+  "address": "Badenerstrasse 89 8004 Zürich",
+  "site_id": "261-AU4367",
+  "recorded_at": "2026-09-08T12:27:51+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "7a5538754e29d3f2d6e0ac60e5cef20ea72ae02d18036b63cd34732fdbbd8f18.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2682092.0%2C1247563.3%5D%2C%5B2682099.6%2C1247578.8%5D%2C%5B2682101.9%2C1247579.7%5D%2C%5B2682113.1%2C1247574.3%5D%2C%5B2682108.7%2C1247565.4%5D%2C%5B2682104.8%2C1247557.2%5D%2C%5B2682102.2%2C1247558.5%5D%2C%5B2682092.0%2C1247563.3%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    }
+  ]
+}

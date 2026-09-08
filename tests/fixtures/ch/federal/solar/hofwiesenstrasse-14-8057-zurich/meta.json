@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/solar",
+  "address": "Hofwiesenstrasse 14 8057 Zürich",
+  "site_id": "261-UN940",
+  "recorded_at": "2026-09-08T12:27:06+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "6cc8fa54f3813be7b4dd7da52fbe49fc21117b4e46e6c6638cffe745264385a8.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683003.7%2C1249717.6%5D%2C%5B2683006.8%2C1249719.1%5D%2C%5B2683017.3%2C1249723.8%5D%2C%5B2683024.0%2C1249728.4%5D%2C%5B2683030.9%2C1249731.5%5D%2C%5B2683031.1%2C1249730.3%5D%2C%5B2683033.3%2C1249716.7%5D%2C%5B2683010.7%2C1249701.7%5D%2C%5B2683006.0%2C1249712.5%5D%2C%5B2683003.7%2C1249717.6%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfe.solarenergie-eignung-daecher&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

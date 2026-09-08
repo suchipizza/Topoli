@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Route de Chêne 5 1207 Genève",
+  "site_id": "6621-2661",
+  "recorded_at": "2026-09-08T12:34:20+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "8059568200ea92d53efb27ee347b9d8a1d00fa7a5bd9af520bd6a874fb5de3ab.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2501487.0%2C1117316.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "ed05dc1ca151c4e231f518c2bf32d45d3908defb81d197a2a0470a3494553937.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2501478.8%2C1117316.3%5D%2C%5B2501479.4%2C1117329.1%5D%2C%5B2501479.1%2C1117334.3%5D%2C%5B2501478.8%2C1117341.1%5D%2C%5B2501486.2%2C1117336.8%5D%2C%5B2501500.0%2C1117328.5%5D%2C%5B2501494.7%2C1117316.3%5D%2C%5B2501478.8%2C1117316.3%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

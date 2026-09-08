@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Zürcherstrasse 46b 8953 Dietikon",
+  "site_id": "243-12280",
+  "recorded_at": "2026-09-08T12:33:01+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "645a1442eae54d2d24b3f223874f024d9fb98ea62282d54fe038a051f9d53c56.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2672781.7%2C1250813.9%2C2672783.7%2C1250815.9%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

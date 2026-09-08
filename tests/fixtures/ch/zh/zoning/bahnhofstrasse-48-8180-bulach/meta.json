@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Bahnhofstrasse 48 8180 Bülach",
+  "site_id": "53-5548",
+  "recorded_at": "2026-09-08T12:33:19+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "1cf1f9b1a7a8764377c88270184eb6522f7d2deb4166134fa56ce2d2f9b173fb.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2682897.2%2C1264082.7%2C2682899.2%2C1264084.7%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

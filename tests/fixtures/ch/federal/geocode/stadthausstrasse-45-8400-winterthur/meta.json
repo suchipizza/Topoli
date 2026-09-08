@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Stadthausstrasse 45 8400 Winterthur",
+  "site_id": "230-ST9316",
+  "recorded_at": "2026-09-08T12:32:26+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "3bfd47acda55afaad30b7f8b2168cbc0fd78ababaaf1bb8bcb6b8ec11ce77e5b.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Stadthausstrasse+45+8400+Winterthur&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "7fef4f86f73334ed6aee4a58827b9ef74274891fc355a815d633218281c6c0a0.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2697326.25%2C1261859.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2696826.25%2C1261359.5%2C2697826.25%2C1262359.5&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

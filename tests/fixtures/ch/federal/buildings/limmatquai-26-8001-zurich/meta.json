@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/buildings",
+  "address": "Limmatquai 26 8001 Zürich",
+  "site_id": "261-AA3126",
+  "recorded_at": "2026-09-08T12:25:57+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "6967227733ddd3f04d2daf57ff17480929c74843068ea15ee69a89ff71e94e69.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683459.8%2C1247120.2%5D%2C%5B2683468.6%2C1247123.7%5D%2C%5B2683468.6%2C1247123.5%5D%2C%5B2683468.8%2C1247123.6%5D%2C%5B2683472.7%2C1247125.1%5D%2C%5B2683474.8%2C1247120.8%5D%2C%5B2683473.9%2C1247120.5%5D%2C%5B2683474.4%2C1247119.9%5D%2C%5B2683470.7%2C1247118.3%5D%2C%5B2683471.2%2C1247116.9%5D%2C%5B2683471.9%2C1247116.6%5D%2C%5B2683474.1%2C1247111.6%5D%2C%5B2683472.9%2C1247110.7%5D%2C%5B2683471.3%2C1247109.9%5D%2C%5B2683465.0%2C1247106.9%5D%2C%5B2683459.8%2C1247120.2%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Mühlebachstrasse 59 8008 Zürich",
+  "site_id": "261-RI3267",
+  "recorded_at": "2026-09-08T12:30:46+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "e8e612177a38843a175b7adf54e8ccd1d81e07343f3b9cc2c4a0b4625f6ecd75.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2684156.25%2C1246417.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "9847e5a77de4543424977c0298b443fc306d761aa116930c5288263ca8b08390.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH149199795279&LANG=de"
+    }
+  ]
+}

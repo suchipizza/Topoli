@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Bahnhofstrasse 31 8620 Wetzikon ZH",
+  "site_id": "121-1001",
+  "recorded_at": "2026-09-08T12:32:51+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "77ce27ff4881c40cdfe90819fc17d686370df094697737bd13648f2faa41ce93.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2702382.6%2C1241881.5%2C2702434.6%2C1241928.8%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

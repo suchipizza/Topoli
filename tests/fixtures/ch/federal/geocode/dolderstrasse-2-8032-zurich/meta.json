@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Dolderstrasse 2 8032 Zürich",
+  "site_id": "261-HO3367",
+  "recorded_at": "2026-09-08T12:29:22+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "f6dc3e0965553ac170d3b1412eb909c18dd5ed58f53702f19200ca38c2ffd7d1.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Dolderstrasse+2+8032+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "36b8b56041198210b11b891bcb051e7a318064afa1fb09c6ce677812ee0d45bf.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2684469.75%2C1247175.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2683969.75%2C1246675.0%2C2684969.75%2C1247675.0&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

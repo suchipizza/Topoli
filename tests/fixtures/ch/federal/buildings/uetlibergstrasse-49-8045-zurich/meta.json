@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/buildings",
+  "address": "Uetlibergstrasse 49 8045 Zürich",
+  "site_id": "261-WD4214",
+  "recorded_at": "2026-09-08T12:28:19+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "fd9bd3cc8263a89506498c0e0422c7bf77fd672cb7f61d46e17166b1a060bf35.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2681648.8%2C1246363.7%5D%2C%5B2681658.0%2C1246376.1%5D%2C%5B2681660.5%2C1246374.3%5D%2C%5B2681667.8%2C1246368.9%5D%2C%5B2681672.9%2C1246365.1%5D%2C%5B2681667.4%2C1246357.6%5D%2C%5B2681668.2%2C1246357.0%5D%2C%5B2681664.5%2C1246352.1%5D%2C%5B2681658.5%2C1246356.4%5D%2C%5B2681651.3%2C1246361.8%5D%2C%5B2681648.8%2C1246363.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    }
+  ]
+}

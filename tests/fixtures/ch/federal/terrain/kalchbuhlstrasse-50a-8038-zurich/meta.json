@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Kalchbühlstrasse 50a 8038 Zürich",
+  "site_id": "261-WO4787",
+  "recorded_at": "2026-09-08T12:29:46+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "a605073f3bbf6062b58be59b13f3246e2fe25cf47ee3df5b664049590051163f.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2682541.2%2C1243647.0%5D%2C%5B2682628.2%2C1243777.7%5D%2C%5B2682541.2%2C1243777.7%5D%2C%5B2682628.2%2C1243647.0%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

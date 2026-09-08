@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/contamination",
+  "address": "Neugasse 53 9000 St. Gallen",
+  "site_id": "3203-C0395",
+  "recorded_at": "2026-09-08T12:36:16+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "b0d5f56dbcd3e4e1b8189c79e9475f7eea2c1ab0402a9f2de1c4d91842e676f9.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2746068.2%2C1254392.8%5D%2C%5B2746074.2%2C1254397.0%5D%2C%5B2746075.1%2C1254397.6%5D%2C%5B2746075.3%2C1254397.4%5D%2C%5B2746078.0%2C1254393.6%5D%2C%5B2746077.1%2C1254392.9%5D%2C%5B2746079.3%2C1254389.7%5D%2C%5B2746079.9%2C1254388.9%5D%2C%5B2746073.7%2C1254384.5%5D%2C%5B2746073.2%2C1254384.2%5D%2C%5B2746068.2%2C1254392.8%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bav.kataster-belasteter-standorte-oev%2Cch.bazl.kataster-belasteter-standorte-zivilflugplaetze%2Cch.vbs.kataster-belasteter-standorte-militaer&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

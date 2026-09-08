@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Seestrasse 81 8820 Wädenswil",
+  "site_id": "293-WE5110",
+  "recorded_at": "2026-09-08T12:33:26+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "6f356ab5751ad482e4cffe4f2ce355f8ece652036e0942f7dc76a40a2f221289.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Seestrasse+81+8820+W%C3%A4denswil&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "2e48bb4d75cdd4ac3fda209aeb0a1b841a64c37dbc27afe120fa3f128a678a58.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2693715.0%2C1231448.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2693215.0%2C1230948.5%2C2694215.0%2C1231948.5&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Neugasse 26 9000 St. Gallen",
+  "site_id": "3203-C0331",
+  "recorded_at": "2026-09-08T12:36:11+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "41f484973967a21b512c1d41a4830ac27d59e5e2dea9ab35ec2eb68719e6eafd.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2746089.5%2C1254505.25&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    }
+  ]
+}

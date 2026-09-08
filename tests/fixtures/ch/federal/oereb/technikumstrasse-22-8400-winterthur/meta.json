@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Technikumstrasse 22 8400 Winterthur",
+  "site_id": "230-ST7283",
+  "recorded_at": "2026-09-08T12:32:20+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "5ae0d31b2d474c5bb23f99d9cf9971dfa8b03a9fae27da29f147f9e2ffd569b9.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2697274.25%2C1261599.25&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "2a440d380e7e73594566bce04787f644d55c519aad3d1ff00f267ba3fe16b7d7.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH540820777862&LANG=de"
+    }
+  ]
+}

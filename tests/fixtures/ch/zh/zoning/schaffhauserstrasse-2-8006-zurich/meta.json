@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Schaffhauserstrasse 2 8006 Zürich",
+  "site_id": "261-UN3912",
+  "recorded_at": "2026-09-08T12:27:03+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "eb97ceb7f887cda3748d6e5880650d9a766cb8bfe4b7801c719d8e3906c9d4f0.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683129.1%2C1249164.1%2C2683131.1%2C1249166.1%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

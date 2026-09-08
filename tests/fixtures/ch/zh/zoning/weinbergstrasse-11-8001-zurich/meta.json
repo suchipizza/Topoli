@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Weinbergstrasse 11 8001 Zürich",
+  "site_id": "261-AA7024",
+  "recorded_at": "2026-09-08T12:31:30+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "763c53400b23282e7ad262e16a4b96e01b5be73c99ba3314352b9d33220428c5.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683480.1%2C1248042.0%2C2683482.1%2C1248044.0%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

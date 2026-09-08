@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Langstrasse 94 8004 Zürich",
+  "site_id": "261-AU6741",
+  "recorded_at": "2026-09-08T12:28:56+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "0cc110982846bb277716d2322a919bd87a24b24e5e1388d6fee2f22322f375b3.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682210.75%2C1248053.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "f22f0dd5a0a5232e6848aefc451b84ebf38fb1d15799a0640b6949a87cc9efa7.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH439978914797&LANG=de"
+    }
+  ]
+}

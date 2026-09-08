@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Stauffacherstrasse 55 8004 Zürich",
+  "site_id": "261-AU5651",
+  "recorded_at": "2026-09-08T12:31:47+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "596c98fa43e2c81b2910c60d3b78998d70d0e988688327a9d517e262397f0059.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682196.0%2C1247697.25&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "f66a5be7d99b2735a8c5823466eb994f53218bffb39379923e7667b92a3c0094.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH207891179958&LANG=de"
+    }
+  ]
+}

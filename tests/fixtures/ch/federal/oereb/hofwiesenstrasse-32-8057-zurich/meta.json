@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Hofwiesenstrasse 32 8057 Zürich",
+  "site_id": "261-UN895",
+  "recorded_at": "2026-09-08T12:27:10+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "64e54623bfd9e9b49a6bdc3f7995174a4fa47e2150289819c5fc36ddc97a4767.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682979.5%2C1249821.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "8a375d0e9c49f2a19f02908004efdbd17f0d275d28e316b5f1b3df4e370f6aec.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH927090999133&LANG=de"
+    }
+  ]
+}

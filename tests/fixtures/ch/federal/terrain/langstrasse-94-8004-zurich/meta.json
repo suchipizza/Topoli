@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Langstrasse 94 8004 Zürich",
+  "site_id": "261-AU6741",
+  "recorded_at": "2026-09-08T12:28:56+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "267a986cce9253d67e6272a56255c09f5696cc2792f6094687f99d72297f9ce3.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2682197.5%2C1248028.1%5D%2C%5B2682237.3%2C1248065.4%5D%2C%5B2682197.5%2C1248065.4%5D%2C%5B2682237.3%2C1248028.1%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

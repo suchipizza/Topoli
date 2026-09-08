@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/contamination",
+  "address": "Seestrasse 16.1 8706 Meilen",
+  "site_id": "156-2932",
+  "recorded_at": "2026-09-08T12:33:40+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "1699624912fdb21e0685d26d08122e5294616b563069527ceaae15ffcc44e26c.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2688665.6%2C1237469.2%5D%2C%5B2688680.8%2C1237484.5%5D%2C%5B2688682.9%2C1237486.6%5D%2C%5B2688711.5%2C1237462.0%5D%2C%5B2688716.7%2C1237457.6%5D%2C%5B2688714.6%2C1237455.4%5D%2C%5B2688704.1%2C1237444.0%5D%2C%5B2688702.1%2C1237445.7%5D%2C%5B2688696.6%2C1237439.8%5D%2C%5B2688665.6%2C1237469.2%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bav.kataster-belasteter-standorte-oev%2Cch.bazl.kataster-belasteter-standorte-zivilflugplaetze%2Cch.vbs.kataster-belasteter-standorte-militaer&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

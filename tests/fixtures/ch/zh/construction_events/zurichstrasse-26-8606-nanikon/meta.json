@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Zürichstrasse 26 8606 Nänikon",
+  "site_id": "198-E2924",
+  "recorded_at": "2026-09-08T12:32:36+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "fb60f81b2933d2db550805d047e7b35d8e3629e1e3a71d36172a73bc7a795576.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2694494.2%2C1246606.6%2C2695494.2%2C1247606.6%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

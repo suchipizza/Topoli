@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Freie Strasse 3 4001 Basel",
+  "site_id": "2701-113",
+  "recorded_at": "2026-09-08T12:34:58+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "504b5a4b37586d6217ac7ef7ab95cfc6824a5728278d935cc8c83828e4a25cb2.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2611286.0%2C1267446.25&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/buildings",
+  "address": "Seestrasse 3 8002 Zürich",
+  "site_id": "261-EN1287",
+  "recorded_at": "2026-09-08T12:28:22+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "8408a4a2ffcc0d03a4b42eb9d9106390eeed31a0be2be6f7087d68902b8dc68f.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2682588.0%2C1246638.7%5D%2C%5B2682595.8%2C1246649.3%5D%2C%5B2682606.1%2C1246641.7%5D%2C%5B2682608.2%2C1246637.5%5D%2C%5B2682597.9%2C1246623.7%5D%2C%5B2682596.9%2C1246625.2%5D%2C%5B2682588.0%2C1246638.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    }
+  ]
+}

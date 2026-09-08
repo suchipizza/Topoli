@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Gutstrasse 7 8055 Zürich",
+  "site_id": "261-WD9102",
+  "recorded_at": "2026-09-08T12:31:10+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "9767c16213e21649387ab95b1ebee4ca4bb1ebe5a9f145a91f1ac1f66a1c783b.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Gutstrasse+7+8055+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "f164b1c6349f2e85d4c6c122fd6ac2537c691b8449909a6dd736961553e889fd.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2680814.25%2C1247169.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2680314.25%2C1246669.875%2C2681314.25%2C1247669.875&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

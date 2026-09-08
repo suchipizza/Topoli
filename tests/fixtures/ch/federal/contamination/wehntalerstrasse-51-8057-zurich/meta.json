@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/contamination",
+  "address": "Wehntalerstrasse 51 8057 Zürich",
+  "site_id": "261-UN1713",
+  "recorded_at": "2026-09-08T12:29:52+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "d5162ddd1cbd4d1a9dcd410bf6fe2a9ad1d01ef929536e65648730f000fcf5ac.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2682934.6%2C1250480.8%5D%2C%5B2682952.7%2C1250492.9%5D%2C%5B2682959.4%2C1250497.4%5D%2C%5B2682962.6%2C1250499.5%5D%2C%5B2682963.4%2C1250500.0%5D%2C%5B2682969.6%2C1250490.7%5D%2C%5B2682968.8%2C1250490.2%5D%2C%5B2682940.8%2C1250471.6%5D%2C%5B2682934.6%2C1250480.8%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bav.kataster-belasteter-standorte-oev%2Cch.bazl.kataster-belasteter-standorte-zivilflugplaetze%2Cch.vbs.kataster-belasteter-standorte-militaer&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

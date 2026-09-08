@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Seestrasse 16.1 8706 Meilen",
+  "site_id": "156-2932",
+  "recorded_at": "2026-09-08T12:33:40+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "df2deca3d99a6e678f437f37cc3129596b0e09adec9018febddad9de4070a86a.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2688665.6%2C1237439.8%5D%2C%5B2688716.7%2C1237486.6%5D%2C%5B2688665.6%2C1237486.6%5D%2C%5B2688716.7%2C1237439.8%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

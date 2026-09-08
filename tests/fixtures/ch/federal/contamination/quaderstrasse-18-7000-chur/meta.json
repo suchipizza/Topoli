@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/contamination",
+  "address": "Quaderstrasse 18 7000 Chur",
+  "site_id": "3901-1531",
+  "recorded_at": "2026-09-08T12:38:04+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "96d7bbfdeebbaf815eb03e0949b7ede43c02b12e967114b64d7677f4725895de.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2759718.1%2C1191150.3%5D%2C%5B2759740.2%2C1191154.5%5D%2C%5B2759744.4%2C1191132.6%5D%2C%5B2759741.6%2C1191132.0%5D%2C%5B2759729.3%2C1191129.5%5D%2C%5B2759722.3%2C1191128.1%5D%2C%5B2759720.8%2C1191136.1%5D%2C%5B2759718.2%2C1191149.7%5D%2C%5B2759718.1%2C1191150.3%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bav.kataster-belasteter-standorte-oev%2Cch.bazl.kataster-belasteter-standorte-zivilflugplaetze%2Cch.vbs.kataster-belasteter-standorte-militaer&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

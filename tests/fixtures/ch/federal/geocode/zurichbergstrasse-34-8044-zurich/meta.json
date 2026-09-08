@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Zürichbergstrasse 34 8044 Zürich",
+  "site_id": "261-FL3448",
+  "recorded_at": "2026-09-08T12:26:40+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "fb2568d779159b1e137c23c6756419787614176ea1cd53091580012aecb583be.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Z%C3%BCrichbergstrasse+34+8044+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "8269590879d401431bcba971302ff6df1984a8ac867977841d955891d2cbaad6.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2684313.5%2C1247587.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2683813.5%2C1247087.75%2C2684813.5%2C1248087.75&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

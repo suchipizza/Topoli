@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Rue du Rhône 14 1204 Genève",
+  "site_id": "6621-7013",
+  "recorded_at": "2026-09-08T12:34:05+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "30256588282bfdaafd27739ae81b8f0ee56b8d95d1c61fbed00ebae0e7ab3bef.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2500200.0%2C1117827.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "70e64d3c963dbe1a4cbced64f88f576743ea79aea43faf9c2ba4a244a6ab331d.json.gz",
+      "url": "https://ge.ch/terecadastrews/RdppfSVC.svc/extract/json/?EGRID=CH296589536314&LANG=fr"
+    }
+  ]
+}

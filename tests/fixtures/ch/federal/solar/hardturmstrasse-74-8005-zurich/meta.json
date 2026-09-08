@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/solar",
+  "address": "Hardturmstrasse 74 8005 Zürich",
+  "site_id": "261-IQ6086",
+  "recorded_at": "2026-09-08T12:29:09+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "d7322c9205608d9d327c63a30be97a0b0643e3e28ad2fb7614030aca56fc1b92.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2681485.8%2C1249594.8%5D%2C%5B2681497.2%2C1249622.7%5D%2C%5B2681498.2%2C1249625.0%5D%2C%5B2681522.5%2C1249616.7%5D%2C%5B2681509.1%2C1249584.0%5D%2C%5B2681507.8%2C1249584.6%5D%2C%5B2681485.8%2C1249594.8%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfe.solarenergie-eignung-daecher&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

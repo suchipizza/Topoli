@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Rue de Lausanne 15 1950 Sion",
+  "site_id": "6266-131",
+  "recorded_at": "2026-09-08T12:37:23+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "90bae082f79cd2779762a8cec7d693060788e84cd184fafe2b94a790750e4be9.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2593893.25%2C1120137.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "f03eabd492e624f775747c8e45389bd4fbbfb52541d31edd68d326ad4434df82.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2593876.3%2C1120132.6%5D%2C%5B2593892.7%2C1120140.2%5D%2C%5B2593894.8%2C1120141.1%5D%2C%5B2593904.5%2C1120128.8%5D%2C%5B2593903.0%2C1120127.0%5D%2C%5B2593891.9%2C1120112.7%5D%2C%5B2593889.8%2C1120110.8%5D%2C%5B2593888.3%2C1120112.7%5D%2C%5B2593885.3%2C1120116.2%5D%2C%5B2593882.1%2C1120119.9%5D%2C%5B2593876.3%2C1120132.6%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

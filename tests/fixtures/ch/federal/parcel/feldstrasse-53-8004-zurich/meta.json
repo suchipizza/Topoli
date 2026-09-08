@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Feldstrasse 53 8004 Zürich",
+  "site_id": "261-AU7123",
+  "recorded_at": "2026-09-08T12:31:58+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "eaec93707237b59136269f3fb310d395a675b9a71d65f0fb19872098b45f7cda.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2681781.25%2C1247887.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "34eb90aa1f3c7d6c638f92df49fd9e674dc140fba81734c8d2dbde15de5e5263.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2681741.8%2C1247895.1%5D%2C%5B2681750.2%2C1247911.8%5D%2C%5B2681753.8%2C1247918.6%5D%2C%5B2681755.3%2C1247921.6%5D%2C%5B2681777.7%2C1247910.1%5D%2C%5B2681780.6%2C1247916.1%5D%2C%5B2681781.3%2C1247917.4%5D%2C%5B2681781.5%2C1247917.3%5D%2C%5B2681786.4%2C1247927.5%5D%2C%5B2681800.5%2C1247920.3%5D%2C%5B2681801.7%2C1247917.0%5D%2C%5B2681782.4%2C1247877.3%5D%2C%5B2681779.1%2C1247876.1%5D%2C%5B2681741.8%2C1247895.1%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

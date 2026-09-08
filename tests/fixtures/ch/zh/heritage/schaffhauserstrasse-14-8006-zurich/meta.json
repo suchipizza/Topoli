@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Schaffhauserstrasse 14 8006 Zürich",
+  "site_id": "261-UN3835",
+  "recorded_at": "2026-09-08T12:26:56+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "23162706d685613c3d82432c9cc3178bc54a92aa9f2e244390210a122d0c9403.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683089.7%2C1249236.7%2C2683120.9%2C1249286.2%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

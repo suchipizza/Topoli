@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Gutstrasse 7 8055 Zürich",
+  "site_id": "261-WD9102",
+  "recorded_at": "2026-09-08T12:31:10+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "2e50c7f59e4a1f0ac9dfd3f1546a8879fb6cf2c3eb99351bb9a96f9a652e84c2.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2680753.3%2C1247088.2%2C2680869.2%2C1247201.2%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

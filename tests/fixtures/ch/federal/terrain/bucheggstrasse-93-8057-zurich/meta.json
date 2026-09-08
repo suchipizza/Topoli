@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Bucheggstrasse 93 8057 Zürich",
+  "site_id": "261-UN5076",
+  "recorded_at": "2026-09-08T12:29:57+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "99e49a34b2aaf21985383bebabafccf0f3f025834e00ced6943c38b94d4c0e00.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2682663.8%2C1250287.2%5D%2C%5B2682820.0%2C1250464.1%5D%2C%5B2682663.8%2C1250464.1%5D%2C%5B2682820.0%2C1250287.2%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

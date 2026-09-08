@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Technikumstrasse 66 8400 Winterthur",
+  "site_id": "230-ST7209",
+  "recorded_at": "2026-09-08T12:32:17+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "71dba34299c45faeae3b9c242a0de8656dd3a926be882dc33ade947d593afa95.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Technikumstrasse+66+8400+Winterthur&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "88d9bd8c280eed7882a2a8890b088ed2df4d80a741adfa73bf2c9649934daec5.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2697101.5%2C1261583.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2696601.5%2C1261083.75%2C2697601.5%2C1262083.75&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

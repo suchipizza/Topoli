@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Tösstalstrasse 7a 8400 Winterthur",
+  "site_id": "230-ST7550",
+  "recorded_at": "2026-09-08T12:32:30+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "30e7261acc63659048ead5372b0afd342849e344784189407cb6ff6760b30703.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2697440.5%2C1261664.25&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "a3568542048bcd7d1bb2aad515c702f923f45b596bc771a9de3bb4fa2a5d96d5.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH189420087986&LANG=de"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Seestrasse 24 8810 Horgen",
+  "site_id": "295-HN12219",
+  "recorded_at": "2026-09-08T12:33:06+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "d7428af48756ee8ac3d319c59bd6692a9f959d9dde4ef8f137353f88342d2ddd.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Seestrasse+24+8810+Horgen&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "8d57227c291d2ead088745a86949af53c2421665451d96452d055435c8cd0ab2.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2686933.5%2C1235871.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2686433.5%2C1235371.0%2C2687433.5%2C1236371.0&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

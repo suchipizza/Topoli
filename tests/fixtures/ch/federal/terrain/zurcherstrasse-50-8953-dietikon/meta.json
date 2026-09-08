@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Zürcherstrasse 50 8953 Dietikon",
+  "site_id": "243-10678",
+  "recorded_at": "2026-09-08T12:32:58+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "2bd6081151d34f16d8c51af39ad0a5dd6a7d1d06c24c54c7f09eade77623349d.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2672764.4%2C1250756.6%5D%2C%5B2672835.2%2C1250817.2%5D%2C%5B2672764.4%2C1250817.2%5D%2C%5B2672835.2%2C1250756.6%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

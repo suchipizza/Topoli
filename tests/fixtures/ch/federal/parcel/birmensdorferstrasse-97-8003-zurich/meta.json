@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Birmensdorferstrasse 97 8003 Zürich",
+  "site_id": "261-WD510",
+  "recorded_at": "2026-09-08T12:28:06+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "ce72a2cd0cb6ff640e6ecdde5dc04df6e67682117b64e29f9e5b7dfaf3d68cdb.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2681887.0%2C1247214.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "3f54931edd2c1a25fde092760b945e9dce1a4dd2f02afc72c47b53a2a2c7e497.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2681879.9%2C1247216.9%5D%2C%5B2681889.4%2C1247221.9%5D%2C%5B2681895.0%2C1247211.3%5D%2C%5B2681898.7%2C1247204.5%5D%2C%5B2681890.4%2C1247197.5%5D%2C%5B2681890.3%2C1247197.4%5D%2C%5B2681888.6%2C1247200.5%5D%2C%5B2681885.1%2C1247207.1%5D%2C%5B2681879.9%2C1247216.9%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

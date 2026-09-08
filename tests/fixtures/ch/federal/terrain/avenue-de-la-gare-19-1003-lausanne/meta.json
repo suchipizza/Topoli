@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Avenue de la Gare 19 1003 Lausanne",
+  "site_id": "5586-6019",
+  "recorded_at": "2026-09-08T12:34:32+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "22d23e8b3edf397c628875d6afc91bc15b3ea18d04a28a94b1bd714e6001261e.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2538369.9%2C1151872.6%5D%2C%5B2538420.1%2C1151928.9%5D%2C%5B2538369.9%2C1151928.9%5D%2C%5B2538420.1%2C1151872.6%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

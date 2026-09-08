@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Alte Landstrasse 11a 8800 Thalwil",
+  "site_id": "141-9640",
+  "recorded_at": "2026-09-08T12:33:33+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "4c175ede59687c1a6a44ae9d73b88cb6a3df4c38fd5eea7b993011e095fbd0ec.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2685691.5%2C1237307.8%2C2685855.4%2C1237425.2%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

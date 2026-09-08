@@ -1,0 +1,21 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Pilatusstrasse 34 6003 Luzern",
+  "site_id": "1061-1525",
+  "recorded_at": "2026-09-08T12:36:00+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "b6fe50d681da0edb1c0ef282e3e980d4984b0316c0b54fd16ee2ceeb12cbe209.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2665785.25%2C1211163.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "514b61f3687120f43c7aaaa5d556c5d2de2c77adb8977803b2427974f68bc4f2.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2665785.25%2C1211163.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.kantone.cadastralwebmap-farbe&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "d06060450f1c8c3bef50f626d9c4e18467516a0274daac3d63e73d7e4c2d5bc7.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2665773.4%2C1211159.7%5D%2C%5B2665773.9%2C1211159.7%5D%2C%5B2665777.9%2C1211161.8%5D%2C%5B2665777.7%2C1211167.5%5D%2C%5B2665777.1%2C1211188.3%5D%2C%5B2665777.0%2C1211189.5%5D%2C%5B2665781.9%2C1211190.1%5D%2C%5B2665782.5%2C1211188.8%5D%2C%5B2665786.0%2C1211188.9%5D%2C%5B2665786.1%2C1211185.8%5D%2C%5B2665792.3%2C1211186.3%5D%2C%5B2665793.1%2C1211186.5%5D%2C%5B2665794.3%2C1211176.2%5D%2C%5B2665792.6%2C1211175.2%5D%2C%5B2665794.7%2C1211171.8%5D%2C%5B2665800.7%2C1211161.9%5D%2C%5B2665800.8%2C1211161.7%5D%2C%5B2665779.8%2C1211149.1%5D%2C%5B2665775.2%2C1211156.7%5D%2C%5B2665773.4%2C1211159.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.kantone.cadastralwebmap-farbe&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/solar",
+  "address": "Avenue de la Gare 19 1003 Lausanne",
+  "site_id": "5586-6019",
+  "recorded_at": "2026-09-08T12:34:32+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "1a4beea6c4d9dff8f0b2b1ed12d02e3ac6495df1fa6b8c69414b921459f518b9.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2538369.9%2C1151891.3%5D%2C%5B2538386.5%2C1151923.8%5D%2C%5B2538390.9%2C1151928.9%5D%2C%5B2538420.1%2C1151916.7%5D%2C%5B2538412.4%2C1151901.2%5D%2C%5B2538415.8%2C1151896.6%5D%2C%5B2538410.7%2C1151887.4%5D%2C%5B2538403.7%2C1151874.5%5D%2C%5B2538404.0%2C1151874.3%5D%2C%5B2538403.2%2C1151872.6%5D%2C%5B2538369.9%2C1151891.3%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfe.solarenergie-eignung-daecher&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

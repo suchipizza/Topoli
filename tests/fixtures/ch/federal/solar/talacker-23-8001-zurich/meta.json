@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/solar",
+  "address": "Talacker 23 8001 Zürich",
+  "site_id": "261-AA1540",
+  "recorded_at": "2026-09-08T12:31:25+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "086845189416ee48f767b98a4081f7596d84f3ff2741533cc795f59410e0c5b5.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2682909.6%2C1247214.0%5D%2C%5B2682936.1%2C1247239.7%5D%2C%5B2682953.1%2C1247222.1%5D%2C%5B2682966.7%2C1247208.1%5D%2C%5B2682961.4%2C1247202.9%5D%2C%5B2682951.8%2C1247193.6%5D%2C%5B2682941.8%2C1247183.8%5D%2C%5B2682939.5%2C1247186.1%5D%2C%5B2682939.2%2C1247185.7%5D%2C%5B2682934.3%2C1247180.7%5D%2C%5B2682919.8%2C1247194.3%5D%2C%5B2682924.9%2C1247199.3%5D%2C%5B2682925.3%2C1247199.7%5D%2C%5B2682909.6%2C1247214.0%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfe.solarenergie-eignung-daecher&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Stadthausstrasse 45 8400 Winterthur",
+  "site_id": "230-ST9316",
+  "recorded_at": "2026-09-08T12:32:26+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "a2f5ba039d5cbb6af2d8dd2a96159a2db83c8cec9db42cf7a8efd8ecbd4f02ef.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2697326.25%2C1261859.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "81eaaf406f2125ded4cf69b2f0e58a940b3177d729efd0a0c97c3ded1d9b169a.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH867920081888&LANG=de"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Birmensdorferstrasse 32 8004 Zürich",
+  "site_id": "261-AU585",
+  "recorded_at": "2026-09-08T12:28:04+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "a8414286f83933c2623fa910c298c55c74cec4d277f004e4eb9bdb3ecb626b3f.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Birmensdorferstrasse+32+8004+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "e38de34806ae7f103c1379c542125ab7b370c2950da04ff61d7dc4a526f70bd5.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682155.5%2C1247396.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2681655.5%2C1246896.375%2C2682655.5%2C1247896.375&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

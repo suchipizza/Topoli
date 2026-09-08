@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Avenue de la Gare 17 1003 Lausanne",
+  "site_id": "5586-6023",
+  "recorded_at": "2026-09-08T12:46:26+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "643d4c066e5833275d270c484bdaa6df8cf5637ca2503d72e5df55a8d59f0f85.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2538454.0%2C1152014.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "8edb50032be51ffd391edb373de9341c49f6632272a0544cf062bf33b394b952.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2538454.0%2C1152014.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.kantone.cadastralwebmap-farbe&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    }
+  ]
+}

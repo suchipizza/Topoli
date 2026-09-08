@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Hönggerstrasse 4 8037 Zürich",
+  "site_id": "261-WP1082",
+  "recorded_at": "2026-09-08T12:27:30+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "edd5aba372be6fc47ae8508376ac10aa4a31fb85cda033594e51f2753e7db932.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=H%C3%B6nggerstrasse+4+8037+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "71983480d0c01d4964dc37dfe3022ddd0b2b3ab3a519a3525162c96f275f5ea7.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682220.25%2C1249446.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2681720.25%2C1248946.5%2C2682720.25%2C1249946.5&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

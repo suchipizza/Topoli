@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Birmensdorferstrasse 50 8004 Zürich",
+  "site_id": "261-AU6367",
+  "recorded_at": "2026-09-08T12:28:10+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "7318810a944aa98fd5ff3ff88f1d05c2f665bf7c2948095a2e376fa531431203.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2682070.9%2C1247345.0%2C2682072.9%2C1247347.0%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Kalchbühlstrasse 50a 8038 Zürich",
+  "site_id": "261-WO4787",
+  "recorded_at": "2026-09-08T12:29:46+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "4f5a95cc9acf4ac2c972715877b018c3e633df7b2683a0a1e026f5ef05abfbde.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682597.0%2C1243743.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "d185c9f4b36ac74a5def1483b25f9e72798c4c1133d08d4c7f8751889af22190.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH119109997183&LANG=de"
+    }
+  ]
+}

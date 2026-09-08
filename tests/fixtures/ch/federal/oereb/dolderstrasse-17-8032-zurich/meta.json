@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Dolderstrasse 17 8032 Zürich",
+  "site_id": "261-HO2365",
+  "recorded_at": "2026-09-08T12:29:25+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "887281c4c408a864a2efa7530e95fe0610500e7c8736c6f960c3ef39bf5175c5.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2684512.75%2C1247233.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "fe19d4741fe443bcbfda565106c8e2d9c7993a725059840af89a48d3cb9e25c1.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH888999917990&LANG=de"
+    }
+  ]
+}

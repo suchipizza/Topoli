@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Feldstrasse 53 8004 Zürich",
+  "site_id": "261-AU7123",
+  "recorded_at": "2026-09-08T12:31:58+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "da50553311da17e4f451fefb7f45ad89238ac37d822eb1e57cea8d1036de434a.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2681781.25%2C1247887.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "9b0651222808cd20c40d11253a32152c08d04f92752860149678e467b000bade.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH950399789129&LANG=de"
+    }
+  ]
+}

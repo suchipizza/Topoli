@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Rue de Lausanne 15 1950 Sion",
+  "site_id": "6266-131",
+  "recorded_at": "2026-09-08T12:37:23+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "5f3339ad38c1d04caa0e48eea0947fc8108e3b7227b77b773aeb373f915e0b90.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2593893.25%2C1120137.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    }
+  ]
+}

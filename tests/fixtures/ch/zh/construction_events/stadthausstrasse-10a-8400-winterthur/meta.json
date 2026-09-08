@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Stadthausstrasse 10a 8400 Winterthur",
+  "site_id": "230-ST3315",
+  "recorded_at": "2026-09-08T12:32:23+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "26b01821ef1f358f89b773511d162fada1070cbc31a8d9ac2e6cb266f69fce56.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2696546.5%2C1261376.1%2C2697546.5%2C1262376.1%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

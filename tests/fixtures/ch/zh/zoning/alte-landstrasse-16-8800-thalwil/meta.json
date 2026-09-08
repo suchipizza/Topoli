@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Alte Landstrasse 16 8800 Thalwil",
+  "site_id": "141-7714",
+  "recorded_at": "2026-09-08T12:33:30+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "46e3e06335434a1e8fee9718f1443c71ea61d3fa95bc49a264c2f70ed4d93ded.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2685896.0%2C1237431.4%2C2685898.0%2C1237433.4%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

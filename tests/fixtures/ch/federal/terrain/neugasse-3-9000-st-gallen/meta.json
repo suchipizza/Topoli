@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Neugasse 3 9000 St. Gallen",
+  "site_id": "3203-C0349",
+  "recorded_at": "2026-09-08T12:36:19+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "c4f0a648a41348ab27c0282508e300b99d559873fb8eb3738190f05d4b2fdea1.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2746106.3%2C1254494.4%5D%2C%5B2746182.8%2C1254559.1%5D%2C%5B2746106.3%2C1254559.1%5D%2C%5B2746182.8%2C1254494.4%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

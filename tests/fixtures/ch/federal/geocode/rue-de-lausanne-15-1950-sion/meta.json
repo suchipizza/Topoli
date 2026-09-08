@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Rue de Lausanne 15 1950 Sion",
+  "site_id": "6266-131",
+  "recorded_at": "2026-09-08T12:37:23+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "aa2b6a292115045810bd2f17d8e78217c356d6e39af2115a9e9bcda154a215ef.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Rue+de+Lausanne+15+1950+Sion&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "e0066431d11942897dc491d11867a5e562449d306724c8099e29f5543787c58b.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2593893.25%2C1120137.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2593393.25%2C1119637.5%2C2594393.25%2C1120637.5&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

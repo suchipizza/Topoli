@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Talacker 29a 8001 Zürich",
+  "site_id": "261-AA1539",
+  "recorded_at": "2026-09-08T12:31:21+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "7176897b7d116c75f3e8b9ea6310bcd09ac2a2fd39893bda5196a9c02fc22583.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2682883.0%2C1247214.0%5D%2C%5B2682936.1%2C1247265.9%5D%2C%5B2682883.0%2C1247265.9%5D%2C%5B2682936.1%2C1247214.0%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

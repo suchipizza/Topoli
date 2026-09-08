@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Forchstrasse 37 8032 Zürich",
+  "site_id": "261-HI3281",
+  "recorded_at": "2026-09-08T12:26:31+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "c2169b5e289d070dbd1b572cdb47affce21b6404dd001c32b5c5fd4fe2ccfe09.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2684500.75%2C1246480.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "a37f9689c17f056eb9420c588a77ae8ef31e585c9030f68a9ba30e745d118ee0.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2684483.8%2C1246480.3%5D%2C%5B2684490.0%2C1246486.1%5D%2C%5B2684497.3%2C1246491.4%5D%2C%5B2684501.0%2C1246486.9%5D%2C%5B2684517.9%2C1246498.7%5D%2C%5B2684527.6%2C1246487.3%5D%2C%5B2684499.9%2C1246463.8%5D%2C%5B2684483.8%2C1246480.3%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

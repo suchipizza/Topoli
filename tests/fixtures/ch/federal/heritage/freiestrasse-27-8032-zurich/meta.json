@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/heritage",
+  "address": "Freiestrasse 27 8032 Zürich",
+  "site_id": "261-HO649",
+  "recorded_at": "2026-09-08T12:30:21+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "14e03688f4f547bff01d2fb73110244342a5bee79141e4fbe590119489ad1368.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2684259.7%2C1247320.7%5D%2C%5B2684260.6%2C1247321.3%5D%2C%5B2684302.5%2C1247347.9%5D%2C%5B2684307.0%2C1247336.0%5D%2C%5B2684306.2%2C1247335.5%5D%2C%5B2684288.3%2C1247324.1%5D%2C%5B2684287.5%2C1247323.6%5D%2C%5B2684288.0%2C1247322.7%5D%2C%5B2684294.2%2C1247312.9%5D%2C%5B2684274.0%2C1247300.1%5D%2C%5B2684273.1%2C1247299.6%5D%2C%5B2684259.7%2C1247320.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.babs.kulturgueter%2Cch.bak.schutzgebiete-unesco_weltkulturerbe&sr=2056&tolerance=0&returnGeometry=false&limit=50"
+    }
+  ]
+}

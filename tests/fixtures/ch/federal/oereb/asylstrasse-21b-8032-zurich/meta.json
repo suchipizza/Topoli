@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Asylstrasse 21b 8032 Zürich",
+  "site_id": "261-HO3772",
+  "recorded_at": "2026-09-08T12:30:25+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "203c1f6d958d44e6e635ca52d4d569b68d2f20bfdc1e7844f8ee9388966a3e24.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2684544.5%2C1247089.25&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "96309f5ff52300f9b450df911967b40bf5e6c8e9452a7f0f21d9c32d52d83d83.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH649199719089&LANG=de"
+    }
+  ]
+}

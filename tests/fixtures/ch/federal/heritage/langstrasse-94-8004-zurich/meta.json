@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/heritage",
+  "address": "Langstrasse 94 8004 Zürich",
+  "site_id": "261-AU6741",
+  "recorded_at": "2026-09-08T12:28:56+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "2428bc1f8d070cd7e7ec1846a0d4b8d87ecc7bcc7398509fc786e1e74d24f24d.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2682197.5%2C1248047.8%5D%2C%5B2682204.3%2C1248065.4%5D%2C%5B2682214.5%2C1248061.4%5D%2C%5B2682237.3%2C1248044.9%5D%2C%5B2682232.0%2C1248037.6%5D%2C%5B2682230.0%2C1248034.8%5D%2C%5B2682229.4%2C1248035.2%5D%2C%5B2682227.0%2C1248031.9%5D%2C%5B2682224.2%2C1248028.1%5D%2C%5B2682223.7%2C1248028.5%5D%2C%5B2682218.3%2C1248032.4%5D%2C%5B2682210.2%2C1248038.4%5D%2C%5B2682204.4%2C1248042.7%5D%2C%5B2682205.8%2C1248044.6%5D%2C%5B2682197.5%2C1248047.8%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.babs.kulturgueter%2Cch.bak.schutzgebiete-unesco_weltkulturerbe&sr=2056&tolerance=0&returnGeometry=false&limit=50"
+    }
+  ]
+}

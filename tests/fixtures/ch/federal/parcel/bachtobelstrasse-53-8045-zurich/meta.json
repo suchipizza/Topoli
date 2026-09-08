@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Bachtobelstrasse 53 8045 Zürich",
+  "site_id": "261-WD4115",
+  "recorded_at": "2026-09-08T12:30:55+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "d1e51f324ac7514d7e45ee70bcddca47559e7357857f7d6b3d71b615368ab47c.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2681312.25%2C1246077.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "2916f0939ecb60eee01cfccf449eb6188af7adc68304238da9414c38c258ab08.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2681292.4%2C1246079.3%5D%2C%5B2681319.5%2C1246092.2%5D%2C%5B2681321.3%2C1246093.0%5D%2C%5B2681321.7%2C1246092.1%5D%2C%5B2681329.0%2C1246076.8%5D%2C%5B2681320.0%2C1246072.5%5D%2C%5B2681300.1%2C1246063.0%5D%2C%5B2681292.8%2C1246078.4%5D%2C%5B2681292.4%2C1246079.3%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

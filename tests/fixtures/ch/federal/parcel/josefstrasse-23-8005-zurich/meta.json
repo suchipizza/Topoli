@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Josefstrasse 23 8005 Zürich",
+  "site_id": "261-IQ6666",
+  "recorded_at": "2026-09-08T12:29:18+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "cac052dfef70f307b83eb0bf5f5db3d35de1ae7d542f2f06e4191f91fd10cccf.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682687.25%2C1248370.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "5771ff0302f1f99d6f9a1dc8f716c212cbc89ca78cf4ae2adf33493af7259b30.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2682660.6%2C1248343.3%5D%2C%5B2682667.4%2C1248361.1%5D%2C%5B2682681.1%2C1248376.8%5D%2C%5B2682702.3%2C1248358.4%5D%2C%5B2682681.9%2C1248335.1%5D%2C%5B2682660.6%2C1248343.3%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

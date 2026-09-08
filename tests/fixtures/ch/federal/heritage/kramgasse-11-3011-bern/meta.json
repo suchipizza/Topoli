@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/heritage",
+  "address": "Kramgasse 11 3011 Bern",
+  "site_id": "351-605",
+  "recorded_at": "2026-09-08T12:35:27+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "531527c2d4df9ec9697cb383e75fc1dc2466b055845544b51474ebee3307af22.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2600982.3%2C1199623.5%5D%2C%5B2600982.4%2C1199629.5%5D%2C%5B2600982.4%2C1199631.9%5D%2C%5B2600982.3%2C1199633.5%5D%2C%5B2600982.3%2C1199644.7%5D%2C%5B2600992.1%2C1199645.3%5D%2C%5B2600991.6%2C1199628.4%5D%2C%5B2600991.4%2C1199625.5%5D%2C%5B2600991.5%2C1199623.5%5D%2C%5B2600988.1%2C1199623.1%5D%2C%5B2600987.8%2C1199623.1%5D%2C%5B2600987.8%2C1199623.0%5D%2C%5B2600985.1%2C1199623.0%5D%2C%5B2600985.0%2C1199623.5%5D%2C%5B2600982.3%2C1199623.5%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.babs.kulturgueter%2Cch.bak.schutzgebiete-unesco_weltkulturerbe&sr=2056&tolerance=0&returnGeometry=false&limit=50"
+    }
+  ]
+}

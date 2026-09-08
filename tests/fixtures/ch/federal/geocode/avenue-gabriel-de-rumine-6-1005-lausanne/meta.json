@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Avenue Gabriel-de-Rumine 6 1005 Lausanne",
+  "site_id": "5586-6163",
+  "recorded_at": "2026-09-08T12:34:52+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "d58bf97df25531fdca563179af9f8000976a258548a707f414a7db986cd4d60c.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Avenue+Gabriel-de-Rumine+6+1005+Lausanne&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "cce82b355756262b62481cb023fdc9c1cd132b3e6bf8d891ee21013f9b4c47bf.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2538635.25%2C1152095.25&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2538135.25%2C1151595.25%2C2539135.25%2C1152595.25&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

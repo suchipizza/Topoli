@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Kramgasse 11 3011 Bern",
+  "site_id": "351-605",
+  "recorded_at": "2026-09-08T12:35:27+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "5685d940043761dc1e3eb0566d7af7a4d9483a8e6d709d5364a8b4d3125ac319.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2600987.5%2C1199641.25&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "4cf42a6eec962112a91e95768775299ce5baa636012a23b8c0082781334eee03.json.gz",
+      "url": "https://www.oereb2.apps.be.ch/extract/json/?EGRID=CH634676354794&LANG=de"
+    }
+  ]
+}

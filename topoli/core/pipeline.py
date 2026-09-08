@@ -89,8 +89,10 @@ def resolve_spine(address: str) -> tuple[SiteContext, list[CoverageEntry], list[
         )
     timings.append(Timing(step="get_parcel", seconds=time.perf_counter() - t0))
 
-    if parcel is not None:
-        t0 = time.perf_counter()
+    t0 = time.perf_counter()
+    if parcel is None:
+        coverage.append(coverage_entry("ch/federal/buildings", [], not_available="no parcel"))
+    else:
         try:
             buildings, b_records = get_buildings(parcel)
             coverage.append(coverage_entry("ch/federal/buildings", b_records))
@@ -99,7 +101,7 @@ def resolve_spine(address: str) -> tuple[SiteContext, list[CoverageEntry], list[
             coverage.append(
                 coverage_entry("ch/federal/buildings", [], error=f"{type(exc).__name__}: {exc}")
             )
-        timings.append(Timing(step="get_buildings", seconds=time.perf_counter() - t0))
+    timings.append(Timing(step="get_buildings", seconds=time.perf_counter() - t0))
 
     return SiteContext(site=site, parcel=parcel, buildings=buildings), coverage, timings
 

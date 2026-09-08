@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Bellerivestrasse 60 8008 Zürich",
+  "site_id": "261-RI4740",
+  "recorded_at": "2026-09-08T12:30:35+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "58e71173d959e6ccfc2b78dd3e2821665b3a3f546446967e2134dcc5c5255602.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683947.0%2C1245541.9%2C2684099.2%2C1245677.7%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

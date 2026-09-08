@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/contamination",
+  "address": "Bahnhofstrasse 48 8180 Bülach",
+  "site_id": "53-5548",
+  "recorded_at": "2026-09-08T12:33:19+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "d17491f1808ad5412139b0e5f4792d37f5f5f300d62adb911e9a31d076c4a5d0.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2682874.3%2C1264086.1%5D%2C%5B2682879.3%2C1264088.2%5D%2C%5B2682893.2%2C1264093.8%5D%2C%5B2682911.1%2C1264101.0%5D%2C%5B2682930.3%2C1264093.6%5D%2C%5B2682919.4%2C1264087.1%5D%2C%5B2682922.7%2C1264081.3%5D%2C%5B2682906.8%2C1264074.3%5D%2C%5B2682902.8%2C1264072.5%5D%2C%5B2682883.6%2C1264064.3%5D%2C%5B2682883.2%2C1264065.5%5D%2C%5B2682882.7%2C1264066.6%5D%2C%5B2682882.3%2C1264067.8%5D%2C%5B2682881.9%2C1264068.9%5D%2C%5B2682881.5%2C1264070.0%5D%2C%5B2682881.0%2C1264071.2%5D%2C%5B2682880.6%2C1264072.3%5D%2C%5B2682880.2%2C1264073.5%5D%2C%5B2682879.7%2C1264074.6%5D%2C%5B2682879.2%2C1264075.7%5D%2C%5B2682878.8%2C1264076.9%5D%2C%5B2682878.3%2C1264078.0%5D%2C%5B2682877.9%2C1264079.2%5D%2C%5B2682877.4%2C1264080.3%5D%2C%5B2682876.6%2C1264079.4%5D%2C%5B2682874.3%2C1264086.1%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bav.kataster-belasteter-standorte-oev%2Cch.bazl.kataster-belasteter-standorte-zivilflugplaetze%2Cch.vbs.kataster-belasteter-standorte-militaer&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

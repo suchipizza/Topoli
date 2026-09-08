@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Kramgasse 28 3011 Bern",
+  "site_id": "351-517",
+  "recorded_at": "2026-09-08T12:35:32+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "c1b6941fdeb7de4433a5f1168d7e7059472e966a33c5a05121fec853562a9f53.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Kramgasse+28+3011+Bern&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "87cbb597b190cbd7b73575780629155190b07a6ae17278dd57492445f5e8e691.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2600923.75%2C1199667.25&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2600423.75%2C1199167.25%2C2601423.75%2C1200167.25&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

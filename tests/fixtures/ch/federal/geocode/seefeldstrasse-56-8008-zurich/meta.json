@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Seefeldstrasse 56 8008 Zürich",
+  "site_id": "261-RI5438",
+  "recorded_at": "2026-09-08T12:26:21+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "79436e04f1802fbc54a625375cbe6e0ce39c10d1a8c1ba3786e11abfac351e91.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Seefeldstrasse+56+8008+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "8b7d2860875a0bcf39a8c955b7367a2a2b111e9e9884482ee69c21a933a8ae70.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683977.5%2C1246312.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2683477.5%2C1245812.125%2C2684477.5%2C1246812.125&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Zürichbergstrasse 36 8044 Zürich",
+  "site_id": "261-FL2436",
+  "recorded_at": "2026-09-08T12:26:37+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "a8c6cec44288f79b90a14045b793c683c5a3ac9e5fc10867a29c5a0ed69baf70.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2684324.2%2C1247549.3%2C2684404.5%2C1247634.9%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Stadthausstrasse 10a 8400 Winterthur",
+  "site_id": "230-ST3315",
+  "recorded_at": "2026-09-08T12:32:23+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "bf35742a6576d21945ea002bbef93df2c7888a344ba72a05cbaeb7bbadbff8a0.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2697046.5%2C1261876.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "521d2dac594605ca7705f01d1a0426f249b340c90fa6e6dbb2c1da304ea11caa.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2697022.2%2C1261874.9%5D%2C%5B2697026.8%2C1261876.1%5D%2C%5B2697026.7%2C1261876.7%5D%2C%5B2697038.7%2C1261880.2%5D%2C%5B2697048.8%2C1261882.3%5D%2C%5B2697052.6%2C1261866.4%5D%2C%5B2697026.9%2C1261859.7%5D%2C%5B2697022.2%2C1261874.9%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Seestrasse 16.1 8706 Meilen",
+  "site_id": "156-2932",
+  "recorded_at": "2026-09-08T12:33:40+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "12f18b56a5711bf92f740e5c60da48dbb7a1d11047d66b79783c23a529061dd5.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2688698.0%2C1237443.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "e4e838018a5d2fc5d13ee9670919dc3ab7a30a152b2d14fb461d7656674795df.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH207765826858&LANG=de"
+    }
+  ]
+}

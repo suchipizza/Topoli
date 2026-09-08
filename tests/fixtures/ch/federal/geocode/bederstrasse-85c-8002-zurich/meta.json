@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Bederstrasse 85c 8002 Zürich",
+  "site_id": "261-EN2545",
+  "recorded_at": "2026-09-08T12:28:34+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "7af5d5dec431f458c1957cace91e7087254e3b0574697f56c692564cebf6558d.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Bederstrasse+85c+8002+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "bf4a36b42308ed0e44f0697298be296290006a4301de46d12fb08c13c7b4024a.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682216.25%2C1246296.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2681716.25%2C1245796.375%2C2682716.25%2C1246796.375&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

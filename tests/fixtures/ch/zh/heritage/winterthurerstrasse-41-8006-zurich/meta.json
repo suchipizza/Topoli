@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Winterthurerstrasse 41 8006 Zürich",
+  "site_id": "261-OB4019",
+  "recorded_at": "2026-09-08T12:26:52+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "ec059e888528a96a9353311fb1bd97da48bc9b7436ff762597457b9bc43d3ad9.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683549.7%2C1249034.9%2C2683719.3%2C1249287.4%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

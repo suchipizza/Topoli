@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Illnauerstrasse 34 8307 Effretikon",
+  "site_id": "296-IE1254",
+  "recorded_at": "2026-09-08T12:33:52+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "05608e9f1a8ee8f9b1302f262f2209440f6c856afea90c8f72677eba473890e2.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2694425.0%2C1253064.1%2C2695425.0%2C1254064.1%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

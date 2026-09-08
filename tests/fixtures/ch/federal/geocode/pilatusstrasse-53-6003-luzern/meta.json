@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Pilatusstrasse 53 6003 Luzern",
+  "site_id": "1061-233",
+  "recorded_at": "2026-09-08T12:36:03+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "c4f66c35f4f2889eb20ae99168082bf62c003d25ecb5c4c059b48b6bc45b3224.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Pilatusstrasse+53+6003+Luzern&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "bb10b2f6127f2708d7816d0ee295de977ee6876dd7b5ec989611bbdf74a4e862.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2665691.75%2C1211063.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2665191.75%2C1210563.875%2C2666191.75%2C1211563.875&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

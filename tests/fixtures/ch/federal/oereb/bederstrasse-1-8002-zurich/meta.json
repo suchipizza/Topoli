@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Bederstrasse 1 8002 Zürich",
+  "site_id": "261-EN2952",
+  "recorded_at": "2026-09-08T12:28:41+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "d18fa7506c539801f86313ca8be5d3e6c56799c7d708d7cbe46e6d3342aee754.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682528.0%2C1246565.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "caeffe16d0324104f15b7f59fd1d96ec79f4c3f8a63ec6e828683f18dc62074a.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH207791029933&LANG=de"
+    }
+  ]
+}

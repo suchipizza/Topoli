@@ -25,7 +25,7 @@ i18n/                   {fr,de,it,en,jargon}.json
 examples/ · tests/ · docs/
 ```
 
-Wherever the PRD or `CLAUDE.md` says `core/…` or `countries/…`, read `topoli/core/…` and `topoli/countries/…`. Root assets (`i18n/`, `ui/`, `skills/`) are force-included into the wheel under `topoli/_data/` and located at runtime by `topoli.paths.asset_dir()`, so the installed package and the checkout behave identically.
+Wherever the PRD or `CLAUDE.md` says `core/…` or `countries/…`, read `topoli/core/…` and `topoli/countries/…`. Root assets (`i18n/`, `ui/`, `skills/`) are force-included into the wheel under `topoli_data/` (a sibling of the package, so an editable install cannot shadow it) and located at runtime by `topoli.paths.asset_dir()`, so the installed package and the checkout behave identically.
 
 ## Consequences
 

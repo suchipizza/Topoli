@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/buildings",
+  "address": "Quaderstrasse 36 7000 Chur",
+  "site_id": "3901-3265",
+  "recorded_at": "2026-09-08T12:38:01+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "0d4880a0bb137fd70f533962e68813c111711ee4b63c4a9539f1fc2e0c2fffb9.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2759805.2%2C1191120.3%5D%2C%5B2759809.4%2C1191152.7%5D%2C%5B2759810.8%2C1191157.3%5D%2C%5B2759812.8%2C1191160.9%5D%2C%5B2759816.4%2C1191165.1%5D%2C%5B2759822.1%2C1191169.7%5D%2C%5B2759827.9%2C1191173.1%5D%2C%5B2759831.2%2C1191174.6%5D%2C%5B2759838.5%2C1191177.0%5D%2C%5B2759848.0%2C1191179.4%5D%2C%5B2759939.5%2C1191197.0%5D%2C%5B2759942.0%2C1191196.7%5D%2C%5B2759943.8%2C1191194.9%5D%2C%5B2759944.4%2C1191192.3%5D%2C%5B2759943.5%2C1191189.3%5D%2C%5B2759921.9%2C1191156.5%5D%2C%5B2759910.1%2C1191142.7%5D%2C%5B2759823.9%2C1191126.2%5D%2C%5B2759823.2%2C1191120.9%5D%2C%5B2759805.2%2C1191120.3%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    }
+  ]
+}

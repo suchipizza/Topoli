@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Seefeldstrasse 32a 8008 Zürich",
+  "site_id": "261-RI4604",
+  "recorded_at": "2026-09-08T12:26:25+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "183cc9b63165276f744a29b1301b0e7146da122b34dafbd15c1aa83b9a90c0b6.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683908.5%2C1246439.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "60b00abaff84ad25ab107706b861f2c1442d41599810769340c12bced7bd4d97.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH467199919186&LANG=de"
+    }
+  ]
+}

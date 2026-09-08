@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Bahnhofstrasse 8 8302 Kloten",
+  "site_id": "62-4801",
+  "recorded_at": "2026-09-08T12:33:13+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "2ca85df4824875ade6a10c791e55e286844063370600f3130bc52f9d435f06ae.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2686291.0%2C1255969.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "1b9e9fea33ef9e7e959374e1bbceab2ae45b1610aef7dedb0b879b811b264e43.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2686288.9%2C1255971.6%5D%2C%5B2686305.6%2C1255983.7%5D%2C%5B2686309.5%2C1255978.9%5D%2C%5B2686305.6%2C1255975.8%5D%2C%5B2686305.1%2C1255976.5%5D%2C%5B2686292.8%2C1255967.8%5D%2C%5B2686292.1%2C1255967.3%5D%2C%5B2686288.9%2C1255971.6%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

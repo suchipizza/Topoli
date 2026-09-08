@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Rötelstrasse 47 8037 Zürich",
+  "site_id": "261-WP4693",
+  "recorded_at": "2026-09-08T12:30:12+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "c09985f7aa43bcceeca839025e1a040c99f505d601531c215fa62f8547d22fc9.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2682265.8%2C1249096.5%2C2683265.8%2C1250096.5%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

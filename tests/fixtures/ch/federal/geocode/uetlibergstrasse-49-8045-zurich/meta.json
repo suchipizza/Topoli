@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Uetlibergstrasse 49 8045 Zürich",
+  "site_id": "261-WD4214",
+  "recorded_at": "2026-09-08T12:28:19+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "37ef641466e410032cc0f35c20875f59211f609cff239ec830bad2e11444bfc9.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Uetlibergstrasse+49+8045+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "d5bcc57eb26209dc0ebedd9461dca2657256c5ba9c8e6b9a9676197eabaf3800.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2681659.25%2C1246363.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2681159.25%2C1245863.625%2C2682159.25%2C1246863.625&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

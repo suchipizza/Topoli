@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Universitätstrasse 23 8006 Zürich",
+  "site_id": "261-OB3211",
+  "recorded_at": "2026-09-08T12:31:39+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "1ee029f0927ffcfb3e6a8007f08fffe1d9dac708ce63dff4c750813664b487ae.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Universit%C3%A4tstrasse+23+8006+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "35a7d8ae0813481e329f612d643972ff8394c75b1987620a694e18350c3f7a8e.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683769.75%2C1248175.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2683269.75%2C1247675.75%2C2684269.75%2C1248675.75&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

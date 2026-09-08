@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Avenue de la Gare 17 1003 Lausanne",
+  "site_id": "5586-6023",
+  "recorded_at": "2026-09-08T12:46:26+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "771d5440fb4086019e1a71ef84bda078d50996c6499a0707e6f5f1eafdaacc1c.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2538454.0%2C1152014.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    }
+  ]
+}

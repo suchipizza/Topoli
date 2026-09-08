@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Limmattalstrasse 16 8049 Zürich",
+  "site_id": "261-HG2653",
+  "recorded_at": "2026-09-08T12:27:35+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "5847074fbd9fe4af21125fe80247c61e5a5591364e7a24b81b96076a5301f19b.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2681142.25%2C1250080.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "169bec6472f9b5b7a902a16b72c62f7b692214c5192734cb2d39a99fa885acda.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH179178189964&LANG=de"
+    }
+  ]
+}

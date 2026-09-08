@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/solar",
+  "address": "Avenue Gabriel-de-Rumine 6 1005 Lausanne",
+  "site_id": "5586-6163",
+  "recorded_at": "2026-09-08T12:34:52+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "a3e1d83605d3db78b17c65ae7b635ae53fcf2f987d72e8822655654476461118.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2538587.1%2C1152102.3%5D%2C%5B2538588.3%2C1152106.3%5D%2C%5B2538593.7%2C1152122.8%5D%2C%5B2538671.8%2C1152076.9%5D%2C%5B2538672.0%2C1152075.7%5D%2C%5B2538668.1%2C1152071.1%5D%2C%5B2538663.0%2C1152065.0%5D%2C%5B2538659.0%2C1152060.1%5D%2C%5B2538655.8%2C1152061.9%5D%2C%5B2538642.2%2C1152070.0%5D%2C%5B2538637.2%2C1152061.6%5D%2C%5B2538604.9%2C1152080.6%5D%2C%5B2538609.9%2C1152088.9%5D%2C%5B2538587.1%2C1152102.3%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfe.solarenergie-eignung-daecher&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

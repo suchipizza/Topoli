@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Bahnhofstrasse 14 8620 Wetzikon ZH",
+  "site_id": "121-3300",
+  "recorded_at": "2026-09-08T12:32:55+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "ff42667183140a910ea4b8b145dd7259bfb35b20ba7cb664a0ad60bdeef4f71d.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Bahnhofstrasse+14+8620+Wetzikon+ZH&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "0f5882eb7ba07e379a436758459ee456aff29a00c6e27ac0bc3415c80c51fc1e.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2702366.25%2C1241842.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2701866.25%2C1241342.125%2C2702866.25%2C1242342.125&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Universitätstrasse 19 8006 Zürich",
+  "site_id": "261-OB3209",
+  "recorded_at": "2026-09-08T12:31:36+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "d926418d3aa53f6cdf4d38a37c16bc98bc26793f809f6f015e0e611c41378471.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683748.9%2C1248132.1%2C2683783.3%2C1248162.6%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

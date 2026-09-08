@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Route de Chêne 5 1207 Genève",
+  "site_id": "6621-2661",
+  "recorded_at": "2026-09-08T12:34:20+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "f148f662b1fe8c64653c2255d8f1fa94e02de16d9cc4be3da9712833298448fc.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2501487.0%2C1117316.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "d3ab28bfdead114568b5e9887eb47368e892a64f18ced5f28f5b4729b26ca44e.json.gz",
+      "url": "https://ge.ch/terecadastrews/RdppfSVC.svc/extract/json/?EGRID=CH836588633017&LANG=fr"
+    }
+  ]
+}

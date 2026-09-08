@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Albisriederstrasse 34 8003 Zürich",
+  "site_id": "261-WD5738",
+  "recorded_at": "2026-09-08T12:27:57+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "837b59883137f3190942b319ff987c6d84dd0077e8ca4522f98f5638d48c8c0c.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2680679.9%2C1247981.5%2C2680723.6%2C1248021.0%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

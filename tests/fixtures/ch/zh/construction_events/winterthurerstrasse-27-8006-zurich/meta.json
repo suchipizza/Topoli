@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Winterthurerstrasse 27 8006 Zürich",
+  "site_id": "261-OB4019",
+  "recorded_at": "2026-09-08T12:26:48+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "b586fe342d320260001f7f4c1dc5ee6352ad91d759b9d3fe2f007e85ca5a24f9.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683198.8%2C1248560.6%2C2684198.8%2C1249560.6%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Birmensdorferstrasse 97 8003 Zürich",
+  "site_id": "261-WD510",
+  "recorded_at": "2026-09-08T12:28:06+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "fc02d810395cba6f54bb8e1a4acb225f4bbd322e28c0d8d67a8093d8229dfce4.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2681887.0%2C1247214.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "1cfe6bd3f311951826cdb98361d2ccabac1ed587e59f7f8a6058508480310b94.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH254499709157&LANG=de"
+    }
+  ]
+}

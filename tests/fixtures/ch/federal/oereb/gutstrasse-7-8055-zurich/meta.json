@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Gutstrasse 7 8055 Zürich",
+  "site_id": "261-WD9102",
+  "recorded_at": "2026-09-08T12:31:10+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "5cf040c9389b3fc6fd2ed135020fc9ee50d4080d01d03810e3f49e6df3c02868.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2680814.25%2C1247169.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "de059c1395a96edfe3d9f9ba164db0a2ce546f6c1fa75c5c1f31291998f14ae1.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH627067999151&LANG=de"
+    }
+  ]
+}

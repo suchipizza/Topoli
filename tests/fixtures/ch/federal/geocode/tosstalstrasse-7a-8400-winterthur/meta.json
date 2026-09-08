@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Tösstalstrasse 7a 8400 Winterthur",
+  "site_id": "230-ST7550",
+  "recorded_at": "2026-09-08T12:32:30+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "87fed1ffe4e026734d0cd0d206ce1446ae270a723a32112763673317f5cb7f6a.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=T%C3%B6sstalstrasse+7a+8400+Winterthur&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "a763cf50b21e8e90ebbdf490ed2a7c77803501e6b64567183ef712ca684f34eb.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2697440.5%2C1261664.25&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2696940.5%2C1261164.25%2C2697940.5%2C1262164.25&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

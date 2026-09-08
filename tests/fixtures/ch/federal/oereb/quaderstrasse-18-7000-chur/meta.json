@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Quaderstrasse 18 7000 Chur",
+  "site_id": "3901-1531",
+  "recorded_at": "2026-09-08T12:38:04+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "48891a873286afe09626a44b18e5e2057c1cce89f34dcc1d93b15eba8b9c92ab.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2759729.75%2C1191149.25&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    }
+  ]
+}

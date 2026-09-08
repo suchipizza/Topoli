@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/buildings",
+  "address": "Avenue Gabriel-de-Rumine 27 1005 Lausanne",
+  "site_id": "5586-6123",
+  "recorded_at": "2026-09-08T12:34:47+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "ba30ef262b9e8b07b100ae7f58801af071eef5fd7201419723a3661a45123c56.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2538785.8%2C1152034.1%5D%2C%5B2538789.7%2C1152040.6%5D%2C%5B2538796.8%2C1152052.8%5D%2C%5B2538799.9%2C1152057.8%5D%2C%5B2538802.2%2C1152056.4%5D%2C%5B2538803.6%2C1152058.6%5D%2C%5B2538818.1%2C1152050.1%5D%2C%5B2538813.9%2C1152043.0%5D%2C%5B2538806.6%2C1152030.6%5D%2C%5B2538802.8%2C1152024.1%5D%2C%5B2538785.8%2C1152034.1%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    }
+  ]
+}

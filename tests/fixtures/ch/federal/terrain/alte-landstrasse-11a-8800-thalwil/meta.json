@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Alte Landstrasse 11a 8800 Thalwil",
+  "site_id": "141-9640",
+  "recorded_at": "2026-09-08T12:33:33+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "5f0aae16ef506a5d040bd08cf15b8b9243cd9a46a7ba35fd924a4711d91fce0f.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2685696.5%2C1237312.8%5D%2C%5B2685850.4%2C1237420.2%5D%2C%5B2685696.5%2C1237420.2%5D%2C%5B2685850.4%2C1237312.8%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

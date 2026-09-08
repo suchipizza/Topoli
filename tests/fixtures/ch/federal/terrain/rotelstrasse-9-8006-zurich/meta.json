@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Rötelstrasse 9 8006 Zürich",
+  "site_id": "261-UN1784",
+  "recorded_at": "2026-09-08T12:30:06+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "5b2ac24c441b978922ec84f57b37792beb1d9d0966a1d1b5c8c113e4bfc9c526.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2682987.2%2C1249344.2%5D%2C%5B2683013.0%2C1249370.0%5D%2C%5B2682987.2%2C1249370.0%5D%2C%5B2683013.0%2C1249344.2%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

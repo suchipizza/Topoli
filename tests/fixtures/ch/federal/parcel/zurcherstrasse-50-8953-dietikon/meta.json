@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Zürcherstrasse 50 8953 Dietikon",
+  "site_id": "243-10678",
+  "recorded_at": "2026-09-08T12:32:58+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "6fa9940e21391c9982111764f158036248cdf8622bd70f48bdabed5e53ffb07f.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2672826.75%2C1250791.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "c05cc87627bc1f1cc28638e9ef068ea860b24336cfac69a098b43a3ea97726e0.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2672764.4%2C1250782.7%5D%2C%5B2672772.9%2C1250794.3%5D%2C%5B2672779.9%2C1250803.8%5D%2C%5B2672781.1%2C1250805.4%5D%2C%5B2672789.0%2C1250798.5%5D%2C%5B2672815.1%2C1250817.2%5D%2C%5B2672826.1%2C1250802.8%5D%2C%5B2672830.6%2C1250792.9%5D%2C%5B2672835.2%2C1250787.2%5D%2C%5B2672816.8%2C1250774.3%5D%2C%5B2672808.0%2C1250768.1%5D%2C%5B2672799.5%2C1250756.6%5D%2C%5B2672788.8%2C1250764.6%5D%2C%5B2672764.4%2C1250782.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

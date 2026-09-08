@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Gutstrasse 103 8055 Zürich",
+  "site_id": "261-WD7375",
+  "recorded_at": "2026-09-08T12:31:14+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "39c92c385aaa43ec990e89c956aab9e51b09e0dcb32e50fb00b31f912ecea58b.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2680484.9%2C1247304.4%2C2680486.9%2C1247306.4%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

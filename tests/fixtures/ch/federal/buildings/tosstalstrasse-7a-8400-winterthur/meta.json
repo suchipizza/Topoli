@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/buildings",
+  "address": "Tösstalstrasse 7a 8400 Winterthur",
+  "site_id": "230-ST7550",
+  "recorded_at": "2026-09-08T12:32:30+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "218b9fc28ac4abaca707fc3b666fd495ce258f1e3ca3afe8148671b0cde054c1.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2697432.2%2C1261642.1%5D%2C%5B2697433.3%2C1261659.2%5D%2C%5B2697433.3%2C1261672.6%5D%2C%5B2697433.4%2C1261675.9%5D%2C%5B2697433.0%2C1261681.2%5D%2C%5B2697439.3%2C1261681.6%5D%2C%5B2697448.2%2C1261682.2%5D%2C%5B2697447.8%2C1261675.8%5D%2C%5B2697445.6%2C1261658.3%5D%2C%5B2697445.9%2C1261658.3%5D%2C%5B2697444.0%2C1261641.3%5D%2C%5B2697432.2%2C1261642.1%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    }
+  ]
+}

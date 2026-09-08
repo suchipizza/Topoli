@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Bahnhofstrasse 12 3600 Thun",
+  "site_id": "942-981",
+  "recorded_at": "2026-09-08T12:35:36+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "18f8cc55e4ef94cda6a83e87655eda045dce1b51f991e71929c58af573a7261d.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2614595.75%2C1178285.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "40c7f04f5fe2489dfbf0c82bd9d5ae3006ecbc27a893d94093e1c9f1a1e8f816.json.gz",
+      "url": "https://www.oereb2.apps.be.ch/extract/json/?EGRID=CH173507534629&LANG=de"
+    }
+  ]
+}

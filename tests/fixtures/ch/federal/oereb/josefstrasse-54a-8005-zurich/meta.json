@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Josefstrasse 54a 8005 Zürich",
+  "site_id": "261-IQ2011",
+  "recorded_at": "2026-09-08T12:29:15+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "35ee8b195ddeddadb0c895bbb4439a33a13701aee693a892fb55e0c2e0e6655e.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682621.0%2C1248486.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "c574f2366e67b483d8e082961ba669606dd8583991312202d00d1374962fe1c4.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH999978069140&LANG=de"
+    }
+  ]
+}

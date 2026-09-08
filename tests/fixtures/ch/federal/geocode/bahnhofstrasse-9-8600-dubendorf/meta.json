@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Bahnhofstrasse 9 8600 Dübendorf",
+  "site_id": "191-5506",
+  "recorded_at": "2026-09-08T12:33:57+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "c168e7afc231b0cc7c3063302296e15c02d3df3bf57bec4985dc850c5a3b5c2d.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Bahnhofstrasse+9+8600+D%C3%BCbendorf&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "d658717b584c4c5810abb8296941406c8891f0de31da80af1050988adf1496a7.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2689067.0%2C1250304.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2688567.0%2C1249804.0%2C2689567.0%2C1250804.0&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

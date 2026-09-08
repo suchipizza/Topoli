@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Wehntalerstrasse 44 8057 Zürich",
+  "site_id": "261-UN4776",
+  "recorded_at": "2026-09-08T12:29:54+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "340788923f7fa84e8f5c013404ff54fd947cebe8468dcadbb72bf2af557d82eb.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683026.5%2C1250480.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "cd949db1d5fca2f1dab7c15ad14dd3dcd037f6d451d5dbb9e25080fca87ff6be.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH179170929911&LANG=de"
+    }
+  ]
+}

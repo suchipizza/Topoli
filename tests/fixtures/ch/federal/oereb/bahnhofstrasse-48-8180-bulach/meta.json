@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Bahnhofstrasse 48 8180 Bülach",
+  "site_id": "53-5548",
+  "recorded_at": "2026-09-08T12:33:19+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "8c0ca250f523326a38cb60e273c6e4c7d4b1c9fa715ddf244b7bafeaf2147136.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682888.0%2C1264086.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "5fc3654784056d5a79d2e1d7de577b9b075031eb605e9f580f4d021bda0f8b1f.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH307799994974&LANG=de"
+    }
+  ]
+}

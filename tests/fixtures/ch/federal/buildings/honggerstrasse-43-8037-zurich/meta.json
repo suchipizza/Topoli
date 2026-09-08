@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/buildings",
+  "address": "Hönggerstrasse 43 8037 Zürich",
+  "site_id": "261-WP5011",
+  "recorded_at": "2026-09-08T12:27:27+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "16a3114d21fe420dd7f02b1dc174ec2cdb8566d054c8c01a92d995a8bab41735.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2682008.6%2C1249534.3%5D%2C%5B2682011.1%2C1249537.0%5D%2C%5B2682013.4%2C1249539.6%5D%2C%5B2682016.3%2C1249542.9%5D%2C%5B2682016.5%2C1249542.8%5D%2C%5B2682016.9%2C1249542.4%5D%2C%5B2682018.5%2C1249544.4%5D%2C%5B2682018.6%2C1249544.3%5D%2C%5B2682023.6%2C1249550.1%5D%2C%5B2682023.8%2C1249550.4%5D%2C%5B2682031.4%2C1249543.4%5D%2C%5B2682033.1%2C1249541.9%5D%2C%5B2682037.5%2C1249538.3%5D%2C%5B2682043.3%2C1249533.9%5D%2C%5B2682028.1%2C1249513.3%5D%2C%5B2682020.3%2C1249517.7%5D%2C%5B2682009.5%2C1249523.6%5D%2C%5B2682014.0%2C1249529.9%5D%2C%5B2682008.6%2C1249534.3%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    }
+  ]
+}

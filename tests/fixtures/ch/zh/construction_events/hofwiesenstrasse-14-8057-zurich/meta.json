@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Hofwiesenstrasse 14 8057 Zürich",
+  "site_id": "261-UN940",
+  "recorded_at": "2026-09-08T12:27:06+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "6c6021382e8c450bf85072e12720ef3f3b1df65ce6de3df18130eddbe5fb0ac0.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2682529.0%2C1249223.8%2C2683529.0%2C1250223.8%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

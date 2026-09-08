@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/contamination",
+  "address": "Winterthurerstrasse 41 8006 Zürich",
+  "site_id": "261-OB4019",
+  "recorded_at": "2026-09-08T12:26:52+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "e2204a15c3bd136b4eb3ae40d7721b6c99e80f5e783331246c71e5557c2ac022.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683554.7%2C1249223.4%5D%2C%5B2683555.4%2C1249224.9%5D%2C%5B2683611.9%2C1249282.4%5D%2C%5B2683619.6%2C1249280.5%5D%2C%5B2683636.9%2C1249236.5%5D%2C%5B2683637.6%2C1249236.3%5D%2C%5B2683642.0%2C1249228.1%5D%2C%5B2683642.3%2C1249228.2%5D%2C%5B2683649.5%2C1249209.9%5D%2C%5B2683650.4%2C1249209.7%5D%2C%5B2683714.0%2C1249046.7%5D%2C%5B2683714.3%2C1249043.8%5D%2C%5B2683713.7%2C1249042.0%5D%2C%5B2683712.8%2C1249040.9%5D%2C%5B2683710.6%2C1249039.9%5D%2C%5B2683708.8%2C1249040.1%5D%2C%5B2683699.3%2C1249042.4%5D%2C%5B2683688.1%2C1249046.0%5D%2C%5B2683614.7%2C1249074.4%5D%2C%5B2683612.7%2C1249075.5%5D%2C%5B2683611.6%2C1249076.6%5D%2C%5B2683554.9%2C1249221.4%5D%2C%5B2683554.7%2C1249223.4%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bav.kataster-belasteter-standorte-oev%2Cch.bazl.kataster-belasteter-standorte-zivilflugplaetze%2Cch.vbs.kataster-belasteter-standorte-militaer&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

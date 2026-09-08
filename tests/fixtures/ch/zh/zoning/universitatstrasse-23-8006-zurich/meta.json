@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Universitätstrasse 23 8006 Zürich",
+  "site_id": "261-OB3211",
+  "recorded_at": "2026-09-08T12:31:39+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "b89b8075a8861c359b2a8d8ad1ccbf18c71a68f9d2a225920eea9251221011ce.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683766.4%2C1248175.0%2C2683768.4%2C1248177.0%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

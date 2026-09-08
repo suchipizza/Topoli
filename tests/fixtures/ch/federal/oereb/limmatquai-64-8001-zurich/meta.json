@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Limmatquai 64 8001 Zürich",
+  "site_id": "261-AA7167",
+  "recorded_at": "2026-09-08T12:26:01+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "cbcdd58b22951f359544dec04151b567ac6b0b61db5de2a0be67fc66a4f92889.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683411.25%2C1247400.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "5568a3c2ec29b435f30ae391ae505153daf42e2d2b737ddaad7fed1fa6abd388.json.gz",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH187399917783&LANG=de"
+    }
+  ]
+}

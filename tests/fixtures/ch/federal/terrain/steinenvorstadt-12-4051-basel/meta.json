@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Steinenvorstadt 12 4051 Basel",
+  "site_id": "2701-98",
+  "recorded_at": "2026-09-08T12:35:07+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "66405ee907f2ebcbfddc9d424e7894104f469e29492e66b937be5695175d061e.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2611292.5%2C1266989.5%5D%2C%5B2611307.5%2C1267001.9%5D%2C%5B2611292.5%2C1267001.9%5D%2C%5B2611307.5%2C1266989.5%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

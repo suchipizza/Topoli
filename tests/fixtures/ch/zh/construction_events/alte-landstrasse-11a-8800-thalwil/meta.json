@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "Alte Landstrasse 11a 8800 Thalwil",
+  "site_id": "141-9640",
+  "recorded_at": "2026-09-08T12:33:33+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "a9c225d685d456699430a48b67d80f8d73ff3343122ac7ed1f98ac2735090af0.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0404_arv_basis_avzh_liegenschaften_pos_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2685281.5%2C1236901.4%2C2686281.5%2C1237901.4%2CEPSG%3A2056&COUNT=5000"
+    }
+  ]
+}

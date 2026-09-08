@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Bahnhofstrasse 37.1 8600 Dübendorf",
+  "site_id": "191-15917",
+  "recorded_at": "2026-09-08T12:32:44+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "4d983bdd19b2b0b6b86b50afaf4d6e9780be27c96defb0f0e6a82ff307e4a127.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Bahnhofstrasse+37.1+8600+D%C3%BCbendorf&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "210416114bc6ed40bc8bface44de075dbf86028e7d5ee9c7ce3c8880394e65eb.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2689191.75%2C1250428.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2688691.75%2C1249928.75%2C2689691.75%2C1250928.75&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

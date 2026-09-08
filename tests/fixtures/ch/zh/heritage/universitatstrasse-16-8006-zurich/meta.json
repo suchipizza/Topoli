@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/heritage",
+  "address": "Universitätstrasse 16 8006 Zürich",
+  "site_id": "261-OB4403",
+  "recorded_at": "2026-09-08T12:31:44+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "ceb506e90345ba0b0c8bc329a40eef965808349ecb5786fde920b10ea400e101.json.gz",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683788.7%2C1247944.0%2C2683967.2%2C1248276.7%2CEPSG%3A2056&COUNT=50"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Bachtobelstrasse 40 8045 Zürich",
+  "site_id": "261-WD3510",
+  "recorded_at": "2026-09-08T12:30:59+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "c4087afb96eaf115354609e7b3ce52aaddc6bf03f9f54194f62a8ea822edb91b.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2681330.4%2C1246112.0%5D%2C%5B2681353.4%2C1246142.0%5D%2C%5B2681330.4%2C1246142.0%5D%2C%5B2681353.4%2C1246112.0%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

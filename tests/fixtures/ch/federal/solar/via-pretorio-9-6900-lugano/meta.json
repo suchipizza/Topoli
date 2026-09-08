@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/solar",
+  "address": "Via Pretorio 9 6900 Lugano",
+  "site_id": "5192-337",
+  "recorded_at": "2026-09-08T12:35:57+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "b5c502177b563cc96d815b32c9ca94a82bc437263d2aa87c5a204cd62333bc8c.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2717179.2%2C1096097.9%5D%2C%5B2717179.2%2C1096098.1%5D%2C%5B2717182.8%2C1096112.1%5D%2C%5B2717183.5%2C1096114.6%5D%2C%5B2717185.7%2C1096123.2%5D%2C%5B2717209.1%2C1096117.9%5D%2C%5B2717208.6%2C1096115.9%5D%2C%5B2717216.0%2C1096114.2%5D%2C%5B2717210.3%2C1096089.8%5D%2C%5B2717198.2%2C1096092.9%5D%2C%5B2717179.2%2C1096097.9%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfe.solarenergie-eignung-daecher&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

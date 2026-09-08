@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/solar",
+  "address": "Bahnhofstrasse 8 8302 Kloten",
+  "site_id": "62-4801",
+  "recorded_at": "2026-09-08T12:33:13+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "01089c0f575f3c86747c8b1faf467eab1fd36dc02861b5996d1550f4678ba1fc.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2686288.9%2C1255971.6%5D%2C%5B2686305.6%2C1255983.7%5D%2C%5B2686309.5%2C1255978.9%5D%2C%5B2686305.6%2C1255975.8%5D%2C%5B2686305.1%2C1255976.5%5D%2C%5B2686292.8%2C1255967.8%5D%2C%5B2686292.1%2C1255967.3%5D%2C%5B2686288.9%2C1255971.6%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfe.solarenergie-eignung-daecher&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

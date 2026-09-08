@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Bucheggstrasse 89 8057 Zürich",
+  "site_id": "261-UN5076",
+  "recorded_at": "2026-09-08T12:29:59+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "e900052d8c53fdbfdf3da91c26fbe0300b9aa0760458ce3c8908fcc70cca08a4.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Bucheggstrasse+89+8057+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "294519be8feef19a4e7e75ce27033a433eded235c638788f45e3d8591f7e9288.json.gz",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2682712.25%2C1250357.25&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2682212.25%2C1249857.25%2C2683212.25%2C1250857.25&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}
