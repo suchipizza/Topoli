@@ -144,6 +144,52 @@ def regulation(
     console.print(_calls_line())
 
 
+@app.command()
+def events(
+    address: str = typer.Argument(..., help="Address in the Canton of Zürich"),
+    radius: float = typer.Option(500.0, "--radius", help="Search radius in metres"),
+    since: int = typer.Option(12, "--since", help="Months back"),
+) -> None:
+    """Building publications near the address, normalized, newest first."""
+    from topoli.core.adapters import get_client
+    from topoli.core.adapters.base import SiteContext
+    from topoli.core.pipeline import resolve_spine
+    from topoli.core.scoring.activity import summarize
+    from topoli.countries.ch.federal.geocode import ResolveError
+    from topoli.countries.ch.zh.construction_events import ConstructionEventsAdapter, portal_page
+
+    get_client().reset()
+    try:
+        ctx, _, _ = resolve_spine(address)
+    except ResolveError as exc:
+        console.print(f"[red]Could not resolve:[/red] {exc}")
+        raise typer.Exit(code=2) from exc
+    adapter = ConstructionEventsAdapter()
+    adapter.radius_m = radius
+    adapter.since_months = since
+    records = adapter.fetch(SiteContext(site=ctx.site, parcel=ctx.parcel, buildings=ctx.buildings))
+    found, stats = adapter.events(records, ctx)
+    summary = summarize(found, radius_m=radius, since=None)
+    console.print(
+        f"[bold]{ctx.site.address}[/bold] · {summary.count} events within {radius:.0f} m · {stats}"
+    )
+    table = Table(title="construction publications")
+    for col in ("date", "m", "type", "description", "applicant", "author", "source"):
+        table.add_column(col, overflow="fold")
+    for e in found:
+        table.add_row(
+            e.publication_date.isoformat(),
+            f"{e.distance_m:.0f}" if e.distance_m else "",
+            e.type,
+            e.description[:70],
+            e.applicant or "",
+            e.project_author or "",
+            portal_page(e),
+        )
+    console.print(table)
+    console.print(_calls_line())
+
+
 review_app = typer.Typer(help="Professional review harness (PRD §10).")
 app.add_typer(review_app, name="review")
 

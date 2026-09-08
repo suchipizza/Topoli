@@ -125,7 +125,7 @@ def test_canton_coverage_table() -> None:
     zh = canton_coverage("ZH")
     assert zh["federal_pct"] == 100
     assert zh["cantonal_pct"] == 100, "zoning, regulation, heritage registered for ZH (WO-05)"
-    assert zh["events_pct"] == 0, "construction events arrive with WO-06"
+    assert zh["events_pct"] == 100, "construction events registered for ZH (WO-06)"
     ti = canton_coverage("TI")
     assert ti["federal_pct"] == 90 and ti["federal"]["ch/federal/oereb"] == "not_available"
     assert ti["cantonal_pct"] == 0 and ti["events_pct"] == 0

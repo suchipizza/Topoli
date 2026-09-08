@@ -20,3 +20,11 @@ ZH_BZO = Licence(
     attribution="Source: Stadt Zürich, Bau- und Zonenordnung (BZO 2016), AS 700.100, consolidated text as published on the ÖREB document server",
     redistribution_allowed=True,
 )
+
+ZH_BAUGESUCHE = Licence(
+    id="opendata-swiss-open",
+    name="opendata.swiss terms 'Freie Nutzung' (OPEN) — Baugesuche im Kanton Zürich, Statistisches Amt / FK OGD",
+    url="https://opendata.swiss/de/dataset/baugesuche-im-kanton-zurich",
+    attribution="Source: Kanton Zürich, Statistisches Amt (Fachstelle OGD) — Baugesuche im Kanton Zürich, from the Amtsblatt (Amtsblattportal API, rubric BP-ZH01)",
+    redistribution_allowed=True,
+)

@@ -14,7 +14,15 @@ from dataclasses import dataclass, field
 
 from topoli.core.adapters import BudgetExceededError, Record, SiteContext, get_client
 from topoli.core.adapters.registry import AdapterSpec, all_specs
-from topoli.core.domain import Building, Category, Finding, Parcel, Regulation, Site
+from topoli.core.domain import (
+    Building,
+    Category,
+    ConstructionEvent,
+    Finding,
+    Parcel,
+    Regulation,
+    Site,
+)
 from topoli.core.evidence import CoverageEntry, Timing, validate_all
 from topoli.core.scoring.coverage import coverage_entry
 from topoli.core.scoring.potential import PotentialResult, compute_potential
@@ -30,6 +38,7 @@ _CATEGORY_OF: dict[str, Category] = {
     "ch/zh/zoning": "zoning",
     "ch/zh/regulation": "zoning",
     "ch/zh/heritage": "heritage",
+    "ch/zh/construction_events": "activity",
     "ch/federal/hazards": "hazard",
     "ch/federal/noise": "noise",
     "ch/federal/contamination": "environment",
@@ -49,6 +58,7 @@ class LayerRun:
     timings: list[Timing] = field(default_factory=list)
     regulations: list[Regulation] = field(default_factory=list)
     potential: PotentialResult | None = None
+    events: list[ConstructionEvent] = field(default_factory=list)
 
 
 def resolve_spine(address: str) -> tuple[SiteContext, list[CoverageEntry], list[Timing]]:
@@ -110,6 +120,10 @@ def _run_one(run: LayerRun, spec: AdapterSpec) -> list[Record]:
             reg = adapter.regulation(records, run.ctx)
             if reg is not None:
                 run.regulations.append(reg)
+        events_of = getattr(adapter, "events", None)
+        if callable(events_of):
+            found, _ = events_of(records, run.ctx)
+            run.events.extend(found)
         findings = adapter.to_findings(records, run.ctx)
         run.coverage.append(coverage_entry(adapter.id, records))
         run.findings.extend(validate_all(findings))
@@ -162,6 +176,15 @@ def run_cantonal(run: LayerRun) -> LayerRun:
     for spec in specs:
         _run_one(run, spec)
     run.potential = _potential_finding(run)
+    return run
+
+
+def run_events(run: LayerRun) -> LayerRun:
+    """Step 7: construction-event adapters of the site's canton (nearby activity)."""
+    canton = run.ctx.site.jurisdiction.canton
+    for spec in all_specs("events"):
+        if spec.adapter.jurisdiction.canton == canton:
+            _run_one(run, spec)
     return run
 
 
@@ -224,7 +247,16 @@ def audit_layers(address: str) -> tuple[LayerRun, list[CoverageEntry], list[Timi
     ctx, spine_cov, spine_timings = resolve_spine(address)
     run = run_layers(ctx)
     run_cantonal(run)
+    run_events(run)
     return run, spine_cov, spine_timings
 
 
-__all__ = ["LayerRun", "Site", "audit_layers", "resolve_spine", "run_cantonal", "run_layers"]
+__all__ = [
+    "LayerRun",
+    "Site",
+    "audit_layers",
+    "resolve_spine",
+    "run_cantonal",
+    "run_events",
+    "run_layers",
+]

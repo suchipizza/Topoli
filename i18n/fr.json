@@ -453,6 +453,18 @@
         "consequence": "__TODO__",
         "caveat": "__TODO__"
       }
+    },
+    "activity": {
+      "n": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "none": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      }
     }
   }
 }

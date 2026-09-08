@@ -10,7 +10,9 @@ pytestmark = pytest.mark.live
 
 
 @pytest.mark.parametrize(
-    "spec", [*all_specs("federal"), *all_specs("cantonal")], ids=lambda s: s.id
+    "spec",
+    [*all_specs("federal"), *all_specs("cantonal"), *all_specs("events")],
+    ids=lambda s: s.id,
 )
 def test_adapter_health(spec, request: pytest.FixtureRequest) -> None:  # type: ignore[no-untyped-def]
     request.node.add_marker(pytest.mark.adapter(spec.id))

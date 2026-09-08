@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/construction_events",
+  "address": "(site-independent)",
+  "site_id": "261-AU6979",
+  "recorded_at": "2026-09-08T10:22:22+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "385989d7297ccbee30f121350e62f373e522fa9444112a8272cee609556d938b.json",
+      "url": "https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002982_00006183.csv"
+    }
+  ]
+}
