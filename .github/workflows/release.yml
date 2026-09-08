@@ -56,7 +56,8 @@ jobs:
           files: dist/*
           generate_release_notes: true
       - name: Notify the website repository
-        if: ${{ secrets.TOPOLI_WEB_DISPATCH_TOKEN != '' }}
+        # `secrets` is not available in step-level `if`; go through env.
+        if: ${{ env.GH_TOKEN != '' }}
         env:
           GH_TOKEN: ${{ secrets.TOPOLI_WEB_DISPATCH_TOKEN }}
         run: |
