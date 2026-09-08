@@ -834,10 +834,13 @@ Nächster Schritt: bestellen Sie bei der kantonalen Fachstelle Naturgefahren (ZH
     });
   });
 
-  // map tiles (fetched at view time from swisstopo; offline → static fallback image stays)
+  // map tiles: fetched from swisstopo only once the map scrolls into view (keeps first paint
+  // free of external requests); offline → the static fallback image stays
   var M = D.map;
   var tilesEl = document.getElementById("tiles");
-  if (M && tilesEl && navigator.onLine !== false) {
+  function loadTiles() {
+    if (!M || !tilesEl || navigator.onLine === false || tilesEl.getAttribute("data-loaded")) return;
+    tilesEl.setAttribute("data-loaded", "1");
     var probe = new Image();
     probe.onload = function () {
       var fb = document.getElementById("map-fallback");
@@ -858,6 +861,14 @@ Nächster Schritt: bestellen Sie bei der kantonalen Fachstelle Naturgefahren (ZH
     };
     probe.onerror = function () { tilesEl.style.display = "none"; };
     probe.src = M.tiles.length ? M.tiles[0].url : "";
+  }
+  if (tilesEl && "IntersectionObserver" in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) { if (en.isIntersecting) { loadTiles(); io.disconnect(); } });
+    }, { rootMargin: "200px" });
+    io.observe(tilesEl.parentNode);
+  } else {
+    window.addEventListener("load", loadTiles);
   }
 
   // share
