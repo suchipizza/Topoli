@@ -1,0 +1,148 @@
+{
+ "adapter_id": "ch/federal/geocode",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2684563.75%2C1247699.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2684063.75%2C1247199.5%2C2685063.75%2C1248199.5&imageDisplay=1000%2C1000%2C96",
+ "retrieved_at": "2026-09-08T10:11:22.077882Z",
+ "payload": {
+  "results": [
+   {
+    "layerBodId": "ch.bfs.gebaeude_wohnungs_register",
+    "layerName": "GWR: Gebäudestatus",
+    "featureId": "155204_0",
+    "id": "155204_0",
+    "properties": {
+     "egid": "155204",
+     "strname_deinr": "Zürichbergstrasse 50",
+     "plz_plz6": "8044/804400",
+     "ggdename": "Zürich",
+     "ggdenr": 261,
+     "gexpdat": "06.09.2026",
+     "gdekt": "ZH",
+     "egrid": "CH179178389904",
+     "lgbkr": 266,
+     "lparz": "FL2183",
+     "lparzsx": null,
+     "ltyp": null,
+     "gebnr": "261FL01254",
+     "gbez": "",
+     "gkode": 2684563.542,
+     "gkodn": 1247699.837,
+     "gksce": 904,
+     "gstat": 1004,
+     "gkat": 1020,
+     "gklas": 1121,
+     "gbauj": 1937,
+     "gbaum": 1,
+     "gbaup": 8012,
+     "gabbj": null,
+     "garea": 151,
+     "gvol": 1825,
+     "gvolnorm": 962,
+     "gvolsce": 859,
+     "gastw": 4,
+     "ganzwhg": 2,
+     "gazzi": null,
+     "gschutzr": 0,
+     "gebf": 211,
+     "gwaerzh1": 7430,
+     "genh1": 7520,
+     "gwaersceh1": 859,
+     "gwaerdath1": "15.04.2021",
+     "gwaerzh2": null,
+     "genh2": null,
+     "gwaersceh2": null,
+     "gwaerdath2": "-",
+     "gwaerzw1": 7630,
+     "genw1": 7520,
+     "gwaerscew1": 859,
+     "gwaerdatw1": "15.04.2021",
+     "gwaerzw2": null,
+     "genw2": null,
+     "gwaerscew2": null,
+     "gwaerdatw2": "-",
+     "edid": "0",
+     "egaid": 100195766,
+     "deinr": "50",
+     "esid": 10086025,
+     "strname": [
+      "Zürichbergstrasse"
+     ],
+     "strnamk": [
+      "Zürichbergstr."
+     ],
+     "strindx": [
+      "Zür"
+     ],
+     "strsp": [
+      "DE"
+     ],
+     "stroffiziel": "1",
+     "dplz4": 8044,
+     "dplzz": 0,
+     "dplzname": "Zürich",
+     "dkode": 2684563.8,
+     "dkodn": 1247699.487,
+     "doffadr": 1,
+     "dexpdat": "06.09.2026",
+     "ewid": [
+      "2",
+      "3"
+     ],
+     "whgnr": [
+      "1",
+      "201"
+     ],
+     "wstwk": [
+      3100,
+      3102
+     ],
+     "wmehrg": [
+      0,
+      0
+     ],
+     "weinr": [
+      null,
+      null
+     ],
+     "wbez": [
+      null,
+      null
+     ],
+     "wstat": [
+      3004,
+      3004
+     ],
+     "wexpdat": [
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00"
+     ],
+     "wbauj": [
+      1999,
+      1999
+     ],
+     "wabbj": [
+      null,
+      null
+     ],
+     "warea": [
+      131,
+      56
+     ],
+     "wazim": [
+      5,
+      2
+     ],
+     "wkche": [
+      1,
+      1
+     ],
+     "label": "Zürichbergstrasse 50"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2684563.75%2C1247699.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2684063.75%2C1247199.5%2C2685063.75%2C1248199.5&imageDisplay=1000%2C1000%2C96"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

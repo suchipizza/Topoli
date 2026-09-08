@@ -1,0 +1,201 @@
+{
+ "adapter_id": "ch/zh/zoning",
+ "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2682594.8%2C1243711.2%2C2682596.8%2C1243713.2%2CEPSG%3A2056&COUNT=5",
+ "retrieved_at": "2026-09-08T10:07:50.615351Z",
+ "payload": {
+  "type": "FeatureCollection",
+  "numberMatched": 1,
+  "name": "ogd-0156_arv_basis_np_gn_zonenflaeche_f",
+  "crs": {
+   "type": "name",
+   "properties": {
+    "name": "urn:ogc:def:crs:EPSG::2056"
+   }
+  },
+  "features": [
+   {
+    "type": "Feature",
+    "properties": {
+     "objid": "z55422e7135d90197",
+     "identifikator": "d0bee5ff-9c92-4595-89fd-325a7da3cfec",
+     "publiziertab": "2015-01-06T00:00:00",
+     "bemerkungen": "",
+     "vorpruefung": "",
+     "vorpruefungsnr": "",
+     "auflage": "Stadtrat",
+     "auflagedatum": "2014-10-24T00:00:00",
+     "auflagenr": "882",
+     "festsetzung": "Gemeinde",
+     "festsetzung_gewalt_code": 0,
+     "festsetzung_gewalt": "Legislative",
+     "festsetzungsdatum": "2016-11-30T00:00:00",
+     "festsetzungsnr": "2458",
+     "genehmigung_code": 1,
+     "genehmigung": "BD",
+     "genehmigung_txt": "BD",
+     "genehmigungsdatum": "2017-07-05T00:00:00",
+     "genehmigungsnr": "0432/17",
+     "inkraftsetzung": "Gemeinde",
+     "inkraftsetzung_gewalt_code": 1,
+     "inkraftsetzung_gewalt": "Exekutive",
+     "inkraftsetzungsdatum": "2018-11-01T00:00:00",
+     "inkraftsetzungsnr": "686",
+     "rechtsstatus_code": 0,
+     "rechtsstatus": "inKraft",
+     "ausnuetzungsziffer_max": 120,
+     "vollgeschosse_max": 4,
+     "dachgeschosse_max": 1,
+     "untergeschosse_max": 0,
+     "gebaeudehoehe_max": 12.5,
+     "wohnanteil_min": 75,
+     "innenl_freihaltezone": "",
+     "typ_bfsnr": 261,
+     "typ_gemeindename": "Zürich",
+     "typ_gde_code": "C110411",
+     "typ_gde_bezeichnung": "viergeschossige Wohnzone",
+     "typ_gde_abkuerzung": "W4",
+     "typ_gde_beschreibung": "siehe gültige Bau- und Zonenordnung der Stadt Zürich",
+     "typ_gde_verbindlichkeit_code": 0,
+     "typ_gde_verbindlichkeit": "Nutzungsplanfestlegung",
+     "typ_zh_code": "C1104",
+     "typ_zh_bezeichnung": "Wohnzonen 4 Vollgeschosse",
+     "typ_zh_abkuerzung": "W4",
+     "typ_zh_beschreibung": "Wohnzonen 4 Vollgeschosse",
+     "dokument": "https://oerebdocs.zh.ch/documents?docid=6808,2283,2284,2285,2286,2287,2288,2293,6",
+     "crc": "D7C7940EDC53CEB5",
+     "thema_code": 0,
+     "thema": "GN_Zonenflaeche",
+     "typ_zh_code_id": 3,
+     "ueberweisunglegislative_nummer": "924",
+     "ueberweisunglegislative_datum": "2014-10-29T00:00:00",
+     "revisionsart_txt": "",
+     "geodb_oid": 2324
+    },
+    "geometry": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        2682631.4360000007,
+        1243711.2120000012
+       ],
+       [
+        2682642.7080000006,
+        1243654.7639999986
+       ],
+       [
+        2682628.164999999,
+        1243653.4670000002
+       ],
+       [
+        2682621.0760000013,
+        1243646.9759999998
+       ],
+       [
+        2682605.170000002,
+        1243651.5810000002
+       ],
+       [
+        2682572.392000001,
+        1243661.0670000017
+       ],
+       [
+        2682565.0810000002,
+        1243663.1840000004
+       ],
+       [
+        2682552.357999999,
+        1243666.864
+       ],
+       [
+        2682532.403000001,
+        1243672.6429999992
+       ],
+       [
+        2682525.7250000015,
+        1243674.5780000016
+       ],
+       [
+        2682525.631000001,
+        1243675.5769999996
+       ],
+       [
+        2682522.9990000017,
+        1243706.754999999
+       ],
+       [
+        2682511.3220000006,
+        1243705.7690000013
+       ],
+       [
+        2682510.0590000004,
+        1243720.7230000012
+       ],
+       [
+        2682508.8330000006,
+        1243735.2679999992
+       ],
+       [
+        2682507.726,
+        1243748.4039999992
+       ],
+       [
+        2682507.4739999995,
+        1243751.390999999
+       ],
+       [
+        2682506.3680000007,
+        1243764.4770000018
+       ],
+       [
+        2682530.1220000014,
+        1243766.484000001
+       ],
+       [
+        2682535.522999998,
+        1243757.9990000017
+       ],
+       [
+        2682541.1680000015,
+        1243752.7589999996
+       ],
+       [
+        2682545.563000001,
+        1243754.5210000016
+       ],
+       [
+        2682579.204,
+        1243768.0289999992
+       ],
+       [
+        2682602.4239999987,
+        1243777.3599999994
+       ],
+       [
+        2682603.359000001,
+        1243777.732999999
+       ],
+       [
+        2682616.8429999985,
+        1243784.2690000013
+       ],
+       [
+        2682620.659000002,
+        1243765.1270000003
+       ],
+       [
+        2682631.4360000007,
+        1243711.2120000012
+       ]
+      ]
+     ]
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2682594.8%2C1243711.2%2C2682596.8%2C1243713.2%2CEPSG%3A2056&COUNT=5"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

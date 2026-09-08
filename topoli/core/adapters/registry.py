@@ -48,4 +48,5 @@ def all_ids() -> list[str]:
 
 def _ensure_loaded() -> None:
     # Importing the country packages registers their adapters (side effect on import).
-    import topoli.countries.ch.federal  # noqa: F401
+    import topoli.countries.ch.federal
+    import topoli.countries.ch.zh  # noqa: F401

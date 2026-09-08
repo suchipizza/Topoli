@@ -1,0 +1,21 @@
+{
+ "adapter_id": "ch/zh/heritage",
+ "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2680856.9%2C1249594.5%2C2680985.1%2C1249755.4%2CEPSG%3A2056&COUNT=50",
+ "retrieved_at": "2026-09-08T10:07:39.568250Z",
+ "payload": {
+  "type": "FeatureCollection",
+  "name": "ogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p",
+  "crs": {
+   "type": "name",
+   "properties": {
+    "name": "urn:ogc:def:crs:EPSG::2056"
+   }
+  },
+  "features": []
+ },
+ "request": {
+  "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2680856.9%2C1249594.5%2C2680985.1%2C1249755.4%2CEPSG%3A2056&COUNT=50"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

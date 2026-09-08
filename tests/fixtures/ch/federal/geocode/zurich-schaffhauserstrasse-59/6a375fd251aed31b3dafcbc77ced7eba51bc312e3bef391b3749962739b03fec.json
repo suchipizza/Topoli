@@ -1,0 +1,239 @@
+{
+ "adapter_id": "ch/federal/geocode",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683049.5%2C1249637.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2682549.5%2C1249137.0%2C2683549.5%2C1250137.0&imageDisplay=1000%2C1000%2C96",
+ "retrieved_at": "2026-09-08T10:08:40.316459Z",
+ "payload": {
+  "results": [
+   {
+    "layerBodId": "ch.bfs.gebaeude_wohnungs_register",
+    "layerName": "GWR: Gebäudestatus",
+    "featureId": "9011656_0",
+    "id": "9011656_0",
+    "properties": {
+     "egid": "9011656",
+     "strname_deinr": "Schaffhauserstrasse 59",
+     "plz_plz6": "8057/805700",
+     "ggdename": "Zürich",
+     "ggdenr": 261,
+     "gexpdat": "06.09.2026",
+     "gdekt": "ZH",
+     "egrid": "CH279170909980",
+     "lgbkr": 276,
+     "lparz": "UN4467",
+     "lparzsx": null,
+     "ltyp": null,
+     "gebnr": "261UN01675",
+     "gbez": "",
+     "gkode": 2683045.89,
+     "gkodn": 1249637.09,
+     "gksce": 904,
+     "gstat": 1004,
+     "gkat": 1030,
+     "gklas": 1122,
+     "gbauj": 1929,
+     "gbaum": 1,
+     "gbaup": 8012,
+     "gabbj": null,
+     "garea": 255,
+     "gvol": 5385,
+     "gvolnorm": 962,
+     "gvolsce": 859,
+     "gastw": 8,
+     "ganzwhg": 9,
+     "gazzi": null,
+     "gschutzr": 0,
+     "gebf": 1465,
+     "gwaerzh1": 7430,
+     "genh1": 7520,
+     "gwaersceh1": 859,
+     "gwaerdath1": "21.06.2021",
+     "gwaerzh2": null,
+     "genh2": null,
+     "gwaersceh2": null,
+     "gwaerdath2": "-",
+     "gwaerzw1": 7630,
+     "genw1": 7520,
+     "gwaerscew1": 859,
+     "gwaerdatw1": "21.06.2021",
+     "gwaerzw2": null,
+     "genw2": null,
+     "gwaerscew2": null,
+     "gwaerdatw2": "-",
+     "edid": "0",
+     "egaid": 101215434,
+     "deinr": "59",
+     "esid": 10081638,
+     "strname": [
+      "Schaffhauserstrasse"
+     ],
+     "strnamk": [
+      "Schaffhauserstr."
+     ],
+     "strindx": [
+      "Sch"
+     ],
+     "strsp": [
+      "DE"
+     ],
+     "stroffiziel": "1",
+     "dplz4": 8057,
+     "dplzz": 0,
+     "dplzname": "Zürich",
+     "dkode": 2683049.472,
+     "dkodn": 1249636.973,
+     "doffadr": 1,
+     "dexpdat": "06.09.2026",
+     "ewid": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "17"
+     ],
+     "whgnr": [
+      "301",
+      "302",
+      "202",
+      "201",
+      "101",
+      "102",
+      "1",
+      "2",
+      "401"
+     ],
+     "wstwk": [
+      3103,
+      3103,
+      3102,
+      3102,
+      3101,
+      3101,
+      3100,
+      3100,
+      3104
+     ],
+     "wmehrg": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "weinr": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "wbez": [
+      "Links",
+      "Rechts",
+      "Links",
+      "Rechts",
+      "Links",
+      "Rechts",
+      "Links",
+      "Rechts",
+      null
+     ],
+     "wstat": [
+      3004,
+      3004,
+      3004,
+      3004,
+      3004,
+      3004,
+      3004,
+      3004,
+      3004
+     ],
+     "wexpdat": [
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00"
+     ],
+     "wbauj": [
+      1999,
+      1999,
+      1999,
+      1999,
+      1999,
+      1999,
+      1999,
+      1999,
+      1999
+     ],
+     "wabbj": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "warea": [
+      93,
+      93,
+      93,
+      93,
+      93,
+      93,
+      93,
+      93,
+      100
+     ],
+     "wazim": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      6
+     ],
+     "wkche": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "label": "Schaffhauserstrasse 59"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683049.5%2C1249637.0&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2682549.5%2C1249137.0%2C2683549.5%2C1250137.0&imageDisplay=1000%2C1000%2C96"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

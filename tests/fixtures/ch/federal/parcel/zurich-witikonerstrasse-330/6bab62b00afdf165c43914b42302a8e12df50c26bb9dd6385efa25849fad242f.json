@@ -1,0 +1,85 @@
+{
+ "adapter_id": "ch/federal/parcel",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2686917.75%2C1245899.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200",
+ "retrieved_at": "2026-09-08T10:08:45.981484Z",
+ "payload": {
+  "results": [
+   {
+    "type": "Feature",
+    "featureId": 2317832,
+    "bbox": [
+     2686903.8,
+     1245881.2,
+     2686937.6,
+     1245908.2
+    ],
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "id": 2317832,
+    "geometry": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        2686903.8,
+        1245894.0
+       ],
+       [
+        2686912.1,
+        1245899.6
+       ],
+       [
+        2686919.7,
+        1245904.8
+       ],
+       [
+        2686923.0,
+        1245907.0
+       ],
+       [
+        2686924.7,
+        1245908.2
+       ],
+       [
+        2686929.0,
+        1245901.9
+       ],
+       [
+        2686937.6,
+        1245889.1
+       ],
+       [
+        2686921.3,
+        1245884.0
+       ],
+       [
+        2686912.4,
+        1245881.2
+       ],
+       [
+        2686903.8,
+        1245894.0
+       ]
+      ]
+     ]
+    },
+    "properties": {
+     "bfsnr": 261,
+     "ak": "ZH",
+     "name": "WI1427",
+     "number": "WI1427",
+     "identnd": "ZH0200000261",
+     "egris_egrid": "CH299970889107",
+     "realestate_type": null,
+     "geoportal_url": "https://maps.zh.ch?topic=AVfarbigZH&locate=gemeinden&locations=261",
+     "label": "WI1427"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2686917.75%2C1245899.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Albisriederstrasse 200, 8047 Zürich",
+  "site_id": "261-AR4573",
+  "recorded_at": "2026-09-08T10:07:45+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "ec8f21475a8de73eb1d466b61af18fbaa517b03eb76f41a316636b4f8fb7b03c.json",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2679938.2%2C1248109.6%2C2679940.2%2C1248111.6%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

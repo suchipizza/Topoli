@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/buildings",
+  "address": "Hardturmstrasse 181, 8005 Zürich",
+  "site_id": "261-IQ7072",
+  "recorded_at": "2026-09-08T10:07:38+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "a30ec487f5df8d1db0d9cbf2f9445c1595f4154f05e37a567e775bfad00c1a1e.json",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2680861.9%2C1249608.5%5D%2C%5B2680872.7%2C1249649.7%5D%2C%5B2680871.0%2C1249650.2%5D%2C%5B2680884.4%2C1249699.9%5D%2C%5B2680897.9%2C1249750.4%5D%2C%5B2680923.1%2C1249749.4%5D%2C%5B2680953.9%2C1249748.3%5D%2C%5B2680944.7%2C1249691.3%5D%2C%5B2680935.5%2C1249634.3%5D%2C%5B2680980.1%2C1249630.8%5D%2C%5B2680978.2%2C1249619.2%5D%2C%5B2680975.0%2C1249599.5%5D%2C%5B2680861.9%2C1249608.5%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    }
+  ]
+}

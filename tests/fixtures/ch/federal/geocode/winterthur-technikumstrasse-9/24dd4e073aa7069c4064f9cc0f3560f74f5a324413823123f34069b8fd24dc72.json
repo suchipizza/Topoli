@@ -1,7 +1,7 @@
 {
  "adapter_id": "ch/federal/geocode",
  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2697252.0%2C1261532.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2696752.0%2C1261032.75%2C2697752.0%2C1262032.75&imageDisplay=1000%2C1000%2C96",
- "retrieved_at": "2026-09-08T09:35:20.543055Z",
+ "retrieved_at": "2026-09-08T10:07:53.382254Z",
  "payload": {
   "results": [
    {

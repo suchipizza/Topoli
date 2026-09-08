@@ -25,3 +25,4 @@ tests/source-contracts/last_run.json
 # Never commit secrets or local env
 .env
 .env.*
+tests/review/*.csv

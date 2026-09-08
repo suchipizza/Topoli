@@ -6,7 +6,9 @@ The layer has one point per *entrance* (``egid_edid``); we keep only entrances w
 (or ``lparz``) matches the parcel, then collapse entrances to one ``Building`` per EGID.
 
 Attributes used (Merkmalskatalog 4.2, see :mod:`gwr_codes`): ``garea`` (footprint m²),
-``gastw`` (floors above ground), ``gbauj`` (construction year), ``gbaup`` (period, when year is
+``gastw`` (number of storeys incl. ground floor; attic/basement storeys count when partly
+residential, cellars do not), ``gebf`` (energy reference area, ≤ garea × gastw), ``gvol``
+(volume), ``gbauj`` (construction year), ``gbaup`` (period, when year is
 missing), ``gkat``/``gklas`` (category/class), ``gstat`` (status), ``gwaerzh1``/``genh1``
 (heating system / energy source), ``gschutzr`` (civil-defence shelter, unused). Missing
 attributes are listed in ``Building.missing_attributes``; nothing is defaulted.
@@ -29,7 +31,7 @@ from topoli.countries.ch.federal.gwr_codes import GBAUP, GENH, GKAT, GKLAS, GSTA
 from topoli.countries.ch.federal.licences import BFS_GWR
 
 ADAPTER_ID = "ch/federal/buildings"
-_ATTRS = ("garea", "gastw", "gbauj", "gkat", "gklas", "gstat", "gwaerzh1", "genh1")
+_ATTRS = ("garea", "gastw", "gebf", "gbauj", "gkat", "gklas", "gstat", "gwaerzh1", "genh1")
 
 
 class BuildingsAdapter:
@@ -120,6 +122,8 @@ def get_buildings(parcel: Parcel) -> tuple[list[Building], list[Record]]:
                 use=" · ".join(p for p in use_parts if p) or None,
                 year=int(year) if year else None,
                 floors=int(props["gastw"]) if props.get("gastw") is not None else None,
+                floor_area_m2=float(props["gebf"]) if props.get("gebf") is not None else None,
+                volume_m3=float(props["gvol"]) if props.get("gvol") is not None else None,
                 energy=" · ".join(p for p in energy_parts if p) or None,
                 heritage=None,
                 missing_attributes=[a for a in _ATTRS if props.get(a) in (None, "", "-")]

@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/regulation",
+  "address": "Badenerstrasse 171, 8003 Zürich",
+  "site_id": "261-AU6979",
+  "recorded_at": "2026-09-08T10:08:39+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "6609df3be09a1e519dae7f96a21a3a61fc1ceb1c6839be18ab219f5ac077c967.json",
+      "url": "https://oerebdocs.zh.ch/getDoc?docid=6"
+    }
+  ]
+}

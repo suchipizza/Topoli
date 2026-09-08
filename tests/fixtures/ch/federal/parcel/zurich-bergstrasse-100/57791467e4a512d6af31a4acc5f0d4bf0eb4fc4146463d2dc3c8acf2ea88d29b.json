@@ -1,0 +1,99 @@
+{
+ "adapter_id": "ch/federal/parcel",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2684874.0%2C1246728.9%5D%2C%5B2684875.4%2C1246729.6%5D%2C%5B2684880.2%2C1246731.7%5D%2C%5B2684883.6%2C1246736.1%5D%2C%5B2684884.1%2C1246736.7%5D%2C%5B2684885.2%2C1246735.8%5D%2C%5B2684886.4%2C1246734.9%5D%2C%5B2684887.6%2C1246734.1%5D%2C%5B2684888.7%2C1246733.2%5D%2C%5B2684889.9%2C1246732.3%5D%2C%5B2684891.1%2C1246731.5%5D%2C%5B2684892.3%2C1246730.6%5D%2C%5B2684893.5%2C1246729.8%5D%2C%5B2684892.5%2C1246722.1%5D%2C%5B2684879.7%2C1246716.3%5D%2C%5B2684874.0%2C1246728.9%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200",
+ "retrieved_at": "2026-09-08T10:07:47.107632Z",
+ "payload": {
+  "results": [
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 2281871,
+    "id": 2281871,
+    "properties": {
+     "bfsnr": 261,
+     "ak": "ZH",
+     "name": "HO430",
+     "number": "HO430",
+     "identnd": "ZH0200000261",
+     "egris_egrid": "CH285399917806",
+     "realestate_type": null,
+     "geoportal_url": "https://maps.zh.ch?topic=AVfarbigZH&locate=gemeinden&locations=261",
+     "label": "HO430"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 2278626,
+    "id": 2278626,
+    "properties": {
+     "bfsnr": 261,
+     "ak": "ZH",
+     "name": "HO3885",
+     "number": "HO3885",
+     "identnd": "ZH0200000261",
+     "egris_egrid": "CH339978916516",
+     "realestate_type": null,
+     "geoportal_url": "https://maps.zh.ch?topic=AVfarbigZH&locate=gemeinden&locations=261",
+     "label": "HO3885"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 2300193,
+    "id": 2300193,
+    "properties": {
+     "bfsnr": 261,
+     "ak": "ZH",
+     "name": "HO3655",
+     "number": "HO3655",
+     "identnd": "ZH0200000261",
+     "egris_egrid": "CH249199718338",
+     "realestate_type": null,
+     "geoportal_url": "https://maps.zh.ch?topic=AVfarbigZH&locate=gemeinden&locations=261",
+     "label": "HO3655"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 2314603,
+    "id": 2314603,
+    "properties": {
+     "bfsnr": 261,
+     "ak": "ZH",
+     "name": "HO3654",
+     "number": "HO3654",
+     "identnd": "ZH0200000261",
+     "egris_egrid": "CH239971918395",
+     "realestate_type": null,
+     "geoportal_url": "https://maps.zh.ch?topic=AVfarbigZH&locate=gemeinden&locations=261",
+     "label": "HO3654"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 2296483,
+    "id": 2296483,
+    "properties": {
+     "bfsnr": 261,
+     "ak": "ZH",
+     "name": "HO4033",
+     "number": "HO4033",
+     "identnd": "ZH0200000261",
+     "egris_egrid": "CH819189997987",
+     "realestate_type": null,
+     "geoportal_url": "https://maps.zh.ch?topic=AVfarbigZH&locate=gemeinden&locations=261",
+     "label": "HO4033"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2684874.0%2C1246728.9%5D%2C%5B2684875.4%2C1246729.6%5D%2C%5B2684880.2%2C1246731.7%5D%2C%5B2684883.6%2C1246736.1%5D%2C%5B2684884.1%2C1246736.7%5D%2C%5B2684885.2%2C1246735.8%5D%2C%5B2684886.4%2C1246734.9%5D%2C%5B2684887.6%2C1246734.1%5D%2C%5B2684888.7%2C1246733.2%5D%2C%5B2684889.9%2C1246732.3%5D%2C%5B2684891.1%2C1246731.5%5D%2C%5B2684892.3%2C1246730.6%5D%2C%5B2684893.5%2C1246729.8%5D%2C%5B2684892.5%2C1246722.1%5D%2C%5B2684879.7%2C1246716.3%5D%2C%5B2684874.0%2C1246728.9%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

@@ -1,0 +1,46 @@
+{
+ "adapter_id": "ch/federal/geocode",
+ "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Witikonerstrasse+330%2C+8053+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address",
+ "retrieved_at": "2026-09-08T10:08:45.412305Z",
+ "payload": {
+  "results": [
+   {
+    "attrs": {
+     "detail": "witikonerstrasse 330 8053 zuerich 261 zuerich ch zh",
+     "featureId": "157885_0",
+     "geom_quadindex": "030003310230330312000",
+     "geom_st_box2d": "BOX(2686917.6330000013 1245899.1629999988,2686917.6330000013 1245899.1629999988)",
+     "label": "Witikonerstrasse 330 <b>8053 Zürich</b>",
+     "lat": 47.35820770263672,
+     "links": [
+      {
+       "href": "/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/100145505",
+       "rel": "related",
+       "title": "ch.swisstopo.amtliches-gebaeudeadressverzeichnis"
+      },
+      {
+       "href": "/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/157885_0",
+       "rel": "related",
+       "title": "ch.bfs.gebaeude_wohnungs_register"
+      }
+     ],
+     "lon": 8.589151382446289,
+     "num": 330,
+     "objectclass": "",
+     "origin": "address",
+     "rank": 7,
+     "x": 1245899.125,
+     "y": 2686917.75,
+     "zoomlevel": 10
+    },
+    "id": 2104459,
+    "weight": 1
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Witikonerstrasse+330%2C+8053+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

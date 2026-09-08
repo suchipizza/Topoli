@@ -13,6 +13,7 @@ import platform
 import sys
 import tempfile
 from dataclasses import dataclass
+from pathlib import Path
 from typing import Any
 
 import httpx
@@ -93,6 +94,130 @@ def layers(
         table.add_row(c.adapter_id, c.status, str(c.calls), c.detail or "")
     console.print(table)
     console.print(_calls_line())
+
+
+@app.command()
+def regulation(
+    address: str = typer.Argument(..., help="Address in the Canton of Zürich"),
+) -> None:
+    """Zone, extracted building rules with article spans, and the development-potential estimate."""
+    from topoli.core.pipeline import audit_layers
+    from topoli.countries.ch.federal.geocode import ResolveError
+
+    try:
+        run, _, _ = audit_layers(address)
+    except ResolveError as exc:
+        console.print(f"[red]Could not resolve:[/red] {exc}")
+        raise typer.Exit(code=2) from exc
+    parcel = run.ctx.parcel
+    console.print(
+        f"[bold]{run.ctx.site.address}[/bold] · parcel {parcel.local_id if parcel else '–'}"
+    )
+    code = parcel.zoning_code if parcel else "–"
+    name = parcel.zoning_name if parcel else ""
+    console.print(f"zone: [bold]{code}[/bold] — {name}")
+    for reg in run.regulations:
+        title = f"rules for {reg.zone_code} · {reg.source_document.dataset} · {reg.parser_version}"
+        table = Table(title=title)
+        for col in ("rule", "value", "unit", "article", "span"):
+            table.add_column(col, overflow="fold")
+        for r in reg.rules:
+            sp = r.evidence_spans[0]
+            table.add_row(r.key, str(r.value), r.unit or "", sp.article, sp.text[:90])
+        console.print(table)
+        if reg.unresolved:
+            console.print(f"[yellow]unresolved (class D):[/yellow] {', '.join(reg.unresolved)}")
+    cov = {c.adapter_id: c for c in run.coverage}
+    for aid in ("ch/zh/zoning", "ch/zh/regulation", "ch/zh/heritage"):
+        if aid in cov:
+            console.print(f"{aid}: {cov[aid].status} {cov[aid].detail or ''}")
+    if run.potential:
+        p = run.potential
+        console.print(
+            "[bold]potential[/bold]:",
+            "determined" if p.determined else f"undetermined — {p.reason}",
+        )
+        if p.derivation:
+            console.print(f"  {p.derivation}")
+        for line in p.inputs:
+            console.print(f"  · {line}")
+    console.print(_calls_line())
+
+
+review_app = typer.Typer(help="Professional review harness (PRD §10).")
+app.add_typer(review_app, name="review")
+
+
+@review_app.command("export")
+def review_export(
+    addresses: Path = typer.Option(  # noqa: B008
+        ..., "--addresses", help="Text file, one address per line"
+    ),
+    out: Path = typer.Option(  # noqa: B008
+        Path("tests/review/export.csv"), "--out", help="CSV to write"
+    ),
+) -> None:
+    """Audit every address and write a spreadsheet-friendly CSV for the reviewing architect."""
+    import csv
+
+    from topoli.core.pipeline import audit_layers
+
+    rows: list[dict[str, object]] = []
+    for line in addresses.read_text(encoding="utf-8").splitlines():
+        address = line.strip()
+        if not address or address.startswith("#"):
+            continue
+        try:
+            run, _, _ = audit_layers(address)
+        except Exception as exc:
+            rows.append({"address": address, "error": f"{type(exc).__name__}: {exc}"})
+            continue
+        parcel = run.ctx.parcel
+        reg = run.regulations[0] if run.regulations else None
+        rules = {r.key: r for r in reg.rules} if reg else {}
+        pot = run.potential
+        row: dict[str, object] = {
+            "address": address,
+            "error": "",
+            "parcel": parcel.local_id if parcel else "",
+            "egrid": parcel.national_id if parcel else "",
+            "parcel_area_m2": f"{parcel.area_m2:.0f}" if parcel and parcel.area_m2 else "",
+            "zone": parcel.zoning_code if parcel else "",
+            "zone_name": parcel.zoning_name if parcel else "",
+            "max_full_floors": rules["max_full_floors"].value if "max_full_floors" in rules else "",
+            "max_building_height_m": rules["max_building_height_m"].value
+            if "max_building_height_m" in rules
+            else "",
+            "floor_area_ratio_pct": rules["floor_area_ratio"].value
+            if "floor_area_ratio" in rules
+            else "",
+            "min_boundary_setback_m": rules["min_boundary_setback_m"].value
+            if "min_boundary_setback_m" in rules
+            else "",
+            "unresolved": ", ".join(reg.unresolved) if reg else "",
+            "buildings": "; ".join(
+                f"{b.id}: {b.floors} fl × {b.footprint_m2} m²" for b in run.ctx.buildings
+            ),
+            "allowed_floor_area_m2": pot.allowed_floor_area_m2 if pot else "",
+            "existing_floor_area_m2": pot.existing_floor_area_m2 if pot else "",
+            "utilisation_pct": pot.utilisation_pct if pot else "",
+            "potential_reason": pot.reason if pot else "",
+            "findings": " | ".join(f"[{f.cls}] {f.title.en}" for f in run.findings),
+            "sources": " | ".join(sorted({f.source.url for f in run.findings if f.source.url})),
+            "reviewer_verdict": "",
+            "reviewer_comment": "",
+        }
+        rows.append(row)
+    fieldnames = list(rows[0].keys()) if rows else ["address"]
+    for r in rows:
+        for k in fieldnames:
+            r.setdefault(k, "")
+    out.parent.mkdir(parents=True, exist_ok=True)
+    with out.open("w", newline="", encoding="utf-8") as fh:
+        writer = csv.DictWriter(fh, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(rows)
+    console.print(f"wrote {out} ({len(rows)} rows)")
 
 
 @app.command()

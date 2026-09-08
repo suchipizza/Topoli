@@ -1,0 +1,335 @@
+{
+ "adapter_id": "ch/federal/geocode",
+ "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Bergstrasse+100%2C+8032+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address",
+ "retrieved_at": "2026-09-08T10:07:46.617703Z",
+ "payload": {
+  "fuzzy": "true",
+  "results": [
+   {
+    "attrs": {
+     "detail": "asylstrasse 100 8032 zuerich 261 zuerich ch zh",
+     "featureId": "156471_0",
+     "geom_quadindex": "030003301032021030332",
+     "geom_st_box2d": "BOX(2684884.1959999986 1246727.2600000016,2684884.1959999986 1246727.2600000016)",
+     "label": "Asylstrasse 100 <b>8032 Zürich</b>",
+     "lat": 47.36592102050781,
+     "links": [
+      {
+       "href": "/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/100148770",
+       "rel": "related",
+       "title": "ch.swisstopo.amtliches-gebaeudeadressverzeichnis"
+      },
+      {
+       "href": "/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/156471_0",
+       "rel": "related",
+       "title": "ch.bfs.gebaeude_wohnungs_register"
+      }
+     ],
+     "lon": 8.562396049499512,
+     "num": 100,
+     "objectclass": "",
+     "origin": "address",
+     "rank": 7,
+     "x": 1246727.25,
+     "y": 2684884.25,
+     "zoomlevel": 10
+    },
+    "id": 2051376,
+    "weight": 1561
+   },
+   {
+    "attrs": {
+     "detail": "neptunstrasse 100 8032 zuerich 261 zuerich ch zh",
+     "featureId": "9011730_0",
+     "geom_quadindex": "030003301200113331132",
+     "geom_st_box2d": "BOX(2684609.8280000016 1246509.5210000016,2684609.8280000016 1246509.5210000016)",
+     "label": "Neptunstrasse 100 <b>8032 Zürich</b>",
+     "lat": 47.36399841308594,
+     "links": [
+      {
+       "href": "/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/101215512",
+       "rel": "related",
+       "title": "ch.swisstopo.amtliches-gebaeudeadressverzeichnis"
+      },
+      {
+       "href": "/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/9011730_0",
+       "rel": "related",
+       "title": "ch.bfs.gebaeude_wohnungs_register"
+      }
+     ],
+     "lon": 8.558722496032715,
+     "num": 100,
+     "objectclass": "",
+     "origin": "address",
+     "rank": 7,
+     "x": 1246509.5,
+     "y": 2684609.75,
+     "zoomlevel": 10
+    },
+    "id": 2246174,
+    "weight": 1561
+   },
+   {
+    "attrs": {
+     "detail": "freiestrasse 100 8032 zuerich 261 zuerich ch zh",
+     "featureId": "156539_0",
+     "geom_quadindex": "030003301022111103131",
+     "geom_st_box2d": "BOX(2684602.8660000004 1246791.9759999998,2684602.8660000004 1246791.9759999998)",
+     "label": "Freiestrasse 100 <b>8032 Zürich</b>",
+     "lat": 47.366539001464844,
+     "links": [
+      {
+       "href": "/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/100145645",
+       "rel": "related",
+       "title": "ch.swisstopo.amtliches-gebaeudeadressverzeichnis"
+      },
+      {
+       "href": "/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/156539_0",
+       "rel": "related",
+       "title": "ch.bfs.gebaeude_wohnungs_register"
+      }
+     ],
+     "lon": 8.558684349060059,
+     "num": 100,
+     "objectclass": "",
+     "origin": "address",
+     "rank": 7,
+     "x": 1246792.0,
+     "y": 2684602.75,
+     "zoomlevel": 10
+    },
+    "id": 2270836,
+    "weight": 1561
+   },
+   {
+    "attrs": {
+     "detail": "aurorastrasse 100 8032 zuerich 261 zuerich ch zh",
+     "featureId": "3169281_0",
+     "geom_quadindex": "030003301031133231210",
+     "geom_st_box2d": "BOX(2685296.416000001 1246919.1479999982,2685296.416000001 1246919.1479999982)",
+     "label": "Aurorastrasse 100 <b>8032 Zürich</b>",
+     "lat": 47.367591857910156,
+     "links": [
+      {
+       "href": "/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/101277886",
+       "rel": "related",
+       "title": "ch.swisstopo.amtliches-gebaeudeadressverzeichnis"
+      },
+      {
+       "href": "/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/3169281_0",
+       "rel": "related",
+       "title": "ch.bfs.gebaeude_wohnungs_register"
+      }
+     ],
+     "lon": 8.567889213562012,
+     "num": 100,
+     "objectclass": "",
+     "origin": "address",
+     "rank": 7,
+     "x": 1246919.125,
+     "y": 2685296.5,
+     "zoomlevel": 10
+    },
+    "id": 2440493,
+    "weight": 1561
+   },
+   {
+    "attrs": {
+     "detail": "witikonerstrasse 100 8032 zuerich 261 zuerich ch zh",
+     "featureId": "156972_0",
+     "geom_quadindex": "030003301303332213330",
+     "geom_st_box2d": "BOX(2685737.408 1246101.3390000015,2685737.408 1246101.3390000015)",
+     "label": "Witikonerstrasse 100 <b>8032 Zürich</b>",
+     "lat": 47.36017990112305,
+     "links": [
+      {
+       "href": "/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/100189243",
+       "rel": "related",
+       "title": "ch.swisstopo.amtliches-gebaeudeadressverzeichnis"
+      },
+      {
+       "href": "/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/156972_0",
+       "rel": "related",
+       "title": "ch.bfs.gebaeude_wohnungs_register"
+      }
+     ],
+     "lon": 8.573570251464844,
+     "num": 100,
+     "objectclass": "",
+     "origin": "address",
+     "rank": 7,
+     "x": 1246101.375,
+     "y": 2685737.5,
+     "zoomlevel": 10
+    },
+    "id": 2554884,
+    "weight": 1561
+   },
+   {
+    "attrs": {
+     "detail": "dolderstrasse 100 8032 zuerich 261 zuerich ch zh",
+     "featureId": "155649_0",
+     "geom_quadindex": "030003301011100123103",
+     "geom_st_box2d": "BOX(2685217.25 1247488.0599999987,2685217.25 1247488.0599999987)",
+     "label": "Dolderstrasse 100 <b>8032 Zürich</b>",
+     "lat": 47.372718811035156,
+     "links": [
+      {
+       "href": "/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/100201080",
+       "rel": "related",
+       "title": "ch.swisstopo.amtliches-gebaeudeadressverzeichnis"
+      },
+      {
+       "href": "/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/155649_0",
+       "rel": "related",
+       "title": "ch.bfs.gebaeude_wohnungs_register"
+      }
+     ],
+     "lon": 8.566948890686035,
+     "num": 100,
+     "objectclass": "",
+     "origin": "address",
+     "rank": 7,
+     "x": 1247488.0,
+     "y": 2685217.25,
+     "zoomlevel": 10
+    },
+    "id": 2813393,
+    "weight": 1561
+   },
+   {
+    "attrs": {
+     "detail": "bergstrasse 100.1 8132 egg b. zuerich 192 egg ch zh",
+     "featureId": "210187036_0",
+     "geom_quadindex": "030030001103003311111",
+     "geom_st_box2d": "BOX(2693105.9349999987 1239721.1719999984,2693105.9349999987 1239721.1719999984)",
+     "label": "Bergstrasse 100.1 <b>8132 Egg b. Zürich</b>",
+     "lat": 47.30180358886719,
+     "links": [
+      {
+       "href": "/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/101808067",
+       "rel": "related",
+       "title": "ch.swisstopo.amtliches-gebaeudeadressverzeichnis"
+      },
+      {
+       "href": "/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/210187036_0",
+       "rel": "related",
+       "title": "ch.bfs.gebaeude_wohnungs_register"
+      }
+     ],
+     "lon": 8.669770240783691,
+     "num": 1001,
+     "objectclass": "",
+     "origin": "address",
+     "rank": 7,
+     "x": 1239721.125,
+     "y": 2693106.0,
+     "zoomlevel": 10
+    },
+    "id": 2093200,
+    "weight": 1547
+   },
+   {
+    "attrs": {
+     "detail": "bruchstrasse 100 8041 zuerich 261 zuerich ch zh",
+     "featureId": "141681_0",
+     "geom_quadindex": "030003231102132120313",
+     "geom_st_box2d": "BOX(2681757.359000001 1243417.7930000015,2681757.359000001 1243417.7930000015)",
+     "label": "Bruchstrasse 100 <b>8041 Zürich</b>",
+     "lat": 47.336551666259766,
+     "links": [
+      {
+       "href": "/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/100120799",
+       "rel": "related",
+       "title": "ch.swisstopo.amtliches-gebaeudeadressverzeichnis"
+      },
+      {
+       "href": "/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/141681_0",
+       "rel": "related",
+       "title": "ch.bfs.gebaeude_wohnungs_register"
+      }
+     ],
+     "lon": 8.520401000976562,
+     "num": 100,
+     "objectclass": "",
+     "origin": "address",
+     "rank": 7,
+     "x": 1243417.75,
+     "y": 2681757.25,
+     "zoomlevel": 10
+    },
+    "id": 1947362,
+    "weight": 1545
+   },
+   {
+    "attrs": {
+     "detail": "hinterbergstrasse 100 8044 zuerich 261 zuerich ch zh",
+     "featureId": "154564_0",
+     "geom_quadindex": "030003123020113320232",
+     "geom_st_box2d": "BOX(2684596.6739999987 1248851.4360000007,2684596.6739999987 1248851.4360000007)",
+     "label": "Hinterbergstrasse 100 <b>8044 Zürich</b>",
+     "lat": 47.38506317138672,
+     "links": [
+      {
+       "href": "/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/100196888",
+       "rel": "related",
+       "title": "ch.swisstopo.amtliches-gebaeudeadressverzeichnis"
+      },
+      {
+       "href": "/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/154564_0",
+       "rel": "related",
+       "title": "ch.bfs.gebaeude_wohnungs_register"
+      }
+     ],
+     "lon": 8.558991432189941,
+     "num": 100,
+     "objectclass": "",
+     "origin": "address",
+     "rank": 7,
+     "x": 1248851.375,
+     "y": 2684596.75,
+     "zoomlevel": 10
+    },
+    "id": 2036006,
+    "weight": 1542
+   },
+   {
+    "attrs": {
+     "detail": "kilchbergstrasse 100 8038 zuerich 261 zuerich ch zh",
+     "featureId": "141737_0",
+     "geom_quadindex": "030003320001312132212",
+     "geom_st_box2d": "BOX(2682934.2520000003 1243590.0480000004,2682934.2520000003 1243590.0480000004)",
+     "label": "Kilchbergstrasse 100 <b>8038 Zürich</b>",
+     "lat": 47.337955474853516,
+     "links": [
+      {
+       "href": "/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/100111183",
+       "rel": "related",
+       "title": "ch.swisstopo.amtliches-gebaeudeadressverzeichnis"
+      },
+      {
+       "href": "/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/141737_0",
+       "rel": "related",
+       "title": "ch.bfs.gebaeude_wohnungs_register"
+      }
+     ],
+     "lon": 8.536003112792969,
+     "num": 100,
+     "objectclass": "",
+     "origin": "address",
+     "rank": 7,
+     "x": 1243590.0,
+     "y": 2682934.25,
+     "zoomlevel": 10
+    },
+    "id": 2642695,
+    "weight": 1542
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Bergstrasse+100%2C+8032+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

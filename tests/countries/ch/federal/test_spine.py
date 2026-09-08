@@ -127,6 +127,7 @@ def test_badenerstrasse_details(run_spine: RunSpine) -> None:
     assert main.floors == 9
     assert main.year == 2014
     assert main.footprint_m2 == 5565
+    assert main.floor_area_m2 == 21704 and main.volume_m3 == 78700
     assert main.use and "1122" in main.use
     assert main.energy and "7410" in main.energy
     assert not main.missing_attributes

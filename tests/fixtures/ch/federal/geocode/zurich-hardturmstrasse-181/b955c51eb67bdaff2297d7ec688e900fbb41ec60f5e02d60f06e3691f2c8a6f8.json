@@ -1,0 +1,109 @@
+{
+ "adapter_id": "ch/federal/geocode",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2680921.25%2C1249732.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2680421.25%2C1249232.5%2C2681421.25%2C1250232.5&imageDisplay=1000%2C1000%2C96",
+ "retrieved_at": "2026-09-08T10:07:37.457400Z",
+ "payload": {
+  "results": [
+   {
+    "layerBodId": "ch.bfs.gebaeude_wohnungs_register",
+    "layerName": "GWR: Gebäudestatus",
+    "featureId": "302063985_0",
+    "id": "302063985_0",
+    "properties": {
+     "egid": "302063985",
+     "strname_deinr": "Hardturmstrasse 181",
+     "plz_plz6": "8005/800500",
+     "ggdename": "Zürich",
+     "ggdenr": 261,
+     "gexpdat": "06.09.2026",
+     "gdekt": "ZH",
+     "egrid": "CH139978918762",
+     "lgbkr": 283,
+     "lparz": "IQ7072",
+     "lparzsx": null,
+     "ltyp": null,
+     "gebnr": "261IQ05102",
+     "gbez": "",
+     "gkode": 2680912.14,
+     "gkodn": 1249678.26,
+     "gksce": 904,
+     "gstat": 1004,
+     "gkat": 1060,
+     "gklas": 1220,
+     "gbauj": 2021,
+     "gbaum": 4,
+     "gbaup": 8023,
+     "gabbj": null,
+     "garea": 4847,
+     "gvol": 140570,
+     "gvolnorm": 962,
+     "gvolsce": 853,
+     "gastw": 19,
+     "ganzwhg": null,
+     "gazzi": null,
+     "gschutzr": 0,
+     "gebf": 92036,
+     "gwaerzh1": 7460,
+     "genh1": 7580,
+     "gwaersceh1": 859,
+     "gwaerdath1": "04.09.2021",
+     "gwaerzh2": 7400,
+     "genh2": 7500,
+     "gwaersceh2": 859,
+     "gwaerdath2": "04.09.2021",
+     "gwaerzw1": 7660,
+     "genw1": 7580,
+     "gwaerscew1": 859,
+     "gwaerdatw1": "04.09.2021",
+     "gwaerzw2": 7600,
+     "genw2": 7500,
+     "gwaerscew2": 859,
+     "gwaerdatw2": "04.09.2021",
+     "edid": "0",
+     "egaid": 102382273,
+     "deinr": "181",
+     "esid": 10054829,
+     "strname": [
+      "Hardturmstrasse"
+     ],
+     "strnamk": [
+      "Hardturmstr."
+     ],
+     "strindx": [
+      "Har"
+     ],
+     "strsp": [
+      "DE"
+     ],
+     "stroffiziel": "1",
+     "dplz4": 8005,
+     "dplzz": 0,
+     "dplzname": "Zürich",
+     "dkode": 2680921.361,
+     "dkodn": 1249732.475,
+     "doffadr": 1,
+     "dexpdat": "06.09.2026",
+     "ewid": null,
+     "whgnr": null,
+     "wstwk": null,
+     "wmehrg": null,
+     "weinr": null,
+     "wbez": null,
+     "wstat": null,
+     "wexpdat": null,
+     "wbauj": null,
+     "wabbj": null,
+     "warea": null,
+     "wazim": null,
+     "wkche": null,
+     "label": "Hardturmstrasse 181"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2680921.25%2C1249732.5&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2680421.25%2C1249232.5%2C2681421.25%2C1250232.5&imageDisplay=1000%2C1000%2C96"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

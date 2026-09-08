@@ -28,6 +28,8 @@ dependencies = [
   "typer>=0.12",
   "rich>=13.7",
   "pillow>=12.3.0",
+  "pypdf>=6.18.0",
+  "pyyaml>=6.0.3",
 ]
 
 [project.urls]
@@ -45,6 +47,7 @@ dev = [
   "ruff>=0.6",
   "mypy>=1.11",
   "types-shapely>=2.1.0.20260728",
+  "types-pyyaml>=6.0.12.20260906",
 ]
 
 [build-system]
@@ -80,6 +83,8 @@ ignore = ["PLR0913", "PLR2004", "T201", "RUF001", "RUF002", "RUF003"]
 "topoli/core/scoring/coverage.py" = ["PLC0415"]
 "topoli/countries/**/__init__.py" = ["PLC0415"]
 "topoli/countries/ch/federal/licences.py" = ["E501"]
+"topoli/countries/ch/zh/licences.py" = ["E501"]
+"topoli/countries/ch/zh/regulation/generate.py" = ["PLC0415"]
 "skills/**/scripts/**" = ["T20"]
 
 [tool.ruff.format]

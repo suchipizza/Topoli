@@ -1,0 +1,991 @@
+parser_version: bzo2016-parser/0.1.0
+source_version: mit Änderungen bis 29. Mai 2024
+zones:
+  E:
+    rules: []
+    unresolved:
+    - building_mass_ratio
+    - floor_area_ratio
+    - floor_area_ratio_commercial
+    - max_attic_floors
+    - max_basement_floors
+    - max_boundary_setback_with_length_m
+    - max_building_height_m
+    - max_full_floors
+    - max_ridge_height_m
+    - min_boundary_setback_m
+    - min_open_space_ratio
+  F:
+    rules: []
+    unresolved:
+    - building_mass_ratio
+    - floor_area_ratio
+    - floor_area_ratio_commercial
+    - max_attic_floors
+    - max_basement_floors
+    - max_boundary_setback_with_length_m
+    - max_building_height_m
+    - max_full_floors
+    - max_ridge_height_m
+    - min_boundary_setback_m
+    - min_open_space_ratio
+  IG I:
+    rules:
+    - key: max_full_floors
+      value: 7
+      unit: floors
+      article: Art. 19
+      span: Vollgeschosse max. 7 7 7
+    - key: max_attic_floors
+      value: 0
+      unit: floors
+      article: Art. 19
+      span: anrechenbares Dachgeschoss 0 0 0
+    - key: max_basement_floors
+      value: 1
+      unit: floors
+      article: Art. 19
+      span: anrechenbares Untergeschoss max. 1 1 1
+    - key: max_building_height_m
+      value: 25.0
+      unit: m
+      article: Art. 19
+      span: Gebäudehöhe max. 25 m 25 m 25 m
+    - key: min_boundary_setback_m
+      value: 3.5
+      unit: m
+      article: Art. 19
+      span: Grundgrenzabstand min. 3,5 m 3,5 m 3,5 m
+    - key: floor_area_ratio_commercial
+      value: 50.0
+      unit: '% (Handel/Dienstleistung)'
+      article: Art. 19
+      span: "Ausnützungsziffer für Handels- und \nDienstleistungsnutzung max.\n50 % 100 % 150 %"
+    - key: building_mass_ratio
+      value: 12.0
+      unit: m³/m²
+      article: Art. 19
+      span: Baumassenziffer max. 12 m3/m2 12 m3/m2 12 m3/m2
+    - key: min_open_space_ratio
+      value: 10.0
+      unit: '%'
+      article: Art. 19
+      span: Freiflächenziffer min. 10 % 12,5 % 15 %
+    unresolved: []
+  IG II:
+    rules:
+    - key: max_full_floors
+      value: 7
+      unit: floors
+      article: Art. 19
+      span: Vollgeschosse max. 7 7 7
+    - key: max_attic_floors
+      value: 0
+      unit: floors
+      article: Art. 19
+      span: anrechenbares Dachgeschoss 0 0 0
+    - key: max_basement_floors
+      value: 1
+      unit: floors
+      article: Art. 19
+      span: anrechenbares Untergeschoss max. 1 1 1
+    - key: max_building_height_m
+      value: 25.0
+      unit: m
+      article: Art. 19
+      span: Gebäudehöhe max. 25 m 25 m 25 m
+    - key: min_boundary_setback_m
+      value: 3.5
+      unit: m
+      article: Art. 19
+      span: Grundgrenzabstand min. 3,5 m 3,5 m 3,5 m
+    - key: floor_area_ratio_commercial
+      value: 100.0
+      unit: '% (Handel/Dienstleistung)'
+      article: Art. 19
+      span: "Ausnützungsziffer für Handels- und \nDienstleistungsnutzung max.\n50 % 100 % 150 %"
+    - key: building_mass_ratio
+      value: 12.0
+      unit: m³/m²
+      article: Art. 19
+      span: Baumassenziffer max. 12 m3/m2 12 m3/m2 12 m3/m2
+    - key: min_open_space_ratio
+      value: 12.5
+      unit: '%'
+      article: Art. 19
+      span: Freiflächenziffer min. 10 % 12,5 % 15 %
+    unresolved: []
+  IG III:
+    rules:
+    - key: max_full_floors
+      value: 7
+      unit: floors
+      article: Art. 19
+      span: Vollgeschosse max. 7 7 7
+    - key: max_attic_floors
+      value: 0
+      unit: floors
+      article: Art. 19
+      span: anrechenbares Dachgeschoss 0 0 0
+    - key: max_basement_floors
+      value: 1
+      unit: floors
+      article: Art. 19
+      span: anrechenbares Untergeschoss max. 1 1 1
+    - key: max_building_height_m
+      value: 25.0
+      unit: m
+      article: Art. 19
+      span: Gebäudehöhe max. 25 m 25 m 25 m
+    - key: min_boundary_setback_m
+      value: 3.5
+      unit: m
+      article: Art. 19
+      span: Grundgrenzabstand min. 3,5 m 3,5 m 3,5 m
+    - key: floor_area_ratio_commercial
+      value: 150.0
+      unit: '% (Handel/Dienstleistung)'
+      article: Art. 19
+      span: "Ausnützungsziffer für Handels- und \nDienstleistungsnutzung max.\n50 % 100 % 150 %"
+    - key: building_mass_ratio
+      value: 12.0
+      unit: m³/m²
+      article: Art. 19
+      span: Baumassenziffer max. 12 m3/m2 12 m3/m2 12 m3/m2
+    - key: min_open_space_ratio
+      value: 15.0
+      unit: '%'
+      article: Art. 19
+      span: Freiflächenziffer min. 10 % 12,5 % 15 %
+    unresolved: []
+  K:
+    rules: []
+    unresolved:
+    - building_mass_ratio
+    - floor_area_ratio
+    - floor_area_ratio_commercial
+    - max_attic_floors
+    - max_basement_floors
+    - max_boundary_setback_with_length_m
+    - max_building_height_m
+    - max_full_floors
+    - max_ridge_height_m
+    - min_boundary_setback_m
+    - min_open_space_ratio
+  L:
+    rules: []
+    unresolved:
+    - building_mass_ratio
+    - floor_area_ratio
+    - floor_area_ratio_commercial
+    - max_attic_floors
+    - max_basement_floors
+    - max_boundary_setback_with_length_m
+    - max_building_height_m
+    - max_full_floors
+    - max_ridge_height_m
+    - min_boundary_setback_m
+    - min_open_space_ratio
+  Oe:
+    rules: []
+    unresolved:
+    - building_mass_ratio
+    - floor_area_ratio
+    - floor_area_ratio_commercial
+    - max_attic_floors
+    - max_basement_floors
+    - max_boundary_setback_with_length_m
+    - max_building_height_m
+    - max_full_floors
+    - max_ridge_height_m
+    - min_boundary_setback_m
+    - min_open_space_ratio
+  QI/3:
+    rules:
+    - key: max_full_floors
+      value: 3
+      unit: floors
+      article: Art. 24g
+      span: Vollgeschosse max. 3 4 5 6 7
+    - key: max_basement_floors
+      value: 1
+      unit: floors
+      article: Art. 24g
+      span: anrechenbare Untergeschosse max. 1 1 1 1 1
+    - key: max_attic_floors
+      value: 2
+      unit: floors
+      article: Art. 24g
+      span: anrechenbare Dachgeschosse max. 2 2 2 2 2
+    - key: max_building_height_m
+      value: 11.5
+      unit: m
+      article: Art. 24g
+      span: Gebäudehöhe max. 11,5 m 14,7 m 18 m 21,5 m 25 m
+    - key: max_ridge_height_m
+      value: 5.0
+      unit: m
+      article: Art. 24g
+      span: Firsthöhe max. 5 m 5 m 5 m 5 m 5 m
+    - key: min_boundary_setback_m
+      value: 3.5
+      unit: m
+      article: Art. 24g
+      span: seitlicher Grenzabstand min. 3,5 m 3,5 m 3,5 m 3,5 m 3,5 m
+    unresolved: []
+  QI/4:
+    rules:
+    - key: max_full_floors
+      value: 4
+      unit: floors
+      article: Art. 24g
+      span: Vollgeschosse max. 3 4 5 6 7
+    - key: max_basement_floors
+      value: 1
+      unit: floors
+      article: Art. 24g
+      span: anrechenbare Untergeschosse max. 1 1 1 1 1
+    - key: max_attic_floors
+      value: 2
+      unit: floors
+      article: Art. 24g
+      span: anrechenbare Dachgeschosse max. 2 2 2 2 2
+    - key: max_building_height_m
+      value: 14.7
+      unit: m
+      article: Art. 24g
+      span: Gebäudehöhe max. 11,5 m 14,7 m 18 m 21,5 m 25 m
+    - key: max_ridge_height_m
+      value: 5.0
+      unit: m
+      article: Art. 24g
+      span: Firsthöhe max. 5 m 5 m 5 m 5 m 5 m
+    - key: min_boundary_setback_m
+      value: 3.5
+      unit: m
+      article: Art. 24g
+      span: seitlicher Grenzabstand min. 3,5 m 3,5 m 3,5 m 3,5 m 3,5 m
+    unresolved: []
+  QI/5:
+    rules:
+    - key: max_full_floors
+      value: 5
+      unit: floors
+      article: Art. 24g
+      span: Vollgeschosse max. 3 4 5 6 7
+    - key: max_basement_floors
+      value: 1
+      unit: floors
+      article: Art. 24g
+      span: anrechenbare Untergeschosse max. 1 1 1 1 1
+    - key: max_attic_floors
+      value: 2
+      unit: floors
+      article: Art. 24g
+      span: anrechenbare Dachgeschosse max. 2 2 2 2 2
+    - key: max_building_height_m
+      value: 18.0
+      unit: m
+      article: Art. 24g
+      span: Gebäudehöhe max. 11,5 m 14,7 m 18 m 21,5 m 25 m
+    - key: max_ridge_height_m
+      value: 5.0
+      unit: m
+      article: Art. 24g
+      span: Firsthöhe max. 5 m 5 m 5 m 5 m 5 m
+    - key: min_boundary_setback_m
+      value: 3.5
+      unit: m
+      article: Art. 24g
+      span: seitlicher Grenzabstand min. 3,5 m 3,5 m 3,5 m 3,5 m 3,5 m
+    unresolved: []
+  QI/6:
+    rules:
+    - key: max_full_floors
+      value: 6
+      unit: floors
+      article: Art. 24g
+      span: Vollgeschosse max. 3 4 5 6 7
+    - key: max_basement_floors
+      value: 1
+      unit: floors
+      article: Art. 24g
+      span: anrechenbare Untergeschosse max. 1 1 1 1 1
+    - key: max_attic_floors
+      value: 2
+      unit: floors
+      article: Art. 24g
+      span: anrechenbare Dachgeschosse max. 2 2 2 2 2
+    - key: max_building_height_m
+      value: 21.5
+      unit: m
+      article: Art. 24g
+      span: Gebäudehöhe max. 11,5 m 14,7 m 18 m 21,5 m 25 m
+    - key: max_ridge_height_m
+      value: 5.0
+      unit: m
+      article: Art. 24g
+      span: Firsthöhe max. 5 m 5 m 5 m 5 m 5 m
+    - key: min_boundary_setback_m
+      value: 3.5
+      unit: m
+      article: Art. 24g
+      span: seitlicher Grenzabstand min. 3,5 m 3,5 m 3,5 m 3,5 m 3,5 m
+    unresolved: []
+  QI/7:
+    rules:
+    - key: max_full_floors
+      value: 7
+      unit: floors
+      article: Art. 24g
+      span: Vollgeschosse max. 3 4 5 6 7
+    - key: max_basement_floors
+      value: 1
+      unit: floors
+      article: Art. 24g
+      span: anrechenbare Untergeschosse max. 1 1 1 1 1
+    - key: max_attic_floors
+      value: 2
+      unit: floors
+      article: Art. 24g
+      span: anrechenbare Dachgeschosse max. 2 2 2 2 2
+    - key: max_building_height_m
+      value: 25.0
+      unit: m
+      article: Art. 24g
+      span: Gebäudehöhe max. 11,5 m 14,7 m 18 m 21,5 m 25 m
+    - key: max_ridge_height_m
+      value: 5.0
+      unit: m
+      article: Art. 24g
+      span: Firsthöhe max. 5 m 5 m 5 m 5 m 5 m
+    - key: min_boundary_setback_m
+      value: 3.5
+      unit: m
+      article: Art. 24g
+      span: seitlicher Grenzabstand min. 3,5 m 3,5 m 3,5 m 3,5 m 3,5 m
+    unresolved: []
+  QII/3:
+    rules:
+    - key: max_full_floors
+      value: 3
+      unit: floors
+      article: Art. 24l
+      span: Vollgeschosse max. 3 4
+    - key: max_basement_floors
+      value: 1
+      unit: floors
+      article: Art. 24l
+      span: anrechenbares Untergeschoss max. 1 1
+    - key: max_attic_floors
+      value: 1
+      unit: floors
+      article: Art. 24l
+      span: anrechenbares Dachgeschoss 1 1
+    - key: max_building_height_m
+      value: 11.5
+      unit: m
+      article: Art. 24l
+      span: Gebäudehöhe max. 11,5 m 14,7 m
+    - key: max_ridge_height_m
+      value: 5.0
+      unit: m
+      article: Art. 24l
+      span: Firsthöhe max. 5 m 5 m
+    - key: min_boundary_setback_m
+      value: 3.5
+      unit: m
+      article: Art. 24l
+      span: Grenzabstand min. 3,5 m 3,5 m
+    unresolved: []
+  QII/4:
+    rules:
+    - key: max_full_floors
+      value: 4
+      unit: floors
+      article: Art. 24l
+      span: Vollgeschosse max. 3 4
+    - key: max_basement_floors
+      value: 1
+      unit: floors
+      article: Art. 24l
+      span: anrechenbares Untergeschoss max. 1 1
+    - key: max_attic_floors
+      value: 1
+      unit: floors
+      article: Art. 24l
+      span: anrechenbares Dachgeschoss 1 1
+    - key: max_building_height_m
+      value: 14.7
+      unit: m
+      article: Art. 24l
+      span: Gebäudehöhe max. 11,5 m 14,7 m
+    - key: max_ridge_height_m
+      value: 5.0
+      unit: m
+      article: Art. 24l
+      span: Firsthöhe max. 5 m 5 m
+    - key: min_boundary_setback_m
+      value: 3.5
+      unit: m
+      article: Art. 24l
+      span: Grenzabstand min. 3,5 m 3,5 m
+    unresolved: []
+  QIII/3:
+    rules:
+    - key: max_full_floors
+      value: 3
+      unit: floors
+      article: Art. 24o
+      span: Vollgeschosse max. 3 4 5
+    - key: max_basement_floors
+      value: 1
+      unit: floors
+      article: Art. 24o
+      span: anrechenbares Untergeschoss max. 1 1 1
+    - key: max_attic_floors
+      value: 2
+      unit: floors
+      article: Art. 24o
+      span: anrechenbare Dachgeschosse max. 2 2 2
+    - key: max_building_height_m
+      value: 11.5
+      unit: m
+      article: Art. 24o
+      span: Gebäudehöhe max. 11,5 m 14,7 m 18 m
+    - key: max_ridge_height_m
+      value: 5.0
+      unit: m
+      article: Art. 24o
+      span: Firsthöhe max. 5 m 5 m 5 m
+    - key: min_boundary_setback_m
+      value: 3.5
+      unit: m
+      article: Art. 24o
+      span: Grenzabstand min. 3,5 m 3,5 m 3,5 m
+    unresolved: []
+  QIII/4:
+    rules:
+    - key: max_full_floors
+      value: 4
+      unit: floors
+      article: Art. 24o
+      span: Vollgeschosse max. 3 4 5
+    - key: max_basement_floors
+      value: 1
+      unit: floors
+      article: Art. 24o
+      span: anrechenbares Untergeschoss max. 1 1 1
+    - key: max_attic_floors
+      value: 2
+      unit: floors
+      article: Art. 24o
+      span: anrechenbare Dachgeschosse max. 2 2 2
+    - key: max_building_height_m
+      value: 14.7
+      unit: m
+      article: Art. 24o
+      span: Gebäudehöhe max. 11,5 m 14,7 m 18 m
+    - key: max_ridge_height_m
+      value: 5.0
+      unit: m
+      article: Art. 24o
+      span: Firsthöhe max. 5 m 5 m 5 m
+    - key: min_boundary_setback_m
+      value: 3.5
+      unit: m
+      article: Art. 24o
+      span: Grenzabstand min. 3,5 m 3,5 m 3,5 m
+    unresolved: []
+  QIII/5:
+    rules:
+    - key: max_full_floors
+      value: 5
+      unit: floors
+      article: Art. 24o
+      span: Vollgeschosse max. 3 4 5
+    - key: max_basement_floors
+      value: 1
+      unit: floors
+      article: Art. 24o
+      span: anrechenbares Untergeschoss max. 1 1 1
+    - key: max_attic_floors
+      value: 2
+      unit: floors
+      article: Art. 24o
+      span: anrechenbare Dachgeschosse max. 2 2 2
+    - key: max_building_height_m
+      value: 18.0
+      unit: m
+      article: Art. 24o
+      span: Gebäudehöhe max. 11,5 m 14,7 m 18 m
+    - key: max_ridge_height_m
+      value: 5.0
+      unit: m
+      article: Art. 24o
+      span: Firsthöhe max. 5 m 5 m 5 m
+    - key: min_boundary_setback_m
+      value: 3.5
+      unit: m
+      article: Art. 24o
+      span: Grenzabstand min. 3,5 m 3,5 m 3,5 m
+    unresolved: []
+  W2:
+    rules:
+    - key: max_full_floors
+      value: 2
+      unit: floors
+      article: Art. 13
+      span: Vollgeschosse max. 2 2 2 2 3 4 4 5 6
+    - key: max_basement_floors
+      value: 1
+      unit: floors
+      article: Art. 13
+      span: "anrechenbares \nUntergeschoss max. 1 1 1 1 0 0 0* 0* 0*"
+    - key: max_attic_floors
+      value: 1
+      unit: floors
+      article: Art. 13
+      span: "anrechenbares \nDachgeschoss max. 1 1 1 1 1 1 1 1 1"
+    - key: max_building_height_m
+      value: 9.0
+      unit: m
+      article: Art. 13
+      span: Gebäudehöhe max. 9 m 9 m 9 m 9 m 9,5 m 12,5 m 12,5 m 15,5 m 18,5 m
+    - key: min_boundary_setback_m
+      value: 5.0
+      unit: m
+      article: Art. 13
+      span: "Grundgrenzabstand \nmin. 5 m 5 m 5 m 5 m 5 m 5 m 5 m 5 m 5 m"
+    - key: floor_area_ratio
+      value: 60.0
+      unit: '%'
+      article: Art. 13
+      span: "Ausnützungsziffer \nmax. 40 % 40 % 45 % 60 % 90 % 105 % 120 % 165 % 205 %"
+    - key: max_boundary_setback_with_length_m
+      value: 10.0
+      unit: m
+      article: Art. 14
+      span: 'W2bI W2bII W2bIII W2 W3 W4b W4 W5 W6
+
+        10 m 10 m 10 m 10 m 10 m 11 m 11 m 12 m 13 m'
+    unresolved: []
+  W2bI:
+    rules:
+    - key: max_full_floors
+      value: 2
+      unit: floors
+      article: Art. 13
+      span: Vollgeschosse max. 2 2 2 2 3 4 4 5 6
+    - key: max_basement_floors
+      value: 1
+      unit: floors
+      article: Art. 13
+      span: "anrechenbares \nUntergeschoss max. 1 1 1 1 0 0 0* 0* 0*"
+    - key: max_attic_floors
+      value: 1
+      unit: floors
+      article: Art. 13
+      span: "anrechenbares \nDachgeschoss max. 1 1 1 1 1 1 1 1 1"
+    - key: max_building_height_m
+      value: 9.0
+      unit: m
+      article: Art. 13
+      span: Gebäudehöhe max. 9 m 9 m 9 m 9 m 9,5 m 12,5 m 12,5 m 15,5 m 18,5 m
+    - key: min_boundary_setback_m
+      value: 5.0
+      unit: m
+      article: Art. 13
+      span: "Grundgrenzabstand \nmin. 5 m 5 m 5 m 5 m 5 m 5 m 5 m 5 m 5 m"
+    - key: floor_area_ratio
+      value: 40.0
+      unit: '%'
+      article: Art. 13
+      span: "Ausnützungsziffer \nmax. 40 % 40 % 45 % 60 % 90 % 105 % 120 % 165 % 205 %"
+    - key: max_boundary_setback_with_length_m
+      value: 10.0
+      unit: m
+      article: Art. 14
+      span: 'W2bI W2bII W2bIII W2 W3 W4b W4 W5 W6
+
+        10 m 10 m 10 m 10 m 10 m 11 m 11 m 12 m 13 m'
+    unresolved: []
+  W2bII:
+    rules:
+    - key: max_full_floors
+      value: 2
+      unit: floors
+      article: Art. 13
+      span: Vollgeschosse max. 2 2 2 2 3 4 4 5 6
+    - key: max_basement_floors
+      value: 1
+      unit: floors
+      article: Art. 13
+      span: "anrechenbares \nUntergeschoss max. 1 1 1 1 0 0 0* 0* 0*"
+    - key: max_attic_floors
+      value: 1
+      unit: floors
+      article: Art. 13
+      span: "anrechenbares \nDachgeschoss max. 1 1 1 1 1 1 1 1 1"
+    - key: max_building_height_m
+      value: 9.0
+      unit: m
+      article: Art. 13
+      span: Gebäudehöhe max. 9 m 9 m 9 m 9 m 9,5 m 12,5 m 12,5 m 15,5 m 18,5 m
+    - key: min_boundary_setback_m
+      value: 5.0
+      unit: m
+      article: Art. 13
+      span: "Grundgrenzabstand \nmin. 5 m 5 m 5 m 5 m 5 m 5 m 5 m 5 m 5 m"
+    - key: floor_area_ratio
+      value: 40.0
+      unit: '%'
+      article: Art. 13
+      span: "Ausnützungsziffer \nmax. 40 % 40 % 45 % 60 % 90 % 105 % 120 % 165 % 205 %"
+    - key: max_boundary_setback_with_length_m
+      value: 10.0
+      unit: m
+      article: Art. 14
+      span: 'W2bI W2bII W2bIII W2 W3 W4b W4 W5 W6
+
+        10 m 10 m 10 m 10 m 10 m 11 m 11 m 12 m 13 m'
+    unresolved: []
+  W2bIII:
+    rules:
+    - key: max_full_floors
+      value: 2
+      unit: floors
+      article: Art. 13
+      span: Vollgeschosse max. 2 2 2 2 3 4 4 5 6
+    - key: max_basement_floors
+      value: 1
+      unit: floors
+      article: Art. 13
+      span: "anrechenbares \nUntergeschoss max. 1 1 1 1 0 0 0* 0* 0*"
+    - key: max_attic_floors
+      value: 1
+      unit: floors
+      article: Art. 13
+      span: "anrechenbares \nDachgeschoss max. 1 1 1 1 1 1 1 1 1"
+    - key: max_building_height_m
+      value: 9.0
+      unit: m
+      article: Art. 13
+      span: Gebäudehöhe max. 9 m 9 m 9 m 9 m 9,5 m 12,5 m 12,5 m 15,5 m 18,5 m
+    - key: min_boundary_setback_m
+      value: 5.0
+      unit: m
+      article: Art. 13
+      span: "Grundgrenzabstand \nmin. 5 m 5 m 5 m 5 m 5 m 5 m 5 m 5 m 5 m"
+    - key: floor_area_ratio
+      value: 45.0
+      unit: '%'
+      article: Art. 13
+      span: "Ausnützungsziffer \nmax. 40 % 40 % 45 % 60 % 90 % 105 % 120 % 165 % 205 %"
+    - key: max_boundary_setback_with_length_m
+      value: 10.0
+      unit: m
+      article: Art. 14
+      span: 'W2bI W2bII W2bIII W2 W3 W4b W4 W5 W6
+
+        10 m 10 m 10 m 10 m 10 m 11 m 11 m 12 m 13 m'
+    unresolved: []
+  W3:
+    rules:
+    - key: max_full_floors
+      value: 3
+      unit: floors
+      article: Art. 13
+      span: Vollgeschosse max. 2 2 2 2 3 4 4 5 6
+    - key: max_basement_floors
+      value: 0
+      unit: floors
+      article: Art. 13
+      span: "anrechenbares \nUntergeschoss max. 1 1 1 1 0 0 0* 0* 0*"
+    - key: max_attic_floors
+      value: 1
+      unit: floors
+      article: Art. 13
+      span: "anrechenbares \nDachgeschoss max. 1 1 1 1 1 1 1 1 1"
+    - key: max_building_height_m
+      value: 9.5
+      unit: m
+      article: Art. 13
+      span: Gebäudehöhe max. 9 m 9 m 9 m 9 m 9,5 m 12,5 m 12,5 m 15,5 m 18,5 m
+    - key: min_boundary_setback_m
+      value: 5.0
+      unit: m
+      article: Art. 13
+      span: "Grundgrenzabstand \nmin. 5 m 5 m 5 m 5 m 5 m 5 m 5 m 5 m 5 m"
+    - key: floor_area_ratio
+      value: 90.0
+      unit: '%'
+      article: Art. 13
+      span: "Ausnützungsziffer \nmax. 40 % 40 % 45 % 60 % 90 % 105 % 120 % 165 % 205 %"
+    - key: max_boundary_setback_with_length_m
+      value: 10.0
+      unit: m
+      article: Art. 14
+      span: 'W2bI W2bII W2bIII W2 W3 W4b W4 W5 W6
+
+        10 m 10 m 10 m 10 m 10 m 11 m 11 m 12 m 13 m'
+    unresolved: []
+  W4:
+    rules:
+    - key: max_full_floors
+      value: 4
+      unit: floors
+      article: Art. 13
+      span: Vollgeschosse max. 2 2 2 2 3 4 4 5 6
+    - key: max_basement_floors
+      value: 0
+      unit: floors
+      article: Art. 13
+      span: "anrechenbares \nUntergeschoss max. 1 1 1 1 0 0 0* 0* 0*"
+    - key: max_attic_floors
+      value: 1
+      unit: floors
+      article: Art. 13
+      span: "anrechenbares \nDachgeschoss max. 1 1 1 1 1 1 1 1 1"
+    - key: max_building_height_m
+      value: 12.5
+      unit: m
+      article: Art. 13
+      span: Gebäudehöhe max. 9 m 9 m 9 m 9 m 9,5 m 12,5 m 12,5 m 15,5 m 18,5 m
+    - key: min_boundary_setback_m
+      value: 5.0
+      unit: m
+      article: Art. 13
+      span: "Grundgrenzabstand \nmin. 5 m 5 m 5 m 5 m 5 m 5 m 5 m 5 m 5 m"
+    - key: floor_area_ratio
+      value: 120.0
+      unit: '%'
+      article: Art. 13
+      span: "Ausnützungsziffer \nmax. 40 % 40 % 45 % 60 % 90 % 105 % 120 % 165 % 205 %"
+    - key: max_boundary_setback_with_length_m
+      value: 11.0
+      unit: m
+      article: Art. 14
+      span: 'W2bI W2bII W2bIII W2 W3 W4b W4 W5 W6
+
+        10 m 10 m 10 m 10 m 10 m 11 m 11 m 12 m 13 m'
+    unresolved: []
+  W4b:
+    rules:
+    - key: max_full_floors
+      value: 4
+      unit: floors
+      article: Art. 13
+      span: Vollgeschosse max. 2 2 2 2 3 4 4 5 6
+    - key: max_basement_floors
+      value: 0
+      unit: floors
+      article: Art. 13
+      span: "anrechenbares \nUntergeschoss max. 1 1 1 1 0 0 0* 0* 0*"
+    - key: max_attic_floors
+      value: 1
+      unit: floors
+      article: Art. 13
+      span: "anrechenbares \nDachgeschoss max. 1 1 1 1 1 1 1 1 1"
+    - key: max_building_height_m
+      value: 12.5
+      unit: m
+      article: Art. 13
+      span: Gebäudehöhe max. 9 m 9 m 9 m 9 m 9,5 m 12,5 m 12,5 m 15,5 m 18,5 m
+    - key: min_boundary_setback_m
+      value: 5.0
+      unit: m
+      article: Art. 13
+      span: "Grundgrenzabstand \nmin. 5 m 5 m 5 m 5 m 5 m 5 m 5 m 5 m 5 m"
+    - key: floor_area_ratio
+      value: 105.0
+      unit: '%'
+      article: Art. 13
+      span: "Ausnützungsziffer \nmax. 40 % 40 % 45 % 60 % 90 % 105 % 120 % 165 % 205 %"
+    - key: max_boundary_setback_with_length_m
+      value: 11.0
+      unit: m
+      article: Art. 14
+      span: 'W2bI W2bII W2bIII W2 W3 W4b W4 W5 W6
+
+        10 m 10 m 10 m 10 m 10 m 11 m 11 m 12 m 13 m'
+    unresolved: []
+  W5:
+    rules:
+    - key: max_full_floors
+      value: 5
+      unit: floors
+      article: Art. 13
+      span: Vollgeschosse max. 2 2 2 2 3 4 4 5 6
+    - key: max_basement_floors
+      value: 0
+      unit: floors
+      article: Art. 13
+      span: "anrechenbares \nUntergeschoss max. 1 1 1 1 0 0 0* 0* 0*"
+    - key: max_attic_floors
+      value: 1
+      unit: floors
+      article: Art. 13
+      span: "anrechenbares \nDachgeschoss max. 1 1 1 1 1 1 1 1 1"
+    - key: max_building_height_m
+      value: 15.5
+      unit: m
+      article: Art. 13
+      span: Gebäudehöhe max. 9 m 9 m 9 m 9 m 9,5 m 12,5 m 12,5 m 15,5 m 18,5 m
+    - key: min_boundary_setback_m
+      value: 5.0
+      unit: m
+      article: Art. 13
+      span: "Grundgrenzabstand \nmin. 5 m 5 m 5 m 5 m 5 m 5 m 5 m 5 m 5 m"
+    - key: floor_area_ratio
+      value: 165.0
+      unit: '%'
+      article: Art. 13
+      span: "Ausnützungsziffer \nmax. 40 % 40 % 45 % 60 % 90 % 105 % 120 % 165 % 205 %"
+    - key: max_boundary_setback_with_length_m
+      value: 12.0
+      unit: m
+      article: Art. 14
+      span: 'W2bI W2bII W2bIII W2 W3 W4b W4 W5 W6
+
+        10 m 10 m 10 m 10 m 10 m 11 m 11 m 12 m 13 m'
+    unresolved: []
+  W6:
+    rules:
+    - key: max_full_floors
+      value: 6
+      unit: floors
+      article: Art. 13
+      span: Vollgeschosse max. 2 2 2 2 3 4 4 5 6
+    - key: max_basement_floors
+      value: 0
+      unit: floors
+      article: Art. 13
+      span: "anrechenbares \nUntergeschoss max. 1 1 1 1 0 0 0* 0* 0*"
+    - key: max_attic_floors
+      value: 1
+      unit: floors
+      article: Art. 13
+      span: "anrechenbares \nDachgeschoss max. 1 1 1 1 1 1 1 1 1"
+    - key: max_building_height_m
+      value: 18.5
+      unit: m
+      article: Art. 13
+      span: Gebäudehöhe max. 9 m 9 m 9 m 9 m 9,5 m 12,5 m 12,5 m 15,5 m 18,5 m
+    - key: min_boundary_setback_m
+      value: 5.0
+      unit: m
+      article: Art. 13
+      span: "Grundgrenzabstand \nmin. 5 m 5 m 5 m 5 m 5 m 5 m 5 m 5 m 5 m"
+    - key: floor_area_ratio
+      value: 205.0
+      unit: '%'
+      article: Art. 13
+      span: "Ausnützungsziffer \nmax. 40 % 40 % 45 % 60 % 90 % 105 % 120 % 165 % 205 %"
+    - key: max_boundary_setback_with_length_m
+      value: 13.0
+      unit: m
+      article: Art. 14
+      span: 'W2bI W2bII W2bIII W2 W3 W4b W4 W5 W6
+
+        10 m 10 m 10 m 10 m 10 m 11 m 11 m 12 m 13 m'
+    unresolved: []
+  Z5:
+    rules:
+    - key: max_full_floors
+      value: 5
+      unit: floors
+      article: Art. 18
+      span: Vollgeschosse max. 5 6 7
+    - key: max_basement_floors
+      value: 1
+      unit: floors
+      article: Art. 18
+      span: anrechenbares Untergeschoss max. 1 1 1
+    - key: max_attic_floors
+      value: 1
+      unit: floors
+      article: Art. 18
+      span: anrechenbares Dachgeschoss max. 1 1 1
+    - key: max_building_height_m
+      value: 19.0
+      unit: m
+      article: Art. 18
+      span: Gebäudehöhe max. 19 m 22 m 25 m
+    - key: min_boundary_setback_m
+      value: 3.5
+      unit: m
+      article: Art. 18
+      span: Grundgrenzabstand min. 3,5 m 3,5 m 3,5 m
+    - key: floor_area_ratio
+      value: 200.0
+      unit: '%'
+      article: Art. 18
+      span: Ausnützungsziffer max. 200 % 230 % 260 %
+    unresolved: []
+  Z6:
+    rules:
+    - key: max_full_floors
+      value: 6
+      unit: floors
+      article: Art. 18
+      span: Vollgeschosse max. 5 6 7
+    - key: max_basement_floors
+      value: 1
+      unit: floors
+      article: Art. 18
+      span: anrechenbares Untergeschoss max. 1 1 1
+    - key: max_attic_floors
+      value: 1
+      unit: floors
+      article: Art. 18
+      span: anrechenbares Dachgeschoss max. 1 1 1
+    - key: max_building_height_m
+      value: 22.0
+      unit: m
+      article: Art. 18
+      span: Gebäudehöhe max. 19 m 22 m 25 m
+    - key: min_boundary_setback_m
+      value: 3.5
+      unit: m
+      article: Art. 18
+      span: Grundgrenzabstand min. 3,5 m 3,5 m 3,5 m
+    - key: floor_area_ratio
+      value: 230.0
+      unit: '%'
+      article: Art. 18
+      span: Ausnützungsziffer max. 200 % 230 % 260 %
+    unresolved: []
+  Z7:
+    rules:
+    - key: max_full_floors
+      value: 7
+      unit: floors
+      article: Art. 18
+      span: Vollgeschosse max. 5 6 7
+    - key: max_basement_floors
+      value: 1
+      unit: floors
+      article: Art. 18
+      span: anrechenbares Untergeschoss max. 1 1 1
+    - key: max_attic_floors
+      value: 1
+      unit: floors
+      article: Art. 18
+      span: anrechenbares Dachgeschoss max. 1 1 1
+    - key: max_building_height_m
+      value: 25.0
+      unit: m
+      article: Art. 18
+      span: Gebäudehöhe max. 19 m 22 m 25 m
+    - key: min_boundary_setback_m
+      value: 3.5
+      unit: m
+      article: Art. 18
+      span: Grundgrenzabstand min. 3,5 m 3,5 m 3,5 m
+    - key: floor_area_ratio
+      value: 260.0
+      unit: '%'
+      article: Art. 18
+      span: Ausnützungsziffer max. 200 % 230 % 260 %
+    unresolved: []

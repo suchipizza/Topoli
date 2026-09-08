@@ -1,0 +1,99 @@
+{
+ "adapter_id": "ch/federal/parcel",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2684700.8%2C1247271.0%5D%2C%5B2684705.0%2C1247273.9%5D%2C%5B2684706.0%2C1247274.6%5D%2C%5B2684729.5%2C1247277.6%5D%2C%5B2684729.8%2C1247276.6%5D%2C%5B2684735.2%2C1247257.3%5D%2C%5B2684740.9%2C1247242.2%5D%2C%5B2684739.5%2C1247241.6%5D%2C%5B2684721.2%2C1247234.7%5D%2C%5B2684709.8%2C1247250.4%5D%2C%5B2684708.1%2C1247254.2%5D%2C%5B2684700.8%2C1247271.0%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200",
+ "retrieved_at": "2026-09-08T10:07:40.386665Z",
+ "payload": {
+  "results": [
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 2293665,
+    "id": 2293665,
+    "properties": {
+     "bfsnr": 261,
+     "ak": "ZH",
+     "name": "HO3684",
+     "number": "HO3684",
+     "identnd": "ZH0200000261",
+     "egris_egrid": "CH899978509139",
+     "realestate_type": null,
+     "geoportal_url": "https://maps.zh.ch?topic=AVfarbigZH&locate=gemeinden&locations=261",
+     "label": "HO3684"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 2283457,
+    "id": 2283457,
+    "properties": {
+     "bfsnr": 261,
+     "ak": "ZH",
+     "name": "HO3969",
+     "number": "HO3969",
+     "identnd": "ZH0200000261",
+     "egris_egrid": "CH127116999171",
+     "realestate_type": null,
+     "geoportal_url": "https://maps.zh.ch?topic=AVfarbigZH&locate=gemeinden&locations=261",
+     "label": "HO3969"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 2320260,
+    "id": 2320260,
+    "properties": {
+     "bfsnr": 261,
+     "ak": "ZH",
+     "name": "HO2877",
+     "number": "HO2877",
+     "identnd": "ZH0200000261",
+     "egris_egrid": "CH119116997120",
+     "realestate_type": null,
+     "geoportal_url": "https://maps.zh.ch?topic=AVfarbigZH&locate=gemeinden&locations=261",
+     "label": "HO2877"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 2317233,
+    "id": 2317233,
+    "properties": {
+     "bfsnr": 261,
+     "ak": "ZH",
+     "name": "HO3507",
+     "number": "HO3507",
+     "identnd": "ZH0200000261",
+     "egris_egrid": "CH727850999151",
+     "realestate_type": null,
+     "geoportal_url": "https://maps.zh.ch?topic=AVfarbigZH&locate=gemeinden&locations=261",
+     "label": "HO3507"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 2301073,
+    "id": 2301073,
+    "properties": {
+     "bfsnr": 261,
+     "ak": "ZH",
+     "name": "HO4687",
+     "number": "HO4687",
+     "identnd": "ZH0200000261",
+     "egris_egrid": "CH439979918847",
+     "realestate_type": null,
+     "geoportal_url": "https://maps.zh.ch?topic=AVfarbigZH&locate=gemeinden&locations=261",
+     "label": "HO4687"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2684700.8%2C1247271.0%5D%2C%5B2684705.0%2C1247273.9%5D%2C%5B2684706.0%2C1247274.6%5D%2C%5B2684729.5%2C1247277.6%5D%2C%5B2684729.8%2C1247276.6%5D%2C%5B2684735.2%2C1247257.3%5D%2C%5B2684740.9%2C1247242.2%5D%2C%5B2684739.5%2C1247241.6%5D%2C%5B2684721.2%2C1247234.7%5D%2C%5B2684709.8%2C1247250.4%5D%2C%5B2684708.1%2C1247254.2%5D%2C%5B2684700.8%2C1247271.0%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

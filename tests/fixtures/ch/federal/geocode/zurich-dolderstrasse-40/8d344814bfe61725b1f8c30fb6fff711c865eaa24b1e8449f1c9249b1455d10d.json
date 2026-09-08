@@ -1,0 +1,226 @@
+{
+ "adapter_id": "ch/federal/geocode",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2684719.0%2C1247265.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2684219.0%2C1246765.875%2C2685219.0%2C1247765.875&imageDisplay=1000%2C1000%2C96",
+ "retrieved_at": "2026-09-08T10:07:39.936369Z",
+ "payload": {
+  "results": [
+   {
+    "layerBodId": "ch.bfs.gebaeude_wohnungs_register",
+    "layerName": "GWR: Gebäudestatus",
+    "featureId": "155757_0",
+    "id": "155757_0",
+    "properties": {
+     "egid": "155757",
+     "strname_deinr": "Dolderstrasse 40",
+     "plz_plz6": "8032/803200",
+     "ggdename": "Zürich",
+     "ggdenr": 261,
+     "gexpdat": "06.09.2026",
+     "gdekt": "ZH",
+     "egrid": "CH119116997120",
+     "lgbkr": 269,
+     "lparz": "HO2877",
+     "lparzsx": null,
+     "ltyp": null,
+     "gebnr": "261HO01638",
+     "gbez": "",
+     "gkode": 2684720.473,
+     "gkodn": 1247262.924,
+     "gksce": 904,
+     "gstat": 1004,
+     "gkat": 1020,
+     "gklas": 1122,
+     "gbauj": 1928,
+     "gbaum": 1,
+     "gbaup": 8012,
+     "gabbj": null,
+     "garea": 356,
+     "gvol": 5515,
+     "gvolnorm": 962,
+     "gvolsce": 859,
+     "gastw": 6,
+     "ganzwhg": 8,
+     "gazzi": null,
+     "gschutzr": 0,
+     "gebf": 1388,
+     "gwaerzh1": 7430,
+     "genh1": 7520,
+     "gwaersceh1": 859,
+     "gwaerdath1": "24.11.2018",
+     "gwaerzh2": null,
+     "genh2": null,
+     "gwaersceh2": null,
+     "gwaerdath2": "-",
+     "gwaerzw1": 7630,
+     "genw1": 7520,
+     "gwaerscew1": 859,
+     "gwaerdatw1": "24.11.2018",
+     "gwaerzw2": null,
+     "genw2": null,
+     "gwaerscew2": null,
+     "gwaerdatw2": "-",
+     "edid": "0",
+     "egaid": 100189218,
+     "deinr": "40",
+     "esid": 10086006,
+     "strname": [
+      "Dolderstrasse"
+     ],
+     "strnamk": [
+      "Dolderstr."
+     ],
+     "strindx": [
+      "Dol"
+     ],
+     "strsp": [
+      "DE"
+     ],
+     "stroffiziel": "1",
+     "dplz4": 8032,
+     "dplzz": 0,
+     "dplzname": "Zürich",
+     "dkode": 2684719.114,
+     "dkodn": 1247265.925,
+     "doffadr": 1,
+     "dexpdat": "06.09.2026",
+     "ewid": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+     ],
+     "whgnr": [
+      "1",
+      "2",
+      "101",
+      "102",
+      "201",
+      "202",
+      "301",
+      "302"
+     ],
+     "wstwk": [
+      3100,
+      3100,
+      3101,
+      3101,
+      3102,
+      3102,
+      3103,
+      3103
+     ],
+     "wmehrg": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "weinr": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "wbez": [
+      "Links",
+      "Rechts",
+      "Links",
+      "Rechts",
+      "Links",
+      "Rechts",
+      "Links",
+      "Rechts"
+     ],
+     "wstat": [
+      3004,
+      3004,
+      3004,
+      3004,
+      3004,
+      3004,
+      3004,
+      3004
+     ],
+     "wexpdat": [
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00"
+     ],
+     "wbauj": [
+      1999,
+      1999,
+      1999,
+      1999,
+      1999,
+      1999,
+      1999,
+      1999
+     ],
+     "wabbj": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "warea": [
+      125,
+      100,
+      125,
+      100,
+      125,
+      100,
+      100,
+      75
+     ],
+     "wazim": [
+      5,
+      4,
+      5,
+      4,
+      5,
+      4,
+      4,
+      3
+     ],
+     "wkche": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "label": "Dolderstrasse 40"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2684719.0%2C1247265.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2684219.0%2C1246765.875%2C2685219.0%2C1247765.875&imageDisplay=1000%2C1000%2C96"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Albisriederstrasse 200, 8047 Zürich",
+  "site_id": "261-AR4573",
+  "recorded_at": "2026-09-08T10:07:44+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "d407c2b8f7f42e638af18a5ab15989168dc7fb2f78a238f907f1d79f3a7b8e45.json",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Albisriederstrasse+200%2C+8047+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "eee7d06de5b112b1cd86c896c187355adc6805e5416091ae28ab481f4f2d8bee.json",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2680003.25%2C1248106.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2679503.25%2C1247606.125%2C2680503.25%2C1248606.125&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

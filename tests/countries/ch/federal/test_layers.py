@@ -90,7 +90,7 @@ def test_lugano_oereb_not_available(run_site: Callable[[str, str], LayerRun]) ->
     assert oereb.status == "not_available"
     assert oereb.detail and "geplant" in oereb.detail
     unknown = next(f for f in run.findings if f.id == "unknown.ch.federal.oereb")
-    assert unknown.cls == "D" and unknown.slots["where"] == "TI"
+    assert unknown.cls == "D" and unknown.slots["where"] == "Lugano"
     others = [c for c in run.coverage if c.adapter_id != "ch/federal/oereb"]
     assert all(c.status == "ok" for c in others)
     flood = next(f for f in run.findings if f.id == "hazard.flood")

@@ -270,6 +270,18 @@
         "title": "Heritage: no federal listing found for this plot.",
         "consequence": "No constraint from the federal heritage inventories.",
         "caveat": "The federal townscape inventory and cantonal/municipal inventories are not queryable here yet; check them locally."
+      },
+      "zh": {
+        "listed": {
+          "title": "Heritage: {name} is a protected object ({level} level, status: {status}).",
+          "consequence": "Demolition or major changes need approval from the heritage authority; decision: {decision}.",
+          "caveat": "As listed in the cantonal register of protected objects; the municipal inventory may add further objects."
+        },
+        "none": {
+          "title": "Heritage: no protected object registered on this plot in the Canton of Zürich.",
+          "consequence": "No constraint from the cantonal or communal protection register.",
+          "caveat": "Inventory entries without a formal protection decision are not in this register."
+        }
       }
     },
     "terrain": {
@@ -294,6 +306,152 @@
         "title": "{what}: not available for {where} yet.",
         "consequence": "This check could not be made ({reason}). Help add it →",
         "caveat": "No data means no statement, not 'no risk'."
+      }
+    },
+    "zoning": {
+      "none": {
+        "title": "Zoning: no zone found for this plot in the cantonal data.",
+        "consequence": "Ask the municipality which zone applies.",
+        "caveat": "The cantonal zoning layer may lag behind municipal decisions."
+      },
+      "residential": {
+        "title": "Zoning: residential zone, up to {floors} full floors and {height} m building height.",
+        "consequence": "New buildings must stay within these limits; at least {wohnanteil}% of the floor area must be housing.",
+        "caveat": "Zone {code} as published by the canton ({municipality}, {plan_ref}); the municipal ordinance has the details."
+      },
+      "residential_nofloors": {
+        "title": "Zoning: residential zone.",
+        "consequence": "The municipal ordinance sets the floors and heights for this zone.",
+        "caveat": "Zone {code} as published by the canton ({municipality}, {plan_ref})."
+      },
+      "quarter_preservation": {
+        "title": "Zoning: neighbourhood-preservation zone, up to {floors} full floors and {height} m building height.",
+        "consequence": "New buildings must fit the existing street pattern: closed street fronts, prescribed building depth and roof shapes.",
+        "caveat": "Zone {code} as published by the canton ({municipality}, {plan_ref}); area-specific rules apply."
+      },
+      "quarter_preservation_nofloors": {
+        "title": "Zoning: neighbourhood-preservation zone.",
+        "consequence": "New buildings must fit the existing street pattern.",
+        "caveat": "Zone {code} as published by the canton ({municipality}, {plan_ref})."
+      },
+      "core": {
+        "title": "Zoning: historic core zone.",
+        "consequence": "Appearance, height and use are governed by area-specific rules and the core-zone plan; expect strict design control.",
+        "caveat": "Zone {code} as published by the canton ({municipality}, {plan_ref})."
+      },
+      "core_nofloors": {
+        "title": "Zoning: historic core zone.",
+        "consequence": "Appearance, height and use are governed by area-specific rules and the core-zone plan; expect strict design control.",
+        "caveat": "Zone {code} as published by the canton ({municipality}, {plan_ref})."
+      },
+      "centre": {
+        "title": "Zoning: centre zone, up to {floors} full floors and {height} m building height.",
+        "consequence": "Mixed use is allowed (housing, shops, offices); no housing on the ground floor along streets.",
+        "caveat": "Zone {code} as published by the canton ({municipality}, {plan_ref})."
+      },
+      "centre_nofloors": {
+        "title": "Zoning: centre zone.",
+        "consequence": "Mixed use is allowed (housing, shops, offices).",
+        "caveat": "Zone {code} as published by the canton ({municipality}, {plan_ref})."
+      },
+      "industrial": {
+        "title": "Zoning: industrial and commercial zone, up to {floors} full floors and {height} m building height.",
+        "consequence": "Housing is not allowed here except for on-site staff; noisy uses are permitted.",
+        "caveat": "Zone {code} as published by the canton ({municipality}, {plan_ref})."
+      },
+      "industrial_nofloors": {
+        "title": "Zoning: industrial and commercial zone.",
+        "consequence": "Housing is not allowed here except for on-site staff.",
+        "caveat": "Zone {code} as published by the canton ({municipality}, {plan_ref})."
+      },
+      "public": {
+        "title": "Zoning: zone for public buildings, up to {floors} full floors.",
+        "consequence": "Reserved for public uses (schools, hospitals, administration); private housing is generally not possible.",
+        "caveat": "Zone {code} as published by the canton ({municipality}, {plan_ref})."
+      },
+      "public_nofloors": {
+        "title": "Zoning: zone for public buildings.",
+        "consequence": "Reserved for public uses; private housing is generally not possible.",
+        "caveat": "Zone {code} as published by the canton ({municipality}, {plan_ref})."
+      },
+      "open_space": {
+        "title": "Zoning: open-space zone — building is essentially not allowed.",
+        "consequence": "Only structures serving the open space (paths, small facilities) can be approved.",
+        "caveat": "Zone {code} as published by the canton ({municipality}, {plan_ref})."
+      },
+      "open_space_nofloors": {
+        "title": "Zoning: open-space zone — building is essentially not allowed.",
+        "consequence": "Only structures serving the open space can be approved.",
+        "caveat": "Zone {code} as published by the canton ({municipality}, {plan_ref})."
+      },
+      "recreation": {
+        "title": "Zoning: recreation zone.",
+        "consequence": "Only buildings serving recreation (sports, allotments) are allowed.",
+        "caveat": "Zone {code} as published by the canton ({municipality}, {plan_ref})."
+      },
+      "recreation_nofloors": {
+        "title": "Zoning: recreation zone.",
+        "consequence": "Only buildings serving recreation are allowed.",
+        "caveat": "Zone {code} as published by the canton ({municipality}, {plan_ref})."
+      },
+      "agricultural": {
+        "title": "Zoning: agricultural zone — outside the building area.",
+        "consequence": "Building is limited to farming needs; conversions need cantonal approval.",
+        "caveat": "Zone {code} as published by the canton ({municipality}, {plan_ref})."
+      },
+      "agricultural_nofloors": {
+        "title": "Zoning: agricultural zone — outside the building area.",
+        "consequence": "Building is limited to farming needs.",
+        "caveat": "Zone {code} as published by the canton ({municipality}, {plan_ref})."
+      },
+      "reserve": {
+        "title": "Zoning: reserve zone — not yet released for building.",
+        "consequence": "No building until the municipality assigns a zone.",
+        "caveat": "Zone {code} as published by the canton ({municipality}, {plan_ref})."
+      },
+      "reserve_nofloors": {
+        "title": "Zoning: reserve zone — not yet released for building.",
+        "consequence": "No building until the municipality assigns a zone.",
+        "caveat": "Zone {code} as published by the canton ({municipality}, {plan_ref})."
+      },
+      "other": {
+        "title": "Zoning: {name}, up to {floors} full floors.",
+        "consequence": "The municipal ordinance sets what may be built here.",
+        "caveat": "Zone {code} as published by the canton ({municipality}, {plan_ref})."
+      },
+      "other_nofloors": {
+        "title": "Zoning: {name}.",
+        "consequence": "The municipal ordinance sets what may be built here.",
+        "caveat": "Zone {code} as published by the canton ({municipality}, {plan_ref})."
+      }
+    },
+    "regulation": {
+      "rules": {
+        "title": "Building rules for this zone: up to {floors} full floors, {height} m high, density {far}% of the plot area.",
+        "consequence": "These numbers from the city ordinance ({article}) set the envelope of anything new here.",
+        "caveat": "{n_rules} rules read from the ordinance text; area-specific exceptions and the cantonal law can modify them."
+      },
+      "plan_specific": {
+        "title": "Building rules for this zone are set by area-specific plans, not by a simple table.",
+        "consequence": "Only the planning office can tell you the exact envelope here.",
+        "caveat": "The ordinance has no numeric table for zone {code} ({name})."
+      }
+    },
+    "potential": {
+      "headroom": {
+        "title": "You could probably build more here: the existing buildings use about {pct}% of what zoning appears to allow.",
+        "consequence": "Roughly {headroom} m² of additional floor area could be possible ({existing} of {allowed} m² used).",
+        "caveat": "Estimate from the density ratio × plot area versus the register's floor areas; chargeable areas, setbacks, heritage and design rules can reduce it substantially."
+      },
+      "full": {
+        "title": "The plot is essentially built out: the existing buildings already use about {pct}% of what today's zoning allows.",
+        "consequence": "Additional floor area would need an exception, a special plan or a zone change; what stands today is protected as an existing building.",
+        "caveat": "Estimate from the density ratio × plot area versus the register's floor areas; values above 100% are common for older buildings and mean no headroom, not a violation."
+      },
+      "undetermined": {
+        "title": "How much more could be built here cannot be determined from public data.",
+        "consequence": "An architect or the planning office must assess this: {reason}.",
+        "caveat": "No numeric density ratio applies to zone {code}, or a building's floors or footprint is missing in the register."
       }
     }
   }

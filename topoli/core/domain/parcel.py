@@ -48,7 +48,15 @@ class Building(StrictModel):
         default=None, description="Category/use as published (GWR code + label)"
     )
     year: int | None = Field(default=None, ge=1000, le=2200)
-    floors: int | None = Field(default=None, ge=0)
+    floors: int | None = Field(
+        default=None,
+        ge=0,
+        description="GWR gastw: all storeys incl. attic/basement if partly residential",
+    )
+    floor_area_m2: float | None = Field(
+        default=None, ge=0, description="GWR gebf: energy reference area (heated gross floor area)"
+    )
+    volume_m3: float | None = Field(default=None, ge=0, description="GWR gvol: building volume")
     height_m: float | None = Field(default=None, ge=0)
     energy: str | None = Field(default=None, description="Energy carrier/class if public")
     heritage: str | None = Field(default=None, description="Listing status if known")

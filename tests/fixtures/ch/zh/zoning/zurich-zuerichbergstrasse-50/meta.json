@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Zürichbergstrasse 50, 8044 Zürich",
+  "site_id": "261-FL2183",
+  "recorded_at": "2026-09-08T10:11:23+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "55e8328d3f435b4824a53cd3034d3ce5cf19dbc406caf155a00b8e5cbe567784.json",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2684561.9%2C1247697.8%2C2684563.9%2C1247699.8%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}

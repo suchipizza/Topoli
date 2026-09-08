@@ -1,0 +1,188 @@
+{
+ "adapter_id": "ch/federal/buildings",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2686379.6%2C1245945.9%5D%2C%5B2686394.2%2C1245967.8%5D%2C%5B2686394.8%2C1245968.7%5D%2C%5B2686400.3%2C1245965.0%5D%2C%5B2686417.9%2C1245953.2%5D%2C%5B2686417.3%2C1245952.4%5D%2C%5B2686405.0%2C1245934.0%5D%2C%5B2686393.2%2C1245939.5%5D%2C%5B2686379.6%2C1245945.9%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200",
+ "retrieved_at": "2026-09-08T10:08:43.808534Z",
+ "payload": {
+  "results": [
+   {
+    "type": "Feature",
+    "featureId": "158111_0",
+    "bbox": [
+     2686400.1,
+     1245953.7,
+     2686400.1,
+     1245953.7
+    ],
+    "layerBodId": "ch.bfs.gebaeude_wohnungs_register",
+    "layerName": "GWR: Gebäudestatus",
+    "id": "158111_0",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      2686400.1,
+      1245953.7
+     ]
+    },
+    "properties": {
+     "egid": "158111",
+     "strname_deinr": "Witikonerstrasse 250",
+     "plz_plz6": "8053/805300",
+     "ggdename": "Zürich",
+     "ggdenr": 261,
+     "gexpdat": "06.09.2026",
+     "gdekt": "ZH",
+     "egrid": "CH119121997766",
+     "lgbkr": 279,
+     "lparz": "WI4342",
+     "lparzsx": null,
+     "ltyp": null,
+     "gebnr": "261WI01704",
+     "gbez": "",
+     "gkode": 2686400.56,
+     "gkodn": 1245952.17,
+     "gksce": 904,
+     "gstat": 1004,
+     "gkat": 1020,
+     "gklas": 1122,
+     "gbauj": 1930,
+     "gbaum": 1,
+     "gbaup": 8012,
+     "gabbj": null,
+     "garea": 155,
+     "gvol": 1790,
+     "gvolnorm": 962,
+     "gvolsce": 859,
+     "gastw": 5,
+     "ganzwhg": 4,
+     "gazzi": null,
+     "gschutzr": 0,
+     "gebf": 640,
+     "gwaerzh1": 7410,
+     "genh1": 7511,
+     "gwaersceh1": 859,
+     "gwaerdath1": "11.05.2021",
+     "gwaerzh2": 7400,
+     "genh2": 7500,
+     "gwaersceh2": 869,
+     "gwaerdath2": "08.11.2021",
+     "gwaerzw1": 7610,
+     "genw1": 7511,
+     "gwaerscew1": 859,
+     "gwaerdatw1": "11.05.2021",
+     "gwaerzw2": 7600,
+     "genw2": 7500,
+     "gwaerscew2": 869,
+     "gwaerdatw2": "08.11.2021",
+     "edid": "0",
+     "egaid": 100147963,
+     "deinr": "250",
+     "esid": 10056512,
+     "strname": [
+      "Witikonerstrasse"
+     ],
+     "strnamk": [
+      "Witikonerstr."
+     ],
+     "strindx": [
+      "Wit"
+     ],
+     "strsp": [
+      "DE"
+     ],
+     "stroffiziel": "1",
+     "dplz4": 8053,
+     "dplzz": 0,
+     "dplzname": "Zürich",
+     "dkode": 2686400.061,
+     "dkodn": 1245953.659,
+     "doffadr": 1,
+     "dexpdat": "06.09.2026",
+     "ewid": [
+      "1",
+      "2",
+      "3",
+      "4"
+     ],
+     "whgnr": [
+      "1",
+      "101",
+      "201",
+      "9901"
+     ],
+     "wstwk": [
+      3100,
+      3101,
+      3102,
+      3401
+     ],
+     "wmehrg": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "weinr": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "wbez": [
+      "Mitte",
+      "Mitte",
+      "Mitte",
+      "Mitte"
+     ],
+     "wstat": [
+      3004,
+      3004,
+      3004,
+      3004
+     ],
+     "wexpdat": [
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00"
+     ],
+     "wbauj": [
+      1999,
+      1999,
+      1999,
+      1999
+     ],
+     "wabbj": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "warea": [
+      120,
+      120,
+      100,
+      82
+     ],
+     "wazim": [
+      4,
+      4,
+      4,
+      2
+     ],
+     "wkche": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "label": "Witikonerstrasse 250"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2686379.6%2C1245945.9%5D%2C%5B2686394.2%2C1245967.8%5D%2C%5B2686394.8%2C1245968.7%5D%2C%5B2686400.3%2C1245965.0%5D%2C%5B2686417.9%2C1245953.2%5D%2C%5B2686417.3%2C1245952.4%5D%2C%5B2686405.0%2C1245934.0%5D%2C%5B2686393.2%2C1245939.5%5D%2C%5B2686379.6%2C1245945.9%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

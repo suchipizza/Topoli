@@ -1,0 +1,240 @@
+{
+ "adapter_id": "ch/federal/buildings",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2684700.8%2C1247271.0%5D%2C%5B2684705.0%2C1247273.9%5D%2C%5B2684706.0%2C1247274.6%5D%2C%5B2684729.5%2C1247277.6%5D%2C%5B2684729.8%2C1247276.6%5D%2C%5B2684735.2%2C1247257.3%5D%2C%5B2684740.9%2C1247242.2%5D%2C%5B2684739.5%2C1247241.6%5D%2C%5B2684721.2%2C1247234.7%5D%2C%5B2684709.8%2C1247250.4%5D%2C%5B2684708.1%2C1247254.2%5D%2C%5B2684700.8%2C1247271.0%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200",
+ "retrieved_at": "2026-09-08T10:07:40.878654Z",
+ "payload": {
+  "results": [
+   {
+    "type": "Feature",
+    "featureId": "155757_0",
+    "bbox": [
+     2684719.1,
+     1247265.9,
+     2684719.1,
+     1247265.9
+    ],
+    "layerBodId": "ch.bfs.gebaeude_wohnungs_register",
+    "layerName": "GWR: Gebäudestatus",
+    "id": "155757_0",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      2684719.1,
+      1247265.9
+     ]
+    },
+    "properties": {
+     "egid": "155757",
+     "strname_deinr": "Dolderstrasse 40",
+     "plz_plz6": "8032/803200",
+     "ggdename": "Zürich",
+     "ggdenr": 261,
+     "gexpdat": "06.09.2026",
+     "gdekt": "ZH",
+     "egrid": "CH119116997120",
+     "lgbkr": 269,
+     "lparz": "HO2877",
+     "lparzsx": null,
+     "ltyp": null,
+     "gebnr": "261HO01638",
+     "gbez": "",
+     "gkode": 2684720.473,
+     "gkodn": 1247262.924,
+     "gksce": 904,
+     "gstat": 1004,
+     "gkat": 1020,
+     "gklas": 1122,
+     "gbauj": 1928,
+     "gbaum": 1,
+     "gbaup": 8012,
+     "gabbj": null,
+     "garea": 356,
+     "gvol": 5515,
+     "gvolnorm": 962,
+     "gvolsce": 859,
+     "gastw": 6,
+     "ganzwhg": 8,
+     "gazzi": null,
+     "gschutzr": 0,
+     "gebf": 1388,
+     "gwaerzh1": 7430,
+     "genh1": 7520,
+     "gwaersceh1": 859,
+     "gwaerdath1": "24.11.2018",
+     "gwaerzh2": null,
+     "genh2": null,
+     "gwaersceh2": null,
+     "gwaerdath2": "-",
+     "gwaerzw1": 7630,
+     "genw1": 7520,
+     "gwaerscew1": 859,
+     "gwaerdatw1": "24.11.2018",
+     "gwaerzw2": null,
+     "genw2": null,
+     "gwaerscew2": null,
+     "gwaerdatw2": "-",
+     "edid": "0",
+     "egaid": 100189218,
+     "deinr": "40",
+     "esid": 10086006,
+     "strname": [
+      "Dolderstrasse"
+     ],
+     "strnamk": [
+      "Dolderstr."
+     ],
+     "strindx": [
+      "Dol"
+     ],
+     "strsp": [
+      "DE"
+     ],
+     "stroffiziel": "1",
+     "dplz4": 8032,
+     "dplzz": 0,
+     "dplzname": "Zürich",
+     "dkode": 2684719.114,
+     "dkodn": 1247265.925,
+     "doffadr": 1,
+     "dexpdat": "06.09.2026",
+     "ewid": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+     ],
+     "whgnr": [
+      "1",
+      "2",
+      "101",
+      "102",
+      "201",
+      "202",
+      "301",
+      "302"
+     ],
+     "wstwk": [
+      3100,
+      3100,
+      3101,
+      3101,
+      3102,
+      3102,
+      3103,
+      3103
+     ],
+     "wmehrg": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "weinr": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "wbez": [
+      "Links",
+      "Rechts",
+      "Links",
+      "Rechts",
+      "Links",
+      "Rechts",
+      "Links",
+      "Rechts"
+     ],
+     "wstat": [
+      3004,
+      3004,
+      3004,
+      3004,
+      3004,
+      3004,
+      3004,
+      3004
+     ],
+     "wexpdat": [
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00"
+     ],
+     "wbauj": [
+      1999,
+      1999,
+      1999,
+      1999,
+      1999,
+      1999,
+      1999,
+      1999
+     ],
+     "wabbj": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     "warea": [
+      125,
+      100,
+      125,
+      100,
+      125,
+      100,
+      100,
+      75
+     ],
+     "wazim": [
+      5,
+      4,
+      5,
+      4,
+      5,
+      4,
+      4,
+      3
+     ],
+     "wkche": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "label": "Dolderstrasse 40"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2684700.8%2C1247271.0%5D%2C%5B2684705.0%2C1247273.9%5D%2C%5B2684706.0%2C1247274.6%5D%2C%5B2684729.5%2C1247277.6%5D%2C%5B2684729.8%2C1247276.6%5D%2C%5B2684735.2%2C1247257.3%5D%2C%5B2684740.9%2C1247242.2%5D%2C%5B2684739.5%2C1247241.6%5D%2C%5B2684721.2%2C1247234.7%5D%2C%5B2684709.8%2C1247250.4%5D%2C%5B2684708.1%2C1247254.2%5D%2C%5B2684700.8%2C1247271.0%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

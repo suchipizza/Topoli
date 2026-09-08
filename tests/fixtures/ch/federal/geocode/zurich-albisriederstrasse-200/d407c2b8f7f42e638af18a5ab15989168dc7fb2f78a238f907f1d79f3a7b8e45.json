@@ -1,0 +1,46 @@
+{
+ "adapter_id": "ch/federal/geocode",
+ "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Albisriederstrasse+200%2C+8047+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address",
+ "retrieved_at": "2026-09-08T10:07:44.097992Z",
+ "payload": {
+  "results": [
+   {
+    "attrs": {
+     "detail": "albisriederstrasse 200 8047 zuerich 261 zuerich ch zh",
+     "featureId": "302019900_0",
+     "geom_quadindex": "030003032303032121133",
+     "geom_st_box2d": "BOX(2680003.284000002 1248106.1270000003,2680003.284000002 1248106.1270000003)",
+     "label": "Albisriederstrasse 200 <b>8047 Zürich</b>",
+     "lat": 47.37893295288086,
+     "links": [
+      {
+       "href": "/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/101727610",
+       "rel": "related",
+       "title": "ch.swisstopo.amtliches-gebaeudeadressverzeichnis"
+      },
+      {
+       "href": "/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/302019900_0",
+       "rel": "related",
+       "title": "ch.bfs.gebaeude_wohnungs_register"
+      }
+     ],
+     "lon": 8.498032569885254,
+     "num": 200,
+     "objectclass": "",
+     "origin": "address",
+     "rank": 7,
+     "x": 1248106.125,
+     "y": 2680003.25,
+     "zoomlevel": 10
+    },
+    "id": 2292674,
+    "weight": 1
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Albisriederstrasse+200%2C+8047+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

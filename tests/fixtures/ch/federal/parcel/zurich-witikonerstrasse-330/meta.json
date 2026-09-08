@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/parcel",
+  "address": "Witikonerstrasse 330, 8053 Zürich",
+  "site_id": "261-WI1427",
+  "recorded_at": "2026-09-08T10:08:46+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "6bab62b00afdf165c43914b42302a8e12df50c26bb9dd6385efa25849fad242f.json",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2686917.75%2C1245899.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+    },
+    {
+      "file": "c9ff5c2079232c5f74f2e0f300fbc6a3589d2b29e41311a1ddecc197d29a7eff.json",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2686903.8%2C1245894.0%5D%2C%5B2686912.1%2C1245899.6%5D%2C%5B2686919.7%2C1245904.8%5D%2C%5B2686923.0%2C1245907.0%5D%2C%5B2686924.7%2C1245908.2%5D%2C%5B2686929.0%2C1245901.9%5D%2C%5B2686937.6%2C1245889.1%5D%2C%5B2686921.3%2C1245884.0%5D%2C%5B2686912.4%2C1245881.2%5D%2C%5B2686903.8%2C1245894.0%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}

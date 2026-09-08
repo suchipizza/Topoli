@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/zh/zoning",
+  "address": "Bergstrasse 100, 8032 Zürich",
+  "site_id": "261-HO3655",
+  "recorded_at": "2026-09-08T10:07:48+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "d19229001e9634522701b3493ce241f84daeaeefe08f29dd2642d370d3217ffc.json",
+      "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2684883.2%2C1246724.5%2C2684885.2%2C1246726.5%2CEPSG%3A2056&COUNT=5"
+    }
+  ]
+}
