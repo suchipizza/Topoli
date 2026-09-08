@@ -5,466 +5,501 @@
     "code": "it"
   },
   "layer0": {
-    "header": "__TODO__",
-    "open_report": "__TODO__",
-    "share": "__TODO__",
-    "run_yourself": "__TODO__",
-    "star": "__TODO__"
+    "header": "CHECK IMMOBILIARE — {address}, {municipality}",
+    "open_report": "▸ Apri il rapporto completo: {path}",
+    "share": "▸ Condividi: {path}",
+    "run_yourself": "Provalo tu stesso in 3 passi → {url}",
+    "star": "⭐ Metti una stella su GitHub → {url}"
   },
   "confidence": {
-    "line": "__TODO__",
-    "official": "__TODO__",
-    "official_one": "__TODO__",
-    "derived": "__TODO__",
-    "derived_one": "__TODO__",
-    "estimate": "__TODO__",
-    "estimate_one": "__TODO__",
-    "professional": "__TODO__",
-    "professional_one": "__TODO__"
+    "line": "Affidabilità: {a} · {b} · {c} · {d}",
+    "official": "{n} fatti ufficiali",
+    "official_one": "1 fatto ufficiale",
+    "derived": "{n} calcoli",
+    "derived_one": "1 calcolo",
+    "estimate": "{n} stime",
+    "estimate_one": "1 stima",
+    "professional": "{n} da far verificare a un professionista",
+    "professional_one": "1 da far verificare a un professionista"
   },
   "next_step": {
-    "frame": "__TODO__"
+    "frame": "Prossimo passo: {action}",
+    "heritage": "chieda {office} che cosa consente la protezione di «{name}» prima di pianificare qualsiasi modifica",
+    "potential_zh": "faccia confermare la regola di densità ({article} del regolamento edilizio comunale) {office} prima di contare su superficie aggiuntiva",
+    "hazard": "richieda {office} l'estratto della carta cantonale dei pericoli per questo fondo",
+    "oereb": "ordini l'estratto ufficiale delle restrizioni di diritto pubblico per questo fondo al catasto del comune di {municipality}",
+    "municipality": "chieda all'ufficio tecnico di {municipality} quali restrizioni valgono per questo fondo"
   },
   "class": {
     "A": {
-      "label": "__TODO__",
-      "line": "__TODO__"
+      "label": "Fatto ufficiale",
+      "line": "Fatto ufficiale — ripreso così come pubblicato dall'autorità competente."
     },
     "B": {
-      "label": "__TODO__",
-      "line": "__TODO__"
+      "label": "Calcolo",
+      "line": "Calcolo — derivato in modo deterministico da dati ufficiali; la formula è indicata."
     },
     "C": {
-      "label": "__TODO__",
-      "line": "__TODO__"
+      "label": "Stima",
+      "line": "Stima — valore approssimativo basato su ipotesi semplificate; da verificare prima di farvi affidamento."
     },
     "D": {
-      "label": "__TODO__",
-      "line": "__TODO__"
+      "label": "Da far verificare a un professionista",
+      "line": "Da far verificare a un professionista — non determinabile dai dati pubblici; si rivolga all'ufficio indicato."
     }
   },
   "severity": {
-    "info": "__TODO__",
-    "low": "__TODO__",
-    "medium": "__TODO__",
-    "high": "__TODO__"
+    "info": "Info",
+    "low": "Basso",
+    "medium": "Medio",
+    "high": "Alto"
   },
   "category": {
-    "potential": "__TODO__",
-    "hazard": "__TODO__",
-    "noise": "__TODO__",
-    "heritage": "__TODO__",
-    "environment": "__TODO__",
-    "zoning": "__TODO__",
-    "activity": "__TODO__",
-    "identity": "__TODO__",
-    "unknown": "__TODO__"
+    "potential": "Che cosa potrebbe costruire",
+    "hazard": "Pericoli naturali",
+    "noise": "Rumore",
+    "heritage": "Beni culturali",
+    "environment": "Ambiente",
+    "zoning": "Zona",
+    "activity": "Cantieri nelle vicinanze",
+    "identity": "Identità",
+    "unknown": "Punti aperti"
   },
   "section": {
-    "1": "__TODO__",
-    "2": "__TODO__",
-    "3": "__TODO__",
-    "4": "__TODO__",
-    "5": "__TODO__",
-    "6": "__TODO__",
-    "7": "__TODO__",
-    "8": "__TODO__",
-    "9": "__TODO__",
-    "10": "__TODO__",
-    "11": "__TODO__",
-    "12": "__TODO__",
-    "13": "__TODO__",
-    "14": "__TODO__",
-    "15": "__TODO__",
-    "16": "__TODO__",
-    "17": "__TODO__",
-    "18": "__TODO__"
+    "1": "Identità",
+    "2": "Edifici esistenti",
+    "3": "Fondo",
+    "4": "Zona",
+    "5": "Regole applicabili",
+    "6": "Potenziale di sviluppo",
+    "7": "Restrizioni di diritto pubblico",
+    "8": "Pericoli naturali",
+    "9": "Vincoli ambientali",
+    "10": "Rumore",
+    "11": "Beni culturali",
+    "12": "Terreno e geologia",
+    "13": "Energia e solare",
+    "14": "Cantieri nelle vicinanze",
+    "15": "Punti aperti e dati mancanti",
+    "16": "Sintesi per decidere",
+    "17": "Verifiche professionali consigliate",
+    "18": "Fonti"
   },
   "coverage": {
-    "ok": "__TODO__",
-    "degraded": "__TODO__",
-    "not_available": "__TODO__",
-    "not_contributed": "__TODO__",
-    "help_add": "__TODO__",
-    "notice": "__TODO__"
+    "ok": "Verificato",
+    "degraded": "Verificato con una copia meno recente — la fonte non ha risposto oggi",
+    "not_available": "Non ancora disponibile per questo cantone",
+    "not_contributed": "Non ancora contribuito per questo comune",
+    "help_add": "Non ancora disponibile per questo cantone — aiutaci ad aggiungerlo → {url}",
+    "notice": "Fonti verificate: {ok}. Non disponibili qui: {missing}."
   },
   "caveat": {
-    "downgraded_missing_source": "__TODO__",
-    "downgraded_missing_span": "__TODO__",
-    "conflicting_sources": "__TODO__",
-    "stale_as_of": "__TODO__"
+    "downgraded_missing_source": "Questa informazione non ha potuto essere collegata a una fonte ufficiale con data di consultazione; viene quindi indicata come da far verificare a un professionista.",
+    "downgraded_missing_span": "Per {rule} non è stato possibile citare alcun articolo del regolamento; l'informazione viene quindi indicata come da far verificare a un professionista.",
+    "conflicting_sources": "Due fonti ufficiali si contraddicono qui ({source_a} vs {source_b}); entrambe sono indicate e un professionista dovrebbe chiarire.",
+    "stale_as_of": "Stato al {date} — la fonte non era raggiungibile oggi, è stata usata una copia precedente."
   },
   "trust": {
-    "not_replace": "__TODO__",
-    "no_valuation": "__TODO__",
-    "local": "__TODO__"
+    "not_replace": "Questo non sostituisce un architetto, l'ufficio tecnico, un notaio, il registro fondiario, un geometra, un ingegnere o un consulente ambientale.",
+    "no_valuation": "Non produce mai valutazioni, stime di costo o probabilità di ottenere una licenza.",
+    "local": "Funziona sul suo computer e consulta solo fonti pubbliche ufficiali."
   },
   "install": {
-    "step1": "__TODO__",
-    "step2": "__TODO__",
-    "step3": "__TODO__"
+    "step1": "Apra Claude (Claude.ai o Claude Code).",
+    "step2": "Aggiunga la skill: incolli l'URL del repository o esegua il comando di installazione in una riga mostrato.",
+    "step3": "Scriva: /property-audit \"<il suo indirizzo>\""
   },
   "progress": {
-    "resolved": "__TODO__",
-    "parcel": "__TODO__",
-    "buildings": "__TODO__",
-    "layers": "__TODO__",
-    "regulation": "__TODO__",
-    "events": "__TODO__",
-    "not_available": "__TODO__",
-    "degraded": "__TODO__"
+    "resolved": "✓ Indirizzo trovato",
+    "parcel": "✓ Fondo {parcel} trovato",
+    "buildings": "✓ {n} edifici trovati",
+    "layers": "✓ {n} livelli federali verificati",
+    "regulation": "✓ Regolamento di zona letto",
+    "events": "✓ Pubblicazioni edilizie vicine consultate",
+    "not_available": "⚠ {what} non disponibile per {where} — aiutaci ad aggiungerlo",
+    "degraded": "⚠ {what}: fonte non raggiungibile oggi, usata la copia del {date}"
   },
   "unit": {
-    "m2": "__TODO__",
-    "m": "__TODO__",
-    "floors": "__TODO__"
+    "m2": "m²",
+    "m": "m",
+    "floors": "piani"
   },
   "finding": {
     "hazard": {
       "flood": {
         "none": {
-          "title": "__TODO__",
-          "consequence": "__TODO__",
-          "caveat": "__TODO__"
+          "title": "Alluvioni: nessun pericolo individuato nelle carte federali.",
+          "consequence": "Dalle carte federali non risulta alcun vincolo legato alle piene per costruire.",
+          "caveat": "Solo le carte federali Aquaprotect; la carta cantonale dei pericoli può differire ed è quella che conta per le licenze."
         },
         "low": {
-          "title": "__TODO__",
-          "consequence": "__TODO__",
-          "caveat": "__TODO__"
+          "title": "Alluvioni: rischio basso — solo una piena molto rara (1 volta in 500 anni) raggiungerebbe il {pct} del fondo.",
+          "consequence": "Di norma nessun vincolo, ma assicurazioni e cantone possono chiedere precauzioni.",
+          "caveat": "Carta federale Aquaprotect; consulti la carta cantonale dei pericoli prima di pianificare."
         },
         "medium": {
-          "title": "__TODO__",
-          "consequence": "__TODO__",
-          "caveat": "__TODO__"
+          "title": "Alluvioni: sì — una piena centennale potrebbe raggiungere il {pct} del fondo.",
+          "consequence": "Cantine, piano terra e locali tecnici possono richiedere protezioni contro le piene; il cantone può imporre condizioni.",
+          "caveat": "Carta federale Aquaprotect; fanno stato la carta cantonale dei pericoli e i suoi gradi di pericolo."
         }
       },
       "runoff": {
         "none": {
-          "title": "__TODO__",
-          "consequence": "__TODO__",
-          "caveat": "__TODO__"
+          "title": "Ruscellamento in caso di piogge intense: nessuna esposizione segnalata per questo fondo.",
+          "consequence": "Nessuna misura particolare indicata contro le acque superficiali in caso di piogge intense.",
+          "caveat": "Carta federale del ruscellamento, modellizzata; il drenaggio locale può comunque creare problemi."
         },
         "low": {
-          "title": "__TODO__",
-          "consequence": "__TODO__",
-          "caveat": "__TODO__"
+          "title": "Ruscellamento in caso di piogge intense: il {pct} del fondo può essere raggiunto da acque superficiali durante piogge intense.",
+          "consequence": "Entrate, bocche di lupo e rampe di garage possono richiedere protezioni contro l'acqua proveniente dalla strada o dal pendio.",
+          "caveat": "Carta federale del ruscellamento, modellizzata dal terreno; non è una zona di pericolo legale."
         }
       },
       "gravitational": {
         "none": {
-          "title": "__TODO__",
-          "consequence": "__TODO__",
-          "caveat": "__TODO__"
+          "title": "Caduta di massi, valanghe e frane: nessuna area di processo segnalata qui.",
+          "consequence": "I modelli federali non indicano vincoli legati ai pericoli di montagna.",
+          "caveat": "Modello federale SilvaProtect-CH; fa stato la carta cantonale dei pericoli."
         },
         "low": {
-          "title": "__TODO__",
-          "consequence": "__TODO__",
-          "caveat": "__TODO__"
+          "title": "Caduta di massi, valanga o frana: un modello federale segnala il {pct} del fondo come possibile area di processo.",
+          "consequence": "Il cantone può esigere una perizia sui pericoli o misure di protezione prima di costruire.",
+          "caveat": "Modello federale SilvaProtect-CH (non è una zona di pericolo legale); fa stato la carta cantonale dei pericoli."
         }
       }
     },
     "noise": {
       "road": {
         "low": {
-          "title": "__TODO__",
-          "consequence": "__TODO__",
-          "caveat": "__TODO__"
+          "title": "Rumore stradale: basso (circa {day} dB di giorno, {night} dB di notte).",
+          "consequence": "Il rumore stradale non dovrebbe limitare la disposizione delle abitazioni.",
+          "caveat": "Modello federale del rumore in un punto del fondo; il limite legale dipende dal grado di sensibilità al rumore della zona."
         },
         "medium": {
-          "title": "__TODO__",
-          "consequence": "__TODO__",
-          "caveat": "__TODO__"
+          "title": "Rumore stradale: moderato (circa {day} dB di giorno, {night} dB di notte).",
+          "consequence": "Camere e soggiorni potrebbero dover essere orientati lontano dalla strada o avere finestre fonoisolanti.",
+          "caveat": "Modello federale del rumore in un punto del fondo; il limite legale dipende dal grado di sensibilità al rumore della zona."
         },
         "high": {
-          "title": "__TODO__",
-          "consequence": "__TODO__",
-          "caveat": "__TODO__"
+          "title": "Rumore stradale: alto (circa {day} dB di giorno, {night} dB di notte).",
+          "consequence": "Nuove abitazioni richiedono di norma un concetto antirumore: locali lontani dalla strada, finestre speciali o ventilazione.",
+          "caveat": "Modello federale del rumore in un punto del fondo; il limite legale dipende dal grado di sensibilità al rumore della zona."
         }
       },
       "rail": {
         "low": {
-          "title": "__TODO__",
-          "consequence": "__TODO__",
-          "caveat": "__TODO__"
+          "title": "Rumore ferroviario: basso (circa {day} dB di giorno, {night} dB di notte).",
+          "consequence": "Il rumore ferroviario non dovrebbe limitare la disposizione delle abitazioni.",
+          "caveat": "Modello federale del rumore ferroviario in un punto del fondo."
         },
         "medium": {
-          "title": "__TODO__",
-          "consequence": "__TODO__",
-          "caveat": "__TODO__"
+          "title": "Rumore ferroviario: moderato (circa {day} dB di giorno, {night} dB di notte).",
+          "consequence": "Le camere potrebbero dover essere orientate lontano dai binari o avere finestre fonoisolanti.",
+          "caveat": "Modello federale del rumore ferroviario in un punto del fondo."
         },
         "high": {
-          "title": "__TODO__",
-          "consequence": "__TODO__",
-          "caveat": "__TODO__"
+          "title": "Rumore ferroviario: alto (circa {day} dB di giorno, {night} dB di notte).",
+          "consequence": "Nuove abitazioni richiedono di norma un concetto antirumore: locali lontani dai binari, finestre speciali o ventilazione.",
+          "caveat": "Modello federale del rumore ferroviario in un punto del fondo."
         }
       }
     },
     "contamination": {
       "none": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Siti inquinati: nessuna iscrizione nei catasti federali per questo fondo.",
+        "consequence": "Nessuna traccia federale di inquinamento legato a ferrovie, aerodromi o esercito.",
+        "caveat": "La maggior parte dei siti inquinati è nel catasto cantonale, mostrato tra le restrizioni ufficiali dove il cantone lo pubblica."
       },
       "hit": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Sito inquinato: questo fondo figura in un catasto federale ({name}, {status}).",
+        "consequence": "Costruire o scavare qui può richiedere un'indagine o un risanamento a sue spese.",
+        "caveat": "Come pubblicato dall'autorità federale; chieda l'incarto all'ufficio cantonale dell'ambiente."
       }
     },
     "oereb": {
       "theme": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Restrizione ufficiale: {theme} — {legend} ({pct} del fondo).",
+        "consequence": "Stabilita da {office}; stato: {status}. Vincola ciò che può costruire qui.",
+        "caveat": "Tratto dal catasto ufficiale delle restrizioni di diritto pubblico; legga le disposizioni legali collegate prima di decidere."
       },
       "none": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Restrizioni ufficiali: il catasto non ne elenca nessuna per questo fondo ({area} m²).",
+        "consequence": "Le regole generali della zona valgono comunque.",
+        "caveat": "Sono coperti solo i temi pubblicati nel catasto; non tutte le restrizioni vi sono ancora contenute."
       }
     },
     "solar": {
       "none": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Solare: nessun dato sui tetti disponibile per questo fondo.",
+        "consequence": "Dai dati federali non si può dire nulla sul potenziale solare.",
+        "caveat": "Il set di dati federale dei tetti copre la maggior parte degli edifici, ma non tutti."
       },
       "poor": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Solare: i tetti qui sono poco adatti ai pannelli solari.",
+        "consequence": "I pannelli produrrebbero poco; un impianto in facciata o condiviso potrebbe essere l'opzione migliore.",
+        "caveat": "Modello federale dei tetti (Tettosolare); l'ombra di alberi o nuovi edifici non è considerata del tutto."
       },
       "medium": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Solare: il tetto migliore è mediamente adatto ai pannelli solari ({area} m² utilizzabili, circa {yield_mwh} MWh all'anno).",
+        "consequence": "I pannelli sono possibili; la resa è nella media svizzera.",
+        "caveat": "Modello federale dei tetti (Tettosolare); ombreggiamento e stato del tetto non sono considerati del tutto."
       },
       "good": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Solare: i tetti sono ben adatti ai pannelli solari ({area} m² utilizzabili, circa {yield_mwh} MWh all'anno).",
+        "consequence": "Un impianto solare probabilmente conviene; molti cantoni lo sovvenzionano.",
+        "caveat": "Modello federale dei tetti (Tettosolare); ombreggiamento e stato del tetto non sono considerati del tutto."
       },
       "very_good": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Solare: i tetti sono molto adatti ai pannelli solari ({area} m² utilizzabili, circa {yield_mwh} MWh all'anno).",
+        "consequence": "Un impianto solare probabilmente conviene; molti cantoni lo sovvenzionano.",
+        "caveat": "Modello federale dei tetti (Tettosolare); ombreggiamento e stato del tetto non sono considerati del tutto."
       },
       "excellent": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Solare: i tetti sono eccellenti per i pannelli solari ({area} m² utilizzabili, circa {yield_mwh} MWh all'anno).",
+        "consequence": "Un impianto solare probabilmente conviene; molti cantoni lo sovvenzionano.",
+        "caveat": "Modello federale dei tetti (Tettosolare); ombreggiamento e stato del tetto non sono considerati del tutto."
       }
     },
     "heritage": {
       "kgs": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Beni culturali: {name} è un bene culturale d'importanza nazionale o regionale (categoria {category}).",
+        "consequence": "Demolizioni o modifiche importanti richiedono l'approvazione dell'ufficio dei beni culturali.",
+        "caveat": "Inventario federale (PBC); gli inventari cantonali e comunali possono elencare altri oggetti."
       },
       "unesco": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Beni culturali: questo fondo si trova nel sito del patrimonio mondiale UNESCO {name}.",
+        "consequence": "Le modifiche agli edifici e all'immagine dell'abitato sono controllate rigorosamente.",
+        "caveat": "Perimetro federale; valgono le regole cantonali e comunali."
       },
       "none": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Beni culturali: nessuna iscrizione federale trovata per questo fondo.",
+        "consequence": "Nessun vincolo dagli inventari federali dei beni culturali.",
+        "caveat": "L'inventario federale degli insediamenti e gli inventari cantonali/comunali non sono ancora consultabili qui; li verifichi localmente."
       },
       "zh": {
         "listed": {
-          "title": "__TODO__",
-          "consequence": "__TODO__",
-          "caveat": "__TODO__"
+          "title": "Beni culturali: {name} è un oggetto protetto (livello {level}, stato: {status}).",
+          "consequence": "Demolizioni o modifiche importanti richiedono l'approvazione dell'ufficio dei beni culturali; decisione: {decision}.",
+          "caveat": "Secondo il registro cantonale degli oggetti protetti; l'inventario comunale può elencare altri oggetti."
         },
         "none": {
-          "title": "__TODO__",
-          "consequence": "__TODO__",
-          "caveat": "__TODO__"
+          "title": "Beni culturali: nel Canton Zurigo su questo fondo non è registrato alcun oggetto protetto.",
+          "consequence": "Nessun vincolo dal registro cantonale o comunale di protezione.",
+          "caveat": "Le iscrizioni all'inventario senza decisione formale di protezione non figurano in questo registro."
         }
       }
     },
     "terrain": {
       "flat": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Terreno: pianeggiante — il fondo sale di circa il {slope_pct}% ({min}–{max} m s.l.m.).",
+        "consequence": "Nessun costo aggiuntivo o vincolo dovuto alla pendenza.",
+        "caveat": "Stimato dal modello nazionale di elevazione lungo le diagonali del fondo."
       },
       "sloped": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Terreno: in pendenza — il fondo sale di circa il {slope_pct}% ({min}–{max} m s.l.m.).",
+        "consequence": "Accesso, fondazioni e drenaggio richiedono più pianificazione; possono servire muri di sostegno.",
+        "caveat": "Stimato dal modello nazionale di elevazione lungo le diagonali del fondo."
       },
       "steep": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Terreno: ripido — il fondo sale di circa il {slope_pct}% ({min}–{max} m s.l.m.).",
+        "consequence": "Costruire qui costa di più; di norma è richiesta una perizia geotecnica.",
+        "caveat": "Stimato dal modello nazionale di elevazione lungo le diagonali del fondo."
       }
     },
     "unknown": {
       "source": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "{what}: non ancora disponibile per {where}.",
+        "consequence": "Questa verifica non ha potuto essere fatta ({reason}). Aiutaci ad aggiungerla →",
+        "caveat": "Nessun dato significa nessuna affermazione, non «nessun rischio»."
       }
     },
     "zoning": {
       "none": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Zona: nei dati cantonali non è stata trovata alcuna zona per questo fondo.",
+        "consequence": "Chieda al comune quale zona si applica.",
+        "caveat": "Il livello cantonale delle zone può essere in ritardo rispetto alle decisioni comunali."
       },
       "residential": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Zona: zona residenziale, fino a {floors} piani pieni e {height} m di altezza.",
+        "consequence": "Le nuove costruzioni devono rispettare questi limiti; almeno il {wohnanteil}% della superficie di piano deve essere abitativo.",
+        "caveat": "Zona {code} come pubblicata dal cantone ({municipality}, {plan_ref}); i dettagli sono nel regolamento edilizio comunale."
       },
       "residential_nofloors": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Zona: zona residenziale.",
+        "consequence": "Piani e altezze di questa zona sono fissati dal regolamento edilizio comunale.",
+        "caveat": "Zona {code} come pubblicata dal cantone ({municipality}, {plan_ref})."
       },
       "quarter_preservation": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Zona: zona di conservazione del quartiere, fino a {floors} piani pieni e {height} m di altezza.",
+        "consequence": "Le nuove costruzioni devono inserirsi nel tessuto esistente: fronti stradali chiusi, profondità edificabile e forme dei tetti prescritte.",
+        "caveat": "Zona {code} come pubblicata dal cantone ({municipality}, {plan_ref}); valgono regole specifiche per il comparto."
       },
       "quarter_preservation_nofloors": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Zona: zona di conservazione del quartiere.",
+        "consequence": "Le nuove costruzioni devono inserirsi nel tessuto esistente.",
+        "caveat": "Zona {code} come pubblicata dal cantone ({municipality}, {plan_ref})."
       },
       "core": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Zona: nucleo storico.",
+        "consequence": "Aspetto, altezza e uso seguono regole specifiche per il comparto e il piano del nucleo; si aspetti un controllo estetico rigoroso.",
+        "caveat": "Zona {code} come pubblicata dal cantone ({municipality}, {plan_ref})."
       },
       "core_nofloors": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Zona: nucleo storico.",
+        "consequence": "Aspetto, altezza e uso seguono regole specifiche per il comparto e il piano del nucleo; si aspetti un controllo estetico rigoroso.",
+        "caveat": "Zona {code} come pubblicata dal cantone ({municipality}, {plan_ref})."
       },
       "centre": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Zona: zona centrale, fino a {floors} piani pieni e {height} m di altezza.",
+        "consequence": "L'uso misto è consentito (abitazioni, negozi, uffici); nessuna abitazione al piano terra lungo la strada.",
+        "caveat": "Zona {code} come pubblicata dal cantone ({municipality}, {plan_ref})."
       },
       "centre_nofloors": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Zona: zona centrale.",
+        "consequence": "L'uso misto è consentito (abitazioni, negozi, uffici).",
+        "caveat": "Zona {code} come pubblicata dal cantone ({municipality}, {plan_ref})."
       },
       "industrial": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Zona: zona industriale e artigianale, fino a {floors} piani pieni e {height} m di altezza.",
+        "consequence": "Abitare non è consentito, salvo per il personale indispensabile in loco; le attività rumorose sono ammesse.",
+        "caveat": "Zona {code} come pubblicata dal cantone ({municipality}, {plan_ref})."
       },
       "industrial_nofloors": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Zona: zona industriale e artigianale.",
+        "consequence": "Abitare non è consentito, salvo per il personale indispensabile in loco.",
+        "caveat": "Zona {code} come pubblicata dal cantone ({municipality}, {plan_ref})."
       },
       "public": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Zona: zona per edifici pubblici, fino a {floors} piani pieni.",
+        "consequence": "Riservata a usi pubblici (scuole, ospedali, amministrazione); l'abitazione privata di norma non è possibile.",
+        "caveat": "Zona {code} come pubblicata dal cantone ({municipality}, {plan_ref})."
       },
       "public_nofloors": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Zona: zona per edifici pubblici.",
+        "consequence": "Riservata a usi pubblici; l'abitazione privata di norma non è possibile.",
+        "caveat": "Zona {code} come pubblicata dal cantone ({municipality}, {plan_ref})."
       },
       "open_space": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Zona: zona da mantenere libera — costruire è sostanzialmente vietato.",
+        "consequence": "Possono essere autorizzate solo opere al servizio dello spazio libero (sentieri, piccoli impianti).",
+        "caveat": "Zona {code} come pubblicata dal cantone ({municipality}, {plan_ref})."
       },
       "open_space_nofloors": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Zona: zona da mantenere libera — costruire è sostanzialmente vietato.",
+        "consequence": "Possono essere autorizzate solo opere al servizio dello spazio libero.",
+        "caveat": "Zona {code} come pubblicata dal cantone ({municipality}, {plan_ref})."
       },
       "recreation": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Zona: zona di svago.",
+        "consequence": "Sono consentiti solo edifici per lo svago (sport, orti familiari).",
+        "caveat": "Zona {code} come pubblicata dal cantone ({municipality}, {plan_ref})."
       },
       "recreation_nofloors": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Zona: zona di svago.",
+        "consequence": "Sono consentiti solo edifici per lo svago.",
+        "caveat": "Zona {code} come pubblicata dal cantone ({municipality}, {plan_ref})."
       },
       "agricultural": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Zona: zona agricola — fuori dalla zona edificabile.",
+        "consequence": "Costruire è limitato alle esigenze agricole; i cambiamenti di destinazione richiedono un'autorizzazione cantonale.",
+        "caveat": "Zona {code} come pubblicata dal cantone ({municipality}, {plan_ref})."
       },
       "agricultural_nofloors": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Zona: zona agricola — fuori dalla zona edificabile.",
+        "consequence": "Costruire è limitato alle esigenze agricole.",
+        "caveat": "Zona {code} come pubblicata dal cantone ({municipality}, {plan_ref})."
       },
       "reserve": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Zona: zona di riserva — non ancora aperta all'edificazione.",
+        "consequence": "Nessuna costruzione finché il comune non attribuisce una zona.",
+        "caveat": "Zona {code} come pubblicata dal cantone ({municipality}, {plan_ref})."
       },
       "reserve_nofloors": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Zona: zona di riserva — non ancora aperta all'edificazione.",
+        "consequence": "Nessuna costruzione finché il comune non attribuisce una zona.",
+        "caveat": "Zona {code} come pubblicata dal cantone ({municipality}, {plan_ref})."
       },
       "other": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Zona: {name}, fino a {floors} piani pieni.",
+        "consequence": "Il regolamento edilizio comunale stabilisce che cosa si può costruire qui.",
+        "caveat": "Zona {code} come pubblicata dal cantone ({municipality}, {plan_ref})."
       },
       "other_nofloors": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Zona: {name}.",
+        "consequence": "Il regolamento edilizio comunale stabilisce che cosa si può costruire qui.",
+        "caveat": "Zona {code} come pubblicata dal cantone ({municipality}, {plan_ref})."
       }
     },
     "regulation": {
       "rules": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Regole edilizie di questa zona: fino a {floors} piani pieni, {height} m di altezza, densità {far}% della superficie del fondo.",
+        "consequence": "Questi numeri del regolamento edilizio comunale ({article}) fissano il volume di tutto ciò che potrebbe essere costruito qui.",
+        "caveat": "{n_rules} regole lette nel testo del regolamento; eccezioni specifiche per il comparto e il diritto cantonale possono modificarle."
       },
       "plan_specific": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Le regole edilizie di questa zona sono fissate da piani specifici per il comparto, non da una semplice tabella.",
+        "consequence": "Solo l'ufficio di pianificazione può indicarle il volume esatto qui.",
+        "caveat": "Il regolamento non ha una tabella numerica per la zona {code} ({name})."
       }
     },
     "potential": {
       "headroom": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Qui probabilmente potrebbe costruire di più: gli edifici esistenti usano circa il {pct}% di ciò che la zona sembra permettere.",
+        "consequence": "All'incirca {headroom} m² di superficie di piano aggiuntiva potrebbero essere possibili ({existing} m² usati su {allowed}).",
+        "caveat": "Stima dall'indice di densità × superficie del fondo, confrontata con le superfici del registro; superfici computabili, distanze, beni culturali e regole estetiche possono ridurla nettamente."
       },
       "full": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Il fondo è sostanzialmente edificato: gli edifici esistenti usano già circa il {pct}% di ciò che la zona attuale permette.",
+        "consequence": "Superficie aggiuntiva richiederebbe una deroga, un piano speciale o un cambio di zona; ciò che esiste oggi è protetto come edificio esistente.",
+        "caveat": "Stima dall'indice di densità × superficie del fondo, confrontata con le superfici del registro; valori sopra il 100% sono comuni per edifici più vecchi e significano «nessun margine», non una violazione."
       },
       "undetermined": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Quanto si potrebbe costruire in più qui non è determinabile dai dati pubblici.",
+        "consequence": "Devono valutarlo un architetto o l'ufficio di pianificazione: {reason}.",
+        "caveat": "Alla zona {code} non si applica alcun indice di densità numerico, oppure nel registro mancano i piani o l'impronta di un edificio."
       }
     },
     "activity": {
       "n": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "{n} domande di costruzione sono state pubblicate entro {radius} m negli ultimi {months} mesi.",
+        "consequence": "Il quartiere sta cambiando ({kinds}); la più vicina è a {nearest_m} m: {nearest}.",
+        "caveat": "Contate nel registro cantonale delle pubblicazioni edilizie ufficiali; i progetti su fondi non localizzabili non sono contati."
       },
       "none": {
-        "title": "__TODO__",
-        "consequence": "__TODO__",
-        "caveat": "__TODO__"
+        "title": "Nessuna domanda di costruzione è stata pubblicata entro {radius} m negli ultimi {months} mesi.",
+        "consequence": "Un quartiere tranquillo, stando alle pubblicazioni ufficiali.",
+        "caveat": "Contate nel registro cantonale delle pubblicazioni edilizie ufficiali dal 2022; i progetti senza un numero di fondo utilizzabile non sono contati."
       }
     }
+  },
+  "office": {
+    "heritage_municipal": "all'ufficio dei beni culturali di {municipality}",
+    "heritage_cantonal": "all'ufficio cantonale dei beni culturali",
+    "planning_zurich": "dall'ufficio di urbanistica della Città di Zurigo (Amt für Städtebau)",
+    "hazard_cantonal": "al servizio cantonale dei pericoli naturali ({canton})"
+  },
+  "layer1": {
+    "not_available": "Non ancora disponibile per questo cantone — aiutaci ad aggiungerlo →",
+    "no_data": "Nessun dato in questa sezione per questo fondo.",
+    "why": "Perché? Fonte, set di dati e data di consultazione",
+    "source_row": "{dataset} · {authority} · {licence} · {retrieved_at}",
+    "decision_intro": "Che cosa significa per la sua domanda:",
+    "checks_intro": "Prima di decidere, faccia verificare:",
+    "check_architect": "da un architetto: il volume edificabile (piani, altezza, distanze) rispetto al regolamento in vigore;",
+    "check_planning": "dall'ufficio di pianificazione: zona, piani speciali e modifiche pendenti;",
+    "check_heritage": "dall'ufficio dei beni culturali: conseguenze di una protezione o di un'iscrizione all'inventario;",
+    "check_hazard": "dal servizio cantonale dei pericoli naturali: la carta dei pericoli giuridicamente vincolante;",
+    "check_notary": "da un notaio o dal registro fondiario: servitù, diritti di passo, oneri;",
+    "check_engineer": "da un ingegnere geotecnico o ambientale: terreno, inquinamento, acque sotterranee."
+  },
+  "event_type": {
+    "new_building": "nuove costruzioni",
+    "extension": "ampliamenti",
+    "conversion": "trasformazioni",
+    "demolition": "demolizioni",
+    "energy": "riscaldamento e solare",
+    "signage": "insegne",
+    "antenna": "antenne",
+    "other": "altro"
   }
 }

@@ -37,9 +37,6 @@ def test_english_has_no_todo() -> None:
     assert not todo
 
 
-@pytest.mark.xfail(
-    strict=True, reason="FR/DE/IT strings are written in WO-07; remove this mark then"
-)
 def test_no_todo_values_in_any_language() -> None:
     for lang in LANGS:
         todo = sorted(k for k, v in load(lang).items() if v == TODO)
