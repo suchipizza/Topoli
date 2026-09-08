@@ -1,10 +1,39 @@
 from __future__ import annotations
 
+from collections.abc import Callable, Iterator
 from datetime import UTC, datetime
+from pathlib import Path
 
 import pytest
 
+from topoli.core.adapters import HttpClient, set_client
+from topoli.core.adapters.fixtures import fixture_folders, seed_cache
 from topoli.core.domain import Finding, LocalizedText, Source
+
+
+@pytest.fixture(autouse=True)
+def offline_client(request: pytest.FixtureRequest, tmp_path: Path) -> Iterator[HttpClient]:
+    """Every test runs offline against a temporary cache unless marked ``live``."""
+    if request.node.get_closest_marker("live"):
+        client = HttpClient(use_cache=False, budget=1000)
+    else:
+        client = HttpClient(offline=True, cache_root=tmp_path / "cache")
+    set_client(client)
+    yield client
+    set_client(None)
+
+
+@pytest.fixture
+def replay(offline_client: HttpClient) -> Callable[[str, str], int]:
+    """``replay("ch/federal/buildings", "zurich-badenerstrasse-171")`` seeds the cache."""
+
+    def _seed(adapter_id: str, slug: str) -> int:
+        assert offline_client.cache_root is not None
+        folders = fixture_folders(adapter_id, slug)
+        assert folders, f"no fixtures for {adapter_id}/{slug}; run `topoli fixtures record`"
+        return seed_cache(offline_client.cache_root, *folders)
+
+    return _seed
 
 
 @pytest.fixture

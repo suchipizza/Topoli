@@ -34,35 +34,48 @@ jobs:
             tests/source-contracts/last_run.json
             tests/source-contracts/junit.xml
           if-no-files-found: ignore
-      - name: Open or update the source-degraded issue
+      - name: Open or update one source-degraded issue per adapter
         if: steps.live.outcome == 'failure'
         uses: actions/github-script@v7
         with:
           script: |
-            const title = "source-degraded: nightly source-contract run failed";
+            const fs = require("fs");
             const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
-            const body = [
-              `The nightly live source-contract run failed on ${new Date().toISOString().slice(0, 10)}.`,
-              "",
-              `Run: ${runUrl}`,
-              "",
-              "Per-adapter details are in the `last_run.json` artifact (WO-04 splits this into one issue per adapter).",
-            ].join("\n");
+            let degraded = [];
+            let adapters = {};
+            try {
+              const data = JSON.parse(fs.readFileSync("tests/source-contracts/last_run.json", "utf8"));
+              degraded = data.degraded || [];
+              adapters = data.adapters || {};
+            } catch (e) {
+              degraded = ["(unknown — last_run.json missing)"];
+            }
             const { data: open } = await github.rest.issues.listForRepo({
               owner: context.repo.owner, repo: context.repo.repo,
-              state: "open", labels: "source-degraded", per_page: 50,
+              state: "open", labels: "source-degraded", per_page: 100,
             });
-            const existing = open.find((i) => i.title === title);
-            if (existing) {
-              await github.rest.issues.createComment({
-                owner: context.repo.owner, repo: context.repo.repo,
-                issue_number: existing.number, body,
-              });
-            } else {
-              await github.rest.issues.create({
-                owner: context.repo.owner, repo: context.repo.repo,
-                title, body, labels: ["source-degraded"],
-              });
+            for (const adapter of degraded) {
+              const title = `source-degraded: ${adapter}`;
+              const failed = (adapters[adapter] && adapters[adapter].failed) || [];
+              const body = [
+                `The nightly live source-contract run failed for \`${adapter}\` on ${new Date().toISOString().slice(0, 10)}.`,
+                "",
+                `Run: ${runUrl}`,
+                "",
+                failed.length ? "Failed tests:\n" + failed.map((t) => `- \`${t}\``).join("\n") : "",
+                "",
+                "The coverage bar for this adapter shows *degraded* until this is fixed and the issue closed.",
+              ].join("\n");
+              const existing = open.find((i) => i.title === title);
+              if (existing) {
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner, repo: context.repo.repo, issue_number: existing.number, body,
+                });
+              } else {
+                await github.rest.issues.create({
+                  owner: context.repo.owner, repo: context.repo.repo, title, body, labels: ["source-degraded"],
+                });
+              }
             }
       - name: Fail the job if contracts failed
         if: steps.live.outcome == 'failure'

@@ -1,0 +1,201 @@
+{
+ "adapter_id": "ch/federal/parcel",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2500151.4%2C1117737.7%5D%2C%5B2500161.1%2C1117757.8%5D%2C%5B2500152.8%2C1117761.4%5D%2C%5B2500172.5%2C1117808.3%5D%2C%5B2500187.7%2C1117801.9%5D%2C%5B2500197.8%2C1117806.1%5D%2C%5B2500197.5%2C1117805.3%5D%2C%5B2500207.2%2C1117799.4%5D%2C%5B2500209.3%2C1117798.1%5D%2C%5B2500218.2%2C1117792.5%5D%2C%5B2500208.3%2C1117778.2%5D%2C%5B2500195.1%2C1117786.5%5D%2C%5B2500184.4%2C1117768.8%5D%2C%5B2500176.2%2C1117772.9%5D%2C%5B2500171.2%2C1117761.0%5D%2C%5B2500175.2%2C1117759.2%5D%2C%5B2500170.8%2C1117749.6%5D%2C%5B2500171.8%2C1117749.2%5D%2C%5B2500167.4%2C1117739.6%5D%2C%5B2500168.8%2C1117738.9%5D%2C%5B2500165.8%2C1117732.4%5D%2C%5B2500165.3%2C1117732.6%5D%2C%5B2500151.4%2C1117737.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200",
+ "retrieved_at": "2026-09-08T09:35:22.220904Z",
+ "payload": {
+  "results": [
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 949071,
+    "id": 949071,
+    "properties": {
+     "bfsnr": 6621,
+     "ak": "GE",
+     "name": "7038",
+     "number": "7038",
+     "identnd": "GE0100000021",
+     "egris_egrid": "CH208063666546",
+     "realestate_type": null,
+     "geoportal_url": "https://map.sitg.ch/?mapresources=CADASTRE",
+     "label": "7038"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 947976,
+    "id": 947976,
+    "properties": {
+     "bfsnr": 6621,
+     "ak": "GE",
+     "name": "7331",
+     "number": "7331",
+     "identnd": "GE0100000021",
+     "egris_egrid": "CH468165635251",
+     "realestate_type": null,
+     "geoportal_url": "https://map.sitg.ch/?mapresources=CADASTRE",
+     "label": "7331"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 946030,
+    "id": 946030,
+    "properties": {
+     "bfsnr": 6621,
+     "ak": "GE",
+     "name": "7758",
+     "number": "7758",
+     "identnd": "GE0100000021",
+     "egris_egrid": "CH558665886371",
+     "realestate_type": null,
+     "geoportal_url": "https://map.sitg.ch/?mapresources=CADASTRE",
+     "label": "7758"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 945126,
+    "id": 945126,
+    "properties": {
+     "bfsnr": 6621,
+     "ak": "GE",
+     "name": "7013",
+     "number": "7013",
+     "identnd": "GE0100000021",
+     "egris_egrid": "CH296589536314",
+     "realestate_type": null,
+     "geoportal_url": "https://map.sitg.ch/?mapresources=CADASTRE",
+     "label": "7013"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 944868,
+    "id": 944868,
+    "properties": {
+     "bfsnr": 6621,
+     "ak": "GE",
+     "name": "5920",
+     "number": "5920",
+     "identnd": "GE0100000021",
+     "egris_egrid": "CH608963316563",
+     "realestate_type": null,
+     "geoportal_url": "https://map.sitg.ch/?mapresources=CADASTRE",
+     "label": "5920"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 944140,
+    "id": 944140,
+    "properties": {
+     "bfsnr": 6621,
+     "ak": "GE",
+     "name": "7625",
+     "number": "7625",
+     "identnd": "GE0100000021",
+     "egris_egrid": "CH459865816393",
+     "realestate_type": null,
+     "geoportal_url": "https://map.sitg.ch/?mapresources=CADASTRE",
+     "label": "7625"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 943054,
+    "id": 943054,
+    "properties": {
+     "bfsnr": 6621,
+     "ak": "GE",
+     "name": "5918",
+     "number": "5918",
+     "identnd": "GE0100000021",
+     "egris_egrid": "CH916324658733",
+     "realestate_type": null,
+     "geoportal_url": "https://map.sitg.ch/?mapresources=CADASTRE",
+     "label": "5918"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 942760,
+    "id": 942760,
+    "properties": {
+     "bfsnr": 6621,
+     "ak": "GE",
+     "name": "7626",
+     "number": "7626",
+     "identnd": "GE0100000021",
+     "egris_egrid": "CH708863816503",
+     "realestate_type": null,
+     "geoportal_url": "https://map.sitg.ch/?mapresources=CADASTRE",
+     "label": "7626"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 942243,
+    "id": 942243,
+    "properties": {
+     "bfsnr": 6621,
+     "ak": "GE",
+     "name": "5927",
+     "number": "5927",
+     "identnd": "GE0100000021",
+     "egris_egrid": "CH296580406337",
+     "realestate_type": null,
+     "geoportal_url": "https://map.sitg.ch/?mapresources=CADASTRE",
+     "label": "5927"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 942016,
+    "id": 942016,
+    "properties": {
+     "bfsnr": 6621,
+     "ak": "GE",
+     "name": "5919",
+     "number": "5919",
+     "identnd": "GE0100000021",
+     "egris_egrid": "CH446365819817",
+     "realestate_type": null,
+     "geoportal_url": "https://map.sitg.ch/?mapresources=CADASTRE",
+     "label": "5919"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "featureId": 939257,
+    "id": 939257,
+    "properties": {
+     "bfsnr": 6621,
+     "ak": "GE",
+     "name": "7012",
+     "number": "7012",
+     "identnd": "GE0100000021",
+     "egris_egrid": "CH352465816388",
+     "realestate_type": null,
+     "geoportal_url": "https://map.sitg.ch/?mapresources=CADASTRE",
+     "label": "7012"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2500151.4%2C1117737.7%5D%2C%5B2500161.1%2C1117757.8%5D%2C%5B2500152.8%2C1117761.4%5D%2C%5B2500172.5%2C1117808.3%5D%2C%5B2500187.7%2C1117801.9%5D%2C%5B2500197.8%2C1117806.1%5D%2C%5B2500197.5%2C1117805.3%5D%2C%5B2500207.2%2C1117799.4%5D%2C%5B2500209.3%2C1117798.1%5D%2C%5B2500218.2%2C1117792.5%5D%2C%5B2500208.3%2C1117778.2%5D%2C%5B2500195.1%2C1117786.5%5D%2C%5B2500184.4%2C1117768.8%5D%2C%5B2500176.2%2C1117772.9%5D%2C%5B2500171.2%2C1117761.0%5D%2C%5B2500175.2%2C1117759.2%5D%2C%5B2500170.8%2C1117749.6%5D%2C%5B2500171.8%2C1117749.2%5D%2C%5B2500167.4%2C1117739.6%5D%2C%5B2500168.8%2C1117738.9%5D%2C%5B2500165.8%2C1117732.4%5D%2C%5B2500165.3%2C1117732.6%5D%2C%5B2500151.4%2C1117737.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

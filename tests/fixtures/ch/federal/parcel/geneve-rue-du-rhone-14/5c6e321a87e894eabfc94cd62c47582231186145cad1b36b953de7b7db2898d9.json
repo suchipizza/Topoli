@@ -1,0 +1,33 @@
+{
+ "adapter_id": "ch/federal/parcel",
+ "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=CH296589536314&type=locations&sr=2056&limit=1&origins=parcel",
+ "retrieved_at": "2026-09-08T09:35:22.103905Z",
+ "payload": {
+  "results": [
+   {
+    "attrs": {
+     "detail": "7013 geneve 6621 ch296589536314",
+     "geom_quadindex": "0221210121",
+     "geom_st_box2d": "BOX(2500151.3779999986 1117732.4250000007,2500218.223000001 1117808.2800000012)",
+     "label": "<b>Genève</b> 7013 (CH 2965 8953 6314)",
+     "lat": 46.20397186279297,
+     "lon": 6.1451544761657715,
+     "num": 7013,
+     "objectclass": "",
+     "origin": "parcel",
+     "rank": 10,
+     "x": 1117770.875,
+     "y": 2500166.0,
+     "zoomlevel": 10
+    },
+    "id": 945126,
+    "weight": 7
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=CH296589536314&type=locations&sr=2056&limit=1&origins=parcel"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

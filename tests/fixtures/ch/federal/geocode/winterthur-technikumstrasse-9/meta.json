@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Technikumstrasse 9, 8400 Winterthur",
+  "site_id": "230-ST9255",
+  "recorded_at": "2026-09-08T09:35:20+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "e40bcf7af8f81e22a0ad26c1216e04ca295c1f41bd744816009acaa1879937be.json",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Technikumstrasse+9%2C+8400+Winterthur&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "24dd4e073aa7069c4064f9cc0f3560f74f5a324413823123f34069b8fd24dc72.json",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2697252.0%2C1261532.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2696752.0%2C1261032.75%2C2697752.0%2C1262032.75&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

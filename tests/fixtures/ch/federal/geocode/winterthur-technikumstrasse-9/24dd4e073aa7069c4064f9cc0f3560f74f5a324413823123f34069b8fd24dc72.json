@@ -1,0 +1,109 @@
+{
+ "adapter_id": "ch/federal/geocode",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2697252.0%2C1261532.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2696752.0%2C1261032.75%2C2697752.0%2C1262032.75&imageDisplay=1000%2C1000%2C96",
+ "retrieved_at": "2026-09-08T09:35:20.543055Z",
+ "payload": {
+  "results": [
+   {
+    "layerBodId": "ch.bfs.gebaeude_wohnungs_register",
+    "layerName": "GWR: Gebäudestatus",
+    "featureId": "2323668_0",
+    "id": "2323668_0",
+    "properties": {
+     "egid": "2323668",
+     "strname_deinr": "Technikumstrasse 9",
+     "plz_plz6": "8400/840000",
+     "ggdename": "Winterthur",
+     "ggdenr": 230,
+     "gexpdat": "06.09.2026",
+     "gdekt": "ZH",
+     "egrid": "CH427786200879",
+     "lgbkr": 1,
+     "lparz": "ST9255",
+     "lparzsx": null,
+     "ltyp": null,
+     "gebnr": "230ST01194",
+     "gbez": "",
+     "gkode": 2697253.29,
+     "gkodn": 1261523.581,
+     "gksce": 901,
+     "gstat": 1004,
+     "gkat": 1060,
+     "gklas": 1263,
+     "gbauj": 1877,
+     "gbaum": 1,
+     "gbaup": 8011,
+     "gabbj": null,
+     "garea": 1339,
+     "gvol": null,
+     "gvolnorm": null,
+     "gvolsce": null,
+     "gastw": null,
+     "ganzwhg": null,
+     "gazzi": null,
+     "gschutzr": null,
+     "gebf": null,
+     "gwaerzh1": 7461,
+     "genh1": 7581,
+     "gwaersceh1": 865,
+     "gwaerdath1": "09.02.2024",
+     "gwaerzh2": null,
+     "genh2": null,
+     "gwaersceh2": null,
+     "gwaerdath2": "-",
+     "gwaerzw1": 7600,
+     "genw1": 7500,
+     "gwaerscew1": 859,
+     "gwaerdatw1": "12.02.2021",
+     "gwaerzw2": 7600,
+     "genw2": 7500,
+     "gwaerscew2": 859,
+     "gwaerdatw2": "12.02.2021",
+     "edid": "0",
+     "egaid": 101160249,
+     "deinr": "9",
+     "esid": 10091753,
+     "strname": [
+      "Technikumstrasse"
+     ],
+     "strnamk": [
+      "Technikumstr."
+     ],
+     "strindx": [
+      "Tec"
+     ],
+     "strsp": [
+      "DE"
+     ],
+     "stroffiziel": "1",
+     "dplz4": 8400,
+     "dplzz": 0,
+     "dplzname": "Winterthur",
+     "dkode": 2697252.022,
+     "dkodn": 1261532.786,
+     "doffadr": 1,
+     "dexpdat": "06.09.2026",
+     "ewid": null,
+     "whgnr": null,
+     "wstwk": null,
+     "wmehrg": null,
+     "weinr": null,
+     "wbez": null,
+     "wstat": null,
+     "wexpdat": null,
+     "wbauj": null,
+     "wabbj": null,
+     "warea": null,
+     "wazim": null,
+     "wkche": null,
+     "label": "Technikumstrasse 9"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2697252.0%2C1261532.75&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2696752.0%2C1261032.75%2C2697752.0%2C1262032.75&imageDisplay=1000%2C1000%2C96"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

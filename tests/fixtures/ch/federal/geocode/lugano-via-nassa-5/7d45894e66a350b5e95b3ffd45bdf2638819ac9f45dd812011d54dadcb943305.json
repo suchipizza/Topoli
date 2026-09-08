@@ -1,0 +1,46 @@
+{
+ "adapter_id": "ch/federal/geocode",
+ "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Via+Nassa+5%2C+6900+Lugano&type=locations&sr=2056&limit=10&origins=address",
+ "retrieved_at": "2026-09-08T09:35:23.038127Z",
+ "payload": {
+  "results": [
+   {
+    "attrs": {
+     "detail": "via nassa 5 6900 lugano 5192 lugano ch ti",
+     "featureId": "740335_0",
+     "geom_quadindex": "032033310233122312331",
+     "geom_st_box2d": "BOX(2717096.1889999993 1095749.1369999982,2717096.1889999993 1095749.1369999982)",
+     "label": "Via Nassa 5 <b>6900 Lugano</b>",
+     "lat": 46.003150939941406,
+     "links": [
+      {
+       "href": "/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/101324727",
+       "rel": "related",
+       "title": "ch.swisstopo.amtliches-gebaeudeadressverzeichnis"
+      },
+      {
+       "href": "/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/740335_0",
+       "rel": "related",
+       "title": "ch.bfs.gebaeude_wohnungs_register"
+      }
+     ],
+     "lon": 8.95024585723877,
+     "num": 5,
+     "objectclass": "",
+     "origin": "address",
+     "rank": 7,
+     "x": 1095749.125,
+     "y": 2717096.25,
+     "zoomlevel": 10
+    },
+    "id": 237245,
+    "weight": 1
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Via+Nassa+5%2C+6900+Lugano&type=locations&sr=2056&limit=10&origins=address"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

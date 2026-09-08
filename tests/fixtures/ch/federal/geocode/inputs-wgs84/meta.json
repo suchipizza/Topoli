@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "47.3745, 8.5206",
+  "site_id": "261-AU6979",
+  "recorded_at": "2026-09-08T09:35:24+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "7ed3311d29f82b4a7fd4cc6c1fca78c8d62d7d7babba87eb5c80416d6f836e2f.json",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2681714.2087974674%2C1247636.6312473773&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=25&returnGeometry=false&limit=5&mapExtent=2681214.2087974674%2C1247136.6312473773%2C2682214.2087974674%2C1248136.6312473773&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

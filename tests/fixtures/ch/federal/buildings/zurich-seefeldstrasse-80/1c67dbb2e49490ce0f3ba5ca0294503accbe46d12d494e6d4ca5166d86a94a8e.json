@@ -1,0 +1,232 @@
+{
+ "adapter_id": "ch/federal/buildings",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683801.6%2C1246636.2%5D%2C%5B2683812.1%2C1246651.8%5D%2C%5B2683816.4%2C1246658.1%5D%2C%5B2683829.6%2C1246647.4%5D%2C%5B2683821.8%2C1246638.2%5D%2C%5B2683817.7%2C1246641.0%5D%2C%5B2683815.3%2C1246637.5%5D%2C%5B2683807.6%2C1246626.2%5D%2C%5B2683801.6%2C1246636.2%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200",
+ "retrieved_at": "2026-09-08T09:35:20.267567Z",
+ "payload": {
+  "results": [
+   {
+    "type": "Feature",
+    "featureId": "2369241_1",
+    "bbox": [
+     2683808.4,
+     1246635.8,
+     2683808.4,
+     1246635.8
+    ],
+    "layerBodId": "ch.bfs.gebaeude_wohnungs_register",
+    "layerName": "GWR: Gebäudestatus",
+    "id": "2369241_1",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      2683808.4,
+      1246635.8
+     ]
+    },
+    "properties": {
+     "egid": "2369241",
+     "strname_deinr": "Seefeldstrasse 1",
+     "plz_plz6": "8008/800800",
+     "ggdename": "Zürich",
+     "ggdenr": 261,
+     "gexpdat": "06.09.2026",
+     "gdekt": "ZH",
+     "egrid": "CH986399917979",
+     "lgbkr": 273,
+     "lparz": "RI4432",
+     "lparzsx": null,
+     "ltyp": null,
+     "gebnr": "261RI00278",
+     "gbez": "",
+     "gkode": 2683812.14,
+     "gkodn": 1246641.7,
+     "gksce": 904,
+     "gstat": 1004,
+     "gkat": 1060,
+     "gklas": 1220,
+     "gbauj": 1838,
+     "gbaum": 1,
+     "gbaup": 8011,
+     "gabbj": null,
+     "garea": 279,
+     "gvol": 6000,
+     "gvolnorm": 962,
+     "gvolsce": 859,
+     "gastw": 7,
+     "ganzwhg": null,
+     "gazzi": null,
+     "gschutzr": 1,
+     "gebf": 1395,
+     "gwaerzh1": 7430,
+     "genh1": 7520,
+     "gwaersceh1": 859,
+     "gwaerdath1": "24.11.2018",
+     "gwaerzh2": null,
+     "genh2": null,
+     "gwaersceh2": null,
+     "gwaerdath2": "-",
+     "gwaerzw1": 7630,
+     "genw1": 7520,
+     "gwaerscew1": 859,
+     "gwaerdatw1": "24.11.2018",
+     "gwaerzw2": null,
+     "genw2": null,
+     "gwaerscew2": null,
+     "gwaerdatw2": "-",
+     "edid": "1",
+     "egaid": 101698587,
+     "deinr": "1",
+     "esid": 10054852,
+     "strname": [
+      "Seefeldstrasse"
+     ],
+     "strnamk": [
+      "Seefeldstr."
+     ],
+     "strindx": [
+      "See"
+     ],
+     "strsp": [
+      "DE"
+     ],
+     "stroffiziel": "1",
+     "dplz4": 8008,
+     "dplzz": 0,
+     "dplzname": "Zürich",
+     "dkode": 2683808.402,
+     "dkodn": 1246635.819,
+     "doffadr": 1,
+     "dexpdat": "06.09.2026",
+     "ewid": null,
+     "whgnr": null,
+     "wstwk": null,
+     "wmehrg": null,
+     "weinr": null,
+     "wbez": null,
+     "wstat": null,
+     "wexpdat": null,
+     "wbauj": null,
+     "wabbj": null,
+     "warea": null,
+     "wazim": null,
+     "wkche": null,
+     "label": "Seefeldstrasse 1"
+    }
+   },
+   {
+    "type": "Feature",
+    "featureId": "2369241_0",
+    "bbox": [
+     2683815.8,
+     1246646.7,
+     2683815.8,
+     1246646.7
+    ],
+    "layerBodId": "ch.bfs.gebaeude_wohnungs_register",
+    "layerName": "GWR: Gebäudestatus",
+    "id": "2369241_0",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      2683815.8,
+      1246646.7
+     ]
+    },
+    "properties": {
+     "egid": "2369241",
+     "strname_deinr": "Falkenstrasse 22",
+     "plz_plz6": "8008/800800",
+     "ggdename": "Zürich",
+     "ggdenr": 261,
+     "gexpdat": "06.09.2026",
+     "gdekt": "ZH",
+     "egrid": "CH986399917979",
+     "lgbkr": 273,
+     "lparz": "RI4432",
+     "lparzsx": null,
+     "ltyp": null,
+     "gebnr": "261RI00278",
+     "gbez": "",
+     "gkode": 2683812.14,
+     "gkodn": 1246641.7,
+     "gksce": 904,
+     "gstat": 1004,
+     "gkat": 1060,
+     "gklas": 1220,
+     "gbauj": 1838,
+     "gbaum": 1,
+     "gbaup": 8011,
+     "gabbj": null,
+     "garea": 279,
+     "gvol": 6000,
+     "gvolnorm": 962,
+     "gvolsce": 859,
+     "gastw": 7,
+     "ganzwhg": null,
+     "gazzi": null,
+     "gschutzr": 1,
+     "gebf": 1395,
+     "gwaerzh1": 7430,
+     "genh1": 7520,
+     "gwaersceh1": 859,
+     "gwaerdath1": "24.11.2018",
+     "gwaerzh2": null,
+     "genh2": null,
+     "gwaersceh2": null,
+     "gwaerdath2": "-",
+     "gwaerzw1": 7630,
+     "genw1": 7520,
+     "gwaerscew1": 859,
+     "gwaerdatw1": "24.11.2018",
+     "gwaerzw2": null,
+     "genw2": null,
+     "gwaerscew2": null,
+     "gwaerdatw2": "-",
+     "edid": "0",
+     "egaid": 101068004,
+     "deinr": "22",
+     "esid": 10182277,
+     "strname": [
+      "Falkenstrasse"
+     ],
+     "strnamk": [
+      "Falkenstr."
+     ],
+     "strindx": [
+      "Fal"
+     ],
+     "strsp": [
+      "DE"
+     ],
+     "stroffiziel": "1",
+     "dplz4": 8008,
+     "dplzz": 0,
+     "dplzname": "Zürich",
+     "dkode": 2683815.801,
+     "dkodn": 1246646.723,
+     "doffadr": 1,
+     "dexpdat": "06.09.2026",
+     "ewid": null,
+     "whgnr": null,
+     "wstwk": null,
+     "wmehrg": null,
+     "weinr": null,
+     "wbez": null,
+     "wstat": null,
+     "wexpdat": null,
+     "wbauj": null,
+     "wabbj": null,
+     "warea": null,
+     "wazim": null,
+     "wkche": null,
+     "label": "Falkenstrasse 22"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683801.6%2C1246636.2%5D%2C%5B2683812.1%2C1246651.8%5D%2C%5B2683816.4%2C1246658.1%5D%2C%5B2683829.6%2C1246647.4%5D%2C%5B2683821.8%2C1246638.2%5D%2C%5B2683817.7%2C1246641.0%5D%2C%5B2683815.3%2C1246637.5%5D%2C%5B2683807.6%2C1246626.2%5D%2C%5B2683801.6%2C1246636.2%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

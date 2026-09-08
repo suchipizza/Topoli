@@ -1,0 +1,81 @@
+{
+ "adapter_id": "ch/federal/parcel",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683808.5%2C1246635.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200",
+ "retrieved_at": "2026-09-08T09:35:19.738850Z",
+ "payload": {
+  "results": [
+   {
+    "type": "Feature",
+    "featureId": 2290937,
+    "bbox": [
+     2683801.6,
+     1246626.2,
+     2683829.6,
+     1246658.1
+    ],
+    "layerBodId": "ch.swisstopo-vd.amtliche-vermessung",
+    "layerName": "OpenData-AV",
+    "id": 2290937,
+    "geometry": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        2683801.6,
+        1246636.2
+       ],
+       [
+        2683812.1,
+        1246651.8
+       ],
+       [
+        2683816.4,
+        1246658.1
+       ],
+       [
+        2683829.6,
+        1246647.4
+       ],
+       [
+        2683821.8,
+        1246638.2
+       ],
+       [
+        2683817.7,
+        1246641.0
+       ],
+       [
+        2683815.3,
+        1246637.5
+       ],
+       [
+        2683807.6,
+        1246626.2
+       ],
+       [
+        2683801.6,
+        1246636.2
+       ]
+      ]
+     ]
+    },
+    "properties": {
+     "bfsnr": 261,
+     "ak": "ZH",
+     "name": "RI4432",
+     "number": "RI4432",
+     "identnd": "ZH0200000261",
+     "egris_egrid": "CH986399917979",
+     "realestate_type": null,
+     "geoportal_url": "https://maps.zh.ch?topic=AVfarbigZH&locate=gemeinden&locations=261",
+     "label": "RI4432"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683808.5%2C1246635.875&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Via Nassa 5, 6900 Lugano",
+  "site_id": "5192-191",
+  "recorded_at": "2026-09-08T09:35:23+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "7d45894e66a350b5e95b3ffd45bdf2638819ac9f45dd812011d54dadcb943305.json",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Via+Nassa+5%2C+6900+Lugano&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "e97490e2fae43419e381973042bd68cdc68b69df3b84f9cd013672950f36b8b0.json",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2717096.25%2C1095749.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2716596.25%2C1095249.125%2C2717596.25%2C1096249.125&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}
