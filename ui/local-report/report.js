@@ -1,6 +1,7 @@
 (function () {
   "use strict";
-  var D = window.TOPOLI;
+  var D = JSON.parse(document.getElementById("topoli-data").textContent);
+  window.TOPOLI = D;
   var lang = D.lang;
   var rendered = D.lang;
   function t(key) {
