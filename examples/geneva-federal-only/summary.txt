@@ -1,0 +1,25 @@
+CHECK IMMOBILIER — Rue du Rhône 14 1204 Genève, Genève
+
+🌊  Inondation : faible — seule une crue très rare (1 fois en 500 ans) atteindrait 7% de la parcelle.
+    En général sans contrainte, mais les assurances et le canton peuvent demander des précautions.
+
+☀️  Solaire : les toits sont très bien adaptés aux panneaux solaires (3000 m² utilisables, environ 580 MWh par an).
+    Une installation solaire vaut probablement la peine ; beaucoup de cantons la subventionnent.
+
+🔊  Bruit routier : faible (environ 51 dB le jour, 40 dB la nuit).
+    Le bruit routier ne devrait pas limiter la disposition des logements.
+
+🏛  Patrimoine : aucune inscription fédérale trouvée pour cette parcelle.
+    Aucune contrainte issue des inventaires fédéraux du patrimoine.
+
+🧪  Sites pollués : aucune inscription dans les cadastres fédéraux pour cette parcelle.
+    Aucune trace fédérale de pollution liée aux chemins de fer, aux aérodromes ou à l'armée.
+
+Fiabilité : 3 faits officiels · 2 calculs · 0 estimations · 0 à faire vérifier par un professionnel
+Prochaine étape : commandez auprès du service cantonal des dangers naturels (GE) l'extrait de la carte cantonale des dangers pour cette parcelle
+
+▸ Ouvrir le rapport complet : ./index.html
+▸ Partager : ./card.png
+
+Essayez vous-même en 3 étapes → https://topoli.ch/run?src=summary&lang=fr
+⭐ Mettre une étoile sur GitHub → https://github.com/suchipizza/Topoli

@@ -1,0 +1,4967 @@
+{
+ "site": {
+  "id": "261-AA2912",
+  "input_address": "Limmatquai 1, 8001 Zürich",
+  "address": "Limmatquai 1 8001 Zürich",
+  "coordinates": {
+   "lon": 8.54471289632721,
+   "lat": 47.367750087243344,
+   "east": 2683545.75,
+   "north": 1246911.625
+  },
+  "jurisdiction": {
+   "country": "CH",
+   "canton": "ZH",
+   "municipality": "Zürich",
+   "bfs_number": 261
+  },
+  "parcel_ids": [
+   "CH819189997789"
+  ],
+  "egid": "9011202",
+  "resolve_confidence": 0.95,
+  "lang_default": "de",
+  "sources": [
+   {
+    "adapter_id": "ch/federal/geocode",
+    "authority": "Bundesamt für Landestopografie swisstopo",
+    "dataset": "geo.admin.ch SearchServer (locations)",
+    "licence": "geoadmin-terms",
+    "retrieved_at": "2026-09-08T09:53:06.630473Z",
+    "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Limmatquai+1%2C+8001+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address",
+    "stale_as_of": null
+   },
+   {
+    "adapter_id": "ch/federal/geocode",
+    "authority": "Bundesamt für Statistik BFS",
+    "dataset": "ch.bfs.gebaeude_wohnungs_register",
+    "licence": "geoadmin-terms",
+    "retrieved_at": "2026-09-08T09:53:06.659257Z",
+    "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683545.75%2C1246911.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2683045.75%2C1246411.625%2C2684045.75%2C1247411.625&imageDisplay=1000%2C1000%2C96",
+    "stale_as_of": null
+   }
+  ]
+ },
+ "parcels": [
+  {
+   "national_id": "CH819189997789",
+   "local_id": "AA2912",
+   "municipality": "Zürich",
+   "bfs_number": 261,
+   "canton": "ZH",
+   "geometry_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       8.5442321,
+       47.3679029
+      ],
+      [
+       8.5442322,
+       47.3679056
+      ],
+      [
+       8.5442336,
+       47.3679083
+      ],
+      [
+       8.544235,
+       47.367911
+      ],
+      [
+       8.544235,
+       47.3679128
+      ],
+      [
+       8.5442364,
+       47.3679154
+      ],
+      [
+       8.5442377,
+       47.3679181
+      ],
+      [
+       8.5442391,
+       47.3679208
+      ],
+      [
+       8.5442405,
+       47.3679226
+      ],
+      [
+       8.5442419,
+       47.3679253
+      ],
+      [
+       8.5442446,
+       47.367928
+      ],
+      [
+       8.5442459,
+       47.3679297
+      ],
+      [
+       8.5442473,
+       47.3679324
+      ],
+      [
+       8.54425,
+       47.3679342
+      ],
+      [
+       8.5442514,
+       47.3679369
+      ],
+      [
+       8.5442541,
+       47.3679387
+      ],
+      [
+       8.5442554,
+       47.3679413
+      ],
+      [
+       8.5442581,
+       47.3679431
+      ],
+      [
+       8.5442595,
+       47.3679458
+      ],
+      [
+       8.5442622,
+       47.3679476
+      ],
+      [
+       8.5442649,
+       47.3679493
+      ],
+      [
+       8.5442676,
+       47.3679511
+      ],
+      [
+       8.5442703,
+       47.3679538
+      ],
+      [
+       8.544273,
+       47.3679556
+      ],
+      [
+       8.5442756,
+       47.3679573
+      ],
+      [
+       8.5442783,
+       47.3679591
+      ],
+      [
+       8.544281,
+       47.3679609
+      ],
+      [
+       8.5442837,
+       47.3679627
+      ],
+      [
+       8.5442877,
+       47.3679635
+      ],
+      [
+       8.5442904,
+       47.3679653
+      ],
+      [
+       8.544293,
+       47.3679671
+      ],
+      [
+       8.544297,
+       47.3679679
+      ],
+      [
+       8.5442997,
+       47.3679697
+      ],
+      [
+       8.5443037,
+       47.3679715
+      ],
+      [
+       8.5443064,
+       47.3679723
+      ],
+      [
+       8.5443104,
+       47.3679741
+      ],
+      [
+       8.5443131,
+       47.367975
+      ],
+      [
+       8.5443171,
+       47.3679758
+      ],
+      [
+       8.5443211,
+       47.3679767
+      ],
+      [
+       8.5443237,
+       47.3679785
+      ],
+      [
+       8.5443277,
+       47.3679793
+      ],
+      [
+       8.5443317,
+       47.3679802
+      ],
+      [
+       8.5443357,
+       47.3679811
+      ],
+      [
+       8.5443384,
+       47.3679819
+      ],
+      [
+       8.5443423,
+       47.3679819
+      ],
+      [
+       8.5443463,
+       47.3679827
+      ],
+      [
+       8.5443503,
+       47.3679836
+      ],
+      [
+       8.5443543,
+       47.3679836
+      ],
+      [
+       8.5443583,
+       47.3679844
+      ],
+      [
+       8.5443623,
+       47.3679844
+      ],
+      [
+       8.5443649,
+       47.3679853
+      ],
+      [
+       8.5443689,
+       47.3679852
+      ],
+      [
+       8.5443729,
+       47.3679852
+      ],
+      [
+       8.5443768,
+       47.3679852
+      ],
+      [
+       8.5443808,
+       47.3679851
+      ],
+      [
+       8.5443848,
+       47.3679851
+      ],
+      [
+       8.5443888,
+       47.367985
+      ],
+      [
+       8.5443927,
+       47.367985
+      ],
+      [
+       8.5443967,
+       47.367985
+      ],
+      [
+       8.5444006,
+       47.367984
+      ],
+      [
+       8.5444046,
+       47.367984
+      ],
+      [
+       8.5444086,
+       47.3679831
+      ],
+      [
+       8.5444125,
+       47.367983
+      ],
+      [
+       8.5444152,
+       47.3679821
+      ],
+      [
+       8.5444191,
+       47.3679812
+      ],
+      [
+       8.5444231,
+       47.3679811
+      ],
+      [
+       8.544427,
+       47.3679802
+      ],
+      [
+       8.544431,
+       47.3679792
+      ],
+      [
+       8.544435,
+       47.3679783
+      ],
+      [
+       8.5444376,
+       47.3679774
+      ],
+      [
+       8.5444415,
+       47.3679764
+      ],
+      [
+       8.5444455,
+       47.3679746
+      ],
+      [
+       8.5444481,
+       47.3679737
+      ],
+      [
+       8.544452,
+       47.3679727
+      ],
+      [
+       8.5444547,
+       47.3679709
+      ],
+      [
+       8.5444586,
+       47.36797
+      ],
+      [
+       8.5444625,
+       47.3679681
+      ],
+      [
+       8.5444652,
+       47.3679672
+      ],
+      [
+       8.5444678,
+       47.3679654
+      ],
+      [
+       8.5444717,
+       47.3679636
+      ],
+      [
+       8.5444743,
+       47.3679617
+      ],
+      [
+       8.5444769,
+       47.3679599
+      ],
+      [
+       8.5444809,
+       47.367959
+      ],
+      [
+       8.5444835,
+       47.3679571
+      ],
+      [
+       8.5444861,
+       47.3679544
+      ],
+      [
+       8.5444887,
+       47.3679526
+      ],
+      [
+       8.5444913,
+       47.3679508
+      ],
+      [
+       8.5444939,
+       47.367949
+      ],
+      [
+       8.5444965,
+       47.3679471
+      ],
+      [
+       8.5444991,
+       47.3679444
+      ],
+      [
+       8.5445004,
+       47.3679426
+      ],
+      [
+       8.544503,
+       47.3679408
+      ],
+      [
+       8.5445043,
+       47.3679408
+      ],
+      [
+       8.5446694,
+       47.3677908
+      ],
+      [
+       8.5446734,
+       47.3677925
+      ],
+      [
+       8.5447631,
+       47.3677107
+      ],
+      [
+       8.5447604,
+       47.3677089
+      ],
+      [
+       8.5449241,
+       47.367558
+      ],
+      [
+       8.5449174,
+       47.3675545
+      ],
+      [
+       8.54492,
+       47.3675536
+      ],
+      [
+       8.5449226,
+       47.3675536
+      ],
+      [
+       8.544924,
+       47.3675526
+      ],
+      [
+       8.5449266,
+       47.3675517
+      ],
+      [
+       8.5449279,
+       47.3675508
+      ],
+      [
+       8.5449305,
+       47.3675499
+      ],
+      [
+       8.5449318,
+       47.367549
+      ],
+      [
+       8.5449331,
+       47.3675481
+      ],
+      [
+       8.5449358,
+       47.3675471
+      ],
+      [
+       8.5449371,
+       47.3675462
+      ],
+      [
+       8.5449383,
+       47.3675444
+      ],
+      [
+       8.544941,
+       47.3675435
+      ],
+      [
+       8.5449423,
+       47.3675426
+      ],
+      [
+       8.5449436,
+       47.3675408
+      ],
+      [
+       8.5449449,
+       47.3675399
+      ],
+      [
+       8.5449462,
+       47.367538
+      ],
+      [
+       8.5449475,
+       47.3675371
+      ],
+      [
+       8.5449474,
+       47.3675353
+      ],
+      [
+       8.5449487,
+       47.3675344
+      ],
+      [
+       8.54495,
+       47.3675326
+      ],
+      [
+       8.54495,
+       47.3675308
+      ],
+      [
+       8.5449513,
+       47.3675299
+      ],
+      [
+       8.5449512,
+       47.3675281
+      ],
+      [
+       8.5449525,
+       47.3675263
+      ],
+      [
+       8.5449525,
+       47.3675245
+      ],
+      [
+       8.5449525,
+       47.3675236
+      ],
+      [
+       8.5449524,
+       47.3675218
+      ],
+      [
+       8.5449537,
+       47.36752
+      ],
+      [
+       8.5449537,
+       47.3675182
+      ],
+      [
+       8.5449537,
+       47.3675164
+      ],
+      [
+       8.5449523,
+       47.3675155
+      ],
+      [
+       8.5449523,
+       47.3675137
+      ],
+      [
+       8.5449522,
+       47.3675119
+      ],
+      [
+       8.5449522,
+       47.3675101
+      ],
+      [
+       8.5449509,
+       47.3675092
+      ],
+      [
+       8.5449508,
+       47.3675074
+      ],
+      [
+       8.5449495,
+       47.3675056
+      ],
+      [
+       8.5449481,
+       47.3675047
+      ],
+      [
+       8.5449481,
+       47.3675029
+      ],
+      [
+       8.5449467,
+       47.3675021
+      ],
+      [
+       8.5449454,
+       47.3675003
+      ],
+      [
+       8.544944,
+       47.3674985
+      ],
+      [
+       8.5449427,
+       47.3674976
+      ],
+      [
+       8.5449413,
+       47.3674967
+      ],
+      [
+       8.54494,
+       47.3674949
+      ],
+      [
+       8.5449386,
+       47.367494
+      ],
+      [
+       8.544936,
+       47.3674932
+      ],
+      [
+       8.5449346,
+       47.3674914
+      ],
+      [
+       8.5449333,
+       47.3674905
+      ],
+      [
+       8.5449319,
+       47.3674896
+      ],
+      [
+       8.5449292,
+       47.3674887
+      ],
+      [
+       8.5449279,
+       47.3674878
+      ],
+      [
+       8.5449252,
+       47.367487
+      ],
+      [
+       8.5449239,
+       47.3674861
+      ],
+      [
+       8.5449212,
+       47.3674852
+      ],
+      [
+       8.5449186,
+       47.3674852
+      ],
+      [
+       8.5449172,
+       47.3674843
+      ],
+      [
+       8.5449146,
+       47.3674835
+      ],
+      [
+       8.5449119,
+       47.3674835
+      ],
+      [
+       8.5449106,
+       47.3674826
+      ],
+      [
+       8.5449079,
+       47.3674826
+      ],
+      [
+       8.5449053,
+       47.3674827
+      ],
+      [
+       8.5449026,
+       47.3674827
+      ],
+      [
+       8.5449013,
+       47.3674818
+      ],
+      [
+       8.5448986,
+       47.3674818
+      ],
+      [
+       8.544896,
+       47.3674819
+      ],
+      [
+       8.5448934,
+       47.3674819
+      ],
+      [
+       8.544892,
+       47.3674828
+      ],
+      [
+       8.5448946,
+       47.3674774
+      ],
+      [
+       8.5445294,
+       47.3673594
+      ],
+      [
+       8.5442504,
+       47.3678272
+      ],
+      [
+       8.5442544,
+       47.367828
+      ],
+      [
+       8.5442518,
+       47.3678307
+      ],
+      [
+       8.5442492,
+       47.3678326
+      ],
+      [
+       8.5442479,
+       47.3678353
+      ],
+      [
+       8.5442467,
+       47.3678371
+      ],
+      [
+       8.5442441,
+       47.3678398
+      ],
+      [
+       8.5442428,
+       47.3678416
+      ],
+      [
+       8.5442415,
+       47.3678443
+      ],
+      [
+       8.5442402,
+       47.367847
+      ],
+      [
+       8.5442376,
+       47.3678489
+      ],
+      [
+       8.5442364,
+       47.3678516
+      ],
+      [
+       8.5442364,
+       47.3678543
+      ],
+      [
+       8.5442351,
+       47.3678561
+      ],
+      [
+       8.5442339,
+       47.3678588
+      ],
+      [
+       8.5442326,
+       47.3678615
+      ],
+      [
+       8.5442327,
+       47.3678642
+      ],
+      [
+       8.5442314,
+       47.3678669
+      ],
+      [
+       8.5442301,
+       47.3678696
+      ],
+      [
+       8.5442302,
+       47.3678714
+      ],
+      [
+       8.5442302,
+       47.3678741
+      ],
+      [
+       8.5442289,
+       47.3678768
+      ],
+      [
+       8.544229,
+       47.3678795
+      ],
+      [
+       8.5442291,
+       47.3678822
+      ],
+      [
+       8.5442291,
+       47.3678849
+      ],
+      [
+       8.5442292,
+       47.3678876
+      ],
+      [
+       8.5442292,
+       47.3678903
+      ],
+      [
+       8.5442293,
+       47.367893
+      ],
+      [
+       8.5442307,
+       47.3678957
+      ],
+      [
+       8.5442307,
+       47.3678975
+      ],
+      [
+       8.5442308,
+       47.3679002
+      ],
+      [
+       8.5442321,
+       47.3679029
+      ]
+     ]
+    ]
+   },
+   "geometry_lv95": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       2683509.2,
+       1246928.1
+      ],
+      [
+       2683509.2,
+       1246928.4
+      ],
+      [
+       2683509.3,
+       1246928.7
+      ],
+      [
+       2683509.4,
+       1246929.0
+      ],
+      [
+       2683509.4,
+       1246929.2
+      ],
+      [
+       2683509.5,
+       1246929.5
+      ],
+      [
+       2683509.6,
+       1246929.8
+      ],
+      [
+       2683509.7,
+       1246930.1
+      ],
+      [
+       2683509.8,
+       1246930.3
+      ],
+      [
+       2683509.9,
+       1246930.6
+      ],
+      [
+       2683510.1,
+       1246930.9
+      ],
+      [
+       2683510.2,
+       1246931.1
+      ],
+      [
+       2683510.3,
+       1246931.4
+      ],
+      [
+       2683510.5,
+       1246931.6
+      ],
+      [
+       2683510.6,
+       1246931.9
+      ],
+      [
+       2683510.8,
+       1246932.1
+      ],
+      [
+       2683510.9,
+       1246932.4
+      ],
+      [
+       2683511.1,
+       1246932.6
+      ],
+      [
+       2683511.2,
+       1246932.9
+      ],
+      [
+       2683511.4,
+       1246933.1
+      ],
+      [
+       2683511.6,
+       1246933.3
+      ],
+      [
+       2683511.8,
+       1246933.5
+      ],
+      [
+       2683512.0,
+       1246933.8
+      ],
+      [
+       2683512.2,
+       1246934.0
+      ],
+      [
+       2683512.4,
+       1246934.2
+      ],
+      [
+       2683512.6,
+       1246934.4
+      ],
+      [
+       2683512.8,
+       1246934.6
+      ],
+      [
+       2683513.0,
+       1246934.8
+      ],
+      [
+       2683513.3,
+       1246934.9
+      ],
+      [
+       2683513.5,
+       1246935.1
+      ],
+      [
+       2683513.7,
+       1246935.3
+      ],
+      [
+       2683514.0,
+       1246935.4
+      ],
+      [
+       2683514.2,
+       1246935.6
+      ],
+      [
+       2683514.5,
+       1246935.8
+      ],
+      [
+       2683514.7,
+       1246935.9
+      ],
+      [
+       2683515.0,
+       1246936.1
+      ],
+      [
+       2683515.2,
+       1246936.2
+      ],
+      [
+       2683515.5,
+       1246936.3
+      ],
+      [
+       2683515.8,
+       1246936.4
+      ],
+      [
+       2683516.0,
+       1246936.6
+      ],
+      [
+       2683516.3,
+       1246936.7
+      ],
+      [
+       2683516.6,
+       1246936.8
+      ],
+      [
+       2683516.9,
+       1246936.9
+      ],
+      [
+       2683517.1,
+       1246937.0
+      ],
+      [
+       2683517.4,
+       1246937.0
+      ],
+      [
+       2683517.7,
+       1246937.1
+      ],
+      [
+       2683518.0,
+       1246937.2
+      ],
+      [
+       2683518.3,
+       1246937.2
+      ],
+      [
+       2683518.6,
+       1246937.3
+      ],
+      [
+       2683518.9,
+       1246937.3
+      ],
+      [
+       2683519.1,
+       1246937.4
+      ],
+      [
+       2683519.4,
+       1246937.4
+      ],
+      [
+       2683519.7,
+       1246937.4
+      ],
+      [
+       2683520.0,
+       1246937.4
+      ],
+      [
+       2683520.3,
+       1246937.4
+      ],
+      [
+       2683520.6,
+       1246937.4
+      ],
+      [
+       2683520.9,
+       1246937.4
+      ],
+      [
+       2683521.2,
+       1246937.4
+      ],
+      [
+       2683521.5,
+       1246937.4
+      ],
+      [
+       2683521.8,
+       1246937.3
+      ],
+      [
+       2683522.1,
+       1246937.3
+      ],
+      [
+       2683522.4,
+       1246937.2
+      ],
+      [
+       2683522.7,
+       1246937.2
+      ],
+      [
+       2683522.9,
+       1246937.1
+      ],
+      [
+       2683523.2,
+       1246937.0
+      ],
+      [
+       2683523.5,
+       1246937.0
+      ],
+      [
+       2683523.8,
+       1246936.9
+      ],
+      [
+       2683524.1,
+       1246936.8
+      ],
+      [
+       2683524.4,
+       1246936.7
+      ],
+      [
+       2683524.6,
+       1246936.6
+      ],
+      [
+       2683524.9,
+       1246936.5
+      ],
+      [
+       2683525.2,
+       1246936.3
+      ],
+      [
+       2683525.4,
+       1246936.2
+      ],
+      [
+       2683525.7,
+       1246936.1
+      ],
+      [
+       2683525.9,
+       1246935.9
+      ],
+      [
+       2683526.2,
+       1246935.8
+      ],
+      [
+       2683526.5,
+       1246935.6
+      ],
+      [
+       2683526.7,
+       1246935.5
+      ],
+      [
+       2683526.9,
+       1246935.3
+      ],
+      [
+       2683527.2,
+       1246935.1
+      ],
+      [
+       2683527.4,
+       1246934.9
+      ],
+      [
+       2683527.6,
+       1246934.7
+      ],
+      [
+       2683527.9,
+       1246934.6
+      ],
+      [
+       2683528.1,
+       1246934.4
+      ],
+      [
+       2683528.3,
+       1246934.1
+      ],
+      [
+       2683528.5,
+       1246933.9
+      ],
+      [
+       2683528.7,
+       1246933.7
+      ],
+      [
+       2683528.9,
+       1246933.5
+      ],
+      [
+       2683529.1,
+       1246933.3
+      ],
+      [
+       2683529.3,
+       1246933.0
+      ],
+      [
+       2683529.4,
+       1246932.8
+      ],
+      [
+       2683529.6,
+       1246932.6
+      ],
+      [
+       2683529.7,
+       1246932.6
+      ],
+      [
+       2683542.4,
+       1246916.1
+      ],
+      [
+       2683542.7,
+       1246916.3
+      ],
+      [
+       2683549.6,
+       1246907.3
+      ],
+      [
+       2683549.4,
+       1246907.1
+      ],
+      [
+       2683562.0,
+       1246890.5
+      ],
+      [
+       2683561.5,
+       1246890.1
+      ],
+      [
+       2683561.7,
+       1246890.0
+      ],
+      [
+       2683561.9,
+       1246890.0
+      ],
+      [
+       2683562.0,
+       1246889.9
+      ],
+      [
+       2683562.2,
+       1246889.8
+      ],
+      [
+       2683562.3,
+       1246889.7
+      ],
+      [
+       2683562.5,
+       1246889.6
+      ],
+      [
+       2683562.6,
+       1246889.5
+      ],
+      [
+       2683562.7,
+       1246889.4
+      ],
+      [
+       2683562.9,
+       1246889.3
+      ],
+      [
+       2683563.0,
+       1246889.2
+      ],
+      [
+       2683563.1,
+       1246889.0
+      ],
+      [
+       2683563.3,
+       1246888.9
+      ],
+      [
+       2683563.4,
+       1246888.8
+      ],
+      [
+       2683563.5,
+       1246888.6
+      ],
+      [
+       2683563.6,
+       1246888.5
+      ],
+      [
+       2683563.7,
+       1246888.3
+      ],
+      [
+       2683563.8,
+       1246888.2
+      ],
+      [
+       2683563.8,
+       1246888.0
+      ],
+      [
+       2683563.9,
+       1246887.9
+      ],
+      [
+       2683564.0,
+       1246887.7
+      ],
+      [
+       2683564.0,
+       1246887.5
+      ],
+      [
+       2683564.1,
+       1246887.4
+      ],
+      [
+       2683564.1,
+       1246887.2
+      ],
+      [
+       2683564.2,
+       1246887.0
+      ],
+      [
+       2683564.2,
+       1246886.8
+      ],
+      [
+       2683564.2,
+       1246886.7
+      ],
+      [
+       2683564.2,
+       1246886.5
+      ],
+      [
+       2683564.3,
+       1246886.3
+      ],
+      [
+       2683564.3,
+       1246886.1
+      ],
+      [
+       2683564.3,
+       1246885.9
+      ],
+      [
+       2683564.2,
+       1246885.8
+      ],
+      [
+       2683564.2,
+       1246885.6
+      ],
+      [
+       2683564.2,
+       1246885.4
+      ],
+      [
+       2683564.2,
+       1246885.2
+      ],
+      [
+       2683564.1,
+       1246885.1
+      ],
+      [
+       2683564.1,
+       1246884.9
+      ],
+      [
+       2683564.0,
+       1246884.7
+      ],
+      [
+       2683563.9,
+       1246884.6
+      ],
+      [
+       2683563.9,
+       1246884.4
+      ],
+      [
+       2683563.8,
+       1246884.3
+      ],
+      [
+       2683563.7,
+       1246884.1
+      ],
+      [
+       2683563.6,
+       1246883.9
+      ],
+      [
+       2683563.5,
+       1246883.8
+      ],
+      [
+       2683563.4,
+       1246883.7
+      ],
+      [
+       2683563.3,
+       1246883.5
+      ],
+      [
+       2683563.2,
+       1246883.4
+      ],
+      [
+       2683563.0,
+       1246883.3
+      ],
+      [
+       2683562.9,
+       1246883.1
+      ],
+      [
+       2683562.8,
+       1246883.0
+      ],
+      [
+       2683562.7,
+       1246882.9
+      ],
+      [
+       2683562.5,
+       1246882.8
+      ],
+      [
+       2683562.4,
+       1246882.7
+      ],
+      [
+       2683562.2,
+       1246882.6
+      ],
+      [
+       2683562.1,
+       1246882.5
+      ],
+      [
+       2683561.9,
+       1246882.4
+      ],
+      [
+       2683561.7,
+       1246882.4
+      ],
+      [
+       2683561.6,
+       1246882.3
+      ],
+      [
+       2683561.4,
+       1246882.2
+      ],
+      [
+       2683561.2,
+       1246882.2
+      ],
+      [
+       2683561.1,
+       1246882.1
+      ],
+      [
+       2683560.9,
+       1246882.1
+      ],
+      [
+       2683560.7,
+       1246882.1
+      ],
+      [
+       2683560.5,
+       1246882.1
+      ],
+      [
+       2683560.4,
+       1246882.0
+      ],
+      [
+       2683560.2,
+       1246882.0
+      ],
+      [
+       2683560.0,
+       1246882.0
+      ],
+      [
+       2683559.8,
+       1246882.0
+      ],
+      [
+       2683559.7,
+       1246882.1
+      ],
+      [
+       2683559.9,
+       1246881.5
+      ],
+      [
+       2683532.5,
+       1246868.0
+      ],
+      [
+       2683510.7,
+       1246919.7
+      ],
+      [
+       2683511.0,
+       1246919.8
+      ],
+      [
+       2683510.8,
+       1246920.1
+      ],
+      [
+       2683510.6,
+       1246920.3
+      ],
+      [
+       2683510.5,
+       1246920.6
+      ],
+      [
+       2683510.4,
+       1246920.8
+      ],
+      [
+       2683510.2,
+       1246921.1
+      ],
+      [
+       2683510.1,
+       1246921.3
+      ],
+      [
+       2683510.0,
+       1246921.6
+      ],
+      [
+       2683509.9,
+       1246921.9
+      ],
+      [
+       2683509.7,
+       1246922.1
+      ],
+      [
+       2683509.6,
+       1246922.4
+      ],
+      [
+       2683509.6,
+       1246922.7
+      ],
+      [
+       2683509.5,
+       1246922.9
+      ],
+      [
+       2683509.4,
+       1246923.2
+      ],
+      [
+       2683509.3,
+       1246923.5
+      ],
+      [
+       2683509.3,
+       1246923.8
+      ],
+      [
+       2683509.2,
+       1246924.1
+      ],
+      [
+       2683509.1,
+       1246924.4
+      ],
+      [
+       2683509.1,
+       1246924.6
+      ],
+      [
+       2683509.1,
+       1246924.9
+      ],
+      [
+       2683509.0,
+       1246925.2
+      ],
+      [
+       2683509.0,
+       1246925.5
+      ],
+      [
+       2683509.0,
+       1246925.8
+      ],
+      [
+       2683509.0,
+       1246926.1
+      ],
+      [
+       2683509.0,
+       1246926.4
+      ],
+      [
+       2683509.0,
+       1246926.7
+      ],
+      [
+       2683509.0,
+       1246927.0
+      ],
+      [
+       2683509.1,
+       1246927.3
+      ],
+      [
+       2683509.1,
+       1246927.5
+      ],
+      [
+       2683509.1,
+       1246927.8
+      ],
+      [
+       2683509.2,
+       1246928.1
+      ]
+     ]
+    ]
+   },
+   "area_m2": 1949.7,
+   "area_m2_published": null,
+   "zoning_code": "K",
+   "zoning_name": "Kernzone",
+   "adjacent_parcel_ids": [
+    "AA4120",
+    "AA4141",
+    "AA4499"
+   ],
+   "sources": [
+    {
+     "adapter_id": "ch/federal/parcel",
+     "authority": "Bundesamt für Landestopografie swisstopo / Kantone (amtliche Vermessung)",
+     "dataset": "ch.swisstopo-vd.amtliche-vermessung",
+     "licence": "geoadmin-terms",
+     "retrieved_at": "2026-09-08T09:53:06.715971Z",
+     "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683545.75%2C1246911.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200",
+     "stale_as_of": null
+    },
+    {
+     "adapter_id": "ch/federal/parcel",
+     "authority": "Bundesamt für Landestopografie swisstopo / Kantone (amtliche Vermessung)",
+     "dataset": "ch.swisstopo-vd.amtliche-vermessung",
+     "licence": "geoadmin-terms",
+     "retrieved_at": "2026-09-08T09:53:06.770090Z",
+     "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683509.2%2C1246928.1%5D%2C%5B2683509.9%2C1246930.6%5D%2C%5B2683511.2%2C1246932.9%5D%2C%5B2683513.7%2C1246935.3%5D%2C%5B2683517.1%2C1246937.0%5D%2C%5B2683519.1%2C1246937.4%5D%2C%5B2683522.7%2C1246937.2%5D%2C%5B2683525.7%2C1246936.1%5D%2C%5B2683527.9%2C1246934.6%5D%2C%5B2683549.6%2C1246907.3%5D%2C%5B2683549.4%2C1246907.1%5D%2C%5B2683562.0%2C1246890.5%5D%2C%5B2683561.5%2C1246890.1%5D%2C%5B2683563.4%2C1246888.8%5D%2C%5B2683564.1%2C1246887.4%5D%2C%5B2683564.3%2C1246885.9%5D%2C%5B2683563.3%2C1246883.5%5D%2C%5B2683561.4%2C1246882.2%5D%2C%5B2683559.7%2C1246882.1%5D%2C%5B2683559.9%2C1246881.5%5D%2C%5B2683532.5%2C1246868.0%5D%2C%5B2683510.7%2C1246919.7%5D%2C%5B2683511.0%2C1246919.8%5D%2C%5B2683509.7%2C1246922.1%5D%2C%5B2683509.0%2C1246925.2%5D%2C%5B2683509.2%2C1246928.1%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200",
+     "stale_as_of": null
+    }
+   ]
+  }
+ ],
+ "buildings": [
+  {
+   "id": "9011202",
+   "geometry_wgs84": {
+    "type": "Point",
+    "coordinates": [
+     8.5445586,
+     47.3676699
+    ]
+   },
+   "geometry_lv95": {
+    "type": "Point",
+    "coordinates": [
+     2683534.22,
+     1246902.55
+    ]
+   },
+   "footprint_m2": 1943.0,
+   "use": "1040 Gebäude mit teilweiser Wohnnutzung (partly residential) · 1220 Bürogebäude (office building)",
+   "year": 1858,
+   "floors": 7,
+   "floor_area_m2": 6840.0,
+   "volume_m3": 45890.0,
+   "height_m": null,
+   "energy": "7430 Heizkessel (boiler) · 7520 Gas",
+   "heritage": null,
+   "missing_attributes": [],
+   "sources": [
+    {
+     "adapter_id": "ch/federal/buildings",
+     "authority": "Bundesamt für Statistik BFS",
+     "dataset": "ch.bfs.gebaeude_wohnungs_register",
+     "licence": "geoadmin-terms",
+     "retrieved_at": "2026-09-08T09:53:06.822054Z",
+     "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683509.2%2C1246928.1%5D%2C%5B2683509.9%2C1246930.6%5D%2C%5B2683511.2%2C1246932.9%5D%2C%5B2683513.7%2C1246935.3%5D%2C%5B2683517.1%2C1246937.0%5D%2C%5B2683519.1%2C1246937.4%5D%2C%5B2683522.7%2C1246937.2%5D%2C%5B2683525.7%2C1246936.1%5D%2C%5B2683527.9%2C1246934.6%5D%2C%5B2683549.6%2C1246907.3%5D%2C%5B2683549.4%2C1246907.1%5D%2C%5B2683562.0%2C1246890.5%5D%2C%5B2683561.5%2C1246890.1%5D%2C%5B2683563.4%2C1246888.8%5D%2C%5B2683564.1%2C1246887.4%5D%2C%5B2683564.3%2C1246885.9%5D%2C%5B2683563.3%2C1246883.5%5D%2C%5B2683561.4%2C1246882.2%5D%2C%5B2683559.7%2C1246882.1%5D%2C%5B2683559.9%2C1246881.5%5D%2C%5B2683532.5%2C1246868.0%5D%2C%5B2683510.7%2C1246919.7%5D%2C%5B2683511.0%2C1246919.8%5D%2C%5B2683509.7%2C1246922.1%5D%2C%5B2683509.0%2C1246925.2%5D%2C%5B2683509.2%2C1246928.1%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200",
+     "stale_as_of": null
+    }
+   ]
+  }
+ ],
+ "regulations": [
+  {
+   "jurisdiction": {
+    "country": "CH",
+    "canton": "ZH",
+    "municipality": "Zürich",
+    "bfs_number": 261
+   },
+   "zone_code": "K",
+   "zone_name": "Kernzone",
+   "effective_from": null,
+   "effective_to": null,
+   "source_document": {
+    "adapter_id": "ch/zh/regulation",
+    "authority": "Stadt Zürich (Gemeinderat)",
+    "dataset": "BZO 2016, AS 700.100 — mit Änderungen bis 29. Mai 2024",
+    "licence": "official-publication",
+    "retrieved_at": "2026-09-08T10:11:51.299184Z",
+    "url": "https://oerebdocs.zh.ch/getDoc?docid=6",
+    "stale_as_of": null
+   },
+   "rules": [],
+   "unresolved": [
+    "max_full_floors",
+    "max_attic_floors",
+    "max_basement_floors",
+    "max_building_height_m",
+    "min_boundary_setback_m",
+    "max_boundary_setback_with_length_m",
+    "floor_area_ratio",
+    "floor_area_ratio_commercial",
+    "building_mass_ratio",
+    "min_open_space_ratio",
+    "max_ridge_height_m"
+   ],
+   "class": "A",
+   "parser_version": "bzo2016-parser/0.1.0"
+  }
+ ],
+ "events": [
+  {
+   "id": "BP-ZH01-0000062905",
+   "location": {
+    "lon": 8.547707750119645,
+    "lat": 47.368185554024826,
+    "east": 2683771.2600000016,
+    "north": 1246963.2289999984
+   },
+   "parcels": [
+    "AA3385"
+   ],
+   "type": "energy",
+   "description": "Errichtung von 2 aussen aufgestellten Luft / Wasser-Wärmepumpen (im Inventar Denkmalpflege und unter Gartendenkmalschutz) — Rämistrasse 22",
+   "applicant": "Verwaltungseinheit der Gemeinde",
+   "project_author": "Unternehmen · Zürich",
+   "publication_date": "2026-09-04",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 231.3,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/0715daba-57c2-485a-828e-62da3fe45544",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000062902",
+   "location": {
+    "lon": 8.543693366404108,
+    "lat": 47.369320210674054,
+    "east": 2683466.289000001,
+    "north": 1247085.0920000002
+   },
+   "parcels": [
+    "AA4490"
+   ],
+   "type": "demolition",
+   "description": "Neue Mobilfunk-Antennenanlage am EWZ-Mast mit neuem unterirdischen Technikraum; Abbruch bestehende Anlage und Beleuchtungsmast: 700 - 900 MHz; 1 x 150 W ERP, 1 x 190, W ERP, 1 x 400 W ERP, 1800 - 2600 MHz; 1 x 485 W ERP, 1 x 555 W ERP, 1 x 1200 W ERP und 3600 MHz; 1 x 100 W ERP,1 x 150 W ERP,1 x 600 W ERP ",
+   "applicant": "Unternehmen · Glattpark (Opfikon)",
+   "project_author": null,
+   "publication_date": "2026-09-04",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 190.8,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/9b3c9da5-81ee-4732-8289-c9a04ea22541",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000062901",
+   "location": {
+    "lon": 8.548571409483024,
+    "lat": 47.370402689270016,
+    "east": 2683833.0029999986,
+    "north": 1247210.6319999993
+   },
+   "parcels": [
+    "AA4138"
+   ],
+   "type": "demolition",
+   "description": "Mobilfunk-Antennenanlage (neuer Standort) am EWZ-Mast (Ersatz ganze Anlage und Verschiebung); Abbruch besehender Mast (im Inventar kantonalen Denkmalpflege); 700–900 MHz; 1 x 150 W ERP, 1 x 160 W ERP, 1 x 400 W ERP; 1800–2600 MHz; 1 x 470 W ERP, 1 x 500 W ERP, 1 x 1030 W ERP und 3600 MHz; 1 x 150 W ERP, 1 x 180 W ERP, 1 x 400 W ERP  — Heimplatz 6",
+   "applicant": "Unternehmen · Glattpark (Opfikon)",
+   "project_author": null,
+   "publication_date": "2026-09-04",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 414.6,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/c3e69c6a-b5e7-4ce2-be29-dade775833bc",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000062893",
+   "location": {
+    "lon": 8.541384103702594,
+    "lat": 47.36877414768553,
+    "east": 2683292.734000001,
+    "north": 1247021.932
+   },
+   "parcels": [
+    "AA5660"
+   ],
+   "type": "extension",
+   "description": "Mieterausbau im 5. OG (unter Denkmalschutz) — Fraumünsterstrasse 16",
+   "applicant": "Aktiengesellschaft (AG) · Zürich",
+   "project_author": "Aktiengesellschaft (AG) · Solothurn",
+   "publication_date": "2026-09-04",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 276.0,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/a1cdb6cb-ca9a-4432-9efa-80425946e03b",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000062766",
+   "location": {
+    "lon": 8.548053585497959,
+    "lat": 47.36567696832125,
+    "east": 2683801.322999999,
+    "north": 1246684.7170000002
+   },
+   "parcels": [
+    "AA3378"
+   ],
+   "type": "extension",
+   "description": "Umbau, Anbau und Dachaufbau Bürogebäude, Umnutzung Restaurant in Büroräume und Lager in 4.5 Zimmerwohnung, Rückkühler und Wärmepumpen auf Innenhofdach (im Inventar Denkmalpflege), Wiederholung",
+   "applicant": "Unternehmen · Zürich",
+   "project_author": null,
+   "publication_date": "2026-08-28",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 341.8,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/4928a134-1898-4310-a166-0d9a750d8405",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000062764",
+   "location": {
+    "lon": 8.54744958175271,
+    "lat": 47.36524364228429,
+    "east": 2683756.3830000013,
+    "north": 1246635.8990000002
+   },
+   "parcels": [
+    "AA3207"
+   ],
+   "type": "other",
+   "description": "Bürogebäude, Sicherheitsgläser im EG, Brandschutztüren, neue Trennwand, Vereinzelungsanlagen im UG und EG (unter Denkmalschutz), Wiederholung",
+   "applicant": "Unternehmen · Zürich",
+   "project_author": null,
+   "publication_date": "2026-08-28",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 347.0,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/393360b7-b9e9-4ace-a78f-e7c4cbeb922e",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000062747",
+   "location": {
+    "lon": 8.541543324393727,
+    "lat": 47.37074351124544,
+    "east": 2683301.682,
+    "north": 1247241.0370000005
+   },
+   "parcels": [
+    "AA5087"
+   ],
+   "type": "other",
+   "description": "Neue Fassadengestaltung im EG und neue Markisen im 1. OG (im Inventar Denkmalpflege) — Wühre 11",
+   "applicant": "Aktiengesellschaft (AG) · St. Gallen",
+   "project_author": null,
+   "publication_date": "2026-08-28",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 410.0,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/02181a26-789c-4d3e-8af2-fc0d9a178587",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000062622",
+   "location": {
+    "lon": 8.548169860275424,
+    "lat": 47.36653657286957,
+    "east": 2683808.7540000007,
+    "north": 1246780.4039999992
+   },
+   "parcels": [
+    "AA8020"
+   ],
+   "type": "conversion",
+   "description": "Umnutzung Praxis zu Sozialräume im 2. OG, Innere Umbauten (im Inventar Denkmalpflege) — Stadelhoferstrasse 8",
+   "applicant": "Institut des öffentlichen Rechts · Zürich",
+   "project_author": "Aktiengesellschaft (AG) · Zürich ZH",
+   "publication_date": "2026-08-28",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 293.9,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/9956ce76-0cba-45d1-a98f-f5371db73e23",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000062327",
+   "location": {
+    "lon": 8.544554820514838,
+    "lat": 47.37087088067895,
+    "east": 2683528.921,
+    "north": 1247258.3979999982
+   },
+   "parcels": [
+    "AA8098"
+   ],
+   "type": "other",
+   "description": "Boulevardgastronomie auf öffentlichem Grund (6 neue Sitzplätze) zu der bewilligten Gastronomie mit Blumenladen (im Inventar Denkmalpflege) — Münstergasse 2",
+   "applicant": "Aktiengesellschaft (AG) · Schindellegi",
+   "project_author": "Gesellschaft mit beschränkter Haftung (GmbH) · Zürich",
+   "publication_date": "2026-08-14",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 347.2,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/2f99d592-ab3f-4c02-89fd-e1ef3b62fec3",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000062037",
+   "location": {
+    "lon": 8.548053585497959,
+    "lat": 47.36567696832125,
+    "east": 2683801.322999999,
+    "north": 1246684.7170000002
+   },
+   "parcels": [
+    "AA3378"
+   ],
+   "type": "extension",
+   "description": "Umbau, Anbau und Dachaufbau Bürogebäude, Umnutzung Restaurant in Büroräume und Lager in 4.5 Zimmerwohnung, Rückkühler und Wärmepumpen auf Innenhofdach (im Inventar Denkmalpflege)",
+   "applicant": "Unternehmen · Zürich",
+   "project_author": null,
+   "publication_date": "2026-07-31",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 341.8,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/34f2d698-1f12-4a6d-90c2-fe7259dba078",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000062031",
+   "location": {
+    "lon": 8.54744958175271,
+    "lat": 47.36524364228429,
+    "east": 2683756.3830000013,
+    "north": 1246635.8990000002
+   },
+   "parcels": [
+    "AA3207"
+   ],
+   "type": "other",
+   "description": "Bürogebäude, Sicherheitsgläser im EG, Brandschutztüren, neue Trennwand, Vereinzelungsanlagen im UG und EG (unter Denkmalschutz)",
+   "applicant": "Unternehmen · Zürich",
+   "project_author": null,
+   "publication_date": "2026-07-31",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 347.0,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/1e08499d-cc9a-4082-8aa1-b2a0b48b57d8",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000062007",
+   "location": {
+    "lon": 8.541543324393727,
+    "lat": 47.37074351124544,
+    "east": 2683301.682,
+    "north": 1247241.0370000005
+   },
+   "parcels": [
+    "AA5087"
+   ],
+   "type": "other",
+   "description": "Neue Fassadengestaltung im EG und neue Markisen im 1. OG (im Inventar Denkmalpflege) — Wühre 11",
+   "applicant": "Aktiengesellschaft (AG) · St. Gallen",
+   "project_author": null,
+   "publication_date": "2026-07-31",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 410.0,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/85717a18-1ea3-435b-bc41-85b2f677240b",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000061739",
+   "location": {
+    "lon": 8.545763537132583,
+    "lat": 47.368245720038885,
+    "east": 2683624.3249999993,
+    "north": 1246967.8440000005
+   },
+   "parcels": [
+    "AA2422"
+   ],
+   "type": "conversion",
+   "description": "Gesamtinstandsetzung \"Zum Luchs\", energetische Dachsanierung, Fensterersatz und Heizungsersatz (im Inventar Denkmalpflege) — Torgasse 11",
+   "applicant": "Verwaltungseinheit der Gemeinde",
+   "project_author": null,
+   "publication_date": "2026-07-17",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 96.6,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/4bdcdfa6-9e01-4c82-9910-d3c0336f0ca3",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000061586",
+   "location": {
+    "lon": 8.53989941962766,
+    "lat": 47.36899484238443,
+    "east": 2683180.2569999993,
+    "north": 1247044.892000001
+   },
+   "parcels": [
+    "AA5826"
+   ],
+   "type": "antenna",
+   "description": "Änderung der Antennenkonfiguration der bewilligten Mobilfunk-Antennenanlage auf dem Dach des Geschäftshauses: 1800–2600 MHz; 3 x 800 und 3400 MHz; 1 x 375 W ERP, 1 x 530 W ERP, 1 x 635 W ERP — Bahnhofstrasse 20",
+   "applicant": "Unternehmen · Prilly",
+   "project_author": "Unternehmen · Müllheim Dorf",
+   "publication_date": "2026-07-10",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 389.0,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/0d52af53-7296-4ee3-b866-498b2ac970af",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000061582",
+   "location": {
+    "lon": 8.545681603266702,
+    "lat": 47.368211154405245,
+    "east": 2683618.1909999996,
+    "north": 1246963.9140000008
+   },
+   "parcels": [
+    "AA2421"
+   ],
+   "type": "conversion",
+   "description": "Gesamtinstandsetzung \"Zur Weissen Rose\", Umnutzung im EG von Gastronomie zu Gewerbe, energetische Dachsanierung, Fensterersatz, Heizungsersatz, Zusammenlegung der Wohnungen zu einer Wohneinheit (im Inventar Denkmalpflege) — Torgasse 9",
+   "applicant": "Verwaltungseinheit der Gemeinde",
+   "project_author": "Einzelunternehmen",
+   "publication_date": "2026-07-10",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 89.3,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/afd8cd73-5559-4069-be5b-db478248b95d",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000061562",
+   "location": {
+    "lon": 8.54852848985471,
+    "lat": 47.36422056507869,
+    "east": 2683839.482999999,
+    "north": 1246523.3150000013
+   },
+   "parcels": [
+    "RI2578"
+   ],
+   "type": "other",
+   "description": "Klimageräte an Innenhoffassade, Aufheben von 2 Innentüren im 1. OG (im Inventar Denkmalpflege), teilweise nachträgliches Gesuch — Seefeldstrasse 12",
+   "applicant": "Unternehmen · Zürich",
+   "project_author": null,
+   "publication_date": "2026-07-10",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 486.9,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/e0ed9b87-dfec-473a-9497-747ad1d90051",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000061284",
+   "location": {
+    "lon": 8.548153921354954,
+    "lat": 47.36779431438389,
+    "east": 2683805.572999999,
+    "north": 1246920.2109999992
+   },
+   "parcels": [
+    "AA8038"
+   ],
+   "type": "other",
+   "description": "Aufbau Zelt auf Flachdach, nachträgliches Gesuch (im Inventar Denkmalpflege) — Olgastrasse 8",
+   "applicant": "Privatperson",
+   "project_author": null,
+   "publication_date": "2026-06-26",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 260.0,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/8ec96082-391d-4bfb-b017-6e4431b901d8",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000061280",
+   "location": {
+    "lon": 8.539673737535434,
+    "lat": 47.36755578979275,
+    "east": 2683165.4569999985,
+    "north": 1246884.6719999984
+   },
+   "parcels": [
+    "AA5542"
+   ],
+   "type": "other",
+   "description": "Aussenwirtschaft auf öffentlichem Grund (Lageverschiebung der 12 Sitzplätze) zu bestehendem Gastrobetrieb und bestehender Aussenwirtschaft auf öffentlichem Grund (unter Denkmalschutz) — Bahnhofstrasse 3",
+   "applicant": "Unternehmen · Genf",
+   "project_author": null,
+   "publication_date": "2026-06-26",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 381.2,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/18cb05f0-3aa0-487a-b54e-3e5db6c2415f",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000060966",
+   "location": {
+    "lon": 8.541137903768618,
+    "lat": 47.36934868010497,
+    "east": 2683273.2419999987,
+    "north": 1247085.5419999994
+   },
+   "parcels": [
+    "AA5731"
+   ],
+   "type": "new_building",
+   "description": "Ersatzneubau Velounterstand im Hof und innerer Umbau im 3. OG (im Inventar Denkmalpflege)",
+   "applicant": "Verwaltungseinheit der Gemeinde",
+   "project_author": null,
+   "publication_date": "2026-06-12",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 323.3,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/bb57e69e-3a57-4fe2-b61f-c60c35b92840",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000060962",
+   "location": {
+    "lon": 8.546278780465574,
+    "lat": 47.368560351192464,
+    "east": 2683662.7459999993,
+    "north": 1247003.3709999993
+   },
+   "parcels": [
+    "AA3358"
+   ],
+   "type": "other",
+   "description": "Schulhaus Waldmannstrasse, Einbau Brandschutzabschlüsse im Treppenhaus und neues Oblicht (unter Denkmal- und Gartendenkmalschutz) — Waldmannstrasse 9",
+   "applicant": "Stiftung",
+   "project_author": null,
+   "publication_date": "2026-06-12",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 148.7,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/f7762745-636f-4ddc-bc21-569c883f91fe",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000060960",
+   "location": {
+    "lon": 8.548182071611807,
+    "lat": 47.36832428237357,
+    "east": 2683806.8660000004,
+    "north": 1246979.1579999998
+   },
+   "parcels": [
+    "AA4487"
+   ],
+   "type": "new_building",
+   "description": "Grünanlage Hohe Promenade - Ersatz Spielplatz, Neubau Pergola, Instandsetzung Wege und Grünflächen, Baumfällung und Ersatzpflanzung (im Inventar Gartendenkmalpflege)",
+   "applicant": "Verwaltungseinheit der Gemeinde",
+   "project_author": "Unternehmen · Wetzikon ZH",
+   "publication_date": "2026-06-12",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 269.7,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/88616b24-21ce-4602-9580-71bf673352a7",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000060781",
+   "location": {
+    "lon": 8.548321751580882,
+    "lat": 47.365082734010485,
+    "east": 2683822.5119999982,
+    "north": 1246618.9420000017
+   },
+   "parcels": [
+    "RI3727"
+   ],
+   "type": "other",
+   "description": "Aussenwirtschaft auf öffentlichem Grund mit 20 Sitzplätzen zu bestehendem Gastrobetrieb — Seefeldstrasse 5",
+   "applicant": "Unternehmen · Zürich",
+   "project_author": null,
+   "publication_date": "2026-06-05",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 402.8,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/1bd91627-2a20-49fc-90cb-e472cd5230c8",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000060211",
+   "location": {
+    "lon": 8.54135367114223,
+    "lat": 47.37133411779628,
+    "east": 2683286.4360000007,
+    "north": 1247306.493999999
+   },
+   "parcels": [
+    "AA5111"
+   ],
+   "type": "conversion",
+   "description": "Sanierung HLK-Installation, Ersatz der Aussengeräte auf der Dachterrasse (unter Denkmalschutz) — Weinplatz 3",
+   "applicant": "Unternehmen · Zürich",
+   "project_author": "Unternehmen · Zürich",
+   "publication_date": "2026-05-08",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 472.4,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/580000e6-0a3c-4e9d-bd92-182f7836b7fb",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000060209",
+   "location": {
+    "lon": 8.546493608792591,
+    "lat": 47.369068262763705,
+    "east": 2683678.1739999987,
+    "north": 1247060.0650000013
+   },
+   "parcels": [
+    "AA8053"
+   ],
+   "type": "conversion",
+   "description": "Gesamtinstandsetzung Villa Landolt, Gartenhaus, Ökonomiegebäude, Neugestaltung Umgebung und Parkanlage, neue öffentliche Grünanlage (im Inventar Denkmalpflege, teilweise im Inventar Gartendenkmalpflege, teilweise unter Gartendenkmalschutz)",
+   "applicant": "Verwaltungseinheit der Gemeinde",
+   "project_author": "Unternehmen · Zürich",
+   "publication_date": "2026-05-08",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 198.9,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/def807a8-06c0-40b7-820e-fb1de18b184c",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000060202",
+   "location": {
+    "lon": 8.54139053875151,
+    "lat": 47.371105198981134,
+    "east": 2683289.5780000016,
+    "north": 1247281.0839999989
+   },
+   "parcels": [
+    "AA5119"
+   ],
+   "type": "extension",
+   "description": "Mieterausbau und Ersatz Fensterfront im EG (unter Denkmalschutz) — Storchengasse 19",
+   "applicant": "Unternehmen · Zürich",
+   "project_author": "Unternehmen · Zürich",
+   "publication_date": "2026-05-08",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 449.6,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/493ccb08-86ee-4c6c-996d-0715ad323488",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000060201",
+   "location": {
+    "lon": 8.539981076772303,
+    "lat": 47.36857650856873,
+    "east": 2683187.0769999996,
+    "north": 1246998.4719999991
+   },
+   "parcels": [
+    "AA5528"
+   ],
+   "type": "conversion",
+   "description": "Dachsanierung mit neuer Dämmung — Bahnhofstrasse 16",
+   "applicant": "Unternehmen · Genf",
+   "project_author": null,
+   "publication_date": "2026-05-08",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 369.0,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/3da0b33e-5c39-41ab-a3b8-aa9924994825",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000060190",
+   "location": {
+    "lon": 8.546080667892152,
+    "lat": 47.36764976305764,
+    "east": 2683649.212000001,
+    "north": 1246901.9290000014
+   },
+   "parcels": [
+    "AA3479"
+   ],
+   "type": "conversion",
+   "description": "Umnutzung Wohnung zu Eventlokal 1. DG, innere Umbauten mit Hinausschiebung der Öffnungszeiten über Mitternacht hinaus, 49 Aussensitzplätze auf Dachterrasse (im Inventar Denkmalpflege)",
+   "applicant": "Unternehmen · Zürich",
+   "project_author": null,
+   "publication_date": "2026-05-08",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 103.9,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/e8c43f3a-7fb3-4680-8ef7-4d20d419d338",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000060189",
+   "location": {
+    "lon": 8.549494466353792,
+    "lat": 47.37003913570631,
+    "east": 2683903.287999999,
+    "north": 1247171.2019999996
+   },
+   "parcels": [
+    "HO4361"
+   ],
+   "type": "other",
+   "description": "Hinausschieben der Öffnungszeiten über Mitternacht hinaus; Sonntag bis Donnerstag bis 04.00 Uhr, Freitag und Samstag Freinacht (im Inventar Denkmalpflege) — Rämistrasse 34",
+   "applicant": "Unternehmen · Zürich",
+   "project_author": null,
+   "publication_date": "2026-05-08",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 441.8,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/5ede483d-0636-43fa-a48d-4ff590932e4e",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000060187",
+   "location": {
+    "lon": 8.545624536428566,
+    "lat": 47.36876198072765,
+    "east": 2683613.017000001,
+    "north": 1247025.0890000015
+   },
+   "parcels": [
+    "AA2247"
+   ],
+   "type": "conversion",
+   "description": "Innerer Umbau Wohn- und Geschäftshaus im 1. OG bis 1. DG (im Inventar Denkmalpflege) — Oberdorfstrasse 14",
+   "applicant": "Unternehmen · Zürich",
+   "project_author": null,
+   "publication_date": "2026-05-08",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 131.9,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/31310877-d657-4bea-8e98-d0c1a7a6b559",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000059745",
+   "location": {
+    "lon": 8.549079635292273,
+    "lat": 47.3697710028983,
+    "east": 2683872.379999999,
+    "north": 1247140.9499999993
+   },
+   "parcels": [
+    "AA3109"
+   ],
+   "type": "conversion",
+   "description": "Sanierung Bürogebäude, Fensterersatz, Absturzsicherung, Dämmung Dachboden, Rückkühler auf Flachdach über Anlieferungsrampe mit Einhausung (im Inventar Denkmalpflege)",
+   "applicant": "Unternehmen · Zürich",
+   "project_author": "Unternehmen · Zürich",
+   "publication_date": "2026-04-17",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 399.1,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/ec1f44f7-929d-4b5d-9fed-47f8a5583b58",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000059744",
+   "location": {
+    "lon": 8.544044215099518,
+    "lat": 47.369465156560004,
+    "east": 2683492.5599999987,
+    "north": 1247101.579
+   },
+   "parcels": [
+    "AA3198"
+   ],
+   "type": "other",
+   "description": "Hinausschieben der Öffnungszeiten über Mitternacht hinaus; Montag bis Donnerstag bis 02.00 Uhr; Freitag und Samstag bis 04.00 Uhr (im Inventar Denkmalpflege) — Kirchgasse 3",
+   "applicant": "Unternehmen · Zürich",
+   "project_author": null,
+   "publication_date": "2026-04-17",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 197.3,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/35890ddf-cf0e-4190-80e5-beefde925fe0",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000059572",
+   "location": {
+    "lon": 8.548181364853859,
+    "lat": 47.36527700247199,
+    "east": 2683811.603,
+    "north": 1246640.3889999986
+   },
+   "parcels": [
+    "RI4432"
+   ],
+   "type": "conversion",
+   "description": "Umnutzung Laden und Büro zu Praxis, Anpassung der inneren Einteilung UG, EG und 1. OG",
+   "applicant": "Unternehmen · Zürich",
+   "project_author": "Unternehmen · Hergiswil",
+   "publication_date": "2026-04-10",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 379.8,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/dac20cca-a784-4aa4-b580-e207bf3a7937",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000059569",
+   "location": {
+    "lon": 8.548181364853859,
+    "lat": 47.36527700247199,
+    "east": 2683811.603,
+    "north": 1246640.3889999986
+   },
+   "parcels": [
+    "RI4432"
+   ],
+   "type": "conversion",
+   "description": "Umnutzung Laden zu Gastronomie, Anpassung der inneren Einteilung im UG und EG — Seefeldstrasse 1",
+   "applicant": "Unternehmen · Pfäffikon SZ",
+   "project_author": "Unternehmen · Zürich",
+   "publication_date": "2026-04-10",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 379.8,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/1454fd52-d79d-426d-8152-5d544b31176f",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000059560",
+   "location": {
+    "lon": 8.540071516007865,
+    "lat": 47.367020337995676,
+    "east": 2683196.335999999,
+    "north": 1246825.5670000017
+   },
+   "parcels": [
+    "AA5663"
+   ],
+   "type": "demolition",
+   "description": "Unterirdische Seewasserzentrale Kurt-Guggenheim-Anlage mit Umgebungsgestaltung, Baumfällgesuch und Ersatzpflanzung sowie Rückbau und Wiederherstellung Rebekkabrunnen (im Inventar Denkmalpflege)",
+   "applicant": "Einrichtung des öffentlichen Rechts der Gemeinde",
+   "project_author": "Unternehmen · Zürich",
+   "publication_date": "2026-04-10",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 359.9,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/8b76df46-b04e-4895-9f49-0e7a058bb7d5",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000059218",
+   "location": {
+    "lon": 8.548169860275424,
+    "lat": 47.36653657286957,
+    "east": 2683808.7540000007,
+    "north": 1246780.4039999992
+   },
+   "parcels": [
+    "AA8020"
+   ],
+   "type": "other",
+   "description": "Verlängerung der befristeten Bewilligung für das Take-away Café im UG (Ladenpassage) bis 31. Dezember 2033 (im Inventar der Kantonalen Denkmalpflege) — Stadelhoferstrasse 6a",
+   "applicant": "Unternehmen · Emmenbrücke",
+   "project_author": null,
+   "publication_date": "2026-03-20",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 293.9,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/34fdbdd7-a531-49b8-afcc-7291bf51d6d1",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000059074",
+   "location": {
+    "lon": 8.545507019626351,
+    "lat": 47.36814561578838,
+    "east": 2683605.107999999,
+    "north": 1246956.4420000017
+   },
+   "parcels": [
+    "AA2419"
+   ],
+   "type": "other",
+   "description": "Erneuerung der bestehenden Lüftungsanlage (im Inventar Denkmalpflege) — Torgasse 5",
+   "applicant": "Unternehmen · Zürich",
+   "project_author": "Einzelunternehmen",
+   "publication_date": "2026-03-13",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 74.4,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/a7fe0472-53a5-4ba2-9e16-c7a277a787c0",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000059070",
+   "location": {
+    "lon": 8.546715007543824,
+    "lat": 47.36414279236257,
+    "east": 2683702.6279999986,
+    "north": 1246512.732999999
+   },
+   "parcels": [
+    "RI135"
+   ],
+   "type": "conversion",
+   "description": "Dachsanierung, Vergrösserung der bestehenden Dachflächenfenster sowie neue Dachflächenfenster, Umbau DG mit Anpassung der inneren Einteilung, neue Pergola auf Dachzinne (unter Denkmalschutz) — Utoquai 31",
+   "applicant": "Unternehmen · Zürich",
+   "project_author": null,
+   "publication_date": "2026-03-13",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 428.6,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/55042d48-4b4c-4bd0-9574-90d031e59f43",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000058724",
+   "location": {
+    "lon": 8.545547551078547,
+    "lat": 47.37136392170214,
+    "east": 2683603.1220000014,
+    "north": 1247314.267000001
+   },
+   "parcels": [
+    "AA8102"
+   ],
+   "type": "extension",
+   "description": "Umbau Restaurant, Erweiterung bestehender Saal im EG, Begradigung bestehende Glasfassaden hofseitig (im Inventar Denkmalpflege) — Untere Zäune 15",
+   "applicant": "Unternehmen · Zürich",
+   "project_author": null,
+   "publication_date": "2026-02-20",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 406.7,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/3ebced35-a16b-49bf-9b74-ada39832e037",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000058722",
+   "location": {
+    "lon": 8.541501924551914,
+    "lat": 47.37025542466987,
+    "east": 2683299.318,
+    "north": 1247186.7320000008
+   },
+   "parcels": [
+    "AA5072"
+   ],
+   "type": "extension",
+   "description": "Mieterausbau Verkaufsladen im EG und 1. OG (unter Denkmalschutz)",
+   "applicant": "Besondere Rechtsform",
+   "project_author": "Einzelunternehmen",
+   "publication_date": "2026-02-20",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 369.3,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/4d443010-6fab-4d9c-9038-c7f131421622",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000058572",
+   "location": {
+    "lon": 8.545680922744769,
+    "lat": 47.37187369440942,
+    "east": 2683612.3949999996,
+    "north": 1247371.0810000002
+   },
+   "parcels": [
+    "AA2825"
+   ],
+   "type": "conversion",
+   "description": "Sanierung und Aufwertung der Grünanlage mit Spielplatz 'Untere Zäune' (im Inventar Gartendenkmalpflege)",
+   "applicant": "Verwaltungseinheit der Gemeinde",
+   "project_author": null,
+   "publication_date": "2026-02-13",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 464.3,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/eb8f0dfe-c75b-4926-a822-d9c1b0d0fb4b",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000058570",
+   "location": {
+    "lon": 8.544789557663947,
+    "lat": 47.36689254522086,
+    "east": 2683552.8839999996,
+    "north": 1246816.3729999997
+   },
+   "parcels": [
+    "AA4141"
+   ],
+   "type": "conversion",
+   "description": "Umbau Kiosk und teilweise Erneuerung der Fassade (im Inventar Denkmalpflege) — Bellevueplatz 1",
+   "applicant": "Unternehmen · Muttenz",
+   "project_author": "Unternehmen · Zürich",
+   "publication_date": "2026-02-13",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 95.5,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/5b83119c-f572-4a4a-812b-1c9147cfbfc4",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000058565",
+   "location": {
+    "lon": 8.548899959325276,
+    "lat": 47.36722371427855,
+    "east": 2683862.8170000017,
+    "north": 1246857.574000001
+   },
+   "parcels": [
+    "AA3305"
+   ],
+   "type": "extension",
+   "description": "Erweiterung der Veloabstellplätze im Zugangsstollen (Olgastollen) zum Parkhaus Hohe Promenade (im Inventar Denkmal- und Gartendenkmalpflege) — Schanzengasse 11",
+   "applicant": "Verwaltungseinheit der Gemeinde",
+   "project_author": null,
+   "publication_date": "2026-02-13",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 321.6,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/9294a825-dd8d-404a-a6ad-00848b658355",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000058564",
+   "location": {
+    "lon": 8.541770406656884,
+    "lat": 47.370088357326836,
+    "east": 2683319.8559999987,
+    "north": 1247168.4439999983
+   },
+   "parcels": [
+    "AA5070"
+   ],
+   "type": "other",
+   "description": "Boulevardgastronomie mit 39 zusätzlichen Sitzplätzen zu bestehendem Café und bestehender Boulevardgastronomie (im Inventar der Kantonalen Denkmalpflege) — Münsterhof 20",
+   "applicant": "Unternehmen · Zürich",
+   "project_author": "Unternehmen · Zürich",
+   "publication_date": "2026-02-13",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 342.0,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/4edb318e-61f1-41b2-8a6b-9e3955868db4",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000058285",
+   "location": {
+    "lon": 8.541591660950965,
+    "lat": 47.37088400374482,
+    "east": 2683305.1130000018,
+    "north": 1247256.7069999985
+   },
+   "parcels": [
+    "AA5613"
+   ],
+   "type": "extension",
+   "description": "Mieterausbau Laden 1. UG bis 1. OG (unter Denkmalschutz) — Storchengasse 12",
+   "applicant": "Unternehmen · Genève",
+   "project_author": "Unternehmen · Zürich",
+   "publication_date": "2026-01-30",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 420.7,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/aece970a-60ca-4ec2-81a8-32ef78d3e21d",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000057938",
+   "location": {
+    "lon": 8.544332239340662,
+    "lat": 47.36907838710562,
+    "east": 2683514.9189999998,
+    "north": 1247058.8880000003
+   },
+   "parcels": [
+    "AA3282"
+   ],
+   "type": "other",
+   "description": "Klimaanlage mit Aussengerät an Hoffassade im EG — Schifflände 26",
+   "applicant": "Unternehmen · Zürich",
+   "project_author": null,
+   "publication_date": "2026-01-16",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 150.5,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/d0681b49-9877-47d3-8291-a1e58e68df29",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000057920",
+   "location": {
+    "lon": 8.545254421072938,
+    "lat": 47.36774887574873,
+    "east": 2683586.651999999,
+    "north": 1246912.0670000017
+   },
+   "parcels": [
+    "AA3042"
+   ],
+   "type": "other",
+   "description": "Verlängerung Kamin (unter Denkmalschutz)",
+   "applicant": "Unternehmen · Zürich",
+   "project_author": "Unternehmen · St. Gallen",
+   "publication_date": "2026-01-16",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 40.9,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/df4703f4-1578-436a-bf38-32f99297ba50",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000057604",
+   "location": {
+    "lon": 8.542383890558838,
+    "lat": 47.36768331609361,
+    "east": 2683369.9499999993,
+    "north": 1246901.7250000015
+   },
+   "parcels": [
+    "AA5801"
+   ],
+   "type": "conversion",
+   "description": "Restaurant Bauschänzli, Umbau Gastronomiebereich Aussenrestaurant unbefristet (im Inventar der Kantonalen Denkmal- und Gartendenkmalpflege) — Stadthausquai 2",
+   "applicant": "Verwaltungseinheit der Gemeinde",
+   "project_author": null,
+   "publication_date": "2025-12-19",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 176.1,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/8d59781c-c5b4-4428-9d41-809a20600ba0",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000057603",
+   "location": {
+    "lon": 8.545443308499687,
+    "lat": 47.36782235532723,
+    "east": 2683600.8029999994,
+    "north": 1246920.436999999
+   },
+   "parcels": [
+    "AA3050"
+   ],
+   "type": "conversion",
+   "description": "Mieterumbau Arztpraxis im EG,1. OG und 3. OG (unter Denkmalschutz) — Torgasse 4",
+   "applicant": "Unternehmen · Zürich",
+   "project_author": "Unternehmen · Zürich",
+   "publication_date": "2025-12-19",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 55.8,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/ab68f15d-bff3-4fee-b1f1-61821699e614",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000057601",
+   "location": {
+    "lon": 8.549389708410546,
+    "lat": 47.369521400770964,
+    "east": 2683896.1909999996,
+    "north": 1247113.5329999998
+   },
+   "parcels": [
+    "AA3165"
+   ],
+   "type": "extension",
+   "description": "Erweiterung und Änderung der Sendeleistung / des Winkelbereichs der bewilligten Mobilfunk-Antennenanlage auf dem Wohn- und Geschäftshauses: 700–900 MHz; 2 x 300 W ERP, 1 x 310 W ERP, 1800–2600 MHz; 1 x 340 W ERP, 1 x 395 W ERP, 1 x 610 W ERP und 3400 MHz; 2 x 100 W ERP, 1 x 200 W ERP — Wettingerwies 7",
+   "applicant": "Unternehmen · Glattpark (Opfikon)",
+   "project_author": null,
+   "publication_date": "2025-12-19",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 404.4,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/7b302e3c-1357-408d-bf0c-3e0533d4c368",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000057592",
+   "location": {
+    "lon": 8.547399880075742,
+    "lat": 47.36713997876344,
+    "east": 2683749.6499999985,
+    "north": 1246846.6629999988
+   },
+   "parcels": [
+    "AA3360"
+   ],
+   "type": "signage",
+   "description": "Ersatz eines bestehenden Werbebildschirms durch 3 neue in der Stadelhoferpassage",
+   "applicant": "Unternehmen · Zürich",
+   "project_author": null,
+   "publication_date": "2025-12-19",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 214.0,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/b7080024-f2e9-424f-bb5a-51d7b0a1fdc5",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000057587",
+   "location": {
+    "lon": 8.54073379775538,
+    "lat": 47.3685460399492,
+    "east": 2683243.9750000015,
+    "north": 1246995.8830000013
+   },
+   "parcels": [
+    "AA5606"
+   ],
+   "type": "extension",
+   "description": "Erweiterung der Dachwohnung zu einer Maisonettewohnung; Umnutzung 2. Dachgeschoss von Estrich zu Wohnen; energetische Sanierung, Einbau neuer Dachaufstieg und Dachfenster, Anpassung der Raumeinteilung sowie Erneuerung der Sanitär- und Kücheneinrichtungen (im Inventar Denkmalpflege) — Fraumünsterstrasse 13",
+   "applicant": "Ausländisches Unternehmen",
+   "project_author": "Unternehmen · Zürich",
+   "publication_date": "2025-12-19",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 313.3,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/b0242c37-ad36-4ff0-b824-b3aeba633fe6",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000057363",
+   "location": {
+    "lon": 8.541591660950965,
+    "lat": 47.37088400374482,
+    "east": 2683305.1130000018,
+    "north": 1247256.7069999985
+   },
+   "parcels": [
+    "AA5613"
+   ],
+   "type": "demolition",
+   "description": "Rückbau bestehender Mieterausbau (unter Denkmalschutz), Verkaufsnutzung, im 1. UG, EG und 1. OG — Storchengasse 12",
+   "applicant": "Unternehmen · Chiasso",
+   "project_author": null,
+   "publication_date": "2025-12-05",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 420.7,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/b17a2bab-eefc-4bd9-8d8b-ae4af4f0d6e7",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000057357",
+   "location": {
+    "lon": 8.548699476225286,
+    "lat": 47.36751354995743,
+    "east": 2683847.2190000005,
+    "north": 1246889.5810000002
+   },
+   "parcels": [
+    "AA3285"
+   ],
+   "type": "conversion",
+   "description": "Neuer Kellerzugang an nördlicher Fassade, Umnutzung Keller zu Zugang (im Inventar Denkmalpflege) — Olgastrasse 2",
+   "applicant": "Privatperson",
+   "project_author": null,
+   "publication_date": "2025-12-05",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 302.3,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/7f5f3624-f7f7-4c59-abf2-0ca743fbdf6e",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000057237",
+   "location": {
+    "lon": 8.544115352525871,
+    "lat": 47.369807803024635,
+    "east": 2683497.3960000016,
+    "north": 1247139.7470000014
+   },
+   "parcels": [
+    "AA4095"
+   ],
+   "type": "other",
+   "description": "Kunst und Bau am Grossmünster, temporäre künstlerische Intervention am Gerüstnetz (im Inventar der Kantonalen Denkmalpflege) — Zwingliplatz 7",
+   "applicant": "Einrichtung des öffentlichen Rechts des Kantons",
+   "project_author": null,
+   "publication_date": "2025-11-28",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 233.2,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/7edf0677-6bd1-4da4-90f9-85dbd17cfaaa",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000057227",
+   "location": {
+    "lon": 8.540960684080114,
+    "lat": 47.370802405562365,
+    "east": 2683257.587000001,
+    "north": 1247246.9659999982
+   },
+   "parcels": [
+    "AA5677"
+   ],
+   "type": "conversion",
+   "description": "Nutzungsänderung Gewerbe zu Wohnung im 1. OG, neue Küchen- sowie Sanitärapparate (unter Denkmalschutz) — Schlüsselgasse 3",
+   "applicant": "Unternehmen · Zürich",
+   "project_author": "Unternehmen · Zürich",
+   "publication_date": "2025-11-28",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 442.1,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/9c34ff4c-f7b3-42be-9e6a-4cc8584679d7",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000056709",
+   "location": {
+    "lon": 8.546715007543824,
+    "lat": 47.36414279236257,
+    "east": 2683702.6279999986,
+    "north": 1246512.732999999
+   },
+   "parcels": [
+    "RI135"
+   ],
+   "type": "conversion",
+   "description": "Energetische Fassadensanierung, Erneuerung der Haustechnikanlage (unter Denkmalschutz) — Utoquai 31",
+   "applicant": "Unternehmen · Zürich",
+   "project_author": null,
+   "publication_date": "2025-10-31",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 428.6,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/4652500c-ec8d-4a7d-8b2a-adabfb630395",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000056586",
+   "location": {
+    "lon": 8.548571409483024,
+    "lat": 47.370402689270016,
+    "east": 2683833.0029999986,
+    "north": 1247210.6319999993
+   },
+   "parcels": [
+    "AA4138"
+   ],
+   "type": "conversion",
+   "description": "Umnutzung von Kiosk zu Café mit Take-away und Einbau Ausgabefenster (im Inventar Denkmalpflege) — Heimplatz 6",
+   "applicant": "Unternehmen · Zürich",
+   "project_author": null,
+   "publication_date": "2025-10-24",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 414.6,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/9fd15c6d-e0c1-48b1-b1d8-d9e3a826a525",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000056434",
+   "location": {
+    "lon": 8.548181364853859,
+    "lat": 47.36527700247199,
+    "east": 2683811.603,
+    "north": 1246640.3889999986
+   },
+   "parcels": [
+    "RI4432"
+   ],
+   "type": "extension",
+   "description": "Aussenrenovation, Umbau und Erweiterung EG, innere Umbauten OG, Änderung von Parkplätzen — Falkenstrasse 22",
+   "applicant": "Institut des öffentlichen Rechts",
+   "project_author": null,
+   "publication_date": "2025-10-17",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 379.8,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/b08bc2b1-5525-4947-ad8a-4e0b93c0ecef",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000056304",
+   "location": {
+    "lon": 8.540952933236843,
+    "lat": 47.37036932689824,
+    "east": 2683257.6779999994,
+    "north": 1247198.811999999
+   },
+   "parcels": [
+    "AA5144"
+   ],
+   "type": "extension",
+   "description": "Geschäftshaus, Sanierung Wohnung im 5. OG und Dachausbau inkl. neue Wärmepumpe (unter Denkmalschutz) — Münsterhof 14",
+   "applicant": "Privatperson",
+   "project_author": null,
+   "publication_date": "2025-10-10",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 406.8,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/53a5c9b1-8be1-4907-97af-cf4e699dd496",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000055896",
+   "location": {
+    "lon": 8.546219532048958,
+    "lat": 47.36732483018117,
+    "east": 2683660.210000001,
+    "north": 1246865.954
+   },
+   "parcels": [
+    "AA3381"
+   ],
+   "type": "antenna",
+   "description": "Abgeändertes Standortdatenblatt zu dem am 08.08.2025 bis 28.08.2025 ausgeschriebenen Projekt: Änderung der Antennenkonfiguration / Inanspruchnahme eines Korrekturfaktors der bewilligten Mobilfunk-Antennenanlage (ZH098-1) auf dem Dach des Geschäftshauses — Stadelhoferstrasse 41",
+   "applicant": "Unternehmen · Glattpark",
+   "project_author": null,
+   "publication_date": "2025-09-19",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 123.2,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/f39ebb6f-745c-4533-9799-09316bb00ee5",
+     "stale_as_of": null
+    }
+   ]
+  },
+  {
+   "id": "BP-ZH01-0000055893",
+   "location": {
+    "lon": 8.54792712567264,
+    "lat": 47.366685723827274,
+    "east": 2683790.1860000007,
+    "north": 1246796.7259999998
+   },
+   "parcels": [
+    "AA3369"
+   ],
+   "type": "conversion",
+   "description": "Umnutzung und Umbau Büro zu Praxis (im Inventar Denkmalpflege) — Stadelhoferstrasse 10",
+   "applicant": "Unternehmen · Zürich",
+   "project_author": null,
+   "publication_date": "2025-09-19",
+   "status": "objection_period",
+   "expected_trades": [],
+   "distance_m": 270.1,
+   "sources": [
+    {
+     "adapter_id": "ch/zh/construction_events",
+     "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+     "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+     "licence": "opendata-swiss-open",
+     "retrieved_at": "2026-09-08T10:22:55.323562Z",
+     "url": "https://www.amtsblattportal.ch/api/v1/publications/3d140c1c-e2cf-46c9-b133-e5946208cf01",
+     "stale_as_of": null
+    }
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "id": "hazard.flood",
+   "title": {
+    "fr": "Inondation : oui — une crue centennale pourrait atteindre 4% de la parcelle.",
+    "de": "Hochwasser: ja — ein 100-jährliches Hochwasser könnte 4% des Grundstücks erreichen.",
+    "it": "Alluvioni: sì — una piena centennale potrebbe raggiungere il 4% del fondo.",
+    "en": "Flood risk: yes — a 1-in-100-year flood could reach 4% of the plot."
+   },
+   "consequence": {
+    "fr": "Sous-sols, rez-de-chaussée et locaux techniques peuvent nécessiter une protection contre les crues ; le canton peut imposer des conditions.",
+    "de": "Keller, Erdgeschoss und Technikräume brauchen unter Umständen Hochwasserschutz; der Kanton kann Auflagen machen.",
+    "it": "Cantine, piano terra e locali tecnici possono richiedere protezioni contro le piene; il cantone può imporre condizioni.",
+    "en": "Basements, ground floors and technical rooms may need flood protection; the canton can impose conditions."
+   },
+   "class": "B",
+   "severity": "high",
+   "category": "hazard",
+   "source": {
+    "adapter_id": "ch/federal/hazards",
+    "authority": "Bundesamt für Umwelt BAFU",
+    "dataset": "ch.bafu.aquaprotect_100",
+    "licence": "geoadmin-terms",
+    "retrieved_at": "2026-09-08T09:53:06.880628Z",
+    "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.aquaprotect_100&STYLES=&CRS=EPSG%3A2056&BBOX=2683507.0%2C1246866.0%2C2683566.3%2C1246939.4&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+    "stale_as_of": null
+   },
+   "geometry_intersection": {
+    "area_m2": 70.6,
+    "fraction": 0.036
+   },
+   "derivation": "Aquaprotect 100-year extent covers 4% of the parcel, 500-year extent 4% (64×64 px mask over the parcel bbox); ≥1 % → exposed.",
+   "evidence_spans": [],
+   "caveat": {
+    "fr": "Carte fédérale Aquaprotect ; la carte cantonale des dangers et ses degrés de danger font foi.",
+    "de": "Aquaprotect-Karte des Bundes; massgebend sind die kantonale Gefahrenkarte und ihre Gefahrenstufen.",
+    "it": "Carta federale Aquaprotect; fanno stato la carta cantonale dei pericoli e i suoi gradi di pericolo.",
+    "en": "Federal Aquaprotect map; the cantonal hazard map and its danger levels are decisive."
+   },
+   "rank_score": 2.6,
+   "template_key": "hazard.flood.medium",
+   "slots": {
+    "pct": "4%"
+   },
+   "icon": "🌊",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "hazard.runoff",
+   "title": {
+    "fr": "Ruissellement en cas de fortes pluies : 11% de la parcelle peuvent être atteints par des eaux de surface lors de fortes pluies.",
+    "de": "Oberflächenabfluss bei Starkregen: 11% des Grundstücks können bei Starkregen von Oberflächenwasser erreicht werden.",
+    "it": "Ruscellamento in caso di piogge intense: il 11% del fondo può essere raggiunto da acque superficiali durante piogge intense.",
+    "en": "Heavy-rain runoff: 11% of the plot can be reached by surface water during heavy rain."
+   },
+   "consequence": {
+    "fr": "Entrées, sauts-de-loup et rampes de garage peuvent nécessiter une protection contre l'eau venant de la rue ou de la pente.",
+    "de": "Eingänge, Lichtschächte und Garagenrampen brauchen unter Umständen Schutz vor Wasser von Strasse oder Hang.",
+    "it": "Entrate, bocche di lupo e rampe di garage possono richiedere protezioni contro l'acqua proveniente dalla strada o dal pendio.",
+    "en": "Entrances, light wells and garage ramps may need protection against water from the street or slope."
+   },
+   "class": "B",
+   "severity": "medium",
+   "category": "hazard",
+   "source": {
+    "adapter_id": "ch/federal/hazards",
+    "authority": "Bundesamt für Umwelt BAFU",
+    "dataset": "ch.bafu.gefaehrdungskarte-oberflaechenabfluss",
+    "licence": "geoadmin-terms",
+    "retrieved_at": "2026-09-08T09:53:06.925869Z",
+    "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.gefaehrdungskarte-oberflaechenabfluss&STYLES=&CRS=EPSG%3A2056&BBOX=2683507.0%2C1246866.0%2C2683566.3%2C1246939.4&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+    "stale_as_of": null
+   },
+   "geometry_intersection": {
+    "area_m2": 205.9,
+    "fraction": 0.106
+   },
+   "derivation": "Surface-runoff hazard map covers 11% of the parcel (64×64 px mask); ≥1 % → exposed.",
+   "evidence_spans": [],
+   "caveat": {
+    "fr": "Carte fédérale du ruissellement, modélisée à partir du terrain ; ce n'est pas une zone de danger légale.",
+    "de": "Gefährdungskarte Oberflächenabfluss des Bundes, aus dem Gelände modelliert; keine rechtliche Gefahrenzone.",
+    "it": "Carta federale del ruscellamento, modellizzata dal terreno; non è una zona di pericolo legale.",
+    "en": "Federal surface-runoff map, modelled from terrain; not a legal hazard zone."
+   },
+   "rank_score": 1.9,
+   "template_key": "hazard.runoff.low",
+   "slots": {
+    "pct": "11%"
+   },
+   "icon": "🌧",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "noise.road",
+   "title": {
+    "fr": "Bruit routier : modéré (environ 62 dB le jour, 53 dB la nuit).",
+    "de": "Strassenlärm: mittel (etwa 62 dB am Tag, 53 dB in der Nacht).",
+    "it": "Rumore stradale: moderato (circa 62 dB di giorno, 53 dB di notte).",
+    "en": "Road noise: moderate (about 62 dB by day, 53 dB at night)."
+   },
+   "consequence": {
+    "fr": "Chambres et séjours devront peut-être être orientés à l'opposé de la route ou recevoir des fenêtres isolantes.",
+    "de": "Schlaf- und Wohnräume müssen unter Umständen von der Strasse abgewandt liegen oder Schallschutzfenster erhalten.",
+    "it": "Camere e soggiorni potrebbero dover essere orientati lontano dalla strada o avere finestre fonoisolanti.",
+    "en": "Bedrooms and living rooms may have to face away from the road or use sound-insulating windows."
+   },
+   "class": "B",
+   "severity": "medium",
+   "category": "noise",
+   "source": {
+    "adapter_id": "ch/federal/noise",
+    "authority": "Bundesamt für Umwelt BAFU",
+    "dataset": "ch.bafu.laerm-strassenlaerm_tag",
+    "licence": "geoadmin-terms",
+    "retrieved_at": "2026-09-08T10:12:22.780148Z",
+    "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=ch.bafu.laerm-strassenlaerm_tag&QUERY_LAYERS=ch.bafu.laerm-strassenlaerm_tag&CRS=EPSG%3A2056&BBOX=2683540.75%2C1246906.625%2C2683550.75%2C1246916.625&WIDTH=10&HEIGHT=10&I=5&J=5&INFO_FORMAT=application%2Fjson&FEATURE_COUNT=10&LANG=de",
+    "stale_as_of": null
+   },
+   "geometry_intersection": null,
+   "derivation": "road day 62.5 dB, night 53.0 dB at the parcel's interior point; bands: day <55 low, 55–65 medium, ≥65 high; night <45/45–55/≥55.",
+   "evidence_spans": [],
+   "caveat": {
+    "fr": "Modèle fédéral du bruit en un point de la parcelle ; la limite légale dépend du degré de sensibilité au bruit de la zone.",
+    "de": "Lärmmodell des Bundes an einem Punkt des Grundstücks; der gesetzliche Grenzwert hängt von der Lärmempfindlichkeitsstufe der Zone ab.",
+    "it": "Modello federale del rumore in un punto del fondo; il limite legale dipende dal grado di sensibilità al rumore della zona.",
+    "en": "Federal noise model at one point of the plot; the legal limit depends on the zone's noise sensitivity level."
+   },
+   "rank_score": 1.65,
+   "template_key": "noise.road.medium",
+   "slots": {
+    "day": "62",
+    "night": "53"
+   },
+   "icon": "🔊",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "activity.nearby",
+   "title": {
+    "fr": "61 demandes de permis de construire ont été publiées dans un rayon de 500 m au cours des 12 derniers mois.",
+    "de": "61 Baugesuche wurden in den letzten 12 Monaten im Umkreis von 500 m publiziert.",
+    "it": "61 domande di costruzione sono state pubblicate entro 500 m negli ultimi 12 mesi.",
+    "en": "61 building applications were published within 500 m in the last 12 months."
+   },
+   "consequence": {
+    "fr": "Le quartier bouge (antennes, transformations, démolitions, chauffage et solaire, agrandissements, constructions neuves, autres, enseignes) ; la plus proche est à 231 m : Errichtung von 2 aussen aufgestellten Luft / Wasser-Wärmepumpen (im….",
+    "de": "Das Quartier verändert sich (Antennen, Umbauten, Abbrüche, Heizung und Solar, Erweiterungen, Neubauten, Weiteres, Reklamen); das nächste liegt 231 m entfernt: Errichtung von 2 aussen aufgestellten Luft / Wasser-Wärmepumpen (im….",
+    "it": "Il quartiere sta cambiando (antenne, trasformazioni, demolizioni, riscaldamento e solare, ampliamenti, nuove costruzioni, altro, insegne); la più vicina è a 231 m: Errichtung von 2 aussen aufgestellten Luft / Wasser-Wärmepumpen (im….",
+    "en": "The neighbourhood is changing (antennas, conversions, demolitions, heating and solar, extensions, new buildings, other, signage); the nearest one is 231 m away: Errichtung von 2 aussen aufgestellten Luft / Wasser-Wärmepumpen (im…."
+   },
+   "class": "B",
+   "severity": "info",
+   "category": "activity",
+   "source": {
+    "adapter_id": "ch/zh/construction_events",
+    "authority": "Kanton Zürich, Statistisches Amt (FK OGD) / Amtsblatt",
+    "dataset": "Baugesuche im Kanton Zürich (BP-ZH01)",
+    "licence": "opendata-swiss-open",
+    "retrieved_at": "2026-09-08T10:22:55.323562Z",
+    "url": "https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002982_00006183.csv",
+    "stale_as_of": null
+   },
+   "geometry_intersection": null,
+   "derivation": "2123 publications in the municipality since 2025-09-08 (as of 2026-09-08); 61 located within 500 m via cadastre numbers; 2 publications without a parcel number could not be located.",
+   "evidence_spans": [],
+   "caveat": {
+    "fr": "Comptées dans le registre cantonal des publications officielles ; les projets sur des parcelles impossibles à localiser ne sont pas comptés.",
+    "de": "Gezählt aus dem kantonalen Register der amtlichen Baupublikationen; Projekte auf nicht lokalisierbaren Grundstücken sind nicht mitgezählt.",
+    "it": "Contate nel registro cantonale delle pubblicazioni edilizie ufficiali; i progetti su fondi non localizzabili non sono contati.",
+    "en": "Counted from the cantonal register of official building publications; projects on parcels that could not be located are not counted."
+   },
+   "rank_score": 1.2,
+   "template_key": "activity.n",
+   "slots": {
+    "n": "61",
+    "radius": "500",
+    "months": "12",
+    "kinds": {
+     "fr": "antennes, transformations, démolitions, chauffage et solaire, agrandissements, constructions neuves, autres, enseignes",
+     "de": "Antennen, Umbauten, Abbrüche, Heizung und Solar, Erweiterungen, Neubauten, Weiteres, Reklamen",
+     "it": "antenne, trasformazioni, demolizioni, riscaldamento e solare, ampliamenti, nuove costruzioni, altro, insegne",
+     "en": "antennas, conversions, demolitions, heating and solar, extensions, new buildings, other, signage"
+    },
+    "nearest": "Errichtung von 2 aussen aufgestellten Luft / Wasser-Wärmepumpen (im…",
+    "nearest_m": "231"
+   },
+   "icon": "🏘",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "solar.best_roof",
+   "title": {
+    "fr": "Solaire : les toits sont excellents pour des panneaux solaires (1256 m² utilisables, environ 241 MWh par an).",
+    "de": "Solar: die Dächer eignen sich hervorragend für Solarmodule (1256 m² nutzbar, etwa 241 MWh pro Jahr).",
+    "it": "Solare: i tetti sono eccellenti per i pannelli solari (1256 m² utilizzabili, circa 241 MWh all'anno).",
+    "en": "Solar: the roofs are excellently suited for solar panels (1256 m² usable, about 241 MWh a year)."
+   },
+   "consequence": {
+    "fr": "Une installation solaire vaut probablement la peine ; beaucoup de cantons la subventionnent.",
+    "de": "Eine Solaranlage lohnt sich wahrscheinlich; viele Kantone fördern sie.",
+    "it": "Un impianto solare probabilmente conviene; molti cantoni lo sovvenzionano.",
+    "en": "A solar installation is likely worthwhile; many cantons subsidise it."
+   },
+   "class": "A",
+   "severity": "info",
+   "category": "environment",
+   "source": {
+    "adapter_id": "ch/federal/solar",
+    "authority": "Bundesamt für Energie BFE",
+    "dataset": "ch.bfe.solarenergie-eignung-daecher",
+    "licence": "geoadmin-terms",
+    "retrieved_at": "2026-09-08T09:53:07.703181Z",
+    "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683509.2%2C1246928.1%5D%2C%5B2683509.9%2C1246930.6%5D%2C%5B2683511.2%2C1246932.9%5D%2C%5B2683513.7%2C1246935.3%5D%2C%5B2683517.1%2C1246937.0%5D%2C%5B2683519.1%2C1246937.4%5D%2C%5B2683522.7%2C1246937.2%5D%2C%5B2683525.7%2C1246936.1%5D%2C%5B2683527.9%2C1246934.6%5D%2C%5B2683549.6%2C1246907.3%5D%2C%5B2683549.4%2C1246907.1%5D%2C%5B2683562.0%2C1246890.5%5D%2C%5B2683561.5%2C1246890.1%5D%2C%5B2683563.4%2C1246888.8%5D%2C%5B2683564.1%2C1246887.4%5D%2C%5B2683564.3%2C1246885.9%5D%2C%5B2683563.3%2C1246883.5%5D%2C%5B2683561.4%2C1246882.2%5D%2C%5B2683559.7%2C1246882.1%5D%2C%5B2683559.9%2C1246881.5%5D%2C%5B2683532.5%2C1246868.0%5D%2C%5B2683510.7%2C1246919.7%5D%2C%5B2683511.0%2C1246919.8%5D%2C%5B2683509.7%2C1246922.1%5D%2C%5B2683509.0%2C1246925.2%5D%2C%5B2683509.2%2C1246928.1%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfe.solarenergie-eignung-daecher&sr=2056&tolerance=0&returnGeometry=false&limit=200",
+    "stale_as_of": null
+   },
+   "geometry_intersection": null,
+   "derivation": "best of 164 roof surfaces: class 5; suitable area = Σ flaeche where klasse ≥ 3 = 1256 m²; yield = Σ stromertrag = 241292 kWh/a",
+   "evidence_spans": [],
+   "caveat": {
+    "fr": "Modèle fédéral des toitures (Toitsolaire) ; ombrage et état du toit ne sont pas entièrement pris en compte.",
+    "de": "Dachmodell des Bundes (Sonnendach); Beschattung und Dachzustand sind nicht vollständig erfasst.",
+    "it": "Modello federale dei tetti (Tettosolare); ombreggiamento e stato del tetto non sono considerati del tutto.",
+    "en": "Federal roof model (Sonnendach); shading and roof condition are not fully captured."
+   },
+   "rank_score": 1.2,
+   "template_key": "solar.excellent",
+   "slots": {
+    "klasse": "5",
+    "area": "1256",
+    "yield_mwh": "241",
+    "roofs": "164"
+   },
+   "icon": "☀️",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "zoning.zone",
+   "title": {
+    "fr": "Zone : centre historique.",
+    "de": "Zone: historischer Ortskern.",
+    "it": "Zona: nucleo storico.",
+    "en": "Zoning: historic core zone."
+   },
+   "consequence": {
+    "fr": "Aspect, hauteur et affectation relèvent de règles propres au secteur et du plan du centre ; attendez-vous à un contrôle strict de l'esthétique.",
+    "de": "Erscheinung, Höhe und Nutzung richten sich nach gebietsbezogenen Vorschriften und dem Kernzonenplan; rechnen Sie mit strenger Gestaltungskontrolle.",
+    "it": "Aspetto, altezza e uso seguono regole specifiche per il comparto e il piano del nucleo; si aspetti un controllo estetico rigoroso.",
+    "en": "Appearance, height and use are governed by area-specific rules and the core-zone plan; expect strict design control."
+   },
+   "class": "A",
+   "severity": "info",
+   "category": "zoning",
+   "source": {
+    "adapter_id": "ch/zh/zoning",
+    "authority": "Kanton Zürich, Amt für Raumentwicklung (ARE)",
+    "dataset": "ms:ogd-0156_arv_basis_np_gn_zonenflaeche_f",
+    "licence": "zh-ogd",
+    "retrieved_at": "2026-09-08T10:12:22.955605Z",
+    "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0156_arv_basis_np_gn_zonenflaeche_f&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683536.6%2C1246897.8%2C2683538.6%2C1246899.8%2CEPSG%3A2056&COUNT=5",
+    "stale_as_of": null
+   },
+   "geometry_intersection": null,
+   "derivation": null,
+   "evidence_spans": [],
+   "caveat": {
+    "fr": "Zone K telle que publiée par le canton (Zürich, Festsetzung 1999-11-24 Nr. 1816; Genehmigung BD 2000-07-20 Nr. 921).",
+    "de": "Zone K, wie vom Kanton publiziert (Zürich, Festsetzung 1999-11-24 Nr. 1816; Genehmigung BD 2000-07-20 Nr. 921).",
+    "it": "Zona K come pubblicata dal cantone (Zürich, Festsetzung 1999-11-24 Nr. 1816; Genehmigung BD 2000-07-20 Nr. 921).",
+    "en": "Zone K as published by the canton (Zürich, Festsetzung 1999-11-24 Nr. 1816; Genehmigung BD 2000-07-20 Nr. 921)."
+   },
+   "rank_score": 1.05,
+   "template_key": "zoning.core_nofloors",
+   "slots": {
+    "code": "K",
+    "name": "Kernzone",
+    "family": "core",
+    "floors": "–",
+    "height": "–",
+    "wohnanteil": "–",
+    "municipality": "Zürich",
+    "plan_ref": "Festsetzung 1999-11-24 Nr. 1816; Genehmigung BD 2000-07-20 Nr. 921"
+   },
+   "icon": "🗺",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "hazard.gravitational",
+   "title": {
+    "fr": "Chutes de pierres, avalanches et glissements : aucune zone de processus signalée ici.",
+    "de": "Steinschlag, Lawinen und Rutschungen: hier kein Prozessraum markiert.",
+    "it": "Caduta di massi, valanghe e frane: nessuna area di processo segnalata qui.",
+    "en": "Rockfall, avalanche and landslide: no process area marked here."
+   },
+   "consequence": {
+    "fr": "Les modèles fédéraux n'indiquent aucune contrainte liée aux dangers de montagne.",
+    "de": "Die Modelle des Bundes zeigen keine Einschränkung durch Berggefahren.",
+    "it": "I modelli federali non indicano vincoli legati ai pericoli di montagna.",
+    "en": "No mountain-hazard constraint indicated by the federal models."
+   },
+   "class": "A",
+   "severity": "info",
+   "category": "hazard",
+   "source": {
+    "adapter_id": "ch/federal/hazards",
+    "authority": "Bundesamt für Umwelt BAFU",
+    "dataset": "ch.bafu.silvaprotect-sturz,ch.bafu.silvaprotect-lawinen,ch.bafu.silvaprotect-hangmuren,ch.bafu.silvaprotect-murgang",
+    "licence": "geoadmin-terms",
+    "retrieved_at": "2026-09-08T09:53:06.949915Z",
+    "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.silvaprotect-sturz%2Cch.bafu.silvaprotect-lawinen%2Cch.bafu.silvaprotect-hangmuren%2Cch.bafu.silvaprotect-murgang&STYLES=&CRS=EPSG%3A2056&BBOX=2683507.0%2C1246866.0%2C2683566.3%2C1246939.4&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+    "stale_as_of": null
+   },
+   "geometry_intersection": null,
+   "derivation": "SilvaProtect-CH process areas (rockfall, avalanche, shallow landslide, debris flow) cover 0% of the parcel (64×64 px mask); ≥1 % → exposed.",
+   "evidence_spans": [],
+   "caveat": {
+    "fr": "Modèle fédéral SilvaProtect-CH ; la carte cantonale des dangers fait foi.",
+    "de": "Modell SilvaProtect-CH des Bundes; massgebend ist die kantonale Gefahrenkarte.",
+    "it": "Modello federale SilvaProtect-CH; fa stato la carta cantonale dei pericoli.",
+    "en": "Federal SilvaProtect-CH model; the cantonal hazard map is decisive."
+   },
+   "rank_score": 0.85,
+   "template_key": "hazard.gravitational.none",
+   "slots": {
+    "pct": "0%"
+   },
+   "icon": "🏔",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "heritage.federal.none",
+   "title": {
+    "fr": "Patrimoine : aucune inscription fédérale trouvée pour cette parcelle.",
+    "de": "Denkmalschutz: für dieses Grundstück kein Eintrag in den Inventaren des Bundes gefunden.",
+    "it": "Beni culturali: nessuna iscrizione federale trovata per questo fondo.",
+    "en": "Heritage: no federal listing found for this plot."
+   },
+   "consequence": {
+    "fr": "Aucune contrainte issue des inventaires fédéraux du patrimoine.",
+    "de": "Keine Einschränkung aus den Bundesinventaren.",
+    "it": "Nessun vincolo dagli inventari federali dei beni culturali.",
+    "en": "No constraint from the federal heritage inventories."
+   },
+   "class": "A",
+   "severity": "info",
+   "category": "heritage",
+   "source": {
+    "adapter_id": "ch/federal/heritage",
+    "authority": "BABS / BAK (Bund)",
+    "dataset": "ch.babs.kulturgueter, ch.bak.schutzgebiete-unesco_weltkulturerbe",
+    "licence": "geoadmin-terms",
+    "retrieved_at": "2026-09-08T09:53:07.732881Z",
+    "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683509.2%2C1246928.1%5D%2C%5B2683509.9%2C1246930.6%5D%2C%5B2683511.2%2C1246932.9%5D%2C%5B2683513.7%2C1246935.3%5D%2C%5B2683517.1%2C1246937.0%5D%2C%5B2683519.1%2C1246937.4%5D%2C%5B2683522.7%2C1246937.2%5D%2C%5B2683525.7%2C1246936.1%5D%2C%5B2683527.9%2C1246934.6%5D%2C%5B2683549.6%2C1246907.3%5D%2C%5B2683549.4%2C1246907.1%5D%2C%5B2683562.0%2C1246890.5%5D%2C%5B2683561.5%2C1246890.1%5D%2C%5B2683563.4%2C1246888.8%5D%2C%5B2683564.1%2C1246887.4%5D%2C%5B2683564.3%2C1246885.9%5D%2C%5B2683563.3%2C1246883.5%5D%2C%5B2683561.4%2C1246882.2%5D%2C%5B2683559.7%2C1246882.1%5D%2C%5B2683559.9%2C1246881.5%5D%2C%5B2683532.5%2C1246868.0%5D%2C%5B2683510.7%2C1246919.7%5D%2C%5B2683511.0%2C1246919.8%5D%2C%5B2683509.7%2C1246922.1%5D%2C%5B2683509.0%2C1246925.2%5D%2C%5B2683509.2%2C1246928.1%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.babs.kulturgueter%2Cch.bak.schutzgebiete-unesco_weltkulturerbe&sr=2056&tolerance=0&returnGeometry=false&limit=50",
+    "stale_as_of": null
+   },
+   "geometry_intersection": null,
+   "derivation": null,
+   "evidence_spans": [],
+   "caveat": {
+    "fr": "L'inventaire fédéral des sites construits et les inventaires cantonaux/communaux ne sont pas encore consultables ici ; vérifiez-les localement.",
+    "de": "Das Ortsbildinventar des Bundes und die kantonalen/kommunalen Inventare sind hier noch nicht abfragbar; bitte lokal prüfen.",
+    "it": "L'inventario federale degli insediamenti e gli inventari cantonali/comunali non sono ancora consultabili qui; li verifichi localmente.",
+    "en": "The federal townscape inventory and cantonal/municipal inventories are not queryable here yet; check them locally."
+   },
+   "rank_score": 0.8,
+   "template_key": "heritage.none",
+   "slots": {},
+   "icon": "🏛",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "heritage.zh.none",
+   "title": {
+    "fr": "Patrimoine : aucun objet protégé n'est enregistré sur cette parcelle dans le canton de Zurich.",
+    "de": "Denkmalschutz: im Kanton Zürich ist auf diesem Grundstück kein Schutzobjekt eingetragen.",
+    "it": "Beni culturali: nel Canton Zurigo su questo fondo non è registrato alcun oggetto protetto.",
+    "en": "Heritage: no protected object registered on this plot in the Canton of Zürich."
+   },
+   "consequence": {
+    "fr": "Aucune contrainte issue du registre cantonal ou communal de protection.",
+    "de": "Keine Einschränkung aus dem kantonalen oder kommunalen Schutzverzeichnis.",
+    "it": "Nessun vincolo dal registro cantonale o comunale di protezione.",
+    "en": "No constraint from the cantonal or communal protection register."
+   },
+   "class": "A",
+   "severity": "info",
+   "category": "heritage",
+   "source": {
+    "adapter_id": "ch/zh/heritage",
+    "authority": "Kanton Zürich, Kantonale Denkmalpflege (ARE)",
+    "dataset": "ms:ogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p",
+    "licence": "zh-ogd",
+    "retrieved_at": "2026-09-08T10:12:23.010787Z",
+    "url": "https://maps.zh.ch/wfs/OGDZHWFS?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0&TYPENAMES=ms%3Aogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p&SRSNAME=EPSG%3A2056&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&BBOX=2683504.0%2C1246863.0%2C2683569.3%2C1246942.4%2CEPSG%3A2056&COUNT=50",
+    "stale_as_of": null
+   },
+   "geometry_intersection": null,
+   "derivation": null,
+   "evidence_spans": [],
+   "caveat": {
+    "fr": "Les inscriptions à l'inventaire sans décision formelle de protection ne figurent pas dans ce registre.",
+    "de": "Inventareinträge ohne formellen Schutzentscheid stehen nicht in diesem Verzeichnis.",
+    "it": "Le iscrizioni all'inventario senza decisione formale di protezione non figurano in questo registro.",
+    "en": "Inventory entries without a formal protection decision are not in this register."
+   },
+   "rank_score": 0.8,
+   "template_key": "heritage.zh.none",
+   "slots": {},
+   "icon": "🏛",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "noise.rail",
+   "title": {
+    "fr": "Bruit ferroviaire : faible (environ 25 dB le jour, 19 dB la nuit).",
+    "de": "Bahnlärm: gering (etwa 25 dB am Tag, 19 dB in der Nacht).",
+    "it": "Rumore ferroviario: basso (circa 25 dB di giorno, 19 dB di notte).",
+    "en": "Railway noise: low (about 25 dB by day, 19 dB at night)."
+   },
+   "consequence": {
+    "fr": "Le bruit ferroviaire ne devrait pas limiter la disposition des logements.",
+    "de": "Bahnlärm dürfte die Anordnung von Wohnungen nicht einschränken.",
+    "it": "Il rumore ferroviario non dovrebbe limitare la disposizione delle abitazioni.",
+    "en": "Railway noise should not limit how homes can be laid out."
+   },
+   "class": "B",
+   "severity": "info",
+   "category": "noise",
+   "source": {
+    "adapter_id": "ch/federal/noise",
+    "authority": "Bundesamt für Umwelt BAFU",
+    "dataset": "ch.bafu.laerm-bahnlaerm_tag",
+    "licence": "geoadmin-terms",
+    "retrieved_at": "2026-09-08T10:12:22.846017Z",
+    "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=ch.bafu.laerm-bahnlaerm_tag&QUERY_LAYERS=ch.bafu.laerm-bahnlaerm_tag&CRS=EPSG%3A2056&BBOX=2683540.75%2C1246906.625%2C2683550.75%2C1246916.625&WIDTH=10&HEIGHT=10&I=5&J=5&INFO_FORMAT=application%2Fjson&FEATURE_COUNT=10&LANG=de",
+    "stale_as_of": null
+   },
+   "geometry_intersection": null,
+   "derivation": "rail day 24.6 dB, night 18.9 dB at the parcel's interior point; bands: day <55 low, 55–65 medium, ≥65 high; night <45/45–55/≥55.",
+   "evidence_spans": [],
+   "caveat": {
+    "fr": "Modèle fédéral du bruit ferroviaire en un point de la parcelle.",
+    "de": "Bahnlärmmodell des Bundes an einem Punkt des Grundstücks.",
+    "it": "Modello federale del rumore ferroviario in un punto del fondo.",
+    "en": "Federal railway noise model at one point of the plot."
+   },
+   "rank_score": 0.75,
+   "template_key": "noise.rail.low",
+   "slots": {
+    "day": "25",
+    "night": "19"
+   },
+   "icon": "🚆",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "contamination.federal",
+   "title": {
+    "fr": "Sites pollués : aucune inscription dans les cadastres fédéraux pour cette parcelle.",
+    "de": "Belastete Standorte: kein Eintrag in den Katastern des Bundes für dieses Grundstück.",
+    "it": "Siti inquinati: nessuna iscrizione nei catasti federali per questo fondo.",
+    "en": "Polluted sites: no entry in the federal registers for this plot."
+   },
+   "consequence": {
+    "fr": "Aucune trace fédérale de pollution liée aux chemins de fer, aux aérodromes ou à l'armée.",
+    "de": "Kein Eintrag des Bundes zu Belastungen durch Bahn, Flugplätze oder Militär.",
+    "it": "Nessuna traccia federale di inquinamento legato a ferrovie, aerodromi o esercito.",
+    "en": "No federal record of contamination from railways, airfields or the military."
+   },
+   "class": "A",
+   "severity": "info",
+   "category": "environment",
+   "source": {
+    "adapter_id": "ch/federal/contamination",
+    "authority": "BAV / BAZL / VBS (Bund)",
+    "dataset": "ch.bav.kataster-belasteter-standorte-oev, ch.bazl.kataster-belasteter-standorte-zivilflugplaetze, ch.vbs.kataster-belasteter-standorte-militaer",
+    "licence": "geoadmin-terms",
+    "retrieved_at": "2026-09-08T09:53:07.104254Z",
+    "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683509.2%2C1246928.1%5D%2C%5B2683509.9%2C1246930.6%5D%2C%5B2683511.2%2C1246932.9%5D%2C%5B2683513.7%2C1246935.3%5D%2C%5B2683517.1%2C1246937.0%5D%2C%5B2683519.1%2C1246937.4%5D%2C%5B2683522.7%2C1246937.2%5D%2C%5B2683525.7%2C1246936.1%5D%2C%5B2683527.9%2C1246934.6%5D%2C%5B2683549.6%2C1246907.3%5D%2C%5B2683549.4%2C1246907.1%5D%2C%5B2683562.0%2C1246890.5%5D%2C%5B2683561.5%2C1246890.1%5D%2C%5B2683563.4%2C1246888.8%5D%2C%5B2683564.1%2C1246887.4%5D%2C%5B2683564.3%2C1246885.9%5D%2C%5B2683563.3%2C1246883.5%5D%2C%5B2683561.4%2C1246882.2%5D%2C%5B2683559.7%2C1246882.1%5D%2C%5B2683559.9%2C1246881.5%5D%2C%5B2683532.5%2C1246868.0%5D%2C%5B2683510.7%2C1246919.7%5D%2C%5B2683511.0%2C1246919.8%5D%2C%5B2683509.7%2C1246922.1%5D%2C%5B2683509.0%2C1246925.2%5D%2C%5B2683509.2%2C1246928.1%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bav.kataster-belasteter-standorte-oev%2Cch.bazl.kataster-belasteter-standorte-zivilflugplaetze%2Cch.vbs.kataster-belasteter-standorte-militaer&sr=2056&tolerance=0&returnGeometry=false&limit=200",
+    "stale_as_of": null
+   },
+   "geometry_intersection": null,
+   "derivation": null,
+   "evidence_spans": [],
+   "caveat": {
+    "fr": "La plupart des sites pollués figurent dans le cadastre cantonal, présenté sous les restrictions officielles là où le canton le publie.",
+    "de": "Die meisten belasteten Standorte stehen im kantonalen Kataster; dieser erscheint unter den amtlichen Einschränkungen, wo der Kanton ihn publiziert.",
+    "it": "La maggior parte dei siti inquinati è nel catasto cantonale, mostrato tra le restrizioni ufficiali dove il cantone lo pubblica.",
+    "en": "Most polluted sites are in the cantonal register, which is shown under official restrictions where the canton publishes it."
+   },
+   "rank_score": 0.7,
+   "template_key": "contamination.none",
+   "slots": {},
+   "icon": "🧪",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "oereb.ch.Laermempfindlichkeitsstufen.5",
+   "title": {
+    "fr": "Restriction officielle : Lärmempfindlichkeitsstufen (in Nutzungszonen) — Empfindlichkeitsstufe III, aufgestuft (nein) (100% de la parcelle).",
+    "de": "Amtliche Einschränkung: Lärmempfindlichkeitsstufen (in Nutzungszonen) — Empfindlichkeitsstufe III, aufgestuft (nein) (100% des Grundstücks).",
+    "it": "Restrizione ufficiale: Lärmempfindlichkeitsstufen (in Nutzungszonen) — Empfindlichkeitsstufe III, aufgestuft (nein) (100% del fondo).",
+    "en": "Official restriction: Lärmempfindlichkeitsstufen (in Nutzungszonen) — Empfindlichkeitsstufe III, aufgestuft (nein) (100% of the plot)."
+   },
+   "consequence": {
+    "fr": "Fixée par Stadt Zürich ; statut : Rechtskräftig. Elle lie ce que vous pouvez construire ici.",
+    "de": "Festgelegt durch Stadt Zürich; Status: Rechtskräftig. Sie bindet, was Sie hier bauen dürfen.",
+    "it": "Stabilita da Stadt Zürich; stato: Rechtskräftig. Vincola ciò che può costruire qui.",
+    "en": "Set by Stadt Zürich; status: Rechtskräftig. It binds what you may build here."
+   },
+   "class": "A",
+   "severity": "info",
+   "category": "environment",
+   "source": {
+    "adapter_id": "ch/federal/oereb",
+    "authority": "Amt für Raumentwicklung",
+    "dataset": "ÖREB-Kataster extract (GetExtractById, JSON)",
+    "licence": "oereb-cantonal",
+    "retrieved_at": "2026-09-08T09:53:07.605306Z",
+    "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH819189997789&LANG=de",
+    "stale_as_of": null
+   },
+   "geometry_intersection": {
+    "area_m2": 1950.0,
+    "fraction": 1.0
+   },
+   "derivation": null,
+   "evidence_spans": [
+    {
+     "document": "Bauordnung Stadt Zürich 2016 (V43 Stand 29.05.2024)",
+     "article": "24.11.2021",
+     "text": "Empfindlichkeitsstufe III, aufgestuft (nein)",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://oerebdocs.zh.ch/getDoc?docid=6"
+    },
+    {
+     "document": "Lärmschutz-Verordnung (LSV)",
+     "article": "SR 814.41",
+     "text": "Empfindlichkeitsstufe III, aufgestuft (nein)",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://oerebdocs.zh.ch/getDoc?docid=2298"
+    },
+    {
+     "document": "Planungs- und Baugesetz (PBG)",
+     "article": "LS 700.1",
+     "text": "Empfindlichkeitsstufe III, aufgestuft (nein)",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://oerebdocs.zh.ch/getDoc?docid=2283"
+    },
+    {
+     "document": "Bauverfahrensverordnung (BVV)",
+     "article": "LS 700.6",
+     "text": "Empfindlichkeitsstufe III, aufgestuft (nein)",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://oerebdocs.zh.ch/getDoc?docid=2287"
+    },
+    {
+     "document": "Besondere Bauverordnung I (BBVI)",
+     "article": "LS 700.21",
+     "text": "Empfindlichkeitsstufe III, aufgestuft (nein)",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://oerebdocs.zh.ch/getDoc?docid=2285"
+    }
+   ],
+   "caveat": {
+    "fr": "Tiré du cadastre officiel des restrictions de droit public ; lisez les dispositions légales liées avant de décider.",
+    "de": "Aus dem amtlichen Kataster der öffentlich-rechtlichen Eigentumsbeschränkungen; lesen Sie vor dem Entscheid die verlinkten Rechtsvorschriften.",
+    "it": "Tratto dal catasto ufficiale delle restrizioni di diritto pubblico; legga le disposizioni legali collegate prima di decidere.",
+    "en": "Taken from the official cadastre of public-law restrictions; read the linked legal provisions before deciding."
+   },
+   "rank_score": 0.7,
+   "template_key": "oereb.theme",
+   "slots": {
+    "theme": "Lärmempfindlichkeitsstufen (in Nutzungszonen)",
+    "legend": "Empfindlichkeitsstufe III, aufgestuft (nein)",
+    "office": "Stadt Zürich",
+    "status": "Rechtskräftig",
+    "pct": "100%"
+   },
+   "icon": "📜",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "oereb.ch.Nutzungsplanung.1",
+   "title": {
+    "fr": "Restriction officielle : Nutzungsplanung (kantonal/kommunal): Grundnutzungen — Kernzone (100% de la parcelle).",
+    "de": "Amtliche Einschränkung: Nutzungsplanung (kantonal/kommunal): Grundnutzungen — Kernzone (100% des Grundstücks).",
+    "it": "Restrizione ufficiale: Nutzungsplanung (kantonal/kommunal): Grundnutzungen — Kernzone (100% del fondo).",
+    "en": "Official restriction: Nutzungsplanung (kantonal/kommunal): Grundnutzungen — Kernzone (100% of the plot)."
+   },
+   "consequence": {
+    "fr": "Fixée par Stadt Zürich ; statut : Rechtskräftig. Elle lie ce que vous pouvez construire ici.",
+    "de": "Festgelegt durch Stadt Zürich; Status: Rechtskräftig. Sie bindet, was Sie hier bauen dürfen.",
+    "it": "Stabilita da Stadt Zürich; stato: Rechtskräftig. Vincola ciò che può costruire qui.",
+    "en": "Set by Stadt Zürich; status: Rechtskräftig. It binds what you may build here."
+   },
+   "class": "A",
+   "severity": "info",
+   "category": "zoning",
+   "source": {
+    "adapter_id": "ch/federal/oereb",
+    "authority": "Amt für Raumentwicklung",
+    "dataset": "ÖREB-Kataster extract (GetExtractById, JSON)",
+    "licence": "oereb-cantonal",
+    "retrieved_at": "2026-09-08T09:53:07.605306Z",
+    "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH819189997789&LANG=de",
+    "stale_as_of": null
+   },
+   "geometry_intersection": {
+    "area_m2": 1950.0,
+    "fraction": 1.0
+   },
+   "derivation": null,
+   "evidence_spans": [
+    {
+     "document": "Genehmigung vom 20. Juli 2000",
+     "article": "921",
+     "text": "Kernzone",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://oerebdocs.zh.ch/getDoc?docid=573"
+    },
+    {
+     "document": "Bauordnung Stadt Zürich 2016 (V43 Stand 29.05.2024)",
+     "article": "24.11.2021",
+     "text": "Kernzone",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://oerebdocs.zh.ch/getDoc?docid=6"
+    },
+    {
+     "document": "Raumplanungsgesetz (RPG)",
+     "article": "SR 700",
+     "text": "Kernzone",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://oerebdocs.zh.ch/getDoc?docid=2293"
+    },
+    {
+     "document": "Planungs- und Baugesetz (PBG)",
+     "article": "LS 700.1",
+     "text": "Kernzone",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://oerebdocs.zh.ch/getDoc?docid=2283"
+    },
+    {
+     "document": "Allgemeine Bauverordnung",
+     "article": "LS 700.2",
+     "text": "Kernzone",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://oerebdocs.zh.ch/getDoc?docid=2284"
+    },
+    {
+     "document": "Bauverfahrensverordnung (BVV)",
+     "article": "LS 700.6",
+     "text": "Kernzone",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://oerebdocs.zh.ch/getDoc?docid=2287"
+    },
+    {
+     "document": "Besondere Bauverordnung I (BBVI)",
+     "article": "LS 700.21",
+     "text": "Kernzone",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://oerebdocs.zh.ch/getDoc?docid=2285"
+    },
+    {
+     "document": "Besondere Bauverordnung II (BBVII)",
+     "article": "LS 700.22",
+     "text": "Kernzone",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://oerebdocs.zh.ch/getDoc?docid=2286"
+    },
+    {
+     "document": "Verordnung über die Darstellung von Nutzungsplänen",
+     "article": "LS 701.12",
+     "text": "Kernzone",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://oerebdocs.zh.ch/getDoc?docid=2288"
+    }
+   ],
+   "caveat": {
+    "fr": "Tiré du cadastre officiel des restrictions de droit public ; lisez les dispositions légales liées avant de décider.",
+    "de": "Aus dem amtlichen Kataster der öffentlich-rechtlichen Eigentumsbeschränkungen; lesen Sie vor dem Entscheid die verlinkten Rechtsvorschriften.",
+    "it": "Tratto dal catasto ufficiale delle restrizioni di diritto pubblico; legga le disposizioni legali collegate prima di decidere.",
+    "en": "Taken from the official cadastre of public-law restrictions; read the linked legal provisions before deciding."
+   },
+   "rank_score": 0.7,
+   "template_key": "oereb.theme",
+   "slots": {
+    "theme": "Nutzungsplanung (kantonal/kommunal): Grundnutzungen",
+    "legend": "Kernzone",
+    "office": "Stadt Zürich",
+    "status": "Rechtskräftig",
+    "pct": "100%"
+   },
+   "icon": "📜",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "oereb.ch.Nutzungsplanung.2",
+   "title": {
+    "fr": "Restriction officielle : Nutzungsplanung (kantonal/kommunal): überlagernde Nutzungen — Kernzonenplan (100% de la parcelle).",
+    "de": "Amtliche Einschränkung: Nutzungsplanung (kantonal/kommunal): überlagernde Nutzungen — Kernzonenplan (100% des Grundstücks).",
+    "it": "Restrizione ufficiale: Nutzungsplanung (kantonal/kommunal): überlagernde Nutzungen — Kernzonenplan (100% del fondo).",
+    "en": "Official restriction: Nutzungsplanung (kantonal/kommunal): überlagernde Nutzungen — Kernzonenplan (100% of the plot)."
+   },
+   "consequence": {
+    "fr": "Fixée par Stadt Zürich ; statut : Rechtskräftig. Elle lie ce que vous pouvez construire ici.",
+    "de": "Festgelegt durch Stadt Zürich; Status: Rechtskräftig. Sie bindet, was Sie hier bauen dürfen.",
+    "it": "Stabilita da Stadt Zürich; stato: Rechtskräftig. Vincola ciò che può costruire qui.",
+    "en": "Set by Stadt Zürich; status: Rechtskräftig. It binds what you may build here."
+   },
+   "class": "A",
+   "severity": "info",
+   "category": "zoning",
+   "source": {
+    "adapter_id": "ch/federal/oereb",
+    "authority": "Amt für Raumentwicklung",
+    "dataset": "ÖREB-Kataster extract (GetExtractById, JSON)",
+    "licence": "oereb-cantonal",
+    "retrieved_at": "2026-09-08T09:53:07.605306Z",
+    "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH819189997789&LANG=de",
+    "stale_as_of": null
+   },
+   "geometry_intersection": {
+    "area_m2": 1950.0,
+    "fraction": 1.0
+   },
+   "derivation": null,
+   "evidence_spans": [
+    {
+     "document": "Kernzonenplan Rämistrasse (öffentliche Auflage 18.03.2026-01.06.2026)",
+     "article": "321",
+     "text": "Kernzonenplan",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://oerebdocs.zh.ch/getDoc?docid=85"
+    },
+    {
+     "document": "Bauordnung Stadt Zürich 2016 (V43 Stand 29.05.2024)",
+     "article": "24.11.2021",
+     "text": "Kernzonenplan",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://oerebdocs.zh.ch/getDoc?docid=6"
+    },
+    {
+     "document": "Raumplanungsgesetz (RPG)",
+     "article": "SR 700",
+     "text": "Kernzonenplan",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://oerebdocs.zh.ch/getDoc?docid=2293"
+    },
+    {
+     "document": "Planungs- und Baugesetz (PBG)",
+     "article": "LS 700.1",
+     "text": "Kernzonenplan",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://oerebdocs.zh.ch/getDoc?docid=2283"
+    },
+    {
+     "document": "Verordnung über die Darstellung von Nutzungsplänen",
+     "article": "LS 701.12",
+     "text": "Kernzonenplan",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://oerebdocs.zh.ch/getDoc?docid=2288"
+    }
+   ],
+   "caveat": {
+    "fr": "Tiré du cadastre officiel des restrictions de droit public ; lisez les dispositions légales liées avant de décider.",
+    "de": "Aus dem amtlichen Kataster der öffentlich-rechtlichen Eigentumsbeschränkungen; lesen Sie vor dem Entscheid die verlinkten Rechtsvorschriften.",
+    "it": "Tratto dal catasto ufficiale delle restrizioni di diritto pubblico; legga le disposizioni legali collegate prima di decidere.",
+    "en": "Taken from the official cadastre of public-law restrictions; read the linked legal provisions before deciding."
+   },
+   "rank_score": 0.7,
+   "template_key": "oereb.theme",
+   "slots": {
+    "theme": "Nutzungsplanung (kantonal/kommunal): überlagernde Nutzungen",
+    "legend": "Kernzonenplan",
+    "office": "Stadt Zürich",
+    "status": "Rechtskräftig",
+    "pct": "100%"
+   },
+   "icon": "📜",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "oereb.ch.Nutzungsplanung.3",
+   "title": {
+    "fr": "Restriction officielle : Nutzungsplanung (kantonal/kommunal): überlagernde Nutzungen — Erdgeschossnutzung (0% de la parcelle).",
+    "de": "Amtliche Einschränkung: Nutzungsplanung (kantonal/kommunal): überlagernde Nutzungen — Erdgeschossnutzung (0% des Grundstücks).",
+    "it": "Restrizione ufficiale: Nutzungsplanung (kantonal/kommunal): überlagernde Nutzungen — Erdgeschossnutzung (0% del fondo).",
+    "en": "Official restriction: Nutzungsplanung (kantonal/kommunal): überlagernde Nutzungen — Erdgeschossnutzung (0% of the plot)."
+   },
+   "consequence": {
+    "fr": "Fixée par Stadt Zürich ; statut : Rechtskräftig. Elle lie ce que vous pouvez construire ici.",
+    "de": "Festgelegt durch Stadt Zürich; Status: Rechtskräftig. Sie bindet, was Sie hier bauen dürfen.",
+    "it": "Stabilita da Stadt Zürich; stato: Rechtskräftig. Vincola ciò che può costruire qui.",
+    "en": "Set by Stadt Zürich; status: Rechtskräftig. It binds what you may build here."
+   },
+   "class": "A",
+   "severity": "info",
+   "category": "zoning",
+   "source": {
+    "adapter_id": "ch/federal/oereb",
+    "authority": "Amt für Raumentwicklung",
+    "dataset": "ÖREB-Kataster extract (GetExtractById, JSON)",
+    "licence": "oereb-cantonal",
+    "retrieved_at": "2026-09-08T09:53:07.605306Z",
+    "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH819189997789&LANG=de",
+    "stale_as_of": null
+   },
+   "geometry_intersection": {
+    "area_m2": 6.0,
+    "fraction": 0.0
+   },
+   "derivation": null,
+   "evidence_spans": [
+    {
+     "document": "Erdgeschossnutzung (öffentliche Auflage 18.03.2026-01.06.2026)",
+     "article": "321",
+     "text": "Erdgeschossnutzung",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://oerebdocs.zh.ch/getDoc?docid=6778"
+    },
+    {
+     "document": "Bauordnung Stadt Zürich 2016 (V43 Stand 29.05.2024)",
+     "article": "24.11.2021",
+     "text": "Erdgeschossnutzung",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://oerebdocs.zh.ch/getDoc?docid=6"
+    },
+    {
+     "document": "Raumplanungsgesetz (RPG)",
+     "article": "SR 700",
+     "text": "Erdgeschossnutzung",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://oerebdocs.zh.ch/getDoc?docid=2293"
+    },
+    {
+     "document": "Planungs- und Baugesetz (PBG)",
+     "article": "LS 700.1",
+     "text": "Erdgeschossnutzung",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://oerebdocs.zh.ch/getDoc?docid=2283"
+    }
+   ],
+   "caveat": {
+    "fr": "Tiré du cadastre officiel des restrictions de droit public ; lisez les dispositions légales liées avant de décider.",
+    "de": "Aus dem amtlichen Kataster der öffentlich-rechtlichen Eigentumsbeschränkungen; lesen Sie vor dem Entscheid die verlinkten Rechtsvorschriften.",
+    "it": "Tratto dal catasto ufficiale delle restrizioni di diritto pubblico; legga le disposizioni legali collegate prima di decidere.",
+    "en": "Taken from the official cadastre of public-law restrictions; read the linked legal provisions before deciding."
+   },
+   "rank_score": 0.7,
+   "template_key": "oereb.theme",
+   "slots": {
+    "theme": "Nutzungsplanung (kantonal/kommunal): überlagernde Nutzungen",
+    "legend": "Erdgeschossnutzung",
+    "office": "Stadt Zürich",
+    "status": "Rechtskräftig",
+    "pct": "0%"
+   },
+   "icon": "📜",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "oereb.ch.ZH.Baulinien.4",
+   "title": {
+    "fr": "Restriction officielle : Baulinien (kantonal/kommunal) — Baulinie.Verkehr, kommunal (– de la parcelle).",
+    "de": "Amtliche Einschränkung: Baulinien (kantonal/kommunal) — Baulinie.Verkehr, kommunal (– des Grundstücks).",
+    "it": "Restrizione ufficiale: Baulinien (kantonal/kommunal) — Baulinie.Verkehr, kommunal (– del fondo).",
+    "en": "Official restriction: Baulinien (kantonal/kommunal) — Baulinie.Verkehr, kommunal (– of the plot)."
+   },
+   "consequence": {
+    "fr": "Fixée par Stadt Zürich ; statut : Rechtskräftig. Elle lie ce que vous pouvez construire ici.",
+    "de": "Festgelegt durch Stadt Zürich; Status: Rechtskräftig. Sie bindet, was Sie hier bauen dürfen.",
+    "it": "Stabilita da Stadt Zürich; stato: Rechtskräftig. Vincola ciò che può costruire qui.",
+    "en": "Set by Stadt Zürich; status: Rechtskräftig. It binds what you may build here."
+   },
+   "class": "A",
+   "severity": "info",
+   "category": "environment",
+   "source": {
+    "adapter_id": "ch/federal/oereb",
+    "authority": "Amt für Raumentwicklung",
+    "dataset": "ÖREB-Kataster extract (GetExtractById, JSON)",
+    "licence": "oereb-cantonal",
+    "retrieved_at": "2026-09-08T09:53:07.605306Z",
+    "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH819189997789&LANG=de",
+    "stale_as_of": null
+   },
+   "geometry_intersection": null,
+   "derivation": null,
+   "evidence_spans": [
+    {
+     "document": "BLG Beschluss vom 2. Februar 1889",
+     "article": "243",
+     "text": "Baulinie.Verkehr, kommunal",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://oerebdocs.zh.ch/getDoc?docid=10751"
+    },
+    {
+     "document": "Planungs- und Baugesetz (PBG)",
+     "article": "LS 700.1",
+     "text": "Baulinie.Verkehr, kommunal",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://oerebdocs.zh.ch/getDoc?docid=2283"
+    }
+   ],
+   "caveat": {
+    "fr": "Tiré du cadastre officiel des restrictions de droit public ; lisez les dispositions légales liées avant de décider.",
+    "de": "Aus dem amtlichen Kataster der öffentlich-rechtlichen Eigentumsbeschränkungen; lesen Sie vor dem Entscheid die verlinkten Rechtsvorschriften.",
+    "it": "Tratto dal catasto ufficiale delle restrizioni di diritto pubblico; legga le disposizioni legali collegate prima di decidere.",
+    "en": "Taken from the official cadastre of public-law restrictions; read the linked legal provisions before deciding."
+   },
+   "rank_score": 0.7,
+   "template_key": "oereb.theme",
+   "slots": {
+    "theme": "Baulinien (kantonal/kommunal)",
+    "legend": "Baulinie.Verkehr, kommunal",
+    "office": "Stadt Zürich",
+    "status": "Rechtskräftig",
+    "pct": "–"
+   },
+   "icon": "📜",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "terrain.slope",
+   "title": {
+    "fr": "Terrain : plat — la parcelle monte d'environ 3% (408–410 m d'altitude).",
+    "de": "Gelände: flach — das Grundstück steigt um etwa 3% (408–410 m ü. M.).",
+    "it": "Terreno: pianeggiante — il fondo sale di circa il 3% (408–410 m s.l.m.).",
+    "en": "Terrain: flat — the plot rises about 3% (408–410 m above sea level)."
+   },
+   "consequence": {
+    "fr": "Pas de surcoût ni de contrainte liés à la pente.",
+    "de": "Keine Mehrkosten oder Einschränkungen durch die Hanglage.",
+    "it": "Nessun costo aggiuntivo o vincolo dovuto alla pendenza.",
+    "en": "No extra cost or constraint from the slope."
+   },
+   "class": "B",
+   "severity": "info",
+   "category": "environment",
+   "source": {
+    "adapter_id": "ch/federal/terrain",
+    "authority": "Bundesamt für Landestopografie swisstopo",
+    "dataset": "swissALTI3D via profile service (COMB)",
+    "licence": "geoadmin-terms",
+    "retrieved_at": "2026-09-08T09:53:07.788829Z",
+    "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2683509.0%2C1246868.0%5D%2C%5B2683564.3%2C1246937.4%5D%2C%5B2683509.0%2C1246937.4%5D%2C%5B2683564.3%2C1246868.0%5D%5D%7D&sr=2056&nb_points=24",
+    "stale_as_of": null
+   },
+   "geometry_intersection": null,
+   "derivation": "24 samples along both bbox diagonals; min 407.7 m, max 410.0 m; slope = (max−min)/diagonal(89 m) = 2.6 % ≈ 1.5°; flat <10 %, sloped 10–30 %, steep ≥30 %.",
+   "evidence_spans": [],
+   "caveat": {
+    "fr": "Estimé à partir du modèle national d'altitude le long des diagonales de la parcelle.",
+    "de": "Aus dem Höhenmodell des Bundes entlang der Diagonalen des Grundstücks geschätzt.",
+    "it": "Stimato dal modello nazionale di elevazione lungo le diagonali del fondo.",
+    "en": "Estimated from the national elevation model along the plot's diagonals."
+   },
+   "rank_score": 0.7,
+   "template_key": "terrain.flat",
+   "slots": {
+    "min": "408",
+    "max": "410",
+    "slope_pct": "3",
+    "slope_deg": "1"
+   },
+   "icon": "⛰",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "potential.headroom",
+   "title": {
+    "fr": "Combien de plus pourrait être construit ici ne peut pas être déterminé à partir des données publiques.",
+    "de": "Wie viel mehr hier gebaut werden könnte, lässt sich aus öffentlichen Daten nicht bestimmen.",
+    "it": "Quanto si potrebbe costruire in più qui non è determinabile dai dati pubblici.",
+    "en": "How much more could be built here cannot be determined from public data."
+   },
+   "consequence": {
+    "fr": "Un architecte ou le service de l'urbanisme doit l'évaluer : zone K: density is not set by a floor-area ratio (unresolved: max_full_floors, max_attic_floors, max_basement_floors, max_building_height_m, min_boundary_setback_m, max_boundary_setback_with_length_m, floor_area_ratio, floor_area_ratio_commercial, building_mass_ratio, min_open_space_ratio, max_ridge_height_m).",
+    "de": "Das müssen eine Architektin oder das Planungsamt beurteilen: zone K: density is not set by a floor-area ratio (unresolved: max_full_floors, max_attic_floors, max_basement_floors, max_building_height_m, min_boundary_setback_m, max_boundary_setback_with_length_m, floor_area_ratio, floor_area_ratio_commercial, building_mass_ratio, min_open_space_ratio, max_ridge_height_m).",
+    "it": "Devono valutarlo un architetto o l'ufficio di pianificazione: zone K: density is not set by a floor-area ratio (unresolved: max_full_floors, max_attic_floors, max_basement_floors, max_building_height_m, min_boundary_setback_m, max_boundary_setback_with_length_m, floor_area_ratio, floor_area_ratio_commercial, building_mass_ratio, min_open_space_ratio, max_ridge_height_m).",
+    "en": "An architect or the planning office must assess this: zone K: density is not set by a floor-area ratio (unresolved: max_full_floors, max_attic_floors, max_basement_floors, max_building_height_m, min_boundary_setback_m, max_boundary_setback_with_length_m, floor_area_ratio, floor_area_ratio_commercial, building_mass_ratio, min_open_space_ratio, max_ridge_height_m)."
+   },
+   "class": "D",
+   "severity": "info",
+   "category": "potential",
+   "source": {
+    "adapter_id": "ch/zh/regulation",
+    "authority": "Stadt Zürich (Gemeinderat)",
+    "dataset": "BZO 2016, AS 700.100 — mit Änderungen bis 29. Mai 2024",
+    "licence": "official-publication",
+    "retrieved_at": "2026-09-08T10:11:51.299184Z",
+    "url": "https://oerebdocs.zh.ch/getDoc?docid=6",
+    "stale_as_of": null
+   },
+   "geometry_intersection": null,
+   "derivation": null,
+   "evidence_spans": [],
+   "caveat": {
+    "fr": "Aucun indice de densité chiffré ne s'applique à la zone K, ou les niveaux ou l'emprise d'un bâtiment manquent au registre.",
+    "de": "Für die Zone K gilt keine Dichteziffer, oder Geschosse bzw. Grundfläche eines Gebäudes fehlen im Register.",
+    "it": "Alla zona K non si applica alcun indice di densità numerico, oppure nel registro mancano i piani o l'impronta di un edificio.",
+    "en": "No numeric density ratio applies to zone K, or a building's floors or footprint is missing in the register."
+   },
+   "rank_score": 0.45,
+   "template_key": "potential.undetermined",
+   "slots": {
+    "reason": "zone K: density is not set by a floor-area ratio (unresolved: max_full_floors, max_attic_floors, max_basement_floors, max_building_height_m, min_boundary_setback_m, max_boundary_setback_with_length_m, floor_area_ratio, floor_area_ratio_commercial, building_mass_ratio, min_open_space_ratio, max_ridge_height_m)",
+    "code": "K"
+   },
+   "icon": "🏗",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "regulation.rules",
+   "title": {
+    "fr": "Les règles de construction de cette zone sont fixées par des plans propres au secteur, pas par un simple tableau.",
+    "de": "Die Bauregeln für diese Zone stehen in gebietsbezogenen Plänen, nicht in einer einfachen Tabelle.",
+    "it": "Le regole edilizie di questa zona sono fissate da piani specifici per il comparto, non da una semplice tabella.",
+    "en": "Building rules for this zone are set by area-specific plans, not by a simple table."
+   },
+   "consequence": {
+    "fr": "Seul le service de l'urbanisme peut vous indiquer le gabarit exact ici.",
+    "de": "Den genauen Rahmen kann Ihnen hier nur das Planungsamt nennen.",
+    "it": "Solo l'ufficio di pianificazione può indicarle il volume esatto qui.",
+    "en": "Only the planning office can tell you the exact envelope here."
+   },
+   "class": "D",
+   "severity": "info",
+   "category": "zoning",
+   "source": {
+    "adapter_id": "ch/zh/regulation",
+    "authority": "Stadt Zürich (Gemeinderat)",
+    "dataset": "BZO 2016, AS 700.100 — mit Änderungen bis 29. Mai 2024",
+    "licence": "official-publication",
+    "retrieved_at": "2026-09-08T10:11:51.299184Z",
+    "url": "https://oerebdocs.zh.ch/getDoc?docid=6",
+    "stale_as_of": null
+   },
+   "geometry_intersection": null,
+   "derivation": null,
+   "evidence_spans": [],
+   "caveat": {
+    "fr": "Le règlement n'a pas de tableau chiffré pour la zone K (Kernzone).",
+    "de": "Die Bauordnung hat für die Zone K (Kernzone) keine Zahlentabelle.",
+    "it": "Il regolamento non ha una tabella numerica per la zona K (Kernzone).",
+    "en": "The ordinance has no numeric table for zone K (Kernzone)."
+   },
+   "rank_score": 0.3,
+   "template_key": "regulation.plan_specific",
+   "slots": {
+    "code": "K",
+    "name": "Kernzone"
+   },
+   "icon": "📏",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  }
+ ],
+ "coverage": [
+  {
+   "adapter_id": "ch/federal/geocode",
+   "status": "ok",
+   "detail": null,
+   "calls": 0,
+   "from_cache": true
+  },
+  {
+   "adapter_id": "ch/federal/parcel",
+   "status": "ok",
+   "detail": null,
+   "calls": 0,
+   "from_cache": true
+  },
+  {
+   "adapter_id": "ch/federal/buildings",
+   "status": "ok",
+   "detail": null,
+   "calls": 0,
+   "from_cache": true
+  },
+  {
+   "adapter_id": "ch/federal/hazards",
+   "status": "ok",
+   "detail": null,
+   "calls": 0,
+   "from_cache": true
+  },
+  {
+   "adapter_id": "ch/federal/noise",
+   "status": "ok",
+   "detail": null,
+   "calls": 0,
+   "from_cache": true
+  },
+  {
+   "adapter_id": "ch/federal/contamination",
+   "status": "ok",
+   "detail": null,
+   "calls": 0,
+   "from_cache": true
+  },
+  {
+   "adapter_id": "ch/federal/oereb",
+   "status": "ok",
+   "detail": null,
+   "calls": 0,
+   "from_cache": true
+  },
+  {
+   "adapter_id": "ch/federal/solar",
+   "status": "ok",
+   "detail": null,
+   "calls": 0,
+   "from_cache": true
+  },
+  {
+   "adapter_id": "ch/federal/heritage",
+   "status": "ok",
+   "detail": null,
+   "calls": 0,
+   "from_cache": true
+  },
+  {
+   "adapter_id": "ch/federal/terrain",
+   "status": "ok",
+   "detail": null,
+   "calls": 0,
+   "from_cache": true
+  },
+  {
+   "adapter_id": "ch/zh/zoning",
+   "status": "ok",
+   "detail": null,
+   "calls": 0,
+   "from_cache": true
+  },
+  {
+   "adapter_id": "ch/zh/regulation",
+   "status": "ok",
+   "detail": null,
+   "calls": 0,
+   "from_cache": true
+  },
+  {
+   "adapter_id": "ch/zh/heritage",
+   "status": "ok",
+   "detail": null,
+   "calls": 0,
+   "from_cache": true
+  },
+  {
+   "adapter_id": "ch/zh/construction_events",
+   "status": "ok",
+   "detail": null,
+   "calls": 0,
+   "from_cache": true
+  }
+ ],
+ "timings": [
+  {
+   "step": "resolve_address",
+   "seconds": 0.01934229116886854
+  },
+  {
+   "step": "get_parcel",
+   "seconds": 0.005314416717737913
+  },
+  {
+   "step": "get_buildings",
+   "seconds": 0.0006077908910810947
+  },
+  {
+   "step": "ch/federal/hazards",
+   "seconds": 0.010590500198304653
+  },
+  {
+   "step": "ch/federal/noise",
+   "seconds": 0.001165083609521389
+  },
+  {
+   "step": "ch/federal/contamination",
+   "seconds": 0.0005444581620395184
+  },
+  {
+   "step": "ch/federal/oereb",
+   "seconds": 0.0010960409417748451
+  },
+  {
+   "step": "ch/federal/solar",
+   "seconds": 0.0020910827443003654
+  },
+  {
+   "step": "ch/federal/heritage",
+   "seconds": 0.0005225841887295246
+  },
+  {
+   "step": "ch/federal/terrain",
+   "seconds": 0.00037525035440921783
+  },
+  {
+   "step": "ch/zh/zoning",
+   "seconds": 0.0005640420131385326
+  },
+  {
+   "step": "ch/zh/regulation",
+   "seconds": 0.004013749770820141
+  },
+  {
+   "step": "ch/zh/heritage",
+   "seconds": 0.00026449980214238167
+  },
+  {
+   "step": "ch/zh/construction_events",
+   "seconds": 0.07384033314883709
+  },
+  {
+   "step": "total",
+   "seconds": 0.14503212505951524
+  }
+ ],
+ "lang": "en",
+ "goal": null,
+ "generated_at": "2026-09-08T12:20:56.570969Z",
+ "topoli_version": "0.1.0.dev0",
+ "parser_versions": {
+  "ch/zh/regulation": "bzo2016-parser/0.1.0"
+ }
+}

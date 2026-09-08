@@ -1,0 +1,25 @@
+PROPERTY CHECK — Limmatquai 1 8001 Zürich, Zürich
+
+🌊  Flood risk: yes — a 1-in-100-year flood could reach 4% of the plot.
+    Basements, ground floors and technical rooms may need flood protection; the canton can impose conditions.
+
+🔊  Road noise: moderate (about 62 dB by day, 53 dB at night).
+    Bedrooms and living rooms may have to face away from the road or use sound-insulating windows.
+
+🏘  61 building applications were published within 500 m in the last 12 months.
+    The neighbourhood is changing (antennas, conversions, demolitions, heating and solar, extensions, new buildings, other, signage); the nearest one is 230 m away: Errichtung von 2 aussen aufgestellten Luft / Wasser-Wärmepumpen (im….
+
+☀️  Solar: the roofs are excellently suited for solar panels (1300 m² usable, about 240 MWh a year).
+    A solar installation is likely worthwhile; many cantons subsidise it.
+
+🏛  Heritage: no federal listing found for this plot.
+    No constraint from the federal heritage inventories.
+
+Confidence: 2 official facts · 3 calculations · 0 estimates · 0 need a professional
+Next step: request the cantonal hazard-map extract for this plot from the cantonal natural-hazards office (ZH)
+
+▸ Open full report: ./index.html
+▸ Share: ./card.png
+
+Run this yourself in 3 steps → https://topoli.ch/run?src=summary&lang=en
+⭐ Star on GitHub → https://github.com/suchipizza/Topoli
