@@ -1,0 +1,154 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - api3.geo.admin.ch
+    method: GET
+    uri: https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Bundesplatz+3%2C+3005+Bern&type=locations&sr=2056&limit=10&origins=address
+  response:
+    body:
+      string: '{"fuzzy":"true","results":[{"attrs":{"detail":"bundesplatz 3 3011 bern
+        351 bern ch be","featureId":"2242547_0","geom_quadindex":"021300202201312213122","geom_st_box2d":"BOX(2600423.2569999993
+        1199521.109000001,2600423.2569999993 1199521.109000001)","label":"Bundesplatz
+        3 <b>3011 Bern</b>","lat":46.946773529052734,"links":[{"href":"/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/101002312","rel":"related","title":"ch.swisstopo.amtliches-gebaeudeadressverzeichnis"},{"href":"/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/2242547_0","rel":"related","title":"ch.bfs.gebaeude_wohnungs_register"}],"lon":7.444191932678223,"num":3,"objectclass":"","origin":"address","rank":7,"x":1199521.125,"y":2600423.25,"zoomlevel":10},"id":1008341,"weight":1546},{"attrs":{"detail":"bundesplatz
+        1 3011 bern 351 bern ch be","featureId":"1230564_0","geom_quadindex":"021300202210200200111","geom_st_box2d":"BOX(2600472.4640000015
+        1199555.5089999996,2600472.4640000015 1199555.5089999996)","label":"Bundesplatz
+        1 <b>3011 Bern</b>","lat":46.94708251953125,"links":[{"href":"/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/100776713","rel":"related","title":"ch.swisstopo.amtliches-gebaeudeadressverzeichnis"},{"href":"/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/1230564_0","rel":"related","title":"ch.bfs.gebaeude_wohnungs_register"}],"lon":7.444838523864746,"num":1,"objectclass":"","origin":"address","rank":7,"x":1199555.5,"y":2600472.5,"zoomlevel":10},"id":1267337,"weight":1542},{"attrs":{"detail":"bundesplatz
+        2 3011 bern 351 bern ch be","featureId":"2242546_0","geom_quadindex":"021300202201133130110","geom_st_box2d":"BOX(2600464.6950000003
+        1199592.0960000008,2600464.6950000003 1199592.0960000008)","label":"Bundesplatz
+        2 <b>3011 Bern</b>","lat":46.94741439819336,"links":[{"href":"/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/101002311","rel":"related","title":"ch.swisstopo.amtliches-gebaeudeadressverzeichnis"},{"href":"/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/2242546_0","rel":"related","title":"ch.bfs.gebaeude_wohnungs_register"}],"lon":7.444736480712891,"num":2,"objectclass":"","origin":"address","rank":7,"x":1199592.125,"y":2600464.75,"zoomlevel":10},"id":1610813,"weight":1542},{"attrs":{"detail":"bundesplatz
+        4 3011 bern 351 bern ch be","featureId":"2242548_0","geom_quadindex":"021300202201133030231","geom_st_box2d":"BOX(2600448.524
+        1199589.4919999987,2600448.524 1199589.4919999987)","label":"Bundesplatz 4
+        <b>3011 Bern</b>","lat":46.947391510009766,"links":[{"href":"/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/101002313","rel":"related","title":"ch.swisstopo.amtliches-gebaeudeadressverzeichnis"},{"href":"/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/2242548_0","rel":"related","title":"ch.bfs.gebaeude_wohnungs_register"}],"lon":7.444523811340332,"num":4,"objectclass":"","origin":"address","rank":7,"x":1199589.5,"y":2600448.5,"zoomlevel":10},"id":1707769,"weight":1542},{"attrs":{"detail":"bundesplatz
+        5 3011 bern 351 bern ch be","featureId":"504009469_0","geom_quadindex":"021300202201301120121","geom_st_box2d":"BOX(2600398.34
+        1199561.9549999982,2600398.34 1199561.9549999982)","label":"Bundesplatz 5
+        <b>3011 Bern</b>","lat":46.9471435546875,"links":[{"href":"/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/102794650","rel":"related","title":"ch.swisstopo.amtliches-gebaeudeadressverzeichnis"},{"href":"/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/504009469_0","rel":"related","title":"ch.bfs.gebaeude_wohnungs_register"}],"lon":7.443864822387695,"num":5,"objectclass":"","origin":"address","rank":7,"x":1199562.0,"y":2600398.25,"zoomlevel":10},"id":921046,"weight":1542},{"attrs":{"detail":"bundesplatz
+        8 3011 bern 351 bern ch be","featureId":"1230659_0","geom_quadindex":"021300202201300130001","geom_st_box2d":"BOX(2600374.287999999
+        1199562.7109999992,2600374.287999999 1199562.7109999992)","label":"Bundesplatz
+        8 <b>3011 Bern</b>","lat":46.947147369384766,"links":[{"href":"/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/100779001","rel":"related","title":"ch.swisstopo.amtliches-gebaeudeadressverzeichnis"},{"href":"/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/1230659_0","rel":"related","title":"ch.bfs.gebaeude_wohnungs_register"}],"lon":7.443548679351807,"num":8,"objectclass":"","origin":"address","rank":7,"x":1199562.75,"y":2600374.25,"zoomlevel":10},"id":1341141,"weight":1542},{"attrs":{"detail":"bundesrain
+        3 3005 bern 351 bern ch be","featureId":"504009468_0","geom_quadindex":"021300202203013213031","geom_st_box2d":"BOX(2600334.8189999983
+        1199404.4160000011,2600334.8189999983 1199404.4160000011)","label":"Bundesrain
+        3 <b>3005 Bern</b>","lat":46.94572448730469,"links":[{"href":"/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/102794689","rel":"related","title":"ch.swisstopo.amtliches-gebaeudeadressverzeichnis"},{"href":"/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/504009468_0","rel":"related","title":"ch.bfs.gebaeude_wohnungs_register"}],"lon":7.44303035736084,"num":3,"objectclass":"","origin":"address","rank":7,"x":1199404.375,"y":2600334.75,"zoomlevel":10},"id":861961,"weight":1532},{"attrs":{"detail":"justingerweg
+        3 3005 bern 351 bern ch be","featureId":"504012079_0","geom_quadindex":"021300202323112122300","geom_st_box2d":"BOX(2601364.324000001
+        1198942.2760000005,2601364.324000001 1198942.2760000005)","label":"Justingerweg
+        3 <b>3005 Bern</b>","lat":46.941566467285156,"links":[{"href":"/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/102793972","rel":"related","title":"ch.swisstopo.amtliches-gebaeudeadressverzeichnis"},{"href":"/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/504012079_0","rel":"related","title":"ch.bfs.gebaeude_wohnungs_register"}],"lon":7.456551551818848,"num":3,"objectclass":"","origin":"address","rank":7,"x":1198942.25,"y":2601364.25,"zoomlevel":10},"id":942095,"weight":1532},{"attrs":{"detail":"tierparkweg
+        3 3005 bern 351 bern ch be","featureId":"504010266_0","geom_quadindex":"021300220031300201121","geom_st_box2d":"BOX(2600826.659000002
+        1198148.1689999998,2600826.659000002 1198148.1689999998)","label":"Tierparkweg
+        3 <b>3005 Bern</b>","lat":46.934425354003906,"links":[{"href":"/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/102797393","rel":"related","title":"ch.swisstopo.amtliches-gebaeudeadressverzeichnis"},{"href":"/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/504010266_0","rel":"related","title":"ch.bfs.gebaeude_wohnungs_register"}],"lon":7.449488639831543,"num":3,"objectclass":"","origin":"address","rank":7,"x":1198148.125,"y":2600826.75,"zoomlevel":10},"id":1037414,"weight":1532},{"attrs":{"detail":"helvetiaplatz
+        3 3005 bern 351 bern ch be","featureId":"504009154_0","geom_quadindex":"021300202231100231203","geom_st_box2d":"BOX(2600832.09
+        1199194.2780000009,2600832.09 1199194.2780000009)","label":"Helvetiaplatz
+        3 <b>3005 Bern</b>","lat":46.9438362121582,"links":[{"href":"/rest/services/ech/MapServer/ch.swisstopo.amtliches-gebaeudeadressverzeichnis/102796995","rel":"related","title":"ch.swisstopo.amtliches-gebaeudeadressverzeichnis"},{"href":"/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/504009154_0","rel":"related","title":"ch.bfs.gebaeude_wohnungs_register"}],"lon":7.449561595916748,"num":3,"objectclass":"","origin":"address","rank":7,"x":1199194.25,"y":2600832.0,"zoomlevel":10},"id":1064952,"weight":1532}]}
+
+        '
+    headers:
+      access-control-allow-headers:
+      - '*'
+      access-control-allow-methods:
+      - GET, HEAD, OPTIONS
+      access-control-allow-origin:
+      - '*'
+      age:
+      - '120'
+      cache-control:
+      - public, max-age=600
+      connection:
+      - keep-alive
+      content-length:
+      - '7676'
+      content-type:
+      - application/json
+      date:
+      - Tue, 08 Sep 2026 09:26:46 GMT
+      server:
+      - gunicorn
+      via:
+      - 1.1 e88b7159f8022f6a253ca0d3e23a4574.cloudfront.net (CloudFront)
+      x-amz-cf-id:
+      - pA2MrPSvR9ohb79SG4mFdTVVMfbEyI6EnNugXpwU7ll09r_5_U4STQ==
+      x-amz-cf-pop:
+      - ZRH52-P1
+      x-cache:
+      - Hit from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: ''
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - api3.geo.admin.ch
+    method: GET
+    uri: https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2600334.75%2C1199404.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2599834.75%2C1198904.375%2C2600834.75%2C1199904.375&imageDisplay=1000%2C1000%2C96
+  response:
+    body:
+      string: "{\"results\": [{\"layerBodId\": \"ch.bfs.gebaeude_wohnungs_register\",
+        \"layerName\": \"GWR: Geb\xE4udestatus\", \"featureId\": \"504009468_0\",
+        \"id\": \"504009468_0\", \"properties\": {\"egid\": \"504009468\", \"strname_deinr\":
+        \"Bundesrain 3\", \"plz_plz6\": \"3005/300500\", \"ggdename\": \"Bern\", \"ggdenr\":
+        351, \"gexpdat\": \"06.09.2026\", \"gdekt\": \"BE\", \"egrid\": \"CH708735114626\",
+        \"lgbkr\": 3, \"lparz\": \"606\", \"lparzsx\": null, \"ltyp\": null, \"gebnr\":
+        \"\", \"gbez\": \"unterirdisches_Geb\xE4ude\", \"gkode\": 2600332.446, \"gkodn\":
+        1199406.375, \"gksce\": 901, \"gstat\": 1004, \"gkat\": 1080, \"gklas\": null,
+        \"gbauj\": null, \"gbaum\": null, \"gbaup\": null, \"gabbj\": null, \"garea\":
+        49, \"gvol\": null, \"gvolnorm\": null, \"gvolsce\": null, \"gastw\": null,
+        \"ganzwhg\": null, \"gazzi\": null, \"gschutzr\": 0, \"gebf\": null, \"gwaerzh1\":
+        null, \"genh1\": null, \"gwaersceh1\": null, \"gwaerdath1\": \"-\", \"gwaerzh2\":
+        null, \"genh2\": null, \"gwaersceh2\": null, \"gwaerdath2\": \"-\", \"gwaerzw1\":
+        null, \"genw1\": null, \"gwaerscew1\": null, \"gwaerdatw1\": \"-\", \"gwaerzw2\":
+        null, \"genw2\": null, \"gwaerscew2\": null, \"gwaerdatw2\": \"-\", \"edid\":
+        \"0\", \"egaid\": 102794689, \"deinr\": \"3\", \"esid\": 10104037, \"strname\":
+        [\"Bundesrain\"], \"strnamk\": [\"Bundesrain\"], \"strindx\": [\"Bun\"], \"strsp\":
+        [\"DE\"], \"stroffiziel\": \"1\", \"dplz4\": 3005, \"dplzz\": 0, \"dplzname\":
+        \"Bern\", \"dkode\": 2600334.819, \"dkodn\": 1199404.416, \"doffadr\": 1,
+        \"dexpdat\": \"06.09.2026\", \"ewid\": null, \"whgnr\": null, \"wstwk\": null,
+        \"wmehrg\": null, \"weinr\": null, \"wbez\": null, \"wstat\": null, \"wexpdat\":
+        null, \"wbauj\": null, \"wabbj\": null, \"warea\": null, \"wazim\": null,
+        \"wkche\": null, \"label\": \"Bundesrain 3\"}}]}"
+    headers:
+      access-control-allow-headers:
+      - '*'
+      access-control-allow-methods:
+      - GET, HEAD, OPTIONS
+      access-control-allow-origin:
+      - '*'
+      age:
+      - '120'
+      cache-control:
+      - max-age=1800, public
+      connection:
+      - keep-alive
+      content-length:
+      - '1572'
+      content-type:
+      - application/geo+json
+      date:
+      - Tue, 08 Sep 2026 09:26:46 GMT
+      server:
+      - Apache/2.4.68 (Debian)
+      via:
+      - 1.1 e88b7159f8022f6a253ca0d3e23a4574.cloudfront.net (CloudFront)
+      x-amz-cf-id:
+      - yJbixKdZtvFDQX3komBwq7ZS-u4JpJX4uCP4vQFhVQgurGEGnGljYw==
+      x-amz-cf-pop:
+      - ZRH52-P1
+      x-cache:
+      - Hit from cloudfront
+      x-ua-compatible:
+      - IE=Edge
+    status:
+      code: 200
+      message: OK
+version: 1
