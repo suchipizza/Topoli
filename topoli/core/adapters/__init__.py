@@ -1,6 +1,6 @@
 """Adapter contract (PRD §4.3), cache and the shared HTTP client."""
 
-from topoli.core.adapters.base import Adapter, HealthStatus, Record
+from topoli.core.adapters.base import Adapter, HealthStatus, Record, SiteContext
 from topoli.core.adapters.http import (
     BudgetExceededError,
     HttpClient,
@@ -16,6 +16,7 @@ __all__ = [
     "HttpClient",
     "OfflineError",
     "Record",
+    "SiteContext",
     "get_client",
     "set_client",
 ]

@@ -1,0 +1,13 @@
+{
+ "adapter_id": "ch/federal/hazards",
+ "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.silvaprotect-sturz%2Cch.bafu.silvaprotect-lawinen%2Cch.bafu.silvaprotect-hangmuren%2Cch.bafu.silvaprotect-murgang&STYLES=&CRS=EPSG%3A2056&BBOX=2600375.1%2C1199447.2%2C2600584.3%2C1199534.3&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+ "retrieved_at": "2026-09-08T09:52:15.072368Z",
+ "payload": {
+  "png_base64": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA+0lEQVR4nO3VTQ7BQBiAYbHiBlZuYEEcRcQFHMAJJqmplTvYW9toy9raBSR2EkuRlDY1c4OaDjXjffbfzPcm/Wk0AAAAAAAAAAAAAAAAfpwQoln3DrVIg7ify+SYzaOp6Rk3senY3OlrUpkMisW+yGUcmp6h4/UZNvf6Cpvx6gna2tzt42zHO/X9IJ54x+LVb6qnll5W+dU4G5+F0VhfmoXJxPQM4okn3gjxxBNP/McR70n8ebZuvzXgW7yav5Qe0NG+xedydy014Gt8qVeA+IrxDxkNiSfeTC3xzyAZ/W28pgYOPsSfxKr1drx2F3HX5ELN+fgqiCfezfgXJpZV+m5W8NIAAAAASUVORK5CYII="
+ },
+ "request": {
+  "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.silvaprotect-sturz%2Cch.bafu.silvaprotect-lawinen%2Cch.bafu.silvaprotect-hangmuren%2Cch.bafu.silvaprotect-murgang&STYLES=&CRS=EPSG%3A2056&BBOX=2600375.1%2C1199447.2%2C2600584.3%2C1199534.3&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Bundesplatz 3, 3011 Bern",
+  "site_id": "351-823",
+  "recorded_at": "2026-09-08T09:52:18+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "fe939fc76ec299725e01bd70b89e4eb256bab8913ab85cab1ef1089278ab2296.json",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2600423.25%2C1199521.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "81d053608e3dbc67b4c309540194092ed5950fc07fbaaae1b95f8ac6750cc58d.json",
+      "url": "https://www.oereb2.apps.be.ch/extract/json/?EGRID=CH294676423526&LANG=de"
+    }
+  ]
+}

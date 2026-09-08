@@ -1,0 +1,5564 @@
+{
+ "adapter_id": "ch/federal/oereb",
+ "url": "https://www.oereb2.apps.be.ch/extract/json/?EGRID=CH294676423526&LANG=de",
+ "retrieved_at": "2026-09-08T09:52:18.097558Z",
+ "payload": {
+  "$schema": "https://raw.githubusercontent.com/openoereb/schemas/ea4fe8e696b84b923cb9aa9fb27c3ba4e2d8eb5b/extract.json",
+  "GetExtractByIdResponse": {
+   "extract": {
+    "CreationDate": "2026-09-08T11:52:18",
+    "ExtractIdentifier": "cbe9438e-4967-4ea5-bdf4-a671fe9f4748",
+    "UpdateDateCS": "2026-08-25T00:00:00",
+    "PLRCadastreAuthority": {
+     "Name": [
+      {
+       "Language": "de",
+       "Text": "Amt für Geoinformation"
+      }
+     ],
+     "OfficeAtWeb": [
+      {
+       "Language": "de",
+       "Text": "https://www.be.ch/oerebk"
+      }
+     ],
+     "Street": "Reiterstrasse",
+     "Number": "11",
+     "PostalCode": "3013",
+     "City": "Bern"
+    },
+    "RealEstate": {
+     "Type": {
+      "Code": "RealEstate",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Liegenschaft"
+       }
+      ]
+     },
+     "Canton": "BE",
+     "MunicipalityName": "Bern",
+     "MunicipalityCode": 351,
+     "LandRegistryArea": 12183,
+     "PlanForLandRegister": {
+      "ReferenceWMS": [
+       {
+        "Language": "de",
+        "Text": "https://geodienste.ch/db/av_situationsplan_oereb_0/deu?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&CRS=EPSG%3A2056&BBOX=2600352.0893367124%2C1199418.2709743916%2C2600607.3186632874%2C1199563.2288069294&WIDTH=493&HEIGHT=280&LAYERS=daten&STYLES=%2C&EXCEPTIONS=XML&FORMAT=image%2Fpng&BGCOLOR=0xFEFFFF&TRANSPARENT=TRUE&SRS=EPSG%3A2056"
+       }
+      ],
+      "layerIndex": 0,
+      "layerOpacity": 1.0,
+      "min": {
+       "type": "Point",
+       "coordinates": [
+        2600352.0893367124,
+        1199418.2709743916
+       ],
+       "crs": "EPSG:2056"
+      },
+      "max": {
+       "type": "Point",
+       "coordinates": [
+        2600607.3186632874,
+        1199563.2288069294
+       ],
+       "crs": "EPSG:2056"
+      }
+     },
+     "PlanForLandRegisterMainPage": {
+      "ReferenceWMS": [
+       {
+        "Language": "de",
+        "Text": "https://geodienste.ch/db/av_situationsplan_0/deu?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&CRS=EPSG%3A2056&BBOX=2600352.0893367124%2C1199418.2709743916%2C2600607.3186632874%2C1199563.2288069294&WIDTH=493&HEIGHT=280&LAYERS=daten%2Cnational_maps_grey&STYLES=%2C%2C&EXCEPTIONS=XML&FORMAT=image%2Fpng&BGCOLOR=0xFEFFFF&TRANSPARENT=TRUE&SRS=EPSG%3A2056"
+       }
+      ],
+      "layerIndex": 0,
+      "layerOpacity": 1.0,
+      "min": {
+       "type": "Point",
+       "coordinates": [
+        2600352.0893367124,
+        1199418.2709743916
+       ],
+       "crs": "EPSG:2056"
+      },
+      "max": {
+       "type": "Point",
+       "coordinates": [
+        2600607.3186632874,
+        1199563.2288069294
+       ],
+       "crs": "EPSG:2056"
+      }
+     },
+     "Number": "823",
+     "IdentDN": "BE0200000042",
+     "EGRID": "CH294676423526",
+     "SubunitOfLandRegister": "1 - Altstadt",
+     "RestrictionOnLandownership": [
+      {
+       "LegendText": [
+        {
+         "Language": "de",
+         "Text": "Altstadtperimeter BO.06"
+        }
+       ],
+       "Theme": {
+        "Code": "ch.Nutzungsplanung",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Zonenflächen Grundnutzung (Nutzungszonen)"
+         }
+        ],
+        "SubCode": "ch.NutzungsplanungGrundnutzungNutzungszonen"
+       },
+       "Lawstatus": {
+        "Code": "inForce",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Rechtskräftig"
+         }
+        ]
+       },
+       "ResponsibleOffice": {
+        "Name": [
+         {
+          "Language": "de",
+          "Text": "Stadt Bern (für Auskünfte zu Bauvorhaben: Bauinspektorat der Stadt Bern)"
+         }
+        ],
+        "OfficeAtWeb": [
+         {
+          "Language": "de",
+          "Text": "https://www.bern.ch/politik-und-verwaltung/stadtverwaltung/sue/bauinspektorat"
+         }
+        ]
+       },
+       "Map": {
+        "ReferenceWMS": [
+         {
+          "Language": "de",
+          "Text": "https://oerebservice.apps.be.ch/cgi-bin/mapserv.fcgi?MAP=oereb_de&VERSION=1.3.0&REQUEST=GetMap&SERVICE=WMS&CRS=EPSG%3A2056&BBOX=2600352.0893367124%2C1199418.2709743916%2C2600607.3186632874%2C1199563.2288069294&WIDTH=493&HEIGHT=280&EXCEPTIONS=xml&FORMAT=image%2Fpng&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE&LAYERS=geodb.nupla_gnnutzbk_nzp%2Cgeodb.nupla_gnzppueo%2Cgeodb.nupla_abgrz_zoen&SRS=EPSG%3A2056"
+         }
+        ],
+        "OtherLegend": [
+         {
+          "LegendText": [
+           {
+            "Language": "de",
+            "Text": "UeO Weihergasse 4"
+           }
+          ],
+          "TypeCode": "125_139",
+          "TypeCodelist": "6fcd45d8-3d48-4270-be09-0d522bbd1c25",
+          "Theme": {
+           "Code": "ch.Nutzungsplanung",
+           "Text": [
+            {
+             "Language": "de",
+             "Text": "Zonenflächen Grundnutzung (Nutzungszonen)"
+            }
+           ],
+           "SubCode": "ch.NutzungsplanungGrundnutzungNutzungszonen"
+          },
+          "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.Nutzungsplanung/legend_entry.png?identifier=de4635fb-b896-4aed-9048-743cd186da54"
+         },
+         {
+          "LegendText": [
+           {
+            "Language": "de",
+            "Text": "Übriges Gebiet: Wald"
+           }
+          ],
+          "TypeCode": "122_27",
+          "TypeCodelist": "1638e6d9-c4e8-4bb0-bfa5-afb564cf0359",
+          "Theme": {
+           "Code": "ch.Nutzungsplanung",
+           "Text": [
+            {
+             "Language": "de",
+             "Text": "Zonenflächen Grundnutzung (Nutzungszonen)"
+            }
+           ],
+           "SubCode": "ch.NutzungsplanungGrundnutzungNutzungszonen"
+          },
+          "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.Nutzungsplanung/legend_entry.png?identifier=9a48ce5a-1ef9-49a6-acc3-c387fed698ae"
+         },
+         {
+          "LegendText": [
+           {
+            "Language": "de",
+            "Text": "Wohnzone (W)"
+           }
+          ],
+          "TypeCode": "101_1",
+          "TypeCodelist": "f5be806c-4091-4943-a686-12ab8d4ce298",
+          "Theme": {
+           "Code": "ch.Nutzungsplanung",
+           "Text": [
+            {
+             "Language": "de",
+             "Text": "Zonenflächen Grundnutzung (Nutzungszonen)"
+            }
+           ],
+           "SubCode": "ch.NutzungsplanungGrundnutzungNutzungszonen"
+          },
+          "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.Nutzungsplanung/legend_entry.png?identifier=52464767-af9f-424b-8242-440aa9ea8250"
+         }
+        ],
+        "layerIndex": 1,
+        "layerOpacity": 0.75,
+        "min": {
+         "type": "Point",
+         "coordinates": [
+          2600352.0893367124,
+          1199418.2709743916
+         ],
+         "crs": "EPSG:2056"
+        },
+        "max": {
+         "type": "Point",
+         "coordinates": [
+          2600607.3186632874,
+          1199563.2288069294
+         ],
+         "crs": "EPSG:2056"
+        }
+       },
+       "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.Nutzungsplanung/legend_entry.png?identifier=6e40e42d-3b23-4ad8-ba24-e31197861336",
+       "AreaShare": 12183,
+       "TypeCode": "217_309",
+       "TypeCodelist": "c4d46091-411f-40a1-8770-070934ebb083",
+       "PartInPercent": 100.0,
+       "LegalProvisions": [
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 10,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bundesgesetz über die Raumplanung"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.fedlex.admin.ch/eli/cc/1979/1573_1573_1573/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Bundeskanzlei"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.bk.admin.ch"
+           }
+          ],
+          "UID": "CHE263297189"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "RPG"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "SR 700"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 910,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Baugesetz"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/721.0/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "BauG"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 721.0"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 915,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauverordnung"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/721.1/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "BauV"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 721.1"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "LegalProvision",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtsvorschrift"
+           }
+          ]
+         },
+         "Index": 100,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauordnung der Stadt Bern (BO) vom 28-12-2006"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebfiles.apps.be.ch/35101/6441/Bern_SSSB_721_1_Bauordnung_der_Stadt_Bern.pdf"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Bern (für Auskünfte zu Bauvorhaben: Bauinspektorat der Stadt Bern)"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.bern.ch/politik-und-verwaltung/stadtverwaltung/sue/bauinspektorat"
+           }
+          ]
+         }
+        }
+       ]
+      },
+      {
+       "LegendText": [
+        {
+         "Language": "de",
+         "Text": "ZPP Obere Altstadt"
+        }
+       ],
+       "Theme": {
+        "Code": "ch.Nutzungsplanung",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Zonenflächen Grundnutzung (Nutzungszonen)"
+         }
+        ],
+        "SubCode": "ch.NutzungsplanungGrundnutzungNutzungszonen"
+       },
+       "Lawstatus": {
+        "Code": "inForce",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Rechtskräftig"
+         }
+        ]
+       },
+       "ResponsibleOffice": {
+        "Name": [
+         {
+          "Language": "de",
+          "Text": "Stadt Bern (für Auskünfte zu Bauvorhaben: Bauinspektorat der Stadt Bern)"
+         }
+        ],
+        "OfficeAtWeb": [
+         {
+          "Language": "de",
+          "Text": "https://www.bern.ch/politik-und-verwaltung/stadtverwaltung/sue/bauinspektorat"
+         }
+        ]
+       },
+       "Map": {
+        "ReferenceWMS": [
+         {
+          "Language": "de",
+          "Text": "https://oerebservice.apps.be.ch/cgi-bin/mapserv.fcgi?MAP=oereb_de&VERSION=1.3.0&REQUEST=GetMap&SERVICE=WMS&CRS=EPSG%3A2056&BBOX=2600352.0893367124%2C1199418.2709743916%2C2600607.3186632874%2C1199563.2288069294&WIDTH=493&HEIGHT=280&EXCEPTIONS=xml&FORMAT=image%2Fpng&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE&LAYERS=geodb.nupla_gnnutzbk_nzp%2Cgeodb.nupla_gnzppueo%2Cgeodb.nupla_abgrz_zoen&SRS=EPSG%3A2056"
+         }
+        ],
+        "OtherLegend": [
+         {
+          "LegendText": [
+           {
+            "Language": "de",
+            "Text": "UeO Weihergasse 4"
+           }
+          ],
+          "TypeCode": "125_139",
+          "TypeCodelist": "6fcd45d8-3d48-4270-be09-0d522bbd1c25",
+          "Theme": {
+           "Code": "ch.Nutzungsplanung",
+           "Text": [
+            {
+             "Language": "de",
+             "Text": "Zonenflächen Grundnutzung (Nutzungszonen)"
+            }
+           ],
+           "SubCode": "ch.NutzungsplanungGrundnutzungNutzungszonen"
+          },
+          "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.Nutzungsplanung/legend_entry.png?identifier=de4635fb-b896-4aed-9048-743cd186da54"
+         },
+         {
+          "LegendText": [
+           {
+            "Language": "de",
+            "Text": "Übriges Gebiet: Wald"
+           }
+          ],
+          "TypeCode": "122_27",
+          "TypeCodelist": "1638e6d9-c4e8-4bb0-bfa5-afb564cf0359",
+          "Theme": {
+           "Code": "ch.Nutzungsplanung",
+           "Text": [
+            {
+             "Language": "de",
+             "Text": "Zonenflächen Grundnutzung (Nutzungszonen)"
+            }
+           ],
+           "SubCode": "ch.NutzungsplanungGrundnutzungNutzungszonen"
+          },
+          "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.Nutzungsplanung/legend_entry.png?identifier=9a48ce5a-1ef9-49a6-acc3-c387fed698ae"
+         },
+         {
+          "LegendText": [
+           {
+            "Language": "de",
+            "Text": "Wohnzone (W)"
+           }
+          ],
+          "TypeCode": "101_1",
+          "TypeCodelist": "f5be806c-4091-4943-a686-12ab8d4ce298",
+          "Theme": {
+           "Code": "ch.Nutzungsplanung",
+           "Text": [
+            {
+             "Language": "de",
+             "Text": "Zonenflächen Grundnutzung (Nutzungszonen)"
+            }
+           ],
+           "SubCode": "ch.NutzungsplanungGrundnutzungNutzungszonen"
+          },
+          "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.Nutzungsplanung/legend_entry.png?identifier=52464767-af9f-424b-8242-440aa9ea8250"
+         }
+        ],
+        "layerIndex": 1,
+        "layerOpacity": 0.75,
+        "min": {
+         "type": "Point",
+         "coordinates": [
+          2600352.0893367124,
+          1199418.2709743916
+         ],
+         "crs": "EPSG:2056"
+        },
+        "max": {
+         "type": "Point",
+         "coordinates": [
+          2600607.3186632874,
+          1199563.2288069294
+         ],
+         "crs": "EPSG:2056"
+        }
+       },
+       "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.Nutzungsplanung/legend_entry.png?identifier=3d886ebd-64db-4ea7-96e4-9dbd1953af64",
+       "AreaShare": 12183,
+       "TypeCode": "204_295",
+       "TypeCodelist": "2272af62-2d40-4801-a1ce-886d2ee8c5fc",
+       "PartInPercent": 100.0,
+       "LegalProvisions": [
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 10,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bundesgesetz über die Raumplanung"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.fedlex.admin.ch/eli/cc/1979/1573_1573_1573/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Bundeskanzlei"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.bk.admin.ch"
+           }
+          ],
+          "UID": "CHE263297189"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "RPG"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "SR 700"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 910,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Baugesetz"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/721.0/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "BauG"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 721.0"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 915,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauverordnung"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/721.1/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "BauV"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 721.1"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "LegalProvision",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtsvorschrift"
+           }
+          ]
+         },
+         "Index": 100,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauordnung der Stadt Bern (BO) vom 28-12-2006"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebfiles.apps.be.ch/35101/6441/Bern_SSSB_721_1_Bauordnung_der_Stadt_Bern.pdf"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Bern (für Auskünfte zu Bauvorhaben: Bauinspektorat der Stadt Bern)"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.bern.ch/politik-und-verwaltung/stadtverwaltung/sue/bauinspektorat"
+           }
+          ]
+         }
+        }
+       ]
+      },
+      {
+       "LegendText": [
+        {
+         "Language": "de",
+         "Text": "Schutzzone A (SZA) Landschafts- + Ortsbildschutzareal"
+        }
+       ],
+       "Theme": {
+        "Code": "ch.Nutzungsplanung",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Zonenflächen Grundnutzung (Nutzungszonen)"
+         }
+        ],
+        "SubCode": "ch.NutzungsplanungGrundnutzungNutzungszonen"
+       },
+       "Lawstatus": {
+        "Code": "inForce",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Rechtskräftig"
+         }
+        ]
+       },
+       "ResponsibleOffice": {
+        "Name": [
+         {
+          "Language": "de",
+          "Text": "Stadt Bern (für Auskünfte zu Bauvorhaben: Bauinspektorat der Stadt Bern)"
+         }
+        ],
+        "OfficeAtWeb": [
+         {
+          "Language": "de",
+          "Text": "https://www.bern.ch/politik-und-verwaltung/stadtverwaltung/sue/bauinspektorat"
+         }
+        ]
+       },
+       "Map": {
+        "ReferenceWMS": [
+         {
+          "Language": "de",
+          "Text": "https://oerebservice.apps.be.ch/cgi-bin/mapserv.fcgi?MAP=oereb_de&VERSION=1.3.0&REQUEST=GetMap&SERVICE=WMS&CRS=EPSG%3A2056&BBOX=2600352.0893367124%2C1199418.2709743916%2C2600607.3186632874%2C1199563.2288069294&WIDTH=493&HEIGHT=280&EXCEPTIONS=xml&FORMAT=image%2Fpng&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE&LAYERS=geodb.nupla_gnnutzbk_nzp%2Cgeodb.nupla_gnzppueo%2Cgeodb.nupla_abgrz_zoen&SRS=EPSG%3A2056"
+         }
+        ],
+        "OtherLegend": [
+         {
+          "LegendText": [
+           {
+            "Language": "de",
+            "Text": "UeO Weihergasse 4"
+           }
+          ],
+          "TypeCode": "125_139",
+          "TypeCodelist": "6fcd45d8-3d48-4270-be09-0d522bbd1c25",
+          "Theme": {
+           "Code": "ch.Nutzungsplanung",
+           "Text": [
+            {
+             "Language": "de",
+             "Text": "Zonenflächen Grundnutzung (Nutzungszonen)"
+            }
+           ],
+           "SubCode": "ch.NutzungsplanungGrundnutzungNutzungszonen"
+          },
+          "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.Nutzungsplanung/legend_entry.png?identifier=de4635fb-b896-4aed-9048-743cd186da54"
+         },
+         {
+          "LegendText": [
+           {
+            "Language": "de",
+            "Text": "Übriges Gebiet: Wald"
+           }
+          ],
+          "TypeCode": "122_27",
+          "TypeCodelist": "1638e6d9-c4e8-4bb0-bfa5-afb564cf0359",
+          "Theme": {
+           "Code": "ch.Nutzungsplanung",
+           "Text": [
+            {
+             "Language": "de",
+             "Text": "Zonenflächen Grundnutzung (Nutzungszonen)"
+            }
+           ],
+           "SubCode": "ch.NutzungsplanungGrundnutzungNutzungszonen"
+          },
+          "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.Nutzungsplanung/legend_entry.png?identifier=9a48ce5a-1ef9-49a6-acc3-c387fed698ae"
+         },
+         {
+          "LegendText": [
+           {
+            "Language": "de",
+            "Text": "Wohnzone (W)"
+           }
+          ],
+          "TypeCode": "101_1",
+          "TypeCodelist": "f5be806c-4091-4943-a686-12ab8d4ce298",
+          "Theme": {
+           "Code": "ch.Nutzungsplanung",
+           "Text": [
+            {
+             "Language": "de",
+             "Text": "Zonenflächen Grundnutzung (Nutzungszonen)"
+            }
+           ],
+           "SubCode": "ch.NutzungsplanungGrundnutzungNutzungszonen"
+          },
+          "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.Nutzungsplanung/legend_entry.png?identifier=52464767-af9f-424b-8242-440aa9ea8250"
+         }
+        ],
+        "layerIndex": 1,
+        "layerOpacity": 0.75,
+        "min": {
+         "type": "Point",
+         "coordinates": [
+          2600352.0893367124,
+          1199418.2709743916
+         ],
+         "crs": "EPSG:2056"
+        },
+        "max": {
+         "type": "Point",
+         "coordinates": [
+          2600607.3186632874,
+          1199563.2288069294
+         ],
+         "crs": "EPSG:2056"
+        }
+       },
+       "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.Nutzungsplanung/legend_entry.png?identifier=6dd831ed-3472-4d6c-851c-d8969d7aa3bf",
+       "AreaShare": 695,
+       "TypeCode": "114_19",
+       "TypeCodelist": "615c5419-e993-414a-ba95-eb67d611074a",
+       "PartInPercent": 5.7,
+       "LegalProvisions": [
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 10,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bundesgesetz über die Raumplanung"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.fedlex.admin.ch/eli/cc/1979/1573_1573_1573/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Bundeskanzlei"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.bk.admin.ch"
+           }
+          ],
+          "UID": "CHE263297189"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "RPG"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "SR 700"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 910,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Baugesetz"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/721.0/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "BauG"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 721.0"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 915,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauverordnung"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/721.1/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "BauV"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 721.1"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "LegalProvision",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtsvorschrift"
+           }
+          ]
+         },
+         "Index": 100,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauordnung der Stadt Bern (BO) vom 28-12-2006"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebfiles.apps.be.ch/35101/6441/Bern_SSSB_721_1_Bauordnung_der_Stadt_Bern.pdf"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Bern (für Auskünfte zu Bauvorhaben: Bauinspektorat der Stadt Bern)"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.bern.ch/politik-und-verwaltung/stadtverwaltung/sue/bauinspektorat"
+           }
+          ]
+         }
+        }
+       ]
+      },
+      {
+       "LegendText": [
+        {
+         "Language": "de",
+         "Text": "Obere Altstadt, Zone mit Planungspflicht"
+        }
+       ],
+       "Theme": {
+        "Code": "ch.Nutzungsplanung",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Zonenflächen Grundnutzung (Nutzungszonen)"
+         }
+        ],
+        "SubCode": "ch.NutzungsplanungGrundnutzungNutzungszonen"
+       },
+       "Lawstatus": {
+        "Code": "inForce",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Rechtskräftig"
+         }
+        ]
+       },
+       "ResponsibleOffice": {
+        "Name": [
+         {
+          "Language": "de",
+          "Text": "Stadt Bern (für Auskünfte zu Bauvorhaben: Bauinspektorat der Stadt Bern)"
+         }
+        ],
+        "OfficeAtWeb": [
+         {
+          "Language": "de",
+          "Text": "https://www.bern.ch/politik-und-verwaltung/stadtverwaltung/sue/bauinspektorat"
+         }
+        ]
+       },
+       "Map": {
+        "ReferenceWMS": [
+         {
+          "Language": "de",
+          "Text": "https://oerebservice.apps.be.ch/cgi-bin/mapserv.fcgi?MAP=oereb_de&VERSION=1.3.0&REQUEST=GetMap&SERVICE=WMS&CRS=EPSG%3A2056&BBOX=2600352.0893367124%2C1199418.2709743916%2C2600607.3186632874%2C1199563.2288069294&WIDTH=493&HEIGHT=280&EXCEPTIONS=xml&FORMAT=image%2Fpng&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE&LAYERS=geodb.nupla_gnnutzbk_nzp%2Cgeodb.nupla_gnzppueo%2Cgeodb.nupla_abgrz_zoen&SRS=EPSG%3A2056"
+         }
+        ],
+        "OtherLegend": [
+         {
+          "LegendText": [
+           {
+            "Language": "de",
+            "Text": "UeO Weihergasse 4"
+           }
+          ],
+          "TypeCode": "125_139",
+          "TypeCodelist": "6fcd45d8-3d48-4270-be09-0d522bbd1c25",
+          "Theme": {
+           "Code": "ch.Nutzungsplanung",
+           "Text": [
+            {
+             "Language": "de",
+             "Text": "Zonenflächen Grundnutzung (Nutzungszonen)"
+            }
+           ],
+           "SubCode": "ch.NutzungsplanungGrundnutzungNutzungszonen"
+          },
+          "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.Nutzungsplanung/legend_entry.png?identifier=de4635fb-b896-4aed-9048-743cd186da54"
+         },
+         {
+          "LegendText": [
+           {
+            "Language": "de",
+            "Text": "Übriges Gebiet: Wald"
+           }
+          ],
+          "TypeCode": "122_27",
+          "TypeCodelist": "1638e6d9-c4e8-4bb0-bfa5-afb564cf0359",
+          "Theme": {
+           "Code": "ch.Nutzungsplanung",
+           "Text": [
+            {
+             "Language": "de",
+             "Text": "Zonenflächen Grundnutzung (Nutzungszonen)"
+            }
+           ],
+           "SubCode": "ch.NutzungsplanungGrundnutzungNutzungszonen"
+          },
+          "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.Nutzungsplanung/legend_entry.png?identifier=9a48ce5a-1ef9-49a6-acc3-c387fed698ae"
+         },
+         {
+          "LegendText": [
+           {
+            "Language": "de",
+            "Text": "Wohnzone (W)"
+           }
+          ],
+          "TypeCode": "101_1",
+          "TypeCodelist": "f5be806c-4091-4943-a686-12ab8d4ce298",
+          "Theme": {
+           "Code": "ch.Nutzungsplanung",
+           "Text": [
+            {
+             "Language": "de",
+             "Text": "Zonenflächen Grundnutzung (Nutzungszonen)"
+            }
+           ],
+           "SubCode": "ch.NutzungsplanungGrundnutzungNutzungszonen"
+          },
+          "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.Nutzungsplanung/legend_entry.png?identifier=52464767-af9f-424b-8242-440aa9ea8250"
+         }
+        ],
+        "layerIndex": 1,
+        "layerOpacity": 0.75,
+        "min": {
+         "type": "Point",
+         "coordinates": [
+          2600352.0893367124,
+          1199418.2709743916
+         ],
+         "crs": "EPSG:2056"
+        },
+        "max": {
+         "type": "Point",
+         "coordinates": [
+          2600607.3186632874,
+          1199563.2288069294
+         ],
+         "crs": "EPSG:2056"
+        }
+       },
+       "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.Nutzungsplanung/legend_entry.png?identifier=bdd6d038-adc7-4a19-8fcc-f482fb6a6eb5",
+       "AreaShare": 11488,
+       "TypeCode": "117_22",
+       "TypeCodelist": "6a665499-0508-47b4-97a7-7d9be4376eaf",
+       "PartInPercent": 94.3,
+       "LegalProvisions": [
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 10,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bundesgesetz über die Raumplanung"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.fedlex.admin.ch/eli/cc/1979/1573_1573_1573/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Bundeskanzlei"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.bk.admin.ch"
+           }
+          ],
+          "UID": "CHE263297189"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "RPG"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "SR 700"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 910,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Baugesetz"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/721.0/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "BauG"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 721.0"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 915,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauverordnung"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/721.1/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "BauV"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 721.1"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "LegalProvision",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtsvorschrift"
+           }
+          ]
+         },
+         "Index": 100,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauordnung der Stadt Bern (BO) vom 28-12-2006"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebfiles.apps.be.ch/35101/6441/Bern_SSSB_721_1_Bauordnung_der_Stadt_Bern.pdf"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Bern (für Auskünfte zu Bauvorhaben: Bauinspektorat der Stadt Bern)"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.bern.ch/politik-und-verwaltung/stadtverwaltung/sue/bauinspektorat"
+           }
+          ]
+         }
+        }
+       ]
+      },
+      {
+       "LegendText": [
+        {
+         "Language": "de",
+         "Text": "Zone im öffentlichen Interesse"
+        }
+       ],
+       "Theme": {
+        "Code": "ch.Nutzungsplanung",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Zonenflächen Grundnutzung (Bauklassen)"
+         }
+        ],
+        "SubCode": "ch.NutzungsplanungGrundnutzungBauklassen"
+       },
+       "Lawstatus": {
+        "Code": "inForce",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Rechtskräftig"
+         }
+        ]
+       },
+       "ResponsibleOffice": {
+        "Name": [
+         {
+          "Language": "de",
+          "Text": "Stadt Bern (für Auskünfte zu Bauvorhaben: Bauinspektorat der Stadt Bern)"
+         }
+        ],
+        "OfficeAtWeb": [
+         {
+          "Language": "de",
+          "Text": "https://www.bern.ch/politik-und-verwaltung/stadtverwaltung/sue/bauinspektorat"
+         }
+        ]
+       },
+       "Map": {
+        "ReferenceWMS": [
+         {
+          "Language": "de",
+          "Text": "https://oerebservice.apps.be.ch/cgi-bin/mapserv.fcgi?MAP=oereb_de&VERSION=1.3.0&REQUEST=GetMap&SERVICE=WMS&CRS=EPSG%3A2056&BBOX=2600352.0893367124%2C1199418.2709743916%2C2600607.3186632874%2C1199563.2288069294&WIDTH=493&HEIGHT=280&EXCEPTIONS=xml&FORMAT=image%2Fpng&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE&LAYERS=geodb.nupla_gnnutzbk_bkl%2Cgeodb.nupla_abgrz_bauweise%2Cgeodb.nupla_gnbauws&SRS=EPSG%3A2056"
+         }
+        ],
+        "OtherLegend": [
+         {
+          "LegendText": [
+           {
+            "Language": "de",
+            "Text": "Bauklasse 3"
+           }
+          ],
+          "TypeCode": "133_190",
+          "TypeCodelist": "32131f30-d65d-4789-8e5b-02995f59d979",
+          "Theme": {
+           "Code": "ch.Nutzungsplanung",
+           "Text": [
+            {
+             "Language": "de",
+             "Text": "Zonenflächen Grundnutzung (Bauklassen)"
+            }
+           ],
+           "SubCode": "ch.NutzungsplanungGrundnutzungBauklassen"
+          },
+          "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.Nutzungsplanung/legend_entry.png?identifier=5270a527-4e42-4d7a-9e91-349d1a59824b"
+         },
+         {
+          "LegendText": [
+           {
+            "Language": "de",
+            "Text": "Bauweise Offen, max. Gebaeudelaenge/-tiefe [m] = 70 / 12"
+           }
+          ],
+          "TypeCode": "155_237",
+          "TypeCodelist": "d6b18e30-4183-42cb-9413-1feeafc31630",
+          "Theme": {
+           "Code": "ch.Nutzungsplanung",
+           "Text": [
+            {
+             "Language": "de",
+             "Text": "Zonenflächen Grundnutzung (Bauklassen)"
+            }
+           ],
+           "SubCode": "ch.NutzungsplanungGrundnutzungBauklassen"
+          },
+          "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.Nutzungsplanung/legend_entry.png?identifier=5cfa4551-7a18-42a3-8c35-121da53792ca"
+         },
+         {
+          "LegendText": [
+           {
+            "Language": "de",
+            "Text": "Übriges Gebiet: Wald"
+           }
+          ],
+          "TypeCode": "145_202",
+          "TypeCodelist": "6418892a-eb66-49d2-9d1a-f88702586ce7",
+          "Theme": {
+           "Code": "ch.Nutzungsplanung",
+           "Text": [
+            {
+             "Language": "de",
+             "Text": "Zonenflächen Grundnutzung (Bauklassen)"
+            }
+           ],
+           "SubCode": "ch.NutzungsplanungGrundnutzungBauklassen"
+          },
+          "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.Nutzungsplanung/legend_entry.png?identifier=56013c79-8553-477f-a2a8-933693a32294"
+         }
+        ],
+        "layerIndex": 1,
+        "layerOpacity": 0.75,
+        "min": {
+         "type": "Point",
+         "coordinates": [
+          2600352.0893367124,
+          1199418.2709743916
+         ],
+         "crs": "EPSG:2056"
+        },
+        "max": {
+         "type": "Point",
+         "coordinates": [
+          2600607.3186632874,
+          1199563.2288069294
+         ],
+         "crs": "EPSG:2056"
+        }
+       },
+       "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.Nutzungsplanung/legend_entry.png?identifier=50c8ae91-87da-47c5-ac53-895b28e2c2d7",
+       "AreaShare": 695,
+       "TypeCode": "139_196",
+       "TypeCodelist": "27af0dd9-61e5-4ec0-83c1-14286040f5b6",
+       "PartInPercent": 5.7,
+       "LegalProvisions": [
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 10,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bundesgesetz über die Raumplanung"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.fedlex.admin.ch/eli/cc/1979/1573_1573_1573/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Bundeskanzlei"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.bk.admin.ch"
+           }
+          ],
+          "UID": "CHE263297189"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "RPG"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "SR 700"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 910,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Baugesetz"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/721.0/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "BauG"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 721.0"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 915,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauverordnung"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/721.1/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "BauV"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 721.1"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "LegalProvision",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtsvorschrift"
+           }
+          ]
+         },
+         "Index": 100,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauordnung der Stadt Bern (BO) vom 28-12-2006"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebfiles.apps.be.ch/35101/6441/Bern_SSSB_721_1_Bauordnung_der_Stadt_Bern.pdf"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Bern (für Auskünfte zu Bauvorhaben: Bauinspektorat der Stadt Bern)"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.bern.ch/politik-und-verwaltung/stadtverwaltung/sue/bauinspektorat"
+           }
+          ]
+         }
+        }
+       ]
+      },
+      {
+       "LegendText": [
+        {
+         "Language": "de",
+         "Text": "Obere Altstadt, Zone mit Planungspflicht"
+        }
+       ],
+       "Theme": {
+        "Code": "ch.Nutzungsplanung",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Zonenflächen Grundnutzung (Bauklassen)"
+         }
+        ],
+        "SubCode": "ch.NutzungsplanungGrundnutzungBauklassen"
+       },
+       "Lawstatus": {
+        "Code": "inForce",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Rechtskräftig"
+         }
+        ]
+       },
+       "ResponsibleOffice": {
+        "Name": [
+         {
+          "Language": "de",
+          "Text": "Stadt Bern (für Auskünfte zu Bauvorhaben: Bauinspektorat der Stadt Bern)"
+         }
+        ],
+        "OfficeAtWeb": [
+         {
+          "Language": "de",
+          "Text": "https://www.bern.ch/politik-und-verwaltung/stadtverwaltung/sue/bauinspektorat"
+         }
+        ]
+       },
+       "Map": {
+        "ReferenceWMS": [
+         {
+          "Language": "de",
+          "Text": "https://oerebservice.apps.be.ch/cgi-bin/mapserv.fcgi?MAP=oereb_de&VERSION=1.3.0&REQUEST=GetMap&SERVICE=WMS&CRS=EPSG%3A2056&BBOX=2600352.0893367124%2C1199418.2709743916%2C2600607.3186632874%2C1199563.2288069294&WIDTH=493&HEIGHT=280&EXCEPTIONS=xml&FORMAT=image%2Fpng&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE&LAYERS=geodb.nupla_gnnutzbk_bkl%2Cgeodb.nupla_abgrz_bauweise%2Cgeodb.nupla_gnbauws&SRS=EPSG%3A2056"
+         }
+        ],
+        "OtherLegend": [
+         {
+          "LegendText": [
+           {
+            "Language": "de",
+            "Text": "Bauklasse 3"
+           }
+          ],
+          "TypeCode": "133_190",
+          "TypeCodelist": "32131f30-d65d-4789-8e5b-02995f59d979",
+          "Theme": {
+           "Code": "ch.Nutzungsplanung",
+           "Text": [
+            {
+             "Language": "de",
+             "Text": "Zonenflächen Grundnutzung (Bauklassen)"
+            }
+           ],
+           "SubCode": "ch.NutzungsplanungGrundnutzungBauklassen"
+          },
+          "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.Nutzungsplanung/legend_entry.png?identifier=5270a527-4e42-4d7a-9e91-349d1a59824b"
+         },
+         {
+          "LegendText": [
+           {
+            "Language": "de",
+            "Text": "Bauweise Offen, max. Gebaeudelaenge/-tiefe [m] = 70 / 12"
+           }
+          ],
+          "TypeCode": "155_237",
+          "TypeCodelist": "d6b18e30-4183-42cb-9413-1feeafc31630",
+          "Theme": {
+           "Code": "ch.Nutzungsplanung",
+           "Text": [
+            {
+             "Language": "de",
+             "Text": "Zonenflächen Grundnutzung (Bauklassen)"
+            }
+           ],
+           "SubCode": "ch.NutzungsplanungGrundnutzungBauklassen"
+          },
+          "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.Nutzungsplanung/legend_entry.png?identifier=5cfa4551-7a18-42a3-8c35-121da53792ca"
+         },
+         {
+          "LegendText": [
+           {
+            "Language": "de",
+            "Text": "Übriges Gebiet: Wald"
+           }
+          ],
+          "TypeCode": "145_202",
+          "TypeCodelist": "6418892a-eb66-49d2-9d1a-f88702586ce7",
+          "Theme": {
+           "Code": "ch.Nutzungsplanung",
+           "Text": [
+            {
+             "Language": "de",
+             "Text": "Zonenflächen Grundnutzung (Bauklassen)"
+            }
+           ],
+           "SubCode": "ch.NutzungsplanungGrundnutzungBauklassen"
+          },
+          "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.Nutzungsplanung/legend_entry.png?identifier=56013c79-8553-477f-a2a8-933693a32294"
+         }
+        ],
+        "layerIndex": 1,
+        "layerOpacity": 0.75,
+        "min": {
+         "type": "Point",
+         "coordinates": [
+          2600352.0893367124,
+          1199418.2709743916
+         ],
+         "crs": "EPSG:2056"
+        },
+        "max": {
+         "type": "Point",
+         "coordinates": [
+          2600607.3186632874,
+          1199563.2288069294
+         ],
+         "crs": "EPSG:2056"
+        }
+       },
+       "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.Nutzungsplanung/legend_entry.png?identifier=4bd370aa-5fb3-45d6-be47-f2bcd169fe35",
+       "AreaShare": 11488,
+       "TypeCode": "140_197",
+       "TypeCodelist": "e9e3feb2-6507-43b9-a19c-a6ee2845507e",
+       "PartInPercent": 94.3,
+       "LegalProvisions": [
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 10,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bundesgesetz über die Raumplanung"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.fedlex.admin.ch/eli/cc/1979/1573_1573_1573/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Bundeskanzlei"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.bk.admin.ch"
+           }
+          ],
+          "UID": "CHE263297189"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "RPG"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "SR 700"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 910,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Baugesetz"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/721.0/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "BauG"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 721.0"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 915,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauverordnung"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/721.1/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "BauV"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 721.1"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "LegalProvision",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtsvorschrift"
+           }
+          ]
+         },
+         "Index": 100,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauordnung der Stadt Bern (BO) vom 28-12-2006"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebfiles.apps.be.ch/35101/6441/Bern_SSSB_721_1_Bauordnung_der_Stadt_Bern.pdf"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Bern (für Auskünfte zu Bauvorhaben: Bauinspektorat der Stadt Bern)"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.bern.ch/politik-und-verwaltung/stadtverwaltung/sue/bauinspektorat"
+           }
+          ]
+         }
+        }
+       ]
+      },
+      {
+       "LegendText": [
+        {
+         "Language": "de",
+         "Text": "übriger Bereich üB"
+        }
+       ],
+       "Theme": {
+        "Code": "ch.BE.Gewaesserschutzbereiche",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Gewässerschutzbereiche (Zusatzinformation nach Art. 8b Abs. 1 Bst. b ÖREBKV)"
+         }
+        ]
+       },
+       "Lawstatus": {
+        "Code": "inForce",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Rechtskräftig"
+         }
+        ]
+       },
+       "ResponsibleOffice": {
+        "Name": [
+         {
+          "Language": "de",
+          "Text": "Amt für Wasser und Abfall des Kantons Bern"
+         }
+        ],
+        "OfficeAtWeb": [
+         {
+          "Language": "de",
+          "Text": "https://www.bvd.be.ch/de/start/themen/wasser/gewaesserschutz/grundwasserschutz.html"
+         }
+        ]
+       },
+       "Map": {
+        "ReferenceWMS": [
+         {
+          "Language": "de",
+          "Text": "https://oerebservice.apps.be.ch/cgi-bin/mapserv.fcgi?MAP=oereb_de&VERSION=1.3.0&REQUEST=GetMap&CRS=EPSG%3A2056&BBOX=2600352.0893367124%2C1199418.2709743916%2C2600607.3186632874%2C1199563.2288069294&WIDTH=493&HEIGHT=280&EXCEPTIONS=xml&FORMAT=image%2Fpng&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE&LAYERS=geodb.gsk25_gsk_protection%2Cgeodb.gsk25_gskzu&SRS=EPSG%3A2056"
+         }
+        ],
+        "layerIndex": 1,
+        "layerOpacity": 0.75,
+        "min": {
+         "type": "Point",
+         "coordinates": [
+          600000.0,
+          200000.0
+         ],
+         "crs": "EPSG:2056"
+        },
+        "max": {
+         "type": "Point",
+         "coordinates": [
+          600200.0,
+          200200.0
+         ],
+         "crs": "EPSG:2056"
+        }
+       },
+       "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.BE.Gewaesserschutzbereiche/legend_entry.png?identifier=291a03e6-f7a6-469a-ab3c-27b32b2cc890",
+       "AreaShare": 12183,
+       "TypeCode": "ef5bf357-837e-4f0c-b95d-e5b618a8e5b1",
+       "TypeCodelist": "1e2003dc-775f-471c-a270-0226f7868508",
+       "PartInPercent": 100.0,
+       "LegalProvisions": [
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 940,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Wasserversorgungsgesetz"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/752.32/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "WVG"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 752.32"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 945,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Wasserversorgungsverordnung"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/752.321.1/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "WVV"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 752.321.1"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "Hint",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Hinweis"
+           }
+          ]
+         },
+         "Index": 1,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Die behördenverbindlichen Gewässerschutzbereiche sind bei der Beurteilung von Bauvorhaben relevant. Da sie lediglich mittelbar grundeigentümerverbindlich sind, erscheinen sie im ÖREB-Kataster als Zusatzinformation gemäss Artikel 8b ÖREBKV."
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": ""
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Amt für Wasser und Abfall des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.bvd.be.ch/de/start/themen/wasser/gewaesserschutz/grundwasserschutz.html"
+           }
+          ]
+         }
+        },
+        {
+         "Type": {
+          "Code": "LegalProvision",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtsvorschrift"
+           }
+          ]
+         },
+         "Index": 1,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Reglement"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebfiles.apps.be.ch/1131/7062/RechtsvorschriftenGewaesserschutzbereiche.pdf"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Amt für Wasser und Abfall des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.bvd.be.ch/de/start/themen/wasser/gewaesserschutz/grundwasserschutz.html"
+           }
+          ]
+         }
+        }
+       ]
+      },
+      {
+       "LegendText": [
+        {
+         "Language": "de",
+         "Text": "Lärmempfindlichkeitsstufe III"
+        }
+       ],
+       "Theme": {
+        "Code": "ch.Laermempfindlichkeitsstufen",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Lärmempfindlichkeitsstufen (in kommunalen Nutzungszonen)"
+         }
+        ]
+       },
+       "Lawstatus": {
+        "Code": "inForce",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Rechtskräftig"
+         }
+        ]
+       },
+       "ResponsibleOffice": {
+        "Name": [
+         {
+          "Language": "de",
+          "Text": "Stadt Bern (für Auskünfte zu Bauvorhaben: Bauinspektorat der Stadt Bern)"
+         }
+        ],
+        "OfficeAtWeb": [
+         {
+          "Language": "de",
+          "Text": "https://www.bern.ch/politik-und-verwaltung/stadtverwaltung/sue/bauinspektorat"
+         }
+        ]
+       },
+       "Map": {
+        "ReferenceWMS": [
+         {
+          "Language": "de",
+          "Text": "https://oerebservice.apps.be.ch/cgi-bin/mapserv.fcgi?MAP=oereb_de&VERSION=1.3.0&REQUEST=GetMap&SERVICE=WMS&CRS=EPSG%3A2056&BBOX=2600352.0893367124%2C1199418.2709743916%2C2600607.3186632874%2C1199563.2288069294&WIDTH=493&HEIGHT=280&EXCEPTIONS=xml&FORMAT=image%2Fpng&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE&LAYERS=geodb.nupla_uelarmes&SRS=EPSG%3A2056"
+         }
+        ],
+        "layerIndex": 1,
+        "layerOpacity": 0.75,
+        "min": {
+         "type": "Point",
+         "coordinates": [
+          2600352.0893367124,
+          1199418.2709743916
+         ],
+         "crs": "EPSG:2056"
+        },
+        "max": {
+         "type": "Point",
+         "coordinates": [
+          2600607.3186632874,
+          1199563.2288069294
+         ],
+         "crs": "EPSG:2056"
+        }
+       },
+       "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.Laermempfindlichkeitsstufen/legend_entry.png?identifier=167c588c-e047-40f8-a787-dd85d9e7efcd",
+       "AreaShare": 1098,
+       "TypeCode": "209_301",
+       "TypeCodelist": "373affbc-661c-43e1-8754-19f6c8ecee6c",
+       "PartInPercent": 9.0,
+       "LegalProvisions": [
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 620,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Lärmschutz-Verordnung"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Bundeskanzlei"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.bk.admin.ch"
+           }
+          ],
+          "UID": "CHE263297189"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "LSV"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "SR 814.41"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 910,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Baugesetz"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/721.0/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "BauG"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 721.0"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 915,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauverordnung"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/721.1/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "BauV"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 721.1"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 950,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Kantonale Lärmschutzverordnung"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/824.761/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "KLSV"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 824.761"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "LegalProvision",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtsvorschrift"
+           }
+          ]
+         },
+         "Index": 100,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauordnung der Stadt Bern (BO) vom 28-12-2006"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebfiles.apps.be.ch/35101/6441/Bern_SSSB_721_1_Bauordnung_der_Stadt_Bern.pdf"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Bern (für Auskünfte zu Bauvorhaben: Bauinspektorat der Stadt Bern)"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.bern.ch/politik-und-verwaltung/stadtverwaltung/sue/bauinspektorat"
+           }
+          ]
+         }
+        }
+       ]
+      },
+      {
+       "LegendText": [
+        {
+         "Language": "de",
+         "Text": "Lärmempfindlichkeitsstufe II"
+        }
+       ],
+       "Theme": {
+        "Code": "ch.Laermempfindlichkeitsstufen",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Lärmempfindlichkeitsstufen (in kommunalen Nutzungszonen)"
+         }
+        ]
+       },
+       "Lawstatus": {
+        "Code": "inForce",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Rechtskräftig"
+         }
+        ]
+       },
+       "ResponsibleOffice": {
+        "Name": [
+         {
+          "Language": "de",
+          "Text": "Stadt Bern (für Auskünfte zu Bauvorhaben: Bauinspektorat der Stadt Bern)"
+         }
+        ],
+        "OfficeAtWeb": [
+         {
+          "Language": "de",
+          "Text": "https://www.bern.ch/politik-und-verwaltung/stadtverwaltung/sue/bauinspektorat"
+         }
+        ]
+       },
+       "Map": {
+        "ReferenceWMS": [
+         {
+          "Language": "de",
+          "Text": "https://oerebservice.apps.be.ch/cgi-bin/mapserv.fcgi?MAP=oereb_de&VERSION=1.3.0&REQUEST=GetMap&SERVICE=WMS&CRS=EPSG%3A2056&BBOX=2600352.0893367124%2C1199418.2709743916%2C2600607.3186632874%2C1199563.2288069294&WIDTH=493&HEIGHT=280&EXCEPTIONS=xml&FORMAT=image%2Fpng&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE&LAYERS=geodb.nupla_uelarmes&SRS=EPSG%3A2056"
+         }
+        ],
+        "layerIndex": 1,
+        "layerOpacity": 0.75,
+        "min": {
+         "type": "Point",
+         "coordinates": [
+          2600352.0893367124,
+          1199418.2709743916
+         ],
+         "crs": "EPSG:2056"
+        },
+        "max": {
+         "type": "Point",
+         "coordinates": [
+          2600607.3186632874,
+          1199563.2288069294
+         ],
+         "crs": "EPSG:2056"
+        }
+       },
+       "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.Laermempfindlichkeitsstufen/legend_entry.png?identifier=d3975dc2-9e30-4302-ac36-fee5d749d843",
+       "AreaShare": 2740,
+       "TypeCode": "207_299",
+       "TypeCodelist": "3f06951d-62d5-483b-8070-338b1c256fab",
+       "PartInPercent": 22.5,
+       "LegalProvisions": [
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 620,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Lärmschutz-Verordnung"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Bundeskanzlei"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.bk.admin.ch"
+           }
+          ],
+          "UID": "CHE263297189"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "LSV"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "SR 814.41"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 910,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Baugesetz"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/721.0/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "BauG"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 721.0"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 915,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauverordnung"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/721.1/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "BauV"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 721.1"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 950,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Kantonale Lärmschutzverordnung"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/824.761/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "KLSV"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 824.761"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "LegalProvision",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtsvorschrift"
+           }
+          ]
+         },
+         "Index": 100,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauordnung der Stadt Bern (BO) vom 28-12-2006"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebfiles.apps.be.ch/35101/6441/Bern_SSSB_721_1_Bauordnung_der_Stadt_Bern.pdf"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Bern (für Auskünfte zu Bauvorhaben: Bauinspektorat der Stadt Bern)"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.bern.ch/politik-und-verwaltung/stadtverwaltung/sue/bauinspektorat"
+           }
+          ]
+         }
+        }
+       ]
+      },
+      {
+       "LegendText": [
+        {
+         "Language": "de",
+         "Text": "Lärmempfindlichkeitsstufe II"
+        }
+       ],
+       "Theme": {
+        "Code": "ch.Laermempfindlichkeitsstufen",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Lärmempfindlichkeitsstufen (in kommunalen Nutzungszonen)"
+         }
+        ]
+       },
+       "Lawstatus": {
+        "Code": "inForce",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Rechtskräftig"
+         }
+        ]
+       },
+       "ResponsibleOffice": {
+        "Name": [
+         {
+          "Language": "de",
+          "Text": "Stadt Bern (für Auskünfte zu Bauvorhaben: Bauinspektorat der Stadt Bern)"
+         }
+        ],
+        "OfficeAtWeb": [
+         {
+          "Language": "de",
+          "Text": "https://www.bern.ch/politik-und-verwaltung/stadtverwaltung/sue/bauinspektorat"
+         }
+        ]
+       },
+       "Map": {
+        "ReferenceWMS": [
+         {
+          "Language": "de",
+          "Text": "https://oerebservice.apps.be.ch/cgi-bin/mapserv.fcgi?MAP=oereb_de&VERSION=1.3.0&REQUEST=GetMap&SERVICE=WMS&CRS=EPSG%3A2056&BBOX=2600352.0893367124%2C1199418.2709743916%2C2600607.3186632874%2C1199563.2288069294&WIDTH=493&HEIGHT=280&EXCEPTIONS=xml&FORMAT=image%2Fpng&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE&LAYERS=geodb.nupla_uelarmes&SRS=EPSG%3A2056"
+         }
+        ],
+        "layerIndex": 1,
+        "layerOpacity": 0.75,
+        "min": {
+         "type": "Point",
+         "coordinates": [
+          2600352.0893367124,
+          1199418.2709743916
+         ],
+         "crs": "EPSG:2056"
+        },
+        "max": {
+         "type": "Point",
+         "coordinates": [
+          2600607.3186632874,
+          1199563.2288069294
+         ],
+         "crs": "EPSG:2056"
+        }
+       },
+       "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.Laermempfindlichkeitsstufen/legend_entry.png?identifier=d3975dc2-9e30-4302-ac36-fee5d749d843",
+       "AreaShare": 2171,
+       "TypeCode": "207_299",
+       "TypeCodelist": "3f06951d-62d5-483b-8070-338b1c256fab",
+       "PartInPercent": 17.8,
+       "LegalProvisions": [
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 620,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Lärmschutz-Verordnung"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Bundeskanzlei"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.bk.admin.ch"
+           }
+          ],
+          "UID": "CHE263297189"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "LSV"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "SR 814.41"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 910,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Baugesetz"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/721.0/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "BauG"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 721.0"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 915,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauverordnung"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/721.1/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "BauV"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 721.1"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 950,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Kantonale Lärmschutzverordnung"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/824.761/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "KLSV"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 824.761"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "LegalProvision",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtsvorschrift"
+           }
+          ]
+         },
+         "Index": 100,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauordnung der Stadt Bern (BO) vom 28-12-2006"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebfiles.apps.be.ch/35101/6441/Bern_SSSB_721_1_Bauordnung_der_Stadt_Bern.pdf"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Bern (für Auskünfte zu Bauvorhaben: Bauinspektorat der Stadt Bern)"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.bern.ch/politik-und-verwaltung/stadtverwaltung/sue/bauinspektorat"
+           }
+          ]
+         }
+        }
+       ]
+      },
+      {
+       "LegendText": [
+        {
+         "Language": "de",
+         "Text": "Lärmempfindlichkeitsstufe III"
+        }
+       ],
+       "Theme": {
+        "Code": "ch.Laermempfindlichkeitsstufen",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Lärmempfindlichkeitsstufen (in kommunalen Nutzungszonen)"
+         }
+        ]
+       },
+       "Lawstatus": {
+        "Code": "inForce",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Rechtskräftig"
+         }
+        ]
+       },
+       "ResponsibleOffice": {
+        "Name": [
+         {
+          "Language": "de",
+          "Text": "Stadt Bern (für Auskünfte zu Bauvorhaben: Bauinspektorat der Stadt Bern)"
+         }
+        ],
+        "OfficeAtWeb": [
+         {
+          "Language": "de",
+          "Text": "https://www.bern.ch/politik-und-verwaltung/stadtverwaltung/sue/bauinspektorat"
+         }
+        ]
+       },
+       "Map": {
+        "ReferenceWMS": [
+         {
+          "Language": "de",
+          "Text": "https://oerebservice.apps.be.ch/cgi-bin/mapserv.fcgi?MAP=oereb_de&VERSION=1.3.0&REQUEST=GetMap&SERVICE=WMS&CRS=EPSG%3A2056&BBOX=2600352.0893367124%2C1199418.2709743916%2C2600607.3186632874%2C1199563.2288069294&WIDTH=493&HEIGHT=280&EXCEPTIONS=xml&FORMAT=image%2Fpng&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE&LAYERS=geodb.nupla_uelarmes&SRS=EPSG%3A2056"
+         }
+        ],
+        "layerIndex": 1,
+        "layerOpacity": 0.75,
+        "min": {
+         "type": "Point",
+         "coordinates": [
+          2600352.0893367124,
+          1199418.2709743916
+         ],
+         "crs": "EPSG:2056"
+        },
+        "max": {
+         "type": "Point",
+         "coordinates": [
+          2600607.3186632874,
+          1199563.2288069294
+         ],
+         "crs": "EPSG:2056"
+        }
+       },
+       "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.Laermempfindlichkeitsstufen/legend_entry.png?identifier=167c588c-e047-40f8-a787-dd85d9e7efcd",
+       "AreaShare": 224,
+       "TypeCode": "209_301",
+       "TypeCodelist": "373affbc-661c-43e1-8754-19f6c8ecee6c",
+       "PartInPercent": 1.8,
+       "LegalProvisions": [
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 620,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Lärmschutz-Verordnung"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Bundeskanzlei"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.bk.admin.ch"
+           }
+          ],
+          "UID": "CHE263297189"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "LSV"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "SR 814.41"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 910,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Baugesetz"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/721.0/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "BauG"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 721.0"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 915,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauverordnung"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/721.1/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "BauV"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 721.1"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 950,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Kantonale Lärmschutzverordnung"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/824.761/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "KLSV"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 824.761"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "LegalProvision",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtsvorschrift"
+           }
+          ]
+         },
+         "Index": 100,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauordnung der Stadt Bern (BO) vom 28-12-2006"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebfiles.apps.be.ch/35101/6441/Bern_SSSB_721_1_Bauordnung_der_Stadt_Bern.pdf"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Bern (für Auskünfte zu Bauvorhaben: Bauinspektorat der Stadt Bern)"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.bern.ch/politik-und-verwaltung/stadtverwaltung/sue/bauinspektorat"
+           }
+          ]
+         }
+        }
+       ]
+      },
+      {
+       "LegendText": [
+        {
+         "Language": "de",
+         "Text": "Archäologisches Schutzgebiet Nr. 1246"
+        }
+       ],
+       "Theme": {
+        "Code": "ch.BE.ArchaeologischesInventar",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Archäologisches Inventar (Zusatzinformation nach Art. 8b Abs. 1 Bst. b ÖREBKV)"
+         }
+        ]
+       },
+       "Lawstatus": {
+        "Code": "inForce",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Rechtskräftig"
+         }
+        ]
+       },
+       "ResponsibleOffice": {
+        "Name": [
+         {
+          "Language": "de",
+          "Text": "Amt für Kultur des Kantons Bern"
+         }
+        ],
+        "OfficeAtWeb": [
+         {
+          "Language": "de",
+          "Text": "https://www.kultur.bkd.be.ch/de/start/themen/archaeologie/archaeologie-im-kanton-bern/archaeologische-fundstellen.html"
+         }
+        ]
+       },
+       "Map": {
+        "ReferenceWMS": [
+         {
+          "Language": "de",
+          "Text": "https://oerebservice.apps.be.ch/cgi-bin/mapserv.fcgi?MAP=oereb_de&VERSION=1.3.0&REQUEST=GetMap&CRS=EPSG%3A2056&BBOX=2600352.0893367124%2C1199418.2709743916%2C2600607.3186632874%2C1199563.2288069294&WIDTH=493&HEIGHT=280&EXCEPTIONS=xml&FORMAT=image%2Fpng&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE&LAYERS=geodb.archinv_schutzg%2Cgeodb.archinv_fundst&SRS=EPSG%3A2056"
+         }
+        ],
+        "OtherLegend": [
+         {
+          "LegendText": [
+           {
+            "Language": "de",
+            "Text": "Archäologische Fundstelle Nr. 12556, Bundesgasse"
+           }
+          ],
+          "TypeCode": "bf0a6031-79d0-4283-830b-567370fdae51",
+          "TypeCodelist": "93bedcf2-e976-4700-8701-de82d2960035",
+          "Theme": {
+           "Code": "ch.BE.ArchaeologischesInventar",
+           "Text": [
+            {
+             "Language": "de",
+             "Text": "Archäologisches Inventar (Zusatzinformation nach Art. 8b Abs. 1 Bst. b ÖREBKV)"
+            }
+           ]
+          },
+          "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.BE.ArchaeologischesInventar/legend_entry.png?identifier=73003309-4fee-47ad-b4bc-6da379a2f719"
+         }
+        ],
+        "layerIndex": 1,
+        "layerOpacity": 0.75,
+        "min": {
+         "type": "Point",
+         "coordinates": [
+          600000.0,
+          200000.0
+         ],
+         "crs": "EPSG:2056"
+        },
+        "max": {
+         "type": "Point",
+         "coordinates": [
+          600200.0,
+          200200.0
+         ],
+         "crs": "EPSG:2056"
+        }
+       },
+       "SymbolRef": "https://www.oereb2.apps.be.ch/image/symbol/ch.BE.ArchaeologischesInventar/legend_entry.png?identifier=dbf2172f-f44c-4423-8bcd-92de46293bb3",
+       "AreaShare": 12183,
+       "TypeCode": "58da1c0e-0e86-45dc-a39f-f18462babdbf",
+       "TypeCodelist": "a8a5566f-6407-4de6-a6b9-d19f3c50b604",
+       "PartInPercent": 100.0,
+       "LegalProvisions": [
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 910,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Baugesetz"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/721.0/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "BauG"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 721.0"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 915,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauverordnung"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/721.1/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "BauV"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 721.1"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Gesetzliche Grundlage"
+           }
+          ]
+         },
+         "Index": 965,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Gesetz über die Denkmalpflege"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://www.belex.sites.be.ch/data/426.41/de"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Staatskanzlei des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.sta.be.ch"
+           }
+          ],
+          "UID": "CHE105620392"
+         },
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "DPG"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "BSG 426.41"
+          }
+         ]
+        },
+        {
+         "Type": {
+          "Code": "LegalProvision",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtsvorschrift"
+           }
+          ]
+         },
+         "Index": 1,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Verfügung des Amts für Kultur vom 25.10.2021"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebfiles.apps.be.ch/9941/4890//Verfuegung_Archaeologisches_Inventar_de.pdf"
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Amt für Kultur des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.kultur.bkd.be.ch/de/start/themen/archaeologie/archaeologie-im-kanton-bern/archaeologische-fundstellen.html"
+           }
+          ]
+         }
+        },
+        {
+         "Type": {
+          "Code": "Hint",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Hinweis"
+           }
+          ]
+         },
+         "Index": 10,
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Das behördenverbindliche Archäologische Inventar ist bei der Beurteilung von Bauvorhaben relevant. Da es lediglich mittelbar grundeigentümerverbindlich ist, erscheint es im ÖREB-Kataster als Zusatzinformation gemäss Artikel 8b ÖREBKV."
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Rechtskräftig"
+           }
+          ]
+         },
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": ""
+          }
+         ],
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Amt für Kultur des Kantons Bern"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "https://www.kultur.bkd.be.ch/de/start/themen/archaeologie/archaeologie-im-kanton-bern/archaeologische-fundstellen.html"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "ConcernedTheme": [
+     {
+      "Code": "ch.Nutzungsplanung",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Kommunale Nutzungsplanung"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BE.Gewaesserschutzbereiche",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Gewässerschutzbereiche (Zusatzinformation nach Art. 8b Abs. 1 Bst. b ÖREBKV)"
+       }
+      ]
+     },
+     {
+      "Code": "ch.Laermempfindlichkeitsstufen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Lärmempfindlichkeitsstufen (in kommunalen Nutzungszonen)"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BE.ArchaeologischesInventar",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Archäologisches Inventar (Zusatzinformation nach Art. 8b Abs. 1 Bst. b ÖREBKV)"
+       }
+      ]
+     }
+    ],
+    "NotConcernedTheme": [
+     {
+      "Code": "ch.Planungszonen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Kommunale Planungszonen"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BE.RegionalePlanungszonen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Regionale Planungszonen"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BE.KantonalePlanungszonen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Kantonale Planungszonen"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BE.RegionaleNutzungsplanung",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Regionale Nutzungsplanung"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BE.KantonaleNutzungsplanung",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Kantonale Nutzungsplanung"
+       }
+      ]
+     },
+     {
+      "Code": "ch.ProjektierungszonenNationalstrassen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Projektierungszonen Nationalstrassen"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BaulinienNationalstrassen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Baulinien Nationalstrassen"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BE.BaulinienKantonsstrassen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Baulinien Kantonsstrassen"
+       }
+      ]
+     },
+     {
+      "Code": "ch.ProjektierungszonenEisenbahnanlagen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Projektierungszonen Eisenbahnanlagen"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BaulinienEisenbahnanlagen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Baulinien Eisenbahnanlagen"
+       }
+      ]
+     },
+     {
+      "Code": "ch.ProjektierungszonenFlughafenanlagen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Projektierungszonen Flughafenanlagen"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BaulinienFlughafenanlagen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Baulinien Flughafenanlagen"
+       }
+      ]
+     },
+     {
+      "Code": "ch.Sicherheitszonenplan",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Sicherheitszonenplan"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BelasteteStandorte",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Kataster der belasteten Standorte"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BelasteteStandorteMilitaer",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Kataster der belasteten Standorte im Bereich des Militärs"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BelasteteStandorteZivileFlugplaetze",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Kataster der belasteten Standorte im Bereich der zivilen Flugplätze"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BelasteteStandorteOeffentlicherVerkehr",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Kataster der belasteten Standorte im Bereich des öffentlichen Verkehrs"
+       }
+      ]
+     },
+     {
+      "Code": "ch.Grundwasserschutzzonen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Grundwasserschutzzonen"
+       }
+      ]
+     },
+     {
+      "Code": "ch.Grundwasserschutzareale",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Grundwasserschutzareale"
+       }
+      ]
+     },
+     {
+      "Code": "ch.Gewaesserraum",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Gewässerraum (in kommunalen Nutzungszonen)"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BE.RegionalerGewaesserraum",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Gewässerraum (in regionalen Nutzungszonen)"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BE.KantonalerGewaesserraum",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Gewässerraum (in kantonalen Nutzungszonen)"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BE.Ueberflutungsgebiet",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Wasserbauplan, Überflutungsgebiet"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BE.RegionaleLaermempfindlichkeitsstufen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Lärmempfindlichkeitsstufen (in regionalen Nutzungszonen)"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BE.KantonaleLaermempfindlichkeitsstufen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Lärmempfindlichkeitsstufen (in kantonalen Nutzungszonen)"
+       }
+      ]
+     },
+     {
+      "Code": "ch.StatischeWaldgrenzen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Statische Waldgrenzen"
+       }
+      ]
+     },
+     {
+      "Code": "ch.Waldabstandslinien",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Kommunale Wald-Baulinien"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BE.RegionaleWaldabstandslinien",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Regionale Wald-Baulinien"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BE.KantonaleWaldabstandslinien",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Kantonale Wald-Baulinien"
+       }
+      ]
+     },
+     {
+      "Code": "ch.Waldreservate",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Waldreservate"
+       }
+      ]
+     },
+     {
+      "Code": "ch.ProjektierungszonenStarkstromanlagen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Projektierungszonen Leitungen mit einer Nennspannung von 220 kV oder höher"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BaulinienStarkstromanlagen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Baulinien Starkstromanlagen"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BE.GeschuetzteGeologischeObjekte",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Geschützte geologische Objekte regionaler Bedeutung"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BE.GeschuetzteBotanischeObjekte",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Geschützte botanische Objekte regionaler Bedeutung"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BE.KantonaleNaturschutzgebiete",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Kantonale Naturschutzgebiete"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BE.SachplanBiodiversitaet",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Sachplan Biodiversität (Zusatzinformation nach Art. 8b Abs. 1 Bst. b ÖREBKV)"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BE.Naturgefahren",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Naturgefahrenkarte (Zusatzinformation nach Art. 8b Abs. 1 Bst. b ÖREBKV)"
+       }
+      ]
+     }
+    ],
+    "ThemeWithoutData": [
+     {
+      "Code": "ch.BE.Bauinventar",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Bauinventar (Zusatzinformation nach Art. 8b Abs. 1 Bst. b ÖREBKV)"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BE.Denkmalschutzobjekte",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Kantonale Denkmalschutzobjekte"
+       }
+      ]
+     },
+     {
+      "Code": "ch.BE.LeitungenWasser",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Gesicherte öffentliche Leitungen"
+       }
+      ]
+     }
+    ],
+    "LogoPLRCadastreRef": "https://www.oereb2.apps.be.ch/image/logo/oereb/de.png",
+    "FederalLogoRef": "https://www.oereb2.apps.be.ch/image/logo/confederation/de.png",
+    "CantonalLogoRef": "https://www.oereb2.apps.be.ch/image/logo/canton/de.png",
+    "MunicipalityLogoRef": "https://www.oereb2.apps.be.ch/image/logo/municipality/de.png?fosnr=351",
+    "QRCodeRef": "https://www.oereb2.apps.be.ch/image/qrcode?extract_url=https%3A%2F%2Fwww.oereb2.apps.be.ch%2Fextract%2Fjson%2F%3FEGRID%3DCH294676423526%26LANG%3Dde",
+    "GeneralInformation": [
+     [
+      {
+       "Language": "de",
+       "Text": "Der Inhalt des ÖREB-Katasters wird als bekannt vorausgesetzt. Der Kanton Bern ist für die Genauigkeit und Verlässlichkeit der gesetzgebenden Dokumente in elektronischer Form nicht haftbar. Der Auszug hat rein informativen Charakter und begründet insbesondere keine Rechte und Pflichten. Massgeblich sind diejenigen Dokumente, welche rechtskräftig verabschiedet oder veröffentlicht worden sind. Weitere Informationen zum ÖREB-Kataster finden Sie unter www.cadastre.ch"
+      }
+     ]
+    ],
+    "Disclaimer": [
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Eigentumsbeschränkungen im Grundbuch"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Zusätzlich zu den Angaben in diesem Auszug können Eigentumsbeschränkungen auch im Grundbuch angemerkt sein."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Haftungsausschluss Kataster der belasteten Standorte (KbS)"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Der Kataster der belasteten Standorte (KbS) wurde anhand der vom Bundesamt für Umwelt BAFU festgelegten Kriterien erstellt und wird fortwährend aufgrund neuer Erkenntnisse (z.B. Untersuchungen) aktualisiert. Die im KbS eingetragenen Flächen können vom tatsächlichen Ausmass der Belastung abweichen. Erscheint ein Grundstück nicht im KbS, besteht keine absolute Gewähr, dass das Areal frei von jeglichen Abfall- oder Schadstoffbelastungen ist. Bahnbetrieblich, militärisch und für die Luftfahrt genutzte Standorte liegen im Zuständigkeitsbereich des Bundes."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Hinweis Lärmempfindlichkeitsstufen (in Nutzungszonen)"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Im Kanton Bern werden die Lärmempfindlichkeitsstufen in vielen Gemeinden ausschliesslich im Baureglement definiert und daher im ÖREB-Katasterauszug nicht explizit ausgewiesen. Für Informationen zur Lärmempfindlichkeit muss somit das im Thema kommunale Nutzungsplanung als Rechtsvorschrift hinterlegte Baureglement konsultiert werden."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Hinweis kommunale Nutzungsplanung"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Im Kanton Bern sind die Verkehrsflächen in den kommunalen Zonenplänen nicht immer explizit einer Grundnutzungszone zugewiesen («weisse Flächen»). Bei den im ÖREB-Kataster abgebildeten Daten handelt es sich daher in diesen Bereichen um eine Beurteilung und Anwendung gemäss der bekannten Rechtsprechung."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Hinweis Wirkungsflächen (von linien- und punktförmigen Festlegungen)"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Bei linien- und punktförmigen Festlegungen kann in der Rechtsvorschrift eine Abstandsvorschrift definiert sein, die auch eine Auswirkung auf umliegende Grundstücke haben kann. Die aus der Abstandsvorschrift resultierende Wirkungsfläche wird bei der Auswertung eines Grundstücks nicht aufgeführt. Daher ist es empfehlenswert, sich ebenfalls einen Überblick über die nahegelegenen linien- und punktförmigen Festlegungen und deren Rechtsvorschriften zu verschaffen."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Hinweis Änderungen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Bei folgenden Themen werden allfällige Änderungen angezeigt: Sicherheitszonenplan, kantonale Naturschutzgebiete. Bei allen anderen Themen informiert der ÖREB-Kataster momentan nicht über Änderungen."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Hinweis Landumlegungen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Befindet sich ein Grundstück in einer Landumlegung, so beginnt die Grundstücksnummer im Kanton Bern mit einem Präfix. Zwischen dem Neulandantritt und dem Eintrag ins Grundbuch wird auch beim E-GRID eine inoffizielle Bezeichnung generiert."
+       }
+      ]
+     }
+    ],
+    "Glossary": [
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Archäologisches Inventar"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Das Archäologische Inventar enthält sämtliche archäologischen Schutzgebiete und bekannten Fundstellen des Kantons Bern. Archäologische Funde sind Eigentum des Kantons Bern. Grabungen und der Einsatz von Metalldetektoren ohne Bewilligung sind strafbar. Sollten Bauvorhaben in einem archäologischen Schutzgebiet oder in der Nähe von archäologischen Fundstellen liegen, so ist ein frühzeitiger Kontakt zum Archäologischen Dienst empfohlen."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Änderungen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Bei Änderungen handelt es sich um geplante oder neue ÖREB, welche ab der öffentlichen Auflage im ÖREB-Kataster geführt werden können. Änderungen können je nach rechtlicher Grundlage mit der öffentlichen Auflage bereits eine Vorwirkung entfalten."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Bauinventar"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Das Bauinventar enthält alle schützens- und erhaltenswerten Baudenkmäler des Kantons Bern (Einzelobjekte sowie Bau- und Strukturgruppen)."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Baulinien Eisenbahnanlagen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Zwischen den Baulinien dürfen keine baulichen Veränderungen vorgenommen oder sonstige Massnahmen getroffen werden, die dem Zweck bestehender oder künftiger Eisenbahnanlagen widersprechen."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Baulinien Flughafenanlagen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Zwischen den Baulinien dürfen keine baulichen Veränderungen vorgenommen oder sonstige Massnahmen getroffen werden, die dem Zweck bestehender oder künftiger Flughafenanlagen widersprechen."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Baulinien Kantonsstrassen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Zwischen kantonaler Strassenbaulinie und Fahrbahnrand besteht ein Bauverbot. Dieses geht rechtlich den allgemeinen Abstandsvorschriften vor. Wurde keine Strassenbaulinie festgelegt, so gilt entlang von Kantonsstrassen beidseitig der gesetzlich vorgeschriebene Bauverbotsstreifen von 5m ab Fahrbahnrand."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Baulinien Nationalstrassen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Wenn der projektierte Strassenverlauf definitiv bekannt ist, werden beiderseits der Strasse Baulinien festgelegt. Diese Baulinien ermöglichen es, die Anforderungen der Verkehrssicherheit und der Wohnhygiene sowie die Erfordernisse eines eventuellen künftigen Ausbaus der Strasse zu berücksichtigen. Zwischen den Baulinien dürfen ohne Bewilligung weder Neubauten erstellt noch Umbauten bestehender Gebäude vorgenommen werden, auch wenn diese nur teilweise in die Baulinien hineinragen."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Baulinien Starkstromanlagen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Zwischen den Baulinien dürfen keine baulichen Veränderungen vorgenommen oder sonstige Massnahmen getroffen werden, die dem Zweck bestehender oder künftiger Starkstromanlagen widersprechen."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "BFS-Nr."
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Gemeindenummer aus amtlichem Gemeindeverzeichnis; Eine vom schweizerischen Bundesamt für Statistik mit dem Amtlichen Gemeindeverzeichnis im Jahre 1986 erstmals vergebene Zahl, die der eineindeutigen Bezeichnung von territorialen Einheiten im Einzugsbereich der Schweiz dient."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "E-GRID"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Eidgenössischer Grundstücksidentifikator; Aus einem Präfix und einer Nummer bestehende Bezeichnung, die es erlaubt, jedes in das Grundbuch aufgenommene Grundstück landesweit eindeutig zu identifizieren, und die zum Datenaustausch zwischen Informatiksystemen dient."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Eigentumsbeschränkung"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Der Zweck aller Eigentumsbeschränkungen ist die Wahrung von Interessen anderer Personen, denen jene des Eigentümers sich in bestimmter Beziehung unterordnen müssen. Dies sind entweder die Eigentümer angrenzender Grundstücke, die Nachbarn, oder auch weitere Kreise von Privatpersonen oder endlich die Allgemeinheit selber, der Staat. Die Beschränkungen zugunsten der Nachbarn oder weiterer Privatpersonen sind regelmässig privatrechtlicher, jene zugunsten der Allgemeinheit öffentlich-rechtlicher Natur."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Geschützte botanische Objekte"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Die geschützten botanischen Objekte umfassen Naturdenkmäler wie Einzelbäume, Baumgruppen, Feldgehölze, Hecken, Alleen, Parkbestände sowie kleinere Pflanzenschutzgebiete. Jegliche Veränderung am Objekt oder in der Umgebung, welche die natürliche Entwicklung beeinträchtigt, ist ohne Bewilligung des Amts für Landwirtschaft und Natur verboten."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Geschützte geologische Objekte"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Die geschützten geologischen Objekte umfassen Naturdenkmäler wie Findlinge, exotische Blöcke, geologische Aufschlüsse, Gletschermühlen und Mineralklüfte. Jegliche Veränderung am Objekt ist ohne Bewilligung des Amts für Landwirtschaft und Natur verboten."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Gesetzliche Grundlage"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Gesetz, Verordnung etc., das generell-abstrakt ist (generell für die Person, die nicht bekannt ist, abstrakt, weil der Perimeter ohne Karte definiert ist) und auf Bundesebene, auf kantonaler oder kommunaler Ebene erlassen worden ist und die bloss eine allgemeine Rechtsgrundlage der Eigentumsbeschränkung darstellen. Die gesetzliche Grundlage ist nicht Teil des ÖREB-Katasters. Der ÖREB-Kataster enthält aber Hinweise auf die entsprechende gesetzliche Grundlage."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Gesicherte öffentliche Leitungen (Abwasserentsorgung, Wasserversorgung)"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Eigentümer von öffentlichen Abwasser- und Wasserversorgungsleitungen haben die Möglichkeit, ihre Leitungen in einem öffentlich-rechtlichen Verfahren mit einer Überbauungsordnung sichern zu lassen. Mit Genehmigung durch das Amt für Wasser und Abfall sind die betreffenden öffentlichen Leitungen in ihrem Bestand geschützt."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Gewässerraum"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Fliessgewässer können nur wieder naturnäher werden, wenn ausreichend Raum in den Schutz der Gewässer miteinbezogen wird. Der Gewässerraum soll weitgehend frei von neuen Anlagen bleiben; bestehende, rechtmässig erstellte Anlagen haben jedoch Bestandesgarantie."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Gewässerschutzbereiche"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Von den Kantonen zum Schutz des Grundwassers bezeichnete besonders gefährdete und übrige Bereiche."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Grundwasserschutzareale"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Von Kanton festgelegte Areale, die für die künftige Nutzung und Anreicherung von Grundwasservorkommen von Bedeutung sind und in dem keine Bauten und Anlagen erstellt oder Arbeiten ausgeführt werden, die künftige Nutzungs- und Anreicherungsanlagen beeinträchtigen könnten."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Grundwasserschutzzonen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Grundwasserschutzzonen, in denen gewährleistet werden soll, dass bei unmittelbar drohenden Gefahren wie Unfällen mit wassergefährdenden Stoffen ausreichend Zeit und Raum für die erforderlichen Massnahmen zur Verfügung stehen."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Kantonale Denkmalschutzobjekte"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Baudenkmäler, an deren Sanierung Finanzhilfen des Kantons Bern ausgerichtet werden, werden grundsätzlich unter den Schutz des Kantons Bern gestellt."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Kantonale Naturschutzgebiete"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Schutzgebiete sind naturnahe, vielfältige oder spezielle Lebensräume, in denen besondere Vorschriften gelten. Im Schutzbeschluss sind die spezifischen Schutzziele für jedes Gebiet festgelegt."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Kataster der belasteten Standorte"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Der Kataster enthält Deponien und andere durch Abfälle belastete Standorte, die saniert werden, wenn sie zu schädlichen oder lästigen Einwirkungen führen oder die konkrete Gefahr besteht, dass solche Einwirkungen entstehen. Die Behörde ermittelt die belasteten Standorte, indem sie vorhandene Angaben wie Karten, Verzeichnisse und Meldungen auswertet. Sie trägt diejenigen Standorte, deren Belastung erwiesen oder sehr wahrscheinlich ist, in den Kataster ein."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Katasterverantwortliche Stelle"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Die katasterverantwortliche Stelle im Kanton erhält die in den ÖREB-Kataster aufzunehmenden Daten von den zuständigen Fachstellen. Sie verwaltet diese Daten und stellt sie via kantonales ÖREB-Geoportal der Öffentlichkeit zur Verfügung."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "KbS"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Kataster der belasteten Standorte"
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Lärmempfindlichkeitsstufen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Empfindlichkeitsstufen werden festgelegt, um jeweils bestimmte Zonen zu definieren: diejenigen, die eines erhöhten Lärmschutzes bedürfen, diejenigen, in denen keine störenden Betriebe zugelassen sind, und diejenigen, in denen mässig und stark störende Betriebe zugelassen sind."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Mittelbare Eigentumsbeschränkungen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Mittelbar öffentlich-rechtliche Eigentumsbeschränkungen können durch einen entsprechenden Verwaltungsakt in einer individuell-konkreten Verfügung, einer generell-konkreten Allgemeinverfügung oder gar einer generell-abstrakten Verwaltungsordnung konkretisiert werden und entfalten damit ihre Wirkung auf ein Grundstück."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Naturgefahrenkarte"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Gefahrenkarten zeigen, wo die Bevölkerung und erhebliche Sachwerte durch Lawinen-, Sturz-, Rutsch- und Wassergefahren sowie Einsturz/Absenkung (inkl. Dolinen) bedroht sind. Die behördenverbindlichen Gefahrenkarten werden laufend aktualisiert und von den Gemeinden innert zwei Jahren in die Ortsplanung miteinbezogen."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Nutzungsplanung"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Festlegung der Verwendung einzelner Bodenflächen für bestimmte Zwecke (z. B. Landwirtschaft, Siedlung, Wald)."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "ÖREB"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Öffentlich-rechtliche Eigentumsbeschränkung"
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "ÖREB-Kataster"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Kataster der öffentlich-rechtlichen Eigentumsbeschränkungen"
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Planungszonen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Zone, die ein genau bezeichnetes Gebiet umfasst, für das ein Nutzungsplan angepasst werden muss oder noch keiner vorliegt, und innerhalb derer nichts unternommen werden darf, was die Nutzungsplanung erschwert."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Projektierungszonen Eisenbahnanlagen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Um die freie Verfügbarkeit der für künftige Bahnbauten und -anlagen erforderlichen Grundstücke zu gewährleisten, können für genau bezeichnete Gebiete Projektierungszonen festgelegt werden. In diesen Zonen dürfen keine baulichen Veränderungen vorgenommen werden, die dem Zweck der Eisenbahnen widersprechen."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Projektierungszonen Flughafenanlagen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Um die freie Verfügbarkeit der für Flughafenanlagen erforderlichen Grundstücke zu gewährleisten, können für genau bezeichnete Gebiete Projektierungszonen festgelegt werden. In diesen Zonen dürfen keine baulichen Veränderungen vorgenommen werden, die dem Zweck der Flughafenanlagen widersprechen."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Projektierungszonen Leitungen mit einer Nennspannung von 220 kV oder höher"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Um die freie Verfügbarkeit der für Leitungen mit einer Nennspannung von 220 kV oder höher erforderlichen Grundstücke zu gewährleisten, können für genau bezeichnete Gebiete Projektierungszonen festgelegt werden. In diesen Zonen dürfen keine baulichen Veränderungen vorgenommen werden, die dem Zweck der Flughafenanlagen widersprechen."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Projektierungszonen Nationalstrassen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Um die freie Verfügbarkeit des für den Bau der Nationalstrassen erforderlichen Landes zu gewährleisten, können für genau bezeichnete Gebiete Projektierungszonen festgelegt werden. In diesen Zonen dürfen keine baulichen Veränderungen vorgenommen werden, die dem Zweck der Nationalstrassen widersprechen."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Rechtsvorschrift"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Generell-konkrete Rechtsnorm, die zusammen mit den ihr zugeschriebenen Geobasisdaten die Eigentumsbeschränkung unmittelbar umschreibt und innerhalb desselben Verfahrens verabschiedet worden ist."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Sachplan Biodiversität"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Der Sachplan Biodiversität legt Massnahmen fest, um die Artenvielfalt von Fauna und Flora zu verbessern und Defizite bei der Umsetzung der Bundesinventare zu verringern. Er definiert die Perimeter der Hochmoore, Flachmoore, Trockenwiesen und -weiden, Auen, Amphibienlaichgebiete und Wildwechselkorridore und ist für Behörden verbindlich."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Sicherheitszonenplan"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Zonenplan, in dem die Sicherheitszonen dargestellt sind und aus dem die Eigentumsbeschränkungen nach Fläche und Höhe ersichtlich sind."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Statische Waldgrenzen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Statische Waldgrenzen müssen auf der Grundlage rechtskräftiger Waldfeststellungen festgelegt werden. Neue Bestockungen ausserhalb dieser Waldgrenzen gelten nicht als Wald."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Unmittelbare Eigentumsbeschränkungen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Unmittelbar öffentlich-rechtliche Eigentumsbeschränkungen sind Nutzungs- und Verfügungsbeschränkungen, die sofort auf ein Grundstück wirken. Sie stützen sich auf entsprechende Gesetze und Verordnungen, so dass ein weiterer behördlicher Vollzug (Begründungsakt, rechtsbegründeten Eintrag im Grundbuch, usw.) nicht nötig ist."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Vorwirkung"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Mit der öffentlichen Auflage entsteht eine Vorwirkung: Ab diesem Zeitpunkt dürfen Bauvorhaben in der Regel nur bewilligt werden, wenn sie der öffentlich aufgelegten Planung nicht widersprechen."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Waldabstandslinien"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Waldabstandslinien werden im Kanton Bern gemäss der kantonalen Fachgesetzgebung als Wald-Baulinien bezeichnet. Sie werden im Rahmen eines Nutzungsplanungsverfahrens erlassen und können auch gemeindespezifische Bezeichnungen aufweisen (z.B. reduzierter Waldabstand). Bauten und Anlagen in Waldesnähe sind nur zulässig, wenn sie die Erhaltung, Pflege und Nutzung des Waldes nicht beeinträchtigen."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Waldreservate"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Geschützte Waldfläche, die der Erhaltung der Artenvielfalt von Fauna und Flora dient."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Wasserbauplan, Überflutungsgebiet"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Bestehende Bauten und Anlagen in Überflutungsgebieten sind durch Objektschutzmassnahmen zu schützen. Daneben können im Überflutungsgebiet Bauverbote, Auflagen und Nutzungseinschränkungen erlassen werden. Eigentümer und Eigentümerinnen der Parzellen in Überflutungsgebieten haben Anspruch auf eine angemessene Entschädigung."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Zusatzinformation"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Zusatzinformationen sind gemäss Artikel 8b ÖREBKV unverbindliche Informationen (Änderungen an ÖREB, weitere Geobasisdaten, Hinweise) und nicht Bestandteil des rechtskräftigen Inhaltes des ÖREB-Katasters. Sie können unmittelbare und mittelbare, also potenzielle Eigentumsbeschränkungen sein, welche in entsprechenden behördlichen Verfahren berücksichtigt werden und zu entsprechenden Eigentumsbeschränkungen führen können."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Zuständige Stelle"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Durch die Gesetzgebung bezeichnete Stelle des Bundes, des Kantons oder der Gemeinde, die für das Erheben, Nachführen und Verwalten der Geobasisdaten zuständig ist."
+       }
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "request": {
+  "url": "https://www.oereb2.apps.be.ch/extract/json/?EGRID=CH294676423526&LANG=de"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

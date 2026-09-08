@@ -9,6 +9,7 @@ Topoli version). Tests seed a temporary cache directory from those files
 
 from __future__ import annotations
 
+import contextlib
 import json
 import re
 import shutil
@@ -22,6 +23,7 @@ from topoli.core.adapters import cache
 from topoli.core.adapters.base import Record
 from topoli.core.adapters.http import HttpClient, get_client, set_client
 from topoli.core.adapters.registry import get as get_spec
+from topoli.core.domain import Building
 from topoli.paths import repo_root
 
 
@@ -37,6 +39,8 @@ def slugify(text: str) -> str:
 
 def record_fixture(adapter_id: str, address: str, *, slug: str | None = None) -> Path:
     """Fetch live and write the fixture folder. Returns the folder path."""
+    from topoli.core.adapters.base import SiteContext
+    from topoli.countries.ch.federal.buildings import get_buildings
     from topoli.countries.ch.federal.geocode import resolve_address
     from topoli.countries.ch.federal.parcel import get_parcel
 
@@ -51,10 +55,15 @@ def record_fixture(adapter_id: str, address: str, *, slug: str | None = None) ->
     try:
         site, _ = resolve_address(address)
         parcel = None
-        if spec.needs_parcel or adapter_id == "ch/federal/parcel":
+        buildings: list[Building] = []
+        if adapter_id != "ch/federal/geocode":
             parcel, _ = get_parcel(site)
+        if spec.needs_parcel and adapter_id != "ch/federal/buildings":
+            buildings, _ = get_buildings(parcel) if parcel else ([], [])
+        ctx = SiteContext(site=site, parcel=parcel, buildings=buildings)
         if adapter_id not in ("ch/federal/geocode", "ch/federal/parcel"):
-            spec.runner(site, parcel)
+            with contextlib.suppress(LookupError):  # not-available is a fixture too
+                spec.adapter.fetch(ctx)
         records = [r for r in client.recorded if r.adapter_id == adapter_id]
     finally:
         set_client(previous)
@@ -111,7 +120,7 @@ def seed_cache(cache_root: Path, *folders: Path) -> int:
 
 def fixture_folders(adapter_id: str, slug: str) -> list[Path]:
     """All fixture folders needed to replay ``adapter_id`` for ``slug`` (includes the spine)."""
-    needed = ["ch/federal/geocode", "ch/federal/parcel", adapter_id]
+    needed = ["ch/federal/geocode", "ch/federal/parcel", "ch/federal/buildings", adapter_id]
     seen: list[Path] = []
     for aid in needed:
         folder = fixtures_root() / aid / slug

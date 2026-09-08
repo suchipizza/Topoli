@@ -1,0 +1,25 @@
+{
+  "adapter_id": "ch/federal/hazards",
+  "address": "Via Nassa 5, 6900 Lugano",
+  "site_id": "5192-191",
+  "recorded_at": "2026-09-08T09:52:22+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "c3ad0e15558d506e2b0af0140f34cd32c18bd10e9aacc3b34196b11dc896f98d.json",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.aquaprotect_100&STYLES=&CRS=EPSG%3A2056&BBOX=2717085.4%2C1095729.3%2C2717119.6%2C1095770.2&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "file": "471039bf1c3baab74fb4330ddfa8fd0e095aaf705233b04e885c4d9c2635008b.json",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.aquaprotect_500&STYLES=&CRS=EPSG%3A2056&BBOX=2717085.4%2C1095729.3%2C2717119.6%2C1095770.2&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "file": "7933bb7d720e355e16c1ab30804bf5f301e709ee2e57e851ee43b99dc141045a.json",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.gefaehrdungskarte-oberflaechenabfluss&STYLES=&CRS=EPSG%3A2056&BBOX=2717085.4%2C1095729.3%2C2717119.6%2C1095770.2&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "file": "4f9132600ead269d23889c61b2ffd4dd09dca47996ba37e77d833584c323c241.json",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.silvaprotect-sturz%2Cch.bafu.silvaprotect-lawinen%2Cch.bafu.silvaprotect-hangmuren%2Cch.bafu.silvaprotect-murgang&STYLES=&CRS=EPSG%3A2056&BBOX=2717085.4%2C1095729.3%2C2717119.6%2C1095770.2&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    }
+  ]
+}

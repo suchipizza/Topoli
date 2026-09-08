@@ -27,6 +27,7 @@ dependencies = [
   "jinja2>=3.1",
   "typer>=0.12",
   "rich>=13.7",
+  "pillow>=12.3.0",
 ]
 
 [project.urls]
@@ -76,7 +77,9 @@ ignore = ["PLR0913", "PLR2004", "T201", "RUF001", "RUF002", "RUF003"]
 # Lazy imports break the registry ↔ country-package import cycle on purpose.
 "topoli/core/adapters/registry.py" = ["PLC0415"]
 "topoli/core/adapters/fixtures.py" = ["PLC0415"]
+"topoli/core/scoring/coverage.py" = ["PLC0415"]
 "topoli/countries/**/__init__.py" = ["PLC0415"]
+"topoli/countries/ch/federal/licences.py" = ["E501"]
 "skills/**/scripts/**" = ["T20"]
 
 [tool.ruff.format]

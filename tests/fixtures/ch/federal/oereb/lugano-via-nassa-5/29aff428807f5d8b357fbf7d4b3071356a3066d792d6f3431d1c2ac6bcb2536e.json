@@ -1,0 +1,71 @@
+{
+ "adapter_id": "ch/federal/oereb",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2717096.25%2C1095749.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1",
+ "retrieved_at": "2026-09-08T09:52:25.107829Z",
+ "payload": {
+  "results": [
+   {
+    "layerBodId": "ch.swisstopo-vd.stand-oerebkataster",
+    "layerName": "Verfügbarkeit des ÖREB-Katasters",
+    "featureId": 3105154,
+    "id": 3105154,
+    "properties": {
+     "fid": "5498455",
+     "number": "191",
+     "gemeindename": "Lugano",
+     "kanton": "Ticino",
+     "oereb_status_de": "Einführung geplant 2021",
+     "oereb_status_fr": "Introduction prévue 2021",
+     "oereb_status_it": "Introduzione pianificata 2021",
+     "oereb_status_rm": "Einführung geplant 2021",
+     "oereb_status_en": "Einführung geplant 2021",
+     "bfs_nr": 5192,
+     "firmenname": "Ufficio della geomatica",
+     "adresszeile": "Via F. Zorzi 13",
+     "plz": 6501,
+     "ort": "Bellinzona",
+     "telefon": "091 814 25 27",
+     "email": "crdpp@ti.ch",
+     "url_oereb": "http://crdpp.geo.ti.ch",
+     "oereb_webservice": "https://crdpp.geo.ti.ch/oereb2",
+     "bgdi_status": 1,
+     "egris_egrid": "CH987802070993",
+     "oereb_extract_pdf": "https://crdpp.geo.ti.ch/oereb2/extract/pdf/?EGRID=CH987802070993",
+     "oereb_extract_url": "https://crdpp.geo.ti.ch/oereb2/extract/url/?EGRID=CH987802070993",
+     "realestate_type": "Liegenschaft",
+     "label": "Lugano"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.stand-oerebkataster",
+    "layerName": "Verfügbarkeit des ÖREB-Katasters",
+    "featureId": 375,
+    "id": 375,
+    "properties": {
+     "fid": "5498455",
+     "gemeindename": "Lugano",
+     "kanton": "Ticino",
+     "oereb_status_de": "Einführung geplant 2021",
+     "oereb_status_fr": "Introduction prévue 2021",
+     "oereb_status_it": "Introduzione pianificata 2021",
+     "oereb_status_rm": "Einführung geplant 2021",
+     "oereb_status_en": "Einführung geplant 2021",
+     "bfs_nr": 5192,
+     "firmenname": "Ufficio della geomatica",
+     "adresszeile": "Via F. Zorzi 13",
+     "plz": 6501,
+     "ort": "Bellinzona",
+     "telefon": "091 814 25 27",
+     "email": "crdpp@ti.ch",
+     "url_oereb": "http://crdpp.geo.ti.ch",
+     "label": "Lugano"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2717096.25%2C1095749.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

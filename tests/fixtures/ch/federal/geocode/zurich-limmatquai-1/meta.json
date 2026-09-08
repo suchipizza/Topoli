@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/geocode",
+  "address": "Limmatquai 1, 8001 Zürich",
+  "site_id": "261-AA2912",
+  "recorded_at": "2026-09-08T09:52:27+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "6080308530715d0061a0f436874318e8d95242613ba78405b1eeb0264480e014.json",
+      "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Limmatquai+1%2C+8001+Z%C3%BCrich&type=locations&sr=2056&limit=10&origins=address"
+    },
+    {
+      "file": "7faa29ffb6f020c4a28ef419ee45feeb29f69e456c0296f85cdd9a9f9daf1bc9.json",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683545.75%2C1246911.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2683045.75%2C1246411.625%2C2684045.75%2C1247411.625&imageDisplay=1000%2C1000%2C96"
+    }
+  ]
+}

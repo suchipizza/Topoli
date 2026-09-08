@@ -1,0 +1,17 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Badenerstrasse 171, 8003 Zürich",
+  "site_id": "261-AU6979",
+  "recorded_at": "2026-09-08T09:52:10+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "b98d6116ee8a5e6ef85fdbc81f0d461058f06c75cb9248edae898a32c49da5c8.json",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2681718.0%2C1247636.25&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    },
+    {
+      "file": "00372ac801d504b756cbece5c457d3981cc3e13fc055370be1376c35ae105fcc.json",
+      "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH527182999120&LANG=de"
+    }
+  ]
+}

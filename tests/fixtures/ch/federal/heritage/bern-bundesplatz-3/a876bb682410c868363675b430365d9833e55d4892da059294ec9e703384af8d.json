@@ -1,0 +1,62 @@
+{
+ "adapter_id": "ch/federal/heritage",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2600377.1%2C1199523.7%5D%2C%5B2600390.6%2C1199526.6%5D%2C%5B2600436.7%2C1199532.2%5D%2C%5B2600439.9%2C1199532.3%5D%2C%5B2600444.3%2C1199531.7%5D%2C%5B2600449.5%2C1199530.3%5D%2C%5B2600462.8%2C1199524.2%5D%2C%5B2600467.6%2C1199522.6%5D%2C%5B2600467.6%2C1199519.0%5D%2C%5B2600468.7%2C1199518.8%5D%2C%5B2600582.3%2C1199518.9%5D%2C%5B2600582.3%2C1199469.2%5D%2C%5B2600540.5%2C1199468.9%5D%2C%5B2600540.6%2C1199465.7%5D%2C%5B2600532.9%2C1199464.7%5D%2C%5B2600529.0%2C1199463.6%5D%2C%5B2600499.6%2C1199463.6%5D%2C%5B2600499.7%2C1199466.9%5D%2C%5B2600469.0%2C1199466.9%5D%2C%5B2600469.0%2C1199465.8%5D%2C%5B2600467.3%2C1199464.4%5D%2C%5B2600461.0%2C1199460.2%5D%2C%5B2600452.4%2C1199455.4%5D%2C%5B2600440.6%2C1199451.4%5D%2C%5B2600435.1%2C1199450.2%5D%2C%5B2600424.8%2C1199449.2%5D%2C%5B2600416.7%2C1199449.5%5D%2C%5B2600405.9%2C1199451.4%5D%2C%5B2600400.1%2C1199453.2%5D%2C%5B2600391.9%2C1199456.4%5D%2C%5B2600389.3%2C1199472.2%5D%2C%5B2600389.9%2C1199472.3%5D%2C%5B2600387.1%2C1199483.6%5D%2C%5B2600388.7%2C1199484.0%5D%2C%5B2600382.6%2C1199508.8%5D%2C%5B2600380.7%2C1199508.4%5D%2C%5B2600377.1%2C1199523.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.babs.kulturgueter%2Cch.bak.schutzgebiete-unesco_weltkulturerbe&sr=2056&tolerance=0&returnGeometry=false&limit=50",
+ "retrieved_at": "2026-09-08T09:52:19.456601Z",
+ "payload": {
+  "results": [
+   {
+    "layerBodId": "ch.babs.kulturgueter",
+    "layerName": "KGS Inventar",
+    "featureId": "615",
+    "id": "615",
+    "properties": {
+     "kgs_nr": "KGS_NR615",
+     "beschreibung": "Bundeshaus",
+     "x": 2600423.0,
+     "y": 1199521.0,
+     "gemeinde": "Bern",
+     "kanton": "BE",
+     "kgs_kategorie": "A.A",
+     "ehemaligegemeinde": "Bern",
+     "adresse_list": "Bundesgasse 1-9",
+     "objektart_de_list": "Bauten für Öffentlichkeit, Gewerbe, Handel, Industrie, Tourismus usw.,Regierungsgebäude, Ratshäuser",
+     "objektart_fr_list": "bâtiments publics, artisanaux, industriels, touristiques, etc.,bâtiments gouvernementaux, hôtels de ville",
+     "objektart_it_list": "Costruzioni pubbliche, artigianali, commerciali, industriali, turistiche, ecc.,Palazzi governativi, palazzi del Gran Consiglio",
+     "weblinks_list": "http://de.wikipedia.org/wiki/Bundeshaus_%28Bern%29",
+     "bemerkung_list": "Wikipedia: Bundeshaus (Bern)",
+     "bild_nr_list": "2,4,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25",
+     "bild_url_list": "https://api3.geo.admin.ch/featureattachments/ch.babs.kulturgueter/image/kgs_00615_0002.jpg,https://api3.geo.admin.ch/featureattachments/ch.babs.kulturgueter/image/kgs_00615_0004.jpg,https://api3.geo.admin.ch/featureattachments/ch.babs.kulturgueter/image/kgs_00615_0006.jpg,https://api3.geo.admin.ch/featureattachments/ch.babs.kulturgueter/image/kgs_00615_0007.jpg,https://api3.geo.admin.ch/featureattachments/ch.babs.kulturgueter/image/kgs_00615_0008.jpg,https://api3.geo.admin.ch/featureattachments/ch.babs.kulturgueter/image/kgs_00615_0009.jpg,https://api3.geo.admin.ch/featureattachments/ch.babs.kulturgueter/image/kgs_00615_0010.jpg,https://api3.geo.admin.ch/featureattachments/ch.babs.kulturgueter/image/kgs_00615_0011.jpg,https://api3.geo.admin.ch/featureattachments/ch.babs.kulturgueter/image/kgs_00615_0012.jpg,https://api3.geo.admin.ch/featureattachments/ch.babs.kulturgueter/image/kgs_00615_0013.jpg,https://api3.geo.admin.ch/featureattachments/ch.babs.kulturgueter/image/kgs_00615_0014.jpg,https://api3.geo.admin.ch/featureattachments/ch.babs.kulturgueter/image/kgs_00615_0015.jpg,https://api3.geo.admin.ch/featureattachments/ch.babs.kulturgueter/image/kgs_00615_0016.jpg,https://api3.geo.admin.ch/featureattachments/ch.babs.kulturgueter/image/kgs_00615_0017.jpg,https://api3.geo.admin.ch/featureattachments/ch.babs.kulturgueter/image/kgs_00615_0018.jpg,https://api3.geo.admin.ch/featureattachments/ch.babs.kulturgueter/image/kgs_00615_0019.jpg,https://api3.geo.admin.ch/featureattachments/ch.babs.kulturgueter/image/kgs_00615_0020.jpg,https://api3.geo.admin.ch/featureattachments/ch.babs.kulturgueter/image/kgs_00615_0021.jpg,https://api3.geo.admin.ch/featureattachments/ch.babs.kulturgueter/image/kgs_00615_0022.jpg,https://api3.geo.admin.ch/featureattachments/ch.babs.kulturgueter/image/kgs_00615_0023.jpg,https://api3.geo.admin.ch/featureattachments/ch.babs.kulturgueter/image/kgs_00615_0024.jpg,https://api3.geo.admin.ch/featureattachments/ch.babs.kulturgueter/image/kgs_00615_0025.jpg",
+     "copyright": "www.admin.ch",
+     "fotograf": "Roland Rösch, Ostermundigen",
+     "kurztext": null,
+     "label": "Bundeshaus"
+    }
+   },
+   {
+    "layerBodId": "ch.bak.schutzgebiete-unesco_weltkulturerbe",
+    "layerName": "UNESCO-Welterbe Kulturstätten",
+    "featureId": 133,
+    "id": 133,
+    "properties": {
+     "name_de": "Bern, Altstadt",
+     "name_fr": "Berne, vieille ville",
+     "name_it": "Berna, centro storico",
+     "name_en": "Old City of Berne",
+     "name_rm": "Citad veglia da Berna",
+     "type_fr": "Bien du patrimoine mondial",
+     "type_de": "Welterbestätte",
+     "type_it": "Bene del patrimonio mondiale",
+     "type_en": "World heritage property",
+     "type_rm": "Bain dals patrimonis mundials",
+     "bgdi_surface": 91.86,
+     "label": "Bern, Altstadt"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2600377.1%2C1199523.7%5D%2C%5B2600390.6%2C1199526.6%5D%2C%5B2600436.7%2C1199532.2%5D%2C%5B2600439.9%2C1199532.3%5D%2C%5B2600444.3%2C1199531.7%5D%2C%5B2600449.5%2C1199530.3%5D%2C%5B2600462.8%2C1199524.2%5D%2C%5B2600467.6%2C1199522.6%5D%2C%5B2600467.6%2C1199519.0%5D%2C%5B2600468.7%2C1199518.8%5D%2C%5B2600582.3%2C1199518.9%5D%2C%5B2600582.3%2C1199469.2%5D%2C%5B2600540.5%2C1199468.9%5D%2C%5B2600540.6%2C1199465.7%5D%2C%5B2600532.9%2C1199464.7%5D%2C%5B2600529.0%2C1199463.6%5D%2C%5B2600499.6%2C1199463.6%5D%2C%5B2600499.7%2C1199466.9%5D%2C%5B2600469.0%2C1199466.9%5D%2C%5B2600469.0%2C1199465.8%5D%2C%5B2600467.3%2C1199464.4%5D%2C%5B2600461.0%2C1199460.2%5D%2C%5B2600452.4%2C1199455.4%5D%2C%5B2600440.6%2C1199451.4%5D%2C%5B2600435.1%2C1199450.2%5D%2C%5B2600424.8%2C1199449.2%5D%2C%5B2600416.7%2C1199449.5%5D%2C%5B2600405.9%2C1199451.4%5D%2C%5B2600400.1%2C1199453.2%5D%2C%5B2600391.9%2C1199456.4%5D%2C%5B2600389.3%2C1199472.2%5D%2C%5B2600389.9%2C1199472.3%5D%2C%5B2600387.1%2C1199483.6%5D%2C%5B2600388.7%2C1199484.0%5D%2C%5B2600382.6%2C1199508.8%5D%2C%5B2600380.7%2C1199508.4%5D%2C%5B2600377.1%2C1199523.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.babs.kulturgueter%2Cch.bak.schutzgebiete-unesco_weltkulturerbe&sr=2056&tolerance=0&returnGeometry=false&limit=50"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

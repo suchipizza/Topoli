@@ -1,0 +1,67 @@
+{
+ "adapter_id": "ch/federal/noise",
+ "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=ch.bafu.laerm-strassenlaerm_tag&QUERY_LAYERS=ch.bafu.laerm-strassenlaerm_tag&CRS=EPSG%3A2056&BBOX=2683540.75%2C1246906.625%2C2683550.75%2C1246916.625&WIDTH=10&HEIGHT=10&I=5&J=5&INFO_FORMAT=application%2Fjson&FEATURE_COUNT=10&LANG=de",
+ "retrieved_at": "2026-09-08T09:55:03.704076Z",
+ "payload": {
+  "type": "FeatureCollection",
+  "name": "ch.bafu.laerm-strassenlaerm_tag_full",
+  "crs": {
+   "type": "name",
+   "properties": {
+    "name": "urn:ogc:def:crs:EPSG::2056"
+   }
+  },
+  "xy_coordinate_resolution": 0.001,
+  "bbox": [
+   2683540.0,
+   1246910.0,
+   2683550.0,
+   1246910.0
+  ],
+  "features": [
+   {
+    "type": "Feature",
+    "properties": {
+     "value_0": "61.8"
+    },
+    "bbox": [
+     2683540.0,
+     1246910.0,
+     2683540.0,
+     1246910.0
+    ],
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      2683540.0,
+      1246910.0
+     ]
+    }
+   },
+   {
+    "type": "Feature",
+    "properties": {
+     "value_0": "62.5"
+    },
+    "bbox": [
+     2683550.0,
+     1246910.0,
+     2683550.0,
+     1246910.0
+    ],
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      2683550.0,
+      1246910.0
+     ]
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=ch.bafu.laerm-strassenlaerm_tag&QUERY_LAYERS=ch.bafu.laerm-strassenlaerm_tag&CRS=EPSG%3A2056&BBOX=2683540.75%2C1246906.625%2C2683550.75%2C1246916.625&WIDTH=10&HEIGHT=10&I=5&J=5&INFO_FORMAT=application%2Fjson&FEATURE_COUNT=10&LANG=de"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

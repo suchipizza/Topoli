@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/oereb",
+  "address": "Via Nassa 5, 6900 Lugano",
+  "site_id": "5192-191",
+  "recorded_at": "2026-09-08T09:52:25+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "29aff428807f5d8b357fbf7d4b3071356a3066d792d6f3431d1c2ac6bcb2536e.json",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2717096.25%2C1095749.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+ "adapter_id": "ch/federal/geocode",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683545.75%2C1246911.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2683045.75%2C1246411.625%2C2684045.75%2C1247411.625&imageDisplay=1000%2C1000%2C96",
+ "retrieved_at": "2026-09-08T09:52:27.197487Z",
+ "payload": {
+  "results": [
+   {
+    "layerBodId": "ch.bfs.gebaeude_wohnungs_register",
+    "layerName": "GWR: Gebäudestatus",
+    "featureId": "9011202_2",
+    "id": "9011202_2",
+    "properties": {
+     "egid": "9011202",
+     "strname_deinr": "Limmatquai 1",
+     "plz_plz6": "8001/800100",
+     "ggdename": "Zürich",
+     "ggdenr": 261,
+     "gexpdat": "06.09.2026",
+     "gdekt": "ZH",
+     "egrid": "CH819189997789",
+     "lgbkr": 281,
+     "lparz": "AA2912",
+     "lparzsx": null,
+     "ltyp": null,
+     "gebnr": "261AA00858",
+     "gbez": "",
+     "gkode": 2683534.22,
+     "gkodn": 1246902.55,
+     "gksce": 904,
+     "gstat": 1004,
+     "gkat": 1040,
+     "gklas": 1220,
+     "gbauj": 1858,
+     "gbaum": 1,
+     "gbaup": 8011,
+     "gabbj": null,
+     "garea": 1943,
+     "gvol": 45890,
+     "gvolnorm": 962,
+     "gvolsce": 859,
+     "gastw": 7,
+     "ganzwhg": 3,
+     "gazzi": null,
+     "gschutzr": 0,
+     "gebf": 6840,
+     "gwaerzh1": 7430,
+     "genh1": 7520,
+     "gwaersceh1": 859,
+     "gwaerdath1": "05.03.2021",
+     "gwaerzh2": null,
+     "genh2": null,
+     "gwaersceh2": null,
+     "gwaerdath2": "-",
+     "gwaerzw1": 7630,
+     "genw1": 7520,
+     "gwaerscew1": 859,
+     "gwaerdatw1": "05.03.2021",
+     "gwaerzw2": null,
+     "genw2": null,
+     "gwaerscew2": null,
+     "gwaerdatw2": "-",
+     "edid": "2",
+     "egaid": 101713844,
+     "deinr": "1",
+     "esid": 10074882,
+     "strname": [
+      "Limmatquai"
+     ],
+     "strnamk": [
+      "Limmatquai"
+     ],
+     "strindx": [
+      "Lim"
+     ],
+     "strsp": [
+      "DE"
+     ],
+     "stroffiziel": "1",
+     "dplz4": 8001,
+     "dplzz": 0,
+     "dplzname": "Zürich",
+     "dkode": 2683545.868,
+     "dkodn": 1246911.595,
+     "doffadr": 1,
+     "dexpdat": "06.09.2026",
+     "ewid": [
+      "4"
+     ],
+     "whgnr": [
+      "503"
+     ],
+     "wstwk": [
+      3105
+     ],
+     "wmehrg": [
+      0
+     ],
+     "weinr": [
+      null
+     ],
+     "wbez": [
+      "5.2"
+     ],
+     "wstat": [
+      3004
+     ],
+     "wexpdat": [
+      "2026-09-06T00:00:00"
+     ],
+     "wbauj": [
+      2009
+     ],
+     "wabbj": [
+      null
+     ],
+     "warea": [
+      351
+     ],
+     "wazim": [
+      5
+     ],
+     "wkche": [
+      1
+     ],
+     "label": "Limmatquai 1"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2683545.75%2C1246911.625&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2683045.75%2C1246411.625%2C2684045.75%2C1247411.625&imageDisplay=1000%2C1000%2C96"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

@@ -66,7 +66,7 @@ def t(key: str, lang: Lang, **slots: object) -> str:
         if fallback is None:
             raise MissingKeyError(key)
         if lang != "en":
-            log.warning("i18n.fallback", extra={"key": key, "lang": lang})
+            log.debug("i18n.fallback", extra={"key": key, "lang": lang})
         value = fallback
     try:
         return value.format(**slots)

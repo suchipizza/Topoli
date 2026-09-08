@@ -1,0 +1,25 @@
+{
+  "adapter_id": "ch/federal/hazards",
+  "address": "Bundesplatz 3, 3011 Bern",
+  "site_id": "351-823",
+  "recorded_at": "2026-09-08T09:52:15+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "9dcf16615b19dc9b3805d05c91c33d91c4bc311a35799b54902bc886bbf7efb7.json",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.aquaprotect_100&STYLES=&CRS=EPSG%3A2056&BBOX=2600375.1%2C1199447.2%2C2600584.3%2C1199534.3&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "file": "3c322cbb14ffc6afc46194b0dfb49d63fbec71eb5f748257690dfbfbe72465de.json",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.aquaprotect_500&STYLES=&CRS=EPSG%3A2056&BBOX=2600375.1%2C1199447.2%2C2600584.3%2C1199534.3&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "file": "40801bf5ad4547fc9fc9ceddfa176940a16599e8279f4afb5aae45482ecf5248.json",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.gefaehrdungskarte-oberflaechenabfluss&STYLES=&CRS=EPSG%3A2056&BBOX=2600375.1%2C1199447.2%2C2600584.3%2C1199534.3&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "file": "642c3852414bd8623388d9bdac7517d43819d1a9ad3d6d70b24acf3941efdc11.json",
+      "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.silvaprotect-sturz%2Cch.bafu.silvaprotect-lawinen%2Cch.bafu.silvaprotect-hangmuren%2Cch.bafu.silvaprotect-murgang&STYLES=&CRS=EPSG%3A2056&BBOX=2600375.1%2C1199447.2%2C2600584.3%2C1199534.3&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    }
+  ]
+}

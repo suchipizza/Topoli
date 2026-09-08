@@ -1,0 +1,252 @@
+{
+ "adapter_id": "ch/federal/terrain",
+ "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2681624.0%2C1247572.0%5D%2C%5B2681765.3%2C1247675.5%5D%2C%5B2681624.0%2C1247675.5%5D%2C%5B2681765.3%2C1247572.0%5D%5D%7D&sr=2056&nb_points=24",
+ "retrieved_at": "2026-09-08T09:52:12.257741Z",
+ "payload": [
+  {
+   "alts": {
+    "COMB": 412.7,
+    "DTM2": 412.7,
+    "DTM25": 412.7
+   },
+   "dist": 0,
+   "easting": 2681624.0,
+   "northing": 1247572.0
+  },
+  {
+   "alts": {
+    "COMB": 406.4,
+    "DTM2": 406.4,
+    "DTM25": 406.4
+   },
+   "dist": 21.9,
+   "easting": 2681641.663,
+   "northing": 1247584.938
+  },
+  {
+   "alts": {
+    "COMB": 405.3,
+    "DTM2": 405.3,
+    "DTM25": 405.3
+   },
+   "dist": 43.8,
+   "easting": 2681659.325,
+   "northing": 1247597.875
+  },
+  {
+   "alts": {
+    "COMB": 412.1,
+    "DTM2": 412.1,
+    "DTM25": 412.1
+   },
+   "dist": 65.7,
+   "easting": 2681676.987,
+   "northing": 1247610.812
+  },
+  {
+   "alts": {
+    "COMB": 412.1,
+    "DTM2": 412.1,
+    "DTM25": 412.1
+   },
+   "dist": 87.6,
+   "easting": 2681694.65,
+   "northing": 1247623.75
+  },
+  {
+   "alts": {
+    "COMB": 412.1,
+    "DTM2": 412.1,
+    "DTM25": 412.1
+   },
+   "dist": 109.5,
+   "easting": 2681712.312,
+   "northing": 1247636.688
+  },
+  {
+   "alts": {
+    "COMB": 411.9,
+    "DTM2": 411.9,
+    "DTM25": 411.9
+   },
+   "dist": 131.4,
+   "easting": 2681729.975,
+   "northing": 1247649.625
+  },
+  {
+   "alts": {
+    "COMB": 411.9,
+    "DTM2": 411.9,
+    "DTM25": 411.9
+   },
+   "dist": 153.3,
+   "easting": 2681747.637,
+   "northing": 1247662.562
+  },
+  {
+   "alts": {
+    "COMB": 410.3,
+    "DTM2": 410.3,
+    "DTM25": 410.3
+   },
+   "dist": 175.2,
+   "easting": 2681765.3,
+   "northing": 1247675.5
+  },
+  {
+   "alts": {
+    "COMB": 412.1,
+    "DTM2": 412.1,
+    "DTM25": 412.1
+   },
+   "dist": 195.3,
+   "easting": 2681745.114,
+   "northing": 1247675.5
+  },
+  {
+   "alts": {
+    "COMB": 412.2,
+    "DTM2": 412.2,
+    "DTM25": 412.2
+   },
+   "dist": 215.5,
+   "easting": 2681724.929,
+   "northing": 1247675.5
+  },
+  {
+   "alts": {
+    "COMB": 411.9,
+    "DTM2": 411.9,
+    "DTM25": 411.9
+   },
+   "dist": 235.7,
+   "easting": 2681704.743,
+   "northing": 1247675.5
+  },
+  {
+   "alts": {
+    "COMB": 411.9,
+    "DTM2": 411.9,
+    "DTM25": 411.9
+   },
+   "dist": 255.9,
+   "easting": 2681684.557,
+   "northing": 1247675.5
+  },
+  {
+   "alts": {
+    "COMB": 412.0,
+    "DTM2": 412.0,
+    "DTM25": 412.0
+   },
+   "dist": 276.1,
+   "easting": 2681664.371,
+   "northing": 1247675.5
+  },
+  {
+   "alts": {
+    "COMB": 412.0,
+    "DTM2": 412.0,
+    "DTM25": 412.0
+   },
+   "dist": 296.3,
+   "easting": 2681644.186,
+   "northing": 1247675.5
+  },
+  {
+   "alts": {
+    "COMB": 412.0,
+    "DTM2": 412.0,
+    "DTM25": 412.0
+   },
+   "dist": 316.5,
+   "easting": 2681624.0,
+   "northing": 1247675.5
+  },
+  {
+   "alts": {
+    "COMB": 412.1,
+    "DTM2": 412.1,
+    "DTM25": 412.1
+   },
+   "dist": 338.3,
+   "easting": 2681641.663,
+   "northing": 1247662.562
+  },
+  {
+   "alts": {
+    "COMB": 412.1,
+    "DTM2": 412.1,
+    "DTM25": 412.1
+   },
+   "dist": 360.2,
+   "easting": 2681659.325,
+   "northing": 1247649.625
+  },
+  {
+   "alts": {
+    "COMB": 412.1,
+    "DTM2": 412.1,
+    "DTM25": 412.1
+   },
+   "dist": 382.1,
+   "easting": 2681676.987,
+   "northing": 1247636.688
+  },
+  {
+   "alts": {
+    "COMB": 412.1,
+    "DTM2": 412.1,
+    "DTM25": 412.1
+   },
+   "dist": 404.0,
+   "easting": 2681694.65,
+   "northing": 1247623.75
+  },
+  {
+   "alts": {
+    "COMB": 412.1,
+    "DTM2": 412.1,
+    "DTM25": 412.1
+   },
+   "dist": 425.9,
+   "easting": 2681712.312,
+   "northing": 1247610.812
+  },
+  {
+   "alts": {
+    "COMB": 412.0,
+    "DTM2": 412.0,
+    "DTM25": 412.0
+   },
+   "dist": 447.8,
+   "easting": 2681729.975,
+   "northing": 1247597.875
+  },
+  {
+   "alts": {
+    "COMB": 412.1,
+    "DTM2": 412.1,
+    "DTM25": 412.1
+   },
+   "dist": 469.7,
+   "easting": 2681747.637,
+   "northing": 1247584.938
+  },
+  {
+   "alts": {
+    "COMB": 412.0,
+    "DTM2": 412.0,
+    "DTM25": 412.0
+   },
+   "dist": 491.6,
+   "easting": 2681765.3,
+   "northing": 1247572.0
+  }
+ ],
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2681624.0%2C1247572.0%5D%2C%5B2681765.3%2C1247675.5%5D%2C%5B2681624.0%2C1247675.5%5D%2C%5B2681765.3%2C1247572.0%5D%5D%7D&sr=2056&nb_points=24"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

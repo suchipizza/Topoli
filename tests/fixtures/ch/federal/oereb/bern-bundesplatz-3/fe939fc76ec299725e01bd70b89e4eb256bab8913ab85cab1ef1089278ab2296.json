@@ -1,0 +1,71 @@
+{
+ "adapter_id": "ch/federal/oereb",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2600423.25%2C1199521.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1",
+ "retrieved_at": "2026-09-08T09:52:17.566523Z",
+ "payload": {
+  "results": [
+   {
+    "layerBodId": "ch.swisstopo-vd.stand-oerebkataster",
+    "layerName": "Verfügbarkeit des ÖREB-Katasters",
+    "featureId": 846491,
+    "id": 846491,
+    "properties": {
+     "fid": "351",
+     "number": "823",
+     "gemeindename": "Bern",
+     "kanton": "Bern",
+     "oereb_status_de": "ÖREB-Kataster eingeführt",
+     "oereb_status_fr": "Cadastre RDPPF introduit",
+     "oereb_status_it": "Catasto RDPP introdotto",
+     "oereb_status_rm": "ÖREB-Kataster eingeführt",
+     "oereb_status_en": "ÖREB-Kataster eingeführt",
+     "bfs_nr": 351,
+     "firmenname": "Direktion für Inneres und Justiz des Kantons Bern, Amt für Geoinformation",
+     "adresszeile": "Reiterstrasse 11",
+     "plz": 3013,
+     "ort": "Bern",
+     "telefon": "031 633 33 11",
+     "email": "info.agi@be.ch",
+     "url_oereb": "http://www.be.ch/oerebk",
+     "oereb_webservice": "https://www.oereb2.apps.be.ch",
+     "bgdi_status": 0,
+     "egris_egrid": "CH294676423526",
+     "oereb_extract_pdf": "https://www.oereb2.apps.be.ch/extract/pdf/?EGRID=CH294676423526",
+     "oereb_extract_url": "https://www.oereb2.apps.be.ch/extract/url/?EGRID=CH294676423526",
+     "realestate_type": "Liegenschaft",
+     "label": "Bern"
+    }
+   },
+   {
+    "layerBodId": "ch.swisstopo-vd.stand-oerebkataster",
+    "layerName": "Verfügbarkeit des ÖREB-Katasters",
+    "featureId": 10,
+    "id": 10,
+    "properties": {
+     "fid": "351",
+     "gemeindename": "Bern",
+     "kanton": "Bern",
+     "oereb_status_de": "ÖREB-Kataster eingeführt",
+     "oereb_status_fr": "Cadastre RDPPF introduit",
+     "oereb_status_it": "Catasto RDPP introdotto",
+     "oereb_status_rm": "ÖREB-Kataster eingeführt",
+     "oereb_status_en": "ÖREB-Kataster eingeführt",
+     "bfs_nr": 351,
+     "firmenname": "Direktion für Inneres und Justiz des Kantons Bern, Amt für Geoinformation",
+     "adresszeile": "Reiterstrasse 11",
+     "plz": 3013,
+     "ort": "Bern",
+     "telefon": "031 633 33 11",
+     "email": "info.agi@be.ch",
+     "url_oereb": "http://www.be.ch/oerebk",
+     "label": "Bern"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2600423.25%2C1199521.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.stand-oerebkataster&sr=2056&tolerance=0&returnGeometry=false&limit=1"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

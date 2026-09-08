@@ -1,0 +1,406 @@
+{
+ "adapter_id": "ch/federal/buildings",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683509.2%2C1246928.1%5D%2C%5B2683509.9%2C1246930.6%5D%2C%5B2683511.2%2C1246932.9%5D%2C%5B2683513.7%2C1246935.3%5D%2C%5B2683517.1%2C1246937.0%5D%2C%5B2683519.1%2C1246937.4%5D%2C%5B2683522.7%2C1246937.2%5D%2C%5B2683525.7%2C1246936.1%5D%2C%5B2683527.9%2C1246934.6%5D%2C%5B2683549.6%2C1246907.3%5D%2C%5B2683549.4%2C1246907.1%5D%2C%5B2683562.0%2C1246890.5%5D%2C%5B2683561.5%2C1246890.1%5D%2C%5B2683563.4%2C1246888.8%5D%2C%5B2683564.1%2C1246887.4%5D%2C%5B2683564.3%2C1246885.9%5D%2C%5B2683563.3%2C1246883.5%5D%2C%5B2683561.4%2C1246882.2%5D%2C%5B2683559.7%2C1246882.1%5D%2C%5B2683559.9%2C1246881.5%5D%2C%5B2683532.5%2C1246868.0%5D%2C%5B2683510.7%2C1246919.7%5D%2C%5B2683511.0%2C1246919.8%5D%2C%5B2683509.7%2C1246922.1%5D%2C%5B2683509.0%2C1246925.2%5D%2C%5B2683509.2%2C1246928.1%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200",
+ "retrieved_at": "2026-09-08T09:52:28.148802Z",
+ "payload": {
+  "results": [
+   {
+    "type": "Feature",
+    "featureId": "9011202_2",
+    "bbox": [
+     2683545.9,
+     1246911.6,
+     2683545.9,
+     1246911.6
+    ],
+    "layerBodId": "ch.bfs.gebaeude_wohnungs_register",
+    "layerName": "GWR: Gebäudestatus",
+    "id": "9011202_2",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      2683545.9,
+      1246911.6
+     ]
+    },
+    "properties": {
+     "egid": "9011202",
+     "strname_deinr": "Limmatquai 1",
+     "plz_plz6": "8001/800100",
+     "ggdename": "Zürich",
+     "ggdenr": 261,
+     "gexpdat": "06.09.2026",
+     "gdekt": "ZH",
+     "egrid": "CH819189997789",
+     "lgbkr": 281,
+     "lparz": "AA2912",
+     "lparzsx": null,
+     "ltyp": null,
+     "gebnr": "261AA00858",
+     "gbez": "",
+     "gkode": 2683534.22,
+     "gkodn": 1246902.55,
+     "gksce": 904,
+     "gstat": 1004,
+     "gkat": 1040,
+     "gklas": 1220,
+     "gbauj": 1858,
+     "gbaum": 1,
+     "gbaup": 8011,
+     "gabbj": null,
+     "garea": 1943,
+     "gvol": 45890,
+     "gvolnorm": 962,
+     "gvolsce": 859,
+     "gastw": 7,
+     "ganzwhg": 3,
+     "gazzi": null,
+     "gschutzr": 0,
+     "gebf": 6840,
+     "gwaerzh1": 7430,
+     "genh1": 7520,
+     "gwaersceh1": 859,
+     "gwaerdath1": "05.03.2021",
+     "gwaerzh2": null,
+     "genh2": null,
+     "gwaersceh2": null,
+     "gwaerdath2": "-",
+     "gwaerzw1": 7630,
+     "genw1": 7520,
+     "gwaerscew1": 859,
+     "gwaerdatw1": "05.03.2021",
+     "gwaerzw2": null,
+     "genw2": null,
+     "gwaerscew2": null,
+     "gwaerdatw2": "-",
+     "edid": "2",
+     "egaid": 101713844,
+     "deinr": "1",
+     "esid": 10074882,
+     "strname": [
+      "Limmatquai"
+     ],
+     "strnamk": [
+      "Limmatquai"
+     ],
+     "strindx": [
+      "Lim"
+     ],
+     "strsp": [
+      "DE"
+     ],
+     "stroffiziel": "1",
+     "dplz4": 8001,
+     "dplzz": 0,
+     "dplzname": "Zürich",
+     "dkode": 2683545.868,
+     "dkodn": 1246911.595,
+     "doffadr": 1,
+     "dexpdat": "06.09.2026",
+     "ewid": [
+      "4"
+     ],
+     "whgnr": [
+      "503"
+     ],
+     "wstwk": [
+      3105
+     ],
+     "wmehrg": [
+      0
+     ],
+     "weinr": [
+      null
+     ],
+     "wbez": [
+      "5.2"
+     ],
+     "wstat": [
+      3004
+     ],
+     "wexpdat": [
+      "2026-09-06T00:00:00"
+     ],
+     "wbauj": [
+      2009
+     ],
+     "wabbj": [
+      null
+     ],
+     "warea": [
+      351
+     ],
+     "wazim": [
+      5
+     ],
+     "wkche": [
+      1
+     ],
+     "label": "Limmatquai 1"
+    }
+   },
+   {
+    "type": "Feature",
+    "featureId": "9011202_3",
+    "bbox": [
+     2683548.3,
+     1246876.5,
+     2683548.3,
+     1246876.5
+    ],
+    "layerBodId": "ch.bfs.gebaeude_wohnungs_register",
+    "layerName": "GWR: Gebäudestatus",
+    "id": "9011202_3",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      2683548.3,
+      1246876.5
+     ]
+    },
+    "properties": {
+     "egid": "9011202",
+     "strname_deinr": "Bellevueplatz 5",
+     "plz_plz6": "8001/800100",
+     "ggdename": "Zürich",
+     "ggdenr": 261,
+     "gexpdat": "06.09.2026",
+     "gdekt": "ZH",
+     "egrid": "CH819189997789",
+     "lgbkr": 281,
+     "lparz": "AA2912",
+     "lparzsx": null,
+     "ltyp": null,
+     "gebnr": "261AA00858",
+     "gbez": "",
+     "gkode": 2683534.22,
+     "gkodn": 1246902.55,
+     "gksce": 904,
+     "gstat": 1004,
+     "gkat": 1040,
+     "gklas": 1220,
+     "gbauj": 1858,
+     "gbaum": 1,
+     "gbaup": 8011,
+     "gabbj": null,
+     "garea": 1943,
+     "gvol": 45890,
+     "gvolnorm": 962,
+     "gvolsce": 859,
+     "gastw": 7,
+     "ganzwhg": 3,
+     "gazzi": null,
+     "gschutzr": 0,
+     "gebf": 6840,
+     "gwaerzh1": 7430,
+     "genh1": 7520,
+     "gwaersceh1": 859,
+     "gwaerdath1": "05.03.2021",
+     "gwaerzh2": null,
+     "genh2": null,
+     "gwaersceh2": null,
+     "gwaerdath2": "-",
+     "gwaerzw1": 7630,
+     "genw1": 7520,
+     "gwaerscew1": 859,
+     "gwaerdatw1": "05.03.2021",
+     "gwaerzw2": null,
+     "genw2": null,
+     "gwaerscew2": null,
+     "gwaerdatw2": "-",
+     "edid": "3",
+     "egaid": 101713845,
+     "deinr": "5",
+     "esid": 10162204,
+     "strname": [
+      "Bellevueplatz"
+     ],
+     "strnamk": [
+      "Bellevueplatz"
+     ],
+     "strindx": [
+      "Bel"
+     ],
+     "strsp": [
+      "DE"
+     ],
+     "stroffiziel": "1",
+     "dplz4": 8001,
+     "dplzz": 0,
+     "dplzname": "Zürich",
+     "dkode": 2683548.29,
+     "dkodn": 1246876.469,
+     "doffadr": 1,
+     "dexpdat": "06.09.2026",
+     "ewid": [
+      "2",
+      "3"
+     ],
+     "whgnr": [
+      "501",
+      "502"
+     ],
+     "wstwk": [
+      3105,
+      3105
+     ],
+     "wmehrg": [
+      0,
+      0
+     ],
+     "weinr": [
+      null,
+      null
+     ],
+     "wbez": [
+      "5.1",
+      "5.3"
+     ],
+     "wstat": [
+      3004,
+      3004
+     ],
+     "wexpdat": [
+      "2026-09-06T00:00:00",
+      "2026-09-06T00:00:00"
+     ],
+     "wbauj": [
+      2009,
+      2009
+     ],
+     "wabbj": [
+      null,
+      null
+     ],
+     "warea": [
+      273,
+      371
+     ],
+     "wazim": [
+      5,
+      4
+     ],
+     "wkche": [
+      1,
+      1
+     ],
+     "label": "Bellevueplatz 5"
+    }
+   },
+   {
+    "type": "Feature",
+    "featureId": "9011202_4",
+    "bbox": [
+     2683536.7,
+     1246922.8,
+     2683536.7,
+     1246922.8
+    ],
+    "layerBodId": "ch.bfs.gebaeude_wohnungs_register",
+    "layerName": "GWR: Gebäudestatus",
+    "id": "9011202_4",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [
+      2683536.7,
+      1246922.8
+     ]
+    },
+    "properties": {
+     "egid": "9011202",
+     "strname_deinr": "Limmatquai 3",
+     "plz_plz6": "8001/800100",
+     "ggdename": "Zürich",
+     "ggdenr": 261,
+     "gexpdat": "06.09.2026",
+     "gdekt": "ZH",
+     "egrid": "CH819189997789",
+     "lgbkr": 281,
+     "lparz": "AA2912",
+     "lparzsx": null,
+     "ltyp": null,
+     "gebnr": "261AA00858",
+     "gbez": "",
+     "gkode": 2683534.22,
+     "gkodn": 1246902.55,
+     "gksce": 904,
+     "gstat": 1004,
+     "gkat": 1040,
+     "gklas": 1220,
+     "gbauj": 1858,
+     "gbaum": 1,
+     "gbaup": 8011,
+     "gabbj": null,
+     "garea": 1943,
+     "gvol": 45890,
+     "gvolnorm": 962,
+     "gvolsce": 859,
+     "gastw": 7,
+     "ganzwhg": 3,
+     "gazzi": null,
+     "gschutzr": 0,
+     "gebf": 6840,
+     "gwaerzh1": 7430,
+     "genh1": 7520,
+     "gwaersceh1": 859,
+     "gwaerdath1": "05.03.2021",
+     "gwaerzh2": null,
+     "genh2": null,
+     "gwaersceh2": null,
+     "gwaerdath2": "-",
+     "gwaerzw1": 7630,
+     "genw1": 7520,
+     "gwaerscew1": 859,
+     "gwaerdatw1": "05.03.2021",
+     "gwaerzw2": null,
+     "genw2": null,
+     "gwaerscew2": null,
+     "gwaerdatw2": "-",
+     "edid": "4",
+     "egaid": 103209162,
+     "deinr": "3",
+     "esid": 10074882,
+     "strname": [
+      "Limmatquai"
+     ],
+     "strnamk": [
+      "Limmatquai"
+     ],
+     "strindx": [
+      "Lim"
+     ],
+     "strsp": [
+      "DE"
+     ],
+     "stroffiziel": "1",
+     "dplz4": 8001,
+     "dplzz": 0,
+     "dplzname": "Zürich",
+     "dkode": 2683536.707,
+     "dkodn": 1246922.824,
+     "doffadr": 1,
+     "dexpdat": "06.09.2026",
+     "ewid": null,
+     "whgnr": null,
+     "wstwk": null,
+     "wmehrg": null,
+     "weinr": null,
+     "wbez": null,
+     "wstat": null,
+     "wexpdat": null,
+     "wbauj": null,
+     "wabbj": null,
+     "warea": null,
+     "wazim": null,
+     "wkche": null,
+     "label": "Limmatquai 3"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2683509.2%2C1246928.1%5D%2C%5B2683509.9%2C1246930.6%5D%2C%5B2683511.2%2C1246932.9%5D%2C%5B2683513.7%2C1246935.3%5D%2C%5B2683517.1%2C1246937.0%5D%2C%5B2683519.1%2C1246937.4%5D%2C%5B2683522.7%2C1246937.2%5D%2C%5B2683525.7%2C1246936.1%5D%2C%5B2683527.9%2C1246934.6%5D%2C%5B2683549.6%2C1246907.3%5D%2C%5B2683549.4%2C1246907.1%5D%2C%5B2683562.0%2C1246890.5%5D%2C%5B2683561.5%2C1246890.1%5D%2C%5B2683563.4%2C1246888.8%5D%2C%5B2683564.1%2C1246887.4%5D%2C%5B2683564.3%2C1246885.9%5D%2C%5B2683563.3%2C1246883.5%5D%2C%5B2683561.4%2C1246882.2%5D%2C%5B2683559.7%2C1246882.1%5D%2C%5B2683559.9%2C1246881.5%5D%2C%5B2683532.5%2C1246868.0%5D%2C%5B2683510.7%2C1246919.7%5D%2C%5B2683511.0%2C1246919.8%5D%2C%5B2683509.7%2C1246922.1%5D%2C%5B2683509.0%2C1246925.2%5D%2C%5B2683509.2%2C1246928.1%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

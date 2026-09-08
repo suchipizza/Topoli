@@ -63,6 +63,64 @@ def main(
         set_client(HttpClient(use_cache=False))
 
 
+@app.command()
+def layers(
+    address: str = typer.Argument(..., help="Address, 'Parcel <municipality> <no>' or 'lat,lon'"),
+    lang: str | None = typer.Option(None, "--lang", help="fr|de|it|en (default: canton)"),
+) -> None:
+    """Run the federal spine + the seven federal constraint layers and print the findings."""
+    from topoli.core.pipeline import audit_layers
+    from topoli.countries.ch.federal.geocode import ResolveError
+
+    try:
+        run, spine_cov, _ = audit_layers(address)
+    except ResolveError as exc:
+        console.print(f"[red]Could not resolve:[/red] {exc}")
+        raise typer.Exit(code=2) from exc
+    out_lang = lang or run.ctx.site.lang_default
+    console.print(f"[bold]{run.ctx.site.address}[/bold] · {run.ctx.site.jurisdiction.canton}")
+    for f in run.findings:
+        badge = {"A": "green", "B": "cyan", "C": "yellow", "D": "magenta"}[f.cls]
+        console.print(f"{f.icon or '•'} [{badge}]{f.cls}[/{badge}] {f.title.get(out_lang)}")  # type: ignore[arg-type]
+        console.print(f"    {f.consequence.get(out_lang)}")  # type: ignore[arg-type]
+        when = f.source.retrieved_at.strftime("%Y-%m-%d") if f.source.retrieved_at else "—"
+        url = (f.source.url or "—")[:90]
+        console.print(f"    [dim]{f.source.dataset[:60]} · {when} · {url}[/dim]")
+    table = Table(title="coverage")
+    for col in ("adapter", "status", "calls", "detail"):
+        table.add_column(col)
+    for c in [*spine_cov, *run.coverage]:
+        table.add_row(c.adapter_id, c.status, str(c.calls), c.detail or "")
+    console.print(table)
+    console.print(_calls_line())
+
+
+@app.command()
+def coverage(
+    write: bool = typer.Option(False, "--write", help="Also write coverage.json at the repo root"),
+) -> None:
+    """Print the canton coverage table (federal / cantonal / events %) for README and website."""
+    from topoli.core.scoring.coverage import build_coverage, write_coverage_json
+
+    data = build_coverage()
+    table = Table(title="coverage by canton")
+    for col in ("canton", "lang", "federal", "cantonal", "events"):
+        table.add_column(col)
+    for canton, row in data["cantons"].items():
+        table.add_row(
+            canton,
+            row["lang"],
+            f"{row['federal_pct']}%",
+            f"{row['cantonal_pct']}%",
+            f"{row['events_pct']}%",
+        )
+    console.print(table)
+    if data["degraded_adapters"]:
+        console.print(f"[yellow]degraded:[/yellow] {', '.join(data['degraded_adapters'])}")
+    if write:
+        console.print(f"wrote {write_coverage_json()}")
+
+
 fixtures_app = typer.Typer(help="Record and list test fixtures (recorded source responses).")
 cache_app = typer.Typer(help="Inspect or clear the local cache.")
 app.add_typer(fixtures_app, name="fixtures")
