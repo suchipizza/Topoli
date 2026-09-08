@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="{{ lang }}" data-topoli-version="{{ version }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title }}</title>
+<meta name="description" content="{{ description }}">
+<meta name="generator" content="Topoli {{ version }}">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%278%27 fill=%27%230f6b5c%27/%3E%3Ctext x=%2716%27 y=%2722%27 font-size=%2718%27 text-anchor=%27middle%27 fill=%27white%27 font-family=%27sans-serif%27 font-weight=%27700%27%3ET%3C/text%3E%3C/svg%3E">
+<style>{{ tokens_css }}</style>
+<style>{{ report_css }}</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <div class="brand"><a href="{{ repo_url }}" rel="noopener">Topoli</a><small data-i18n="report.tagline">{{ tr("report.tagline") }}</small></div>
+  <nav class="tools" aria-label="tools">
+    <label class="visually-hidden" for="lang" data-i18n="report.language">{{ tr("report.language") }}</label>
+    <select id="lang" class="lang">
+      {% for code, name in languages %}<option value="{{ code }}"{% if code == lang %} selected{% endif %}>{{ name }}</option>{% endfor %}
+    </select>
+    <a id="star-btn" class="btn primary" href="{{ repo_url }}" rel="noopener" data-i18n="report.star">{{ tr("report.star") }}</a>
+    <a class="btn" href="#share" data-i18n="report.share">{{ tr("report.share") }}</a>
+  </nav>
+</header>
+
+<h1 data-i18n="layer0.header" data-slots='{{ header_slots }}'>{{ header_text }}</h1>
+<p class="sub"><span data-i18n="report.generated" data-slots='{{ generated_slots }}'>{{ generated_text }}</span></p>
+
+<section aria-labelledby="findings-h">
+  <h2 id="findings-h" class="visually-hidden" data-i18n="report.findings">{{ tr("report.findings") }}</h2>
+  <div class="cards">
+  {% for f in cards %}
+    <article class="card sev-{{ f.severity }}" id="f-{{ f.dom_id }}">
+      <h2><span class="icon" aria-hidden="true">{{ f.icon }}</span><span class="badge {{ f.cls }}" title="{{ f.cls }}">{{ f.cls }}</span> <span data-l10n='{{ f.title }}'>{{ l10n(f.title) }}</span></h2>
+      <p data-l10n='{{ f.consequence }}'>{{ l10n(f.consequence) }}</p>
+      <details class="why">
+        <summary data-i18n="layer1.why">{{ tr("layer1.why") }}</summary>
+        <p class="caveat" data-l10n='{{ f.caveat }}'>{{ l10n(f.caveat) }}</p>
+        <dl>
+          <dt data-i18n="report.source">{{ tr("report.source") }}</dt><dd>{{ f.dataset }} · {{ f.authority }}</dd>
+          <dt data-i18n="report.retrieved">{{ tr("report.retrieved") }}</dt><dd>{{ f.retrieved_at }}</dd>
+          <dt>URL</dt><dd>{% if f.url %}<a href="{{ f.url }}" rel="noopener">{{ f.url_short }}</a>{% else %}—{% endif %}</dd>
+          {% if f.derivation %}<dt data-i18n="report.derivation">{{ tr("report.derivation") }}</dt><dd>{{ f.derivation }}</dd>{% endif %}
+          {% if f.spans %}<dt data-i18n="report.evidence">{{ tr("report.evidence") }}</dt><dd>{% for s in f.spans %}<div>{{ s.article }} — «{{ s.text }}»{% if s.url %} <a href="{{ s.url }}" rel="noopener">↗</a>{% endif %}</div>{% endfor %}</dd>{% endif %}
+        </dl>
+      </details>
+    </article>
+  {% endfor %}
+  </div>
+  <p class="confidence" data-l10n='{{ confidence }}'>{{ l10n(confidence) }}</p>
+  <p class="nextstep"><strong data-i18n="report.next_step">{{ tr("report.next_step") }}</strong> <span data-l10n='{{ next_step }}'>{{ l10n(next_step) }}</span></p>
+</section>
+
+{% if map %}
+<figure class="map" style="aspect-ratio: {{ map.width_px }} / {{ map.height_px }};" aria-labelledby="map-cap">
+  <div id="tiles" class="tiles" style="display:none" aria-hidden="true"></div>
+  {% if map.fallback %}<img id="map-fallback" class="fallback" src="{{ map.fallback }}" alt="{{ map.alt }}" width="{{ map.width_px }}" height="{{ map.height_px }}" decoding="async">{% endif %}
+  <svg viewBox="0 0 {{ map.width_px }} {{ map.height_px }}" role="img" aria-label="{{ map.alt }}" style="position:absolute;inset:0;width:100%;height:100%">
+    <path d="{{ map.parcel_path }}" fill="rgba(15,107,92,0.18)" stroke="#0f6b5c" stroke-width="3"/>
+    {% for x, y in map.buildings %}<circle cx="{{ x }}" cy="{{ y }}" r="4" fill="#1b1f1e"/>{% endfor %}
+    {% for x, y, kind in map.events %}<circle cx="{{ x }}" cy="{{ y }}" r="5" fill="none" stroke="#b83232" stroke-width="2"><title>{{ kind }}</title></circle>{% endfor %}
+  </svg>
+  <div class="legend"><span data-i18n="report.map_legend">{{ tr("report.map_legend") }}</span></div>
+  <div class="attribution"><a href="https://www.swisstopo.admin.ch" rel="noopener">© swisstopo</a></div>
+  <figcaption id="map-cap" class="visually-hidden">{{ map.alt }}</figcaption>
+</figure>
+{% endif %}
+
+<main aria-labelledby="report-h">
+  <h2 id="report-h" data-i18n="report.full_report">{{ tr("report.full_report") }}</h2>
+  {% for s in sections %}
+  <section class="sec" id="sec-{{ s.number }}">
+    <h2><button type="button" aria-expanded="false" aria-controls="sec-{{ s.number }}-body"><span>{{ s.number }}. <span data-i18n="section.{{ s.number }}">{{ tr("section." ~ s.number) }}</span></span></button></h2>
+    <div class="body" id="sec-{{ s.number }}-body">
+      {% if not s.available %}<p class="stub" data-i18n="layer1.not_available">{{ tr("layer1.not_available") }}</p>
+        {% for c in s.coverage %}<p class="stub">{{ c.adapter_id }}: <span data-i18n="coverage.{{ c.status }}">{{ tr("coverage." ~ c.status) }}</span>{% if c.detail %} — {{ c.detail }}{% endif %}</p>{% endfor %}
+      {% endif %}
+      {% if s.facts %}<dl class="facts">{% for k, v in s.facts %}<dt>{{ k }}</dt><dd>{{ v }}</dd>{% endfor %}</dl>{% endif %}
+      {% for line in s.text %}<p data-l10n='{{ line }}'>{{ l10n(line) }}</p>{% endfor %}
+      {% for f in s.findings %}
+        <div class="finding" id="s{{ s.number }}-{{ f.dom_id }}">
+          <span class="badge {{ f.cls }}">{{ f.cls }}</span> <strong data-l10n='{{ f.title }}'>{{ l10n(f.title) }}</strong>
+          <p data-l10n='{{ f.consequence }}'>{{ l10n(f.consequence) }}</p>
+          <p class="caveat" data-l10n='{{ f.caveat }}'>{{ l10n(f.caveat) }}</p>
+          <details class="why"><summary data-i18n="layer1.why">{{ tr("layer1.why") }}</summary>
+            <dl><dt data-i18n="report.source">{{ tr("report.source") }}</dt><dd>{{ f.dataset }} · {{ f.authority }} · {{ f.retrieved_at }}{% if f.url %} · <a href="{{ f.url }}" rel="noopener">{{ f.url_short }}</a>{% endif %}</dd>
+            {% if f.derivation %}<dt data-i18n="report.derivation">{{ tr("report.derivation") }}</dt><dd>{{ f.derivation }}</dd>{% endif %}
+            {% if f.spans %}<dt data-i18n="report.evidence">{{ tr("report.evidence") }}</dt><dd>{% for sp in f.spans %}<div>{{ sp.article }} — «{{ sp.text }}»{% if sp.url %} <a href="{{ sp.url }}" rel="noopener">↗</a>{% endif %}</div>{% endfor %}</dd>{% endif %}</dl>
+          </details>
+        </div>
+      {% endfor %}
+      {% if s.number == 14 and timeline %}
+        <ol class="timeline">{% for e in timeline %}<li><time datetime="{{ e.date }}">{{ e.date }}</time> · {{ e.distance }} · <span data-i18n="event_type.{{ e.type }}">{{ tr("event_type." ~ e.type) }}</span> · {{ e.description }}{% if e.url %} <a href="{{ e.url }}" rel="noopener">↗</a>{% endif %}</li>{% endfor %}</ol>
+      {% endif %}
+      {% if s.number == 18 %}
+        <table><thead><tr><th data-i18n="report.dataset">{{ tr("report.dataset") }}</th><th data-i18n="report.authority">{{ tr("report.authority") }}</th><th data-i18n="report.licence">{{ tr("report.licence") }}</th><th data-i18n="report.retrieved">{{ tr("report.retrieved") }}</th><th>URL</th></tr></thead>
+        <tbody>{% for r in sources %}<tr><td>{{ r.dataset }}</td><td>{{ r.authority }}</td><td>{{ r.licence }}</td><td>{{ r.retrieved_at }}</td><td><a href="{{ r.url }}" rel="noopener">{{ r.url_short }}</a></td></tr>{% endfor %}</tbody></table>
+      {% endif %}
+    </div>
+  </section>
+  {% endfor %}
+</main>
+
+<section class="coverage" aria-labelledby="cov-h">
+  <h2 id="cov-h" data-i18n="report.coverage">{{ tr("report.coverage") }}</h2>
+  <ul>{% for c in coverage %}<li>{{ c.adapter_id }} — <span data-i18n="coverage.{{ c.status }}">{{ tr("coverage." ~ c.status) }}</span>{% if c.detail %} <small>({{ c.detail }})</small>{% endif %}</li>{% endfor %}</ul>
+  <p><a href="{{ contribute_url }}" rel="noopener" data-i18n="report.help_add">{{ tr("report.help_add") }}</a></p>
+</section>
+
+<section id="share" class="waitlist" aria-labelledby="share-h">
+  <h2 id="share-h" data-i18n="report.share_title">{{ tr("report.share_title") }}</h2>
+  <p class="share-note" data-i18n="report.share_note">{{ tr("report.share_note") }}</p>
+  <div class="row">
+    <button type="button" id="copy-summary" class="btn" data-i18n="share.copy">{{ tr("share.copy") }}</button>
+    {% if card_png %}<a class="btn" href="{{ card_png }}" download data-i18n="share.card">{{ tr("share.card") }}</a>{% endif %}
+    <a class="btn" data-href-lang="{{ run_url_template }}" href="{{ run_url }}" rel="noopener" data-i18n="layer0.run_yourself_short">{{ tr("layer0.run_yourself_short") }}</a>
+  </div>
+  <pre id="summary-text" class="visually-hidden">{{ summary_text }}</pre>
+</section>
+
+<section class="waitlist" aria-labelledby="wl-h">
+  <h2 id="wl-h" data-i18n="waitlist.title">{{ tr("waitlist.title") }}</h2>
+  <form id="waitlist-form" method="post" action="{{ waitlist_fallback }}">
+    {% for v in votes %}<label><input type="checkbox" name="vote" value="{{ v }}"> <span data-i18n="waitlist.vote.{{ v }}">{{ tr("waitlist.vote." ~ v) }}</span></label>{% endfor %}
+    <div class="row">
+      <label class="visually-hidden" for="wl-email" data-i18n="waitlist.email">{{ tr("waitlist.email") }}</label>
+      <input id="wl-email" type="email" name="email" placeholder="you@example.ch" autocomplete="email">
+      <button type="submit" class="btn primary" data-i18n="waitlist.submit">{{ tr("waitlist.submit") }}</button>
+    </div>
+    <p id="waitlist-status" class="share-note" aria-live="polite"></p>
+    <p class="share-note"><a data-href-lang="{{ waitlist_fallback_template }}" href="{{ waitlist_fallback }}" rel="noopener" data-i18n="waitlist.nojs">{{ tr("waitlist.nojs") }}</a></p>
+  </form>
+</section>
+
+<footer class="bottom">
+  <div class="trust">
+    <ul>
+      <li data-i18n="class.A.line">{{ tr("class.A.line") }}</li><li data-i18n="class.B.line">{{ tr("class.B.line") }}</li><li data-i18n="class.C.line">{{ tr("class.C.line") }}</li><li data-i18n="class.D.line">{{ tr("class.D.line") }}</li>
+    </ul>
+    <p data-i18n="trust.not_replace">{{ tr("trust.not_replace") }}</p>
+    <p data-i18n="trust.no_valuation">{{ tr("trust.no_valuation") }}</p>
+    <p data-i18n="trust.local">{{ tr("trust.local") }}</p>
+    <p data-i18n="report.licences_note">{{ tr("report.licences_note") }}</p>
+  </div>
+  <p>Topoli {{ version }} · <a href="{{ repo_url }}" rel="noopener">GitHub</a> · <a href="{{ repo_url }}/blob/main/LICENCES.md" rel="noopener">LICENCES.md</a></p>
+</footer>
+</div>
+<script>window.TOPOLI = {{ data_json }};</script>
+<script>{{ report_js }}</script>
+</body>
+</html>

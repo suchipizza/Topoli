@@ -1,0 +1,42 @@
+/* Topoli design tokens — shared by the local report, the share card and (copied) the website.
+   One accent colour, system fonts, light/dark via prefers-color-scheme. */
+:root {
+  --accent: #0f6b5c;
+  --accent-ink: #ffffff;
+  --accent-soft: #e3f2ee;
+  --bg: #fbfaf7;
+  --surface: #ffffff;
+  --ink: #1b1f1e;
+  --muted: #5d6663;
+  --line: #e2e5e3;
+  --sev-info: #6b7280;
+  --sev-low: #2f855a;
+  --sev-medium: #c05621;
+  --sev-high: #b83232;
+  --class-a: #0f6b5c;
+  --class-b: #2b6cb0;
+  --class-c: #b7791f;
+  --class-d: #805ad5;
+  --radius: 12px;
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent: #5fc3ad;
+    --accent-ink: #062621;
+    --accent-soft: #123a33;
+    --bg: #101413;
+    --surface: #181d1b;
+    --ink: #eef2f0;
+    --muted: #9aa5a1;
+    --line: #2a322f;
+    --sev-low: #68d391;
+    --sev-medium: #f6ad55;
+    --sev-high: #fc8181;
+    --class-a: #5fc3ad;
+    --class-b: #63b3ed;
+    --class-c: #f6e05e;
+    --class-d: #b794f4;
+  }
+}

@@ -9,7 +9,8 @@
     "open_report": "▸ Vollständigen Bericht öffnen: {path}",
     "share": "▸ Teilen: {path}",
     "run_yourself": "Selber ausprobieren in 3 Schritten → {url}",
-    "star": "⭐ Auf GitHub mit einem Stern markieren → {url}"
+    "star": "⭐ Auf GitHub mit einem Stern markieren → {url}",
+    "run_yourself_short": "Selber ausprobieren in 3 Schritten →"
   },
   "confidence": {
     "line": "Verlässlichkeit: {a} · {b} · {c} · {d}",
@@ -501,5 +502,52 @@
     "signage": "Reklamen",
     "antenna": "Antennen",
     "other": "Weiteres"
+  },
+  "report": {
+    "tagline": "Open-Source-Bauintelligenz",
+    "language": "Sprache",
+    "star": "⭐ Auf GitHub markieren",
+    "share": "Teilen",
+    "generated": "Erstellt am {date} mit Topoli {version} aus amtlichen öffentlichen Quellen.",
+    "findings": "Ergebnisse",
+    "source": "Quelle",
+    "retrieved": "Abgerufen",
+    "derivation": "So wurde es hergeleitet",
+    "evidence": "Beleg",
+    "next_step": "Nächster Schritt:",
+    "map_legend": "Grundstücksgrenze · Gebäude · Baugesuche in der Nähe",
+    "map_alt": "Karte des Grundstücks {address} mit Umriss, Gebäuden und Baugesuchen in der Nähe",
+    "full_report": "Vollständiger Bericht — 18 Abschnitte",
+    "coverage": "Was geprüft wurde",
+    "help_add": "Helfen Sie mit, Ihren Kanton hinzuzufügen →",
+    "share_title": "Diesen Check teilen",
+    "share_note": "Diese Datei ist eigenständig: senden Sie sie so, wie sie ist. Jede Aussage behält ihre Quelle.",
+    "dataset": "Datensatz",
+    "authority": "Behörde",
+    "licence": "Lizenz",
+    "licences_note": "Daten werden bei Bedarf von amtlichen Quellen unter deren Lizenzen abgerufen (siehe LICENCES.md); nie weiterverbreitet."
+  },
+  "share": {
+    "copy": "Zusammenfassung kopieren",
+    "copied": "Kopiert ✓",
+    "card": "Karte herunterladen"
+  },
+  "waitlist": {
+    "title": "Was hätten Sie gern als Nächstes?",
+    "email": "E-Mail",
+    "submit": "Auf die Warteliste",
+    "thanks": "Danke — bitte bestätigen Sie in Ihrem Posteingang.",
+    "error": "Senden nicht möglich. Nutzen Sie den Link unten.",
+    "nojs": "Warteliste stattdessen auf der Website öffnen",
+    "vote": {
+      "monitor": "Diese Liegenschaft auf Änderungen überwachen",
+      "scan": "Ein ganzes Gebiet nach Chancen absuchen",
+      "leads": "Bauprojekte als Leads für meine Firma finden",
+      "portfolio": "Mein Portfolio analysieren",
+      "reports": "Professionelle, kundentaugliche Berichte",
+      "api": "API / normalisierte Daten",
+      "cad": "CAD/BIM-Export",
+      "other": "Etwas anderes"
+    }
   }
 }

@@ -40,8 +40,15 @@ def source_for(
 
 
 def localized(template_key: str, part: str, **slots: Any) -> LocalizedText:
+    """Fill the template in every language; a ``LocalizedText`` slot picks its own language."""
     key = f"finding.{template_key}.{part}"
-    return LocalizedText(**{lang: t(key, lang, **slots) for lang in LANGS})
+    out = {}
+    for lang in LANGS:
+        per_lang = {
+            k: (v.get(lang) if isinstance(v, LocalizedText) else v) for k, v in slots.items()
+        }
+        out[lang] = t(key, lang, **per_lang)
+    return LocalizedText(**out)
 
 
 def make_finding(
@@ -74,7 +81,9 @@ def make_finding(
             "evidence_spans": evidence_spans or [],
             "caveat": localized(template_key, "caveat", **slots),
             "template_key": template_key,
-            "slots": slots,
+            "slots": {
+                k: (v.model_dump() if isinstance(v, LocalizedText) else v) for k, v in slots.items()
+            },
             "icon": icon,
             "rule_ref": rule_ref,
         }

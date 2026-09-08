@@ -9,7 +9,8 @@
     "open_report": "▸ Apri il rapporto completo: {path}",
     "share": "▸ Condividi: {path}",
     "run_yourself": "Provalo tu stesso in 3 passi → {url}",
-    "star": "⭐ Metti una stella su GitHub → {url}"
+    "star": "⭐ Metti una stella su GitHub → {url}",
+    "run_yourself_short": "Provalo tu stesso in 3 passi →"
   },
   "confidence": {
     "line": "Affidabilità: {a} · {b} · {c} · {d}",
@@ -501,5 +502,52 @@
     "signage": "insegne",
     "antenna": "antenne",
     "other": "altro"
+  },
+  "report": {
+    "tagline": "intelligenza edilizia open source",
+    "language": "Lingua",
+    "star": "⭐ Stella su GitHub",
+    "share": "Condividi",
+    "generated": "Generato il {date} con Topoli {version} da fonti pubbliche ufficiali.",
+    "findings": "Risultati",
+    "source": "Fonte",
+    "retrieved": "Consultato",
+    "derivation": "Come è stato calcolato",
+    "evidence": "Prova",
+    "next_step": "Prossimo passo:",
+    "map_legend": "Confine del fondo · edifici · domande di costruzione nelle vicinanze",
+    "map_alt": "Mappa del fondo {address} con il suo confine, gli edifici e le domande di costruzione vicine",
+    "full_report": "Rapporto completo — 18 sezioni",
+    "coverage": "Che cosa è stato verificato",
+    "help_add": "Aiutaci ad aggiungere il tuo cantone →",
+    "share_title": "Condividi questo check",
+    "share_note": "Questo file è autonomo: lo invii così com'è. Ogni affermazione conserva la sua fonte.",
+    "dataset": "Set di dati",
+    "authority": "Autorità",
+    "licence": "Licenza",
+    "licences_note": "Dati consultati su richiesta da fonti ufficiali con le loro licenze (vedi LICENCES.md); mai ridistribuiti."
+  },
+  "share": {
+    "copy": "Copia il riassunto",
+    "copied": "Copiato ✓",
+    "card": "Scarica la scheda"
+  },
+  "waitlist": {
+    "title": "Che cosa vorrebbe come prossima cosa?",
+    "email": "E-mail",
+    "submit": "Iscriviti alla lista d'attesa",
+    "thanks": "Grazie — confermi nella sua casella di posta.",
+    "error": "Invio non riuscito. Usi il link qui sotto.",
+    "nojs": "Apra invece la lista d'attesa sul sito",
+    "vote": {
+      "monitor": "Monitorare questo immobile per cambiamenti",
+      "scan": "Scansionare un'intera area alla ricerca di opportunità",
+      "leads": "Trovare cantieri come lead per la mia azienda",
+      "portfolio": "Analizzare il mio portafoglio",
+      "reports": "Rapporti professionali pronti per i clienti",
+      "api": "API / dati normalizzati",
+      "cad": "Esportazione CAD/BIM",
+      "other": "Qualcos'altro"
+    }
   }
 }
