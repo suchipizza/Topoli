@@ -7,11 +7,13 @@ Phase 1 commands are added work order by work order. This module ships
 
 from __future__ import annotations
 
+import json
 import os
 import platform
 import sys
 import tempfile
 from dataclasses import dataclass
+from typing import Any
 
 import httpx
 import typer
@@ -125,6 +127,73 @@ def doctor(
         return
     console.print("[red]Some checks failed.[/red] Open an issue with this output if you are stuck.")
     raise typer.Exit(code=1)
+
+
+def _print_json(model: Any) -> None:
+    console.print_json(model.model_dump_json(by_alias=True, exclude_none=False))
+
+
+@app.command()
+def resolve(
+    address: str = typer.Argument(
+        ..., help="Postal address, 'Parcel <municipality> <no>' or 'lat,lon'"
+    ),
+) -> None:
+    """Resolve an address to a Site (coordinates, municipality, canton, EGID, parcel id)."""
+    from topoli.core.adapters import get_client
+    from topoli.countries.ch.federal.geocode import ResolveError, resolve_address
+
+    get_client().reset()
+    try:
+        site, _ = resolve_address(address)
+    except ResolveError as exc:
+        console.print(f"[red]Could not resolve:[/red] {exc}")
+        raise typer.Exit(code=2) from exc
+    _print_json(site)
+    console.print(f"[dim]{get_client().calls} external calls[/dim]")
+
+
+@app.command()
+def parcel(
+    address: str = typer.Argument(..., help="Address or 'Parcel <municipality> <no>'"),
+    neighbours: bool = typer.Option(True, help="Also list adjacent parcels (one extra call)"),
+) -> None:
+    """Fetch the cadastral parcel (geometry, area, IDs, neighbours) for an address."""
+    from topoli.core.adapters import get_client
+    from topoli.countries.ch.federal.geocode import ResolveError, resolve_address
+    from topoli.countries.ch.federal.parcel import ParcelNotFoundError, get_parcel
+
+    get_client().reset()
+    try:
+        site, _ = resolve_address(address)
+        parcel_obj, _ = get_parcel(site, with_neighbours=neighbours)
+    except (ResolveError, ParcelNotFoundError) as exc:
+        console.print(f"[red]{exc}[/red]")
+        raise typer.Exit(code=2) from exc
+    _print_json(parcel_obj)
+    console.print(f"[dim]{get_client().calls} external calls[/dim]")
+
+
+@app.command()
+def buildings(
+    address: str = typer.Argument(..., help="Address or 'Parcel <municipality> <no>'"),
+) -> None:
+    """List the GWR buildings on the parcel at an address."""
+    from topoli.core.adapters import get_client
+    from topoli.countries.ch.federal.buildings import get_buildings
+    from topoli.countries.ch.federal.geocode import ResolveError, resolve_address
+    from topoli.countries.ch.federal.parcel import ParcelNotFoundError, get_parcel
+
+    get_client().reset()
+    try:
+        site, _ = resolve_address(address)
+        parcel_obj, _ = get_parcel(site, with_neighbours=False)
+    except (ResolveError, ParcelNotFoundError) as exc:
+        console.print(f"[red]{exc}[/red]")
+        raise typer.Exit(code=2) from exc
+    found, _ = get_buildings(parcel_obj)
+    console.print_json(json.dumps([b.model_dump(mode="json") for b in found]))
+    console.print(f"[dim]{len(found)} buildings · {get_client().calls} external calls[/dim]")
 
 
 if __name__ == "__main__":  # pragma: no cover

@@ -44,6 +44,7 @@ dev = [
   "respx>=0.21",
   "ruff>=0.6",
   "mypy>=1.11",
+  "types-shapely>=2.1.0.20260728",
 ]
 
 [build-system]
@@ -71,7 +72,8 @@ select = ["E", "F", "W", "I", "UP", "B", "SIM", "RUF", "N", "PL", "T20"]
 ignore = ["PLR0913", "PLR2004", "T201", "RUF001", "RUF002", "RUF003"]
 
 [tool.ruff.lint.per-file-ignores]
-"tests/**" = ["PLR", "S"]
+"tests/**" = ["PLR", "S", "PLC0415"]
+"topoli/cli.py" = ["PLC0415"]
 "skills/**/scripts/**" = ["T20"]
 
 [tool.ruff.format]
@@ -82,6 +84,10 @@ strict = true
 warn_unreachable = true
 files = ["topoli", "tests", "skills"]
 exclude = ["^examples/", "^tests/fixtures/"]
+
+[[tool.mypy.overrides]]
+module = ["vcr", "vcr.*"]
+ignore_missing_imports = true
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
