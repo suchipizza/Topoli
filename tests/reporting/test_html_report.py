@@ -68,8 +68,10 @@ def test_html_is_self_contained_and_multilingual(report) -> None:  # type: ignor
     # no external scripts/styles; only swisstopo tiles (view time) and site links are external
     assert not re.search(r"<script[^>]+src=", page)
     assert not re.search(r"<link[^>]+stylesheet", page)
-    assert "window.TOPOLI" in page
-    data = json.loads(re.search(r"window\.TOPOLI = (\{.*?\});</script>", page, re.S).group(1))  # type: ignore[union-attr]
+    assert 'id="topoli-data"' in page
+    data = json.loads(
+        re.search(r'id="topoli-data">(\{.*?\})</script>', page, re.S).group(1)  # type: ignore[union-attr]
+    )
     assert set(data["i18n"]) == {"fr", "de", "it", "en"}
     for lang in ("fr", "de", "it", "en"):
         assert data["i18n"][lang]["section.7"] and data["i18n"][lang]["layer0.header"]

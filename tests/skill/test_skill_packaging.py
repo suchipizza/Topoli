@@ -91,7 +91,7 @@ def test_examples_are_real_reports() -> None:
         )
         assert result.findings and all(f.source for f in result.findings)
         page = (folder / "index.html").read_text(encoding="utf-8")
-        assert "window.TOPOLI" in page and "github.com/suchipizza/Topoli" in page
+        assert 'id="topoli-data"' in page and "github.com/suchipizza/Topoli" in page
     geneva = AuditResult.model_validate_json(
         (ROOT / "examples" / "geneva-federal-only" / "evidence.json").read_text(encoding="utf-8")
     )
