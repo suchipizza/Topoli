@@ -11,6 +11,7 @@ from __future__ import annotations
 import logging
 import time
 from dataclasses import dataclass, field
+from datetime import UTC, datetime
 
 from topoli.core.adapters import BudgetExceededError, Record, SiteContext, get_client
 from topoli.core.adapters.registry import AdapterSpec, all_specs
@@ -19,13 +20,15 @@ from topoli.core.domain import (
     Category,
     ConstructionEvent,
     Finding,
+    Lang,
     Parcel,
     Regulation,
     Site,
 )
-from topoli.core.evidence import CoverageEntry, Timing, validate_all
+from topoli.core.evidence import AuditResult, CoverageEntry, Timing, validate_all
 from topoli.core.scoring.coverage import coverage_entry
 from topoli.core.scoring.potential import PotentialResult, compute_potential
+from topoli.core.scoring.rank import rank
 from topoli.countries.ch.federal.buildings import get_buildings
 from topoli.countries.ch.federal.findings import make_finding, unknown_finding
 from topoli.countries.ch.federal.geocode import resolve_address
@@ -241,6 +244,35 @@ def _potential_finding(run: LayerRun) -> PotentialResult | None:
     return result
 
 
+def build_result(
+    address: str, *, lang: Lang | None = None, goal: str | None = None
+) -> tuple[AuditResult, LayerRun]:
+    """Steps 1–7 → an ``AuditResult`` (the future ``evidence.json``)."""
+    started = time.perf_counter()
+    run, spine_cov, spine_timings = audit_layers(address)
+    site = run.ctx.site
+    out_lang: Lang = lang or site.lang_default
+    result = AuditResult(
+        site=site,
+        parcels=[run.ctx.parcel] if run.ctx.parcel else [],
+        buildings=run.ctx.buildings,
+        regulations=run.regulations,
+        events=run.events,
+        findings=rank(run.findings, goal),
+        coverage=[*spine_cov, *run.coverage],
+        timings=[
+            *spine_timings,
+            *run.timings,
+            Timing(step="total", seconds=time.perf_counter() - started),
+        ],
+        lang=out_lang,
+        goal=goal,
+        generated_at=datetime.now(tz=UTC),
+        parser_versions={r.source_document.adapter_id: r.parser_version for r in run.regulations},
+    )
+    return result, run
+
+
 def audit_layers(address: str) -> tuple[LayerRun, list[CoverageEntry], list[Timing]]:
     """Convenience: spine + layers for one address (``topoli layers``)."""
     get_client().reset()
@@ -255,6 +287,7 @@ __all__ = [
     "LayerRun",
     "Site",
     "audit_layers",
+    "build_result",
     "resolve_spine",
     "run_cantonal",
     "run_events",

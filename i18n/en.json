@@ -23,7 +23,12 @@
     "professional_one": "1 needs a professional"
   },
   "next_step": {
-    "frame": "Next step: {action}"
+    "frame": "Next step: {action}",
+    "heritage": "ask {office} what the listing of «{name}» allows before planning any change",
+    "potential_zh": "verify the density rule ({article} of the city building ordinance) with {office} before counting on extra floor area",
+    "hazard": "request the cantonal hazard-map extract for this plot from {office}",
+    "oereb": "order the official extract of public-law restrictions for this plot from the cadastre of {municipality}",
+    "municipality": "ask the building office of {municipality} which restrictions apply to this plot"
   },
   "class": {
     "A": {
@@ -466,5 +471,35 @@
         "caveat": "Counted from the cantonal register of official building publications since 2022; projects without a resolvable parcel number are not counted."
       }
     }
+  },
+  "office": {
+    "heritage_municipal": "the heritage office of {municipality}",
+    "heritage_cantonal": "the cantonal heritage office",
+    "planning_zurich": "the city planning office (Amt für Städtebau)",
+    "hazard_cantonal": "the cantonal natural-hazards office ({canton})"
+  },
+  "layer1": {
+    "not_available": "Not available for this canton yet — help add it →",
+    "no_data": "No data in this section for this plot.",
+    "why": "Why? Source, dataset and retrieval time",
+    "source_row": "{dataset} · {authority} · {licence} · {retrieved_at}",
+    "decision_intro": "What this means for your question:",
+    "checks_intro": "Before you decide, have these checked:",
+    "check_architect": "an architect: the building envelope (floors, height, setbacks) against the current ordinance;",
+    "check_planning": "the planning office: zone, special plans and pending changes;",
+    "check_heritage": "the heritage office: consequences of a listing or inventory entry;",
+    "check_hazard": "the cantonal hazards office: the legally binding hazard map;",
+    "check_notary": "a notary or the land register: easements, rights of way, encumbrances;",
+    "check_engineer": "a geotechnical or environmental engineer: ground, contamination, groundwater."
+  },
+  "event_type": {
+    "new_building": "new buildings",
+    "extension": "extensions",
+    "conversion": "conversions",
+    "demolition": "demolitions",
+    "energy": "heating and solar",
+    "signage": "signage",
+    "antenna": "antennas",
+    "other": "other"
   }
 }

@@ -38,8 +38,16 @@ from datetime import UTC, date, datetime, timedelta
 from typing import Any
 
 from topoli.core.adapters import HealthStatus, Record, SiteContext, get_client
-from topoli.core.domain import ConstructionEvent, Coordinates, Finding, Jurisdiction
+from topoli.core.domain import (
+    LANGS,
+    ConstructionEvent,
+    Coordinates,
+    Finding,
+    Jurisdiction,
+    LocalizedText,
+)
 from topoli.core.geospatial import lv95_to_wgs84
+from topoli.core.i18n import t
 from topoli.countries.ch.federal.findings import make_finding, source_for
 from topoli.countries.ch.zh import wfs
 from topoli.countries.ch.zh.licences import ZH_BAUGESUCHE
@@ -288,6 +296,9 @@ class ConstructionEventsAdapter:
         n = len(events)
         nearest = events[0] if events else None
         kinds = sorted({e.type for e in events})
+        kinds_l10n = LocalizedText(
+            **{lang: ", ".join(t(f"event_type.{k}", lang) for k in kinds) or "–" for lang in LANGS}
+        )
         derivation = (
             f"{stats.get('rows_municipality', 0)} publications in the municipality since "
             f"{stats.get('since')} (as of {stats.get('as_of')}); {n} located within "
@@ -307,8 +318,8 @@ class ConstructionEventsAdapter:
                     "n": str(n),
                     "radius": f"{self.radius_m:.0f}",
                     "months": str(self.since_months),
-                    "kinds": ", ".join(kinds) or "–",
-                    "nearest": (nearest.description[:80] if nearest else "–"),
+                    "kinds": kinds_l10n,
+                    "nearest": (_shorten(nearest.description, 70) if nearest else "–"),
                     "nearest_m": f"{nearest.distance_m:.0f}"
                     if nearest and nearest.distance_m is not None
                     else "–",
@@ -332,6 +343,13 @@ class ConstructionEventsAdapter:
         return HealthStatus(
             adapter_id=self.id, ok=ok, detail=detail, checked_at=datetime.now(tz=UTC)
         )
+
+
+def _shorten(text: str, limit: int) -> str:
+    if len(text) <= limit:
+        return text
+    cut = text[:limit].rsplit(" ", 1)[0]
+    return cut + "…"
 
 
 def _parse_date(value: str | None) -> date | None:

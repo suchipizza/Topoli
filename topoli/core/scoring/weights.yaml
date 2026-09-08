@@ -1,0 +1,72 @@
+# Ranking weights for layer 0 (PRD §3.3): rank_score = w_goal·goal + w_sev·severity + w_surprise·surprise
+weights:
+  goal: 1.0
+  severity: 1.0
+  surprise: 1.0
+
+# Severity → 0..1
+severity:
+  info: 0.1
+  low: 0.35
+  medium: 0.7
+  high: 1.0
+
+# --goal keywords → category relevance (0..1). Matched case-insensitively on word stems in any
+# of the four languages. Empty goal → "balanced".
+goals:
+  build:
+    keywords: [build, bauen, construire, costruire, extend, erweitern, agrandir, ampliare, aufstock, surélever, sopraelevare, apartment, wohnung, appartement, appartamento, neubau, develop]
+    relevance: {potential: 1.0, zoning: 0.9, heritage: 0.7, hazard: 0.5, noise: 0.4, activity: 0.3, environment: 0.3}
+  buy:
+    keywords: [buy, kaufen, acheter, comprare, purchase, invest, investieren, investir, investire, offer, angebot, offre, offerta]
+    relevance: {hazard: 1.0, heritage: 0.9, noise: 0.9, environment: 0.7, potential: 0.6, zoning: 0.5, activity: 0.5}
+  renovate:
+    keywords: [renovate, renovieren, rénover, ristrutturare, sanieren, sanierung, roof, dach, toit, tetto, solar, heizung, chauffage, riscaldamento, energy, energie, énergie]
+    relevance: {environment: 1.0, heritage: 0.9, zoning: 0.5, potential: 0.4, hazard: 0.4, noise: 0.3, activity: 0.2}
+  balanced:
+    keywords: []
+    relevance: {potential: 0.7, hazard: 0.7, noise: 0.6, heritage: 0.6, zoning: 0.5, activity: 0.5, environment: 0.5, unknown: 0.1}
+
+# Surprise per template (0..1): how much the finding contradicts the naive expectation.
+# Prefix match, most specific wins. Unlisted templates → 0.3.
+surprise:
+  potential.headroom: 0.9
+  potential.full: 0.4
+  potential.undetermined: 0.15
+  hazard.flood.medium: 0.9
+  hazard.flood.low: 0.6
+  hazard.flood.none: 0.2
+  hazard.runoff.low: 0.5
+  hazard.runoff.none: 0.1
+  hazard.gravitational.low: 0.7
+  hazard.gravitational.none: 0.05
+  noise.road.high: 0.7
+  noise.rail.high: 0.8
+  noise.road.medium: 0.35
+  noise.rail.medium: 0.4
+  noise.road.low: 0.15
+  noise.rail.low: 0.05
+  contamination.hit: 1.0
+  contamination.none: 0.1
+  heritage.kgs: 0.9
+  heritage.unesco: 0.9
+  heritage.zh.listed: 0.9
+  heritage.none: 0.1
+  heritage.zh.none: 0.1
+  solar.excellent: 0.6
+  solar.very_good: 0.5
+  solar.good: 0.35
+  solar.medium: 0.2
+  solar.poor: 0.4
+  solar.none: 0.05
+  terrain.steep: 0.6
+  terrain.sloped: 0.3
+  terrain.flat: 0.1
+  activity.n: 0.6
+  activity.none: 0.25
+  zoning.: 0.45
+  regulation.rules: 0.3
+  regulation.plan_specific: 0.2
+  oereb.theme: 0.1
+  oereb.none: 0.1
+  unknown.source: 0.05

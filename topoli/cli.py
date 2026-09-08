@@ -267,6 +267,63 @@ def review_export(
 
 
 @app.command()
+def audit(
+    address: str = typer.Argument(..., help="Address, 'Parcel <municipality> <no>' or 'lat,lon'"),
+    lang: str | None = typer.Option(None, "--lang", help="fr|de|it|en (default: the canton's)"),
+    goal: str | None = typer.Option(None, "--goal", help="Free text, e.g. 'build 12 apartments'"),
+    depth: str = typer.Option("quick", "--depth", help="quick = layer 0 only; full = + layer 1"),
+    as_json: bool = typer.Option(False, "--json", help="Print the AuditResult as JSON instead"),
+) -> None:
+    """Run the whole deterministic pipeline and print layer 0 (and layer 1 with --depth full)."""
+    from topoli.core.pipeline import build_result
+    from topoli.core.reporting.assemble import assemble
+    from topoli.core.reporting.layer0 import render_layer0
+    from topoli.countries.ch.federal.geocode import ResolveError
+
+    try:
+        result, _ = build_result(address, lang=lang, goal=goal)  # type: ignore[arg-type]
+    except ResolveError as exc:
+        console.print(f"[red]Could not resolve:[/red] {exc}")
+        raise typer.Exit(code=2) from exc
+    if as_json:
+        print(result.model_dump_json(by_alias=True, indent=1))
+        return
+    oereb = result.coverage_for("ch/federal/oereb")
+    layer0 = render_layer0(
+        result.site,
+        result.findings,
+        result.lang,
+        goal=goal,
+        regulations=result.regulations,
+        oereb_available=bool(oereb and oereb.status == "ok"),
+    )
+    print(layer0.text)
+    if depth == "full":
+        layer1 = assemble(result, result.lang, layer0.findings)
+        for s in layer1.sections:
+            console.rule(f"{s.number}. {s.title}")
+            if not s.available:
+                console.print(f"[dim]{s.stub}[/dim]")
+                for c in s.coverage:
+                    console.print(f"[dim]  {c.adapter_id}: {c.status} {c.detail or ''}[/dim]")
+                continue
+            for k, v in s.facts:
+                console.print(f"  {k}: {v}")
+            for line in s.text:
+                console.print(f"  {line}")
+            for f in s.findings:
+                console.print(f"  [{f.cls}] {f.title.get(result.lang)}")
+                console.print(f"      {f.consequence.get(result.lang)}")
+                console.print(f"      [dim]{f.caveat.get(result.lang)}[/dim]")
+            if s.number == 18:
+                for row in layer1.sources:
+                    console.print(
+                        f"  {row.dataset} · {row.authority} · {row.retrieved_at} · {row.url[:80]}"
+                    )
+    console.print(_calls_line())
+
+
+@app.command()
 def coverage(
     write: bool = typer.Option(False, "--write", help="Also write coverage.json at the repo root"),
 ) -> None:
