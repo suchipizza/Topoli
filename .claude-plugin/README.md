@@ -1,0 +1,1 @@
+Plugin manifest for the marketplace route (`/plugin marketplace add suchipizza/Topoli`, `/plugin install topoli@topoli`). The recommended install is the one-line installer in the README, which yields the un-namespaced `/property-audit` command. See `docs/decisions/011-skill-install-paths.md`.

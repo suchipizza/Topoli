@@ -85,7 +85,7 @@ ignore = ["PLR0913", "PLR2004", "T201", "RUF001", "RUF002", "RUF003"]
 "topoli/countries/ch/federal/licences.py" = ["E501"]
 "topoli/countries/ch/zh/licences.py" = ["E501"]
 "topoli/countries/ch/zh/regulation/generate.py" = ["PLC0415"]
-"skills/**/scripts/**" = ["T20"]
+"skills/**/scripts/**" = ["T20", "PLC0415", "PLR0912", "PLR0915"]
 "scripts/**" = ["T20"]
 
 [tool.ruff.format]
