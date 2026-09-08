@@ -9,7 +9,8 @@
     "open_report": "▸ Ouvrir le rapport complet : {path}",
     "share": "▸ Partager : {path}",
     "run_yourself": "Essayez vous-même en 3 étapes → {url}",
-    "star": "⭐ Mettre une étoile sur GitHub → {url}"
+    "star": "⭐ Mettre une étoile sur GitHub → {url}",
+    "run_yourself_short": "Essayez vous-même en 3 étapes →"
   },
   "confidence": {
     "line": "Fiabilité : {a} · {b} · {c} · {d}",
@@ -501,5 +502,52 @@
     "signage": "enseignes",
     "antenna": "antennes",
     "other": "autres"
+  },
+  "report": {
+    "tagline": "intelligence de la construction, open source",
+    "language": "Langue",
+    "star": "⭐ Étoile sur GitHub",
+    "share": "Partager",
+    "generated": "Généré le {date} avec Topoli {version} à partir de sources publiques officielles.",
+    "findings": "Constats",
+    "source": "Source",
+    "retrieved": "Consulté",
+    "derivation": "Comment c'est calculé",
+    "evidence": "Preuve",
+    "next_step": "Prochaine étape :",
+    "map_legend": "Contour de la parcelle · bâtiments · demandes de permis à proximité",
+    "map_alt": "Carte de la parcelle {address} avec son contour, les bâtiments et les demandes de permis à proximité",
+    "full_report": "Rapport complet — 18 sections",
+    "coverage": "Ce qui a été vérifié",
+    "help_add": "Aidez-nous à ajouter votre canton →",
+    "share_title": "Partager ce check",
+    "share_note": "Ce fichier est autonome : envoyez-le tel quel. Chaque affirmation garde sa source.",
+    "dataset": "Jeu de données",
+    "authority": "Autorité",
+    "licence": "Licence",
+    "licences_note": "Données consultées à la demande auprès de sources officielles sous leurs propres licences (voir LICENCES.md) ; jamais redistribuées."
+  },
+  "share": {
+    "copy": "Copier le résumé",
+    "copied": "Copié ✓",
+    "card": "Télécharger la carte"
+  },
+  "waitlist": {
+    "title": "Que voudriez-vous ensuite ?",
+    "email": "E-mail",
+    "submit": "Rejoindre la liste d'attente",
+    "thanks": "Merci — confirmez dans votre boîte de réception.",
+    "error": "Envoi impossible. Utilisez le lien ci-dessous.",
+    "nojs": "Ouvrir plutôt la liste d'attente sur le site",
+    "vote": {
+      "monitor": "Surveiller ce bien pour tout changement",
+      "scan": "Scanner tout un secteur à la recherche d'opportunités",
+      "leads": "Trouver des chantiers comme leads pour mon entreprise",
+      "portfolio": "Analyser mon portefeuille",
+      "reports": "Rapports professionnels prêts pour les clients",
+      "api": "API / données normalisées",
+      "cad": "Export CAO/BIM",
+      "other": "Autre chose"
+    }
   }
 }

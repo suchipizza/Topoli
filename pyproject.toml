@@ -86,6 +86,7 @@ ignore = ["PLR0913", "PLR2004", "T201", "RUF001", "RUF002", "RUF003"]
 "topoli/countries/ch/zh/licences.py" = ["E501"]
 "topoli/countries/ch/zh/regulation/generate.py" = ["PLC0415"]
 "skills/**/scripts/**" = ["T20"]
+"scripts/**" = ["T20"]
 
 [tool.ruff.format]
 quote-style = "double"
@@ -93,7 +94,7 @@ quote-style = "double"
 [tool.mypy]
 strict = true
 warn_unreachable = true
-files = ["topoli", "tests", "skills"]
+files = ["topoli", "tests", "skills", "scripts"]
 exclude = ["^examples/", "^tests/fixtures/"]
 
 [tool.pytest.ini_options]

@@ -267,12 +267,13 @@ def review_export(
 
 
 @app.command()
-def audit(
+def audit(  # noqa: PLR0917
     address: str = typer.Argument(..., help="Address, 'Parcel <municipality> <no>' or 'lat,lon'"),
     lang: str | None = typer.Option(None, "--lang", help="fr|de|it|en (default: the canton's)"),
     goal: str | None = typer.Option(None, "--goal", help="Free text, e.g. 'build 12 apartments'"),
     depth: str = typer.Option("quick", "--depth", help="quick = layer 0 only; full = + layer 1"),
     as_json: bool = typer.Option(False, "--json", help="Print the AuditResult as JSON instead"),
+    no_report: bool = typer.Option(False, "--no-report", help="Skip writing ./reports/<id>/"),
 ) -> None:
     """Run the whole deterministic pipeline and print layer 0 (and layer 1 with --depth full)."""
     from topoli.core.pipeline import build_result
@@ -281,7 +282,7 @@ def audit(
     from topoli.countries.ch.federal.geocode import ResolveError
 
     try:
-        result, _ = build_result(address, lang=lang, goal=goal)  # type: ignore[arg-type]
+        result, run = build_result(address, lang=lang, goal=goal)  # type: ignore[arg-type]
     except ResolveError as exc:
         console.print(f"[red]Could not resolve:[/red] {exc}")
         raise typer.Exit(code=2) from exc
@@ -298,6 +299,13 @@ def audit(
         oereb_available=bool(oereb and oereb.status == "ok"),
     )
     print(layer0.text)
+    if not no_report:
+        from topoli.core.reporting.evidence_json import write_evidence
+        from topoli.core.reporting.html import render_html
+
+        out_dir = write_evidence(result, run.records)
+        html_path, _ = render_html(result, out_dir, lang=result.lang, goal=goal, fetch_tiles=True)
+        console.print(f"[dim]report: {html_path} · evidence: {out_dir / 'evidence.json'}[/dim]")
     if depth == "full":
         layer1 = assemble(result, result.lang, layer0.findings)
         for s in layer1.sections:
@@ -321,6 +329,22 @@ def audit(
                         f"  {row.dataset} · {row.authority} · {row.retrieved_at} · {row.url[:80]}"
                     )
     console.print(_calls_line())
+
+
+@app.command()
+def render(
+    evidence: Path = typer.Argument(..., help="Path to evidence.json or its report folder"),  # noqa: B008
+    lang: str | None = typer.Option(None, "--lang", help="fr|de|it|en (default: as audited)"),
+    tiles: bool = typer.Option(False, "--tiles", help="Fetch swisstopo tiles for the static map"),
+) -> None:
+    """Re-render index.html offline from an existing evidence.json."""
+    from topoli.core.reporting.evidence_json import load_evidence
+    from topoli.core.reporting.html import render_html
+
+    result = load_evidence(evidence)
+    out_dir = evidence if evidence.is_dir() else evidence.parent
+    path, _ = render_html(result, out_dir, lang=lang, fetch_tiles=tiles)  # type: ignore[arg-type]
+    console.print(f"wrote {path}")
 
 
 @app.command()

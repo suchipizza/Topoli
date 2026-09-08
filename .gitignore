@@ -26,3 +26,4 @@ tests/source-contracts/last_run.json
 .env
 .env.*
 tests/review/*.csv
+ci-reports/

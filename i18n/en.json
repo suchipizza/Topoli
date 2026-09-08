@@ -9,7 +9,8 @@
     "open_report": "▸ Open full report: {path}",
     "share": "▸ Share: {path}",
     "run_yourself": "Run this yourself in 3 steps → {url}",
-    "star": "⭐ Star on GitHub → {url}"
+    "star": "⭐ Star on GitHub → {url}",
+    "run_yourself_short": "Run it yourself in 3 steps →"
   },
   "confidence": {
     "line": "Confidence: {a} · {b} · {c} · {d}",
@@ -501,5 +502,52 @@
     "signage": "signage",
     "antenna": "antennas",
     "other": "other"
+  },
+  "report": {
+    "tagline": "open-source construction intelligence",
+    "language": "Language",
+    "star": "⭐ Star on GitHub",
+    "share": "Share",
+    "generated": "Generated on {date} with Topoli {version} from official public sources.",
+    "findings": "Findings",
+    "source": "Source",
+    "retrieved": "Retrieved",
+    "derivation": "How it was derived",
+    "evidence": "Evidence",
+    "next_step": "Next step:",
+    "map_legend": "Parcel outline · buildings · nearby building applications",
+    "map_alt": "Map of the parcel at {address} with its outline, buildings and nearby building applications",
+    "full_report": "Full report — 18 sections",
+    "coverage": "What was checked",
+    "help_add": "Help add your canton →",
+    "share_title": "Share this check",
+    "share_note": "This file is self-contained: send it as it is. Every claim keeps its source.",
+    "dataset": "Dataset",
+    "authority": "Authority",
+    "licence": "Licence",
+    "licences_note": "Data fetched on demand from official sources under their own licences (see LICENCES.md); never redistributed."
+  },
+  "share": {
+    "copy": "Copy the summary",
+    "copied": "Copied ✓",
+    "card": "Download the card"
+  },
+  "waitlist": {
+    "title": "What would you want next?",
+    "email": "Email",
+    "submit": "Join the waitlist",
+    "thanks": "Thanks — check your inbox to confirm.",
+    "error": "Could not send. Use the link below.",
+    "nojs": "Open the waitlist on the website instead",
+    "vote": {
+      "monitor": "Monitor this property for changes",
+      "scan": "Scan a whole area for opportunities",
+      "leads": "Find construction leads for my company",
+      "portfolio": "Analyse my portfolio",
+      "reports": "Professional, client-ready reports",
+      "api": "API / normalized data",
+      "cad": "CAD/BIM export",
+      "other": "Something else"
+    }
   }
 }
