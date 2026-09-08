@@ -1,40 +1,31 @@
-"""Adapter registry: id → how to run it for a site.
+"""Adapter registry: id → adapter instance (+ how to run it).
 
-Every adapter registers a runner that takes the resolved ``Site`` (and, when it exists, the
-``Parcel``) and returns the raw records it fetched. The fixture recorder and the pipeline
-use this table; nothing else should hard-code adapter ids.
+Every adapter package registers its adapters on import. The fixture recorder, the pipeline and
+the coverage table use this registry; nothing else hard-codes adapter ids.
 """
 
 from __future__ import annotations
 
-from collections.abc import Callable
-from datetime import timedelta
+from typing import Literal
 
-from topoli.core.adapters.base import Record
-from topoli.core.domain import Parcel, Site
+from topoli.core.adapters.base import Adapter
 
-Runner = Callable[[Site, Parcel | None], list[Record]]
+Tier = Literal["spine", "federal", "cantonal", "events"]
 
 
 class AdapterSpec:
-    def __init__(self, adapter_id: str, runner: Runner, ttl: timedelta, needs_parcel: bool) -> None:
-        self.id = adapter_id
-        self.runner = runner
-        self.ttl = ttl
+    def __init__(self, adapter: Adapter, tier: Tier, needs_parcel: bool) -> None:
+        self.adapter = adapter
+        self.id = adapter.id
+        self.tier = tier
         self.needs_parcel = needs_parcel
 
 
 _REGISTRY: dict[str, AdapterSpec] = {}
 
 
-def register(
-    adapter_id: str,
-    runner: Runner,
-    *,
-    ttl: timedelta = timedelta(days=30),
-    needs_parcel: bool = True,
-) -> None:
-    _REGISTRY[adapter_id] = AdapterSpec(adapter_id, runner, ttl, needs_parcel)
+def register(adapter: Adapter, *, tier: Tier, needs_parcel: bool = True) -> None:
+    _REGISTRY[adapter.id] = AdapterSpec(adapter, tier, needs_parcel)
 
 
 def get(adapter_id: str) -> AdapterSpec:
@@ -46,9 +37,13 @@ def get(adapter_id: str) -> AdapterSpec:
         raise KeyError(msg) from exc
 
 
-def all_ids() -> list[str]:
+def all_specs(tier: Tier | None = None) -> list[AdapterSpec]:
     _ensure_loaded()
-    return sorted(_REGISTRY)
+    return [s for s in _REGISTRY.values() if tier is None or s.tier == tier]
+
+
+def all_ids() -> list[str]:
+    return [s.id for s in all_specs()]
 
 
 def _ensure_loaded() -> None:

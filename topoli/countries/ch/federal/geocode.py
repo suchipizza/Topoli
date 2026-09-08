@@ -19,8 +19,8 @@ import re
 from datetime import UTC, datetime, timedelta
 from typing import Any
 
-from topoli.core.adapters import HealthStatus, Record
-from topoli.core.domain import Coordinates, Finding, Jurisdiction, Lang, Site, Source
+from topoli.core.adapters import HealthStatus, Record, SiteContext
+from topoli.core.domain import Coordinates, Finding, Jurisdiction, Site, Source
 from topoli.core.geospatial import lv95_to_wgs84, wgs84_to_lv95
 from topoli.core.i18n import canton_lang
 from topoli.countries.ch.federal import geoadmin
@@ -46,10 +46,11 @@ class GeocodeAdapter:
     licence = SWISSTOPO_SEARCH
     ttl = timedelta(days=30)
 
-    def fetch(self, site: Site) -> list[Record]:  # pragma: no cover - resolver is called directly
-        return []
+    def fetch(self, ctx: SiteContext) -> list[Record]:
+        _, records = resolve_address(ctx.site.input_address)
+        return records
 
-    def to_findings(self, records: list[Record], site: Site, lang: Lang) -> list[Finding]:
+    def to_findings(self, records: list[Record], ctx: SiteContext) -> list[Finding]:
         return []
 
     def health(self) -> HealthStatus:

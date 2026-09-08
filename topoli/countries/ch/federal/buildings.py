@@ -21,8 +21,8 @@ from __future__ import annotations
 from datetime import UTC, datetime, timedelta
 from typing import Any
 
-from topoli.core.adapters import HealthStatus, Record
-from topoli.core.domain import Building, Finding, Jurisdiction, Lang, Parcel, Site, Source
+from topoli.core.adapters import HealthStatus, Record, SiteContext
+from topoli.core.domain import Building, Finding, Jurisdiction, Parcel, Source
 from topoli.core.geospatial import contains_point, lv95_to_wgs84, simplify_for_url, to_esri_rings
 from topoli.countries.ch.federal import geoadmin
 from topoli.countries.ch.federal.gwr_codes import GBAUP, GENH, GKAT, GKLAS, GSTAT, GWAERZH, label
@@ -38,12 +38,13 @@ class BuildingsAdapter:
     licence = BFS_GWR
     ttl = timedelta(days=30)
 
-    def fetch(
-        self, site: Site
-    ) -> list[Record]:  # pragma: no cover - needs the parcel; see get_buildings
-        return []
+    def fetch(self, ctx: SiteContext) -> list[Record]:
+        if ctx.parcel is None:
+            return []
+        _, records = get_buildings(ctx.parcel)
+        return records
 
-    def to_findings(self, records: list[Record], site: Site, lang: Lang) -> list[Finding]:
+    def to_findings(self, records: list[Record], ctx: SiteContext) -> list[Finding]:
         return []
 
     def health(self) -> HealthStatus:

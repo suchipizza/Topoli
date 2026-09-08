@@ -12,7 +12,15 @@ from typing import Any, Protocol, runtime_checkable
 
 from pydantic import Field
 
-from topoli.core.domain import Finding, Jurisdiction, Lang, Licence, Site, StrictModel
+from topoli.core.domain import (
+    Building,
+    Finding,
+    Jurisdiction,
+    Licence,
+    Parcel,
+    Site,
+    StrictModel,
+)
 
 
 class Record(StrictModel):
@@ -31,6 +39,18 @@ class Record(StrictModel):
     )
 
 
+class SiteContext(StrictModel):
+    """What the spine resolved before layer adapters run (PRD §3.2 steps 1–3)."""
+
+    site: Site
+    parcel: Parcel | None = None
+    buildings: list[Building] = Field(default_factory=list)
+
+    @property
+    def parcel_geometry(self) -> dict[str, Any] | None:
+        return self.parcel.geometry_lv95 if self.parcel else None
+
+
 class HealthStatus(StrictModel):
     adapter_id: str
     ok: bool
@@ -40,15 +60,18 @@ class HealthStatus(StrictModel):
 
 @runtime_checkable
 class Adapter(Protocol):
-    """See PRD §4.3. ``ttl`` is the cache lifetime for this adapter's records (WO-04)."""
+    """See PRD §4.3 (``fetch``/``to_findings`` take a ``SiteContext`` = site + parcel +
+    buildings, because every layer adapter needs the parcel outline; see decision 004).
+    ``to_findings`` returns findings localized in all four languages; the caller picks
+    the output language. ``ttl`` is the cache lifetime for this adapter's records."""
 
     id: str
     jurisdiction: Jurisdiction
     licence: Licence
     ttl: timedelta
 
-    def fetch(self, site: Site) -> list[Record]: ...
+    def fetch(self, ctx: SiteContext) -> list[Record]: ...
 
-    def to_findings(self, records: list[Record], site: Site, lang: Lang) -> list[Finding]: ...
+    def to_findings(self, records: list[Record], ctx: SiteContext) -> list[Finding]: ...
 
     def health(self) -> HealthStatus: ...

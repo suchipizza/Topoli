@@ -1,0 +1,109 @@
+{
+ "adapter_id": "ch/federal/geocode",
+ "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2600423.25%2C1199521.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2599923.25%2C1199021.125%2C2600923.25%2C1200021.125&imageDisplay=1000%2C1000%2C96",
+ "retrieved_at": "2026-09-08T09:52:12.596509Z",
+ "payload": {
+  "results": [
+   {
+    "layerBodId": "ch.bfs.gebaeude_wohnungs_register",
+    "layerName": "GWR: Gebäudestatus",
+    "featureId": "2242547_0",
+    "id": "2242547_0",
+    "properties": {
+     "egid": "2242547",
+     "strname_deinr": "Bundesplatz 3",
+     "plz_plz6": "3011/301100",
+     "ggdename": "Bern",
+     "ggdenr": 351,
+     "gexpdat": "06.09.2026",
+     "gdekt": "BE",
+     "egrid": "CH294676423526",
+     "lgbkr": 1,
+     "lparz": "823",
+     "lparzsx": null,
+     "ltyp": null,
+     "gebnr": "",
+     "gbez": "Parlamentsgebäude",
+     "gkode": 2600426.92,
+     "gkodn": 1199490.255,
+     "gksce": 901,
+     "gstat": 1004,
+     "gkat": 1060,
+     "gklas": null,
+     "gbauj": null,
+     "gbaum": null,
+     "gbaup": null,
+     "gabbj": null,
+     "garea": 3697,
+     "gvol": null,
+     "gvolnorm": null,
+     "gvolsce": null,
+     "gastw": null,
+     "ganzwhg": null,
+     "gazzi": null,
+     "gschutzr": null,
+     "gebf": null,
+     "gwaerzh1": 7460,
+     "genh1": 7580,
+     "gwaersceh1": 870,
+     "gwaerdath1": "10.12.2024",
+     "gwaerzh2": null,
+     "genh2": null,
+     "gwaersceh2": null,
+     "gwaerdath2": "-",
+     "gwaerzw1": 7660,
+     "genw1": 7580,
+     "gwaerscew1": 870,
+     "gwaerdatw1": "10.12.2024",
+     "gwaerzw2": 7600,
+     "genw2": 7500,
+     "gwaerscew2": 869,
+     "gwaerdatw2": "29.11.2001",
+     "edid": "0",
+     "egaid": 101002312,
+     "deinr": "3",
+     "esid": 10057890,
+     "strname": [
+      "Bundesplatz"
+     ],
+     "strnamk": [
+      "Bundesplatz"
+     ],
+     "strindx": [
+      "Bun"
+     ],
+     "strsp": [
+      "DE"
+     ],
+     "stroffiziel": "1",
+     "dplz4": 3011,
+     "dplzz": 0,
+     "dplzname": "Bern",
+     "dkode": 2600423.257,
+     "dkodn": 1199521.109,
+     "doffadr": 1,
+     "dexpdat": "06.09.2026",
+     "ewid": null,
+     "whgnr": null,
+     "wstwk": null,
+     "wmehrg": null,
+     "weinr": null,
+     "wbez": null,
+     "wstat": null,
+     "wexpdat": null,
+     "wbauj": null,
+     "wabbj": null,
+     "warea": null,
+     "wazim": null,
+     "wkche": null,
+     "label": "Bundesplatz 3"
+    }
+   }
+  ]
+ },
+ "request": {
+  "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2600423.25%2C1199521.125&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2599923.25%2C1199021.125%2C2600923.25%2C1200021.125&imageDisplay=1000%2C1000%2C96"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

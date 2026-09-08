@@ -118,5 +118,183 @@
     "m2": "m²",
     "m": "m",
     "floors": "floors"
+  },
+  "finding": {
+    "hazard": {
+      "flood": {
+        "none": {
+          "title": "Flood risk: none identified in the federal flood maps.",
+          "consequence": "No flood-related constraint on building from the federal maps.",
+          "caveat": "Federal Aquaprotect maps only; the cantonal hazard map may differ and is the one that counts for permits."
+        },
+        "low": {
+          "title": "Flood risk: low — only a very rare flood (1 in 500 years) would reach {pct} of the plot.",
+          "consequence": "Usually no constraint, but insurers and the canton may ask for precautions.",
+          "caveat": "Federal Aquaprotect map; check the cantonal hazard map before planning."
+        },
+        "medium": {
+          "title": "Flood risk: yes — a 1-in-100-year flood could reach {pct} of the plot.",
+          "consequence": "Basements, ground floors and technical rooms may need flood protection; the canton can impose conditions.",
+          "caveat": "Federal Aquaprotect map; the cantonal hazard map and its danger levels are decisive."
+        }
+      },
+      "runoff": {
+        "none": {
+          "title": "Heavy-rain runoff: no exposure marked for this plot.",
+          "consequence": "No special measures indicated for surface water from heavy rain.",
+          "caveat": "Federal surface-runoff map, modelled; local drainage can still cause problems."
+        },
+        "low": {
+          "title": "Heavy-rain runoff: {pct} of the plot can be reached by surface water during heavy rain.",
+          "consequence": "Entrances, light wells and garage ramps may need protection against water from the street or slope.",
+          "caveat": "Federal surface-runoff map, modelled from terrain; not a legal hazard zone."
+        }
+      },
+      "gravitational": {
+        "none": {
+          "title": "Rockfall, avalanche and landslide: no process area marked here.",
+          "consequence": "No mountain-hazard constraint indicated by the federal models.",
+          "caveat": "Federal SilvaProtect-CH model; the cantonal hazard map is decisive."
+        },
+        "low": {
+          "title": "Rockfall, avalanche or landslide: a federal model marks {pct} of the plot as a possible process area.",
+          "consequence": "The canton may require a hazard assessment or protective measures before building.",
+          "caveat": "Federal SilvaProtect-CH model (not a legal hazard zone); the cantonal hazard map is decisive."
+        }
+      }
+    },
+    "noise": {
+      "road": {
+        "low": {
+          "title": "Road noise: low (about {day} dB by day, {night} dB at night).",
+          "consequence": "Road noise should not limit how homes can be laid out.",
+          "caveat": "Federal noise model at one point of the plot; the legal limit depends on the zone's noise sensitivity level."
+        },
+        "medium": {
+          "title": "Road noise: moderate (about {day} dB by day, {night} dB at night).",
+          "consequence": "Bedrooms and living rooms may have to face away from the road or use sound-insulating windows.",
+          "caveat": "Federal noise model at one point of the plot; the legal limit depends on the zone's noise sensitivity level."
+        },
+        "high": {
+          "title": "Road noise: high (about {day} dB by day, {night} dB at night).",
+          "consequence": "New homes usually need a noise concept: rooms facing away from the road, special windows or ventilation.",
+          "caveat": "Federal noise model at one point of the plot; the legal limit depends on the zone's noise sensitivity level."
+        }
+      },
+      "rail": {
+        "low": {
+          "title": "Railway noise: low (about {day} dB by day, {night} dB at night).",
+          "consequence": "Railway noise should not limit how homes can be laid out.",
+          "caveat": "Federal railway noise model at one point of the plot."
+        },
+        "medium": {
+          "title": "Railway noise: moderate (about {day} dB by day, {night} dB at night).",
+          "consequence": "Bedrooms may have to face away from the tracks or use sound-insulating windows.",
+          "caveat": "Federal railway noise model at one point of the plot."
+        },
+        "high": {
+          "title": "Railway noise: high (about {day} dB by day, {night} dB at night).",
+          "consequence": "New homes usually need a noise concept: rooms facing away from the tracks, special windows or ventilation.",
+          "caveat": "Federal railway noise model at one point of the plot."
+        }
+      }
+    },
+    "contamination": {
+      "none": {
+        "title": "Polluted sites: no entry in the federal registers for this plot.",
+        "consequence": "No federal record of contamination from railways, airfields or the military.",
+        "caveat": "Most polluted sites are in the cantonal register, which is shown under official restrictions where the canton publishes it."
+      },
+      "hit": {
+        "title": "Polluted site: this plot is in a federal register ({name}, {status}).",
+        "consequence": "Building or digging here may require investigation or remediation at your cost.",
+        "caveat": "As published by the federal authority; ask the cantonal environment office for the file."
+      }
+    },
+    "oereb": {
+      "theme": {
+        "title": "Official restriction: {theme} — {legend} ({pct} of the plot).",
+        "consequence": "Set by {office}; status: {status}. It binds what you may build here.",
+        "caveat": "Taken from the official cadastre of public-law restrictions; read the linked legal provisions before deciding."
+      },
+      "none": {
+        "title": "Official restrictions: the cadastre lists none for this plot ({area} m²).",
+        "consequence": "General zoning rules still apply.",
+        "caveat": "Only themes published in the cadastre are covered; not all restrictions are in it yet."
+      }
+    },
+    "solar": {
+      "none": {
+        "title": "Solar: no roof data available for this plot.",
+        "consequence": "Nothing can be said about solar potential from federal data.",
+        "caveat": "The federal roof dataset covers most but not all buildings."
+      },
+      "poor": {
+        "title": "Solar: the roofs here are poorly suited for solar panels.",
+        "consequence": "Panels would produce little; a facade or shared installation may be the better option.",
+        "caveat": "Federal roof model (Sonnendach); shading by trees or new buildings is not fully captured."
+      },
+      "medium": {
+        "title": "Solar: the best roof is moderately suited for solar panels ({area} m² usable, about {yield_mwh} MWh a year).",
+        "consequence": "Panels are possible; the yield is average for Switzerland.",
+        "caveat": "Federal roof model (Sonnendach); shading and roof condition are not fully captured."
+      },
+      "good": {
+        "title": "Solar: the roofs are well suited for solar panels ({area} m² usable, about {yield_mwh} MWh a year).",
+        "consequence": "A solar installation is likely worthwhile; many cantons subsidise it.",
+        "caveat": "Federal roof model (Sonnendach); shading and roof condition are not fully captured."
+      },
+      "very_good": {
+        "title": "Solar: the roofs are very well suited for solar panels ({area} m² usable, about {yield_mwh} MWh a year).",
+        "consequence": "A solar installation is likely worthwhile; many cantons subsidise it.",
+        "caveat": "Federal roof model (Sonnendach); shading and roof condition are not fully captured."
+      },
+      "excellent": {
+        "title": "Solar: the roofs are excellently suited for solar panels ({area} m² usable, about {yield_mwh} MWh a year).",
+        "consequence": "A solar installation is likely worthwhile; many cantons subsidise it.",
+        "caveat": "Federal roof model (Sonnendach); shading and roof condition are not fully captured."
+      }
+    },
+    "heritage": {
+      "kgs": {
+        "title": "Heritage: {name} is a listed cultural property of national or regional importance (category {category}).",
+        "consequence": "Demolition or major changes need the heritage authority's approval.",
+        "caveat": "Federal inventory (KGS); cantonal and municipal inventories may list more."
+      },
+      "unesco": {
+        "title": "Heritage: this plot lies in the UNESCO World Heritage site {name}.",
+        "consequence": "Changes to buildings and the townscape are strictly controlled.",
+        "caveat": "Federal perimeter; the cantonal and municipal rules apply."
+      },
+      "none": {
+        "title": "Heritage: no federal listing found for this plot.",
+        "consequence": "No constraint from the federal heritage inventories.",
+        "caveat": "The federal townscape inventory and cantonal/municipal inventories are not queryable here yet; check them locally."
+      }
+    },
+    "terrain": {
+      "flat": {
+        "title": "Terrain: flat — the plot rises about {slope_pct}% ({min}–{max} m above sea level).",
+        "consequence": "No extra cost or constraint from the slope.",
+        "caveat": "Estimated from the national elevation model along the plot's diagonals."
+      },
+      "sloped": {
+        "title": "Terrain: sloped — the plot rises about {slope_pct}% ({min}–{max} m above sea level).",
+        "consequence": "Access, foundations and drainage need more planning; retaining walls may be needed.",
+        "caveat": "Estimated from the national elevation model along the plot's diagonals."
+      },
+      "steep": {
+        "title": "Terrain: steep — the plot rises about {slope_pct}% ({min}–{max} m above sea level).",
+        "consequence": "Building is more expensive here; a geotechnical assessment is usually required.",
+        "caveat": "Estimated from the national elevation model along the plot's diagonals."
+      }
+    },
+    "unknown": {
+      "source": {
+        "title": "{what}: not available for {where} yet.",
+        "consequence": "This check could not be made ({reason}). Help add it →",
+        "caveat": "No data means no statement, not 'no risk'."
+      }
+    }
   }
 }

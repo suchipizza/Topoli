@@ -17,8 +17,8 @@ from __future__ import annotations
 from datetime import UTC, datetime, timedelta
 from typing import Any
 
-from topoli.core.adapters import HealthStatus, Record
-from topoli.core.domain import Finding, Jurisdiction, Lang, Parcel, Site, Source
+from topoli.core.adapters import HealthStatus, Record, SiteContext
+from topoli.core.domain import Finding, Jurisdiction, Parcel, Site, Source
 from topoli.core.geospatial import (
     area_m2,
     contains_point,
@@ -42,11 +42,11 @@ class ParcelAdapter:
     licence = SWISSTOPO_AV
     ttl = timedelta(days=30)
 
-    def fetch(self, site: Site) -> list[Record]:
-        _, records = get_parcel(site)
+    def fetch(self, ctx: SiteContext) -> list[Record]:
+        _, records = get_parcel(ctx.site)
         return records
 
-    def to_findings(self, records: list[Record], site: Site, lang: Lang) -> list[Finding]:
+    def to_findings(self, records: list[Record], ctx: SiteContext) -> list[Finding]:
         return []  # parcel facts are rendered in layer-1 section 3, not as layer-0 findings
 
     def health(self) -> HealthStatus:

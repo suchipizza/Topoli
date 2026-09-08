@@ -14,7 +14,7 @@ from __future__ import annotations
 
 import logging
 import time
-from collections.abc import Mapping
+from collections.abc import Callable, Mapping
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
 from typing import Any
@@ -83,6 +83,17 @@ class HttpClient:
         ttl: timedelta = cache.DEFAULT_TTL,
     ) -> Record:
         """GET ``url`` (cache first) and return a ``Record`` with URL and retrieval time."""
+        return self._get(adapter_id, url, params, ttl=ttl, parse=None)
+
+    def _get(
+        self,
+        adapter_id: str,
+        url: str,
+        params: Mapping[str, Any] | None,
+        *,
+        ttl: timedelta,
+        parse: Callable[[bytes], Any] | None,
+    ) -> Record:
         canonical = cache.canonical_url(url, dict(params or {}))
         cached = cache.read(adapter_id, canonical, self.cache_root) if self.use_cache else None
         if cached is not None and cache.is_fresh(cached, ttl):
@@ -97,7 +108,7 @@ class HttpClient:
             raise OfflineError(msg)
 
         try:
-            fresh = self._fetch(adapter_id, canonical)
+            fresh = self._fetch(adapter_id, canonical, parse)
         except (httpx.HTTPError, BudgetExceededError) as exc:
             if cached is not None:
                 return self._serve_stale(cached, f"{type(exc).__name__}: {exc}")
@@ -106,6 +117,18 @@ class HttpClient:
             cache.write(fresh, self.cache_root)
         self._record(fresh)
         return fresh
+
+    def get_bytes(
+        self,
+        adapter_id: str,
+        url: str,
+        params: Mapping[str, Any] | None = None,
+        *,
+        wrap: Callable[[bytes], Any],
+        ttl: timedelta = cache.DEFAULT_TTL,
+    ) -> Record:
+        """Like :meth:`get_json` for binary responses; ``wrap`` turns the bytes into JSON."""
+        return self._get(adapter_id, url, params, ttl=ttl, parse=wrap)
 
     # -- internals ----------------------------------------------------------------------------
 
@@ -133,7 +156,9 @@ class HttpClient:
                 time.sleep(wait)
         self._last_request_at[host] = time.monotonic()
 
-    def _fetch(self, adapter_id: str, canonical: str) -> Record:
+    def _fetch(
+        self, adapter_id: str, canonical: str, parse: Callable[[bytes], Any] | None
+    ) -> Record:
         if self.calls >= self.budget:
             msg = f"call budget of {self.budget} exhausted (adapter {adapter_id})"
             raise BudgetExceededError(msg)
@@ -149,11 +174,12 @@ class HttpClient:
             else:
                 if response.status_code not in _RETRY_STATUS:
                     response.raise_for_status()
+                    payload = parse(response.content) if parse else _json_or_error(response)
                     return Record(
                         adapter_id=adapter_id,
                         url=canonical,
                         retrieved_at=datetime.now(tz=UTC),
-                        payload=response.json(),
+                        payload=payload,
                         request={"url": canonical},
                     )
                 last_exc = httpx.HTTPStatusError(
@@ -167,6 +193,15 @@ class HttpClient:
             time.sleep(delay)
         assert last_exc is not None
         raise last_exc
+
+
+def _json_or_error(response: httpx.Response) -> Any:
+    """Parse JSON; a non-JSON 200 (WMS service exception XML) is an HTTP error for us."""
+    try:
+        return response.json()
+    except ValueError as exc:
+        msg = f"non-JSON response from {response.url}: {response.text[:120]!r}"
+        raise httpx.HTTPStatusError(msg, request=response.request, response=response) from exc
 
 
 _client: HttpClient | None = None

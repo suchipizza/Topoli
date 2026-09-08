@@ -1,0 +1,13 @@
+{
+ "adapter_id": "ch/federal/hazards",
+ "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.aquaprotect_500&STYLES=&CRS=EPSG%3A2056&BBOX=2717085.4%2C1095729.3%2C2717119.6%2C1095770.2&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+ "retrieved_at": "2026-09-08T09:52:21.775692Z",
+ "payload": {
+  "png_base64": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAgElEQVR4nO3PoQ2AMABE0SpGYH/NBiRgmYAdEJXoJtAlaMK9b87eK0WSJOlnrdc977Uty3lOo798XsdvtR19R3/5PHh4+Kzg4eGzgoeHzwoeHj4reHj4rODh4bOCh4fPCh4ePit4ePis4OHhs4KHh88KHh4+K3h4+Kyi8b1o/NsDUgvmG+pyVA8AAAAASUVORK5CYII="
+ },
+ "request": {
+  "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.aquaprotect_500&STYLES=&CRS=EPSG%3A2056&BBOX=2717085.4%2C1095729.3%2C2717119.6%2C1095770.2&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

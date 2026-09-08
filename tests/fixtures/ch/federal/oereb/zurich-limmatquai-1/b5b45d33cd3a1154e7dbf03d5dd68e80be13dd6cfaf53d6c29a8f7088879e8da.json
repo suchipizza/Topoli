@@ -1,0 +1,3306 @@
+{
+ "adapter_id": "ch/federal/oereb",
+ "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH819189997789&LANG=de",
+ "retrieved_at": "2026-09-08T09:52:32.279375Z",
+ "payload": {
+  "GetExtractByIdResponse": {
+   "Extract": {
+    "CreationDate": "2026-09-08T11:52:32",
+    "ConcernedTheme": [
+     {
+      "code": "ch.Nutzungsplanung",
+      "SubCode": "ch.ZH.NutzungsplanungGrundnutzung",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Nutzungsplanung (kantonal/kommunal): Grundnutzungen"
+       }
+      ]
+     },
+     {
+      "code": "ch.Nutzungsplanung",
+      "SubCode": "ch.ZH.NutzungsplaninhalteUeberlagernd",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Nutzungsplanung (kantonal/kommunal): überlagernde Nutzungen"
+       }
+      ]
+     },
+     {
+      "code": "ch.Nutzungsplanungproj",
+      "SubCode": "ch.ZH.NutzungsplaninhalteUeberlagernd",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Nutzungsplanung (kantonal/kommunal): überlagernde Nutzungen"
+       }
+      ]
+     },
+     {
+      "code": "ch.ZH.Baulinien",
+      "SubCode": "ch.ZH.Baulinien",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Baulinien (kantonal/kommunal)"
+       }
+      ]
+     },
+     {
+      "code": "ch.Laermempfindlichkeitsstufen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Lärmempfindlichkeitsstufen (in Nutzungszonen)"
+       }
+      ]
+     }
+    ],
+    "NotConcernedTheme": [
+     {
+      "code": "ch.Planungszonen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Planungszonen"
+       }
+      ]
+     },
+     {
+      "code": "ch.Gewaesserabstandslinien",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Gewässerabstandslinien"
+       }
+      ]
+     },
+     {
+      "code": "ch.ProjektierungszonenNationalstrassen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Projektierungszonen Nationalstrassen"
+       }
+      ]
+     },
+     {
+      "code": "ch.BaulinienNationalstrassen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Baulinien Nationalstrassen"
+       }
+      ]
+     },
+     {
+      "code": "ch.ProjektierungszonenEisenbahnanlagen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Projektierungszonen Eisenbahnanlagen"
+       }
+      ]
+     },
+     {
+      "code": "ch.BaulinienEisenbahnanlagen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Baulinien Eisenbahnanlagen"
+       }
+      ]
+     },
+     {
+      "code": "ch.ProjektierungszonenFlughafenanlagen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Projektierungszonen Flughafenanlagen"
+       }
+      ]
+     },
+     {
+      "code": "ch.BaulinienFlughafenanlagen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Baulinien Flughafenanlagen"
+       }
+      ]
+     },
+     {
+      "code": "ch.Sicherheitszonenplan",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Sicherheitszonenplan"
+       }
+      ]
+     },
+     {
+      "code": "ch.BelasteteStandorte",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Kataster der belasteten Standorte"
+       }
+      ]
+     },
+     {
+      "code": "ch.BelasteteStandorteMilitaer",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Kataster der belasteten Standorte im Bereich des Militärs"
+       }
+      ]
+     },
+     {
+      "code": "ch.BelasteteStandorteZivileFlugplaetze",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Kataster der belasteten Standorte im Bereich der zivilen Flugplätze"
+       }
+      ]
+     },
+     {
+      "code": "ch.BelasteteStandorteOeffentlicherVerkehr",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Kataster der belasteten Standorte im Bereich des öffentlichen Verkehrs"
+       }
+      ]
+     },
+     {
+      "code": "ch.Grundwasserschutzzonen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Grundwasserschutzzonen"
+       }
+      ]
+     },
+     {
+      "code": "ch.Grundwasserschutzareale",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Grundwasserschutzareale"
+       }
+      ]
+     },
+     {
+      "code": "ch.Gewaesserraum",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Gewässerraum"
+       }
+      ]
+     },
+     {
+      "code": "ch.Gewaesserraum",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Gewässerraum: Zusatzinformation Verzicht Gewässerraum (Zusatzinformation nach Art. 8b Abs. 1 Bst. b ÖREBKV)"
+       }
+      ]
+     },
+     {
+      "code": "ch.StatischeWaldgrenzen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Statische Waldgrenzen"
+       }
+      ]
+     },
+     {
+      "code": "ch.Waldabstandslinien",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Waldabstandslinien"
+       }
+      ]
+     },
+     {
+      "code": "ch.Waldreservate",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Waldreservate"
+       }
+      ]
+     },
+     {
+      "code": "ch.ProjektierungszonenStarkstromanlagen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Projektierungszonen Leitungen mit einer Nennspannung von 220 kV oder höher"
+       }
+      ]
+     },
+     {
+      "code": "ch.BaulinienStarkstromanlagen",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Baulinien Starkstromanlagen"
+       }
+      ]
+     }
+    ],
+    "ThemeWithoutData": [],
+    "ExtractIdentifier": "20260908115232541",
+    "GeneralInformation": [
+     {
+      "Language": "de",
+      "Text": "Der Inhalt des ÖREB-Katasters wird als bekannt vorausgesetzt. Der Kanton Zürich ist für die Genauigkeit und Verlässlichkeit der gesetzgebenden Dokumente in elektronischer Form nicht haftbar. Der Auszug hat rein informativen Charakter und begründet insbesondere keine Rechte und Pflichten. Massgeblich sind diejenigen Dokumente, welche rechtskräftig verabschiedet oder veröffentlicht worden sind. Weitere Informationen zum ÖREB-Kataster finden Sie unter www.cadastre.ch"
+     },
+     {
+      "Language": "de",
+      "Text": "Zusätzlich zu den Angaben in diesem Auszug können Eigentumsbeschränkungen auch im Grundbuch angemerkt sein."
+     }
+    ],
+    "Glossary": [
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Änderungen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Bei Änderungen handelt es sich um geplante oder neue ÖREB, welche ab der öffentlichen Auflage im ÖREB-Kataster geführt werden können. Änderungen können je nach rechtlicher Grundlage mit der öffentlichen Auflage bereits eine Vorwirkung entfalten."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "BFS-Nr."
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Gemeindenummer aus amtlichem Gemeindeverzeichnis; Eine vom schweizerischen Bundesamt für Statistik mit dem Amtlichen Gemeindeverzeichnis im Jahre 1986 erstmals vergebene Zahl, die der eineindeutigen Bezeichnung von territorialen Einheiten im Einzugsbereich der Schweiz dient."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Baulinien Eisenbahnanlagen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Zwischen den Baulinien dürfen keine baulichen Veränderungen vorgenommen oder sonstige Massnahmen getroffen werden, die dem Zweck bestehender oder künftiger Eisenbahnanlagen widersprechen."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Baulinien Flughafenanlagen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Zwischen den Baulinien dürfen keine baulichen Veränderungen vorgenommen oder sonstige Massnahmen getroffen werden, die dem Zweck bestehender oder künftiger Flughafenanlagen widersprechen."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Baulinien Nationalstrassen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Wenn der projektierte Strassenverlauf definitiv bekannt ist, werden beiderseits der Strasse Baulinien festgelegt. Diese Baulinien ermöglichen es, die Anforderungen der Verkehrssicherheit und der Wohnhygiene sowie die Erfordernisse eines eventuellen künftigen Ausbaus der Strasse zu berücksichtigen. Zwischen den Baulinien dürfen ohne Bewilligung weder Neubauten erstellt noch Umbauten bestehender Gebäude vorgenommen werden, auch wenn diese nur teilweise in die Baulinien hineinragen."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Baulinien Starkstromanlagen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Zwischen den Baulinien dürfen keine baulichen Veränderungen vorgenommen oder sonstige Massnahmen getroffen werden, die dem Zweck bestehender oder künftiger Starkstromanlagen widersprechen."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "E-GRID"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Eidgenössischer Grundstücksidentifikator; Aus einem Präfix und einer Nummer bestehende Bezeichnung, die es erlaubt, jedes in das Grundbuch aufgenommene Grundstück landesweit eindeutig zu identifizieren, und die zum Datenaustausch zwischen Informatiksystemen dient."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Eigentumsbeschränkung"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Der Zweck aller Eigentumsbeschränkungen ist die Wahrung von Interessen anderer Personen, denen jene des Eigentümers sich in bestimmter Beziehung unterordnen müssen. Dies sind entweder die Eigentümer angrenzender Grundstücke, die Nachbarn, oder auch weitere Kreise von Privatpersonen oder endlich die Allgemeinheit selber, der Staat. Die Beschränkungen zugunsten der Nachbarn oder weiterer Privatpersonen sind regelmässig privatrechtlicher, jene zugunsten der Allgemeinheit öffentlich-rechtlicher Natur."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Gesetzliche Grundlage"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Gesetz, Verordnung etc., das generell-abstrakt ist (generell für die Person, die nicht bekannt ist, abstrakt, weil der Perimeter ohne Karte definiert ist) und auf Bundesebene, auf kantonaler oder kommunaler Ebene erlassen worden ist und die bloss eine allgemeine Rechtsgrundlage der Eigentumsbeschränkung darstellen. Die gesetzliche Grundlage ist nicht Teil des ÖREB-Katasters. Der ÖREB-Kataster enthält aber Hinweise auf die entsprechende gesetzliche Grundlage."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Gewässerraum"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Fliessgewässer können nur wieder naturnäher werden, wenn ausreichend Raum in den Schutz der Gewässer miteinbezogen wird. Der Gewässerraum soll weitgehend frei von neuen Anlagen bleiben; bestehende, rechtmässig erstellte Anlagen haben jedoch Bestandesgarantie."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Grundwasserschutzareale"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Von Kanton festgelegte Areale, die für die künftige Nutzung und Anreicherung von Grundwasservorkommen von Bedeutung sind und in dem keine Bauten und Anlagen erstellt oder Arbeiten ausgeführt werden, die künftige Nutzungs- und Anreicherungsanlagen beeinträchtigen könnten."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Grundwasserschutzzonen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Grundwasserschutzzonen, in denen gewährleistet werden soll, dass bei unmittelbar drohenden Gefahren wie Unfällen mit wassergefährdenden Stoffen ausreichend Zeit und Raum für die erforderlichen Massnahmen zur Verfügung stehen."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Kataster der belasteten Standorte"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Der Kataster enthält Deponien und andere durch Abfälle belastete Standorte, die saniert werden, wenn sie zu schädlichen oder lästigen Einwirkungen führen oder die konkrete Gefahr besteht, dass solche Einwirkungen entstehen. Die Behörde ermittelt die belasteten Standorte, indem sie vorhandene Angaben wie Karten, Verzeichnisse und Meldungen auswertet. Sie trägt diejenigen Standorte, deren Belastung erwiesen oder sehr wahrscheinlich ist, in den Kataster ein."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Katasterverantwortliche Stelle"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Die katasterverantwortliche Stelle im Kanton erhält die in den ÖREB-Kataster aufzunehmenden Daten von den zuständigen Fachstellen. Sie verwaltet diese Daten und stellt sie via kantonales ÖREB-Geoportal der Öffentlichkeit zur Verfügung."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "KbS"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Kataster der belasteten Standorte"
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Lärmempfindlichkeitsstufen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Empfindlichkeitsstufen werden festgelegt, um jeweils bestimmte Zonen zu definieren: diejenigen, die eines erhöhten Lärmschutzes bedürfen, diejenigen, in denen keine störenden Betriebe zugelassen sind, und diejenigen, in denen mässig und stark störende Betriebe zugelassen sind."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Nutzungsplanung"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Festlegung der Verwendung einzelner Bodenflächen für bestimmte Zwecke (z. B. Landwirtschaft, Siedlung, Wald)."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "ÖREB"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Öffentlich-rechtliche Eigentumsbeschränkung"
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "ÖREB-Kataster"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Kataster der öffentlich-rechtlichen Eigentumsbeschränkungen"
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Planungszonen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Zone, die ein genau bezeichnetes Gebiet umfasst, für das ein Nutzungsplan angepasst werden muss oder noch keiner vorliegt, und innerhalb derer nichts unternommen werden darf, was die Nutzungsplanung erschwert."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Projektierungszonen Eisenbahnanlagen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Um die freie Verfügbarkeit der für künftige Bahnbauten und -anlagen erforderlichen Grundstücke zu gewährleisten, können für genau bezeichnete Gebiete Projektierungszonen festgelegt werden. In diesen Zonen dürfen keine baulichen Veränderungen vorgenommen werden, die dem Zweck der Eisenbahnen widersprechen."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Projektierungszonen Flughafenanlagen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Um die freie Verfügbarkeit der für Flughafenanlagen erforderlichen Grundstücke zu gewährleisten, können für genau bezeichnete Gebiete Projektierungszonen festgelegt werden. In diesen Zonen dürfen keine baulichen Veränderungen vorgenommen werden, die dem Zweck der Flughafenanlagen widersprechen."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Projektierungszonen Leitungen mit einer Nennspannung von 220 kV oder höher"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Um die freie Verfügbarkeit der für Leitungen mit einer Nennspannung von 220 kV oder höher erforderlichen Grundstücke zu gewährleisten, können für genau bezeichnete Gebiete Projektierungszonen festgelegt werden. In diesen Zonen dürfen keine baulichen Veränderungen vorgenommen werden, die dem Zweck der Flughafenanlagen widersprechen."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Projektierungszonen Nationalstrassen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Um die freie Verfügbarkeit des für den Bau der Nationalstrassen erforderlichen Landes zu gewährleisten, können für genau bezeichnete Gebiete Projektierungszonen festgelegt werden. In diesen Zonen dürfen keine baulichen Veränderungen vorgenommen werden, die dem Zweck der Nationalstrassen widersprechen."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Rechtsvorschrift"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Generell-konkrete Rechtsnorm, die zusammen mit den ihr zugeschriebenen Geobasisdaten die Eigentumsbeschränkung unmittelbar umschreibt und innerhalb desselben Verfahrens verabschiedet worden ist."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Sicherheitszonenplan"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Zonenplan, in dem die Sicherheitszonen dargestellt sind und aus dem die Eigentumsbeschränkungen nach Fläche und Höhe ersichtlich sind."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Statische Waldgrenzen"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Statische Waldgrenzen müssen auf der Grundlage rechtskräftiger Waldfeststellungen festgelegt werden. Neue Bestockungen ausserhalb dieser Waldgrenzen gelten nicht als Wald."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Vorwirkung"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Mit der öffentlichen Auflage entsteht eine Vorwirkung: Ab diesem Zeitpunkt dürfen Bauvorhaben in der Regel nur bewilligt werden, wenn sie der öffentlich aufgelegten Planung nicht widersprechen."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Waldabstandslinien"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Bauten und Anlagen in Waldesnähe sind nur zulässig, wenn sie die Erhaltung, Pflege und Nutzung des Waldes nicht beeinträchtigen."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Waldreservate"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Geschützte Waldfläche, die der Erhaltung der Artenvielfalt von Fauna und Flora dient."
+       }
+      ]
+     },
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Zuständige Stelle"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Durch die Gesetzgebung bezeichnete Stelle des Bundes, des Kantons oder der Gemeinde, die für das Erheben, Nachführen und Verwalten der Geobasisdaten zuständig ist."
+       }
+      ]
+     }
+    ],
+    "RealEstate": {
+     "Number": "AA2912",
+     "IdentDN": "ZH0200000261",
+     "EGRID": "CH819189997789",
+     "Type": {
+      "Code": "RealEstate",
+      "Text": [
+       {
+        "Language": "de",
+        "Text": "Liegenschaft"
+       }
+      ]
+     },
+     "Canton": "ZH",
+     "MunicipalityName": "Zürich",
+     "MunicipalityCode": 261,
+     "MetadataOfGeographicalBaseData": "http://www.geolion.zh.ch/geodatenprodukt/121",
+     "LandRegistryArea": 1950,
+     "RestrictionOnLandownership": [
+      {
+       "LegendText": [
+        {
+         "Language": "de",
+         "Text": "Kernzone"
+        }
+       ],
+       "Theme": {
+        "code": "ch.Nutzungsplanung",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Nutzungsplanung (kantonal/kommunal): Grundnutzungen"
+         }
+        ]
+       },
+       "TypeCode": "C130701",
+       "TypeCodelist": "https://maps.zh.ch/images/custom/oerebkatasterzh/legenden/np_261.pdf",
+       "Lawstatus": {
+        "Code": "inForce",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Rechtskräftig"
+         }
+        ]
+       },
+       "AreaShare": 1950,
+       "PartInPercent": 100,
+       "SymbolRef": "https://maps.zh.ch/oereb/v2/images/C130701.png",
+       "Map": {
+        "ReferenceWMS": [
+         {
+          "Language": "de",
+          "Text": "https%3A%2F%2Fwms.zh.ch%2FOerebKatasterWeissZHWMS%3FVERSION%3D1.3.0%26DPI%3D96%26TRANSPARENT%3DTRUE%26FORMAT%3Dimage%2Fpng%3B%2520mode%3D8bit%26SERVICE%3DWMS%26REQUEST%3DGetMap%26STYLES%3D%26CRS%3DEPSG%3A2056%26BBOX%3D2683460.3647415335%2C1246859.3952150124%2C2683612.901038244%2C1246946.0284058421%26WIDTH%3D986.0%26HEIGHT%3D560.0%26filter_parz1%3D261%26filter_parz2%3DAA2912%26map.scalebar%3DSTATUS%2Bembed%2BINTERVALS%2B2%2BUNITS%2Bmeters%2BPOSITION%2Blr%2BSIZE%2B200%2B5%2BBACKGROUNDCOLOR%2B0%2B0%2B0%2BEND%26LAYERS%3Dsituationsplan%2Cnutzungsplanung-gemeinden%2CPLNA%2CPLSF%2CPLLI%2CLCOBJ%2CLCSF%2CSOOBJ_p%2CSOOBJ_l%2CSOOBJ_f%2CSOSF%2CSOLI%2CSOPT%2CLOCPOS%2CHADR%2CLNNA%2COSNR_liegenschaften%2COSNR_selbstrecht%2CDPRSF%2CRESF%2CMBSF%2CTBLI%2COSBP%2CCPPT%2Cav-fixpunkte-nummern%2CTBBP%2Cupzh_wald%2Cupzh_gebaeude%2Cupzh_weitereFlaechen%2Cupzh_strassen%2Cmarkierung-liegenschaft%2Cmarkierung-sr%2Cnordpfeil"
+         }
+        ],
+        "OtherLegend": [
+         {
+          "SymbolRef": "https://maps.zh.ch/oereb/v2/images/C310206.png",
+          "LegendText": [
+           {
+            "Language": "de",
+            "Text": "Freihaltezone Parkanlagen und Plätze"
+           }
+          ],
+          "TypeCode": "C310206",
+          "TypeCodelist": "https://maps.zh.ch/images/custom/oerebkatasterzh/legenden/np_261.pdf",
+          "Theme": {
+           "code": "ch.Nutzungsplanung",
+           "Text": [
+            {
+             "Language": "de",
+             "Text": "Nutzungsplanung (kantonal/kommunal): Grundnutzungen"
+            }
+           ]
+          }
+         },
+         {
+          "SymbolRef": "https://maps.zh.ch/oereb/v2/images/C320101.png",
+          "LegendText": [
+           {
+            "Language": "de",
+            "Text": "Gewässer"
+           }
+          ],
+          "TypeCode": "C320101",
+          "TypeCodelist": "https://maps.zh.ch/images/custom/oerebkatasterzh/legenden/np_261.pdf",
+          "Theme": {
+           "code": "ch.Nutzungsplanung",
+           "Text": [
+            {
+             "Language": "de",
+             "Text": "Nutzungsplanung (kantonal/kommunal): Grundnutzungen"
+            }
+           ]
+          }
+         }
+        ]
+       },
+       "LegalProvisions": [
+        {
+         "Type": {
+          "Code": "LegalProvision",
+          "Text": {
+           "Language": "de",
+           "Text": "Rechtsvorschrift"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Genehmigung vom 20. Juli 2000"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "921"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=573"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "inKraft"
+           }
+          ]
+         },
+         "Index": 1,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        },
+        {
+         "Type": {
+          "Code": "LegalProvision",
+          "Text": {
+           "Language": "de",
+           "Text": "Rechtsvorschrift"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauordnung Stadt Zürich 2016 (V43 Stand 29.05.2024)"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "24.11.2021"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=6"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "inKraft"
+           }
+          ]
+         },
+         "Index": 1,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": {
+           "Language": "de",
+           "Text": "Gesetzliche Grundlage"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Raumplanungsgesetz (RPG)"
+          }
+         ],
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "SR 700"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "SR 700"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=2293"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "inKraft"
+           }
+          ]
+         },
+         "Index": 1,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": {
+           "Language": "de",
+           "Text": "Gesetzliche Grundlage"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Planungs- und Baugesetz (PBG)"
+          }
+         ],
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "LS 700.1"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "LS 700.1"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=2283"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "inKraft"
+           }
+          ]
+         },
+         "Index": 10,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": {
+           "Language": "de",
+           "Text": "Gesetzliche Grundlage"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Allgemeine Bauverordnung"
+          }
+         ],
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "LS 700.2"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "LS 700.2"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=2284"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "inKraft"
+           }
+          ]
+         },
+         "Index": 11,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": {
+           "Language": "de",
+           "Text": "Gesetzliche Grundlage"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauverfahrensverordnung (BVV)"
+          }
+         ],
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "LS 700.6"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "LS 700.6"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=2287"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "inKraft"
+           }
+          ]
+         },
+         "Index": 11,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": {
+           "Language": "de",
+           "Text": "Gesetzliche Grundlage"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Besondere Bauverordnung I (BBVI)"
+          }
+         ],
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "LS 700.21 "
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "LS 700.21"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=2285"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "inKraft"
+           }
+          ]
+         },
+         "Index": 11,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": {
+           "Language": "de",
+           "Text": "Gesetzliche Grundlage"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Besondere Bauverordnung II (BBVII)"
+          }
+         ],
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "LS 700.22"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "LS 700.22"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=2286"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "inKraft"
+           }
+          ]
+         },
+         "Index": 11,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": {
+           "Language": "de",
+           "Text": "Gesetzliche Grundlage"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Verordnung über die Darstellung von Nutzungsplänen"
+          }
+         ],
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "LS 701.12"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "LS 701.12"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=2288"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "inKraft"
+           }
+          ]
+         },
+         "Index": 11,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        }
+       ],
+       "ResponsibleOffice": {
+        "Name": [
+         {
+          "Language": "de",
+          "Text": "Stadt Zürich"
+         }
+        ],
+        "OfficeAtWeb": [
+         {
+          "Language": "de",
+          "Text": "http://www.stadt-zuerich.ch"
+         }
+        ],
+        "UID": "CHE114889289",
+        "Line1": "Stadtverwaltung",
+        "Line2": "Postfach",
+        "Street": "Stadthaus",
+        "Number": null,
+        "PostalCode": "8021",
+        "City": "Zürich"
+       }
+      },
+      {
+       "LegendText": [
+        {
+         "Language": "de",
+         "Text": "Kernzonenplan"
+        }
+       ],
+       "Theme": {
+        "code": "ch.Nutzungsplanung",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Nutzungsplanung (kantonal/kommunal): überlagernde Nutzungen"
+         }
+        ]
+       },
+       "TypeCode": "C690401",
+       "TypeCodelist": "https://maps.zh.ch/images/custom/oerebkatasterzh/legenden/np_261.pdf",
+       "Lawstatus": {
+        "Code": "inForce",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Rechtskräftig"
+         }
+        ]
+       },
+       "AreaShare": 1950,
+       "PartInPercent": 100,
+       "SymbolRef": "https://maps.zh.ch/oereb/v2/images/C690401.png",
+       "Map": {
+        "ReferenceWMS": [
+         {
+          "Language": "de",
+          "Text": "https%3A%2F%2Fwms.zh.ch%2FOerebKatasterWeissZHWMS%3FVERSION%3D1.3.0%26DPI%3D96%26TRANSPARENT%3DTRUE%26FORMAT%3Dimage%2Fpng%3B%2520mode%3D8bit%26SERVICE%3DWMS%26REQUEST%3DGetMap%26STYLES%3D%26CRS%3DEPSG%3A2056%26BBOX%3D2683460.3647415335%2C1246859.3952150124%2C2683612.901038244%2C1246946.0284058421%26WIDTH%3D986.0%26HEIGHT%3D560.0%26filter_parz1%3D261%26filter_parz2%3DAA2912%26map.scalebar%3DSTATUS%2Bembed%2BINTERVALS%2B2%2BUNITS%2Bmeters%2BPOSITION%2Blr%2BSIZE%2B200%2B5%2BBACKGROUNDCOLOR%2B0%2B0%2B0%2BEND%26FILTER_1%3D1%2C2%2C3%2C4%2C5%2C6%2C8%2C9%2C10%2C11%2C12%2C13%2C14%2C15%2C16%2C17%2C18%2C20%2C21%26LAYERS%3Dsituationsplan%2Csondernutzungszonen-gemeinden%2CPLNA%2CPLSF%2CPLLI%2CLCOBJ%2CLCSF%2CSOOBJ_p%2CSOOBJ_l%2CSOOBJ_f%2CSOSF%2CSOLI%2CSOPT%2CLOCPOS%2CHADR%2CLNNA%2COSNR_liegenschaften%2COSNR_selbstrecht%2CDPRSF%2CRESF%2CMBSF%2CTBLI%2COSBP%2CCPPT%2Cav-fixpunkte-nummern%2CTBBP%2Cupzh_wald%2Cupzh_gebaeude%2Cupzh_weitereFlaechen%2Cupzh_strassen%2Cmarkierung-liegenschaft%2Cmarkierung-sr%2Cnordpfeil"
+         }
+        ],
+        "OtherLegend": []
+       },
+       "LegalProvisions": [
+        {
+         "Type": {
+          "Code": "LegalProvision",
+          "Text": {
+           "Language": "de",
+           "Text": "Rechtsvorschrift"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Kernzonenplan Rämistrasse (öffentliche Auflage 18.03.2026-01.06.2026)"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "321"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=85"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "changeWithPreEffect",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Vorpruefung / oeffentliche Auflage"
+           }
+          ]
+         },
+         "Index": 1,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        },
+        {
+         "Type": {
+          "Code": "LegalProvision",
+          "Text": {
+           "Language": "de",
+           "Text": "Rechtsvorschrift"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauordnung Stadt Zürich 2016 (V43 Stand 29.05.2024)"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "24.11.2021"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=6"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "inKraft"
+           }
+          ]
+         },
+         "Index": 1,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": {
+           "Language": "de",
+           "Text": "Gesetzliche Grundlage"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Raumplanungsgesetz (RPG)"
+          }
+         ],
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "SR 700"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "SR 700"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=2293"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "inKraft"
+           }
+          ]
+         },
+         "Index": 1,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": {
+           "Language": "de",
+           "Text": "Gesetzliche Grundlage"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Planungs- und Baugesetz (PBG)"
+          }
+         ],
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "LS 700.1"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "LS 700.1"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=2283"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "inKraft"
+           }
+          ]
+         },
+         "Index": 10,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": {
+           "Language": "de",
+           "Text": "Gesetzliche Grundlage"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Verordnung über die Darstellung von Nutzungsplänen"
+          }
+         ],
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "LS 701.12"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "LS 701.12"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=2288"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "inKraft"
+           }
+          ]
+         },
+         "Index": 11,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        }
+       ],
+       "ResponsibleOffice": {
+        "Name": [
+         {
+          "Language": "de",
+          "Text": "Stadt Zürich"
+         }
+        ],
+        "OfficeAtWeb": [
+         {
+          "Language": "de",
+          "Text": "http://www.stadt-zuerich.ch"
+         }
+        ],
+        "UID": "CHE114889289",
+        "Line1": "Stadtverwaltung",
+        "Line2": "Postfach",
+        "Street": "Stadthaus",
+        "Number": null,
+        "PostalCode": "8021",
+        "City": "Zürich"
+       }
+      },
+      {
+       "LegendText": [
+        {
+         "Language": "de",
+         "Text": "Erdgeschossnutzung"
+        }
+       ],
+       "Theme": {
+        "code": "ch.Nutzungsplanung",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Nutzungsplanung (kantonal/kommunal): überlagernde Nutzungen"
+         }
+        ]
+       },
+       "TypeCode": "C691101",
+       "TypeCodelist": "https://maps.zh.ch/images/custom/oerebkatasterzh/legenden/np_261.pdf",
+       "Lawstatus": {
+        "Code": "inForce",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Rechtskräftig"
+         }
+        ]
+       },
+       "AreaShare": 6,
+       "PartInPercent": 0,
+       "SymbolRef": "https://maps.zh.ch/oereb/v2/images/C691101.png",
+       "Map": {
+        "ReferenceWMS": [
+         {
+          "Language": "de",
+          "Text": "https%3A%2F%2Fwms.zh.ch%2FOerebKatasterWeissZHWMS%3FVERSION%3D1.3.0%26DPI%3D96%26TRANSPARENT%3DTRUE%26FORMAT%3Dimage%2Fpng%3B%2520mode%3D8bit%26SERVICE%3DWMS%26REQUEST%3DGetMap%26STYLES%3D%26CRS%3DEPSG%3A2056%26BBOX%3D2683460.3647415335%2C1246859.3952150124%2C2683612.901038244%2C1246946.0284058421%26WIDTH%3D986.0%26HEIGHT%3D560.0%26filter_parz1%3D261%26filter_parz2%3DAA2912%26map.scalebar%3DSTATUS%2Bembed%2BINTERVALS%2B2%2BUNITS%2Bmeters%2BPOSITION%2Blr%2BSIZE%2B200%2B5%2BBACKGROUNDCOLOR%2B0%2B0%2B0%2BEND%26FILTER_1%3D1%2C2%2C3%2C4%2C5%2C6%2C8%2C9%2C10%2C11%2C12%2C13%2C14%2C15%2C16%2C17%2C18%2C20%2C21%26LAYERS%3Dsituationsplan%2Csondernutzungszonen-gemeinden%2CPLNA%2CPLSF%2CPLLI%2CLCOBJ%2CLCSF%2CSOOBJ_p%2CSOOBJ_l%2CSOOBJ_f%2CSOSF%2CSOLI%2CSOPT%2CLOCPOS%2CHADR%2CLNNA%2COSNR_liegenschaften%2COSNR_selbstrecht%2CDPRSF%2CRESF%2CMBSF%2CTBLI%2COSBP%2CCPPT%2Cav-fixpunkte-nummern%2CTBBP%2Cupzh_wald%2Cupzh_gebaeude%2Cupzh_weitereFlaechen%2Cupzh_strassen%2Cmarkierung-liegenschaft%2Cmarkierung-sr%2Cnordpfeil"
+         }
+        ],
+        "OtherLegend": []
+       },
+       "LegalProvisions": [
+        {
+         "Type": {
+          "Code": "LegalProvision",
+          "Text": {
+           "Language": "de",
+           "Text": "Rechtsvorschrift"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Erdgeschossnutzung (öffentliche Auflage 18.03.2026-01.06.2026)"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "321"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=6778"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "changeWithPreEffect",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Vorpruefung / oeffentliche Auflage"
+           }
+          ]
+         },
+         "Index": 1,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        },
+        {
+         "Type": {
+          "Code": "LegalProvision",
+          "Text": {
+           "Language": "de",
+           "Text": "Rechtsvorschrift"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauordnung Stadt Zürich 2016 (V43 Stand 29.05.2024)"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "24.11.2021"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=6"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "inKraft"
+           }
+          ]
+         },
+         "Index": 1,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": {
+           "Language": "de",
+           "Text": "Gesetzliche Grundlage"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Raumplanungsgesetz (RPG)"
+          }
+         ],
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "SR 700"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "SR 700"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=2293"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "inKraft"
+           }
+          ]
+         },
+         "Index": 1,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": {
+           "Language": "de",
+           "Text": "Gesetzliche Grundlage"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Planungs- und Baugesetz (PBG)"
+          }
+         ],
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "LS 700.1"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "LS 700.1"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=2283"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "inKraft"
+           }
+          ]
+         },
+         "Index": 10,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        }
+       ],
+       "ResponsibleOffice": {
+        "Name": [
+         {
+          "Language": "de",
+          "Text": "Stadt Zürich"
+         }
+        ],
+        "OfficeAtWeb": [
+         {
+          "Language": "de",
+          "Text": "http://www.stadt-zuerich.ch"
+         }
+        ],
+        "UID": "CHE114889289",
+        "Line1": "Stadtverwaltung",
+        "Line2": "Postfach",
+        "Street": "Stadthaus",
+        "Number": null,
+        "PostalCode": "8021",
+        "City": "Zürich"
+       }
+      },
+      {
+       "LegendText": [
+        {
+         "Language": "de",
+         "Text": "Erdgeschossnutzung"
+        }
+       ],
+       "Theme": {
+        "code": "ch.Nutzungsplanung",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Nutzungsplanung (kantonal/kommunal): überlagernde Nutzungen"
+         }
+        ]
+       },
+       "TypeCode": "C790301",
+       "TypeCodelist": "https://maps.zh.ch/images/custom/oerebkatasterzh/legenden/np_261.pdf",
+       "Lawstatus": {
+        "Code": "inForce",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Rechtskräftig"
+         }
+        ]
+       },
+       "SymbolRef": "https://maps.zh.ch/oereb/v2/images/C790301.png",
+       "Map": {
+        "ReferenceWMS": [
+         {
+          "Language": "de",
+          "Text": "https%3A%2F%2Fwms.zh.ch%2FOerebKatasterWeissZHWMS%3FVERSION%3D1.3.0%26DPI%3D96%26TRANSPARENT%3DTRUE%26FORMAT%3Dimage%2Fpng%3B%2520mode%3D8bit%26SERVICE%3DWMS%26REQUEST%3DGetMap%26STYLES%3D%26CRS%3DEPSG%3A2056%26BBOX%3D2683460.3647415335%2C1246859.3952150124%2C2683612.901038244%2C1246946.0284058421%26WIDTH%3D986.0%26HEIGHT%3D560.0%26filter_parz1%3D261%26filter_parz2%3DAA2912%26map.scalebar%3DSTATUS%2Bembed%2BINTERVALS%2B2%2BUNITS%2Bmeters%2BPOSITION%2Blr%2BSIZE%2B200%2B5%2BBACKGROUNDCOLOR%2B0%2B0%2B0%2BEND%26FILTER_1%3D1%2C2%2C3%2C4%2C5%2C6%2C8%2C9%2C10%2C11%2C12%2C13%2C14%2C15%2C16%2C17%2C18%2C20%2C21%26LAYERS%3Dsituationsplan%2Csondernutzungszonen-gemeinden%2CPLNA%2CPLSF%2CPLLI%2CLCOBJ%2CLCSF%2CSOOBJ_p%2CSOOBJ_l%2CSOOBJ_f%2CSOSF%2CSOLI%2CSOPT%2CLOCPOS%2CHADR%2CLNNA%2COSNR_liegenschaften%2COSNR_selbstrecht%2CDPRSF%2CRESF%2CMBSF%2CTBLI%2COSBP%2CCPPT%2Cav-fixpunkte-nummern%2CTBBP%2Cupzh_wald%2Cupzh_gebaeude%2Cupzh_weitereFlaechen%2Cupzh_strassen%2Cmarkierung-liegenschaft%2Cmarkierung-sr%2Cnordpfeil"
+         }
+        ],
+        "OtherLegend": []
+       },
+       "LegalProvisions": [
+        {
+         "Type": {
+          "Code": "LegalProvision",
+          "Text": {
+           "Language": "de",
+           "Text": "Rechtsvorschrift"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Erdgeschossnutzung (öffentliche Auflage 18.03.2026-01.06.2026)"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "321"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=6778"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "changeWithPreEffect",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Vorpruefung / oeffentliche Auflage"
+           }
+          ]
+         },
+         "Index": 1,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        },
+        {
+         "Type": {
+          "Code": "LegalProvision",
+          "Text": {
+           "Language": "de",
+           "Text": "Rechtsvorschrift"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauordnung Stadt Zürich 2016 (V43 Stand 29.05.2024)"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "24.11.2021"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=6"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "inKraft"
+           }
+          ]
+         },
+         "Index": 1,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": {
+           "Language": "de",
+           "Text": "Gesetzliche Grundlage"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Planungs- und Baugesetz (PBG)"
+          }
+         ],
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "LS 700.1"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "LS 700.1"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=2283"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "inKraft"
+           }
+          ]
+         },
+         "Index": 10,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        }
+       ],
+       "ResponsibleOffice": {
+        "Name": [
+         {
+          "Language": "de",
+          "Text": "Stadt Zürich"
+         }
+        ],
+        "OfficeAtWeb": [
+         {
+          "Language": "de",
+          "Text": "http://www.stadt-zuerich.ch"
+         }
+        ],
+        "UID": "CHE114889289",
+        "Line1": "Stadtverwaltung",
+        "Line2": "Postfach",
+        "Street": "Stadthaus",
+        "Number": null,
+        "PostalCode": "8021",
+        "City": "Zürich"
+       }
+      },
+      {
+       "LegendText": [
+        {
+         "Language": "de",
+         "Text": "Kernzonenplan"
+        }
+       ],
+       "Theme": {
+        "code": "ch.Nutzungsplanung",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Nutzungsplanung (kantonal/kommunal): überlagernde Nutzungen"
+         }
+        ]
+       },
+       "TypeCode": "np-proj_c690401",
+       "TypeCodelist": "https://maps.zh.ch/images/custom/oerebkatasterzh/legenden/np_261.pdf",
+       "Lawstatus": {
+        "Code": "changeWithPreEffect",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Änderung mit Vorwirkung"
+         }
+        ]
+       },
+       "AreaShare": 1950,
+       "PartInPercent": 100,
+       "SymbolRef": "https://maps.zh.ch/oereb/v2/images/np-proj.png",
+       "Map": {
+        "ReferenceWMS": [
+         {
+          "Language": "de",
+          "Text": "https%3A%2F%2Fwms.zh.ch%2FOerebKatasterWeissZHWMS%3FVERSION%3D1.3.0%26DPI%3D96%26TRANSPARENT%3DTRUE%26FORMAT%3Dimage%2Fpng%3B%2520mode%3D8bit%26SERVICE%3DWMS%26REQUEST%3DGetMap%26STYLES%3D%26CRS%3DEPSG%3A2056%26BBOX%3D2683460.3647415335%2C1246859.3952150124%2C2683612.901038244%2C1246946.0284058421%26WIDTH%3D986.0%26HEIGHT%3D560.0%26filter_parz1%3D261%26filter_parz2%3DAA2912%26map.scalebar%3DSTATUS%2Bembed%2BINTERVALS%2B2%2BUNITS%2Bmeters%2BPOSITION%2Blr%2BSIZE%2B200%2B5%2BBACKGROUNDCOLOR%2B0%2B0%2B0%2BEND%26FILTER_1%3D1%2C2%2C3%2C4%2C5%2C6%2C8%2C9%2C10%2C11%2C12%2C13%2C14%2C15%2C16%2C17%2C18%2C20%2C21%26LAYERS%3Dsituationsplan%2Csn-proj%2CPLNA%2CPLSF%2CPLLI%2CLCOBJ%2CLCSF%2CSOOBJ_p%2CSOOBJ_l%2CSOOBJ_f%2CSOSF%2CSOLI%2CSOPT%2CLOCPOS%2CHADR%2CLNNA%2COSNR_liegenschaften%2COSNR_selbstrecht%2CDPRSF%2CRESF%2CMBSF%2CTBLI%2COSBP%2CCPPT%2Cav-fixpunkte-nummern%2CTBBP%2Cupzh_wald%2Cupzh_gebaeude%2Cupzh_weitereFlaechen%2Cupzh_strassen%2Cmarkierung-liegenschaft%2Cmarkierung-sr%2Cnordpfeil"
+         }
+        ],
+        "OtherLegend": []
+       },
+       "LegalProvisions": [
+        {
+         "Type": {
+          "Code": "LegalProvision",
+          "Text": {
+           "Language": "de",
+           "Text": "Rechtsvorschrift"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Kernzonenplan Rämistrasse (öffentliche Auflage 18.03.2026-01.06.2026)"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "321"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=85"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "changeWithPreEffect",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "Vorpruefung / oeffentliche Auflage"
+           }
+          ]
+         },
+         "Index": 1,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        },
+        {
+         "Type": {
+          "Code": "LegalProvision",
+          "Text": {
+           "Language": "de",
+           "Text": "Rechtsvorschrift"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauordnung Stadt Zürich 2016 (V43 Stand 29.05.2024)"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "24.11.2021"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=6"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "inKraft"
+           }
+          ]
+         },
+         "Index": 1,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": {
+           "Language": "de",
+           "Text": "Gesetzliche Grundlage"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Raumplanungsgesetz (RPG)"
+          }
+         ],
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "SR 700"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "SR 700"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=2293"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "inKraft"
+           }
+          ]
+         },
+         "Index": 1,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": {
+           "Language": "de",
+           "Text": "Gesetzliche Grundlage"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Planungs- und Baugesetz (PBG)"
+          }
+         ],
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "LS 700.1"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "LS 700.1"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=2283"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "inKraft"
+           }
+          ]
+         },
+         "Index": 10,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        }
+       ],
+       "ResponsibleOffice": {
+        "Name": [
+         {
+          "Language": "de",
+          "Text": "Stadt Zürich"
+         }
+        ],
+        "OfficeAtWeb": [
+         {
+          "Language": "de",
+          "Text": "http://www.stadt-zuerich.ch"
+         }
+        ],
+        "UID": "CHE114889289",
+        "Line1": "Stadtverwaltung",
+        "Line2": "Postfach",
+        "Street": "Stadthaus",
+        "Number": null,
+        "PostalCode": "8021",
+        "City": "Zürich"
+       }
+      },
+      {
+       "LegendText": [
+        {
+         "Language": "de",
+         "Text": "Baulinie.Verkehr, kommunal"
+        }
+       ],
+       "Theme": {
+        "code": "ch.ZH.Baulinien",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Baulinien (kantonal/kommunal)"
+         }
+        ]
+       },
+       "TypeCode": "baulinien-kommunal",
+       "TypeCodelist": "https://maps.zh.ch/images/custom/oerebkatasterzh/legenden/baulinie.pdf",
+       "Lawstatus": {
+        "Code": "inForce",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Rechtskräftig"
+         }
+        ]
+       },
+       "SymbolRef": "https://maps.zh.ch/oereb/v2/images/baulinien.png",
+       "Map": {
+        "ReferenceWMS": [
+         {
+          "Language": "de",
+          "Text": "https%3A%2F%2Fwms.zh.ch%2FOerebKatasterWeissZHWMS%3FVERSION%3D1.3.0%26DPI%3D96%26TRANSPARENT%3DTRUE%26FORMAT%3Dimage%2Fpng%3B%2520mode%3D8bit%26SERVICE%3DWMS%26REQUEST%3DGetMap%26STYLES%3D%26CRS%3DEPSG%3A2056%26BBOX%3D2683460.3647415335%2C1246859.3952150124%2C2683612.901038244%2C1246946.0284058421%26WIDTH%3D986.0%26HEIGHT%3D560.0%26filter_parz1%3D261%26filter_parz2%3DAA2912%26map.scalebar%3DSTATUS%2Bembed%2BINTERVALS%2B2%2BUNITS%2Bmeters%2BPOSITION%2Blr%2BSIZE%2B200%2B5%2BBACKGROUNDCOLOR%2B0%2B0%2B0%2BEND%26LAYERS%3Dsituationsplan%2Cbaulinien%2CPLNA%2CPLSF%2CPLLI%2CLCOBJ%2CLCSF%2CSOOBJ_p%2CSOOBJ_l%2CSOOBJ_f%2CSOSF%2CSOLI%2CSOPT%2CLOCPOS%2CHADR%2CLNNA%2COSNR_liegenschaften%2COSNR_selbstrecht%2CDPRSF%2CRESF%2CMBSF%2CTBLI%2COSBP%2CCPPT%2Cav-fixpunkte-nummern%2CTBBP%2Cupzh_wald%2Cupzh_gebaeude%2Cupzh_weitereFlaechen%2Cupzh_strassen%2Cmarkierung-liegenschaft%2Cmarkierung-sr%2Cnordpfeil"
+         }
+        ],
+        "OtherLegend": []
+       },
+       "LegalProvisions": [
+        {
+         "Type": {
+          "Code": "LegalProvision",
+          "Text": {
+           "Language": "de",
+           "Text": "Rechtsvorschrift"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "BLG Beschluss vom 2. Februar 1889"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "243"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=10751"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "inKraft"
+           }
+          ]
+         },
+         "Index": 1,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": {
+           "Language": "de",
+           "Text": "Gesetzliche Grundlage"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Planungs- und Baugesetz (PBG)"
+          }
+         ],
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "LS 700.1"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "LS 700.1"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=2283"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "inKraft"
+           }
+          ]
+         },
+         "Index": 10,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        }
+       ],
+       "ResponsibleOffice": {
+        "Name": [
+         {
+          "Language": "de",
+          "Text": "Stadt Zürich"
+         }
+        ],
+        "OfficeAtWeb": [
+         {
+          "Language": "de",
+          "Text": "http://www.stadt-zuerich.ch"
+         }
+        ],
+        "UID": "CHE114889289",
+        "Line1": "Stadtverwaltung",
+        "Line2": "Postfach",
+        "Street": "Stadthaus",
+        "Number": null,
+        "PostalCode": "8021",
+        "City": "Zürich"
+       }
+      },
+      {
+       "LegendText": [
+        {
+         "Language": "de",
+         "Text": "Empfindlichkeitsstufe III, aufgestuft (nein)"
+        }
+       ],
+       "Theme": {
+        "code": "ch.Laermempfindlichkeitsstufen",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Lärmempfindlichkeitsstufen (in Nutzungszonen)"
+         }
+        ]
+       },
+       "TypeCode": "laermempfindlichkeitsstufen_3_0",
+       "TypeCodelist": "https://maps.zh.ch/images/custom/oerebkatasterzh/legenden/laerm.pdf",
+       "Lawstatus": {
+        "Code": "inForce",
+        "Text": [
+         {
+          "Language": "de",
+          "Text": "Rechtskräftig"
+         }
+        ]
+       },
+       "AreaShare": 1950,
+       "PartInPercent": 100,
+       "SymbolRef": "https://maps.zh.ch/oereb/v2/images/laermempfindlichkeitsstufen_3_0.png",
+       "Map": {
+        "ReferenceWMS": [
+         {
+          "Language": "de",
+          "Text": "https%3A%2F%2Fwms.zh.ch%2FOerebKatasterWeissZHWMS%3FVERSION%3D1.3.0%26DPI%3D96%26TRANSPARENT%3DTRUE%26FORMAT%3Dimage%2Fpng%3B%2520mode%3D8bit%26SERVICE%3DWMS%26REQUEST%3DGetMap%26STYLES%3D%26CRS%3DEPSG%3A2056%26BBOX%3D2683460.3647415335%2C1246859.3952150124%2C2683612.901038244%2C1246946.0284058421%26WIDTH%3D986.0%26HEIGHT%3D560.0%26filter_parz1%3D261%26filter_parz2%3DAA2912%26map.scalebar%3DSTATUS%2Bembed%2BINTERVALS%2B2%2BUNITS%2Bmeters%2BPOSITION%2Blr%2BSIZE%2B200%2B5%2BBACKGROUNDCOLOR%2B0%2B0%2B0%2BEND%26LAYERS%3Dsituationsplan%2Claermempfindlichkeitsstufen%2CPLNA%2CPLSF%2CPLLI%2CLCOBJ%2CLCSF%2CSOOBJ_p%2CSOOBJ_l%2CSOOBJ_f%2CSOSF%2CSOLI%2CSOPT%2CLOCPOS%2CHADR%2CLNNA%2COSNR_liegenschaften%2COSNR_selbstrecht%2CDPRSF%2CRESF%2CMBSF%2CTBLI%2COSBP%2CCPPT%2Cav-fixpunkte-nummern%2CTBBP%2Cupzh_wald%2Cupzh_gebaeude%2Cupzh_weitereFlaechen%2Cupzh_strassen%2Cmarkierung-liegenschaft%2Cmarkierung-sr%2Cnordpfeil"
+         }
+        ],
+        "OtherLegend": [
+         {
+          "SymbolRef": "https://maps.zh.ch/oereb/v2/images/laermempfindlichkeitsstufen_0_0.png",
+          "LegendText": [
+           {
+            "Language": "de",
+            "Text": "Empfindlichkeitsstufe keine, aufgestuft (nein)"
+           }
+          ],
+          "TypeCode": "laermempfindlichkeitsstufen_0_0",
+          "TypeCodelist": "https://maps.zh.ch/images/custom/oerebkatasterzh/legenden/laerm.pdf",
+          "Theme": {
+           "code": "ch.Laermempfindlichkeitsstufen",
+           "Text": [
+            {
+             "Language": "de",
+             "Text": "Lärmempfindlichkeitsstufen (in Nutzungszonen)"
+            }
+           ]
+          }
+         }
+        ]
+       },
+       "LegalProvisions": [
+        {
+         "Type": {
+          "Code": "LegalProvision",
+          "Text": {
+           "Language": "de",
+           "Text": "Rechtsvorschrift"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauordnung Stadt Zürich 2016 (V43 Stand 29.05.2024)"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "24.11.2021"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=6"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "inKraft"
+           }
+          ]
+         },
+         "Index": 1,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": {
+           "Language": "de",
+           "Text": "Gesetzliche Grundlage"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Lärmschutz-Verordnung (LSV)"
+          }
+         ],
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "SR 814.41"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "SR 814.41"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=2298"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "inKraft"
+           }
+          ]
+         },
+         "Index": 2,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": {
+           "Language": "de",
+           "Text": "Gesetzliche Grundlage"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Planungs- und Baugesetz (PBG)"
+          }
+         ],
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "LS 700.1"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "LS 700.1"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=2283"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "inKraft"
+           }
+          ]
+         },
+         "Index": 10,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": {
+           "Language": "de",
+           "Text": "Gesetzliche Grundlage"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Bauverfahrensverordnung (BVV)"
+          }
+         ],
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "LS 700.6"
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "LS 700.6"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=2287"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "inKraft"
+           }
+          ]
+         },
+         "Index": 11,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        },
+        {
+         "Type": {
+          "Code": "Law",
+          "Text": {
+           "Language": "de",
+           "Text": "Gesetzliche Grundlage"
+          }
+         },
+         "Title": [
+          {
+           "Language": "de",
+           "Text": "Besondere Bauverordnung I (BBVI)"
+          }
+         ],
+         "Abbreviation": [
+          {
+           "Language": "de",
+           "Text": "LS 700.21 "
+          }
+         ],
+         "OfficialNumber": [
+          {
+           "Language": "de",
+           "Text": "LS 700.21"
+          }
+         ],
+         "TextAtWeb": [
+          {
+           "Language": "de",
+           "Text": "https://oerebdocs.zh.ch/getDoc?docid=2285"
+          }
+         ],
+         "Lawstatus": {
+          "Code": "inForce",
+          "Text": [
+           {
+            "Language": "de",
+            "Text": "inKraft"
+           }
+          ]
+         },
+         "Index": 11,
+         "ResponsibleOffice": {
+          "Name": [
+           {
+            "Language": "de",
+            "Text": "Stadt Zürich"
+           }
+          ],
+          "OfficeAtWeb": [
+           {
+            "Language": "de",
+            "Text": "http://www.stadt-zuerich.ch"
+           }
+          ],
+          "UID": "CHE114889289",
+          "Line1": "Stadtverwaltung",
+          "Line2": "Postfach",
+          "Street": "Stadthaus",
+          "Number": null,
+          "PostalCode": "8021",
+          "City": "Zürich"
+         }
+        }
+       ],
+       "ResponsibleOffice": {
+        "Name": [
+         {
+          "Language": "de",
+          "Text": "Stadt Zürich"
+         }
+        ],
+        "OfficeAtWeb": [
+         {
+          "Language": "de",
+          "Text": "http://www.stadt-zuerich.ch"
+         }
+        ],
+        "UID": "CHE114889289",
+        "Line1": "Stadtverwaltung",
+        "Line2": "Postfach",
+        "Street": "Stadthaus",
+        "Number": null,
+        "PostalCode": "8021",
+        "City": "Zürich"
+       }
+      }
+     ],
+     "PlanForLandRegister": {
+      "ReferenceWMS": [
+       {
+        "Language": "de",
+        "Text": "https%3A%2F%2Fwms.zh.ch%2FOerebKatasterZHWMS%3FVERSION%3D1.3.0%26DPI%3D96%26TRANSPARENT%3DTRUE%26FORMAT%3Dimage%2Fpng%3B%2520mode%3D8bit%26SERVICE%3DWMS%26REQUEST%3DGetMap%26STYLES%3D%26CRS%3DEPSG%3A2056%26BBOX%3D2683460.3647415335%2C1246859.3952150124%2C2683612.901038244%2C1246946.0284058421%26WIDTH%3D986.0%26HEIGHT%3D560.0%26filter_parz1%3D261%26filter_parz2%3DAA2912%26map.scalebar%3DSTATUS%2Bembed%2BINTERVALS%2B2%2BUNITS%2Bmeters%2BPOSITION%2Blr%2BSIZE%2B200%2B5%2BBACKGROUNDCOLOR%2B0%2B0%2B0%2BEND%26LAYERS%3DTBBP"
+       }
+      ],
+      "layerIndex": 0,
+      "layerOpacity": 1,
+      "min": {
+       "type": "Point",
+       "coordinates": [
+        2683460.3647415335,
+        1246859.3952150124
+       ],
+       "crs": "EPSG:2056"
+      },
+      "max": {
+       "type": "Point",
+       "coordinates": [
+        2683612.901038244,
+        1246946.0284058421
+       ],
+       "crs": "EPSG:2056"
+      }
+     },
+     "PlanForLandRegisterMainPage": {
+      "ReferenceWMS": [
+       {
+        "Language": "de",
+        "Text": "https%3A%2F%2Fwms.zh.ch%2FOerebKatasterZHWMS%3FVERSION%3D1.3.0%26DPI%3D96%26TRANSPARENT%3DTRUE%26FORMAT%3Dimage%2Fpng%3B%2520mode%3D8bit%26SERVICE%3DWMS%26REQUEST%3DGetMap%26STYLES%3D%26CRS%3DEPSG%3A2056%26BBOX%3D2683460.3647415335%2C1246859.3952150124%2C2683612.901038244%2C1246946.0284058421%26WIDTH%3D986.0%26HEIGHT%3D560.0%26filter_parz1%3D261%26filter_parz2%3DAA2912%26map.scalebar%3DSTATUS%2Bembed%2BINTERVALS%2B2%2BUNITS%2Bmeters%2BPOSITION%2Blr%2BSIZE%2B200%2B5%2BBACKGROUNDCOLOR%2B0%2B0%2B0%2BEND%26LAYERS%3DTBBP"
+       }
+      ],
+      "layerIndex": 0,
+      "layerOpacity": 1,
+      "min": {
+       "type": "Point",
+       "coordinates": [
+        2683460.3647415335,
+        1246859.3952150124
+       ],
+       "crs": "EPSG:2056"
+      },
+      "max": {
+       "type": "Point",
+       "coordinates": [
+        2683612.901038244,
+        1246946.0284058421
+       ],
+       "crs": "EPSG:2056"
+      }
+     }
+    },
+    "Disclaimer": [
+     {
+      "Title": [
+       {
+        "Language": "de",
+        "Text": "Haftungsausschluss Kataster der belasteten Standorte (KbS)"
+       }
+      ],
+      "Content": [
+       {
+        "Language": "de",
+        "Text": "Der Kataster der belasteten Standorte (KbS) wurde anhand der vom Bundesamt für Umwelt BAFU festgelegten Kriterien erstellt und wird fortwährend aufgrund neuer Erkenntnisse (z.B. Untersuchungen) aktualisiert. Die im KbS eingetragenen Flächen können vom tatsächlichen Ausmass der Belastung abweichen. Erscheint ein Grundstück nicht im KbS, besteht keine absolute Gewähr, dass das Areal frei von jeglichen Abfall- oder Schadstoffbelastungen ist. Bahnbetrieblich, militärisch und für die Luftfahrt genutzte Standorte liegen im Zuständigkeitsbereich des Bundes."
+       }
+      ]
+     }
+    ],
+    "PLRCadastreAuthority": {
+     "Name": [
+      {
+       "Language": "de",
+       "Text": "Amt für Raumentwicklung"
+      }
+     ],
+     "OfficeAtWeb": [
+      {
+       "Language": "de",
+       "Text": "https://www.zh.ch/de/baudirektion/amt-fuer-raumentwicklung.html"
+      }
+     ],
+     "UID": "CHE115141667",
+     "Line1": "Baudirektion Kanton Zürich",
+     "Line2": "Amt für Raumentwicklung",
+     "Street": "Stampfenbachstrasse",
+     "Number": "12",
+     "PostalCode": "8090",
+     "City": "Zürich"
+    },
+    "UpdateDateCS": "2026-09-08T11:52:32",
+    "LogoPLRCadastreRef": "http://maps.zh.ch/images/custom/oerebkatasterzh/logos/oereb_logo.jpg",
+    "FederalLogoRef": "http://maps.zh.ch/images/custom/oerebkatasterzh/logos/bundeslogo.png",
+    "CantonalLogoRef": "http://maps.zh.ch/images/custom/oerebkatasterzh/logos/zh_logo.png",
+    "MunicipalityLogoRef": "http://maps.zh.ch/images/custom/oerebkatasterzh/wappen/261.gif"
+   }
+  }
+ },
+ "request": {
+  "url": "https://maps.zh.ch/oereb/v2/extract/json/?EGRID=CH819189997789&LANG=de"
+ },
+ "from_cache": false,
+ "stale_as_of": null
+}

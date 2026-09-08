@@ -35,6 +35,8 @@ from __future__ import annotations
 from collections.abc import Mapping
 from typing import Any
 
+import httpx
+
 from topoli.core.adapters import Record, get_client
 
 BASE = "https://api3.geo.admin.ch/rest/services"
@@ -110,6 +112,14 @@ def height(adapter_id: str, east: float, north: float) -> Record:
     return get_client().get_json(
         adapter_id, HEIGHT_URL, {"easting": east, "northing": north, "sr": LV95}
     )
+
+
+def layer_of(record: Record) -> str:
+    """The ``LAYERS`` (WMS) or ``layers`` (identify, minus ``all:``) parameter of a record."""
+    params = httpx.URL(record.url).params
+    if "LAYERS" in params:
+        return str(params["LAYERS"])
+    return str(params.get("layers", "")).removeprefix("all:")
 
 
 def results(record: Record) -> list[dict[str, Any]]:

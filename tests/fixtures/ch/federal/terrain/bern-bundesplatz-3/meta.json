@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/terrain",
+  "address": "Bundesplatz 3, 3011 Bern",
+  "site_id": "351-823",
+  "recorded_at": "2026-09-08T09:52:19+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "bbd7221aee32e1d20e72887aaef599bcfcb5584a1c37c87ffe631ea1ba97b947.json",
+      "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2600377.1%2C1199449.2%5D%2C%5B2600582.3%2C1199532.3%5D%2C%5B2600377.1%2C1199532.3%5D%2C%5B2600582.3%2C1199449.2%5D%5D%7D&sr=2056&nb_points=24"
+    }
+  ]
+}

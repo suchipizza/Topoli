@@ -118,5 +118,183 @@
     "m2": "__TODO__",
     "m": "__TODO__",
     "floors": "__TODO__"
+  },
+  "finding": {
+    "hazard": {
+      "flood": {
+        "none": {
+          "title": "__TODO__",
+          "consequence": "__TODO__",
+          "caveat": "__TODO__"
+        },
+        "low": {
+          "title": "__TODO__",
+          "consequence": "__TODO__",
+          "caveat": "__TODO__"
+        },
+        "medium": {
+          "title": "__TODO__",
+          "consequence": "__TODO__",
+          "caveat": "__TODO__"
+        }
+      },
+      "runoff": {
+        "none": {
+          "title": "__TODO__",
+          "consequence": "__TODO__",
+          "caveat": "__TODO__"
+        },
+        "low": {
+          "title": "__TODO__",
+          "consequence": "__TODO__",
+          "caveat": "__TODO__"
+        }
+      },
+      "gravitational": {
+        "none": {
+          "title": "__TODO__",
+          "consequence": "__TODO__",
+          "caveat": "__TODO__"
+        },
+        "low": {
+          "title": "__TODO__",
+          "consequence": "__TODO__",
+          "caveat": "__TODO__"
+        }
+      }
+    },
+    "noise": {
+      "road": {
+        "low": {
+          "title": "__TODO__",
+          "consequence": "__TODO__",
+          "caveat": "__TODO__"
+        },
+        "medium": {
+          "title": "__TODO__",
+          "consequence": "__TODO__",
+          "caveat": "__TODO__"
+        },
+        "high": {
+          "title": "__TODO__",
+          "consequence": "__TODO__",
+          "caveat": "__TODO__"
+        }
+      },
+      "rail": {
+        "low": {
+          "title": "__TODO__",
+          "consequence": "__TODO__",
+          "caveat": "__TODO__"
+        },
+        "medium": {
+          "title": "__TODO__",
+          "consequence": "__TODO__",
+          "caveat": "__TODO__"
+        },
+        "high": {
+          "title": "__TODO__",
+          "consequence": "__TODO__",
+          "caveat": "__TODO__"
+        }
+      }
+    },
+    "contamination": {
+      "none": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "hit": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      }
+    },
+    "oereb": {
+      "theme": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "none": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      }
+    },
+    "solar": {
+      "none": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "poor": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "medium": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "good": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "very_good": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "excellent": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      }
+    },
+    "heritage": {
+      "kgs": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "unesco": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "none": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      }
+    },
+    "terrain": {
+      "flat": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "sloped": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      },
+      "steep": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      }
+    },
+    "unknown": {
+      "source": {
+        "title": "__TODO__",
+        "consequence": "__TODO__",
+        "caveat": "__TODO__"
+      }
+    }
   }
 }

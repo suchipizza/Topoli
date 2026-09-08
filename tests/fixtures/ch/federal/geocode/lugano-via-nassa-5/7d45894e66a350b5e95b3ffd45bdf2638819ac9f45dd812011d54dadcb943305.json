@@ -1,7 +1,7 @@
 {
  "adapter_id": "ch/federal/geocode",
  "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Via+Nassa+5%2C+6900+Lugano&type=locations&sr=2056&limit=10&origins=address",
- "retrieved_at": "2026-09-08T09:35:23.038127Z",
+ "retrieved_at": "2026-09-08T09:52:20.277474Z",
  "payload": {
   "results": [
    {

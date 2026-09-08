@@ -1,0 +1,13 @@
+{
+  "adapter_id": "ch/federal/contamination",
+  "address": "Via Nassa 5, 6900 Lugano",
+  "site_id": "5192-191",
+  "recorded_at": "2026-09-08T09:52:24+00:00",
+  "topoli_version": "0.1.0.dev0",
+  "requests": [
+    {
+      "file": "3241e1c07502db863945e2b4663c7140a54ec58a6cd390c5fe5d1083a6943b81.json",
+      "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2717087.4%2C1095740.2%5D%2C%5B2717098.8%2C1095768.2%5D%2C%5B2717109.3%2C1095759.8%5D%2C%5B2717117.6%2C1095747.1%5D%2C%5B2717106.8%2C1095731.3%5D%2C%5B2717087.4%2C1095740.2%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bav.kataster-belasteter-standorte-oev%2Cch.bazl.kataster-belasteter-standorte-zivilflugplaetze%2Cch.vbs.kataster-belasteter-standorte-militaer&sr=2056&tolerance=0&returnGeometry=false&limit=200"
+    }
+  ]
+}
