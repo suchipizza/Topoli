@@ -1,0 +1,1317 @@
+{
+ "site": {
+  "id": "6621-7013",
+  "input_address": "Rue du Rhône 14, 1204 Genève",
+  "address": "Rue du Rhône 14 1204 Genève",
+  "coordinates": {
+   "lon": 6.145582019433586,
+   "lat": 46.20448406277972,
+   "east": 2500200.0,
+   "north": 1117827.375
+  },
+  "jurisdiction": {
+   "country": "CH",
+   "canton": "GE",
+   "municipality": "Genève",
+   "bfs_number": 6621
+  },
+  "parcel_ids": [
+   "CH296589536314"
+  ],
+  "egid": "2037304",
+  "resolve_confidence": 0.95,
+  "lang_default": "fr",
+  "sources": [
+   {
+    "adapter_id": "ch/federal/geocode",
+    "authority": "Bundesamt für Landestopografie swisstopo",
+    "dataset": "geo.admin.ch SearchServer (locations)",
+    "licence": "geoadmin-terms",
+    "retrieved_at": "2026-09-08T12:19:52.264268Z",
+    "url": "https://api3.geo.admin.ch/rest/services/api/SearchServer?searchText=Rue+du+Rh%C3%B4ne+14%2C+1204+Gen%C3%A8ve&type=locations&sr=2056&limit=10&origins=address",
+    "stale_as_of": null
+   },
+   {
+    "adapter_id": "ch/federal/geocode",
+    "authority": "Bundesamt für Statistik BFS",
+    "dataset": "ch.bfs.gebaeude_wohnungs_register",
+    "licence": "geoadmin-terms",
+    "retrieved_at": "2026-09-08T12:19:52.681522Z",
+    "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2500200.0%2C1117827.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=5&returnGeometry=false&limit=5&mapExtent=2499700.0%2C1117327.375%2C2500700.0%2C1118327.375&imageDisplay=1000%2C1000%2C96",
+    "stale_as_of": null
+   }
+  ]
+ },
+ "parcels": [
+  {
+   "national_id": "CH296589536314",
+   "local_id": "7013",
+   "municipality": "Genève",
+   "bfs_number": 6621,
+   "canton": "GE",
+   "geometry_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       6.1449716,
+       46.2036703
+      ],
+      [
+       6.145093,
+       46.2038525
+      ],
+      [
+       6.1449847,
+       46.2038836
+      ],
+      [
+       6.1452299,
+       46.2043084
+      ],
+      [
+       6.1454281,
+       46.2042531
+      ],
+      [
+       6.1455581,
+       46.2042924
+      ],
+      [
+       6.1455544,
+       46.2042851
+      ],
+      [
+       6.1456813,
+       46.2042335
+      ],
+      [
+       6.1457088,
+       46.2042221
+      ],
+      [
+       6.1458252,
+       46.2041731
+      ],
+      [
+       6.1457001,
+       46.204043
+      ],
+      [
+       6.1455273,
+       46.2041157
+      ],
+      [
+       6.1453925,
+       46.2039549
+      ],
+      [
+       6.1452854,
+       46.2039906
+      ],
+      [
+       6.1452231,
+       46.2038828
+      ],
+      [
+       6.1452753,
+       46.2038672
+      ],
+      [
+       6.1452204,
+       46.2037802
+      ],
+      [
+       6.1452334,
+       46.2037767
+      ],
+      [
+       6.1451785,
+       46.2036897
+      ],
+      [
+       6.1451968,
+       46.2036837
+      ],
+      [
+       6.1451593,
+       46.2036247
+      ],
+      [
+       6.1451528,
+       46.2036265
+      ],
+      [
+       6.1449716,
+       46.2036703
+      ]
+     ]
+    ]
+   },
+   "geometry_lv95": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       2500151.4,
+       1117737.7
+      ],
+      [
+       2500161.1,
+       1117757.8
+      ],
+      [
+       2500152.8,
+       1117761.4
+      ],
+      [
+       2500172.5,
+       1117808.3
+      ],
+      [
+       2500187.7,
+       1117801.9
+      ],
+      [
+       2500197.8,
+       1117806.1
+      ],
+      [
+       2500197.5,
+       1117805.3
+      ],
+      [
+       2500207.2,
+       1117799.4
+      ],
+      [
+       2500209.3,
+       1117798.1
+      ],
+      [
+       2500218.2,
+       1117792.5
+      ],
+      [
+       2500208.3,
+       1117778.2
+      ],
+      [
+       2500195.1,
+       1117786.5
+      ],
+      [
+       2500184.4,
+       1117768.8
+      ],
+      [
+       2500176.2,
+       1117772.9
+      ],
+      [
+       2500171.2,
+       1117761.0
+      ],
+      [
+       2500175.2,
+       1117759.2
+      ],
+      [
+       2500170.8,
+       1117749.6
+      ],
+      [
+       2500171.8,
+       1117749.2
+      ],
+      [
+       2500167.4,
+       1117739.6
+      ],
+      [
+       2500168.8,
+       1117738.9
+      ],
+      [
+       2500165.8,
+       1117732.4
+      ],
+      [
+       2500165.3,
+       1117732.6
+      ],
+      [
+       2500151.4,
+       1117737.7
+      ]
+     ]
+    ]
+   },
+   "area_m2": 1924.3,
+   "area_m2_published": null,
+   "zoning_code": null,
+   "zoning_name": null,
+   "adjacent_parcel_ids": [
+    "5918",
+    "5919",
+    "5920",
+    "5927",
+    "7012",
+    "7038",
+    "7331",
+    "7625",
+    "7626",
+    "7758"
+   ],
+   "sources": [
+    {
+     "adapter_id": "ch/federal/parcel",
+     "authority": "Bundesamt für Landestopografie swisstopo / Kantone (amtliche Vermessung)",
+     "dataset": "ch.swisstopo-vd.amtliche-vermessung",
+     "licence": "geoadmin-terms",
+     "retrieved_at": "2026-09-08T12:19:52.754010Z",
+     "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=2500200.0%2C1117827.375&geometryType=esriGeometryPoint&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=true&limit=200",
+     "stale_as_of": null
+    },
+    {
+     "adapter_id": "ch/federal/parcel",
+     "authority": "Bundesamt für Landestopografie swisstopo / Kantone (amtliche Vermessung)",
+     "dataset": "ch.swisstopo-vd.amtliche-vermessung",
+     "licence": "geoadmin-terms",
+     "retrieved_at": "2026-09-08T12:19:53.138820Z",
+     "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2500151.4%2C1117737.7%5D%2C%5B2500161.1%2C1117757.8%5D%2C%5B2500152.8%2C1117761.4%5D%2C%5B2500172.5%2C1117808.3%5D%2C%5B2500187.7%2C1117801.9%5D%2C%5B2500197.8%2C1117806.1%5D%2C%5B2500197.5%2C1117805.3%5D%2C%5B2500207.2%2C1117799.4%5D%2C%5B2500209.3%2C1117798.1%5D%2C%5B2500218.2%2C1117792.5%5D%2C%5B2500208.3%2C1117778.2%5D%2C%5B2500195.1%2C1117786.5%5D%2C%5B2500184.4%2C1117768.8%5D%2C%5B2500176.2%2C1117772.9%5D%2C%5B2500171.2%2C1117761.0%5D%2C%5B2500175.2%2C1117759.2%5D%2C%5B2500170.8%2C1117749.6%5D%2C%5B2500171.8%2C1117749.2%5D%2C%5B2500167.4%2C1117739.6%5D%2C%5B2500168.8%2C1117738.9%5D%2C%5B2500165.8%2C1117732.4%5D%2C%5B2500165.3%2C1117732.6%5D%2C%5B2500151.4%2C1117737.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.swisstopo-vd.amtliche-vermessung&sr=2056&tolerance=0&returnGeometry=false&limit=200",
+     "stale_as_of": null
+    }
+   ]
+  }
+ ],
+ "buildings": [
+  {
+   "id": "2037304",
+   "geometry_wgs84": {
+    "type": "Point",
+    "coordinates": [
+     6.1453911,
+     46.2042305
+    ]
+   },
+   "geometry_lv95": {
+    "type": "Point",
+    "coordinates": [
+     2500184.8,
+     1117799.44
+    ]
+   },
+   "footprint_m2": 2542.0,
+   "use": "1030 Andere Wohngebäude (residential with secondary use) · 1122 Gebäude mit drei und mehr Wohnungen (multi-family house)",
+   "year": 1920,
+   "floors": 8,
+   "floor_area_m2": null,
+   "volume_m3": null,
+   "height_m": null,
+   "energy": "7460 Wärmetauscher inkl. Fernwärme (heat exchanger / district heating) · 7580 Fernwärme generisch (district heating)",
+   "heritage": null,
+   "missing_attributes": [
+    "gebf"
+   ],
+   "sources": [
+    {
+     "adapter_id": "ch/federal/buildings",
+     "authority": "Bundesamt für Statistik BFS",
+     "dataset": "ch.bfs.gebaeude_wohnungs_register",
+     "licence": "geoadmin-terms",
+     "retrieved_at": "2026-09-08T12:19:53.189392Z",
+     "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2500151.4%2C1117737.7%5D%2C%5B2500161.1%2C1117757.8%5D%2C%5B2500152.8%2C1117761.4%5D%2C%5B2500172.5%2C1117808.3%5D%2C%5B2500187.7%2C1117801.9%5D%2C%5B2500197.8%2C1117806.1%5D%2C%5B2500197.5%2C1117805.3%5D%2C%5B2500207.2%2C1117799.4%5D%2C%5B2500209.3%2C1117798.1%5D%2C%5B2500218.2%2C1117792.5%5D%2C%5B2500208.3%2C1117778.2%5D%2C%5B2500195.1%2C1117786.5%5D%2C%5B2500184.4%2C1117768.8%5D%2C%5B2500176.2%2C1117772.9%5D%2C%5B2500171.2%2C1117761.0%5D%2C%5B2500175.2%2C1117759.2%5D%2C%5B2500170.8%2C1117749.6%5D%2C%5B2500171.8%2C1117749.2%5D%2C%5B2500167.4%2C1117739.6%5D%2C%5B2500168.8%2C1117738.9%5D%2C%5B2500165.8%2C1117732.4%5D%2C%5B2500165.3%2C1117732.6%5D%2C%5B2500151.4%2C1117737.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfs.gebaeude_wohnungs_register&sr=2056&tolerance=0&returnGeometry=true&limit=200",
+     "stale_as_of": null
+    }
+   ]
+  }
+ ],
+ "regulations": [],
+ "events": [],
+ "findings": [
+  {
+   "id": "hazard.flood",
+   "title": {
+    "fr": "Inondation : faible — seule une crue très rare (1 fois en 500 ans) atteindrait 7% de la parcelle.",
+    "de": "Hochwasser: gering — nur ein sehr seltenes Hochwasser (1-mal in 500 Jahren) würde 7% des Grundstücks erreichen.",
+    "it": "Alluvioni: rischio basso — solo una piena molto rara (1 volta in 500 anni) raggiungerebbe il 7% del fondo.",
+    "en": "Flood risk: low — only a very rare flood (1 in 500 years) would reach 7% of the plot."
+   },
+   "consequence": {
+    "fr": "En général sans contrainte, mais les assurances et le canton peuvent demander des précautions.",
+    "de": "Meist keine Einschränkung, Versicherung und Kanton können aber Vorkehrungen verlangen.",
+    "it": "Di norma nessun vincolo, ma assicurazioni e cantone possono chiedere precauzioni.",
+    "en": "Usually no constraint, but insurers and the canton may ask for precautions."
+   },
+   "class": "B",
+   "severity": "medium",
+   "category": "hazard",
+   "source": {
+    "adapter_id": "ch/federal/hazards",
+    "authority": "Bundesamt für Umwelt BAFU",
+    "dataset": "ch.bafu.aquaprotect_500",
+    "licence": "geoadmin-terms",
+    "retrieved_at": "2026-09-08T12:19:53.342371Z",
+    "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.aquaprotect_500&STYLES=&CRS=EPSG%3A2056&BBOX=2500149.4%2C1117730.4%2C2500220.2%2C1117810.3&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+    "stale_as_of": null
+   },
+   "geometry_intersection": {
+    "area_m2": 138.4,
+    "fraction": 0.072
+   },
+   "derivation": "Aquaprotect 100-year extent covers 0% of the parcel, 500-year extent 7% (64×64 px mask over the parcel bbox); ≥1 % → exposed.",
+   "evidence_spans": [],
+   "caveat": {
+    "fr": "Carte fédérale Aquaprotect ; consultez la carte cantonale des dangers avant de planifier.",
+    "de": "Aquaprotect-Karte des Bundes; vor der Planung die kantonale Gefahrenkarte prüfen.",
+    "it": "Carta federale Aquaprotect; consulti la carta cantonale dei pericoli prima di pianificare.",
+    "en": "Federal Aquaprotect map; check the cantonal hazard map before planning."
+   },
+   "rank_score": 2.0,
+   "template_key": "hazard.flood.low",
+   "slots": {
+    "pct": "7%"
+   },
+   "icon": "🌊",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "hazard.runoff",
+   "title": {
+    "fr": "Ruissellement en cas de fortes pluies : 1% de la parcelle peuvent être atteints par des eaux de surface lors de fortes pluies.",
+    "de": "Oberflächenabfluss bei Starkregen: 1% des Grundstücks können bei Starkregen von Oberflächenwasser erreicht werden.",
+    "it": "Ruscellamento in caso di piogge intense: il 1% del fondo può essere raggiunto da acque superficiali durante piogge intense.",
+    "en": "Heavy-rain runoff: 1% of the plot can be reached by surface water during heavy rain."
+   },
+   "consequence": {
+    "fr": "Entrées, sauts-de-loup et rampes de garage peuvent nécessiter une protection contre l'eau venant de la rue ou de la pente.",
+    "de": "Eingänge, Lichtschächte und Garagenrampen brauchen unter Umständen Schutz vor Wasser von Strasse oder Hang.",
+    "it": "Entrate, bocche di lupo e rampe di garage possono richiedere protezioni contro l'acqua proveniente dalla strada o dal pendio.",
+    "en": "Entrances, light wells and garage ramps may need protection against water from the street or slope."
+   },
+   "class": "B",
+   "severity": "medium",
+   "category": "hazard",
+   "source": {
+    "adapter_id": "ch/federal/hazards",
+    "authority": "Bundesamt für Umwelt BAFU",
+    "dataset": "ch.bafu.gefaehrdungskarte-oberflaechenabfluss",
+    "licence": "geoadmin-terms",
+    "retrieved_at": "2026-09-08T12:19:53.740174Z",
+    "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.gefaehrdungskarte-oberflaechenabfluss&STYLES=&CRS=EPSG%3A2056&BBOX=2500149.4%2C1117730.4%2C2500220.2%2C1117810.3&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+    "stale_as_of": null
+   },
+   "geometry_intersection": {
+    "area_m2": 26.1,
+    "fraction": 0.014
+   },
+   "derivation": "Surface-runoff hazard map covers 1% of the parcel (64×64 px mask); ≥1 % → exposed.",
+   "evidence_spans": [],
+   "caveat": {
+    "fr": "Carte fédérale du ruissellement, modélisée à partir du terrain ; ce n'est pas une zone de danger légale.",
+    "de": "Gefährdungskarte Oberflächenabfluss des Bundes, aus dem Gelände modelliert; keine rechtliche Gefahrenzone.",
+    "it": "Carta federale del ruscellamento, modellizzata dal terreno; non è una zona di pericolo legale.",
+    "en": "Federal surface-runoff map, modelled from terrain; not a legal hazard zone."
+   },
+   "rank_score": 1.9,
+   "template_key": "hazard.runoff.low",
+   "slots": {
+    "pct": "1%"
+   },
+   "icon": "🌧",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "solar.best_roof",
+   "title": {
+    "fr": "Solaire : les toits sont très bien adaptés aux panneaux solaires (2980 m² utilisables, environ 581 MWh par an).",
+    "de": "Solar: die Dächer eignen sich sehr gut für Solarmodule (2980 m² nutzbar, etwa 581 MWh pro Jahr).",
+    "it": "Solare: i tetti sono molto adatti ai pannelli solari (2980 m² utilizzabili, circa 581 MWh all'anno).",
+    "en": "Solar: the roofs are very well suited for solar panels (2980 m² usable, about 581 MWh a year)."
+   },
+   "consequence": {
+    "fr": "Une installation solaire vaut probablement la peine ; beaucoup de cantons la subventionnent.",
+    "de": "Eine Solaranlage lohnt sich wahrscheinlich; viele Kantone fördern sie.",
+    "it": "Un impianto solare probabilmente conviene; molti cantoni lo sovvenzionano.",
+    "en": "A solar installation is likely worthwhile; many cantons subsidise it."
+   },
+   "class": "A",
+   "severity": "info",
+   "category": "environment",
+   "source": {
+    "adapter_id": "ch/federal/solar",
+    "authority": "Bundesamt für Energie BFE",
+    "dataset": "ch.bfe.solarenergie-eignung-daecher",
+    "licence": "geoadmin-terms",
+    "retrieved_at": "2026-09-08T12:19:58.375529Z",
+    "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2500151.4%2C1117737.7%5D%2C%5B2500161.1%2C1117757.8%5D%2C%5B2500152.8%2C1117761.4%5D%2C%5B2500172.5%2C1117808.3%5D%2C%5B2500187.7%2C1117801.9%5D%2C%5B2500197.8%2C1117806.1%5D%2C%5B2500197.5%2C1117805.3%5D%2C%5B2500207.2%2C1117799.4%5D%2C%5B2500209.3%2C1117798.1%5D%2C%5B2500218.2%2C1117792.5%5D%2C%5B2500208.3%2C1117778.2%5D%2C%5B2500195.1%2C1117786.5%5D%2C%5B2500184.4%2C1117768.8%5D%2C%5B2500176.2%2C1117772.9%5D%2C%5B2500171.2%2C1117761.0%5D%2C%5B2500175.2%2C1117759.2%5D%2C%5B2500170.8%2C1117749.6%5D%2C%5B2500171.8%2C1117749.2%5D%2C%5B2500167.4%2C1117739.6%5D%2C%5B2500168.8%2C1117738.9%5D%2C%5B2500165.8%2C1117732.4%5D%2C%5B2500165.3%2C1117732.6%5D%2C%5B2500151.4%2C1117737.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bfe.solarenergie-eignung-daecher&sr=2056&tolerance=0&returnGeometry=false&limit=200",
+    "stale_as_of": null
+   },
+   "geometry_intersection": null,
+   "derivation": "best of 15 roof surfaces: class 4; suitable area = Σ flaeche where klasse ≥ 3 = 2980 m²; yield = Σ stromertrag = 581404 kWh/a",
+   "evidence_spans": [],
+   "caveat": {
+    "fr": "Modèle fédéral des toitures (Toitsolaire) ; ombrage et état du toit ne sont pas entièrement pris en compte.",
+    "de": "Dachmodell des Bundes (Sonnendach); Beschattung und Dachzustand sind nicht vollständig erfasst.",
+    "it": "Modello federale dei tetti (Tettosolare); ombreggiamento e stato del tetto non sono considerati del tutto.",
+    "en": "Federal roof model (Sonnendach); shading and roof condition are not fully captured."
+   },
+   "rank_score": 1.1,
+   "template_key": "solar.very_good",
+   "slots": {
+    "klasse": "4",
+    "area": "2980",
+    "yield_mwh": "581",
+    "roofs": "15"
+   },
+   "icon": "☀️",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "hazard.gravitational",
+   "title": {
+    "fr": "Chutes de pierres, avalanches et glissements : aucune zone de processus signalée ici.",
+    "de": "Steinschlag, Lawinen und Rutschungen: hier kein Prozessraum markiert.",
+    "it": "Caduta di massi, valanghe e frane: nessuna area di processo segnalata qui.",
+    "en": "Rockfall, avalanche and landslide: no process area marked here."
+   },
+   "consequence": {
+    "fr": "Les modèles fédéraux n'indiquent aucune contrainte liée aux dangers de montagne.",
+    "de": "Die Modelle des Bundes zeigen keine Einschränkung durch Berggefahren.",
+    "it": "I modelli federali non indicano vincoli legati ai pericoli di montagna.",
+    "en": "No mountain-hazard constraint indicated by the federal models."
+   },
+   "class": "A",
+   "severity": "info",
+   "category": "hazard",
+   "source": {
+    "adapter_id": "ch/federal/hazards",
+    "authority": "Bundesamt für Umwelt BAFU",
+    "dataset": "ch.bafu.silvaprotect-sturz,ch.bafu.silvaprotect-lawinen,ch.bafu.silvaprotect-hangmuren,ch.bafu.silvaprotect-murgang",
+    "licence": "geoadmin-terms",
+    "retrieved_at": "2026-09-08T12:19:54.057113Z",
+    "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.bafu.silvaprotect-sturz%2Cch.bafu.silvaprotect-lawinen%2Cch.bafu.silvaprotect-hangmuren%2Cch.bafu.silvaprotect-murgang&STYLES=&CRS=EPSG%3A2056&BBOX=2500149.4%2C1117730.4%2C2500220.2%2C1117810.3&WIDTH=64&HEIGHT=64&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+    "stale_as_of": null
+   },
+   "geometry_intersection": null,
+   "derivation": "SilvaProtect-CH process areas (rockfall, avalanche, shallow landslide, debris flow) cover 0% of the parcel (64×64 px mask); ≥1 % → exposed.",
+   "evidence_spans": [],
+   "caveat": {
+    "fr": "Modèle fédéral SilvaProtect-CH ; la carte cantonale des dangers fait foi.",
+    "de": "Modell SilvaProtect-CH des Bundes; massgebend ist die kantonale Gefahrenkarte.",
+    "it": "Modello federale SilvaProtect-CH; fa stato la carta cantonale dei pericoli.",
+    "en": "Federal SilvaProtect-CH model; the cantonal hazard map is decisive."
+   },
+   "rank_score": 0.85,
+   "template_key": "hazard.gravitational.none",
+   "slots": {
+    "pct": "0%"
+   },
+   "icon": "🏔",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "noise.road",
+   "title": {
+    "fr": "Bruit routier : faible (environ 51 dB le jour, 40 dB la nuit).",
+    "de": "Strassenlärm: gering (etwa 51 dB am Tag, 40 dB in der Nacht).",
+    "it": "Rumore stradale: basso (circa 51 dB di giorno, 40 dB di notte).",
+    "en": "Road noise: low (about 51 dB by day, 40 dB at night)."
+   },
+   "consequence": {
+    "fr": "Le bruit routier ne devrait pas limiter la disposition des logements.",
+    "de": "Strassenlärm dürfte die Anordnung von Wohnungen nicht einschränken.",
+    "it": "Il rumore stradale non dovrebbe limitare la disposizione delle abitazioni.",
+    "en": "Road noise should not limit how homes can be laid out."
+   },
+   "class": "B",
+   "severity": "info",
+   "category": "noise",
+   "source": {
+    "adapter_id": "ch/federal/noise",
+    "authority": "Bundesamt für Umwelt BAFU",
+    "dataset": "ch.bafu.laerm-strassenlaerm_tag",
+    "licence": "geoadmin-terms",
+    "retrieved_at": "2026-09-08T12:19:54.282270Z",
+    "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=ch.bafu.laerm-strassenlaerm_tag&QUERY_LAYERS=ch.bafu.laerm-strassenlaerm_tag&CRS=EPSG%3A2056&BBOX=2500195.0%2C1117822.375%2C2500205.0%2C1117832.375&WIDTH=10&HEIGHT=10&I=5&J=5&INFO_FORMAT=application%2Fjson&FEATURE_COUNT=10&LANG=de",
+    "stale_as_of": null
+   },
+   "geometry_intersection": null,
+   "derivation": "road day 50.8 dB, night 40.5 dB at the parcel's interior point; bands: day <55 low, 55–65 medium, ≥65 high; night <45/45–55/≥55.",
+   "evidence_spans": [],
+   "caveat": {
+    "fr": "Modèle fédéral du bruit en un point de la parcelle ; la limite légale dépend du degré de sensibilité au bruit de la zone.",
+    "de": "Lärmmodell des Bundes an einem Punkt des Grundstücks; der gesetzliche Grenzwert hängt von der Lärmempfindlichkeitsstufe der Zone ab.",
+    "it": "Modello federale del rumore in un punto del fondo; il limite legale dipende dal grado di sensibilità al rumore della zona.",
+    "en": "Federal noise model at one point of the plot; the legal limit depends on the zone's noise sensitivity level."
+   },
+   "rank_score": 0.85,
+   "template_key": "noise.road.low",
+   "slots": {
+    "day": "51",
+    "night": "40"
+   },
+   "icon": "🔊",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "heritage.federal.none",
+   "title": {
+    "fr": "Patrimoine : aucune inscription fédérale trouvée pour cette parcelle.",
+    "de": "Denkmalschutz: für dieses Grundstück kein Eintrag in den Inventaren des Bundes gefunden.",
+    "it": "Beni culturali: nessuna iscrizione federale trovata per questo fondo.",
+    "en": "Heritage: no federal listing found for this plot."
+   },
+   "consequence": {
+    "fr": "Aucune contrainte issue des inventaires fédéraux du patrimoine.",
+    "de": "Keine Einschränkung aus den Bundesinventaren.",
+    "it": "Nessun vincolo dagli inventari federali dei beni culturali.",
+    "en": "No constraint from the federal heritage inventories."
+   },
+   "class": "A",
+   "severity": "info",
+   "category": "heritage",
+   "source": {
+    "adapter_id": "ch/federal/heritage",
+    "authority": "BABS / BAK (Bund)",
+    "dataset": "ch.babs.kulturgueter, ch.bak.schutzgebiete-unesco_weltkulturerbe",
+    "licence": "geoadmin-terms",
+    "retrieved_at": "2026-09-08T12:19:58.440136Z",
+    "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2500151.4%2C1117737.7%5D%2C%5B2500161.1%2C1117757.8%5D%2C%5B2500152.8%2C1117761.4%5D%2C%5B2500172.5%2C1117808.3%5D%2C%5B2500187.7%2C1117801.9%5D%2C%5B2500197.8%2C1117806.1%5D%2C%5B2500197.5%2C1117805.3%5D%2C%5B2500207.2%2C1117799.4%5D%2C%5B2500209.3%2C1117798.1%5D%2C%5B2500218.2%2C1117792.5%5D%2C%5B2500208.3%2C1117778.2%5D%2C%5B2500195.1%2C1117786.5%5D%2C%5B2500184.4%2C1117768.8%5D%2C%5B2500176.2%2C1117772.9%5D%2C%5B2500171.2%2C1117761.0%5D%2C%5B2500175.2%2C1117759.2%5D%2C%5B2500170.8%2C1117749.6%5D%2C%5B2500171.8%2C1117749.2%5D%2C%5B2500167.4%2C1117739.6%5D%2C%5B2500168.8%2C1117738.9%5D%2C%5B2500165.8%2C1117732.4%5D%2C%5B2500165.3%2C1117732.6%5D%2C%5B2500151.4%2C1117737.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.babs.kulturgueter%2Cch.bak.schutzgebiete-unesco_weltkulturerbe&sr=2056&tolerance=0&returnGeometry=false&limit=50",
+    "stale_as_of": null
+   },
+   "geometry_intersection": null,
+   "derivation": null,
+   "evidence_spans": [],
+   "caveat": {
+    "fr": "L'inventaire fédéral des sites construits et les inventaires cantonaux/communaux ne sont pas encore consultables ici ; vérifiez-les localement.",
+    "de": "Das Ortsbildinventar des Bundes und die kantonalen/kommunalen Inventare sind hier noch nicht abfragbar; bitte lokal prüfen.",
+    "it": "L'inventario federale degli insediamenti e gli inventari cantonali/comunali non sono ancora consultabili qui; li verifichi localmente.",
+    "en": "The federal townscape inventory and cantonal/municipal inventories are not queryable here yet; check them locally."
+   },
+   "rank_score": 0.8,
+   "template_key": "heritage.none",
+   "slots": {},
+   "icon": "🏛",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "contamination.federal",
+   "title": {
+    "fr": "Sites pollués : aucune inscription dans les cadastres fédéraux pour cette parcelle.",
+    "de": "Belastete Standorte: kein Eintrag in den Katastern des Bundes für dieses Grundstück.",
+    "it": "Siti inquinati: nessuna iscrizione nei catasti federali per questo fondo.",
+    "en": "Polluted sites: no entry in the federal registers for this plot."
+   },
+   "consequence": {
+    "fr": "Aucune trace fédérale de pollution liée aux chemins de fer, aux aérodromes ou à l'armée.",
+    "de": "Kein Eintrag des Bundes zu Belastungen durch Bahn, Flugplätze oder Militär.",
+    "it": "Nessuna traccia federale di inquinamento legato a ferrovie, aerodromi o esercito.",
+    "en": "No federal record of contamination from railways, airfields or the military."
+   },
+   "class": "A",
+   "severity": "info",
+   "category": "environment",
+   "source": {
+    "adapter_id": "ch/federal/contamination",
+    "authority": "BAV / BAZL / VBS (Bund)",
+    "dataset": "ch.bav.kataster-belasteter-standorte-oev, ch.bazl.kataster-belasteter-standorte-zivilflugplaetze, ch.vbs.kataster-belasteter-standorte-militaer",
+    "licence": "geoadmin-terms",
+    "retrieved_at": "2026-09-08T12:19:55.771948Z",
+    "url": "https://api3.geo.admin.ch/rest/services/all/MapServer/identify?geometry=%7B%22rings%22%3A%5B%5B%5B2500151.4%2C1117737.7%5D%2C%5B2500161.1%2C1117757.8%5D%2C%5B2500152.8%2C1117761.4%5D%2C%5B2500172.5%2C1117808.3%5D%2C%5B2500187.7%2C1117801.9%5D%2C%5B2500197.8%2C1117806.1%5D%2C%5B2500197.5%2C1117805.3%5D%2C%5B2500207.2%2C1117799.4%5D%2C%5B2500209.3%2C1117798.1%5D%2C%5B2500218.2%2C1117792.5%5D%2C%5B2500208.3%2C1117778.2%5D%2C%5B2500195.1%2C1117786.5%5D%2C%5B2500184.4%2C1117768.8%5D%2C%5B2500176.2%2C1117772.9%5D%2C%5B2500171.2%2C1117761.0%5D%2C%5B2500175.2%2C1117759.2%5D%2C%5B2500170.8%2C1117749.6%5D%2C%5B2500171.8%2C1117749.2%5D%2C%5B2500167.4%2C1117739.6%5D%2C%5B2500168.8%2C1117738.9%5D%2C%5B2500165.8%2C1117732.4%5D%2C%5B2500165.3%2C1117732.6%5D%2C%5B2500151.4%2C1117737.7%5D%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A2056%7D%7D&geometryType=esriGeometryPolygon&geometryFormat=geojson&layers=all%3Ach.bav.kataster-belasteter-standorte-oev%2Cch.bazl.kataster-belasteter-standorte-zivilflugplaetze%2Cch.vbs.kataster-belasteter-standorte-militaer&sr=2056&tolerance=0&returnGeometry=false&limit=200",
+    "stale_as_of": null
+   },
+   "geometry_intersection": null,
+   "derivation": null,
+   "evidence_spans": [],
+   "caveat": {
+    "fr": "La plupart des sites pollués figurent dans le cadastre cantonal, présenté sous les restrictions officielles là où le canton le publie.",
+    "de": "Die meisten belasteten Standorte stehen im kantonalen Kataster; dieser erscheint unter den amtlichen Einschränkungen, wo der Kanton ihn publiziert.",
+    "it": "La maggior parte dei siti inquinati è nel catasto cantonale, mostrato tra le restrizioni ufficiali dove il cantone lo pubblica.",
+    "en": "Most polluted sites are in the cantonal register, which is shown under official restrictions where the canton publishes it."
+   },
+   "rank_score": 0.7,
+   "template_key": "contamination.none",
+   "slots": {},
+   "icon": "🧪",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "oereb.ch.Laermempfindlichkeitsstufen.3",
+   "title": {
+    "fr": "Restriction officielle : Degré de sensibilité au bruit (dans les zones d'affectation) — Degré de sensibilité III (100% de la parcelle).",
+    "de": "Amtliche Einschränkung: Degré de sensibilité au bruit (dans les zones d'affectation) — Degré de sensibilité III (100% des Grundstücks).",
+    "it": "Restrizione ufficiale: Degré de sensibilité au bruit (dans les zones d'affectation) — Degré de sensibilité III (100% del fondo).",
+    "en": "Official restriction: Degré de sensibilité au bruit (dans les zones d'affectation) — Degré de sensibilité III (100% of the plot)."
+   },
+   "consequence": {
+    "fr": "Fixée par Office de l'urbanisme ; statut : En vigueur. Elle lie ce que vous pouvez construire ici.",
+    "de": "Festgelegt durch Office de l'urbanisme; Status: En vigueur. Sie bindet, was Sie hier bauen dürfen.",
+    "it": "Stabilita da Office de l'urbanisme; stato: En vigueur. Vincola ciò che può costruire qui.",
+    "en": "Set by Office de l'urbanisme; status: En vigueur. It binds what you may build here."
+   },
+   "class": "A",
+   "severity": "info",
+   "category": "environment",
+   "source": {
+    "adapter_id": "ch/federal/oereb",
+    "authority": "Office de l'urbanisme",
+    "dataset": "ÖREB-Kataster extract (GetExtractById, JSON)",
+    "licence": "oereb-cantonal",
+    "retrieved_at": "2026-09-08T12:19:57.168576Z",
+    "url": "https://ge.ch/terecadastrews/RdppfSVC.svc/extract/json/?EGRID=CH296589536314&LANG=fr",
+    "stale_as_of": null
+   },
+   "geometry_intersection": {
+    "area_m2": 1924.0,
+    "fraction": 1.0
+   },
+   "derivation": null,
+   "evidence_spans": [
+    {
+     "document": "Plan",
+     "article": "—",
+     "text": "Degré de sensibilité III",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://ge.ch/sitg/RDPPF/RDPPF-AMENAGEMENT/DSOPB/29321.pdf"
+    },
+    {
+     "document": "Arrêté du Conseil d'Etat",
+     "article": "—",
+     "text": "Degré de sensibilité III",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://app2.ge.ch/sadconsult/api/pieces/telecharger?typeDossier=DSOPB&pathPiece=29321ACE"
+    },
+    {
+     "document": "Règlement",
+     "article": "—",
+     "text": "Degré de sensibilité III",
+     "char_start": null,
+     "char_end": null,
+     "url": null
+    },
+    {
+     "document": "Disposition juridique complémentaire",
+     "article": "—",
+     "text": "Degré de sensibilité III",
+     "char_start": null,
+     "char_end": null,
+     "url": null
+    },
+    {
+     "document": "Concept énergétique territorial",
+     "article": "—",
+     "text": "Degré de sensibilité III",
+     "char_start": null,
+     "char_end": null,
+     "url": null
+    },
+    {
+     "document": "Rapport d'impact sur l'environnement",
+     "article": "—",
+     "text": "Degré de sensibilité III",
+     "char_start": null,
+     "char_end": null,
+     "url": null
+    },
+    {
+     "document": "Préavis sur le REIE",
+     "article": "—",
+     "text": "Degré de sensibilité III",
+     "char_start": null,
+     "char_end": null,
+     "url": null
+    },
+    {
+     "document": "Plan de mesure paysagère",
+     "article": "—",
+     "text": "Degré de sensibilité III",
+     "char_start": null,
+     "char_end": null,
+     "url": null
+    },
+    {
+     "document": "Rapport explicatif",
+     "article": "—",
+     "text": "Degré de sensibilité III",
+     "char_start": null,
+     "char_end": null,
+     "url": null
+    },
+    {
+     "document": "Informations complémentaires",
+     "article": "—",
+     "text": "Degré de sensibilité III",
+     "char_start": null,
+     "char_end": null,
+     "url": null
+    },
+    {
+     "document": "Ordonnance sur la protection contre le bruit",
+     "article": "RS 814.41",
+     "text": "Degré de sensibilité III",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/fr"
+    },
+    {
+     "document": "Loi d'application de la loi fédérale sur la protection de l'environnement",
+     "article": "RSG K 1 70",
+     "text": "Degré de sensibilité III",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://silgeneve.ch/legis/data/rsg_k1_70.htm"
+    },
+    {
+     "document": "Règlement sur la protection contre le bruit et les vibrations",
+     "article": "RSG K 1 70.10",
+     "text": "Degré de sensibilité III",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://silgeneve.ch/legis/data/rsg_k1_70p10.htm"
+    }
+   ],
+   "caveat": {
+    "fr": "Tiré du cadastre officiel des restrictions de droit public ; lisez les dispositions légales liées avant de décider.",
+    "de": "Aus dem amtlichen Kataster der öffentlich-rechtlichen Eigentumsbeschränkungen; lesen Sie vor dem Entscheid die verlinkten Rechtsvorschriften.",
+    "it": "Tratto dal catasto ufficiale delle restrizioni di diritto pubblico; legga le disposizioni legali collegate prima di decidere.",
+    "en": "Taken from the official cadastre of public-law restrictions; read the linked legal provisions before deciding."
+   },
+   "rank_score": 0.7,
+   "template_key": "oereb.theme",
+   "slots": {
+    "theme": "Degré de sensibilité au bruit (dans les zones d'affectation)",
+    "legend": "Degré de sensibilité III",
+    "office": "Office de l'urbanisme",
+    "status": "En vigueur",
+    "pct": "100%"
+   },
+   "icon": "📜",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "oereb.ch.Nutzungsplanung.1",
+   "title": {
+    "fr": "Restriction officielle : Plans d'affectation (cantonaux/communaux): Zones d'affectation - synthèse — Zone 1 (100% de la parcelle).",
+    "de": "Amtliche Einschränkung: Plans d'affectation (cantonaux/communaux): Zones d'affectation - synthèse — Zone 1 (100% des Grundstücks).",
+    "it": "Restrizione ufficiale: Plans d'affectation (cantonaux/communaux): Zones d'affectation - synthèse — Zone 1 (100% del fondo).",
+    "en": "Official restriction: Plans d'affectation (cantonaux/communaux): Zones d'affectation - synthèse — Zone 1 (100% of the plot)."
+   },
+   "consequence": {
+    "fr": "Fixée par Office de l'urbanisme ; statut : En vigueur. Elle lie ce que vous pouvez construire ici.",
+    "de": "Festgelegt durch Office de l'urbanisme; Status: En vigueur. Sie bindet, was Sie hier bauen dürfen.",
+    "it": "Stabilita da Office de l'urbanisme; stato: En vigueur. Vincola ciò che può costruire qui.",
+    "en": "Set by Office de l'urbanisme; status: En vigueur. It binds what you may build here."
+   },
+   "class": "A",
+   "severity": "info",
+   "category": "zoning",
+   "source": {
+    "adapter_id": "ch/federal/oereb",
+    "authority": "Office de l'urbanisme",
+    "dataset": "ÖREB-Kataster extract (GetExtractById, JSON)",
+    "licence": "oereb-cantonal",
+    "retrieved_at": "2026-09-08T12:19:57.168576Z",
+    "url": "https://ge.ch/terecadastrews/RdppfSVC.svc/extract/json/?EGRID=CH296589536314&LANG=fr",
+    "stale_as_of": null
+   },
+   "geometry_intersection": {
+    "area_m2": 1924.0,
+    "fraction": 1.0
+   },
+   "derivation": null,
+   "evidence_spans": [],
+   "caveat": {
+    "fr": "Tiré du cadastre officiel des restrictions de droit public ; lisez les dispositions légales liées avant de décider.",
+    "de": "Aus dem amtlichen Kataster der öffentlich-rechtlichen Eigentumsbeschränkungen; lesen Sie vor dem Entscheid die verlinkten Rechtsvorschriften.",
+    "it": "Tratto dal catasto ufficiale delle restrizioni di diritto pubblico; legga le disposizioni legali collegate prima di decidere.",
+    "en": "Taken from the official cadastre of public-law restrictions; read the linked legal provisions before deciding."
+   },
+   "rank_score": 0.7,
+   "template_key": "oereb.theme",
+   "slots": {
+    "theme": "Plans d'affectation (cantonaux/communaux): Zones d'affectation - synthèse",
+    "legend": "Zone 1",
+    "office": "Office de l'urbanisme",
+    "status": "En vigueur",
+    "pct": "100%"
+   },
+   "icon": "📜",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "oereb.ch.Nutzungsplanung.2",
+   "title": {
+    "fr": "Restriction officielle : Plans d'affectation (cantonaux/communaux): Plan d'utilisation du sol — Plan d'utilisation du sol (100% de la parcelle).",
+    "de": "Amtliche Einschränkung: Plans d'affectation (cantonaux/communaux): Plan d'utilisation du sol — Plan d'utilisation du sol (100% des Grundstücks).",
+    "it": "Restrizione ufficiale: Plans d'affectation (cantonaux/communaux): Plan d'utilisation du sol — Plan d'utilisation du sol (100% del fondo).",
+    "en": "Official restriction: Plans d'affectation (cantonaux/communaux): Plan d'utilisation du sol — Plan d'utilisation du sol (100% of the plot)."
+   },
+   "consequence": {
+    "fr": "Fixée par Office de l'urbanisme ; statut : En vigueur. Elle lie ce que vous pouvez construire ici.",
+    "de": "Festgelegt durch Office de l'urbanisme; Status: En vigueur. Sie bindet, was Sie hier bauen dürfen.",
+    "it": "Stabilita da Office de l'urbanisme; stato: En vigueur. Vincola ciò che può costruire qui.",
+    "en": "Set by Office de l'urbanisme; status: En vigueur. It binds what you may build here."
+   },
+   "class": "A",
+   "severity": "info",
+   "category": "zoning",
+   "source": {
+    "adapter_id": "ch/federal/oereb",
+    "authority": "Office de l'urbanisme",
+    "dataset": "ÖREB-Kataster extract (GetExtractById, JSON)",
+    "licence": "oereb-cantonal",
+    "retrieved_at": "2026-09-08T12:19:57.168576Z",
+    "url": "https://ge.ch/terecadastrews/RdppfSVC.svc/extract/json/?EGRID=CH296589536314&LANG=fr",
+    "stale_as_of": null
+   },
+   "geometry_intersection": {
+    "area_m2": 1924.0,
+    "fraction": 1.0
+   },
+   "derivation": null,
+   "evidence_spans": [
+    {
+     "document": "Plan",
+     "article": "—",
+     "text": "Plan d'utilisation du sol",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://ge.ch/sitg/RDPPF/RDPPF-AMENAGEMENT/PUS/PUS_VDG.pdf"
+    },
+    {
+     "document": "Arrêté du Conseil d'Etat",
+     "article": "—",
+     "text": "Plan d'utilisation du sol",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://ge.ch/sitg/RDPPF/RDPPF-AMENAGEMENT/PUS/ACE/PUS_Geneve_ACE.pdf"
+    },
+    {
+     "document": "Règlement",
+     "article": "—",
+     "text": "Plan d'utilisation du sol",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://ge.ch/sitg/RDPPF/RDPPF-AMENAGEMENT/PUS/PUS_VDG_REGLEMENT.pdf"
+    },
+    {
+     "document": "Disposition juridique complémentaire",
+     "article": "—",
+     "text": "Plan d'utilisation du sol",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://ge.ch/sitg/RDPPF/RDPPF-AMENAGEMENT/PUS/ACE/PUS_Geneve_ACE2.pdf"
+    },
+    {
+     "document": "Informations complémentaires",
+     "article": "—",
+     "text": "Plan d'utilisation du sol",
+     "char_start": null,
+     "char_end": null,
+     "url": null
+    },
+    {
+     "document": "Loi fédérale sur l'aménagement du territoire",
+     "article": "RS 700",
+     "text": "Plan d'utilisation du sol",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://www.fedlex.admin.ch/eli/cc/1979/1573_1573_1573/fr"
+    },
+    {
+     "document": "Loi d'application de la loi fédérale sur l'aménagement du territoire",
+     "article": "RSG L 1 30",
+     "text": "Plan d'utilisation du sol",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://silgeneve.ch/legis/data/rsg_l1_30.htm"
+    },
+    {
+     "document": "Loi sur les constructions et les installations diverses",
+     "article": "RSG L 5 05",
+     "text": "Plan d'utilisation du sol",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://silgeneve.ch/legis/data/rsg_l5_05.htm"
+    },
+    {
+     "document": "Loi sur l'extension des voies de communication et l'aménagement des quartiers ou localités",
+     "article": "RSG L 1 40",
+     "text": "Plan d'utilisation du sol",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://silgeneve.ch/legis/data/rsg_l1_40.htm"
+    }
+   ],
+   "caveat": {
+    "fr": "Tiré du cadastre officiel des restrictions de droit public ; lisez les dispositions légales liées avant de décider.",
+    "de": "Aus dem amtlichen Kataster der öffentlich-rechtlichen Eigentumsbeschränkungen; lesen Sie vor dem Entscheid die verlinkten Rechtsvorschriften.",
+    "it": "Tratto dal catasto ufficiale delle restrizioni di diritto pubblico; legga le disposizioni legali collegate prima di decidere.",
+    "en": "Taken from the official cadastre of public-law restrictions; read the linked legal provisions before deciding."
+   },
+   "rank_score": 0.7,
+   "template_key": "oereb.theme",
+   "slots": {
+    "theme": "Plans d'affectation (cantonaux/communaux): Plan d'utilisation du sol",
+    "legend": "Plan d'utilisation du sol",
+    "office": "Office de l'urbanisme",
+    "status": "En vigueur",
+    "pct": "100%"
+   },
+   "icon": "📜",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "oereb.ch.Nutzungsplanung.4",
+   "title": {
+    "fr": "Restriction officielle : Plans d'affectation (cantonaux/communaux): Plan de site — Plan de site (18% de la parcelle).",
+    "de": "Amtliche Einschränkung: Plans d'affectation (cantonaux/communaux): Plan de site — Plan de site (18% des Grundstücks).",
+    "it": "Restrizione ufficiale: Plans d'affectation (cantonaux/communaux): Plan de site — Plan de site (18% del fondo).",
+    "en": "Official restriction: Plans d'affectation (cantonaux/communaux): Plan de site — Plan de site (18% of the plot)."
+   },
+   "consequence": {
+    "fr": "Fixée par Office du patrimoine et des sites ; statut : En vigueur. Elle lie ce que vous pouvez construire ici.",
+    "de": "Festgelegt durch Office du patrimoine et des sites; Status: En vigueur. Sie bindet, was Sie hier bauen dürfen.",
+    "it": "Stabilita da Office du patrimoine et des sites; stato: En vigueur. Vincola ciò che può costruire qui.",
+    "en": "Set by Office du patrimoine et des sites; status: En vigueur. It binds what you may build here."
+   },
+   "class": "A",
+   "severity": "info",
+   "category": "zoning",
+   "source": {
+    "adapter_id": "ch/federal/oereb",
+    "authority": "Office de l'urbanisme",
+    "dataset": "ÖREB-Kataster extract (GetExtractById, JSON)",
+    "licence": "oereb-cantonal",
+    "retrieved_at": "2026-09-08T12:19:57.168576Z",
+    "url": "https://ge.ch/terecadastrews/RdppfSVC.svc/extract/json/?EGRID=CH296589536314&LANG=fr",
+    "stale_as_of": null
+   },
+   "geometry_intersection": {
+    "area_m2": 347.0,
+    "fraction": 0.1804
+   },
+   "derivation": null,
+   "evidence_spans": [
+    {
+     "document": "Plan",
+     "article": "—",
+     "text": "Plan de site",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://ge.ch/sitg/RDPPF/RDPPF-PATRIMOINE/PS/28392G.pdf"
+    },
+    {
+     "document": "Arrêté du Conseil d'Etat",
+     "article": "—",
+     "text": "Plan de site",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://ge.ch/sitg/RDPPF/RDPPF-PATRIMOINE/PS/28392G-610-ace.pdf"
+    },
+    {
+     "document": "Règlement",
+     "article": "—",
+     "text": "Plan de site",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://ge.ch/sitg/RDPPF/RDPPF-PATRIMOINE/PS/28392GR.pdf"
+    },
+    {
+     "document": "Disposition juridique complémentaire",
+     "article": "—",
+     "text": "Plan de site",
+     "char_start": null,
+     "char_end": null,
+     "url": null
+    },
+    {
+     "document": "Plan de mesure paysagère",
+     "article": "—",
+     "text": "Plan de site",
+     "char_start": null,
+     "char_end": null,
+     "url": null
+    },
+    {
+     "document": "Rapport explicatif",
+     "article": "—",
+     "text": "Plan de site",
+     "char_start": null,
+     "char_end": null,
+     "url": null
+    },
+    {
+     "document": "Informations complémentaires",
+     "article": "—",
+     "text": "Plan de site",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://ge.ch/sitg/RDPPF/RDPPF-PATRIMOINE/PS/27381-28590A-28945.pdf"
+    },
+    {
+     "document": "Loi fédérale sur l'aménagement du territoire",
+     "article": "RS 700",
+     "text": "Plan de site",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://www.fedlex.admin.ch/eli/cc/1979/1573_1573_1573/fr"
+    },
+    {
+     "document": "Loi sur les constructions et les installations diverses",
+     "article": "RSG L 5 05",
+     "text": "Plan de site",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://silgeneve.ch/legis/data/rsg_l5_05.htm"
+    },
+    {
+     "document": "Loi sur la protection des monuments, de la nature et des sites",
+     "article": "RSG 4 05",
+     "text": "Plan de site",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://silgeneve.ch/legis/data/rsg_l4_05.htm"
+    },
+    {
+     "document": "Loi sur la protection générale des rives du lac",
+     "article": "RSG L 4 10",
+     "text": "Plan de site",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://silgeneve.ch/legis/data/rsg_l4_10.htm"
+    },
+    {
+     "document": "Loi sur la protection générale des rives du Rhône",
+     "article": "RSG L 4 13",
+     "text": "Plan de site",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://silgeneve.ch/legis/data/rsg_l4_13.htm"
+    },
+    {
+     "document": "Loi sur la protection générale et l’aménagement des rives de l’Arve",
+     "article": "RSG L 4 16",
+     "text": "Plan de site",
+     "char_start": null,
+     "char_end": null,
+     "url": "https://silgeneve.ch/legis/data/rsg_l4_16.htm"
+    }
+   ],
+   "caveat": {
+    "fr": "Tiré du cadastre officiel des restrictions de droit public ; lisez les dispositions légales liées avant de décider.",
+    "de": "Aus dem amtlichen Kataster der öffentlich-rechtlichen Eigentumsbeschränkungen; lesen Sie vor dem Entscheid die verlinkten Rechtsvorschriften.",
+    "it": "Tratto dal catasto ufficiale delle restrizioni di diritto pubblico; legga le disposizioni legali collegate prima di decidere.",
+    "en": "Taken from the official cadastre of public-law restrictions; read the linked legal provisions before deciding."
+   },
+   "rank_score": 0.7,
+   "template_key": "oereb.theme",
+   "slots": {
+    "theme": "Plans d'affectation (cantonaux/communaux): Plan de site",
+    "legend": "Plan de site",
+    "office": "Office du patrimoine et des sites",
+    "status": "En vigueur",
+    "pct": "18%"
+   },
+   "icon": "📜",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  },
+  {
+   "id": "terrain.slope",
+   "title": {
+    "fr": "Terrain : plat — la parcelle monte d'environ 1% (374–375 m d'altitude).",
+    "de": "Gelände: flach — das Grundstück steigt um etwa 1% (374–375 m ü. M.).",
+    "it": "Terreno: pianeggiante — il fondo sale di circa il 1% (374–375 m s.l.m.).",
+    "en": "Terrain: flat — the plot rises about 1% (374–375 m above sea level)."
+   },
+   "consequence": {
+    "fr": "Pas de surcoût ni de contrainte liés à la pente.",
+    "de": "Keine Mehrkosten oder Einschränkungen durch die Hanglage.",
+    "it": "Nessun costo aggiuntivo o vincolo dovuto alla pendenza.",
+    "en": "No extra cost or constraint from the slope."
+   },
+   "class": "B",
+   "severity": "info",
+   "category": "environment",
+   "source": {
+    "adapter_id": "ch/federal/terrain",
+    "authority": "Bundesamt für Landestopografie swisstopo",
+    "dataset": "swissALTI3D via profile service (COMB)",
+    "licence": "geoadmin-terms",
+    "retrieved_at": "2026-09-08T12:19:58.473856Z",
+    "url": "https://api3.geo.admin.ch/rest/services/profile.json?geom=%7B%22type%22%3A%22LineString%22%2C%22coordinates%22%3A%5B%5B2500151.4%2C1117732.4%5D%2C%5B2500218.2%2C1117808.3%5D%2C%5B2500151.4%2C1117808.3%5D%2C%5B2500218.2%2C1117732.4%5D%5D%7D&sr=2056&nb_points=24",
+    "stale_as_of": null
+   },
+   "geometry_intersection": null,
+   "derivation": "25 samples along both bbox diagonals; min 373.5 m, max 374.7 m; slope = (max−min)/diagonal(101 m) = 1.2 % ≈ 0.7°; flat <10 %, sloped 10–30 %, steep ≥30 %.",
+   "evidence_spans": [],
+   "caveat": {
+    "fr": "Estimé à partir du modèle national d'altitude le long des diagonales de la parcelle.",
+    "de": "Aus dem Höhenmodell des Bundes entlang der Diagonalen des Grundstücks geschätzt.",
+    "it": "Stimato dal modello nazionale di elevazione lungo le diagonali del fondo.",
+    "en": "Estimated from the national elevation model along the plot's diagonals."
+   },
+   "rank_score": 0.7,
+   "template_key": "terrain.flat",
+   "slots": {
+    "min": "374",
+    "max": "375",
+    "slope_pct": "1",
+    "slope_deg": "1"
+   },
+   "icon": "⛰",
+   "rule_ref": null,
+   "alternatives": [],
+   "validation_notes": []
+  }
+ ],
+ "coverage": [
+  {
+   "adapter_id": "ch/federal/geocode",
+   "status": "ok",
+   "detail": null,
+   "calls": 0,
+   "from_cache": true
+  },
+  {
+   "adapter_id": "ch/federal/parcel",
+   "status": "ok",
+   "detail": null,
+   "calls": 0,
+   "from_cache": true
+  },
+  {
+   "adapter_id": "ch/federal/buildings",
+   "status": "ok",
+   "detail": null,
+   "calls": 0,
+   "from_cache": true
+  },
+  {
+   "adapter_id": "ch/federal/hazards",
+   "status": "ok",
+   "detail": null,
+   "calls": 0,
+   "from_cache": true
+  },
+  {
+   "adapter_id": "ch/federal/noise",
+   "status": "ok",
+   "detail": null,
+   "calls": 0,
+   "from_cache": true
+  },
+  {
+   "adapter_id": "ch/federal/contamination",
+   "status": "ok",
+   "detail": null,
+   "calls": 0,
+   "from_cache": true
+  },
+  {
+   "adapter_id": "ch/federal/oereb",
+   "status": "ok",
+   "detail": null,
+   "calls": 0,
+   "from_cache": true
+  },
+  {
+   "adapter_id": "ch/federal/solar",
+   "status": "ok",
+   "detail": null,
+   "calls": 0,
+   "from_cache": true
+  },
+  {
+   "adapter_id": "ch/federal/heritage",
+   "status": "ok",
+   "detail": null,
+   "calls": 0,
+   "from_cache": true
+  },
+  {
+   "adapter_id": "ch/federal/terrain",
+   "status": "ok",
+   "detail": null,
+   "calls": 0,
+   "from_cache": true
+  }
+ ],
+ "timings": [
+  {
+   "step": "resolve_address",
+   "seconds": 0.004696916323155165
+  },
+  {
+   "step": "get_parcel",
+   "seconds": 0.0016905423253774643
+  },
+  {
+   "step": "get_buildings",
+   "seconds": 0.0004387921653687954
+  },
+  {
+   "step": "ch/federal/hazards",
+   "seconds": 0.006846124771982431
+  },
+  {
+   "step": "ch/federal/noise",
+   "seconds": 0.00156391691416502
+  },
+  {
+   "step": "ch/federal/contamination",
+   "seconds": 0.00035920925438404083
+  },
+  {
+   "step": "ch/federal/oereb",
+   "seconds": 0.0014467500150203705
+  },
+  {
+   "step": "ch/federal/solar",
+   "seconds": 0.0007646670565009117
+  },
+  {
+   "step": "ch/federal/heritage",
+   "seconds": 0.00037291739135980606
+  },
+  {
+   "step": "ch/federal/terrain",
+   "seconds": 0.0003442908637225628
+  },
+  {
+   "step": "total",
+   "seconds": 0.033915041014552116
+  }
+ ],
+ "lang": "fr",
+ "goal": null,
+ "generated_at": "2026-09-08T12:20:57.623850Z",
+ "topoli_version": "0.1.0.dev0",
+ "parser_versions": {}
+}

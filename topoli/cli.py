@@ -14,7 +14,7 @@ import sys
 import tempfile
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any
+from typing import Any, cast
 
 import httpx
 import typer
@@ -22,6 +22,7 @@ from rich.console import Console
 from rich.table import Table
 
 from topoli import __version__
+from topoli.core.domain import Lang
 from topoli.paths import cache_dir
 
 app = typer.Typer(
@@ -371,6 +372,60 @@ def render(
     out_dir = evidence if evidence.is_dir() else evidence.parent
     path, _ = render_html(result, out_dir, lang=lang, fetch_tiles=tiles)  # type: ignore[arg-type]
     console.print(f"wrote {path}")
+
+
+@app.command()
+def demo(
+    lang: str = typer.Option("de", "--lang", help="fr|de|it|en"),
+    speed: float = typer.Option(1.0, "--speed", help="1.0 = realistic pacing, 0 = instant"),
+) -> None:
+    """Replay a recorded Zürich audit with realistic timing (for the README GIF; no network)."""
+    import tempfile
+    import time as _time
+
+    from topoli.core.adapters import HttpClient, set_client
+    from topoli.core.adapters.fixtures import fixture_folders, seed_cache
+    from topoli.core.adapters.registry import all_ids
+    from topoli.core.i18n import t
+    from topoli.core.pipeline import build_result
+    from topoli.core.reporting.evidence_json import write_evidence
+    from topoli.core.reporting.html import render_html
+    from topoli.core.reporting.layer0 import render_layer0
+
+    slug, address = "zurich-badenerstrasse-171", "Badenerstrasse 171, 8003 Zürich"
+    out_lang = cast(Lang, lang)
+    with tempfile.TemporaryDirectory() as tmp:
+        client = HttpClient(offline=True, cache_root=Path(tmp) / "cache")
+        set_client(client)
+        for adapter_id in all_ids():
+            folders = fixture_folders(adapter_id, slug)
+            if folders:
+                seed_cache(Path(tmp) / "cache", *folders)
+        result, run = build_result(address, lang=out_lang)
+    steps = [
+        (t("progress.resolved", out_lang), 0.9),
+        (t("progress.parcel", out_lang, parcel="AU6979"), 0.8),
+        (t("progress.buildings", out_lang, n=len(result.buildings)), 0.7),
+        (t("progress.layers", out_lang, n=7), 2.2),
+        (t("progress.regulation", out_lang), 0.9),
+        (t("progress.events", out_lang), 0.8),
+    ]
+    for text, pause in steps:
+        _time.sleep(pause * speed)
+        console.print(text)
+    _time.sleep(0.6 * speed)
+    out_dir = write_evidence(result, run.records)
+    render_html(result, out_dir, lang=out_lang, fetch_tiles=False)
+    layer0 = render_layer0(
+        result.site,
+        result.findings,
+        out_lang,
+        regulations=result.regulations,
+        report_path=str(out_dir / "index.html"),
+        card_path=str(out_dir / "card.png"),
+    )
+    print()
+    print(layer0.text)
 
 
 @app.command()

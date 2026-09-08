@@ -1,0 +1,16 @@
+{
+  "name": "topoli",
+  "plugins": [
+    {
+      "name": "topoli",
+      "displayName": "Topoli — property audit",
+      "source": { "source": "github", "repo": "suchipizza/Topoli" },
+      "description": "Open-source construction intelligence for AI agents: give it a Swiss address, get sourced findings about what you can build there.",
+      "version": "0.1.0",
+      "author": { "name": "Noémie Rakotomalala" },
+      "homepage": "https://github.com/suchipizza/Topoli",
+      "repository": "https://github.com/suchipizza/Topoli",
+      "license": "Apache-2.0"
+    }
+  ]
+}

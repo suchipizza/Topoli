@@ -1,0 +1,25 @@
+IMMOBILIEN-CHECK — Badenerstrasse 171 8003 Zürich, Zürich
+
+🌧  Oberflächenabfluss bei Starkregen: 14% des Grundstücks können bei Starkregen von Oberflächenwasser erreicht werden.
+    Eingänge, Lichtschächte und Garagenrampen brauchen unter Umständen Schutz vor Wasser von Strasse oder Hang.
+
+🔊  Strassenlärm: mittel (etwa 64 dB am Tag, 51 dB in der Nacht).
+    Schlaf- und Wohnräume müssen unter Umständen von der Strasse abgewandt liegen oder Schallschutzfenster erhalten.
+
+🏘  40 Baugesuche wurden in den letzten 12 Monaten im Umkreis von 500 m publiziert.
+    Das Quartier verändert sich (Umbauten, Heizung und Solar, Erweiterungen, Neubauten, Weiteres, Reklamen); das nächste liegt 100 m entfernt: Mieterausbau im EG, Café mit Aussenwirtschaft im Bahnhof Wiedikon (im….
+
+🗺  Zone: Quartiererhaltung, bis 5 Vollgeschosse und 18 m Gebäudehöhe.
+    Neubauten müssen sich ins bestehende Strassenbild einfügen: geschlossene Strassenfronten, vorgegebene Bautiefe und Dachformen.
+
+☀️  Solar: die Dächer eignen sich gut für Solarmodule (97 m² nutzbar, etwa 17 MWh pro Jahr).
+    Eine Solaranlage lohnt sich wahrscheinlich; viele Kantone fördern sie.
+
+Verlässlichkeit: 2 amtliche Fakten · 3 Berechnungen · 0 Schätzungen · 0 brauchen eine Fachperson
+Nächster Schritt: bestellen Sie bei der kantonalen Fachstelle Naturgefahren (ZH) den Auszug aus der kantonalen Gefahrenkarte für dieses Grundstück
+
+▸ Vollständigen Bericht öffnen: ./index.html
+▸ Teilen: ./card.png
+
+Selber ausprobieren in 3 Schritten → https://topoli.ch/run?src=summary&lang=de
+⭐ Auf GitHub mit einem Stern markieren → https://github.com/suchipizza/Topoli

@@ -55,9 +55,19 @@ class MapFrame:
     events: list[tuple[float, float, str]]
 
 
-def _zoom_for(width_m: float) -> int:
+def _tile_span(fminx: float, fminy: float, fmaxx: float, fmaxy: float, zoom: int) -> int:
+    res = RESOLUTIONS[zoom]
+    cols = int((fmaxx - ORIGIN_E) // (res * TILE)) - int((fminx - ORIGIN_E) // (res * TILE)) + 1
+    rows = int((ORIGIN_N - fminy) // (res * TILE)) - int((ORIGIN_N - fmaxy) // (res * TILE)) + 1
+    return cols * rows
+
+
+def _zoom_for(fminx: float, fminy: float, fmaxx: float, fmaxy: float) -> int:
+    """Finest zoom whose frame stays within ``MAX_TILES`` tiles and ≤ 900 px wide."""
     for zoom in (27, 26, 25, 24):
-        if width_m / RESOLUTIONS[zoom] <= 900:
+        if (fmaxx - fminx) / RESOLUTIONS[zoom] <= 900 and _tile_span(
+            fminx, fminy, fmaxx, fmaxy, zoom
+        ) <= MAX_TILES:
             return zoom
     return 24
 
@@ -75,7 +85,7 @@ def frame_for(
     pad = max(w, h) * pad_ratio + 20
     fminx, fmaxx = minx - pad, maxx + pad
     fminy, fmaxy = miny - pad, maxy + pad
-    zoom = _zoom_for(max(fmaxx - fminx, fmaxy - fminy))
+    zoom = _zoom_for(fminx, fminy, fmaxx, fmaxy)
     res = RESOLUTIONS[zoom]
     width_px = int((fmaxx - fminx) / res)
     height_px = int((fmaxy - fminy) / res)
@@ -114,7 +124,7 @@ def frame_for(
         maxy=fmaxy,
         width_px=width_px,
         height_px=height_px,
-        tiles=tiles[:MAX_TILES] if len(tiles) <= MAX_TILES else [],
+        tiles=tiles[:MAX_TILES],
         parcel_path=" ".join(parts),
         buildings=[px(x, y) for x, y in buildings_lv95],
         events=[(*px(x, y), kind) for x, y, kind in events_lv95],

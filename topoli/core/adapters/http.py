@@ -13,6 +13,7 @@
 from __future__ import annotations
 
 import logging
+import os
 import time
 from collections.abc import Callable, Mapping
 from datetime import UTC, datetime, timedelta
@@ -208,10 +209,13 @@ _client: HttpClient | None = None
 
 
 def get_client() -> HttpClient:
-    """Process-wide client; ``reset()`` it at the start of every audit."""
+    """Process-wide client; ``reset()`` it at the start of every audit.
+
+    ``TOPOLI_OFFLINE=1`` creates it offline (cache only) — used by tests of the skill script.
+    """
     global _client  # noqa: PLW0603
     if _client is None:
-        _client = HttpClient()
+        _client = HttpClient(offline=os.environ.get("TOPOLI_OFFLINE") == "1")
     return _client
 
 
