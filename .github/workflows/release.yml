@@ -1,0 +1,65 @@
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Build artefacts and publish
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - name: Install
+        run: uv sync --frozen
+      - name: Full checks
+        run: |
+          uv run ruff check .
+          uv run mypy .
+          uv run pytest
+          uv run python scripts/sync_readme.py --check
+      - name: Build release artefacts
+        run: |
+          mkdir -p dist
+          uv run topoli coverage --write
+          cp coverage.json dist/
+          tar -czf dist/i18n.tar.gz -C i18n en.json fr.json de.json it.json jargon.json
+          for d in examples/*/; do n=$(basename "$d"); (cd examples && zip -qr "../dist/example-$n.zip" "$n"); done
+          for lang in en fr de it; do
+            uv run python - "$lang" <<'PY'
+          import sys, tempfile
+          from pathlib import Path
+          sys.path.insert(0, "scripts")
+          from build_report_offline import build
+          from topoli.core.reporting.card import render_card, LANDSCAPE
+          from topoli.core.reporting.evidence_json import load_evidence
+          from topoli.core.reporting.layer0 import render_layer0
+          lang = sys.argv[1]
+          with tempfile.TemporaryDirectory() as tmp:
+              path = build("zurich-badenerstrasse-171", "Badenerstrasse 171, 8003 Zürich", Path(tmp), lang)
+              result = load_evidence(path.parent)
+              layer0 = render_layer0(result.site, result.findings, lang, regulations=result.regulations)
+              out = render_card(layer0, Path("dist"), map_image=Path("examples/zurich-badenerstrasse/map.jpg"), size=LANDSCAPE)
+              out.rename(Path("dist") / f"card-{lang}.png")
+          PY
+          done
+          ls -la dist
+      - name: Publish GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*
+          generate_release_notes: true
+      - name: Notify the website repository
+        if: ${{ secrets.TOPOLI_WEB_DISPATCH_TOKEN != '' }}
+        env:
+          GH_TOKEN: ${{ secrets.TOPOLI_WEB_DISPATCH_TOKEN }}
+        run: |
+          gh api repos/suchipizza/topoli-web/dispatches \
+            -f event_type=topoli-release \
+            -f 'client_payload[tag]=${{ github.ref_name }}'
